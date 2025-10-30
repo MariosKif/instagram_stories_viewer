@@ -1,0 +1,32 @@
+{
+  "name": "instagram-stories-viewer",
+  "type": "module",
+  "version": "2.0.0",
+  "description": "Instagram Stories Viewer powered by RapidAPI - View Instagram profiles, posts, stories, and highlights",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "server": "node server.mjs"
+  },
+  "keywords": [
+    "instagram",
+    "stories",
+    "viewer",
+    "rapidapi",
+    "social-media",
+    "astro",
+    "performance",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^5.15.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
