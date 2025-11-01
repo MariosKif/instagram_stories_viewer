@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://insta-stories-viewer.com/sitemap.xml
-
