@@ -145,6 +145,43 @@
             </div>
         </div>
 
+        <!-- Post Viewer Modal -->
+        <div id="postModal" class="post-modal" style="display: none;">
+            <div class="post-modal-content">
+                <div class="post-modal-header">
+                    <div class="post-user-info">
+                        <img id="postUserAvatar" src="" alt="User" class="post-modal-avatar">
+                        <div class="post-user-details">
+                            <span id="postUsername" class="post-username">@username</span>
+                        </div>
+                    </div>
+                    <button class="post-close" onclick="closePostModal()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <div class="post-modal-media-container">
+                    <img id="postModalImage" src="" alt="Post" style="display: none;">
+                    <video id="postModalVideo" controls style="display: none;">
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="post-modal-stats">
+                    <div class="post-stats-info">
+                        <span id="postModalLikes"><i class="fas fa-heart"></i> 0</span>
+                        <span id="postModalComments"><i class="fas fa-comment"></i> 0</span>
+                    </div>
+                    <button class="btn-view-post" onclick="viewPostOnInstagram()">
+                        <i class="fab fa-instagram"></i> View on Instagram
+                    </button>
+                </div>
+                
+                <div class="post-caption" id="postModalCaption"></div>
+            </div>
+        </div>
+
         <!-- Features Section -->
         <section class="features">
             <div class="container">
@@ -1245,6 +1282,144 @@
         }
     }
 
+    /* Post Modal Styles */
+    .post-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 1001;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .post-modal-content {
+        width: 90%;
+        max-width: 900px;
+        height: 90%;
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background: white;
+        border-bottom: 1px solid #eee;
+    }
+
+    .post-user-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .post-modal-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .post-username {
+        color: #333;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .post-close {
+        background: none;
+        border: none;
+        color: #333;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 50%;
+        transition: background 0.2s;
+    }
+
+    .post-close:hover {
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .post-modal-media-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fafafa;
+        overflow: hidden;
+    }
+
+    .post-modal-media-container img,
+    .post-modal-media-container video {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .post-modal-stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background: white;
+        border-top: 1px solid #eee;
+    }
+
+    .post-stats-info {
+        display: flex;
+        gap: 20px;
+    }
+
+    .post-stats-info span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #333;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .btn-view-post {
+        background: #e1306c;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: background 0.2s;
+    }
+
+    .btn-view-post:hover {
+        background: #c13584;
+    }
+
+    .post-caption {
+        padding: 15px 20px;
+        background: white;
+        max-height: 150px;
+        overflow-y: auto;
+        border-top: 1px solid #eee;
+        font-size: 14px;
+        color: #333;
+        line-height: 1.6;
+    }
+
     .video-indicator {
         position: absolute;
         top: 10px;
@@ -1254,6 +1429,51 @@
         padding: 5px 8px;
         border-radius: 50%;
         font-size: 0.8rem;
+    }
+
+    /* Mobile responsive for post modal */
+    @media (max-width: 768px) {
+        .post-modal-content {
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        
+        .post-modal-header {
+            padding: 10px 15px;
+        }
+        
+        .post-modal-avatar {
+            width: 35px;
+            height: 35px;
+        }
+        
+        .post-username {
+            font-size: 13px;
+        }
+        
+        .post-close {
+            font-size: 20px;
+        }
+        
+        .post-stats-info {
+            gap: 15px;
+        }
+        
+        .post-stats-info span {
+            font-size: 13px;
+        }
+        
+        .btn-view-post {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+        
+        .post-caption {
+            padding: 10px 15px;
+            max-height: 100px;
+            font-size: 13px;
+        }
     }
 
     .stories-notice {
@@ -1730,7 +1950,7 @@
             
             // Use the real Instagram image URL with proxy fallback
             return `
-                <div class="content-item post-item" onclick="openPost('${postUrl}')">
+                <div class="content-item post-item" data-post-index="${posts.indexOf(post)}">
                     <img src="${mediaUrl}" alt="${caption.substring(0, 50)}..." loading="lazy" 
                          crossorigin="anonymous"
                            onerror="
@@ -1769,6 +1989,13 @@
         }).join('');
 
         contentGrid.innerHTML = postsContent;
+        
+        // Add click listeners to post items
+        contentGrid.querySelectorAll('.post-item').forEach((item, index) => {
+            item.addEventListener('click', () => {
+                openPostModal(posts[index]);
+            });
+        });
     }
 
     // Load highlights
@@ -1968,10 +2195,99 @@
         storyVideo.currentTime = 0;
     }
 
-    // Keyboard navigation for story modal
+    // Post modal functionality
+    let currentPostUrl = '';
+    
+    function openPostModal(postData) {
+        const modal = document.getElementById('postModal');
+        const postImage = document.getElementById('postModalImage');
+        const postVideo = document.getElementById('postModalVideo');
+        const postUserAvatar = document.getElementById('postUserAvatar');
+        const postUsername = document.getElementById('postUsername');
+        const postLikes = document.getElementById('postModalLikes');
+        const postComments = document.getElementById('postModalComments');
+        const postCaption = document.getElementById('postModalCaption');
+        
+        // Handle post data
+        const node = postData.node || postData;
+        const isVideo = node.media_type === 2 || node.is_video;
+        const imageVersions = node.image_versions2?.candidates || [];
+        const videoVersions = node.video_versions || [];
+        const caption = node.caption?.text || '';
+        const likes = node.like_count || 0;
+        const comments = node.comment_count || 0;
+        const postUrl = `https://www.instagram.com/p/${node.code}/`;
+        
+        // Update user info
+        const username = window.currentProfileData?.username || 'unknown';
+        postUsername.textContent = `@${username}`;
+        postUserAvatar.src = window.currentProfileData?.profileImage || '';
+        
+        // Update stats
+        postLikes.innerHTML = `<i class="fas fa-heart"></i> ${formatNumber(likes)}`;
+        postComments.innerHTML = `<i class="fas fa-comment"></i> ${formatNumber(comments)}`;
+        postCaption.textContent = caption;
+        
+        // Store post URL for view button
+        currentPostUrl = postUrl;
+        
+        // Hide both media elements first
+        postImage.style.display = 'none';
+        postVideo.style.display = 'none';
+        
+        if (isVideo && videoVersions.length > 0) {
+            // Show video through proxy
+            const videoUrl = videoVersions[0].url;
+            postVideo.src = `http://localhost:3001/api/image-proxy?url=${encodeURIComponent(videoUrl)}`;
+            postVideo.style.display = 'block';
+            postVideo.load();
+        } else if (imageVersions.length > 0) {
+            // Show image through proxy
+            const imageUrl = imageVersions[0].url;
+            postImage.src = `http://localhost:3001/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
+            postImage.style.display = 'block';
+        }
+        
+        // Show modal
+        modal.style.display = 'flex';
+    }
+    
+    function closePostModal() {
+        const modal = document.getElementById('postModal');
+        modal.style.display = 'none';
+        
+        // Stop video if playing
+        const postVideo = document.getElementById('postModalVideo');
+        postVideo.pause();
+        postVideo.currentTime = 0;
+    }
+    
+    function viewPostOnInstagram() {
+        if (currentPostUrl) {
+            window.open(currentPostUrl, '_blank');
+        }
+    }
+
+    // Click outside modal to close
+    document.getElementById('storyModal').addEventListener('click', function(event) {
+        if (event.target === this) {
+            closeStoryModal();
+        }
+    });
+    
+    document.getElementById('postModal').addEventListener('click', function(event) {
+        if (event.target === this) {
+            closePostModal();
+        }
+    });
+
+    // Keyboard navigation for all modals
     document.addEventListener('keydown', function(event) {
-        const modal = document.getElementById('storyModal');
-        if (modal.style.display === 'flex') {
+        const storyModal = document.getElementById('storyModal');
+        const postModal = document.getElementById('postModal');
+        
+        // Story modal keyboard navigation
+        if (storyModal.style.display === 'flex') {
             switch(event.key) {
                 case 'ArrowLeft':
                     event.preventDefault();
@@ -1987,12 +2303,12 @@
                     break;
             }
         }
-    });
-
-    // Click outside modal to close
-    document.getElementById('storyModal').addEventListener('click', function(event) {
-        if (event.target === this) {
-            closeStoryModal();
+        // Post modal keyboard navigation
+        else if (postModal.style.display === 'flex') {
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                closePostModal();
+            }
         }
     });
 
