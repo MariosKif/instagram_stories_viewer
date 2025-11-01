@@ -1,8 +1,8 @@
 {
-  "name": "instagram-stories-viewer",
+  "name": "igstorypeek",
   "type": "module",
   "version": "2.0.0",
-  "description": "Instagram Stories Viewer powered by RapidAPI - View Instagram profiles, posts, stories, and highlights",
+  "description": "IGStoryPeek - Anonymous Instagram Stories Viewer powered by RapidAPI - View Instagram profiles, posts, stories, and highlights",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

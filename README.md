@@ -1,4 +1,4 @@
-# 🚀 Instagram Content Viewer - RapidAPI Powered
+# 🚀 IGStoryPeek - Instagram Content Viewer
 
 A modern Instagram content viewer powered by RapidAPI that provides access to Instagram profiles, posts, stories, and highlights through a clean, fast interface.
 
