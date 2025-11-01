@@ -288,7 +288,7 @@ app.get('/api/full/:username', async (req, res) => {
     }
 });
 
-// Image proxy endpoint to bypass CORS
+// Media proxy endpoint to bypass CORS (images and videos)
 app.get('/api/image-proxy', async (req, res) => {
     try {
         const { url } = req.query;
@@ -299,20 +299,20 @@ app.get('/api/image-proxy', async (req, res) => {
 
         // Validate that it's an Instagram URL
         if (!url.includes('instagram') && !url.includes('fbcdn.net') && !url.includes('picsum.photos')) {
-            return res.status(400).json({ error: 'Invalid image URL' });
+            return res.status(400).json({ error: 'Invalid media URL' });
         }
 
-        console.log(`Proxying image: ${url}`);
+        console.log(`Proxying media: ${url}`);
         
         const response = await fetch(url, {
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+                'Accept': 'image/*,video/*,*/*;q=0.8',
                 'Accept-Language': 'en-US,en;q=0.9',
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Referer': 'https://www.instagram.com/',
                 'Origin': 'https://www.instagram.com',
-                'Sec-Fetch-Dest': 'image',
+                'Sec-Fetch-Dest': 'media',
                 'Sec-Fetch-Mode': 'no-cors',
                 'Sec-Fetch-Site': 'cross-site',
                 'Cache-Control': 'no-cache',
@@ -321,30 +321,31 @@ app.get('/api/image-proxy', async (req, res) => {
         });
         
         if (!response.ok) {
-            console.error(`Image proxy failed for ${url}: ${response.status} ${response.statusText}`);
-            // Return a placeholder image instead of failing
+            console.error(`Media proxy failed for ${url}: ${response.status} ${response.statusText}`);
+            // Return a placeholder response instead of failing
             return res.status(200).json({
-                error: 'Image blocked by Instagram',
+                error: 'Media blocked by Instagram',
                 placeholder: true,
                 originalUrl: url
             });
         }
 
-        const imageBuffer = await response.arrayBuffer();
-        const contentType = response.headers.get('content-type') || 'image/jpeg';
+        const mediaBuffer = await response.arrayBuffer();
+        const contentType = response.headers.get('content-type') || 'application/octet-stream';
         
         res.set({
             'Content-Type': contentType,
             'Cache-Control': 'public, max-age=3600', // Cache for 1 hour
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET',
-            'Access-Control-Allow-Headers': 'Content-Type'
+            'Access-Control-Allow-Headers': 'Content-Type',
+            'Accept-Ranges': 'bytes' // Enable range requests for video streaming
         });
         
-        res.send(Buffer.from(imageBuffer));
+        res.send(Buffer.from(mediaBuffer));
     } catch (error) {
-        console.error('Image proxy error:', error);
-        res.status(500).json({ error: 'Failed to proxy image' });
+        console.error('Media proxy error:', error);
+        res.status(500).json({ error: 'Failed to proxy media' });
     }
 });
 

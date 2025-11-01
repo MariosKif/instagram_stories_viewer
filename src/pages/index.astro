@@ -1854,14 +1854,18 @@
         storyVideo.style.display = 'none';
         
         if (isVideo && videoVersions.length > 0) {
-            // Show video
-            storyVideo.src = videoVersions[0].url;
+            // Show video through proxy
+            const videoUrl = videoVersions[0].url;
+            storyVideo.src = `http://localhost:3001/api/image-proxy?url=${encodeURIComponent(videoUrl)}`;
             storyVideo.style.display = 'block';
             storyVideo.load();
+            console.log('Loading video:', videoUrl);
         } else if (imageVersions.length > 0) {
-            // Show image
-            storyImage.src = imageVersions[0].url;
+            // Show image through proxy
+            const imageUrl = imageVersions[0].url;
+            storyImage.src = `http://localhost:3001/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
             storyImage.style.display = 'block';
+            console.log('Loading image:', imageUrl);
         }
         
         // Show modal
