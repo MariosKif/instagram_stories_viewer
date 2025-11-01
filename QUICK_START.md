@@ -1,6 +1,6 @@
 # 🚀 Quick Start - Deploy to Vercel
 
-Your Instagram Stories Viewer is ready to deploy to Vercel!
+Your IGStoryPeek is ready to deploy to Vercel!
 
 ## One-Click Deploy
 
@@ -64,5 +64,5 @@ Check `DEPLOYMENT.md` for detailed troubleshooting, or check the logs in Vercel 
 
 ---
 
-**You're all set!** 🚀 Deploy now and your Instagram Stories Viewer will be live!
+**You're all set!** 🚀 Deploy now and your IGStoryPeek will be live!
 
