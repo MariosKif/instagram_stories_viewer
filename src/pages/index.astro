@@ -1644,7 +1644,7 @@
             return;
         }
 
-        const storiesContent = stories.map(story => {
+        const storiesContent = stories.map((story, index) => {
             // Handle RapidAPI story structure
             const node = story.node || story;
             const isVideo = node.is_video || node.media_type === 2;
@@ -1654,7 +1654,7 @@
             const videoIcon = isVideo ? '<div class="video-indicator"><i class="fas fa-play"></i></div>' : '';
             
             return `
-                <div class="content-item story-item" onclick="openStory(${JSON.stringify(story).replace(/"/g, '&quot;')})">
+                <div class="content-item story-item" data-story-index="${index}">
                     <img src="${thumbnailUrl}" alt="Story" loading="lazy" 
                          onerror="
                             const proxyUrl = 'http://localhost:3001/api/image-proxy?url=' + encodeURIComponent('${thumbnailUrl}');
@@ -1688,6 +1688,13 @@
         }).join('');
 
         contentGrid.innerHTML = storiesContent;
+        
+        // Add click listeners to story items
+        contentGrid.querySelectorAll('.story-item').forEach((item, index) => {
+            item.addEventListener('click', () => {
+                openStory(stories[index]);
+            });
+        });
     }
 
     // Load posts
