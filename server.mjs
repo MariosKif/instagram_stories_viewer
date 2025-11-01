@@ -9,6 +9,25 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
+// Cache system with 20-minute TTL
+const cache = new Map();
+const CACHE_TTL = 20 * 60 * 1000; // 20 minutes in milliseconds
+
+// Clean up expired cache entries every 20 minutes
+setInterval(() => {
+    const now = Date.now();
+    const keysToDelete = [];
+    cache.forEach((value, key) => {
+        if (now - value.timestamp > CACHE_TTL) {
+            keysToDelete.push(key);
+        }
+    });
+    keysToDelete.forEach(key => cache.delete(key));
+    if (keysToDelete.length > 0) {
+        console.log(`Cleaned up ${keysToDelete.length} expired cache entries`);
+    }
+}, 20 * 60 * 1000); // Check every 20 minutes
+
 // RapidAPI Instagram API configuration
 const RAPIDAPI_CONFIG = {
     host: 'instagram120.p.rapidapi.com',
@@ -210,6 +229,14 @@ app.get('/api/full/:username', async (req, res) => {
     try {
         const { username } = req.params;
         const cleanUsername = username.replace(/^@/, '').replace(/\/$/, '');
+        
+        // Check cache first
+        const cacheKey = `full:${cleanUsername}`;
+        const cached = cache.get(cacheKey);
+        if (cached && (Date.now() - cached.timestamp < CACHE_TTL)) {
+            console.log(`✓ Serving cached data for: ${cleanUsername}`);
+            return res.json(cached.data);
+        }
 
         console.log(`Starting complete data fetch for: ${cleanUsername}`);
 
@@ -247,6 +274,10 @@ app.get('/api/full/:username', async (req, res) => {
             console.error('Highlights fetch failed:', highlightsData.reason);
         }
 
+        // Cache the result
+        cache.set(cacheKey, { data: result, timestamp: Date.now() });
+        console.log(`✓ Cached data for: ${cleanUsername}`);
+        
         res.json(result);
     } catch (error) {
         console.error('Full data endpoint error:', error);
