@@ -24,6 +24,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "@astrojs/vercel": "^9.0.0",
     "astro": "^5.15.2",
     "cors": "^2.8.5",
     "express": "^5.1.0",

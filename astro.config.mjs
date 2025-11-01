@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,13 +25,11 @@ export default defineConfig({
     },
   },
   
-  // Performance optimizations are built-in
-  
-  // Site configuration
-  site: 'https://insta-stories-viewer.com',
-  
-  // Output configuration
-  output: 'static',
+  // Vercel adapter for serverless functions
+  output: 'server',
+  adapter: vercel({
+    functionPerRoute: false
+  }),
   
   // Image optimization
   image: {
