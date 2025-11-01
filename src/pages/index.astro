@@ -1851,6 +1851,7 @@
     let currentStories = [];
     let currentStoryIndex = 0;
     let storyProgressInterval;
+    let storyAutoAdvanceTimeout;
 
     // Open story in modal
     function openStory(storyData) {
@@ -1915,7 +1916,7 @@
         startStoryProgress();
         
         // Auto-advance after 5 seconds
-        setTimeout(() => {
+        storyAutoAdvanceTimeout = setTimeout(() => {
             nextStory();
         }, 5000);
     }
@@ -1939,6 +1940,7 @@
         if (currentStories.length === 0) return;
         
         clearInterval(storyProgressInterval);
+        clearTimeout(storyAutoAdvanceTimeout);
         
         currentStoryIndex = (currentStoryIndex + 1) % currentStories.length;
         showStoryModal(currentStories[currentStoryIndex]);
@@ -1948,6 +1950,7 @@
         if (currentStories.length === 0) return;
         
         clearInterval(storyProgressInterval);
+        clearTimeout(storyAutoAdvanceTimeout);
         
         currentStoryIndex = currentStoryIndex === 0 ? currentStories.length - 1 : currentStoryIndex - 1;
         showStoryModal(currentStories[currentStoryIndex]);
@@ -1957,6 +1960,7 @@
         const modal = document.getElementById('storyModal');
         modal.style.display = 'none';
         clearInterval(storyProgressInterval);
+        clearTimeout(storyAutoAdvanceTimeout);
         
         // Stop video if playing
         const storyVideo = document.getElementById('storyVideo');
