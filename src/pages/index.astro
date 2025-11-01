@@ -2018,30 +2018,14 @@
             const title = node.title || 'Highlight';
             const highlightUrl = `https://www.instagram.com/stories/highlights/${node.id}/`;
             
+            // Use proxy URL directly if we have a cover URL
+            const proxyUrl = coverUrl ? `http://localhost:3001/api/image-proxy?url=${encodeURIComponent(coverUrl)}` : '';
+            
             return `
                 <div class="content-item highlight-item" onclick="openHighlight('${highlightUrl}')">
-                    <img src="${coverUrl}" alt="${title}" loading="lazy"
-                         onerror="
-                            const proxyUrl = 'http://localhost:3001/api/image-proxy?url=' + encodeURIComponent('${coverUrl}');
-                            fetch(proxyUrl)
-                                .then(response => {
-                                    const contentType = response.headers.get('content-type');
-                                    if (contentType && contentType.includes('application/json')) {
-                                        this.style.display='none'; 
-                                        this.nextElementSibling.style.display='flex';
-                                    } else {
-                                        this.src = proxyUrl;
-                                    }
-                                })
-                                .catch(() => {
-                                    this.src = proxyUrl;
-                                    this.onerror = function() {
-                                        this.style.display='none'; 
-                                        this.nextElementSibling.style.display='flex';
-                                    };
-                                });
-                         " />
-                    <div class="image-fallback" style="display:none; width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
+                    ${coverUrl ? `<img src="${proxyUrl}" alt="${title}" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />` : ''}
+                    <div class="image-fallback" style="${coverUrl ? 'display:none;' : 'display:flex;'} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
                         <span>Image blocked by Instagram</span>
                     </div>
                     <div class="highlight-overlay">
