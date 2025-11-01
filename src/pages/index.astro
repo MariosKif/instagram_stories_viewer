@@ -1591,7 +1591,7 @@
             postsCount: postsCount,
             posts: postsData.edges || [],
             stories: storiesData.edges || storiesData || [],
-            highlights: highlightsData.edges || highlightsData || []
+            highlights: highlightsData.tray || highlightsData.edges || (Array.isArray(highlightsData) ? highlightsData : [])
         };
 
     // Load posts by default
@@ -1768,17 +1768,50 @@
     function loadHighlights(highlights) {
         const contentGrid = document.getElementById('contentGrid');
         
+        console.log('Loading highlights:', highlights);
+        
         if (!highlights || highlights.length === 0) {
             contentGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #666;">No highlights available.</div>';
             return;
         }
 
         const highlightsContent = highlights.map(highlight => {
+            // Handle RapidAPI highlight structure
+            const node = highlight.node || highlight;
+            const coverMedia = node.cover_media || {};
+            const coverCandidates = coverMedia.image_versions2?.candidates || [];
+            const coverUrl = coverCandidates.length > 0 ? coverCandidates[0].url : '';
+            const title = node.title || 'Highlight';
+            const highlightUrl = `https://www.instagram.com/stories/highlights/${node.id}/`;
+            
             return `
-                <div class="content-item highlight-item" onclick="openHighlight('${highlight.url}')">
-                    <img src="${highlight.coverUrl}" alt="${highlight.title}" loading="lazy" />
+                <div class="content-item highlight-item" onclick="openHighlight('${highlightUrl}')">
+                    <img src="${coverUrl}" alt="${title}" loading="lazy"
+                         onerror="
+                            const proxyUrl = 'http://localhost:3001/api/image-proxy?url=' + encodeURIComponent('${coverUrl}');
+                            fetch(proxyUrl)
+                                .then(response => {
+                                    const contentType = response.headers.get('content-type');
+                                    if (contentType && contentType.includes('application/json')) {
+                                        this.style.display='none'; 
+                                        this.nextElementSibling.style.display='flex';
+                                    } else {
+                                        this.src = proxyUrl;
+                                    }
+                                })
+                                .catch(() => {
+                                    this.src = proxyUrl;
+                                    this.onerror = function() {
+                                        this.style.display='none'; 
+                                        this.nextElementSibling.style.display='flex';
+                                    };
+                                });
+                         " />
+                    <div class="image-fallback" style="display:none; width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
+                        <span>Image blocked by Instagram</span>
+                    </div>
                     <div class="highlight-overlay">
-                        <span>${highlight.title}</span>
+                        <span>${title}</span>
                     </div>
                 </div>
             `;
