@@ -347,6 +347,22 @@
                 <div class="footer-logo">
                     <h3>IGStoryPeek</h3>
                 </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Tools</h4>
+                        <ul>
+                            <li><a href="#" onclick="alert('This feature is coming soon!'); return false;">Instagram Video Downloader</a></li>
+                            <li><a href="#" onclick="alert('You are already using the Instagram Story Viewer!'); return false;">Instagram Story Viewer</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2020-2025 IGStoryPeek</p>
@@ -719,8 +735,9 @@
     }
 
     .footer-content {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
         margin-bottom: 2rem;
     }
 
