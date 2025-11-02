@@ -1027,7 +1027,6 @@
         transition: transform 0.2s ease, box-shadow 0.2s ease;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         width: 100% !important;
-        height: auto !important;
     }
 
     :global(.content-item:hover) {
@@ -1812,7 +1811,7 @@
 
         // Show profile display section
         profileDisplay.style.display = 'block';
-        profileDisplay.scrollIntoView({ behavior: 'smooth' });
+        profileDisplay.scrollIntoView({ behavior: 'auto', block: 'start' });
 
         // Store current profile data for tab switching
         // Extract posts from various possible structures
