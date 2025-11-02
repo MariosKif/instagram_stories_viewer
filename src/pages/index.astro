@@ -1637,9 +1637,18 @@
         searchBtn.innerHTML = 'Loading...';
 
         // Make API call to backend immediately
+        console.log(`Fetching data for: ${cleanUsername}`);
         fetch(`/api/full/${cleanUsername}`)
-            .then(response => response.json())
+            .then(response => {
+                console.log('Response status:', response.status);
+                if (!response.ok) {
+                    console.error('Response not OK:', response.status, response.statusText);
+                }
+                return response.json();
+            })
             .then(data => {
+                console.log('Full response data:', data);
+                
                 // Reset button
                 searchBtn.innerHTML = 'Submit';
                 searchBtn.disabled = false;
@@ -1649,6 +1658,7 @@
                     // Show profile data on the website instead of redirecting
                     showProfileData(data.data);
                 } else {
+                    console.error('API returned error:', data.error);
                     showMessage(data.error || 'Profile not found', 'error');
                 }
             })
@@ -1657,8 +1667,8 @@
                 searchBtn.innerHTML = 'Submit';
                 searchBtn.disabled = false;
                 
-                console.error('Error:', error);
-                showMessage('Error connecting to server. Make sure the backend is running on port 3001', 'error');
+                console.error('Fetch error:', error);
+                showMessage('Error connecting to server. Please try again.', 'error');
             });
     }
 
