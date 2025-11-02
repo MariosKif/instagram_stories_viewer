@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://insta-stories-viewer.com/sitemap.xml
+Sitemap: https://www.igstorypeek.com/sitemap.xml
 
