@@ -1,0 +1,59 @@
+---
+import { languages, allLanguages, type Language } from '../i18n/utils';
+import { getLocalizedPath } from '../i18n/utils';
+
+// Get current language from props or URL or default to English
+const currentLang: Language = Astro.props.lang || Astro.params?.lang || 'en';
+const currentPath = Astro.url.pathname.replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/, '/').replace(/^\/$/, '/');
+const cleanPath = currentPath === '' ? '/' : currentPath;
+---
+
+<div class="language-selector">
+  <select id="languageSelect" onchange="handleLanguageChange(this.value)">
+    {allLanguages.map((lang) => (
+      <option value={lang} selected={lang === currentLang}>
+        {languages[lang].name}
+      </option>
+    ))}
+  </select>
+</div>
+
+<script>
+  function handleLanguageChange(lang: string) {
+    // Set cookie to remember preference (client-side cookie, will be validated server-side on next request)
+    const expiryDate = new Date();
+    expiryDate.setFullYear(expiryDate.getFullYear() + 1); // 1 year from now
+    // Use SameSite=Lax for better compatibility, Secure flag only works on HTTPS (production)
+    const isSecure = window.location.protocol === 'https:';
+    const secureFlag = isSecure ? '; Secure' : '';
+    document.cookie = `preferred-language=${lang}; path=/; expires=${expiryDate.toUTCString()}; SameSite=Lax${secureFlag}`;
+    
+    const currentPath = window.location.pathname;
+    const basePath = currentPath.replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/, '$1' === 'en' ? '/' : '/');
+    const cleanPath = basePath === '' ? '/' : basePath.replace(/^\/\//, '/');
+    
+    let newPath;
+    if (lang === 'en') {
+      newPath = cleanPath;
+    } else {
+      newPath = `/${lang}${cleanPath}`;
+    }
+    
+    // Remove trailing slash except for root
+    newPath = newPath === '/' ? '/' : newPath.replace(/\/$/, '');
+    
+    window.location.href = newPath;
+  }
+  
+  // Update select when page loads
+  document.addEventListener('DOMContentLoaded', function() {
+    const currentPath = window.location.pathname;
+    const langMatch = currentPath.match(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/);
+    const currentLang = langMatch ? langMatch[1] : 'en';
+    const select = document.getElementById('languageSelect') as HTMLSelectElement;
+    if (select) {
+      select.value = currentLang;
+    }
+  });
+</script>
+

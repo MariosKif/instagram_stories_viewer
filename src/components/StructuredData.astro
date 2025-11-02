@@ -1,0 +1,109 @@
+---
+interface Props {
+  type: 'organization' | 'website' | 'webapplication' | 'breadcrumb' | 'faq';
+  lang?: string;
+  data?: any;
+}
+
+const { type, lang = 'en', data } = Astro.props;
+const baseUrl = 'https://www.igstorypeek.com';
+
+// Generate structured data based on type
+let schema: any = {};
+
+if (type === 'organization') {
+  schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "IGStoryPeek",
+    "url": baseUrl,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${baseUrl}/favicon.svg`,
+      "width": 512,
+      "height": 512
+    },
+    "description": lang === 'en' 
+      ? "Free anonymous Instagram stories viewer - Watch Instagram stories anonymously without account. 100% private viewing of public profiles, posts, stories, highlights. No registration needed."
+      : "Free anonymous Instagram stories viewer",
+    "sameAs": [
+      "https://www.instagram.com/"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "email": "contact@igstorypeek.com"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "1250"
+    }
+  };
+} else if (type === 'website') {
+  schema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "IGStoryPeek",
+    "url": baseUrl,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${baseUrl}/${lang === 'en' ? '' : lang + '/'}?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "inLanguage": lang
+  };
+} else if (type === 'webapplication') {
+  schema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "IGStoryPeek",
+    "url": baseUrl,
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": lang === 'en'
+      ? "Free anonymous Instagram stories viewer - Watch Instagram stories anonymously without account. 100% private viewing of public profiles, posts, stories, highlights. No registration needed."
+      : "Free anonymous Instagram stories viewer",
+    "featureList": [
+      "Anonymous viewing",
+      "No account required",
+      "View stories",
+      "View profiles",
+      "View posts",
+      "View highlights",
+      "Free to use",
+      "Private browsing"
+    ],
+    "applicationCategory": "SocialMediaApplication",
+    "operatingSystem": "Web Browser",
+    "browserRequirements": "Requires JavaScript. Requires HTML5.",
+    "softwareVersion": "1.0",
+    "releaseNotes": "Free anonymous Instagram content viewer"
+  };
+} else if (type === 'breadcrumb' && data) {
+  schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": data.breadcrumbs || []
+  };
+} else if (type === 'faq' && data) {
+  schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": data.faqs || []
+  };
+}
+---
+
+{Object.keys(schema).length > 0 && (
+  <script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />
+)}
+

@@ -1,41 +1,32 @@
 ---
-// Original Instagram Stories Viewer interface restored
-import { getTranslation, detectLanguageFromHeader, defaultLang, allLanguages, type Language } from '../i18n/utils';
-import LanguageSwitcher from '../components/LanguageSwitcher.astro';
-import HreflangTags from '../components/HreflangTags.astro';
-import StructuredData from '../components/StructuredData.astro';
+// Language-specific homepage
+import { getTranslation, allLanguages, defaultLang, type Language } from '../../i18n/utils';
+import LanguageSwitcher from '../../components/LanguageSwitcher.astro';
+import HreflangTags from '../../components/HreflangTags.astro';
+import StructuredData from '../../components/StructuredData.astro';
 
-// Check for explicit language preference in cookie or URL
-const cookieLang = Astro.cookies.get('preferred-language')?.value as Language | undefined;
-const urlLang = Astro.url.searchParams.get('lang') as Language | undefined;
+// Get language from route parameter
+const lang = (Astro.params.lang || 'en') as Language;
 
-// If user has a cookie preference for non-English, redirect to that language
-if (cookieLang && cookieLang !== defaultLang && allLanguages.includes(cookieLang) && !urlLang) {
-  return Astro.redirect(`/${cookieLang}/`, 302);
+// Validate language is supported
+if (!allLanguages.includes(lang)) {
+  return Astro.redirect('/', 301);
 }
 
-// Detect language from browser Accept-Language header (only if no explicit preference)
-let detectedLang: Language = defaultLang;
-if (!cookieLang && !urlLang) {
-  const acceptLanguage = Astro.request.headers.get('accept-language');
-  detectedLang = detectLanguageFromHeader(acceptLanguage || undefined);
-  
-  // If detected language is not English, redirect to that language version
-  if (detectedLang !== 'en' && allLanguages.includes(detectedLang)) {
-    // Set cookie to remember preference
-    Astro.cookies.set('preferred-language', detectedLang, {
-      path: '/',
-      maxAge: 60 * 60 * 24 * 365, // 1 year
-      httpOnly: true,
-      sameSite: 'lax',
-      secure: true,
-    });
-    return Astro.redirect(`/${detectedLang}/`, 302);
-  }
+// Set cookie to remember preference
+Astro.cookies.set('preferred-language', lang, {
+  path: '/',
+  maxAge: 60 * 60 * 24 * 365, // 1 year
+  httpOnly: true,
+  sameSite: 'lax',
+  secure: true,
+});
+
+// Redirect to root if language is English (since English is at /)
+if (lang === 'en') {
+  return Astro.redirect('/', 301);
 }
 
-// Use explicit preference if set, otherwise use detected or default to English
-const lang: Language = urlLang || cookieLang || detectedLang || defaultLang;
 const t = await getTranslation(lang);
 const currentPath = Astro.url.pathname;
 ---
@@ -61,7 +52,7 @@ const currentPath = Astro.url.pathname;
     <meta name="format-detection" content="telephone=no" />
     <title>{t.meta.title}</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="canonical" href="https://www.igstorypeek.com/" />
+		<link rel="canonical" href={`https://www.igstorypeek.com/${lang}/`} />
 		<meta name="generator" content={Astro.generator} />
     
     <!-- hreflang tags for SEO -->
@@ -90,7 +81,7 @@ const currentPath = Astro.url.pathname;
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.igstorypeek.com/" />
+    <meta property="og:url" content={`https://www.igstorypeek.com/${lang}/`} />
     <meta property="og:title" content={t.meta.title} />
     <meta property="og:description" content={t.meta.description} />
     <meta property="og:site_name" content="IGStoryPeek" />
@@ -101,13 +92,13 @@ const currentPath = Astro.url.pathname;
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://www.igstorypeek.com/" />
+    <meta name="twitter:url" content={`https://www.igstorypeek.com/${lang}/`} />
     <meta name="twitter:title" content={t.meta.title} />
     <meta name="twitter:description" content={t.meta.description} />
     <meta name="twitter:image" content={`https://www.igstorypeek.com/favicon.svg`} />
     
     <!-- App Links -->
-    <meta property="al:web:url" content="https://www.igstorypeek.com/" />
+    <meta property="al:web:url" content={`https://www.igstorypeek.com/${lang}/`} />
     
     <!-- Structured Data for SEO -->
     <StructuredData type="organization" lang={lang} />
@@ -366,15 +357,15 @@ const currentPath = Astro.url.pathname;
                 <h3>{t.faq.title}</h3>
                 <div class="faq-list">
                     {t.faq.items.map((item) => (
-                    <div class="faq-item">
-                        <div class="faq-question">
+                        <div class="faq-item">
+                            <div class="faq-question">
                                 <h4>{item.question}</h4>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
                                 <p>{item.answer}</p>
+                            </div>
                         </div>
-                    </div>
                     ))}
                 </div>
             </div>
@@ -392,10 +383,10 @@ const currentPath = Astro.url.pathname;
                     <div class="footer-section">
                         <h4>{t.nav.navigation || 'Navigation'}</h4>
                         <ul>
-                            <li><a href="/">{t.nav.home}</a></li>
+                            <li><a href={lang === 'en' ? '/' : `/${lang}/`}>{t.nav.home}</a></li>
                             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
-                            <li><a href="/terms">{t.nav.terms}</a></li>
-                            <li><a href="/privacy">{t.nav.privacy}</a></li>
+                            <li><a href={lang === 'en' ? '/terms' : `/${lang}/terms`}>{t.nav.terms}</a></li>
+                            <li><a href={lang === 'en' ? '/privacy' : `/${lang}/privacy`}>{t.nav.privacy}</a></li>
                             <li><a href="mailto:contact@igstorypeek.com">{t.nav.contact}</a></li>
                         </ul>
                     </div>

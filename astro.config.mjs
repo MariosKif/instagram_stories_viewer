@@ -4,6 +4,15 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
+  // i18n configuration for multi-language support
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'de', 'fr', 'es', 'it', 'nl', 'pt', 'pl', 'ro', 'cs', 'bg', 'hr', 'da', 'et', 'fi', 'el', 'hu', 'ga', 'lv', 'lt', 'mt', 'sk', 'sl', 'sv'],
+    routing: {
+      prefixDefaultLocale: false, // Keep / for English, use /de/, /fr/, etc. for others
+    },
+  },
+  
   // Performance optimizations
   compressHTML: true,
   

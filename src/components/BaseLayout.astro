@@ -1,0 +1,146 @@
+---
+import { getTranslation, type Language } from '../i18n/utils';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+interface Props {
+  lang?: string;
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const { 
+  lang = 'en',
+  title,
+  description,
+  canonical 
+} = Astro.props;
+
+const t = await getTranslation(lang);
+const currentLang = lang as Language;
+
+// Generate hreflang tags for all languages
+const baseUrl = 'https://www.igstorypeek.com';
+const currentPath = Astro.url.pathname.replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)\//, '/').replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)$/, '/');
+const cleanPath = currentPath === '' ? '/' : currentPath;
+
+// Generate page title and meta
+const pageTitle = title || t.meta.title;
+const pageDescription = description || t.meta.description;
+const canonicalUrl = canonical || `${baseUrl}${lang === 'en' ? cleanPath : `/${lang}${cleanPath}`}`;
+---
+
+<html lang={lang}>
+	<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WVG6TLBCZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1WVG6TLBCZ');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{pageTitle}</title>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="canonical" href={canonicalUrl} />
+		<meta name="generator" content={Astro.generator} />
+    
+    <!-- hreflang tags for SEO -->
+    <link rel="alternate" hreflang="en" href={`${baseUrl}${cleanPath}`} />
+    <link rel="alternate" hreflang="x-default" href={`${baseUrl}${cleanPath}`} />
+    {['de', 'fr', 'es', 'it', 'nl', 'pt', 'pl', 'ro', 'cs', 'bg', 'hr', 'da', 'et', 'fi', 'el', 'hu', 'ga', 'lv', 'lt', 'mt', 'sk', 'sl', 'sv'].map(l => (
+      <link rel="alternate" hreflang={l} href={`${baseUrl}/${l}${cleanPath}`} />
+    ))}
+    
+    <!-- Performance: Preconnect to external domains -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content={pageTitle} />
+    <meta name="description" content={pageDescription} />
+    <meta name="keywords" content={t.meta.keywords} />
+    <meta name="author" content="IGStoryPeek" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content={lang} />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:site_name" content="IGStoryPeek" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalUrl} />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    
+    <!-- App Links -->
+    <meta property="al:web:url" content={canonicalUrl} />
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"></noscript>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1279144350888956"
+         crossorigin="anonymous"></script>
+	</head>
+	<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>IGStoryPeek</h1>
+                </div>
+                <LanguageSwitcher lang={lang} />
+            </div>
+        </div>
+    </header>
+
+    <slot t={t} lang={lang} />
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>IGStoryPeek</h3>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>{t.nav.navigation}</h4>
+                        <ul>
+                            <li><a href={lang === 'en' ? '/' : `/${lang}/`}>{t.nav.home}</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+                            <li><a href={lang === 'en' ? '/terms' : `/${lang}/terms`}>{t.nav.terms}</a></li>
+                            <li><a href={lang === 'en' ? '/privacy' : `/${lang}/privacy`}>{t.nav.privacy}</a></li>
+                            <li><a href="mailto:contact@igstorypeek.com">{t.nav.contact}</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>{t.footer.tools}</h4>
+                        <ul>
+                            <li><a href="#" onclick={`alert('${t.footer.comingSoon}'); return false;`}>{t.footer.instagramVideoDownloader}</a></li>
+                            <li><a href="#" onclick={`alert('${t.footer.alreadyUsing}'); return false;`}>{t.footer.instagramStoryViewer}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2020-2025 IGStoryPeek</p>
+                <p class="disclaimer">{t.footer.disclaimer}</p>
+            </div>
+        </div>
+    </footer>
+	</body>
+</html>
+

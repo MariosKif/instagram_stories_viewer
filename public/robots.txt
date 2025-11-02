@@ -3,4 +3,20 @@ Allow: /
 Allow: /ads.txt
 Disallow: /api/
 
+# Crawl-delay for polite crawling
+Crawl-delay: 0
+
+# Allow major search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+
+User-agent: Slurp
+Allow: /
+Disallow: /api/
+
 Sitemap: https://www.igstorypeek.com/sitemap.xml

@@ -1,0 +1,37 @@
+---
+import { allLanguages, type Language } from '../i18n/utils';
+
+interface Props {
+  lang?: string;
+  path?: string;
+}
+
+const { lang = 'en', path = '/' } = Astro.props;
+const baseUrl = 'https://www.igstorypeek.com';
+
+// Normalize path (remove language prefix if present)
+const cleanPath = path.replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)\//, '/')
+                      .replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)$/, '/');
+const normalizedPath = cleanPath === '' ? '/' : cleanPath;
+
+// Generate URLs for all languages
+const generateUrl = (langCode: string) => {
+  if (langCode === 'en') {
+    return `${baseUrl}${normalizedPath}`;
+  }
+  return `${baseUrl}/${langCode}${normalizedPath}`;
+};
+---
+
+<!-- hreflang tags for SEO - Self-referencing and all language versions -->
+{/* Self-referencing hreflang tag (critical for SEO) */}
+<link rel="alternate" hreflang={lang} href={generateUrl(lang)} />
+
+{/* x-default pointing to English (always English as default) */}
+<link rel="alternate" hreflang="x-default" href={generateUrl('en')} />
+
+{/* All other languages (all 24 languages, excluding current to avoid duplicate of self-referencing tag) */}
+{allLanguages.filter(l => l !== lang).map(l => (
+  <link rel="alternate" hreflang={l} href={generateUrl(l)} />
+))}
+
