@@ -1877,8 +1877,6 @@
     function loadStories(stories) {
         const contentGrid = document.getElementById('contentGrid');
         
-        console.log('Loading stories:', stories);
-        
         if (!stories || stories.length === 0) {
             contentGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #666;">No stories available. Stories are only accessible through IGStoryPeek service.</div>';
             return;
@@ -1984,8 +1982,6 @@
     // Load highlights
     function loadHighlights(highlights) {
         const contentGrid = document.getElementById('contentGrid');
-        
-        console.log('Loading highlights:', highlights);
         
         if (!highlights || highlights.length === 0) {
             contentGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #666;">No highlights available.</div>';
@@ -2094,13 +2090,11 @@
             storyVideo.src = `/api/image-proxy?url=${encodeURIComponent(videoUrl)}`;
             storyVideo.style.display = 'block';
             storyVideo.load();
-            console.log('Loading video:', videoUrl);
         } else if (imageVersions.length > 0) {
             // Show image through proxy
             const imageUrl = imageVersions[0].url;
             storyImage.src = `/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
             storyImage.style.display = 'block';
-            console.log('Loading image:', imageUrl);
         }
         
         // Show modal
