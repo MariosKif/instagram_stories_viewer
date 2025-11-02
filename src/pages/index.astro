@@ -1825,6 +1825,8 @@
             posts = postsData.edges;
         } else if (postsData.data && postsData.data.edges) {
             posts = postsData.data.edges;
+        } else if (postsData.data && postsData.data.edge_owner_to_timeline_media && postsData.data.edge_owner_to_timeline_media.edges) {
+            posts = postsData.data.edge_owner_to_timeline_media.edges;
         } else if (Array.isArray(postsData)) {
             posts = postsData;
         }
