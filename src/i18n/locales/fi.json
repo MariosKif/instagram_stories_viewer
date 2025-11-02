@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "IGStoryPeek - Anonymous Instagram Stories Viewer",
-    "description": "Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing. View public profiles, posts, stories, and highlights.",
-    "keywords": "instagram stories viewer, anonymous instagram, instagram viewer, story viewer, instagram profile viewer, instagram posts viewer, anonymous browsing, instagram highlights"
+    "title": "IGStoryPeek - Anonyymi Instagram Stories Viewer | Ilmainen Instagram Story Viewer 2025",
+    "description": "Ilmainen anonyymi Instagram Stories viewer - Katso Instagram stories anonyymisti ilman tiliä. 100% yksityinen julkisten profiilien, julkaisujen, stories, highlights katselu. Rekisteröitymistä ei tarvita. Paras Instagram Story viewer työkalu 2025.",
+    "keywords": "instagram stories viewer, anonyymi instagram, instagram viewer, story viewer, instagram profiilin viewer, instagram julkaisujen viewer, anonyymi selaus, instagram highlights, instagram stories anonyymisti katselu, ilmainen instagram viewer, instagram story lataaja, instagram stories ilman tiliä katselu, anonyymi instagram selaus, instagram viewer työkalu, instagram story viewer 2025, ig story viewer, anonyymi instagram viewer"
   },
   "nav": {
     "home": "Home",
@@ -30,16 +30,16 @@
     "title": "IGStoryPeek Features",
     "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
     "anonymity": {
-      "title": "Complete privacy protection",
-      "description": "Profile owners cannot see your information in their view statistics"
+      "title": "100% anonymiteetti",
+      "description": "Tilin omistaja ei näe tietojasi katselutilastoissaan"
     },
     "noAccount": {
-      "title": "Registration not required",
-      "description": "Creating an Instagram account is unnecessary. You can also view user stories and other multimedia content without any registration or account setup"
+      "title": "Tiliä ei tarvita",
+      "description": "Instagram-tilin luomista ei tarvita. Sinulla on myös mahdollisuus katsella käyttäjien stories ja muita multimediajulkaisuja ilman rekisteröintiä ja sovellusta"
     },
     "download": {
-      "title": "Download functionality",
-      "description": "You can browse, save, and download stories, posts, and additional content at no cost on any device: desktop computer, laptop, tablet, or mobile phone (Android, iOS, and other OS platforms)"
+      "title": "Latauskyky",
+      "description": "Voit tarkastella, ladata ja ladata stories, julkaisuja ja muita tietoja ilmaiseksi millä tahansa laitteella: tietokone, kannettava tietokone, tabletti tai älypuhelin (Android, iOS ja muut käyttöjärjestelmät)"
     }
   },
   "howItWorks": {

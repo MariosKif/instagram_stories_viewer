@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "IGStoryPeek - Anonymous Instagram Stories Viewer",
-    "description": "Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing. View public profiles, posts, stories, and highlights.",
-    "keywords": "instagram stories viewer, anonymous instagram, instagram viewer, story viewer, instagram profile viewer, instagram posts viewer, anonymous browsing, instagram highlights"
+    "title": "IGStoryPeek - Ανώνυμος Instagram Stories Viewer | Δωρεάν Instagram Story Viewer 2025",
+    "description": "Δωρεάν ανώνυμος Instagram Stories viewer - Δείτε Instagram stories ανώνυμα χωρίς λογαριασμό. 100% ιδιωτική προβολή δημόσιων προφίλ, δημοσιεύσεων, stories, highlights. Δεν απαιτείται εγγραφή. Καλύτερο εργαλείο Instagram Story viewer 2025.",
+    "keywords": "instagram stories viewer, ανώνυμος instagram, instagram viewer, story viewer, viewer προφίλ instagram, viewer δημοσιεύσεων instagram, ανώνυμη περιήγηση, instagram highlights, προβολή instagram stories ανώνυμα, δωρεάν instagram viewer, λήψη instagram story, προβολή instagram stories χωρίς λογαριασμό, ανώνυμη instagram περιήγηση, εργαλείο instagram viewer, instagram story viewer 2025, ig story viewer, ανώνυμος instagram viewer"
   },
   "nav": {
     "home": "Home",
@@ -30,16 +30,16 @@
     "title": "IGStoryPeek Features",
     "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
     "anonymity": {
-      "title": "Complete privacy protection",
-      "description": "Profile owners cannot see your information in their view statistics"
+      "title": "100% ανωνυμία",
+      "description": "Ο κάτοχος του λογαριασμού δεν βλέπει τα δεδομένα σας στα στατιστικά προβολών του"
     },
     "noAccount": {
-      "title": "Registration not required",
-      "description": "Creating an Instagram account is unnecessary. You can also view user stories and other multimedia content without any registration or account setup"
+      "title": "Δεν απαιτείται λογαριασμός",
+      "description": "Δεν χρειάζεται να δημιουργήσετε λογαριασμό Instagram. Έχετε επίσης τη δυνατότητα να παρακολουθείτε stories χρηστών και άλλες δημοσιεύσεις πολυμέσων χωρίς εγγραφή και εφαρμογή"
     },
     "download": {
-      "title": "Download functionality",
-      "description": "You can browse, save, and download stories, posts, and additional content at no cost on any device: desktop computer, laptop, tablet, or mobile phone (Android, iOS, and other OS platforms)"
+      "title": "Δυνατότητα φόρτωσης",
+      "description": "Μπορείτε να προβάλλετε, να κατεβάσετε και να κατεβάσετε stories, δημοσιεύσεις και άλλες πληροφορίες δωρεάν σε οποιαδήποτε συσκευή: υπολογιστή, φορητό υπολογιστή, tablet ή smartphone (Android, iOS και άλλα λειτουργικά συστήματα)"
     }
   },
   "howItWorks": {

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "IGStoryPeek - Anonymous Instagram Stories Viewer",
-    "description": "Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing. View public profiles, posts, stories, and highlights.",
-    "keywords": "instagram stories viewer, anonymous instagram, instagram viewer, story viewer, instagram profile viewer, instagram posts viewer, anonymous browsing, instagram highlights"
+    "title": "IGStoryPeek - Amharcachán Instagram Stories Gan Ainm | Amharcachán Instagram Story Saor in Aisce 2025",
+    "description": "Amharcachán Instagram Stories gan ainm saor in aisce - Féach ar Instagram stories gan ainm gan chuntas. Amharc 100% príobháideach ar phróifílí poiblí, postanna, stories, highlights. Níl clárú ag teastáil. Uirlis amharcachán Instagram Story is fearr 2025.",
+    "keywords": "instagram stories viewer, instagram gan ainm, instagram viewer, story viewer, amharcachán próifíle instagram, amharcachán postanna instagram, brabhsáil gan ainm, instagram highlights, instagram stories gan ainm a fheiceáil, instagram viewer saor in aisce, instagram story íoslódálaí, instagram stories gan chuntas a fheiceáil, brabhsáil instagram gan ainm, uirlis instagram viewer, instagram story viewer 2025, ig story viewer, instagram viewer gan ainm"
   },
   "nav": {
     "home": "Home",
@@ -30,16 +30,16 @@
     "title": "IGStoryPeek Features",
     "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
     "anonymity": {
-      "title": "Complete privacy protection",
-      "description": "Profile owners cannot see your information in their view statistics"
+      "title": "100% anaithníocht",
+      "description": "Ní fheiceann úinéir an chuntais do shonraí ina staitisticí amharc"
     },
     "noAccount": {
-      "title": "Registration not required",
-      "description": "Creating an Instagram account is unnecessary. You can also view user stories and other multimedia content without any registration or account setup"
+      "title": "Níl cuntas ag teastáil",
+      "description": "Níl gá le cuntas Instagram a chruthú. Tá deis agat freisin stories úsáideora agus foilseacháin ilmheánacha eile a fheiceáil gan clárú agus feidhmchlár"
     },
     "download": {
-      "title": "Download functionality",
-      "description": "You can browse, save, and download stories, posts, and additional content at no cost on any device: desktop computer, laptop, tablet, or mobile phone (Android, iOS, and other OS platforms)"
+      "title": "Cumas lódála",
+      "description": "Is féidir leat stories, foilseacháin agus faisnéis eile a fheiceáil, a íoslódáil agus a íoslódáil saor in aisce ar aon ghléas: ríomhaire, ríomhaire glúine, táibléad nó smartphone (Android, iOS agus córais oibriúcháin eile)"
     }
   },
   "howItWorks": {

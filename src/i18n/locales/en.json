@@ -30,16 +30,16 @@
     "title": "IGStoryPeek Features",
     "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
     "anonymity": {
-      "title": "Complete privacy protection",
-      "description": "Profile owners cannot see your information in their view statistics"
+      "title": "100% anonymity",
+      "description": "The account owner does not see your data in their views statistics"
     },
     "noAccount": {
-      "title": "Registration not required",
-      "description": "Creating an Instagram account is unnecessary. You can also view user stories and other multimedia content without any registration or account setup"
+      "title": "No account needed",
+      "description": "There is no need to create an Instagram account. You also have the opportunity to watch user stories and other multimedia publications without registration and application"
     },
     "download": {
-      "title": "Download functionality",
-      "description": "You can browse, save, and download stories, posts, and additional content at no cost on any device: desktop computer, laptop, tablet, or mobile phone (Android, iOS, and other OS platforms)"
+      "title": "Loading capability",
+      "description": "You can view, download and download stories, publications and other information for free on any device: computer, laptop, tablet or smartphone (Android, iOS and other operating systems)"
     }
   },
   "howItWorks": {
