@@ -1734,11 +1734,16 @@
 
     // Show profile data on the website
     function showProfileData(apiData) {
+        console.log('Full API data received:', apiData);
+        
         // Extract data from RapidAPI response structure
-        const profileData = apiData.profile?.result || {};
-        const postsData = apiData.posts?.result || {};
-        const storiesData = apiData.stories?.result || {};
-        const highlightsData = apiData.highlights?.result || {};
+        const profileData = apiData.profile?.result || apiData.profile?.data || apiData.profile || {};
+        const postsData = apiData.posts?.result || apiData.posts?.data || apiData.posts || {};
+        const storiesData = apiData.stories?.result || apiData.stories?.data || apiData.stories || {};
+        const highlightsData = apiData.highlights?.result || apiData.highlights?.data || apiData.highlights || {};
+        
+        console.log('Profile data:', profileData);
+        console.log('Posts data:', postsData);
         
         // Get user info from profile data
         const username = profileData.username || apiData.username;
@@ -1804,6 +1809,18 @@
         profileDisplay.scrollIntoView({ behavior: 'smooth' });
 
         // Store current profile data for tab switching
+        // Extract posts from various possible structures
+        let posts = [];
+        if (postsData.edges) {
+            posts = postsData.edges;
+        } else if (postsData.data && postsData.data.edges) {
+            posts = postsData.data.edges;
+        } else if (Array.isArray(postsData)) {
+            posts = postsData;
+        }
+        
+        console.log('Extracted posts:', posts);
+        
         window.currentProfileData = {
             username: username,
             fullName: fullName,
@@ -1812,7 +1829,7 @@
             followers: followers,
             following: following,
             postsCount: postsCount,
-            posts: postsData.edges || [],
+            posts: posts,
             stories: storiesData.edges || storiesData || [],
             highlights: highlightsData.tray || highlightsData.edges || (Array.isArray(highlightsData) ? highlightsData : [])
         };
