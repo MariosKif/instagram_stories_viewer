@@ -86,9 +86,8 @@ Backend:  http://localhost:3001
 ### Search for Profiles:
 1. Open `http://localhost:4321`
 2. Enter any Instagram username in the search bar
-3. Wait for the 15-second countdown (allows data to load)
-4. View profile data, posts, stories, and highlights
-5. Click on content to view on Instagram
+3. View profile data, posts, stories, and highlights
+4. Click on content to view on Instagram
 
 ### Example Searches:
 - `instagram` - Official Instagram account

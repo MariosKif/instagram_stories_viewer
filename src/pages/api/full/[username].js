@@ -1,7 +1,7 @@
 // RapidAPI Instagram API configuration
 const RAPIDAPI_CONFIG = {
     host: 'instagram120.p.rapidapi.com',
-    key: '663ef24eedmsha6824f05f5bee0bp1c071bjsnef3779a17b07',
+    key: process.env.RAPIDAPI_KEY || '663ef24eedmsha6824f05f5bee0bp1c071bjsnef3779a17b07', // Use env variable
     baseUrl: 'https://instagram120.p.rapidapi.com/api/instagram'
 };
 

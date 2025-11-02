@@ -8,9 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IGStoryPeek - Anonymous Instagram Stories Viewer</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="canonical" href="https://www.igstorypeek.com/" />
 		<meta name="generator" content={Astro.generator} />
-    <meta name="description" content="Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing." />
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="IGStoryPeek - Anonymous Instagram Stories Viewer" />
+    <meta name="description" content="Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing. View public profiles, posts, stories, and highlights." />
+    <meta name="keywords" content="instagram stories viewer, anonymous instagram, instagram viewer, story viewer, instagram profile viewer, instagram posts viewer, anonymous browsing, instagram highlights" />
+    <meta name="author" content="IGStoryPeek" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.igstorypeek.com/" />
+    <meta property="og:title" content="IGStoryPeek - Anonymous Instagram Stories Viewer" />
+    <meta property="og:description" content="Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing." />
+    <meta property="og:site_name" content="IGStoryPeek" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.igstorypeek.com/" />
+    <meta name="twitter:title" content="IGStoryPeek - Anonymous Instagram Stories Viewer" />
+    <meta name="twitter:description" content="Anonymous Instagram Stories Viewer - Watch Instagram stories without an account. 100% anonymous browsing." />
+    
+    <!-- App Links -->
+    <meta property="al:web:url" content="https://www.igstorypeek.com/" />
+    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1279144350888956"
          crossorigin="anonymous"></script>
@@ -1636,18 +1663,14 @@
         searchBtn.innerHTML = 'Loading...';
 
         // Make API call to backend immediately
-        console.log(`Fetching data for: ${cleanUsername}`);
         fetch(`/api/full/${cleanUsername}`)
             .then(response => {
-                console.log('Response status:', response.status);
                 if (!response.ok) {
                     console.error('Response not OK:', response.status, response.statusText);
                 }
                 return response.json();
             })
             .then(data => {
-                console.log('Full response data:', data);
-                
                 // Reset button
                 searchBtn.innerHTML = 'Submit';
                 searchBtn.disabled = false;
@@ -1657,7 +1680,6 @@
                     // Show profile data on the website instead of redirecting
                     showProfileData(data.data);
                 } else {
-                    console.error('API returned error:', data.error);
                     showMessage(data.error || 'Profile not found', 'error');
                 }
             })
@@ -1743,16 +1765,11 @@
 
     // Show profile data on the website
     function showProfileData(apiData) {
-        console.log('Full API data received:', apiData);
-        
         // Extract data from RapidAPI response structure
         const profileData = apiData.profile?.result || apiData.profile?.data || apiData.profile || {};
         const postsData = apiData.posts?.result || apiData.posts?.data || apiData.posts || {};
         const storiesData = apiData.stories?.result || apiData.stories?.data || apiData.stories || {};
         const highlightsData = apiData.highlights?.result || apiData.highlights?.data || apiData.highlights || {};
-        
-        console.log('Profile data:', profileData);
-        console.log('Posts data:', postsData);
         
         // Get user info from profile data
         const username = profileData.username || apiData.username;
@@ -1830,8 +1847,6 @@
             posts = postsData;
         }
         
-        console.log('Extracted posts:', posts);
-        
         window.currentProfileData = {
             username: username,
             fullName: fullName,
@@ -1845,9 +1860,8 @@
             highlights: highlightsData.tray || highlightsData.edges || (Array.isArray(highlightsData) ? highlightsData : [])
         };
 
-    // Load posts by default
-    console.log('Loading posts:', window.currentProfileData.posts);
-    loadPosts(window.currentProfileData.posts);
+        // Load posts by default
+        loadPosts(window.currentProfileData.posts);
     }
 
     // Tab switching functionality

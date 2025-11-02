@@ -21,7 +21,7 @@
     "performance",
     "api"
   ],
-  "author": "Your Name",
+  "author": "IGStoryPeek",
   "license": "MIT",
   "dependencies": {
     "@astrojs/vercel": "^9.0.0",

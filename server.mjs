@@ -1,3 +1,13 @@
+/**
+ * DEPRECATED: This server is for local development only.
+ * Production deployment uses Vercel serverless functions in src/pages/api/
+ * 
+ * To run locally:
+ *   npm run server
+ *   
+ * For production deployment to Vercel, this file is ignored.
+ */
+
 import express from 'express';
 import cors from 'cors';
 import fetch from 'node-fetch';
