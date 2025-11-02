@@ -9,7 +9,7 @@ export default defineConfig({
   
   // Build optimizations
   build: {
-    inlineStylesheets: 'auto',
+    inlineStylesheets: 'always', // Always inline styles to reduce render-blocking
     assets: '_astro',
   },
   
