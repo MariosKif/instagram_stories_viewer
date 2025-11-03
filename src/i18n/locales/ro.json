@@ -5,30 +5,30 @@
     "keywords": "vizualizator instagram stories, instagram anonim, vizualizator instagram, story viewer, vizualizator profil instagram, vizualizator postări instagram, navigare anonimă, instagram highlights, vizualizare instagram stories anonim, vizualizator instagram gratuit, descărcător instagram story, vizualizare instagram stories fără cont, navigare instagram anonimă, instrument vizualizator instagram, vizualizator instagram story 2025, vizualizator ig story, vizualizator instagram anonim"
   },
   "nav": {
-    "home": "Home",
+    "home": "Acasă",
     "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate",
+    "contact": "Contacte"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Navighează pe Instagram fără să-ți revelezi identitatea",
+    "subtitle": "Introdu numele de utilizator dorit în câmpul de căutare folosind formatele username, @username sau https://www.instagram.com/username/",
+    "placeholder": "Introdu numele de utilizator Instagram...",
+    "button": "Caută",
+    "popularSearches": "Căutări populare:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Acces la conținutul Instagram",
+    "description": "Serviciul IGStoryPeek permite în prezent accesul la Instagram Stories, Postări, Highlights și detalii ale profilului. Acest lucru permite vizualizarea anonimă a conținutului Instagram disponibil public.",
+    "availableContent": "Conținut disponibil:",
+    "availableContentDesc": "Stories, Postări, Highlights și detalii ale profilului din conturi accesibile public.",
+    "privacy": "Confidențialitate:",
+    "privacyDesc": "Fiecare sesiune de vizualizare rămâne anonimă - proprietarii profilurilor nu pot vedea activitatea dvs. de vizualizare în statisticile lor."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "Funcții IGStoryPeek",
+    "intro": "IGStoryPeek oferă un serviciu gratuit pentru vizualizarea anonimă a stories-urilor Instagram din conturi accesibile public fără a necesita autentificare în platforma Instagram. Toate funcțiile disponibile în serviciu sunt complet gratuite, permit vizualizarea anonimă a stories-urilor și necesită doar introducerea numelui de utilizator Instagram pe care doriți să-l vizualizați.",
     "anonymity": {
       "title": "100% anonimat",
       "description": "Proprietarul contului nu vede datele dvs. în statisticile de vizualizare"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Cum funcționează vizualizarea privată a Instagram Stories?",
+    "step1": "Introdu numele de utilizator al profilului pe care dorești să-l vizualizezi",
+    "step2": "Numele de utilizator introdus este primit de sistemul nostru și procesat de procesul nostru automatizat",
+    "step3": "Serviciul nostru afișează pagina profilului, arătând cele mai recente și actuale informații",
+    "step4": "Vizualizările Instagram story sunt înregistrate sub unul dintre conturile noastre de serviciu",
+    "step5": "Identitatea dvs. rămâne complet privată",
+    "cta": "Începe să cauți"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Întrebări frecvente",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Ce conținut poate fi accesat și salvat folosind IGStoryPeek?",
+        "answer": "Prin capacitățile serviciului, utilizatorii pot salva și vizualiza anonim stories-uri Instagram, highlights, transmisiuni live, postări și imagini din profile care sunt accesibile public pe Instagram. Tot conținutul menționat poate fi salvat pe dispozitivul dvs. prin componente dedicate ale interfeței."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Este necesar un cont Instagram pentru a vizualiza profilul altei persoane?",
+        "answer": "Nu. Orice profil accesibil public poate fi vizualizat folosind numele de utilizator al profilului, indiferent dacă aveți propriul cont Instagram. Pur și simplu introduceți numele de utilizator în caseta de căutare de pe pagina de pornire, apoi faceți clic pe butonul \"Caută\". Odată apăsat, veți fi redirecționați imediat către pagina de conținut, cu condiția ca profilul să aibă conținut disponibil."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Ce dispozitive suportă IGStoryPeek?",
+        "answer": "Acest serviciu funcționează cu toate browserele web contemporane pe computere desktop, laptopuri, tablete și telefoane mobile (inclusiv sistemele de operare mobile actuale precum iPhone, Android). Dacă întâmpinați probleme de acces specifice dispozitivului, vă rugăm să ne contactați și vom rezolva prompt."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Este posibil să salvați stories-uri din profilul altei persoane fără să vă dezvăluiți identitatea?",
+        "answer": "Da, dacă profilul este vizibil public (ceea ce înseamnă că este deschis și accesibil fără să urmăriți contul), puteți accesa acest lucru introducând numele de utilizator, navigând către pagina profilului și de acolo salvați stories-uri, imagini, transmisiuni live, postări și alt conținut accesibil."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Cât costă să folosiți IGStoryPeek?",
+        "answer": "Fiecare funcție a serviciului este complet gratuită și nu necesită înregistrare. Ca urmare, nu este necesară furnizarea de informații personale pentru a accesa conținutul disponibil."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Cum pot fi utilizate stories-uri, fotografii sau videouri Instagram salvate?",
+        "answer": "Toate fișierele care pot fi descărcate sunt furnizate doar în scopuri de vizualizare. Drepturile de proprietate pentru stories-uri, fotografii și videouri Instagram rămân la creatorii lor originali. Dezaprobăm puternic folosirea sau modificarea acestor fișiere din orice motiv. Cu toate acestea, puteți aduna idei, inspirație sau perspective prin revizuirea și examinarea acestor materiale, ceea ce vă poate ajuta să dezvoltați o strategie de conținut pentru postările dvs. viitoare în social media."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Ce formate de fișiere sunt suportate pentru descărcări pe vizualizatorul de stories Instagram?",
+        "answer": "Videoclipurile sunt furnizate în format .mp4, în timp ce fotografiile sunt disponibile în formate .jpg și .jpeg. Tot conținutul care poate fi descărcat este oferit la nivelul maxim de calitate obținut. Acest nivel de calitate este suficient pentru a analiza materialul vizualizat. De exemplu, poate oferi inspirație pentru conceptele dvs. sau poate ajuta în dezvoltarea unei abordări de conținut pentru gestionarea contului dvs. personal."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Cum pot vizualiza o story salvată?",
+        "answer": "Pentru a accesa și vizualiza o story salvată, folosiți orice redactor video actual pentru stories-uri video sau orice aplicație de vizualizare a imaginilor pentru stories-uri foto. Alternativ, deschideți o filă nouă în browser și trageți fișierul foto sau video în filă, iar browserul îl va afișa automat în formatul corect. Vă rugăm să rețineți că serviciul nostru include funcționalitate integrată care permite vizualizarea anonimă a stories-urilor Instagram direct prin interfață selectând opțiunile relevante ale interfeței."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Postări",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "postsCount": "postări",
+    "followers": "urmăritori",
+    "following": "urmăresc",
+    "noPosts": "Nu sunt disponibile postări.",
+    "noStories": "Nu sunt disponibile stories-uri. Stories-urile sunt accesibile doar prin serviciul IGStoryPeek.",
+    "noHighlights": "Nu sunt disponibile highlights.",
+    "viewOnInstagram": "Vizualizează pe Instagram",
+    "ago": "în urmă",
+    "videoNotSupported": "Browserul dvs. nu suportă tagul video."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Vă rugăm să introduceți un nume de utilizator",
+    "pleaseEnterValidUsername": "Vă rugăm să introduceți un nume de utilizator valid",
+    "foundProfile": "Profil găsit:",
+    "profileNotFound": "Profil negăsit",
+    "errorConnecting": "Eroare la conectarea la server. Vă rugăm să încercați din nou."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
-    "instagramVideoDownloader": "Instagram Video Downloader",
-    "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "navigation": "Navigare",
+    "tools": "Instrumente",
+    "disclaimer": "IGStoryPeek nu este conectat cu Instagram. Nu găzduim Instagram Stories pe serverele noastre, toate drepturile aparțin proprietarilor lor.",
+    "instagramVideoDownloader": "Descărcător Video Instagram",
+    "instagramStoryViewer": "Vizualizator Instagram Story",
+    "comingSoon": "Această funcție va fi disponibilă în curând!",
+    "alreadyUsing": "Folosiți deja Vizualizatorul Instagram Story!",
+    "removeProfile": "Elimină profil",
+    "removeProfileMessage": "Pentru a elimina profilul dvs., vă rugăm să contactați support@igstorypeek.com cu numele dvs. de utilizator Instagram."
   }
 }

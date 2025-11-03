@@ -5,30 +5,30 @@
     "keywords": "visualizador instagram stories, instagram anônimo, visualizador instagram, story viewer, visualizador perfil instagram, visualizador posts instagram, navegação anônima, instagram highlights, assistir instagram stories anonimamente, visualizador instagram grátis, baixador instagram story, ver instagram stories sem conta, navegação instagram anônima, ferramenta visualizador instagram, visualizador instagram story 2025, visualizador ig story, visualizador instagram anônimo"
   },
   "nav": {
-    "home": "Home",
+    "home": "Início",
     "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "terms": "Termos e Condições",
+    "privacy": "Política de Privacidade",
+    "contact": "Contato"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Navegue pelo Instagram sem revelar sua identidade",
+    "subtitle": "Digite o nome de usuário desejado no campo de pesquisa usando os formatos username, @username ou https://www.instagram.com/username/",
+    "placeholder": "Digite o nome de usuário do Instagram...",
+    "button": "Pesquisar",
+    "popularSearches": "Pesquisas populares:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Acesso ao Conteúdo do Instagram",
+    "description": "O serviço IGStoryPeek atualmente permite acesso a Instagram Stories, Posts, Highlights e detalhes do perfil. Isso permite visualização anônima de conteúdo do Instagram disponível publicamente.",
+    "availableContent": "Conteúdo disponível:",
+    "availableContentDesc": "Stories, Posts, Highlights e detalhes do perfil de contas publicamente acessíveis.",
+    "privacy": "Privacidade:",
+    "privacyDesc": "Cada sessão de visualização permanece anônima - os proprietários do perfil não podem ver sua atividade de visualização em suas estatísticas."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "Recursos do IGStoryPeek",
+    "intro": "O IGStoryPeek oferece um serviço gratuito para visualização anônima de stories do Instagram de contas publicamente acessíveis sem exigir autenticação na plataforma Instagram. Todos os recursos disponíveis no serviço são totalmente gratuitos, permitem visualização anônima de stories e exigem apenas inserir o nome de usuário do Instagram que você deseja visualizar.",
     "anonymity": {
       "title": "100% anonimato",
       "description": "O proprietário da conta não vê seus dados em suas estatísticas de visualização"
@@ -43,48 +43,48 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Como funciona a visualização privada de Instagram Stories?",
+    "step1": "Digite o nome de usuário do perfil que você deseja visualizar",
+    "step2": "O nome de usuário inserido é recebido pelo nosso sistema e processado por nosso processo automatizado",
+    "step3": "Nosso serviço exibe a página do perfil, mostrando as informações mais recentes e atuais",
+    "step4": "As visualizações de Instagram story são registradas sob uma de nossas contas de serviço",
+    "step5": "Sua identidade permanece completamente privada",
+    "cta": "Comece a pesquisar"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Perguntas frequentes",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Que conteúdo pode ser acessado e salvo usando IGStoryPeek?",
+        "answer": "Por meio das capacidades do serviço, os usuários podem salvar e visualizar anonimamente stories do Instagram, highlights, transmissões ao vivo, posts e imagens de perfis que são publicamente acessíveis no Instagram. Todo o conteúdo mencionado pode ser salvo em seu dispositivo por meio de componentes dedicados da interface."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "É necessário ter uma conta do Instagram para visualizar o perfil de outra pessoa?",
+        "answer": "Não. Qualquer perfil publicamente acessível pode ser visualizado usando o nome de usuário do perfil, independentemente de você ter sua própria conta do Instagram. Basta digitar o nome de usuário na caixa de pesquisa na página inicial e clicar no botão \"Pesquisar\". Após clicar, você será redirecionado para a página de conteúdo imediatamente, desde que o perfil tenha conteúdo disponível."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Quais dispositivos suportam IGStoryPeek?",
+        "answer": "Este serviço funciona com todos os navegadores web contemporâneos em computadores desktop, laptops, tablets e telefones celulares (incluindo sistemas operacionais móveis atuais como iPhone, Android). Se você encontrar algum problema de acesso específico do dispositivo, entre em contato conosco e resolveremos isso prontamente."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "É possível salvar stories do perfil de outra pessoa sem revelar minha identidade?",
+        "answer": "Sim, se o perfil for publicamente visível (o que significa que está aberto e acessível sem seguir a conta), você pode acessá-lo inserindo o nome de usuário, navegar até a página do perfil e a partir daí salvar stories, imagens, transmissões ao vivo, posts e outro conteúdo acessível."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Quanto custa usar IGStoryPeek?",
+        "answer": "Cada recurso do serviço é totalmente gratuito e não requer registro. Como resultado, nenhuma informação pessoal precisa ser fornecida para acessar o conteúdo disponível."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Como podem ser utilizados stories, fotos ou vídeos do Instagram salvos?",
+        "answer": "Todos os arquivos para download são fornecidos apenas para fins de visualização. Os direitos de propriedade de stories, fotos e vídeos do Instagram permanecem com seus criadores originais. Desencorajamos fortemente o uso ou alteração desses arquivos por qualquer motivo. No entanto, você pode reunir ideias, inspiração ou insights revisando e examinando esses materiais, o que pode ajudá-lo a desenvolver uma estratégia de conteúdo para suas futuras postagens nas redes sociais."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Quais formatos de arquivo são suportados para downloads no visualizador de stories do Instagram?",
+        "answer": "Os vídeos são fornecidos em formato .mp4, enquanto as fotos estão disponíveis em formatos .jpg e .jpeg. Todo o conteúdo para download é oferecido no nível máximo de qualidade obtível. Este nível de qualidade é suficiente para analisar o material visualizado. Por exemplo, pode fornecer inspiração para seus conceitos ou auxiliar no desenvolvimento de uma abordagem de conteúdo para gerenciar sua conta pessoal."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Como posso visualizar uma story salva?",
+        "answer": "Para acessar e assistir uma story salva, use qualquer reprodutor de vídeo atual para stories de vídeo ou qualquer aplicativo de visualização de imagens para stories de foto. Alternativamente, abra uma nova guia do navegador e arraste o arquivo de foto ou vídeo para a guia, e o navegador exibirá automaticamente no formato correto. Observe que nosso serviço inclui funcionalidade integrada que permite visualização anônima de stories do Instagram diretamente pela interface selecionando as opções relevantes da interface."
       }
     ]
   },
@@ -93,31 +93,31 @@
     "stories": "Stories",
     "highlights": "Highlights",
     "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "followers": "seguidores",
+    "following": "seguindo",
+    "noPosts": "Nenhum post disponível.",
+    "noStories": "Nenhuma story disponível. Stories são acessíveis apenas através do serviço IGStoryPeek.",
+    "noHighlights": "Nenhum highlight disponível.",
+    "viewOnInstagram": "Ver no Instagram",
+    "ago": "atrás",
+    "videoNotSupported": "Seu navegador não suporta a tag de vídeo."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Por favor, insira um nome de usuário",
+    "pleaseEnterValidUsername": "Por favor, insira um nome de usuário válido",
+    "foundProfile": "Perfil encontrado:",
+    "profileNotFound": "Perfil não encontrado",
+    "errorConnecting": "Erro ao conectar ao servidor. Por favor, tente novamente."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
-    "instagramVideoDownloader": "Instagram Video Downloader",
-    "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "navigation": "Navegação",
+    "tools": "Ferramentas",
+    "disclaimer": "O IGStoryPeek não está conectado ao Instagram. Não hospedamos Instagram Stories em nossos servidores, todos os direitos pertencem aos seus proprietários.",
+    "instagramVideoDownloader": "Baixador de Vídeo do Instagram",
+    "instagramStoryViewer": "Visualizador de Instagram Story",
+    "comingSoon": "Este recurso estará disponível em breve!",
+    "alreadyUsing": "Você já está usando o Visualizador de Instagram Story!",
+    "removeProfile": "Remover perfil",
+    "removeProfileMessage": "Para remover seu perfil, entre em contato com support@igstorypeek.com com seu nome de usuário do Instagram."
   }
 }

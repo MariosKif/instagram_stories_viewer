@@ -5,30 +5,30 @@
     "keywords": "instagram stories viewer, anonīms instagram, instagram viewer, story viewer, instagram profila viewer, instagram ziņu viewer, anonīma pārlūkošana, instagram highlights, instagram stories anonīmi skatīšanās, bezmaksas instagram viewer, instagram story lejupielādētājs, instagram stories bez konta skatīšanās, anonīma instagram pārlūkošana, instagram viewer instruments, instagram story viewer 2025, ig story viewer, anonīms instagram viewer"
   },
   "nav": {
-    "home": "Home",
-    "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "home": "Sākums",
+    "blog": "Blogs",
+    "terms": "Lietošanas noteikumi",
+    "privacy": "Privātuma politika",
+    "contact": "Kontakti"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Pārlūkojiet Instagram, neatsklājot savu identitāti",
+    "subtitle": "Ievadiet vēlamo lietotājvārdu meklēšanas laukā, izmantojot formātus username, @username vai https://www.instagram.com/username/",
+    "placeholder": "Ievadiet Instagram lietotājvārdu...",
+    "button": "Meklēt",
+    "popularSearches": "Populārās meklēšanas:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Piekļuve Instagram saturam",
+    "description": "IGStoryPeek pakalpojums pašlaik nodrošina piekļuvi Instagram Stories, Ziņām, Highlights un profila detaļām. Tas ļauj nesadalītu publiski pieejama Instagram satura skatīšanu.",
+    "availableContent": "Pieejamais saturs:",
+    "availableContentDesc": "Stories, Ziņas, Highlights un profila detaļas no publiski pieejamiem kontiem.",
+    "privacy": "Privātums:",
+    "privacyDesc": "Katra skatīšanas sesija paliek anonīma - profila īpašnieki nevar redzēt jūsu skatīšanas aktivitāti savās statistikās."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "IGStoryPeek funkcijas",
+    "intro": "IGStoryPeek piedāvā bezmaksas pakalpojumu anonīmai Instagram stories skatīšanai no publiski pieejamiem kontiem, neprasot autentificēšanos Instagram platformā. Visas pakalpojuma funkcijas ir pilnīgi bezmaksas, ļauj anonīmu story skatīšanu un prasa tikai ievadīt Instagram lietotājvārdu, ko vēlaties skatīt.",
     "anonymity": {
       "title": "100% anonimitāte",
       "description": "Konta īpašnieks neredz jūsu datus savās skatīšanās statistikās"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Kā darbojas privātā Instagram Stories skatīšana?",
+    "step1": "Ievadiet profila lietotājvārdu, ko vēlaties skatīt",
+    "step2": "Ievadīto lietotājvārdu saņem mūsu sistēma un apstrādā automātiskais process",
+    "step3": "Mūsu pakalpojums parāda profila lapu ar jaunākajām un pašreizējām informācijām",
+    "step4": "Instagram story skatījumi tiek reģistrēti zem viena no mūsu pakalpojumu kontiem",
+    "step5": "Jūsu identitāte paliek pilnīgi privāta",
+    "cta": "Sāciet meklēt"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Bieži uzdotie jautājumi",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Kādu saturu var piekļūt un saglabāt, izmantojot IGStoryPeek?",
+        "answer": "Izmantojot pakalpojuma iespējas, lietotāji var anonīmi saglabāt un skatīt Instagram stories, highlights, tiešraides, ziņas un attēlus no profiliem, kas ir publiski pieejami Instagram. Visu minēto saturu var saglabāt jūsu ierīcē, izmantojot īpašus saskarnes komponentus."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Vai ir nepieciešams Instagram konts, lai skatītu cita cilvēka profilu?",
+        "answer": "Nē. Jebkuru publiski pieejamu profilu var skatīt, izmantojot profila lietotājvārdu, neatkarīgi no tā, vai jums ir savs Instagram konts. Vienkārši ievadiet lietotājvārdu meklēšanas lodziņā mājaslapā, pēc tam noklikšķiniet uz pogas \"Meklēt\". Noklikšķinot, jūs nekavējoties tiksit novirzīti uz satura lapu, ja profilam ir pieejams saturs."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Kuras ierīces atbalsta IGStoryPeek?",
+        "answer": "Šis pakalpojums darbojas ar visām mūsdienīgām tīmekļa pārlūkprogrammām darba galddatoriem, klēpjdatoriem, planšetdatoriem un viedtālruņiem (ieskaitot pašreizējās mobilās operētājsistēmas, piemēram, iPhone, Android). Ja saskaraties ar ierīces specifiskām piekļuves problēmām, lūdzu, sazinieties ar mums, un mēs to ātri atrisināsim."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Vai ir iespējams saglabāt stories no cita cilvēka profila, neatsklājot savu identitāti?",
+        "answer": "Jā, ja profils ir publiski redzams (tas nozīmē, ka tas ir atvērts un pieejams bez konta sekošanas), jūs varat piekļūt tam, ievadot lietotājvārdu, navigēt uz profila lapu un no turienes saglabāt stories, attēlus, tiešraides, ziņas un citu pieejamu saturu."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Cik maksā izmantot IGStoryPeek?",
+        "answer": "Katras pakalpojuma funkcija ir pilnīgi bezmaksas un neprasa reģistrāciju. Tā rezultātā nav nepieciešams sniegt personas informāciju, lai piekļūtu pieejamajam saturam."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Kā var izmantot saglabātas Instagram stories, foto vai video?",
+        "answer": "Visi lejupielādējamie faili tiek nodrošināti tikai skatīšanai. Instagram stories, foto un video īpašumtiesības paliek to sākotnējiem radītājiem. Mēs ļoti neatbalstām šo failu izmantošanu vai mainīšanu jebkāda iemesla dēļ. Tomēr jūs varat apkopot idejas, iedvesmu vai ieskatus, pārskatot un pārbaudot šos materiālus, kas varētu palīdzēt izstrādāt satura stratēģiju jūsu nākamajiem sociālo mediju ierakstiem."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Kādi failu formāti tiek atbalstīti lejupielādēm Instagram story skatītājā?",
+        "answer": "Video tiek nodrošināti .mp4 formātā, savukārt foto ir pieejami .jpg un .jpeg formātos. Viss lejupielādējamais saturs tiek piedāvāts maksimālajā iegūstamajā kvalitātes līmenī. Šis kvalitātes līmenis ir pietiekams skatītā materiāla analīzei. Piemēram, tas var sniegt iedvesmu jūsu koncepcijām vai palīdzēt izstrādāt satura pieeju jūsu personīgā konta pārvaldībai."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Kā varu skatīt saglabātu story?",
+        "answer": "Lai piekļūtu un noskatītos saglabātu story, izmantojiet jebkuru pašreizējo video atskaņotāju video stories, vai jebkuru attēlu skatīšanas lietotni foto stories. Alternatīvi, atveriet jaunu pārlūkprogrammas cilni un velciet foto vai video failu cilnē, un pārlūkprogramma to automātiski parādīs pareizā formātā. Lūdzu, ņemiet vērā, ka mūsu pakalpojums ietver iebūvētu funkcionalitāti, kas ļauj anonīmu Instagram stories skatīšanu tieši caur saskarni, izvēloties atbilstošās saskarnes opcijas."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Ziņas",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "postsCount": "ziņas",
+    "followers": "sekotāji",
+    "following": "seko",
+    "noPosts": "Nav pieejamu ziņu.",
+    "noStories": "Nav pieejamu stories. Stories ir pieejamas tikai caur IGStoryPeek pakalpojumu.",
+    "noHighlights": "Nav pieejamu highlights.",
+    "viewOnInstagram": "Skatīt Instagram",
+    "ago": "atpakaļ",
+    "videoNotSupported": "Jūsu pārlūkprogramma neatbalsta video tagu."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Lūdzu, ievadiet lietotājvārdu",
+    "pleaseEnterValidUsername": "Lūdzu, ievadiet derīgu lietotājvārdu",
+    "foundProfile": "Atrasts profils:",
+    "profileNotFound": "Profils nav atrasts",
+    "errorConnecting": "Kļūda, savienojoties ar serveri. Lūdzu, mēģiniet vēlreiz."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
-    "instagramVideoDownloader": "Instagram Video Downloader",
-    "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "navigation": "Navigācija",
+    "tools": "Rīki",
+    "disclaimer": "IGStoryPeek nav saistīts ar Instagram. Mēs nehostējam Instagram Stories savos serveros, visas tiesības pieder to īpašniekiem.",
+    "instagramVideoDownloader": "Instagram video lejupielādētājs",
+    "instagramStoryViewer": "Instagram Story skatītājs",
+    "comingSoon": "Šī funkcija drīzumā būs pieejama!",
+    "alreadyUsing": "Jūs jau izmantojat Instagram Story skatītāju!",
+    "removeProfile": "Noņemt profilu",
+    "removeProfileMessage": "Lai noņemtu savu profilu, lūdzu, sazinieties ar support@igstorypeek.com ar savu Instagram lietotājvārdu."
   }
 }

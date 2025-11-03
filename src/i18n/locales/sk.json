@@ -5,30 +5,30 @@
     "keywords": "instagram stories viewer, anonymný instagram, instagram viewer, story viewer, viewer profilu instagram, viewer príspevkov instagram, anonymné prehliadanie, instagram highlights, sledovanie instagram stories anonymne, zadarmo instagram viewer, stiahnuť instagram story, sledovanie instagram stories bez účtu, anonymné prehliadanie instagram, nástroj instagram viewer, instagram story viewer 2025, ig story viewer, anonymný instagram viewer"
   },
   "nav": {
-    "home": "Home",
+    "home": "Domov",
     "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "terms": "Obchodné podmienky",
+    "privacy": "Zásady ochrany súkromia",
+    "contact": "Kontakty"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Prehľadávajte Instagram bez odhalenia vašej identity",
+    "subtitle": "Zadajte požadované používateľské meno do vyhľadávacieho poľa vo formátoch username, @username alebo https://www.instagram.com/username/",
+    "placeholder": "Zadajte používateľské meno Instagram...",
+    "button": "Hľadať",
+    "popularSearches": "Populárne vyhľadávania:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Prístup k obsahu Instagram",
+    "description": "Služba IGStoryPeek v súčasnosti umožňuje prístup k Instagram Stories, príspevkom, Highlights a detailom profilov. To umožňuje anonymné zobrazenie verejne dostupného obsahu Instagram.",
+    "availableContent": "Dostupný obsah:",
+    "availableContentDesc": "Stories, príspevky, Highlights a detaily profilov z verejne prístupných účtov.",
+    "privacy": "Súkromie:",
+    "privacyDesc": "Každá relácia zobrazenia zostáva anonymná - vlastníci profilov nevidia vašu aktivitu zobrazenia v ich štatistikách."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "Funkcie IGStoryPeek",
+    "intro": "IGStoryPeek ponúka bezplatnú službu pre anonymné zobrazenie Instagram stories z verejne prístupných účtov bez nutnosti autentifikácie na platforme Instagram. Všetky funkcie dostupné v službe sú úplne zadarmo, umožňujú anonymné zobrazenie stories a vyžadujú len zadanie používateľského mena Instagram, ktoré chcete zobraziť.",
     "anonymity": {
       "title": "100% anonymita",
       "description": "Vlastník účtu nevidí vaše údaje v jeho štatistikách zobrazení"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Ako funguje súkromné zobrazenie Instagram Stories?",
+    "step1": "Zadajte používateľské meno profilu, ktorý chcete zobraziť",
+    "step2": "Používateľské meno, ktoré ste zadali, prijíma náš systém a spracováva ho náš automatizovaný proces",
+    "step3": "Naša služba zobrazí stránku profilu s najnovšími a aktuálnymi informáciami",
+    "step4": "Zobrazenia Instagram stories sú registrované pod jedným z našich servisných účtov",
+    "step5": "Vaša identita zostáva úplne súkromná",
+    "cta": "Začnite hľadať"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Často kladené otázky",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Aký obsah možno získať a uložiť pomocou IGStoryPeek?",
+        "answer": "Vďaka možnostiam služby môžu používatelia anonymne ukladať a zobrazovať Instagram stories, highlights, živé prenosy, príspevky a obrázky z profilov, ktoré sú verejne prístupné na Instagrame. Všetok spomenutý obsah možno uložiť do vášho zariadenia pomocou špecializovaných komponentov rozhrania."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Je na zobrazenie profilu inej osoby vyžadovaný účet na Instagrame?",
+        "answer": "Nie. Akýkoľvek verejne prístupný profil možno zobraziť pomocou používateľského mena profilu, bez ohľadu na to, či máte vlastný účet na Instagrame. Jednoducho zadajte používateľské meno do vyhľadávacieho poľa na domovskej stránke a potom kliknite na tlačidlo \"Hľadať\". Po kliknutí budete okamžite presmerovaní na stránku s obsahom, za predpokladu, že profil má dostupný obsah."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Ktoré zariadenia podporujú IGStoryPeek?",
+        "answer": "Táto služba funguje so všetkými súčasnými webovými prehliadačmi na stolných počítačoch, notebookoch, tabletoch a mobilných telefónoch (vrátane aktuálnych mobilných operačných systémov ako iPhone, Android). Ak narazíte na problémy s prístupom špecifické pre zariadenie, kontaktujte nás a my to okamžite vyriešime."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Je možné uložiť stories z profilu inej osoby bez odhalenia vašej identity?",
+        "answer": "Áno, ak je profil verejne viditeľný (čo znamená, že je otvorený a prístupný bez sledovania účtu), môžete k nemu získať prístup zadaním používateľského mena, prejsť na stránku profilu a odtiaľ uložiť stories, obrázky, živé vysielanie, príspevky a ďalší dostupný obsah."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Koľko stojí používanie IGStoryPeek?",
+        "answer": "Každá funkcia služby je úplne zadarmo a nevyžaduje registráciu. Výsledkom je, že nie je nutné poskytovať osobné údaje pre prístup k dostupnému obsahu."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Ako možno využiť uložené Instagram stories, fotky alebo videá?",
+        "answer": "Všetky sťahovateľné súbory sú poskytované len na účely zobrazenia. Práva vlastníctva k Instagram stories, fotkám a videám zostávajú u ich pôvodných tvorcov. Dôrazne nedoporučujeme tieto súbory používať alebo upravovať z akéhokoľvek dôvodu. Napriek tomu môžete zhromažďovať nápady, inšpiráciu alebo poznatky preskúmaním a skúmaním týchto materiálov, čo vám môže pomôcť vypracovať stratégiu obsahu pre vaše budúce príspevky v sociálnych sieťach."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Ktoré formáty súborov sú podporované pre sťahovanie v Instagram story vieweri?",
+        "answer": "Videá sú poskytované vo formáte .mp4, zatiaľ čo fotky sú dostupné vo formátoch .jpg a .jpeg. Všetok sťahovateľný obsah je ponúkaný na maximálnej úrovni kvality, ktorú možno získať. Táto úroveň kvality je postačujúca na analýzu zobrazeného materiálu. Napríklad môže poskytnúť inšpiráciu pre vaše koncepty alebo pomôcť pri vývoji prístupu k obsahu pre správu vášho osobného účtu."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Ako môžem zobraziť uloženú story?",
+        "answer": "Pre prístup a sledovanie uloženej story použite akýkoľvek aktuálny videoprehrávač pre video stories alebo akúkoľvek aplikáciu na zobrazenie obrázkov pre foto stories. Prípadne otvorte novú kartu v prehliadači a presuňte súbor s fotkou alebo videom do karty a prehliadač ho automaticky zobrazí v správnom formáte. Upozorňujeme, že naša služba zahŕňa vstavanú funkčnosť umožňujúcu anonymné zobrazenie Instagram stories priamo prostredníctvom rozhrania výberom relevantných možností rozhrania."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Príspevky",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "postsCount": "príspevkov",
+    "followers": "sledujúcich",
+    "following": "sledovaných",
+    "noPosts": "Nie sú k dispozícii žiadne príspevky.",
+    "noStories": "Nie sú k dispozícii žiadne stories. Stories sú prístupné len prostredníctvom služby IGStoryPeek.",
+    "noHighlights": "Nie sú k dispozícii žiadne highlights.",
+    "viewOnInstagram": "Zobraziť na Instagrame",
+    "ago": "pred",
+    "videoNotSupported": "Váš prehliadač nepodporuje video tag."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Prosím zadajte používateľské meno",
+    "pleaseEnterValidUsername": "Prosím zadajte platné používateľské meno",
+    "foundProfile": "Nájdený profil:",
+    "profileNotFound": "Profil nenájdený",
+    "errorConnecting": "Chyba pri pripájaní k serveru. Prosím skúste to znova."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
-    "instagramVideoDownloader": "Instagram Video Downloader",
-    "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "navigation": "Navigácia",
+    "tools": "Nástroje",
+    "disclaimer": "IGStoryPeek nie je prepojený s Instagramom. Nehostujeme Instagram Stories na našich serveroch, všetky práva patria ich vlastníkom.",
+    "instagramVideoDownloader": "Stahovač videí z Instagramu",
+    "instagramStoryViewer": "Prehliadač Instagram Stories",
+    "comingSoon": "Táto funkcia čoskoro príde!",
+    "alreadyUsing": "Už používate prehliadač Instagram Stories!",
+    "removeProfile": "Odstrániť profil",
+    "removeProfileMessage": "Pre odstránenie vášho profilu kontaktujte prosím support@igstorypeek.com s vaším používateľským menom na Instagrame."
   }
 }

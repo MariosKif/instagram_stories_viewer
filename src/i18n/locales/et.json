@@ -5,30 +5,30 @@
     "keywords": "instagram stories viewer, anonüümne instagram, instagram viewer, story viewer, instagram profiili viewer, instagram postituste viewer, anonüümne surfamine, instagram highlights, instagram stories anonüümselt vaatamine, tasuta instagram viewer, instagram story allalaadija, instagram stories ilma kontota vaatamine, anonüümne instagram surfamine, instagram viewer tööriist, instagram story viewer 2025, ig story viewer, anonüümne instagram viewer"
   },
   "nav": {
-    "home": "Home",
-    "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "home": "Avaleht",
+    "blog": "Blogi",
+    "terms": "Tingimused",
+    "privacy": "Privaatsuspoliitika",
+    "contact": "Kontaktid"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Sirvige Instagramit ilma oma identiteeti paljastamata",
+    "subtitle": "Sisestage soovitud kasutajanimi otsinguväljale kasutades vorminguid username, @username või https://www.instagram.com/username/",
+    "placeholder": "Sisestage Instagrami kasutajanimi...",
+    "button": "Otsi",
+    "popularSearches": "Populaarsed otsingud:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Instagrami sisu juurdepääs",
+    "description": "IGStoryPeek teenus võimaldab praegu juurdepääsu Instagram Stories, postitustele, Highlights ja profiili üksikasjadele. See võimaldab avalikult kättesaadavate Instagrami sisu salajast vaatamist.",
+    "availableContent": "Kättesaadav sisu:",
+    "availableContentDesc": "Stories, postitused, Highlights ja profiili üksikasjad avalikult kättesaadavate kontode kohta.",
+    "privacy": "Privaatsus:",
+    "privacyDesc": "Iga vaatamise seanss jääb anonüümseks - profiili omanikud ei näe teie vaatamise tegevust oma statistikas."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "IGStoryPeek funktsioonid",
+    "intro": "IGStoryPeek pakub tasuta teenust Instagram stories salajaseks vaatamiseks avalikult kättesaadavate kontode kohta, nõudmata autentimist Instagrami platvormil. Kõik teenuses saadaolevad funktsioonid on täiesti tasuta, võimaldavad anonüümset stories vaatamist ja nõuavad ainult Instagrami kasutajanime sisestamist, mida soovite vaadata.",
     "anonymity": {
       "title": "100% anonüümsus",
       "description": "Konto omanik ei näe teie andmeid oma vaatamise statistikas"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Kuidas toimib Instagram Stories privaatne vaatamine?",
+    "step1": "Sisestage profiili kasutajanimi, mida soovite vaadata",
+    "step2": "Sisestatud kasutajanimi võetakse meie süsteemi poolt vastu ja töödeldakse meie automatiseeritud protsessi poolt",
+    "step3": "Meie teenus kuvab profiili lehe koos kõige värsema ja praeguse teabega",
+    "step4": "Instagram stories vaatamised registreeritakse ühe meie teenuse kontode all",
+    "step5": "Teie identiteet jääb täiesti privaatseks",
+    "cta": "Alustage otsimist"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Korduma kippuvad küsimused",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Millisele sisule on võimalik juurde pääseda ja seda salvestada IGStoryPeeki abil?",
+        "answer": "Teenuse võimete kaudu saavad kasutajad anonüümselt salvestada ja vaadata Instagram stories, highlights, otseülekandeid, postitusi ja pilte profiilidelt, mis on Instagramis avalikult kättesaadavad. Kõik mainitud sisu saab salvestada oma seadmesse spetsiaalsete liidesekomponentide kaudu."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Kas Instagrami konto on vajalik teise inimese profiili vaatamiseks?",
+        "answer": "Ei. Kõiki avalikult kättesaadavaid profiile saab vaadata kasutades profiili kasutajanime, sõltumata sellest, kas teil on oma Instagrami konto. Lihtsalt sisestage kasutajanimi avalehe otsikasti ja klõpsake seejärel nuppu \"Otsi\". Pärast klõpsamist suunatakse teid kohe sisu lehele, kui profiilil on saadaval sisu."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Millised seadmed toetavad IGStoryPeek?",
+        "answer": "See teenus töötab kõigi kaasaegsete veebibrauseritega lauaarvutites, sülearvutites, tahvelarvutites ja nutitelefonides (kaasa arvatud praegused mobiilsed operatsioonisüsteemid nagu iPhone, Android). Kui puutute kokku seadme-spetsiifiliste juurdepääsuprobleemidega, palun võtke meiega ühendust ja me lahendame selle kohe."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Kas on võimalik salvestada stories teise inimese profiilist ilma oma identiteeti paljastamata?",
+        "answer": "Jah, kui profiil on avalikult nähtav (see tähendab, et see on avatud ja kättesaadav ilma konto jälgimiseta), saate sellele juurde pääseda sisestades kasutajanime, navigeerides profiili lehele ja sealt salvestades stories, pilte, otseülekandeid, postitusi ja muud kättesaadavat sisu."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Kui palju maksab IGStoryPeeki kasutamine?",
+        "answer": "Iga teenuse funktsioon on täiesti tasuta ja ei vaja registreerumist. Selle tulemusena pole vaja pakkuda isikuandmeid, et saada juurdepääs saadaolevale sisule."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Kuidas saab kasutada salvestatud Instagram stories, fotosid või videosid?",
+        "answer": "Kõik allalaetavad failid on mõeldud ainult vaatamiseks. Instagram stories, fotode ja videote omandiõigused jäävad nende algsete loojate kätte. Soovitame tungivalt mitte kasutada ega muuta neid faile ühelgi põhjusel. Siiski võite koguda ideid, inspiratsiooni või ülevaateid nende materjalide läbivaatamise ja uurimise abil, mis võib aidata teil arendada sisustrateegiat oma tulevaste sotsiaalmeedia postituste jaoks."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Millised failivormingud on toetatud allalaadimiseks Instagram story vaatajas?",
+        "answer": "Videod on saadaval .mp4 vormingus, samas kui fotod on saadaval .jpg ja .jpeg vormingutes. Kõik allalaetav sisu pakutakse maksimaalse kättesaadava kvaliteedi tasemel. See kvaliteeditaseme on piisav vaadatud materjali analüüsiks. Näiteks võib see pakkuda inspiratsiooni teie kontseptsioonidele või aidata arendada sisualust käsitlust oma personaalkonto haldamiseks."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Kuidas saan vaadata salvestatud story?",
+        "answer": "Salvestatud story vaatamiseks ja vaatamiseks kasutage mis tahes praegust videomängijat video stories jaoks või mis tahes pildi vaatamise rakendust foto stories jaoks. Alternatiivselt avage uus brauseri sakk ja lohistage foto või videofail sakki, ja brauser kuvab selle automaatselt õiges formaadis. Pange tähele, et meie teenus sisaldab sisseehitatud funktsionaalsust, mis võimaldab Instagram stories anonüümset vaatamist otse liidese kaudu, valides asjakohased liidese valikud."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Postitused",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "postsCount": "postitust",
+    "followers": "jälgijat",
+    "following": "jälgitakse",
+    "noPosts": "Postitusi pole saadaval.",
+    "noStories": "Stories pole saadaval. Stories on kättesaadavad ainult IGStoryPeek teenuse kaudu.",
+    "noHighlights": "Highlights pole saadaval.",
+    "viewOnInstagram": "Vaata Instagramis",
+    "ago": "tagasi",
+    "videoNotSupported": "Teie brauser ei toeta video märgist."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Palun sisestage kasutajanimi",
+    "pleaseEnterValidUsername": "Palun sisestage kehtiv kasutajanimi",
+    "foundProfile": "Leitud profiil:",
+    "profileNotFound": "Profiili ei leitud",
+    "errorConnecting": "Viga serveriga ühendamisel. Palun proovige uuesti."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
+    "navigation": "Navigeerimine",
+    "tools": "Tööriistad",
+    "disclaimer": "IGStoryPeek ei ole Instagramiga seotud. Me ei hosti Instagram Stories meie serverites, kõik õigused kuuluvad nende omanikele.",
     "instagramVideoDownloader": "Instagram Video Downloader",
     "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "comingSoon": "See funktsioon tuleb varsti!",
+    "alreadyUsing": "Te kasutate juba Instagram Story Viewerit!",
+    "removeProfile": "Eemalda profiil",
+    "removeProfileMessage": "Profiili eemaldamiseks palun võtke ühendust support@igstorypeek.com oma Instagrami kasutajanimega."
   }
 }

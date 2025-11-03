@@ -5,30 +5,30 @@
     "keywords": "instagram stories viewer, anonym instagram, instagram viewer, story viewer, instagram profil viewer, instagram inlägg viewer, anonym surfing, instagram highlights, se instagram stories anonymt, gratis instagram viewer, instagram story nedladdare, se instagram stories utan konto, anonym instagram surfing, instagram viewer verktyg, instagram story viewer 2025, ig story viewer, anonym instagram viewer"
   },
   "nav": {
-    "home": "Home",
+    "home": "Hem",
     "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "terms": "Villkor och bestämmelser",
+    "privacy": "Integritetspolicy",
+    "contact": "Kontakter"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Bläddra i Instagram utan att avslöja din identitet",
+    "subtitle": "Skriv önskat användarnamn i sökfältet med formaten username, @username eller https://www.instagram.com/username/",
+    "placeholder": "Skriv Instagram-användarnamn...",
+    "button": "Sök",
+    "popularSearches": "Populära sökningar:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Åtkomst till Instagram-innehåll",
+    "description": "IGStoryPeek-tjänsten möjliggör för närvarande åtkomst till Instagram Stories, inlägg, Highlights och profildetaljer. Detta möjliggör anonym visning av offentligt tillgängligt Instagram-innehåll.",
+    "availableContent": "Tillgängligt innehåll:",
+    "availableContentDesc": "Stories, inlägg, Highlights och profildetaljer från offentligt tillgängliga konton.",
+    "privacy": "Integritet:",
+    "privacyDesc": "Varje visningssession förblir anonym - profilägare kan inte se din visningsaktivitet i deras statistik."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "IGStoryPeek-funktioner",
+    "intro": "IGStoryPeek erbjuder en gratis tjänst för anonym visning av Instagram stories från offentligt tillgängliga konton utan att kräva autentisering inom Instagram-plattformen. Alla funktioner som finns tillgängliga i tjänsten är helt gratis, möjliggör anonym story-visning och kräver endast att du anger Instagram-användarnamnet du vill visa.",
     "anonymity": {
       "title": "100% anonymitet",
       "description": "Kontoinnehavaren ser inte dina uppgifter i sina visningsstatistik"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Hur fungerar privat visning av Instagram Stories?",
+    "step1": "Skriv användarnamnet för profilen du vill visa",
+    "step2": "Användarnamnet du angav tas emot av vårt system och hanteras av vår automatiserade process",
+    "step3": "Vår tjänst visar profilsidan med den senaste och aktuella informationen",
+    "step4": "Instagram story-visningar registreras under ett av våra tjänstekonton",
+    "step5": "Din identitet förblir helt privat",
+    "cta": "Börja söka"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Vanliga frågor",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Vilket innehåll kan nås och sparas med IGStoryPeek?",
+        "answer": "Genom tjänstens funktioner kan användare anonymt spara och visa Instagram stories, highlights, live-streams, inlägg och bilder från profiler som är offentligt tillgängliga på Instagram. Allt nämnt innehåll kan sparas till din enhet genom dedikerade gränssnittskomponenter."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Krävs ett Instagram-konto för att visa en annan persons profil?",
+        "answer": "Nej. Alla offentligt tillgängliga profiler kan visas med profilens användarnamn, oavsett om du har ditt eget Instagram-konto. Skriv bara användarnamnet i sökrutan på startsidan och klicka sedan på knappen \"Sök\". När du klickar kommer du omedelbart att omdirigeras till innehållssidan, förutsatt att profilen har tillgängligt innehåll."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Vilka enheter stöder IGStoryPeek?",
+        "answer": "Denna tjänst fungerar med alla moderna webbläsare på stationära datorer, bärbara datorer, surfplattor och mobiltelefoner (inklusive nuvarande mobiloperativsystem som iPhone, Android). Om du stöter på några enhetsspecifika åtkomstproblem, vänligen kontakta oss så åtgärdar vi det omedelbart."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Är det möjligt att spara stories från en annan persons profil utan att avslöja min identitet?",
+        "answer": "Ja, om profilen är offentligt synlig (vilket betyder att den är öppen och tillgänglig utan att följa kontot), kan du komma åt den genom att ange användarnamnet, navigera till profilsidan och därifrån spara stories, bilder, live-sändningar, inlägg och annat tillgängligt innehåll."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Hur mycket kostar det att använda IGStoryPeek?",
+        "answer": "Varje funktion i tjänsten är helt gratis och kräver ingen registrering. Som ett resultat behövs ingen personlig information tillhandahållas för att komma åt det tillgängliga innehållet."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Hur kan sparade Instagram stories, foton eller videor användas?",
+        "answer": "Alla nedladdningsbara filer tillhandahålls endast i visningssyfte. Äganderätter för Instagram stories, foton och videor förblir hos deras ursprungliga skapare. Vi avråder starkt från att använda eller ändra dessa filer av någon anledning. Ändå kan du samla idéer, inspiration eller insikter genom att granska och undersöka dessa material, vilket kan hjälpa dig att utveckla en innehållsstrategi för dina framtida inlägg i sociala medier."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Vilka filformat stöds för nedladdningar i Instagram story-viewern?",
+        "answer": "Videor tillhandahålls i .mp4-format, medan foton är tillgängliga i .jpg och .jpeg-format. Allt nedladdningsbart innehåll erbjuds på den högsta kvalitetsnivån som kan erhållas. Denna kvalitetsnivå är tillräcklig för att analysera det visade materialet. Till exempel kan det ge inspiration för dina koncept eller hjälpa till att utveckla en innehållsmetod för att hantera ditt personliga konto."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Hur kan jag visa en sparad story?",
+        "answer": "För att komma åt och titta på en sparad story, använd vilken videospelare som helst för videostories, eller vilket bildvisningsprogram som helst för fotostories. Alternativt, öppna en ny webbläsarflik och dra foto- eller videofilen till fliken, och webbläsaren visar automatiskt den i rätt format. Observera att vår tjänst inkluderar inbyggd funktionalitet som möjliggör anonym visning av Instagram stories direkt via gränssnittet genom att välja relevanta gränssnittsalternativ."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Inlägg",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "postsCount": "inlägg",
+    "followers": "följare",
+    "following": "följer",
+    "noPosts": "Inga inlägg tillgängliga.",
+    "noStories": "Inga stories tillgängliga. Stories är endast tillgängliga via IGStoryPeek-tjänsten.",
+    "noHighlights": "Inga highlights tillgängliga.",
+    "viewOnInstagram": "Visa på Instagram",
+    "ago": "sedan",
+    "videoNotSupported": "Din webbläsare stöder inte video-taggen."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Vänligen ange ett användarnamn",
+    "pleaseEnterValidUsername": "Vänligen ange ett giltigt användarnamn",
+    "foundProfile": "Profil hittad:",
+    "profileNotFound": "Profil hittades inte",
+    "errorConnecting": "Fel vid anslutning till servern. Vänligen försök igen."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
+    "navigation": "Navigering",
+    "tools": "Verktyg",
+    "disclaimer": "IGStoryPeek är inte kopplad till Instagram. Vi hostar inte Instagram Stories på våra servrar, alla rättigheter tillhör deras ägare.",
     "instagramVideoDownloader": "Instagram Video Downloader",
     "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "comingSoon": "Denna funktion kommer snart!",
+    "alreadyUsing": "Du använder redan Instagram Story Viewer!",
+    "removeProfile": "Ta bort profil",
+    "removeProfileMessage": "För att ta bort din profil, vänligen kontakta support@igstorypeek.com med ditt Instagram-användarnamn."
   }
 }

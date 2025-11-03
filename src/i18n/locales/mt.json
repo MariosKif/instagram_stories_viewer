@@ -7,28 +7,28 @@
   "nav": {
     "home": "Home",
     "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "terms": "Termini u Kondizzjonijiet",
+    "privacy": "Politika ta' Privatizza",
+    "contact": "Kuntatti"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Ibbrawżja Instagram mingħajr ma tkaxkar l-identità tiegħek",
+    "subtitle": "Ikteb l-isem tal-utent mixtieq fil-qasam tat-tfittxija b'użu ta' formati username, @username jew https://www.instagram.com/username/",
+    "placeholder": "Ikteb isem tal-utent Instagram...",
+    "button": "Fittex",
+    "popularSearches": "Fittexijiet popolari:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Aċċess għall-Kontenut ta' Instagram",
+    "description": "Is-servizz IGStoryPeek bħalissa jippermetti aċċess għal Instagram Stories, Postijiet, Highlights, u dettalji tal-profil. Dan jippermetti li taraw kontenut ta' Instagram disponibbli pubblikament mingħajr ma tkun magħrufa l-identità.",
+    "availableContent": "Kontenut disponibbli:",
+    "availableContentDesc": "Stories, Postijiet, Highlights, u dettalji tal-profil minn kontijiet aċċessibbli pubblikament.",
+    "privacy": "Privatizza:",
+    "privacyDesc": "Kull sessjoni ta' għajnuna tibqa' anonima - is-sidien tal-profili ma jistgħux jaraw l-attività tal-għajnuna tiegħek fl-istatistiċi tagħhom."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "Karatteristiċi ta' IGStoryPeek",
+    "intro": "IGStoryPeek joffri servizz b'xejn biex tara stories ta' Instagram mingħajr ma tkun magħrufa l-identità minn kontijiet aċċessibbli pubblikament mingħajr ma tkun teħtieğ autentikazzjoni fil-pjattaforma ta' Instagram. Il-karatteristiċi kollha disponibbli fis-servizz huma kompletament b'xejn, jippermettu li tara stories b'mod anonimu, u jgħodu biss li tkun daħħalt l-isem tal-utent Instagram li tixtieq tara.",
     "anonymity": {
       "title": "100% anonimità",
       "description": "Il sid tad-cont mhux qed jara d-dejta tiegħek fl-istatistiċi tal-veduti tiegħu"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Kif taħdem il-għajnuna privata ta' Instagram Stories?",
+    "step1": "Ikteb l-isem tal-utent tal-profil li tixtieq tara",
+    "step2": "L-isem tal-utent li daħħalt jintlaħaq mis-sistema tagħna u jitmexxija mill-proċess awtomatizzat tagħna",
+    "step3": "Is-servizz tagħna juri l-paġna tal-profil, turi l-aktar informazzjoni reċenti u kurrenti",
+    "step4": "Il-veduti ta' Instagram story jitqiegħdu taħt waħda minn kontijiet tas-servizz tagħna",
+    "step5": "L-identità tiegħek tibqa' kompletament privata",
+    "cta": "Ibda tfittex"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Mistoqsijiet li jintalbu spiss",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Liema kontenut jista' jkun aċċessat u jitħalla użat IGStoryPeek?",
+        "answer": "Permezz tal-kapaċitajiet tas-servizz, l-utenti jistgħu jisalvaw u jirgħu stories ta' Instagram, highlights, live streams, postijiet, u stampi minn profili li huma aċċessibbli pubblikament fuq Instagram b'mod anonimu. Il-kontenut kollu msemmi jista' jitħalla fuq it-tagħmir tiegħek permezz ta' komponenti dedikati tal-interface."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Hemm bżonn kont Instagram biex tara profil ta' persuna oħra?",
+        "answer": "Le. Kwalunkwe profili aċċessibbli pubblikament jistgħu jidhru bl-użu tal-isem tal-utent tal-profil, irrispettivament jekk għandekx kont Instagram tiegħek. Semplicement ikteb l-isem tal-utent fil-kaxxa tat-tfittxija fuq il-homepage, imbagħad ikklikkja l-buttuna \"Fittex\". Ladarba ikklikkjat, inti se tkun immexxija immedjatament għall-paġna tal-kontenut, sakemm il-profil ikollu kontenut disponibbli."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Liema apparati jappoġġjaw IGStoryPeek?",
+        "answer": "Dan is-servizz jaħdem ma' kull browser web kontemporanju fuq kompjuters desktop, laptops, tablets, u telefowns mobbli (inkluż sistemi operattivi mobbli kurrenti bħal iPhone, Android). Jekk tikkunfronta kwalunkwe problemi ta' aċċess speċifiċi għal-apparat, jekk jogħġbok ikkuntattjana u aħna nindirizzawh immedjatament."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Huwa possibbli li tisalva stories minn profil ta' persuna oħra mingħajr ma tkaxkar l-identità tiegħi?",
+        "answer": "Iva, jekk il-profil huwa pubblikament viżibbli (jiġifieri huwa miftuħ u aċċessibbli mingħajr ma ssegwi l-kont), tista' taċċessah billi daħħal l-isem tal-utent, timnaviga għall-paġna tal-profil, u minn hemm tisalva stories, stampi, trasmissjonijiet live, postijiet, u kontenut aċċessibbli ieħor."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Kemm tiswa li tuża IGStoryPeek?",
+        "answer": "Kull karatteristika tas-servizz hija kompletament b'xejn u ma teħtieğx reġistrazzjoni. Bħala riżultat, l-ebda informazzjoni personali ma għandha tkun mogħtija biex taċċessa l-kontenut disponibbli."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Kif jistgħu jintużaw stories, ritratti, jew videos ta' Instagram salvati?",
+        "answer": "Il-files kollha li jistgħu jitniżżlu huma mogħtija għall-iskop ta' għajnuna biss. Id-drittijiet ta' proprjetà għal stories, ritratti, u videos ta' Instagram jibqgħu mal-ħallieq oriġinali tagħhom. Aħna nwassru ħafna kontra l-użu jew it-tibdil ta' dawn il-files għal kwalunkwe raġuni. Madankollu, tista' tiġbor ideat, ispirazzjoni, jew għarfien billi tirrevedi u ttejjeb dawn il-materjali, li jistgħu jgħinuk żviluppa strateġija ta' kontenut għall-postijiet futuri tiegħek fuq soċjali media."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Liema formati ta' files huma appoġġjati għall-tniżżil fuq il-viewer ta' Instagram story?",
+        "answer": "Il-videos huma mogħtija fil-format .mp4, filwaqt li r-ritratti huma disponibbli fil-formati .jpg u .jpeg. Il-kontenut kollu li jista' jitniżżel huwa offrut fl-aktar livell ta' kwalità li jista' jinkiseb. Dan il-livell ta' kwalità huwa biżżejjed biex tanalizza l-materjal magħruf. Pereżempju, jista' jagħti ispirazzjoni għall-kunċetti tiegħek jew jgħin fl-iżvilupp ta' approċċ ta' kontenut biex timmaniġġja l-kont personali tiegħek."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Kif nista' nara story salvata?",
+        "answer": "Biex taċċessa u tara story salvata, uża kwalunkwe video player kurrenti għal video stories, jew kwalunkwe applikazzjoni ta' għajnuna tal-immaġni għal photo stories. Alternattivament, iftaħ tab ġdid tal-browser u żżejjen il-file tar-ritratt jew tal-video fit-tab, u l-browser awtomatikament juriha fil-format korrett. Jekk jogħġbok innota li s-servizz tagħna jinkludi funzjonalità integrata li tippermetti l-għajnuna anonima ta' stories ta' Instagram direttament permezz tal-interface billi tagħżel l-għażliet rilevanti tal-interface."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Postijiet",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
+    "postsCount": "postijiet",
     "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "following": "segwituri",
+    "noPosts": "L-ebda postijiet disponibbli.",
+    "noStories": "L-ebda stories disponibbli. Stories huma aċċessibbli biss permezz tas-servizz IGStoryPeek.",
+    "noHighlights": "L-ebda highlights disponibbli.",
+    "viewOnInstagram": "Ara fuq Instagram",
+    "ago": "ilu",
+    "videoNotSupported": "Il-browser tiegħek ma jappoġġjax it-tag tal-video."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Jekk jogħġbok daħħal isem tal-utent",
+    "pleaseEnterValidUsername": "Jekk jogħġbok daħħal isem tal-utent validu",
+    "foundProfile": "Profil instab:",
+    "profileNotFound": "Profil ma nstabx",
+    "errorConnecting": "Żball fit-tqabbad mas-server. Jekk jogħġbok erġa' pprova."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
-    "instagramVideoDownloader": "Instagram Video Downloader",
-    "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "navigation": "Navigazzjoni",
+    "tools": "Għodod",
+    "disclaimer": "IGStoryPeek mhux konness ma' Instagram. Aħna ma nhostjawx Instagram Stories fuq is-servers tagħna, id-drittijiet kollha jappartenu lis-sidien tagħhom.",
+    "instagramVideoDownloader": "Niżżel Video ta' Instagram",
+    "instagramStoryViewer": "Viewer ta' Instagram Story",
+    "comingSoon": "Din il-karatteristika qed ġejja dalwaqt!",
+    "alreadyUsing": "Inti diġà qed tuża l-Instagram Story Viewer!",
+    "removeProfile": "Neħħi l-profil",
+    "removeProfileMessage": "Biex ineħħi l-profil tiegħek, jekk jogħġbok ikkuntattja support@igstorypeek.com bl-isem tal-utent Instagram tiegħek."
   }
 }

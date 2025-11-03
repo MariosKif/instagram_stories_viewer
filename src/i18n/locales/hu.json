@@ -5,30 +5,30 @@
     "keywords": "instagram stories viewer, névtelen instagram, instagram viewer, story viewer, instagram profil viewer, instagram bejegyzések viewer, névtelen böngészés, instagram highlights, instagram stories névtelenül megtekintése, ingyenes instagram viewer, instagram story letöltő, instagram stories fiók nélkül megtekintése, névtelen instagram böngészés, instagram viewer eszköz, instagram story viewer 2025, ig story viewer, névtelen instagram viewer"
   },
   "nav": {
-    "home": "Home",
+    "home": "Kezdőlap",
     "blog": "Blog",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contacts"
+    "terms": "Felhasználási feltételek",
+    "privacy": "Adatvédelmi irányelvek",
+    "contact": "Kapcsolatok"
   },
   "hero": {
-    "title": "Browse Instagram without revealing your identity",
-    "subtitle": "Type the desired username in the search field using formats username, @username or https://www.instagram.com/username/",
-    "placeholder": "Type Instagram username...",
-    "button": "Search",
-    "popularSearches": "Trending searches:"
+    "title": "Böngésszen Instagramon anélkül, hogy felfedné személyazonosságát",
+    "subtitle": "Gépelje be a kívánt felhasználónevet a keresőmezőbe a következő formátumokkal: username, @username vagy https://www.instagram.com/username/",
+    "placeholder": "Gépelje be az Instagram felhasználónevet...",
+    "button": "Keresés",
+    "popularSearches": "Népszerű keresések:"
   },
   "notice": {
-    "title": "Instagram Content Access",
-    "description": "The IGStoryPeek service currently enables access to Instagram Stories, Posts, Highlights, and profile details. This enables undisclosed viewing of publicly available Instagram content.",
-    "availableContent": "Available content:",
-    "availableContentDesc": "Stories, Posts, Highlights, and profile details from publicly accessible accounts.",
-    "privacy": "Privacy:",
-    "privacyDesc": "Every viewing session remains anonymous - profile owners cannot see your viewing activity in their statistics."
+    "title": "Instagram tartalom hozzáférés",
+    "description": "Az IGStoryPeek szolgáltatás jelenleg hozzáférést biztosít az Instagram Stories, Bejegyzések, Highlights és profil adatokhoz. Ez lehetővé teszi a nyilvánosan elérhető Instagram tartalom titkos megtekintését.",
+    "availableContent": "Elérhető tartalom:",
+    "availableContentDesc": "Stories, Bejegyzések, Highlights és profil adatok nyilvánosan elérhető fiókokból.",
+    "privacy": "Adatvédelem:",
+    "privacyDesc": "Minden megtekintési munkamenet névtelen marad - a profil tulajdonosai nem láthatják megtekintési tevékenységét statisztikáikban."
   },
   "features": {
-    "title": "IGStoryPeek Features",
-    "intro": "IGStoryPeek offers a complimentary service for undisclosed viewing of Instagram stories from publicly accessible accounts without requiring authentication within the Instagram platform. All features available on the service are entirely free, enable anonymous story viewing, and only require entering the Instagram username you wish to view.",
+    "title": "IGStoryPeek funkciók",
+    "intro": "Az IGStoryPeek ingyenes szolgáltatást kínál az Instagram stories titkos megtekintéséhez nyilvánosan elérhető fiókokból, anélkül hogy hitelesítésre lenne szükség az Instagram platformon belül. A szolgáltatáson elérhető összes funkció teljesen ingyenes, lehetővé teszi a névtelen story megtekintést, és csak az Instagram felhasználónév megadását igényli, amelyet meg szeretne tekinteni.",
     "anonymity": {
       "title": "100% anonimitás",
       "description": "A fiók tulajdonosa nem látja az adatait a megtekintési statisztikáiban"
@@ -43,81 +43,81 @@
     }
   },
   "howItWorks": {
-    "title": "How does private viewing of Instagram Stories work?",
-    "step1": "Type the username of the profile you want to view",
-    "step2": "The username you entered is received by our system and handled by our automated process",
-    "step3": "Our service displays the profile page, showing the most recent and current information",
-    "step4": "Instagram story views are registered under one of our service accounts",
-    "step5": "Your identity stays completely private",
-    "cta": "Begin searching"
+    "title": "Hogyan működik az Instagram Stories privát megtekintése?",
+    "step1": "Gépelje be annak a profilnak a felhasználónevét, amelyet meg szeretne tekinteni",
+    "step2": "A megadott felhasználónevet a rendszerünk megkapja és automatizált folyamatunk feldolgozza",
+    "step3": "Szolgáltatásunk megjeleníti a profil oldalt a legfrissebb és aktuális információkkal",
+    "step4": "Az Instagram story megtekintések egyik szolgáltatási fiókunk alatt lesznek regisztrálva",
+    "step5": "Személyazonossága teljesen privát marad",
+    "cta": "Kezdje el a keresést"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Gyakran ismételt kérdések",
     "items": [
       {
-        "question": "What content can be accessed and saved using IGStoryPeek?",
-        "answer": "Through the service's capabilities, users can anonymously save and view Instagram stories, highlights, live streams, posts, and images from profiles that are publicly accessible on Instagram. All mentioned content can be saved to your device through dedicated interface components."
+        "question": "Milyen tartalomhoz lehet hozzáférni és mit lehet menteni az IGStoryPeek használatával?",
+        "answer": "A szolgáltatás képességein keresztül a felhasználók névtelenül menthetik és megtekinthetik az Instagram stories, highlights, élő streameket, bejegyzéseket és képeket olyan profilokból, amelyek nyilvánosan elérhetőek az Instagramon. Minden említett tartalom menthető az eszközére dedikált felületi komponenseken keresztül."
       },
       {
-        "question": "Is an Instagram account required to view another person's profile?",
-        "answer": "No. Any publicly accessible profiles can be viewed using the profile's username, regardless of whether you have your own Instagram account. Simply type the username in the search box on the homepage, then click the \"Search\" button. Once clicked, you'll be redirected to the content page immediately, provided the profile has available content."
+        "question": "Szükséges-e Instagram fiók egy másik személy profiljának megtekintéséhez?",
+        "answer": "Nem. Bármely nyilvánosan elérhető profil megtekinthető a profil felhasználónevével, függetlenül attól, hogy van-e saját Instagram fiókja vagy sem. Egyszerűen gépelje be a felhasználónevet a kezdőlap keresőmezőjébe, majd kattintson a \"Keresés\" gombra. A kattintás után azonnal átirányítjuk a tartalom oldalra, feltéve hogy a profilnak van elérhető tartalma."
       },
       {
-        "question": "Which devices support IGStoryPeek?",
-        "answer": "This service works with all contemporary web browsers on desktop computers, laptops, tablets, and mobile phones (including current mobile operating systems like iPhone, Android). Should you encounter any device-specific access issues, please contact us and we'll address it promptly."
+        "question": "Mely eszközök támogatják az IGStoryPeek-et?",
+        "answer": "Ez a szolgáltatás minden modern webböngészővel működik asztali számítógépeken, laptopokon, tableteken és mobiltelefonokon (beleértve a jelenlegi mobil operációs rendszereket, mint az iPhone, Android). Ha eszközspecifikus hozzáférési problémába ütközik, kérjük, lépjen velünk kapcsolatba, és azonnal foglalkozunk vele."
       },
       {
-        "question": "Is it possible to save stories from another person's profile without revealing my identity?",
-        "answer": "Yes, if the profile is publicly visible (meaning it's open and accessible without following the account), you can access it by entering the username, navigate to the profile page, and from there save stories, images, live broadcasts, posts, and other accessible content."
+        "question": "Lehetséges-e stories mentése egy másik személy profiljáról személyazonossága felfedése nélkül?",
+        "answer": "Igen, ha a profil nyilvánosan látható (vagyis nyitott és elérhető anélkül, hogy követné a fiókot), hozzáférhet hozzá a felhasználónév megadásával, navigálhat a profil oldalra, és onnan menthet stories, képeket, élő közvetítéseket, bejegyzéseket és egyéb elérhető tartalmat."
       },
       {
-        "question": "How much does it cost to use IGStoryPeek?",
-        "answer": "Every feature of the service is completely free and requires no registration. As a result, no personal information needs to be provided to access the available content."
+        "question": "Mennyibe kerül az IGStoryPeek használata?",
+        "answer": "A szolgáltatás minden funkciója teljesen ingyenes és nem igényel regisztrációt. Ennek következtében nincs szükség személyes adatok megadására a rendelkezésre álló tartalom eléréséhez."
       },
       {
-        "question": "How can saved Instagram stories, photos, or videos be utilized?",
-        "answer": "All downloadable files are provided for viewing purposes only. Ownership rights for Instagram stories, photos, and videos remain with their original creators. We strongly discourage using or altering these files for any reason. Nevertheless, you may gather ideas, inspiration, or insights by reviewing and examining these materials, which could help you develop a content strategy for your future social media posts."
+        "question": "Hogyan lehet használni a mentett Instagram stories, fotók vagy videók használatát?",
+        "answer": "Az összes letölthető fájl csak megtekintési célokra van biztosítva. Az Instagram stories, fotók és videók tulajdonjoga az eredeti készítőiknél marad. Erősen lebeszéljük ezen fájlok bármilyen okból történő használatát vagy módosítását. Ennek ellenére ötleteket, inspirációt vagy betekintéseket gyűjthet ezen anyagok áttekintésével és vizsgálatával, ami segíthet tartalomstratégia kialakításában a jövőbeli közösségi média bejegyzéseihez."
       },
       {
-        "question": "Which file formats are supported for downloads on the Instagram story viewer?",
-        "answer": "Videos are provided in .mp4 format, while photos are available in .jpg and .jpeg formats. All downloadable content is offered at the maximum quality level obtainable. This quality level is sufficient to analyze the viewed material. For instance, it can provide inspiration for your concepts or assist in developing a content approach for managing your personal account."
+        "question": "Mely fájlformátumokat támogatja az Instagram story megjelenítő letöltéseihez?",
+        "answer": "A videók .mp4 formátumban kerülnek biztosításra, míg a fotók .jpg és .jpeg formátumban érhetők el. Minden letölthető tartalom a maximális elérhető minőségi szinten kerül kínálásra. Ez a minőségi szint elegendő a megtekintett anyag elemzéséhez. Például inspirációt nyújthat koncepcióihoz vagy segíthet tartalom megközelítés kialakításában személyes fiókja kezeléséhez."
       },
       {
-        "question": "How can I view a saved story?",
-        "answer": "To access and watch a saved story, use any current video player for video stories, or any image viewing application for photo stories. Alternatively, open a new browser tab and drag the photo or video file into the tab, and the browser will automatically display it in the correct format. Please note that our service includes built-in functionality enabling anonymous viewing of Instagram stories directly through the interface by selecting the relevant interface options."
+        "question": "Hogyan tekinthetem meg egy mentett story-t?",
+        "answer": "Egy mentett story eléréséhez és megtekintéséhez használjon bármilyen aktuális videolejátszót a videó stories-hez, vagy bármilyen képnézegető alkalmazást a fényképes stories-hez. Alternatívaként nyisson meg egy új böngésző fület és húzza oda a fotó vagy videó fájlt, és a böngésző automatikusan megjeleníti azt a megfelelő formátumban. Kérjük, vegye figyelembe, hogy szolgáltatásunk beépített funkciót tartalmaz, amely lehetővé teszi az Instagram stories névtelen megtekintését közvetlenül a felületen keresztül a releváns felületi opciók kiválasztásával."
       }
     ]
   },
   "profile": {
-    "posts": "Posts",
+    "posts": "Bejegyzések",
     "stories": "Stories",
     "highlights": "Highlights",
-    "postsCount": "posts",
-    "followers": "followers",
-    "following": "following",
-    "noPosts": "No posts available.",
-    "noStories": "No stories available. Stories are only accessible through IGStoryPeek service.",
-    "noHighlights": "No highlights available.",
-    "viewOnInstagram": "View on Instagram",
-    "ago": "ago",
-    "videoNotSupported": "Your browser does not support the video tag."
+    "postsCount": "bejegyzés",
+    "followers": "követő",
+    "following": "követett",
+    "noPosts": "Nincs elérhető bejegyzés.",
+    "noStories": "Nincs elérhető story. A Stories csak az IGStoryPeek szolgáltatáson keresztül érhető el.",
+    "noHighlights": "Nincs elérhető highlights.",
+    "viewOnInstagram": "Megtekintés Instagramon",
+    "ago": "ezelőtt",
+    "videoNotSupported": "A böngészője nem támogatja a videó címkét."
   },
   "messages": {
-    "pleaseEnterUsername": "Please enter a username",
-    "pleaseEnterValidUsername": "Please enter a valid username",
-    "foundProfile": "Found profile:",
-    "profileNotFound": "Profile not found",
-    "errorConnecting": "Error connecting to server. Please try again."
+    "pleaseEnterUsername": "Kérjük, adjon meg egy felhasználónevet",
+    "pleaseEnterValidUsername": "Kérjük, adjon meg egy érvényes felhasználónevet",
+    "foundProfile": "Profil megtalálva:",
+    "profileNotFound": "Profil nem található",
+    "errorConnecting": "Hiba a szerverhez való csatlakozáskor. Kérjük, próbálja újra."
   },
   "footer": {
-    "navigation": "Navigation",
-    "tools": "Tools",
-    "disclaimer": "IGStoryPeek is not connected with Instagram. We do not host Instagram Stories on our servers, all rights belong to their owners.",
-    "instagramVideoDownloader": "Instagram Video Downloader",
-    "instagramStoryViewer": "Instagram Story Viewer",
-    "comingSoon": "This feature is coming soon!",
-    "alreadyUsing": "You are already using the Instagram Story Viewer!",
-    "removeProfile": "Remove profile",
-    "removeProfileMessage": "To remove your profile, please contact support@igstorypeek.com with your Instagram username."
+    "navigation": "Navigáció",
+    "tools": "Eszközök",
+    "disclaimer": "Az IGStoryPeek nincs kapcsolatban az Instagrammal. Nem tárolunk Instagram Stories-okat szervereinken, minden jog a tulajdonosoké.",
+    "instagramVideoDownloader": "Instagram Videó Letöltő",
+    "instagramStoryViewer": "Instagram Story Megjelenítő",
+    "comingSoon": "Ez a funkció hamarosan elérhető!",
+    "alreadyUsing": "Már használja az Instagram Story Megjelenítőt!",
+    "removeProfile": "Profil eltávolítása",
+    "removeProfileMessage": "Profilja eltávolításához kérjük, lépjen kapcsolatba a support@igstorypeek.com címmel Instagram felhasználónevével."
   }
 }
