@@ -9,7 +9,7 @@ const cleanPath = currentPath === '' ? '/' : currentPath;
 ---
 
 <div class="language-selector">
-  <select id="languageSelect" onchange="handleLanguageChange(this.value)">
+  <select id="languageSelect">
     {allLanguages.map((lang) => (
       <option value={lang} selected={lang === currentLang}>
         {languages[lang].name}
@@ -18,8 +18,9 @@ const cleanPath = currentPath === '' ? '/' : currentPath;
   </select>
 </div>
 
-<script>
-  function handleLanguageChange(lang: string) {
+<script is:inline>
+  // Make function globally available
+  window.handleLanguageChange = function(lang) {
     // Set cookie to remember preference (client-side cookie, will be validated server-side on next request)
     const expiryDate = new Date();
     expiryDate.setFullYear(expiryDate.getFullYear() + 1); // 1 year from now
@@ -29,31 +30,82 @@ const cleanPath = currentPath === '' ? '/' : currentPath;
     document.cookie = `preferred-language=${lang}; path=/; expires=${expiryDate.toUTCString()}; SameSite=Lax${secureFlag}`;
     
     const currentPath = window.location.pathname;
-    const basePath = currentPath.replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/, '$1' === 'en' ? '/' : '/');
-    const cleanPath = basePath === '' ? '/' : basePath.replace(/^\/\//, '/');
     
-    let newPath;
-    if (lang === 'en') {
-      newPath = cleanPath;
-    } else {
-      newPath = `/${lang}${cleanPath}`;
+    // Extract the base path (remove language prefix if present)
+    const langCodes = ['en', 'de', 'fr', 'es', 'it', 'nl', 'pt', 'pl', 'ro', 'cs', 'bg', 'hr', 'da', 'et', 'fi', 'el', 'hu', 'ga', 'lv', 'lt', 'mt', 'sk', 'sl', 'sv'];
+    let basePath = currentPath;
+    
+    // Remove language prefix from path
+    for (const code of langCodes) {
+      if (basePath.startsWith(`/${code}/`)) {
+        basePath = basePath.substring(code.length + 1);
+        break;
+      } else if (basePath === `/${code}`) {
+        basePath = '/';
+        break;
+      }
     }
     
-    // Remove trailing slash except for root
-    newPath = newPath === '/' ? '/' : newPath.replace(/\/$/, '');
+    // Ensure path starts with /
+    if (!basePath.startsWith('/')) {
+      basePath = '/' + basePath;
+    }
     
+    // Build new path with language
+    let newPath;
+    if (lang === 'en') {
+      // For English, use root path (no language prefix)
+      newPath = basePath === '/' ? '/' : basePath;
+      // Remove trailing slash for non-root paths
+      if (newPath !== '/' && newPath.endsWith('/')) {
+        newPath = newPath.slice(0, -1);
+      }
+    } else {
+      // For other languages, add language prefix
+      if (basePath === '/') {
+        newPath = `/${lang}/`;
+      } else {
+        // Ensure path has leading slash and add language prefix
+        newPath = `/${lang}${basePath}`;
+      }
+    }
+    
+    // Navigate to new path
     window.location.href = newPath;
-  }
+  };
   
-  // Update select when page loads
+  // Set up event listener when page loads
   document.addEventListener('DOMContentLoaded', function() {
-    const currentPath = window.location.pathname;
-    const langMatch = currentPath.match(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/);
-    const currentLang = langMatch ? langMatch[1] : 'en';
-    const select = document.getElementById('languageSelect') as HTMLSelectElement;
+    const select = document.getElementById('languageSelect');
     if (select) {
+      // Set up change event listener
+      select.addEventListener('change', function() {
+        window.handleLanguageChange(this.value);
+      });
+      
+      // Update select value to match current language
+      const currentPath = window.location.pathname;
+      const langMatch = currentPath.match(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/);
+      const currentLang = langMatch ? langMatch[1] : 'en';
       select.value = currentLang;
     }
   });
+  
+  // Also handle immediate execution if DOM is already loaded
+  if (document.readyState === 'loading') {
+    // DOMContentLoaded will fire, already handled above
+  } else {
+    // DOM already loaded, set up immediately
+    const select = document.getElementById('languageSelect');
+    if (select) {
+      select.addEventListener('change', function() {
+        window.handleLanguageChange(this.value);
+      });
+      const currentPath = window.location.pathname;
+      const langMatch = currentPath.match(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)(\/|$)/);
+      const currentLang = langMatch ? langMatch[1] : 'en';
+      select.value = currentLang;
+    }
+  }
 </script>
 
