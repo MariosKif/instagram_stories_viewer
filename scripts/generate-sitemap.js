@@ -23,7 +23,6 @@ let blogPosts = [];
 
 if (fs.existsSync(blogDir)) {
   const blogFiles = fs.readdirSync(blogDir).filter(file => file.endsWith('.md'));
-  console.log(`Found ${blogFiles.length} blog files:`, blogFiles);
   blogPosts = blogFiles.map(file => {
     const filePath = path.join(blogDir, file);
     const content = fs.readFileSync(filePath, 'utf-8');
