@@ -10,25 +10,25 @@ const { lang = 'en', measurementId = 'G-1WVG6TLBCZ' } = Astro.props;
 
 <!-- Google tag (gtag.js) -->
 <script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
-<script>
+<script define:vars={{ measurementId, lang }}>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   // Enhanced configuration
-  gtag('config', '${measurementId}', {
+  gtag('config', measurementId, {
     send_page_view: true,
     allow_google_signals: true,
     allow_ad_personalization_signals: true,
     anonymize_ip: true, // Privacy compliance
     // Custom dimensions for language tracking
     custom_map: {
-      'dimension1': '${lang}'
+      'dimension1': lang
     }
   });
 
   // Set language dimension
-  gtag('set', { 'dimension1': '${lang}' });
+  gtag('set', { 'dimension1': lang });
 </script>
 
 <!-- Enhanced tracking functions -->
