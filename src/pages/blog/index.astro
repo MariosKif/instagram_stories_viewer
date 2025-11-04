@@ -1,0 +1,385 @@
+---
+import { getCollection } from 'astro:content';
+import { getTranslation, type Language } from '../../i18n/utils';
+import LanguageSwitcher from '../../components/LanguageSwitcher.astro';
+import HreflangTags from '../../components/HreflangTags.astro';
+import StructuredData from '../../components/StructuredData.astro';
+import Analytics from '../../components/Analytics.astro';
+
+// English-only blog, but still support language routing for future
+const lang: Language = 'en';
+const t = await getTranslation(lang);
+
+// Get all blog posts
+const allPosts = await getCollection('blog');
+const posts = allPosts.sort((a, b) => 
+  b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+const currentPath = '/blog';
+---
+
+<html lang={lang}>
+  <head>
+    <Analytics lang={lang} />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{t.blog?.title || 'Blog'} - IGStoryPeek</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://www.igstorypeek.com/blog" />
+    <meta name="description" content={t.blog?.description || 'Latest articles and updates from IGStoryPeek'} />
+    
+    <HreflangTags lang={lang} path={currentPath} />
+    <StructuredData type="website" lang={lang} />
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"></noscript>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <a href="/" style="text-decoration: none; color: white;"><h1>IGStoryPeek</h1></a>
+          </div>
+          <LanguageSwitcher lang={lang} />
+        </div>
+      </div>
+    </header>
+
+    <main class="main blog-main">
+      <div class="container">
+        <h1 class="blog-title">{t.blog?.title || 'Blog'}</h1>
+        <p class="blog-description">{t.blog?.description || 'Latest articles and updates'}</p>
+
+        <!-- Blog Posts Grid -->
+        <div class="blog-posts">
+          {posts.length > 0 ? (
+            posts.map(post => (
+              <article class="blog-post-card">
+                {post.data.image && (
+                  <div class="post-image">
+                    <img src={post.data.image} alt={post.data.title} />
+                  </div>
+                )}
+                <div class="post-content">
+                  <div class="post-meta">
+                    <span class="post-date">
+                      {post.data.pubDate.toLocaleDateString('en-US', { 
+                        year: 'numeric', 
+                        month: 'long', 
+                        day: 'numeric' 
+                      })}
+                    </span>
+                    {post.data.author && (
+                      <span class="post-author">{t.blog?.by || 'By'} {post.data.author}</span>
+                    )}
+                  </div>
+                  <h2><a href={`/blog/${post.slug}`}>{post.data.title}</a></h2>
+                  <p class="post-excerpt">{post.data.description}</p>
+                  <a href={`/blog/${post.slug}`} class="read-more">
+                    {t.blog?.readMore || 'Read More'} →
+                  </a>
+                </div>
+              </article>
+            ))
+          ) : (
+            <p class="no-posts">{t.blog?.noPosts || 'No posts found'}</p>
+          )}
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>IGStoryPeek</h3>
+          </div>
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>{t.nav.navigation}</h4>
+              <ul>
+                <li><a href="/">{t.nav.home}</a></li>
+                <li><a href="/blog">{t.nav.blog}</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="/terms">{t.nav.terms}</a></li>
+                <li><a href="/privacy">{t.nav.privacy}</a></li>
+                <li><a href="mailto:contact@igstorypeek.com">{t.nav.contact}</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>{t.footer.tools}</h4>
+              <ul>
+                <li><a href="#" onclick={`alert('${t.footer.comingSoon}'); return false;`}>{t.footer.instagramVideoDownloader}</a></li>
+                <li><a href="#" onclick={`alert('${t.footer.alreadyUsing}'); return false;`}>{t.footer.instagramStoryViewer}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2020-2025 IGStoryPeek</p>
+          <p class="disclaimer">{t.footer.disclaimer}</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  /* Reset and Base Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Header Styles */
+  .header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .language-selector select {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .language-selector select option {
+    background: #333;
+    color: white;
+  }
+
+  /* Blog Main */
+  .blog-main {
+    padding: 3rem 0;
+    min-height: 60vh;
+  }
+
+  .blog-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .blog-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+  }
+
+  /* Blog Posts Grid */
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .blog-post-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+
+  .post-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+
+  .post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .post-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    flex-wrap: wrap;
+  }
+
+  .post-date {
+    color: #999;
+  }
+
+  .post-author {
+    color: #667eea;
+    font-weight: 500;
+  }
+
+  .post-content h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+  }
+
+  .post-content h2 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .post-content h2 a:hover {
+    color: #667eea;
+  }
+
+  .post-excerpt {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    flex: 1;
+  }
+
+  .read-more {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: auto;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+
+  .read-more:hover {
+    color: #5568d3;
+    text-decoration: underline;
+  }
+
+  .no-posts {
+    text-align: center;
+    padding: 3rem;
+    color: #666;
+    font-size: 1.1rem;
+    grid-column: 1 / -1;
+  }
+
+  /* Footer Styles */
+  .footer {
+    background: #2d3748;
+    color: white;
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-logo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+
+  .footer-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .footer-section ul {
+    list-style: none;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-section ul li a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-section ul li a:hover {
+    color: white;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+  }
+
+  .footer-bottom .disclaimer {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .blog-posts {
+      grid-template-columns: 1fr;
+    }
+
+    .blog-title {
+      font-size: 2rem;
+    }
+
+    .blog-description {
+      font-size: 1rem;
+    }
+  }
+</style>
+

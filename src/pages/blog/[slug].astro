@@ -1,0 +1,599 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import { getTranslation, type Language } from '../../i18n/utils';
+import LanguageSwitcher from '../../components/LanguageSwitcher.astro';
+import HreflangTags from '../../components/HreflangTags.astro';
+import StructuredData from '../../components/StructuredData.astro';
+import Analytics from '../../components/Analytics.astro';
+
+const { slug } = Astro.params;
+const lang: Language = 'en';
+const t = await getTranslation(lang);
+
+// Get the post
+const post = await getEntry('blog', slug || '');
+
+if (!post) {
+  return Astro.redirect('/blog', 404);
+}
+
+// Get related posts (excluding current post)
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter(p => p.slug !== slug)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
+
+const currentPath = `/blog/${slug}`;
+---
+
+<html lang={lang}>
+  <head>
+    <Analytics lang={lang} />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{post.data.title} - Blog - IGStoryPeek</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={`https://www.igstorypeek.com/blog/${slug}`} />
+    <meta name="description" content={post.data.description} />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={post.data.title} />
+    <meta property="og:description" content={post.data.description} />
+    <meta property="og:url" content={`https://www.igstorypeek.com/blog/${slug}`} />
+    {post.data.image && <meta property="og:image" content={post.data.image} />}
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={post.data.title} />
+    <meta name="twitter:description" content={post.data.description} />
+    {post.data.image && <meta name="twitter:image" content={post.data.image} />}
+    
+    <HreflangTags lang={lang} path={currentPath} />
+    
+    <!-- Structured Data for Blog Posting -->
+    {(() => {
+      const blogPostSchema: any = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.data.title,
+        "description": post.data.description,
+        "url": `https://www.igstorypeek.com/blog/${slug}`,
+        "datePublished": post.data.pubDate.toISOString(),
+        "dateModified": post.data.updatedDate?.toISOString() || post.data.pubDate.toISOString(),
+        "author": {
+          "@type": "Organization",
+          "name": post.data.author
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "IGStoryPeek",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.igstorypeek.com/favicon.svg"
+          }
+        }
+      };
+      
+      if (post.data.image) {
+        blogPostSchema.image = {
+          "@type": "ImageObject",
+          "url": post.data.image
+        };
+      }
+      
+      return <script type="application/ld+json" set:html={JSON.stringify(blogPostSchema, null, 2)} />;
+    })()}
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"></noscript>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <a href="/" style="text-decoration: none; color: white;"><h1>IGStoryPeek</h1></a>
+          </div>
+          <LanguageSwitcher lang={lang} />
+        </div>
+      </div>
+    </header>
+
+    <main class="main blog-post-main">
+      <div class="container">
+        <article class="blog-post">
+          <a href="/blog" class="back-link">{t.blog?.backToBlog || '← Back to Blog'}</a>
+          
+          {post.data.image && (
+            <div class="post-header-image">
+              <img src={post.data.image} alt={post.data.title} />
+            </div>
+          )}
+          
+          <header class="post-header">
+            <div class="post-meta">
+              <span class="post-date">
+                {t.blog?.publishedOn || 'Published on'} {post.data.pubDate.toLocaleDateString('en-US', { 
+                  year: 'numeric', 
+                  month: 'long', 
+                  day: 'numeric' 
+                })}
+              </span>
+              {post.data.updatedDate && (
+                <span class="post-updated">
+                  {t.blog?.updatedOn || 'Updated on'} {post.data.updatedDate.toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                  })}
+                </span>
+              )}
+              {post.data.author && (
+                <span class="post-author">{t.blog?.by || 'By'} {post.data.author}</span>
+              )}
+            </div>
+            <h1 class="post-title">{post.data.title}</h1>
+            <p class="post-description">{post.data.description}</p>
+          </header>
+          
+          <div class="post-content">
+            <Content />
+          </div>
+          
+          {post.data.tags && post.data.tags.length > 0 && (
+            <div class="post-tags">
+              {post.data.tags.map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          )}
+        </article>
+        
+        {relatedPosts.length > 0 && (
+          <section class="related-posts">
+            <h2>{t.blog?.relatedPosts || 'Related Posts'}</h2>
+            <div class="related-posts-grid">
+              {relatedPosts.map(relatedPost => (
+                <a href={`/blog/${relatedPost.slug}`} class="related-post-card">
+                  {relatedPost.data.image && (
+                    <div class="related-post-image">
+                      <img src={relatedPost.data.image} alt={relatedPost.data.title} />
+                    </div>
+                  )}
+                  <div class="related-post-content">
+                    <h3>{relatedPost.data.title}</h3>
+                    <p>{relatedPost.data.description}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>IGStoryPeek</h3>
+          </div>
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>{t.nav.navigation}</h4>
+              <ul>
+                <li><a href="/">{t.nav.home}</a></li>
+                <li><a href="/blog">{t.nav.blog}</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="/terms">{t.nav.terms}</a></li>
+                <li><a href="/privacy">{t.nav.privacy}</a></li>
+                <li><a href="mailto:contact@igstorypeek.com">{t.nav.contact}</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>{t.footer.tools}</h4>
+              <ul>
+                <li><a href="#" onclick={`alert('${t.footer.comingSoon}'); return false;`}>{t.footer.instagramVideoDownloader}</a></li>
+                <li><a href="#" onclick={`alert('${t.footer.alreadyUsing}'); return false;`}>{t.footer.instagramStoryViewer}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2020-2025 IGStoryPeek</p>
+          <p class="disclaimer">{t.footer.disclaimer}</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  /* Reset and Base Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Header Styles */
+  .header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .language-selector select {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .language-selector select option {
+    background: #333;
+    color: white;
+  }
+
+  /* Blog Post Main */
+  .blog-post-main {
+    padding: 3rem 0;
+    min-height: 60vh;
+  }
+
+  .blog-post {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 3rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .back-link:hover {
+    color: #5568d3;
+    text-decoration: underline;
+  }
+
+  .post-header-image {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+
+  .post-header-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .post-header {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .post-meta {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    flex-wrap: wrap;
+  }
+
+  .post-date,
+  .post-updated {
+    color: #999;
+  }
+
+  .post-author {
+    color: #667eea;
+    font-weight: 500;
+  }
+
+  .post-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .post-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+
+  .post-content {
+    line-height: 1.8;
+    color: #333;
+    margin-top: 2rem;
+  }
+
+  .post-content h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .post-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .post-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+
+  .post-content ul,
+  .post-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+  }
+
+  .post-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+  }
+
+  .post-content a {
+    color: #667eea;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+
+  .post-content a:hover {
+    color: #5568d3;
+  }
+
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+
+  .post-content code {
+    background: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'Courier New', monospace;
+  }
+
+  .post-content pre {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  .post-content pre code {
+    background: none;
+    padding: 0;
+  }
+
+  .post-content blockquote {
+    border-left: 4px solid #667eea;
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: #666;
+    font-style: italic;
+  }
+
+  .post-tags {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background: #f0f0f0;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  /* Related Posts */
+  .related-posts {
+    margin-top: 4rem;
+  }
+
+  .related-posts h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .related-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .related-post-card {
+    text-decoration: none;
+    color: #333;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .related-post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+
+  .related-post-image {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+
+  .related-post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .related-post-content {
+    padding: 1.25rem;
+  }
+
+  .related-post-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .related-post-content p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  /* Footer Styles */
+  .footer {
+    background: #2d3748;
+    color: white;
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-logo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+
+  .footer-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .footer-section ul {
+    list-style: none;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-section ul li a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-section ul li a:hover {
+    color: white;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+  }
+
+  .footer-bottom .disclaimer {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .blog-post {
+      padding: 2rem 1.5rem;
+    }
+
+    .post-title {
+      font-size: 2rem;
+    }
+
+    .post-description {
+      font-size: 1.1rem;
+    }
+
+    .related-posts-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+

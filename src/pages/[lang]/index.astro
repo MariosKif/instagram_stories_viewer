@@ -378,6 +378,7 @@ const currentPath = Astro.url.pathname;
                         <h4>{t.nav.navigation || 'Navigation'}</h4>
                         <ul>
                             <li><a href={lang === 'en' ? '/' : `/${lang}/`}>{t.nav.home}</a></li>
+                            <li><a href="/blog">{t.nav.blog}</a></li>
                             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
                             <li><a href={lang === 'en' ? '/terms' : `/${lang}/terms`}>{t.nav.terms}</a></li>
                             <li><a href={lang === 'en' ? '/privacy' : `/${lang}/privacy`}>{t.nav.privacy}</a></li>

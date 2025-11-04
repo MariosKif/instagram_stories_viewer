@@ -109,6 +109,18 @@
     "profileNotFound": "Profile not found",
     "errorConnecting": "Error connecting to server. Please try again."
   },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest articles and updates from IGStoryPeek",
+    "allPosts": "All Posts",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "updatedOn": "Updated on",
+    "by": "By",
+    "relatedPosts": "Related Posts",
+    "noPosts": "No posts found",
+    "backToBlog": "← Back to Blog"
+  },
   "footer": {
     "navigation": "Navigation",
     "tools": "Tools",
