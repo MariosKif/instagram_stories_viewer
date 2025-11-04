@@ -21,6 +21,11 @@ const cleanPath = currentPath === '' ? '/' : currentPath;
 <script is:inline>
   // Make function globally available
   window.handleLanguageChange = function(lang) {
+    // Track language change
+    if (typeof window.trackLanguageChange === 'function') {
+      window.trackLanguageChange(lang);
+    }
+    
     // Set cookie to remember preference (client-side cookie, will be validated server-side on next request)
     const expiryDate = new Date();
     expiryDate.setFullYear(expiryDate.getFullYear() + 1); // 1 year from now

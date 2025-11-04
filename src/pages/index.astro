@@ -4,6 +4,7 @@ import { getTranslation, detectLanguageFromHeader, defaultLang, allLanguages, ty
 import LanguageSwitcher from '../components/LanguageSwitcher.astro';
 import HreflangTags from '../components/HreflangTags.astro';
 import StructuredData from '../components/StructuredData.astro';
+import Analytics from '../components/Analytics.astro';
 
 // Check for explicit language preference in cookie or URL
 const cookieLang = Astro.cookies.get('preferred-language')?.value as Language | undefined;
@@ -42,15 +43,8 @@ const currentPath = Astro.url.pathname;
 
 <html lang={lang}>
 	<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WVG6TLBCZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-1WVG6TLBCZ');
-    </script>
+    <!-- Enhanced Google Analytics -->
+    <Analytics lang={lang} />
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
@@ -1612,6 +1606,10 @@ const currentPath = Astro.url.pathname;
             tag.addEventListener('click', function() {
                 const username = this.textContent.replace('@', '');
                 usernameInput.value = username;
+                // Track popular user tag click
+                if (typeof window.trackEvent === 'function') {
+                    window.trackEvent('User Action', 'click_popular_tag', username);
+                }
                 handleSearch();
             });
         });
@@ -1620,6 +1618,10 @@ const currentPath = Astro.url.pathname;
         const ctaButton = document.querySelector('.btn-primary');
         if (ctaButton) {
             ctaButton.addEventListener('click', function() {
+                // Track button click
+                if (typeof window.trackButtonClick === 'function') {
+                    window.trackButtonClick('CTA Button');
+                }
                 usernameInput.scrollIntoView({ behavior: 'smooth' });
                 usernameInput.focus();
             });
@@ -1647,6 +1649,11 @@ const currentPath = Astro.url.pathname;
             return;
         }
 
+        // Track search event
+        if (typeof window.trackSearch === 'function') {
+            window.trackSearch(cleanUsername);
+        }
+
         // Show loading state
         searchBtn.disabled = true;
         searchBtn.innerHTML = messages.loading || 'Loading...';
@@ -1656,6 +1663,10 @@ const currentPath = Astro.url.pathname;
             .then(response => {
                 if (!response.ok) {
                     console.error('Response not OK:', response.status, response.statusText);
+                    // Track error
+                    if (typeof window.trackError === 'function') {
+                        window.trackError(`API response error: ${response.status}`, 'handleSearch');
+                    }
                 }
                 return response.json();
             })
@@ -1669,6 +1680,10 @@ const currentPath = Astro.url.pathname;
                     // Show profile data on the website instead of redirecting
                     showProfileData(data.data);
                 } else {
+                    // Track error
+                    if (typeof window.trackError === 'function') {
+                        window.trackError(data.error || 'Profile not found', 'handleSearch');
+                    }
                     showMessage(data.error || messages.profileNotFound, 'error');
                 }
             })
@@ -1678,6 +1693,10 @@ const currentPath = Astro.url.pathname;
                 searchBtn.disabled = false;
                 
                 console.error('Fetch error:', error);
+                // Track error
+                if (typeof window.trackError === 'function') {
+                    window.trackError(error.message || 'Network error', 'handleSearch');
+                }
                 showMessage(messages.errorConnecting, 'error');
             });
     }
@@ -1754,6 +1773,11 @@ const currentPath = Astro.url.pathname;
             };
         }
 
+        // Track profile view
+        if (typeof window.trackProfileView === 'function') {
+            window.trackProfileView(username);
+        }
+
         // Show profile display section
         profileDisplay.style.display = 'block';
         profileDisplay.scrollIntoView({ behavior: 'auto', block: 'start' });
@@ -1817,6 +1841,11 @@ const currentPath = Astro.url.pathname;
                 loadPosts(profileData.posts || []);
                 break;
             case 'highlights':
+                // Track highlights view
+                const username = window.currentProfileData?.username || 'unknown';
+                if (typeof window.trackHighlightView === 'function') {
+                    window.trackHighlightView(username);
+                }
                 loadHighlights(profileData.highlights || []);
                 break;
         }
@@ -2005,6 +2034,12 @@ const currentPath = Astro.url.pathname;
             return;
         }
         
+        // Track story view
+        const username = window.currentProfileData?.username || 'unknown';
+        if (typeof window.trackStoryView === 'function') {
+            window.trackStoryView(username);
+        }
+        
         showStoryModal(storyData);
     }
 
@@ -2138,6 +2173,11 @@ const currentPath = Astro.url.pathname;
         postComments.innerHTML = `<i class="fas fa-comment"></i> ${formatNumber(comments)}`;
         postCaption.textContent = caption;
         
+        // Track post view
+        if (typeof window.trackPostView === 'function') {
+            window.trackPostView(postUrl);
+        }
+        
         // Store post URL for view button
         currentPostUrl = postUrl;
         
@@ -2174,6 +2214,10 @@ const currentPath = Astro.url.pathname;
     
     function viewPostOnInstagram() {
         if (currentPostUrl) {
+            // Track outbound link click
+            if (typeof window.trackOutboundLink === 'function') {
+                window.trackOutboundLink(currentPostUrl);
+            }
             window.open(currentPostUrl, '_blank');
         }
     }

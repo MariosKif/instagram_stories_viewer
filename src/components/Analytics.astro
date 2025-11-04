@@ -1,0 +1,182 @@
+---
+// Enhanced Google Analytics component with event tracking
+interface Props {
+  lang?: string;
+  measurementId?: string;
+}
+
+const { lang = 'en', measurementId = 'G-1WVG6TLBCZ' } = Astro.props;
+---
+
+<!-- Google tag (gtag.js) -->
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Enhanced configuration
+  gtag('config', '${measurementId}', {
+    send_page_view: true,
+    allow_google_signals: true,
+    allow_ad_personalization_signals: true,
+    anonymize_ip: true, // Privacy compliance
+    // Custom dimensions for language tracking
+    custom_map: {
+      'dimension1': '${lang}'
+    }
+  });
+
+  // Set language dimension
+  gtag('set', { 'dimension1': '${lang}' });
+</script>
+
+<!-- Enhanced tracking functions -->
+<script define:vars={{ currentLang: lang, gaId: measurementId }}>
+  // Global tracking functions
+  window.trackEvent = function(category, action, label, value) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', action, {
+        'event_category': category,
+        'event_label': label,
+        'value': value || 1
+      });
+    }
+  };
+
+  // Track search
+  window.trackSearch = function(username) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'search', {
+        'event_category': 'User Action',
+        'event_label': username,
+        'value': 1
+      });
+    }
+  };
+
+  // Track profile view
+  window.trackProfileView = function(username) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'view_profile', {
+        'event_category': 'Profile',
+        'event_label': username,
+        'value': 1
+      });
+    }
+  };
+
+  // Track story view
+  window.trackStoryView = function(username) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'view_story', {
+        'event_category': 'Content',
+        'event_label': username,
+        'content_type': 'story'
+      });
+    }
+  };
+
+  // Track post view
+  window.trackPostView = function(postUrl) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'view_post', {
+        'event_category': 'Content',
+        'event_label': postUrl,
+        'content_type': 'post'
+      });
+    }
+  };
+
+  // Track highlight view
+  window.trackHighlightView = function(username) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'view_highlight', {
+        'event_category': 'Content',
+        'event_label': username,
+        'content_type': 'highlight'
+      });
+    }
+  };
+
+  // Track language change
+  window.trackLanguageChange = function(lang) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'language_change', {
+        'event_category': 'User Preference',
+        'event_label': lang,
+        'value': 1
+      });
+      
+      // Update custom dimension
+      gtag('config', gaId, {
+        'custom_map': { 'dimension1': lang }
+      });
+      gtag('set', { 'dimension1': lang });
+    }
+  };
+
+  // Track error
+  window.trackError = function(errorMessage, errorLocation) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'exception', {
+        'description': errorMessage,
+        'fatal': false,
+        'event_category': 'Error',
+        'event_label': errorLocation || 'Unknown'
+      });
+    }
+  };
+
+  // Track outbound link clicks
+  window.trackOutboundLink = function(url) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'click', {
+        'event_category': 'Outbound',
+        'event_label': url,
+        'transport_type': 'beacon'
+      });
+    }
+  };
+
+  // Track button clicks
+  window.trackButtonClick = function(buttonName) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'click', {
+        'event_category': 'Button',
+        'event_label': buttonName,
+        'value': 1
+      });
+    }
+  };
+
+  // Track scroll depth (90% scroll)
+  window.trackScrollDepth = function() {
+    let scrollTracked = false;
+    window.addEventListener('scroll', function() {
+      if (!scrollTracked) {
+        const scrollPercent = Math.round(
+          (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
+        );
+        if (scrollPercent >= 90) {
+          scrollTracked = true;
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'scroll', {
+              'event_category': 'Engagement',
+              'event_label': '90% scroll depth',
+              'value': 90
+            });
+          }
+        }
+      }
+    });
+  };
+
+  // Initialize scroll tracking
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', window.trackScrollDepth);
+  } else {
+    window.trackScrollDepth();
+  }
+</script>
+
