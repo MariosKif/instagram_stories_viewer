@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 Allow: /ads.txt
+Allow: /blog
+Allow: /blog/
 Disallow: /api/
 
 # Crawl-delay for polite crawling
