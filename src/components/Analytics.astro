@@ -9,13 +9,13 @@ const { lang = 'en', measurementId = 'G-1WVG6TLBCZ' } = Astro.props;
 ---
 
 <!-- Google tag (gtag.js) -->
-<script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
 <script define:vars={{ measurementId, lang }}>
+  // Initialize dataLayer before gtag.js loads
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  
+  // Queue the configuration - will be processed when gtag.js loads
   gtag('js', new Date());
-
-  // Enhanced configuration
   gtag('config', measurementId, {
     send_page_view: true,
     allow_google_signals: true,
@@ -30,6 +30,7 @@ const { lang = 'en', measurementId = 'G-1WVG6TLBCZ' } = Astro.props;
   // Set language dimension
   gtag('set', { 'dimension1': lang });
 </script>
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
 
 <!-- Enhanced tracking functions -->
 <script define:vars={{ currentLang: lang, gaId: measurementId }}>
