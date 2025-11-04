@@ -227,34 +227,13 @@ const currentPath = `/blog/${slug}`;
         <article class="blog-post">
           <a href="/blog" class="back-link">{t.blog?.backToBlog || '← Back to Blog'}</a>
           
-          {post.data.image && (
+          {post.data.image && !post.data.image.includes('favicon.svg') && (
             <div class="post-header-image">
               <img src={post.data.image} alt={post.data.title} />
             </div>
           )}
           
           <header class="post-header">
-            <div class="post-meta">
-              <span class="post-date">
-                {t.blog?.publishedOn || 'Published on'} {post.data.pubDate.toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
-                })}
-              </span>
-              {post.data.updatedDate && (
-                <span class="post-updated">
-                  {t.blog?.updatedOn || 'Updated on'} {post.data.updatedDate.toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
-                  })}
-                </span>
-              )}
-              {post.data.author && (
-                <span class="post-author">{t.blog?.by || 'By'} {post.data.author}</span>
-              )}
-            </div>
             <h1 class="post-title">{post.data.title}</h1>
             <p class="post-description">{post.data.description}</p>
           </header>

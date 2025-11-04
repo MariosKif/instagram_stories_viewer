@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "https://via.placeholder.com/800x400/667eea/ffffff?text=How+to+View+Instagram+Stories+Anonymously"
+image: "https://www.igstorypeek.com/favicon.svg"
 tags: ["instagram stories", "anonymous viewing", "privacy", "instagram viewer", "how to", "tutorial", "2025", "instagram story viewer", "anonymous instagram", "view instagram stories", "watch instagram stories anonymously"]
 ---
 
