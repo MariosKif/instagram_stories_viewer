@@ -11,10 +11,14 @@ const lang: Language = 'en';
 const t = await getTranslation(lang);
 
 // Get the post
-const post = await getEntry('blog', slug || '');
+if (!slug) {
+  return Astro.redirect('/blog', 302);
+}
+
+const post = await getEntry('blog', slug);
 
 if (!post) {
-  return Astro.redirect('/blog', 404);
+  return Astro.redirect('/blog', 302);
 }
 
 // Get related posts (excluding current post)
@@ -23,6 +27,9 @@ const relatedPosts = allPosts
   .filter(p => p.slug !== slug)
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
   .slice(0, 3);
+
+// Render the post content
+const { Content } = await post.render();
 
 const currentPath = `/blog/${slug}`;
 ---
