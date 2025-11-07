@@ -1,4 +1,5 @@
 const SCRAPER_API_HOST = 'instagram-scraper-stable-api.p.rapidapi.com';
+const FALLBACK_RAPIDAPI_KEY = '663ef24eedmsha6824f05f5bee0bp1c071bjsnef3779a17b07';
 
 function resolveApiKey() {
     if (typeof process !== 'undefined' && process.env?.RAPIDAPI_KEY) {
@@ -12,10 +13,11 @@ function resolveApiKey() {
 
 function requireApiKey() {
     const key = resolveApiKey();
-    if (!key) {
-        throw new Error('RAPIDAPI_KEY environment variable is required to call the Instagram scraper API.');
+    if (key) {
+        return key;
     }
-    return key;
+    console.warn('[instagramScraper] RAPIDAPI_KEY not set. Falling back to baked-in key.');
+    return FALLBACK_RAPIDAPI_KEY;
 }
 
 export const SCRAPER_ENDPOINTS = {
