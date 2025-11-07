@@ -11,10 +11,10 @@ const languages = ['en', 'de', 'fr', 'es', 'it', 'nl', 'pt', 'pl', 'ro', 'cs', '
 const currentDate = new Date().toISOString().split('T')[0];
 
 const pages = [
-  { path: '', changefreq: 'daily', priority: '1.0' },
-  { path: '/blog', changefreq: 'weekly', priority: '0.8' },
-  { path: '/terms', changefreq: 'monthly', priority: '0.7' },
-  { path: '/privacy', changefreq: 'monthly', priority: '0.7' }
+  { path: '', changefreq: 'daily', priority: '1.0', localized: true },
+  { path: '/blog', changefreq: 'weekly', priority: '0.8', localized: false },
+  { path: '/terms', changefreq: 'monthly', priority: '0.7', localized: false },
+  { path: '/privacy', changefreq: 'monthly', priority: '0.7', localized: false }
 ];
 
 // Read blog posts from content directory
@@ -79,8 +79,13 @@ let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 `;
 
 // Generate URLs for all languages and pages
+let totalUrls = 0;
+
 pages.forEach(page => {
-  languages.forEach(lang => {
+  const pageLanguages = page.localized ? languages : ['en'];
+
+  pageLanguages.forEach(lang => {
+    totalUrls += 1;
     const langPath = lang === 'en' ? page.path : `/${lang}${page.path}`;
     const url = `https://www.igstorypeek.com${langPath === '' ? '/' : langPath}`;
     
@@ -91,7 +96,8 @@ pages.forEach(page => {
     <priority>${page.priority}</priority>`;
     
     // Add hreflang alternatives
-    languages.forEach(altLang => {
+    const hreflangLanguages = page.localized ? languages : ['en'];
+    hreflangLanguages.forEach(altLang => {
       const altLangPath = altLang === 'en' ? page.path : `/${altLang}${page.path}`;
       const altUrl = `https://www.igstorypeek.com${altLangPath === '' ? '/' : altLangPath}`;
       sitemap += `
@@ -124,6 +130,5 @@ blogPosts.forEach(post => {
 sitemap += `</urlset>`;
 
 fs.writeFileSync(sitemapPath, sitemap, 'utf-8');
-const totalUrls = (languages.length * pages.length) + blogPosts.length;
-console.log(`Generated sitemap with ${totalUrls} URLs (${languages.length} languages × ${pages.length} pages + ${blogPosts.length} blog posts)`);
+console.log(`Generated sitemap with ${totalUrls + blogPosts.length} URLs`);
 
