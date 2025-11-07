@@ -36,16 +36,8 @@ export async function GET({ request, url }) {
         });
         
         if (!response.ok) {
-            console.error(`Media proxy failed for ${imageUrl}: ${response.status} ${response.statusText}`);
-            // Return a placeholder response instead of failing
-            return new Response(JSON.stringify({
-                error: 'Media blocked by Instagram',
-                placeholder: true,
-                originalUrl: imageUrl
-            }), {
-                status: 200,
-                headers: { 'Content-Type': 'application/json' }
-            });
+            console.warn(`Media proxy failed for ${imageUrl}: ${response.status} ${response.statusText}. Redirecting to original URL.`);
+            return Response.redirect(imageUrl, 302);
         }
 
         const mediaBuffer = await response.arrayBuffer();
@@ -63,6 +55,9 @@ export async function GET({ request, url }) {
         });
     } catch (error) {
         console.error('Media proxy error:', error);
+        if (url && url.searchParams?.get('url')) {
+            return Response.redirect(url.searchParams.get('url'), 302);
+        }
         return new Response(JSON.stringify({ error: 'Failed to proxy media' }), {
             status: 500,
             headers: { 'Content-Type': 'application/json' }
