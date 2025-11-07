@@ -25,12 +25,135 @@ declare global {
     trackButtonClick?: (label: string) => void;
     trackError?: (message: string, context?: string) => void;
     trackSearch?: (username: string) => void;
+    __proxyImgFallback?: (img: HTMLImageElement) => void;
+    __proxyImgLoaded?: (img: HTMLImageElement) => void;
   }
 }
 
 const highlightLoading = new Set<string>();
 
 let tabHandlersInitialized = false;
+
+function escapeHtmlAttr(value: string): string {
+  if (!value) return '';
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function getMediaSources(url?: string) {
+  if (!url) {
+    return { proxyUrl: '', originalUrl: '' };
+  }
+
+  return {
+    proxyUrl: `/api/image-proxy?url=${encodeURIComponent(url)}`,
+    originalUrl: url
+  };
+}
+
+function initializeMediaElement(img: HTMLImageElement) {
+  if (!img || img.dataset.fallbackInitialized === 'true') return;
+  img.dataset.fallbackInitialized = 'true';
+  img.dataset.proxyFailed = img.dataset.proxyFailed || 'false';
+
+  const fallbackEl = img.nextElementSibling instanceof HTMLElement && img.nextElementSibling.classList.contains('image-fallback')
+    ? img.nextElementSibling
+    : null;
+
+  img.addEventListener('load', () => {
+    img.dataset.proxyFailed = 'false';
+    if (fallbackEl) {
+      fallbackEl.style.display = 'none';
+    }
+  });
+
+  img.addEventListener('error', () => {
+    const originalSrc = img.getAttribute('data-original-src');
+    const currentSrc = img.getAttribute('src');
+    const hasRetried = img.dataset.proxyFailed === 'true';
+
+    if (!hasRetried && originalSrc && currentSrc !== originalSrc) {
+      img.dataset.proxyFailed = 'true';
+      img.src = originalSrc;
+      return;
+    }
+
+    if (fallbackEl) {
+      fallbackEl.style.display = 'flex';
+    }
+  });
+}
+
+function initializeMediaElements(root: ParentNode) {
+  root.querySelectorAll('img[data-original-src], img[data-proxy-src]').forEach((node) => {
+    initializeMediaElement(node as HTMLImageElement);
+  });
+}
+
+function setImageSource(img: HTMLImageElement | null, url?: string) {
+  if (!img) return;
+
+  if (!url) {
+    img.removeAttribute('src');
+    img.removeAttribute('data-original-src');
+    img.removeAttribute('data-proxy-src');
+    return;
+  }
+
+  const { proxyUrl, originalUrl } = getMediaSources(url);
+  if (originalUrl) {
+    img.setAttribute('data-original-src', originalUrl);
+  } else {
+    img.removeAttribute('data-original-src');
+  }
+
+  if (proxyUrl) {
+    img.setAttribute('data-proxy-src', proxyUrl);
+    img.src = proxyUrl;
+  } else {
+    img.removeAttribute('data-proxy-src');
+    img.src = originalUrl;
+  }
+
+  initializeMediaElement(img);
+}
+
+function setVideoSource(video: HTMLVideoElement | null, url?: string) {
+  if (!video) return;
+
+  const source = video.querySelector('source');
+
+  if (!url) {
+    if (source) source.removeAttribute('src');
+    video.removeAttribute('src');
+    return;
+  }
+
+  const { proxyUrl, originalUrl } = getMediaSources(url);
+  let triedOriginal = false;
+
+  const assignSrc = (src: string) => {
+    if (!src) return;
+    if (source) {
+      source.src = src;
+    } else {
+      video.src = src;
+    }
+    video.load();
+  };
+
+  video.onerror = () => {
+    if (!triedOriginal && originalUrl) {
+      triedOriginal = true;
+      assignSrc(originalUrl);
+    }
+  };
+
+  assignSrc(proxyUrl || originalUrl);
+}
 
 const translations = window.__TRANSLATIONS__ || {};
 const currentLang = window.__CURRENT_LANG__ || 'en';
@@ -61,6 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeLanguageSelector();
   addInteractiveAnimations();
   registerGlobalFocusStyles();
+  initializeMediaElements(document);
 });
 
 function t(key: string, fallback = ''): string {
@@ -233,16 +357,18 @@ function showProfileData(apiData: any) {
   profileBio && (profileBio.textContent = bio);
 
   if (profileImageEl && profileImage) {
-    const proxyUrl = `/api/image-proxy?url=${encodeURIComponent(profileImage)}`;
-    profileImageEl.src = proxyUrl;
     profileImageEl.alt = fullName;
-    profileImageEl.onerror = function handleProfileImageError() {
+    setImageSource(profileImageEl, profileImage);
+    profileImageEl.addEventListener('error', function handleProfileImageError() {
+      if (this.dataset.proxyFailed !== 'true' && this.getAttribute('data-original-src')) {
+        return;
+      }
       this.style.display = 'none';
       const fallback = document.createElement('div');
       fallback.style.cssText = 'width:100px; height:100px; background:#f3f4f6; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#9ca3af; font-size:12px; text-align:center;';
       fallback.textContent = 'Profile image blocked by Instagram';
       this.parentNode?.insertBefore(fallback, this);
-    };
+    });
   }
 
   const posts = normalizeMedia(postsDataRaw, { fallbackKey: 'posts' });
@@ -322,9 +448,11 @@ function loadStories(stories: any[]) {
     return;
   }
 
-  contentGrid.innerHTML = stories
+  const storiesContent = stories
     .map((story, index) => renderStoryCard(story, index))
     .join('');
+  contentGrid.innerHTML = storiesContent;
+  initializeMediaElements(contentGrid);
 
   Array.from(contentGrid.querySelectorAll('.story-item')).forEach((item, index) => {
     item.addEventListener('click', () => {
@@ -341,13 +469,14 @@ function renderStoryCard(story: any, index: number): string {
   const isVideo = node.is_video || node.media_type === 2;
   const imageVersions = node.image_versions2?.candidates || [];
   const thumbnailUrl = imageVersions.length > 0 ? imageVersions[0].url : '';
-  const proxyUrl = thumbnailUrl ? `/api/image-proxy?url=${encodeURIComponent(thumbnailUrl)}` : '';
-  const showFallback = proxyUrl ? 'display:none;' : 'display:flex;';
+  const { proxyUrl, originalUrl } = getMediaSources(thumbnailUrl);
+  const initialSrc = proxyUrl || originalUrl;
+  const showFallback = initialSrc ? 'display:none;' : 'display:flex;';
   const videoIcon = isVideo ? '<div class="video-indicator"><i class="fas fa-play"></i></div>' : '';
 
   return `
     <div class="content-item story-item" data-story-index="${index}">
-      ${proxyUrl ? `<img src="${proxyUrl}" alt="Story" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />` : ''}
+      ${initialSrc ? `<img src="${initialSrc}" alt="Story" loading="lazy" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
       <div class="image-fallback" style="${showFallback} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
         <span>Story blocked by Instagram</span>
       </div>
@@ -366,9 +495,11 @@ function loadPosts(posts: any[]) {
     return;
   }
 
-  contentGrid.innerHTML = posts
+  const postsContent = posts
     .map((post, index) => renderPostCard(post, index))
     .join('');
+  contentGrid.innerHTML = postsContent;
+  initializeMediaElements(contentGrid);
 
   Array.from(contentGrid.querySelectorAll('.post-item')).forEach((item, index) => {
     item.addEventListener('click', () => openPostModal(posts[index]));
@@ -380,8 +511,9 @@ function renderPostCard(post: any, index: number): string {
   const isVideo = node.media_type === 2 || node.is_video;
   const imageVersions = node.image_versions2?.candidates || [];
   const mediaUrl = imageVersions.length > 0 ? imageVersions[0].url : '';
-  const proxyUrl = mediaUrl ? `/api/image-proxy?url=${encodeURIComponent(mediaUrl)}` : '';
-  const showFallback = proxyUrl ? 'display:none;' : 'display:flex;';
+  const { proxyUrl, originalUrl } = getMediaSources(mediaUrl);
+  const initialSrc = proxyUrl || originalUrl;
+  const showFallback = initialSrc ? 'display:none;' : 'display:flex;';
   const caption = node.caption?.text || 'Instagram Post';
   const likes = node.like_count || 0;
   const comments = node.comment_count || 0;
@@ -389,7 +521,7 @@ function renderPostCard(post: any, index: number): string {
 
   return `
     <div class="content-item post-item" data-post-index="${index}">
-      ${proxyUrl ? `<img src="${proxyUrl}" alt="${caption.substring(0, 50)}..." loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />` : ''}
+      ${initialSrc ? `<img src="${initialSrc}" alt="${escapeHtmlAttr(caption.substring(0, 50))}..." loading="lazy" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
       <div class="image-fallback" style="${showFallback} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
         <span>Image blocked by Instagram</span>
       </div>
@@ -411,7 +543,9 @@ function loadHighlights(highlights: any[]) {
     return;
   }
 
-  contentGrid.innerHTML = highlights.map(renderHighlightCard).join('');
+  const highlightsContent = highlights.map(renderHighlightCard).join('');
+  contentGrid.innerHTML = highlightsContent;
+  initializeMediaElements(contentGrid);
 
   Array.from(contentGrid.querySelectorAll('.highlight-item')).forEach((item) => {
     item.addEventListener('click', async function handleHighlightClick() {
@@ -432,13 +566,14 @@ function renderHighlightCard(highlight: any): string {
     : coverMedia.cropped_image_version?.url || coverMedia.thumbnail_image?.url || '';
   const title = node.title || 'Highlight';
   const highlightUrl = `https://www.instagram.com/stories/highlights/${node.id}/`;
-  const proxyUrl = coverUrl ? `/api/image-proxy?url=${encodeURIComponent(coverUrl)}` : '';
+  const { proxyUrl, originalUrl } = getMediaSources(coverUrl);
+  const initialSrc = proxyUrl || originalUrl;
   const fallbackDisplay = coverUrl ? 'display:none;' : 'display:flex;';
   const fallbackLabel = coverUrl ? 'Preview unavailable' : (title?.trim()?.charAt(0) || '☆');
 
   return `
     <div class="content-item highlight-item" data-highlight-id="${encodeURIComponent(node.id || '')}" data-highlight-title="${encodeURIComponent(title)}" data-highlight-url="${encodeURIComponent(highlightUrl)}">
-      ${coverUrl ? `<img src="${proxyUrl}" alt="${title}" loading="lazy" onload="this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; const fallback = this.nextElementSibling; fallback.style.display='flex'; fallback.dataset.state='error';" />` : ''}
+      ${initialSrc ? `<img src="${initialSrc}" alt="${escapeHtmlAttr(title)}" loading="lazy" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
       <div class="image-fallback" data-state="${coverUrl ? 'loading' : 'empty'}" style="${fallbackDisplay} width:100%; height:100%; background:#f3f4f6; border-radius:12px; align-items:center; justify-content:center; color:#4b5563; font-size:14px; font-weight:500; text-align:center; padding:0.75rem;">
         <span>${fallbackLabel}</span>
       </div>
@@ -540,12 +675,11 @@ function showStoryModal(storyData: any) {
 
   if (isVideo && videoVersions.length > 0) {
     const videoUrl = videoVersions[0].url;
-    storyVideo.src = `/api/image-proxy?url=${encodeURIComponent(videoUrl)}`;
     storyVideo.style.display = 'block';
-    storyVideo.load();
+    setVideoSource(storyVideo, videoUrl);
   } else if (imageVersions.length > 0) {
     const imageUrl = imageVersions[0].url;
-    storyImage.src = `/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
+    setImageSource(storyImage, imageUrl);
     storyImage.style.display = 'block';
   }
 
@@ -636,12 +770,11 @@ function openPostModal(postData: any) {
 
   if (isVideo && videoVersions.length > 0) {
     const videoUrl = videoVersions[0].url;
-    postVideo.src = `/api/image-proxy?url=${encodeURIComponent(videoUrl)}`;
     postVideo.style.display = 'block';
-    postVideo.load();
+    setVideoSource(postVideo, videoUrl);
   } else if (imageVersions.length > 0) {
     const imageUrl = imageVersions[0].url;
-    postImage.src = `/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
+    setImageSource(postImage, imageUrl);
     postImage.style.display = 'block';
   }
 
