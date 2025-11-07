@@ -5,100 +5,118 @@ interface Props {
   data?: any;
 }
 
-const { type, lang = 'en', data } = Astro.props;
-const baseUrl = 'https://www.igstorypeek.com';
+const { type, lang = 'en', data = {} } = Astro.props;
 
-// Generate structured data based on type
+const baseUrl = 'https://www.igstorypeek.com';
+const localizedPath = (typeof data.pagePath === 'string' && data.pagePath.length > 0)
+  ? data.pagePath
+  : lang === 'en'
+    ? '/'
+    : `/${lang}/`;
+
+const normalizedPath = localizedPath.startsWith('/') ? localizedPath : `/${localizedPath}`;
+const pageUrl = new URL(normalizedPath, baseUrl).toString();
+
+const description = data.description || (lang === 'en'
+  ? 'Free anonymous Instagram stories viewer - Watch Instagram stories anonymously without account. 100% private viewing of public profiles, posts, stories, highlights. No registration needed.'
+  : 'Free anonymous Instagram stories viewer');
+
+const siteName = data.siteName || 'IGStoryPeek';
+const alternateName = data.alternateName || siteName;
+
 let schema: any = {};
 
 if (type === 'organization') {
   schema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "IGStoryPeek",
-    "url": baseUrl,
-    "logo": {
-      "@type": "ImageObject",
-      "url": `${baseUrl}/favicon.svg`,
-      "width": 512,
-      "height": 512
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${pageUrl}#organization`,
+    name: siteName,
+    url: pageUrl,
+    inLanguage: lang,
+    alternateName,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${baseUrl}/favicon.svg`,
+      width: 512,
+      height: 512
     },
-    "description": lang === 'en' 
-      ? "Free anonymous Instagram stories viewer - Watch Instagram stories anonymously without account. 100% private viewing of public profiles, posts, stories, highlights. No registration needed."
-      : "Free anonymous Instagram stories viewer",
-    "sameAs": [
-      "https://www.instagram.com/"
+    description,
+    sameAs: data.sameAs || [
+      'https://www.instagram.com/'
     ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "Customer Support",
-      "email": "contact@igstorypeek.com"
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Support',
+      email: 'contact@igstorypeek.com'
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "1250"
+    aggregateRating: data.aggregateRating || {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '1250'
     }
   };
 } else if (type === 'website') {
   schema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "IGStoryPeek",
-    "url": baseUrl,
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": `${baseUrl}/${lang === 'en' ? '' : lang + '/'}?q={search_term_string}`
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${pageUrl}#website`,
+    name: siteName,
+    url: pageUrl,
+    inLanguage: lang,
+    description,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${pageUrl}?q={search_term_string}`
       },
-      "query-input": "required name=search_term_string"
-    },
-    "inLanguage": lang
+      'query-input': 'required name=search_term_string'
+    }
   };
 } else if (type === 'webapplication') {
   schema = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "IGStoryPeek",
-    "url": baseUrl,
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "Web Browser",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    '@id': `${pageUrl}#webapplication`,
+    name: siteName,
+    url: pageUrl,
+    inLanguage: lang,
+    applicationCategory: 'UtilityApplication',
+    operatingSystem: 'Web Browser',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD'
     },
-    "description": lang === 'en'
-      ? "Free anonymous Instagram stories viewer - Watch Instagram stories anonymously without account. 100% private viewing of public profiles, posts, stories, highlights. No registration needed."
-      : "Free anonymous Instagram stories viewer",
-    "featureList": [
-      "Anonymous viewing",
-      "No account required",
-      "View stories",
-      "View profiles",
-      "View posts",
-      "View highlights",
-      "Free to use",
-      "Private browsing"
+    description,
+    featureList: data.featureList || [
+      'Anonymous viewing',
+      'No account required',
+      'View stories',
+      'View profiles',
+      'View posts',
+      'View highlights',
+      'Free to use',
+      'Private browsing'
     ],
-    "applicationCategory": "SocialMediaApplication",
-    "operatingSystem": "Web Browser",
-    "browserRequirements": "Requires JavaScript. Requires HTML5.",
-    "softwareVersion": "1.0",
-    "releaseNotes": "Free anonymous Instagram content viewer"
+    browserRequirements: 'Requires JavaScript. Requires HTML5.',
+    softwareVersion: '1.0'
   };
 } else if (type === 'breadcrumb' && data) {
   schema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": data.breadcrumbs || []
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': `${pageUrl}#breadcrumb`,
+    itemListElement: data.breadcrumbs || []
   };
 } else if (type === 'faq' && data) {
   schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": data.faqs || []
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${pageUrl}#faq`,
+    inLanguage: lang,
+    mainEntity: data.faqs || []
   };
 }
 ---

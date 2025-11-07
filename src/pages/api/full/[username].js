@@ -1,43 +1,42 @@
-// RapidAPI Instagram API configuration
-const RAPIDAPI_CONFIG = {
-    host: 'instagram120.p.rapidapi.com',
-    key: process.env.RAPIDAPI_KEY || '663ef24eedmsha6824f05f5bee0bp1c071bjsnef3779a17b07', // Use env variable
-    baseUrl: 'https://instagram120.p.rapidapi.com/api/instagram'
-};
+import { makeScraperRequest } from '../../../lib/instagramScraper.js';
 
-// Helper function to make RapidAPI requests
-async function makeRapidAPIRequest(endpoint, data = {}) {
-    try {
-        const response = await fetch(`${RAPIDAPI_CONFIG.baseUrl}${endpoint}`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'x-rapidapi-host': RAPIDAPI_CONFIG.host,
-                'x-rapidapi-key': RAPIDAPI_CONFIG.key
-            },
-            body: JSON.stringify(data)
-        });
+function parseFollowerCount(text) {
+    if (!text || typeof text !== 'string') return null;
+    const match = text.match(/([\d.,]+)\s*([KMB])?/i);
+    if (!match) return null;
 
-        if (!response.ok) {
-            throw new Error(`RapidAPI request failed: ${response.status} ${response.statusText}`);
-        }
+    let value = parseFloat(match[1].replace(/,/g, ''));
+    if (Number.isNaN(value)) return null;
 
-        return await response.json();
-    } catch (error) {
-        console.error('RapidAPI request error:', error);
-        throw error;
+    const suffix = (match[2] || '').toUpperCase();
+    switch (suffix) {
+        case 'K':
+            value *= 1_000;
+            break;
+        case 'M':
+            value *= 1_000_000;
+            break;
+        case 'B':
+            value *= 1_000_000_000;
+            break;
+        default:
+            break;
     }
+
+    return Math.round(value);
 }
 
 // Get posts for a username
 async function getPosts(username, maxId = '') {
     try {
         console.log(`Fetching posts for: ${username}`);
-        
-        const data = await makeRapidAPIRequest('/posts', {
-            username: username,
-            maxId: maxId
-        });
+
+        const params = { username_or_url: username };
+        if (maxId) {
+            params.max_id = maxId;
+        }
+
+        const data = await makeScraperRequest('posts', params);
 
         console.log(`Successfully fetched posts for: ${username}`);
         return data;
@@ -52,12 +51,41 @@ async function getProfile(username) {
     try {
         console.log(`Fetching profile for: ${username}`);
         
-        const data = await makeRapidAPIRequest('/profile', {
-            username: username
+        const data = await makeScraperRequest('search', {
+            search_query: username
         });
 
+        const users = Array.isArray(data?.users) ? data.users : [];
+        const lower = username.toLowerCase();
+
+        let match = users.find(item => item?.user?.username?.toLowerCase() === lower);
+        if (!match && users.length > 0) {
+            match = users[0];
+        }
+
+        const userData = match?.user;
+        if (!userData) {
+            throw new Error('Profile not found');
+        }
+
+        const followersText = userData.search_social_context || '';
+        const followersCount = parseFollowerCount(followersText);
+
+        const profile = {
+            username: userData.username,
+            full_name: userData.full_name || userData.username,
+            profile_pic_url: userData.profile_pic_url || userData.hd_profile_pic_url_info?.url || '',
+            is_verified: Boolean(userData.is_verified),
+            is_private: Boolean(userData.is_private),
+            id: userData.pk || userData.id || null,
+            followers_text: followersText,
+            followers_count: followersCount,
+            following_count: userData.following_count ?? null,
+            biography: userData.biography || ''
+        };
+
         console.log(`Successfully fetched profile for: ${username}`);
-        return data;
+        return profile;
     } catch (error) {
         console.error(`Error fetching profile for ${username}:`, error);
         throw error;
@@ -68,9 +96,9 @@ async function getProfile(username) {
 async function getStories(username) {
     try {
         console.log(`Fetching stories for: ${username}`);
-        
-        const data = await makeRapidAPIRequest('/stories', {
-            username: username
+
+        const data = await makeScraperRequest('stories', {
+            username_or_url: username
         });
 
         console.log(`Successfully fetched stories for: ${username}`);
@@ -85,9 +113,9 @@ async function getStories(username) {
 async function getHighlights(username) {
     try {
         console.log(`Fetching highlights for: ${username}`);
-        
-        const data = await makeRapidAPIRequest('/highlights', {
-            username: username
+
+        const data = await makeScraperRequest('highlights', {
+            username_or_url: username
         });
 
         console.log(`Successfully fetched highlights for: ${username}`);
@@ -128,16 +156,34 @@ export async function GET({ params }) {
         ]);
 
         // Combine results
+        const profileSuccess = profileData.status === 'fulfilled' && profileData.value;
+        const postsSuccess = postsData.status === 'fulfilled' && postsData.value;
+        const storiesSuccess = storiesData.status === 'fulfilled' && storiesData.value && !storiesData.value.error && !storiesData.value.message;
+        const highlightsSuccess = highlightsData.status === 'fulfilled' && highlightsData.value;
+
+        const allSucceeded = profileSuccess && postsSuccess;
+
         const result = {
-            success: true,
+            success: allSucceeded,
+            error: undefined,
             data: {
                 username: cleanUsername,
-                profile: profileData.status === 'fulfilled' ? profileData.value : null,
-                posts: postsData.status === 'fulfilled' ? postsData.value : null,
-                stories: storiesData.status === 'fulfilled' ? storiesData.value : null,
-                highlights: highlightsData.status === 'fulfilled' ? highlightsData.value : null
+                profile: profileSuccess ? profileData.value : null,
+                posts: postsSuccess ? postsData.value : null,
+                stories: storiesSuccess ? storiesData.value : null,
+                highlights: highlightsSuccess ? highlightsData.value : null
             }
         };
+
+        if (!profileSuccess) {
+            result.error = profileData.status === 'rejected'
+                ? profileData.reason?.message || 'Failed to fetch profile information'
+                : 'Failed to fetch profile information';
+        } else if (!postsSuccess) {
+            result.error = postsData.status === 'rejected'
+                ? postsData.reason?.message || 'Failed to fetch posts'
+                : 'Failed to fetch posts';
+        }
 
         // Log any failed requests
         if (profileData.status === 'rejected') {
@@ -153,10 +199,19 @@ export async function GET({ params }) {
             console.error('Highlights fetch failed:', highlightsData.reason);
         }
 
-        // Cache the result
-        cache.set(cacheKey, { data: result, timestamp: Date.now() });
-        console.log(`✓ Cached data for: ${cleanUsername}`);
+        // Cache the result only if profile & posts succeeded
+        if (allSucceeded) {
+            cache.set(cacheKey, { data: result, timestamp: Date.now() });
+            console.log(`✓ Cached data for: ${cleanUsername}`);
+        }
         
+        if (!allSucceeded) {
+            return new Response(JSON.stringify(result), {
+                status: 502,
+                headers: { 'Content-Type': 'application/json' }
+            });
+        }
+
         return new Response(JSON.stringify(result), {
             headers: { 'Content-Type': 'application/json' }
         });

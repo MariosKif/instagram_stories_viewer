@@ -5,6 +5,7 @@ import LanguageSwitcher from '../components/LanguageSwitcher.astro';
 import HreflangTags from '../components/HreflangTags.astro';
 import StructuredData from '../components/StructuredData.astro';
 import Analytics from '../components/Analytics.astro';
+import ProfileClientScript from '../components/ProfileClientScript.astro';
 
 // Check for explicit language preference in cookie or URL
 const cookieLang = Astro.cookies.get('preferred-language')?.value as Language | undefined;
@@ -104,9 +105,24 @@ const currentPath = Astro.url.pathname;
     <meta property="al:web:url" content="https://www.igstorypeek.com/" />
     
     <!-- Structured Data for SEO -->
-    <StructuredData type="organization" lang={lang} />
-    <StructuredData type="website" lang={lang} />
-    <StructuredData type="webapplication" lang={lang} />
+    <StructuredData type="organization" lang={lang} data={{
+      description: t.meta.description,
+      pagePath: '/',
+      siteName: 'IGStoryPeek',
+      alternateName: t.meta.title
+    }} />
+    <StructuredData type="website" lang={lang} data={{
+      description: t.meta.description,
+      pagePath: '/',
+      siteName: 'IGStoryPeek',
+      alternateName: t.meta.title
+    }} />
+    <StructuredData type="webapplication" lang={lang} data={{
+      description: t.meta.description,
+      pagePath: '/',
+      siteName: 'IGStoryPeek',
+      alternateName: t.meta.title
+    }} />
     <StructuredData type="faq" lang={lang} data={{ faqs: t.faq.items.map(item => ({
       "@type": "Question",
       "name": item.question,
@@ -210,7 +226,7 @@ const currentPath = Astro.url.pathname;
         </section>
 
         <!-- Story Viewer Modal -->
-        <div id="storyModal" class="story-modal" style="display: none;">
+        <div id="storyModal" class="story-modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="storyUsername" aria-describedby="storyTime" tabindex="-1">
             <div class="story-modal-content">
                 <div class="story-header">
                     <div class="story-user-info">
@@ -220,13 +236,13 @@ const currentPath = Astro.url.pathname;
                             <span id="storyTime" class="story-time">2h ago</span>
                         </div>
                     </div>
-                    <button class="story-close" onclick="closeStoryModal()">
+                    <button class="story-close" type="button" aria-label="Close story viewer">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
                 
                 <div class="story-media-container">
-                    <button class="story-nav story-nav-left" onclick="previousStory()">
+                    <button class="story-nav story-nav-left" type="button" aria-label="Previous story">
                         <i class="fas fa-chevron-left"></i>
                     </button>
                     
@@ -238,7 +254,7 @@ const currentPath = Astro.url.pathname;
                         </video>
                     </div>
                     
-                    <button class="story-nav story-nav-right" onclick="nextStory()">
+                    <button class="story-nav story-nav-right" type="button" aria-label="Next story">
                         <i class="fas fa-chevron-right"></i>
                     </button>
                 </div>
@@ -252,7 +268,7 @@ const currentPath = Astro.url.pathname;
         </div>
 
         <!-- Post Viewer Modal -->
-        <div id="postModal" class="post-modal" style="display: none;">
+        <div id="postModal" class="post-modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="postUsername" aria-describedby="postModalCaption" tabindex="-1">
             <div class="post-modal-content">
                 <div class="post-modal-header">
                     <div class="post-user-info">
@@ -261,7 +277,7 @@ const currentPath = Astro.url.pathname;
                             <span id="postUsername" class="post-username">@username</span>
                         </div>
                     </div>
-                    <button class="post-close" onclick="closePostModal()">
+                    <button class="post-close" type="button" aria-label="Close post viewer">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
@@ -279,8 +295,8 @@ const currentPath = Astro.url.pathname;
                         <span id="postModalLikes"><i class="fas fa-heart"></i> 0</span>
                         <span id="postModalComments"><i class="fas fa-comment"></i> 0</span>
                     </div>
-                    <button class="btn-view-post" onclick="viewPostOnInstagram()">
-                        <i class="fab fa-instagram"></i> View on Instagram
+                    <button class="btn-view-post" type="button">
+                        <i class="fas fa-external-link-alt"></i> View on Instagram
                     </button>
                 </div>
                 
@@ -1549,6 +1565,63 @@ const currentPath = Astro.url.pathname;
     .notice-content strong {
         color: #0c5460;
     }
+
+    .story-item:hover, .highlight-item:hover {
+        transform: scale(1.05);
+    }
+
+    .highlight-item.is-loading {
+        position: relative;
+        pointer-events: none;
+        opacity: 0.6;
+    }
+
+    .highlight-item.is-loading::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 32px;
+        height: 32px;
+        border: 3px solid rgba(255, 255, 255, 0.6);
+        border-top-color: #667eea;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+        transform: translate(-50%, -50%);
+    }
+
+    .message {
+        margin: 1.5rem auto;
+        max-width: 720px;
+        padding: 1rem 1.5rem;
+        border-radius: 12px;
+        color: #f9fafb;
+        box-shadow: 0 12px 24px rgba(102, 126, 234, 0.2);
+    }
+
+    .message-action {
+        margin-left: 1rem;
+        padding: 0.4rem 0.9rem;
+        border-radius: 8px;
+        border: none;
+        background: #fff;
+        color: #4c51bf;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .message-action:hover {
+        background: #f1f5f9;
+    }
+
+    @keyframes spin {
+        from {
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
 </style>
 
 <script>
@@ -1734,30 +1807,30 @@ const currentPath = Astro.url.pathname;
 
     // Show profile data on the website
     function showProfileData(apiData) {
-        // Extract data from RapidAPI response structure
-        const profileData = apiData.profile?.result || apiData.profile?.data || apiData.profile || {};
-        const postsData = apiData.posts?.result || apiData.posts?.data || apiData.posts || {};
-        const storiesData = apiData.stories?.result || apiData.stories?.data || apiData.stories || {};
-        const highlightsData = apiData.highlights?.result || apiData.highlights?.data || apiData.highlights || {};
-        
-        // Get user info from profile data
+        const profileData = apiData.profile || {};
+        const postsDataRaw = apiData.posts || {};
+        const storiesDataRaw = apiData.stories || {};
+        const highlightsDataRaw = apiData.highlights || {};
+
+        if (!profileData || Object.keys(profileData).length === 0) {
+            showMessage('Profile information is temporarily unavailable.', 'error');
+            return;
+        }
+
         const username = profileData.username || apiData.username;
         const fullName = profileData.full_name || username;
-        const bio = profileData.biography || 'No bio available';
-        const profileImage = profileData.profile_pic_url || '';
-        
-        // Get stats from profile data
-        const postsCount = profileData.edge_owner_to_timeline_media?.count || 0;
-        const followers = profileData.edge_followed_by?.count || 0;
-        const following = profileData.edge_follow?.count || 0;
+        const bio = profileData.biography || 'No bio available.';
+        const profileImage = profileData.profile_pic_url || profileData.profile_picture || '';
+
+        const followersCountRaw = typeof profileData.followers_count === 'number' ? profileData.followers_count : null;
+        const followersText = profileData.followers_text || '';
+        const followersDisplay = followersCountRaw !== null ? formatNumber(followersCountRaw) : (followersText ? followersText.replace(/followers?/i, '').trim() : 'N/A');
+        const followingCountRaw = typeof profileData.following_count === 'number' ? profileData.following_count : null;
         
         // Update profile info with real data
         document.getElementById('profileUsername').textContent = `@${username}`;
         document.getElementById('profileName').textContent = fullName;
         document.getElementById('profileBio').textContent = bio;
-        document.getElementById('postsCount').textContent = `${postsCount} posts`;
-        document.getElementById('followersCount').textContent = `${formatNumber(followers)} followers`;
-        document.getElementById('followingCount').textContent = `${formatNumber(following)} following`;
         
         // Update profile image with proxy URL to avoid CORS issues on production
         const profileImageEl = document.getElementById('profileImage');
@@ -1785,29 +1858,68 @@ const currentPath = Astro.url.pathname;
 
         // Store current profile data for tab switching
         // Extract posts from various possible structures
-        let posts = [];
-        if (postsData.edges) {
-            posts = postsData.edges;
-        } else if (postsData.data && postsData.data.edges) {
-            posts = postsData.data.edges;
-        } else if (postsData.data && postsData.data.edge_owner_to_timeline_media && postsData.data.edge_owner_to_timeline_media.edges) {
-            posts = postsData.data.edge_owner_to_timeline_media.edges;
-        } else if (Array.isArray(postsData)) {
-            posts = postsData;
+        function normalizeMedia(raw, options = {}) {
+            if (!raw) return [];
+            if (typeof raw === 'string') return [];
+            if (raw.error || raw.message) return [];
+
+            let list = [];
+
+            if (Array.isArray(raw)) {
+                list = raw;
+            } else if (Array.isArray(raw.items)) {
+                list = raw.items;
+            } else if (Array.isArray(raw.nodes)) {
+                list = raw.nodes;
+            } else if (Array.isArray(raw.posts)) {
+                list = raw.posts;
+            } else if (Array.isArray(raw.edges)) {
+                list = raw.edges;
+            } else if (raw.data) {
+                return normalizeMedia(raw.data, options);
+            } else if (options.fallbackKey && Array.isArray(raw[options.fallbackKey])) {
+                list = raw[options.fallbackKey];
+            }
+
+            // If the list contains objects with nested arrays (like edges), flatten them
+            list = list.flatMap(item => {
+                if (!item) return [];
+                if (Array.isArray(item.edges)) {
+                    return item.edges;
+                }
+                return [item];
+            });
+
+            // Map all entries to their node/content object
+            return list
+                .map(item => item?.node || item)
+                .filter(Boolean);
         }
+
+        const posts = normalizeMedia(postsDataRaw, { fallbackKey: 'posts' });
+        const stories = normalizeMedia(storiesDataRaw, { fallbackKey: 'stories' });
+        const highlights = normalizeMedia(highlightsDataRaw, { fallbackKey: 'highlights' });
+
+        const postsCount = (typeof profileData.posts_count === 'number' && profileData.posts_count >= 0)
+            ? profileData.posts_count
+            : posts.length;
+
+        document.getElementById('postsCount').textContent = `${formatNumber(postsCount)} posts`;
+        document.getElementById('followersCount').textContent = `${followersDisplay} followers`;
+        document.getElementById('followingCount').textContent = followingCountRaw !== null ? `${formatNumber(followingCountRaw)} following` : 'N/A following';
         
         window.currentProfileData = {
             username: username,
             fullName: fullName,
             bio: bio,
             profileImage: profileImage,
-            followers: followers,
-            following: following,
-            postsCount: postsCount,
             posts: posts,
-            stories: storiesData.edges || storiesData || [],
-            highlights: highlightsData.tray || highlightsData.edges || (Array.isArray(highlightsData) ? highlightsData : [])
+            stories: stories,
+            highlights: highlights
         };
+        window.highlightCache = {};
+        window.currentHighlightTitle = null;
+        window.currentHighlightId = null;
 
         // Load posts by default
         loadPosts(window.currentProfileData.posts);
@@ -1893,7 +2005,10 @@ const currentPath = Astro.url.pathname;
         // Add click listeners to story items
         contentGrid.querySelectorAll('.story-item').forEach((item, index) => {
             item.addEventListener('click', () => {
-                openStory(stories[index]);
+                openStory(stories[index], {
+                    storiesList: stories,
+                    context: 'stories'
+                });
             });
         });
     }
@@ -1907,7 +2022,7 @@ const currentPath = Astro.url.pathname;
             return;
         }
 
-        const postsContent = posts.map(post => {
+        const postsContent = posts.map((post, index) => {
             // Handle RapidAPI post structure
             const node = post.node || post;
             const isVideo = node.media_type === 2 || node.is_video;
@@ -1933,7 +2048,7 @@ const currentPath = Astro.url.pathname;
             const proxyUrl = mediaUrl ? `/api/image-proxy?url=${encodeURIComponent(mediaUrl)}` : '';
             const showFallback = !proxyUrl ? 'display:flex;' : 'display:none;';
             return `
-                <div class="content-item post-item" data-post-index="${posts.indexOf(post)}">
+                <div class="content-item post-item" data-post-index="${index}">
                     ${proxyUrl ? `<img src="${proxyUrl}" alt="${caption.substring(0, 50)}..." loading="lazy" 
                          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />` : ''}
                     <div class="image-fallback" style="${showFallback} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
@@ -1968,23 +2083,30 @@ const currentPath = Astro.url.pathname;
         }
 
         const highlightsContent = highlights.map(highlight => {
-            // Handle RapidAPI highlight structure
             const node = highlight.node || highlight;
             const coverMedia = node.cover_media || {};
             const coverCandidates = coverMedia.image_versions2?.candidates || [];
-            const coverUrl = coverCandidates.length > 0 ? coverCandidates[0].url : '';
+            const coverUrl = coverCandidates.length > 0
+                ? coverCandidates[0].url
+                : coverMedia.cropped_image_version?.url || coverMedia.thumbnail_image?.url || '';
             const title = node.title || 'Highlight';
             const highlightUrl = `https://www.instagram.com/stories/highlights/${node.id}/`;
-            
-            // Use proxy URL directly if we have a cover URL
+
             const proxyUrl = coverUrl ? `/api/image-proxy?url=${encodeURIComponent(coverUrl)}` : '';
-            
+
+            const fallbackDisplay = coverUrl ? 'display:none;' : 'display:flex;';
+            const fallbackLabel = coverUrl ? 'Preview unavailable' : (title?.trim()?.charAt(0) || '☆');
+            const encodedId = encodeURIComponent(node.id || '');
+            const encodedTitle = encodeURIComponent(title);
+            const encodedUrl = encodeURIComponent(highlightUrl);
+
             return `
-                <div class="content-item highlight-item" onclick="openHighlight('${highlightUrl}')">
+                <div class="content-item highlight-item" data-highlight-id="${encodedId}" data-highlight-title="${encodedTitle}" data-highlight-url="${encodedUrl}">
                     ${coverUrl ? `<img src="${proxyUrl}" alt="${title}" loading="lazy"
-                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />` : ''}
-                    <div class="image-fallback" style="${coverUrl ? 'display:none;' : 'display:flex;'} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
-                        <span>Image blocked by Instagram</span>
+                         onload="this.nextElementSibling.style.display='none';"
+                         onerror="this.style.display='none'; const fallback = this.nextElementSibling; fallback.style.display='flex'; fallback.dataset.state='error';" />` : ''}
+                    <div class="image-fallback" data-state="${coverUrl ? 'loading' : 'empty'}" style="${fallbackDisplay} width:100%; height:100%; background:#f3f4f6; border-radius:12px; align-items:center; justify-content:center; color:#4b5563; font-size:14px; font-weight:500; text-align:center; padding:0.75rem;">
+                        <span>${fallbackLabel}</span>
                     </div>
                     <div class="highlight-overlay">
                         <span>${title}</span>
@@ -1994,6 +2116,15 @@ const currentPath = Astro.url.pathname;
         }).join('');
 
         contentGrid.innerHTML = highlightsContent;
+
+        contentGrid.querySelectorAll('.highlight-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const highlightId = decodeDatasetValue(item.dataset.highlightId);
+                const highlightTitle = decodeDatasetValue(item.dataset.highlightTitle);
+                const highlightUrl = decodeDatasetValue(item.dataset.highlightUrl);
+                openHighlight(highlightId, highlightTitle, highlightUrl);
+            });
+        });
     }
 
     // Legacy function for backward compatibility
@@ -2003,6 +2134,18 @@ const currentPath = Astro.url.pathname;
 
     // Format numbers (1K, 1M, etc.)
     function formatNumber(num) {
+        if (num === null || num === undefined) {
+            return '0';
+        }
+
+        if (typeof num === 'string') {
+            return num;
+        }
+
+        if (Number.isNaN(num)) {
+            return '0';
+        }
+
         if (num >= 1000000) {
             return (num / 1000000).toFixed(1) + 'M';
         } else if (num >= 1000) {
@@ -2023,25 +2166,30 @@ const currentPath = Astro.url.pathname;
     let storyAutoAdvanceTimeout;
 
     // Open story in modal
-    function openStory(storyData) {
-        // Store all stories for navigation
-        currentStories = window.currentProfileData?.stories || [];
-        currentStoryIndex = currentStories.findIndex(story => 
-            JSON.stringify(story) === JSON.stringify(storyData)
-        );
-        
+    function openStory(storyData, options = {}) {
+        const providedStories = Array.isArray(options.storiesList) ? options.storiesList : (window.currentProfileData?.stories || []);
+        currentStories = providedStories.length > 0 ? providedStories : [storyData];
+
+        currentStoryIndex = currentStories.findIndex(story => JSON.stringify(story) === JSON.stringify(storyData));
         if (currentStoryIndex === -1) {
-            console.error('Story not found in current stories');
-            return;
+            currentStoryIndex = 0;
         }
-        
-        // Track story view
+
+        if (options.context === 'highlight') {
+            window.currentHighlightTitle = options.highlightTitle || window.currentHighlightTitle || 'Highlight';
+            window.currentHighlightId = options.highlightId || window.currentHighlightId || '';
+        } else {
+            window.currentHighlightTitle = null;
+            window.currentHighlightId = null;
+        }
+
         const username = window.currentProfileData?.username || 'unknown';
         if (typeof window.trackStoryView === 'function') {
             window.trackStoryView(username);
         }
-        
-        showStoryModal(storyData);
+
+        const activeStory = currentStories[currentStoryIndex] || storyData;
+        showStoryModal(activeStory);
     }
 
     function showStoryModal(storyData) {
@@ -2055,8 +2203,10 @@ const currentPath = Astro.url.pathname;
         
         // Update user info
         const username = window.currentProfileData?.username || 'unknown';
-        storyUsername.textContent = `@${username}`;
-        storyTime.textContent = '2h ago'; // You can calculate actual time if needed
+        const highlightLabel = window.currentHighlightTitle;
+        storyUsername.textContent = highlightLabel ? `${highlightLabel} • @${username}` : `@${username}`;
+        const timestampLabel = highlightLabel ? 'Highlight' : formatStoryTimestamp(storyData.node?.taken_at);
+        storyTime.textContent = timestampLabel;
         storyUserAvatar.src = window.currentProfileData?.profileImage || '';
         
         // Handle story data
@@ -2134,11 +2284,8 @@ const currentPath = Astro.url.pathname;
         modal.style.display = 'none';
         clearInterval(storyProgressInterval);
         clearTimeout(storyAutoAdvanceTimeout);
-        
-        // Stop video if playing
-        const storyVideo = document.getElementById('storyVideo');
-        storyVideo.pause();
-        storyVideo.currentTime = 0;
+        window.currentHighlightTitle = null;
+        window.currentHighlightId = null;
     }
 
     // Post modal functionality
@@ -2268,8 +2415,64 @@ const currentPath = Astro.url.pathname;
     });
 
     // Open highlight in new tab
-    function openHighlight(url) {
-        window.open(url, '_blank');
+    async function openHighlight(highlightId, highlightTitle, fallbackUrl) {
+        const safeId = (highlightId || '').trim();
+        const fallback = fallbackUrl || (safeId ? `https://www.instagram.com/stories/highlights/${safeId.replace(/^highlight:/, '')}/` : '');
+
+        if (!safeId) {
+            if (fallback) {
+                window.open(fallback, '_blank');
+            }
+            return;
+        }
+
+        if (!window.highlightCache) {
+            window.highlightCache = {};
+        }
+
+        const cacheKey = safeId;
+        let highlightStories = window.highlightCache[cacheKey];
+
+        if (!highlightStories) {
+            try {
+                const response = await fetch(`/api/highlights/${encodeURIComponent(safeId)}`);
+                const result = await response.json();
+
+                if (!response.ok || !result.success) {
+                    throw new Error(result.error || 'Failed to load highlight stories');
+                }
+
+                highlightStories = normalizeHighlightStories(result.data?.items || result.data);
+                window.highlightCache[cacheKey] = highlightStories;
+            } catch (error) {
+                console.error('Unable to load highlight stories:', error);
+                showMessage('Unable to load highlight stories right now. Opening on Instagram.', 'error');
+                if (fallback) {
+                    window.open(fallback, '_blank');
+                }
+                return;
+            }
+        }
+
+        if (!highlightStories || highlightStories.length === 0) {
+            showMessage('No stories found in this highlight yet.', 'info');
+            return;
+        }
+
+        window.currentHighlightTitle = highlightTitle || 'Highlight';
+        window.currentHighlightId = safeId;
+
+        if (typeof window.trackHighlightView === 'function') {
+            const username = window.currentProfileData?.username || 'unknown';
+            window.trackHighlightView(`${username}:${window.currentHighlightTitle}`);
+        }
+
+        openStory(highlightStories[0], {
+            storiesList: highlightStories,
+            context: 'highlight',
+            highlightTitle: window.currentHighlightTitle,
+            highlightId: safeId
+        });
     }
 
     // Utility functions
@@ -2360,4 +2563,45 @@ const currentPath = Astro.url.pathname;
             });
         });
     });
+
+    function decodeDatasetValue(value) {
+        if (typeof value !== 'string') return '';
+        try {
+            return decodeURIComponent(value);
+        } catch (error) {
+            return value;
+        }
+    }
+
+    function normalizeHighlightStories(items) {
+        if (!Array.isArray(items)) return [];
+        return items
+            .map(item => item?.node || item)
+            .filter(Boolean);
+    }
+
+    function formatStoryTimestamp(takenAt) {
+        if (!takenAt) return '';
+        const nowSeconds = Math.floor(Date.now() / 1000);
+        const diff = Math.max(0, nowSeconds - takenAt);
+
+        if (diff < 60) {
+            return `${diff}s ago`;
+        }
+
+        if (diff < 3600) {
+            const minutes = Math.floor(diff / 60);
+            return `${minutes}m ago`;
+        }
+
+        if (diff < 86400) {
+            const hours = Math.floor(diff / 3600);
+            return `${hours}h ago`;
+        }
+
+        const days = Math.floor(diff / 86400);
+        return days === 1 ? '1 day ago' : `${days} days ago`;
+    }
 </script>
+
+<ProfileClientScript />
