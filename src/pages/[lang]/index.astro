@@ -145,7 +145,13 @@ const currentPath = Astro.url.pathname;
                 </div>
                 <nav class="main-nav" aria-label="Primary">
                     <ul>
-                        <li class="nav-item has-dropdown"><a href="#features">Features <i class="fas fa-chevron-down" aria-hidden="true"></i></a></li>
+                        <li class="nav-item has-dropdown"><a href="#features">Features <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#feature-anonymity">{t.features.anonymity.title}</a></li>
+                                <li><a href="#feature-no-account">{t.features.noAccount.title}</a></li>
+                                <li><a href="#feature-download">{t.features.download.title}</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a href="#pricing">Pricing</a></li>
                         <li class="nav-item"><a href="/blog">Blog</a></li>
                         <li class="nav-item"><a href="#help-center">Help Center</a></li>
@@ -312,7 +318,7 @@ const currentPath = Astro.url.pathname;
                 <p class="features-intro">{t.features.intro}</p>
                 
                 <div class="features-grid">
-                    <div class="feature-card">
+                    <div class="feature-card" id="feature-anonymity">
                         <div class="feature-icon">
                             <i class="fas fa-user-secret"></i>
                         </div>
@@ -320,7 +326,7 @@ const currentPath = Astro.url.pathname;
                         <p>{t.features.anonymity.description}</p>
                     </div>
                     
-                    <div class="feature-card">
+                    <div class="feature-card" id="feature-no-account">
                         <div class="feature-icon">
                             <i class="fas fa-user-plus"></i>
                         </div>
@@ -328,7 +334,7 @@ const currentPath = Astro.url.pathname;
                         <p>{t.features.noAccount.description}</p>
                     </div>
                     
-                    <div class="feature-card">
+                    <div class="feature-card" id="feature-download">
                         <div class="feature-icon">
                             <i class="fas fa-download"></i>
                         </div>
@@ -507,6 +513,48 @@ const currentPath = Astro.url.pathname;
 
     .main-nav .has-dropdown i {
         font-size: 0.75rem;
+    }
+
+    .main-nav .has-dropdown {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: calc(100% + 0.75rem);
+        left: 0;
+        background: rgba(22, 27, 50, 0.95);
+        border-radius: 10px;
+        padding: 0.75rem 0;
+        display: none;
+        min-width: 220px;
+        box-shadow: 0 12px 30px rgba(13, 22, 67, 0.25);
+        backdrop-filter: blur(6px);
+        z-index: 50;
+    }
+
+    .dropdown-menu li {
+        width: 100%;
+    }
+
+    .dropdown-menu a {
+        width: 100%;
+        display: block;
+        padding: 0.6rem 1.25rem;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+    }
+
+    .dropdown-menu a:hover,
+    .dropdown-menu a:focus-visible {
+        background: rgba(102, 126, 234, 0.2);
+        opacity: 1;
+    }
+
+    .main-nav .has-dropdown:hover .dropdown-menu,
+    .main-nav .has-dropdown:focus-within .dropdown-menu {
+        display: block;
     }
 
     .language-selector select {
