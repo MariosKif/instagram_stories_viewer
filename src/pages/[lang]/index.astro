@@ -146,50 +146,11 @@ const currentPath = Astro.url.pathname;
                 <nav class="main-nav" aria-label="Primary">
                     <ul>
                         <li class="nav-item has-dropdown"><a href="#features">Features <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
-                            <div class="dropdown-menu mega-menu">
-                                <div class="dropdown-grid">
-                                    <div class="dropdown-column">
-                                        <h5><i class="fas fa-glasses" aria-hidden="true"></i> View Instagram Privately</h5>
-                                        <a href="#feature-anonymity">User search for Instagram</a>
-                                        <a href="#feature-anonymity">View Instagram Comments Privately</a>
-                                    </div>
-                                    <div class="dropdown-column">
-                                        <h5><i class="fas fa-shoe-prints" aria-hidden="true"></i> Instagram Analyzer</h5>
-                                        <a href="#feature-anonymity">Instagram Follower Analyzer</a>
-                                        <a href="#feature-anonymity">Instagram Activity Analyzer</a>
-                                        <a href="#feature-anonymity">See Likes on Instagram</a>
-                                        <a href="#feature-anonymity">Hashtags Generator</a>
-                                    </div>
-                                    <div class="dropdown-column">
-                                        <h5><i class="fas fa-download" aria-hidden="true"></i> Instagram Downloader</h5>
-                                        <a href="#feature-download">Stories Downloader</a>
-                                        <a href="#feature-download">Highlights Downloader</a>
-                                        <a href="#feature-download">Posts Downloader</a>
-                                    </div>
-                                    <div class="dropdown-column">
-                                        <h5><i class="fas fa-eye" aria-hidden="true"></i> Instagram Viewer</h5>
-                                        <a href="#feature-anonymity">Post Viewer</a>
-                                        <a href="#feature-anonymity">Stories Viewer</a>
-                                        <a href="#feature-download">Highlights Viewer</a>
-                                        <a href="#feature-anonymity">Comment Viewer</a>
-                                        <a href="#feature-anonymity">Likes Viewer</a>
-                                    </div>
-                                    <div class="dropdown-column">
-                                        <h5><i class="fas fa-envelope-open-text" aria-hidden="true"></i> Instagram Email Finder</h5>
-                                        <a href="#feature-no-account">By Hashtag</a>
-                                        <a href="#feature-no-account">By Keyword</a>
-                                        <a href="#feature-no-account">By Location</a>
-                                        <a href="#feature-no-account">By Profile</a>
-                                        <a href="#feature-no-account">By Followers</a>
-                                        <a href="#feature-no-account">By Followings</a>
-                                    </div>
-                                    <div class="dropdown-column">
-                                        <h5><i class="fas fa-compass" aria-hidden="true"></i> Instagram Activity Monitor</h5>
-                                        <a href="#feature-anonymity">Relationship Insights</a>
-                                        <a href="#feature-anonymity">Recent Follow</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="#feature-anonymity">{t.features.anonymity.title}</a></li>
+                                <li><a href="#feature-no-account">{t.features.noAccount.title}</a></li>
+                                <li><a href="#feature-download">{t.features.download.title}</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item"><a href="#pricing">Pricing</a></li>
                         <li class="nav-item"><a href="/blog">Blog</a></li>
@@ -562,48 +523,32 @@ const currentPath = Astro.url.pathname;
         position: absolute;
         top: calc(100% + 0.75rem);
         left: 0;
-        background: rgba(22, 27, 50, 0.96);
-        border-radius: 14px;
-        padding: 1.5rem;
+        background: rgba(22, 27, 50, 0.95);
+        border-radius: 10px;
+        padding: 0.75rem 0;
         display: none;
-        min-width: 820px;
-        box-shadow: 0 22px 60px rgba(13, 22, 67, 0.35);
-        backdrop-filter: blur(12px);
+        min-width: 220px;
+        box-shadow: 0 12px 30px rgba(13, 22, 67, 0.25);
+        backdrop-filter: blur(6px);
         z-index: 50;
     }
 
-    .mega-menu .dropdown-grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(200px, 1fr));
-        gap: 1.75rem;
+    .dropdown-menu li {
+        width: 100%;
     }
 
-    .mega-menu .dropdown-column h5 {
-        font-size: 0.95rem;
-        color: #cfd5ff;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-bottom: 0.9rem;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .mega-menu .dropdown-column h5 i {
-        font-size: 1rem;
-    }
-
-    .mega-menu a {
+    .dropdown-menu a {
+        width: 100%;
         display: block;
-        padding: 0.4rem 0;
-        color: rgba(255, 255, 255, 0.85);
-        font-size: 0.95rem;
+        padding: 0.6rem 1.25rem;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.9);
         text-decoration: none;
     }
 
-    .mega-menu a:hover,
-    .mega-menu a:focus-visible {
-        color: #ffffff;
+    .dropdown-menu a:hover,
+    .dropdown-menu a:focus-visible {
+        background: rgba(102, 126, 234, 0.2);
         opacity: 1;
     }
 
@@ -1959,7 +1904,7 @@ const currentPath = Astro.url.pathname;
         document.getElementById('profileUsername').textContent = `@${username}`;
         document.getElementById('profileName').textContent = fullName;
         document.getElementById('profileBio').textContent = bio;
-        
+
         const profileImageEl = document.getElementById('profileImage');
         if (profileImage) {
             const proxyUrl = `/api/image-proxy?url=${encodeURIComponent(profileImage)}`;
@@ -2028,7 +1973,7 @@ const currentPath = Astro.url.pathname;
         document.getElementById('postsCount').textContent = `${formatNumber(postsCount)} posts`;
         document.getElementById('followersCount').textContent = `${followersDisplay} followers`;
         document.getElementById('followingCount').textContent = followingCountRaw !== null ? `${formatNumber(followingCountRaw)} following` : 'N/A following';
-        
+
         window.currentProfileData = {
             username: username,
             fullName: fullName,
