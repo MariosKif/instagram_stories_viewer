@@ -152,6 +152,16 @@ const currentPath = Astro.url.pathname;
                 <div class="logo">
                     <h1>IGStoryPeek</h1>
                 </div>
+                <nav class="main-nav" aria-label="Primary">
+                    <ul>
+                        <li class="nav-item has-dropdown"><a href="#features">Features <i class="fas fa-chevron-down" aria-hidden="true"></i></a></li>
+                        <li class="nav-item"><a href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a href="/blog">Blog</a></li>
+                        <li class="nav-item"><a href="#help-center">Help Center</a></li>
+                        <li class="nav-item has-dropdown"><a href="#toolkit">Toolkit <i class="fas fa-chevron-down" aria-hidden="true"></i></a></li>
+                        <li class="nav-item"><a href="#affiliate" class="affiliate-link">Affiliate</a></li>
+                    </ul>
+                </nav>
                 <LanguageSwitcher lang={lang} />
             </div>
         </div>
@@ -467,6 +477,45 @@ const currentPath = Astro.url.pathname;
         font-size: 1.8rem;
         font-weight: 700;
         letter-spacing: -0.5px;
+    }
+
+    .main-nav {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+    .main-nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.75rem;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-nav a {
+        color: rgba(255, 255, 255, 0.95);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.95rem;
+        transition: opacity 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+
+    .main-nav a:hover,
+    .main-nav a:focus-visible {
+        opacity: 0.8;
+    }
+
+    .main-nav .affiliate-link {
+        color: #c3c1ff;
+        font-weight: 600;
+    }
+
+    .main-nav .has-dropdown i {
+        font-size: 0.75rem;
     }
 
     .language-selector select {
@@ -850,7 +899,18 @@ const currentPath = Astro.url.pathname;
     @media (max-width: 768px) {
         .header-content {
             flex-direction: column;
-            gap: 1rem;
+            gap: 1.25rem;
+        }
+
+        .main-nav {
+            margin: 0;
+            width: 100%;
+        }
+
+        .main-nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem 1.5rem;
         }
 
         .hero-title {
