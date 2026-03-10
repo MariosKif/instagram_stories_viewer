@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-analytics-tools.svg"
+image: "/blog/instagram-algorithm.svg"
 category: "Guides"
 lang: "lt"
 tags: ["instagram algoritmas", "instagram algoritmas 2026", "instagram srautas", "instagram reels", "instagram istorijos", "explore puslapis", "instagram reitingavimas", "turinio strategija", "instagram pasiekiamumas", "instagram augimas", "socialinių tinklų algoritmas"]

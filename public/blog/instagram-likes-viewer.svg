@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="300" cy="200" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="900" cy="400" r="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <g opacity="0.03" stroke="#fff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="630"/><line x1="60" y1="0" x2="60" y2="630"/><line x1="120" y1="0" x2="120" y2="630"/><line x1="180" y1="0" x2="180" y2="630"/><line x1="240" y1="0" x2="240" y2="630"/><line x1="300" y1="0" x2="300" y2="630"/><line x1="360" y1="0" x2="360" y2="630"/><line x1="420" y1="0" x2="420" y2="630"/><line x1="480" y1="0" x2="480" y2="630"/><line x1="540" y1="0" x2="540" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/><line x1="660" y1="0" x2="660" y2="630"/><line x1="720" y1="0" x2="720" y2="630"/><line x1="780" y1="0" x2="780" y2="630"/><line x1="840" y1="0" x2="840" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/><line x1="960" y1="0" x2="960" y2="630"/><line x1="1020" y1="0" x2="1020" y2="630"/><line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/><line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/><line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="360" x2="1200" y2="360"/><line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="480" x2="1200" y2="480"/><line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+  <!-- Heart and likes visualization -->
+  <g transform="translate(600, 220)">
+    <!-- Large heart -->
+    <g transform="scale(2.5) translate(0, -10)">
+      <path d="M0,15 Q0,0 -15,-8 Q-30,-16 -30,-2 Q-30,12 0,30 Q30,12 30,-2 Q30,-16 15,-8 Q0,0 0,15Z" fill="url(#heartGrad)" opacity="0.15" stroke="#ef4444" stroke-width="1" opacity="0.4"/>
+    </g>
+    <!-- Floating like counts -->
+    <g transform="translate(-160, -60)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#1e293b" stroke="#0ea5e9" stroke-width="1.5"/>
+      <path d="M-15,-2 Q-15,-7 -10,-10 Q-5,-13 0,-7 Q5,-13 10,-10 Q15,-7 15,-2 Q15,5 0,12 Q-15,5 -15,-2Z" fill="#ef4444" opacity="0.7" transform="translate(-10,0) scale(0.7)"/>
+      <text x="12" y="4" font-family="system-ui" font-size="11" font-weight="600" fill="#0ea5e9">2,451</text>
+    </g>
+    <g transform="translate(170, -80)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
+      <path d="M-15,-2 Q-15,-7 -10,-10 Q-5,-13 0,-7 Q5,-13 10,-10 Q15,-7 15,-2 Q15,5 0,12 Q-15,5 -15,-2Z" fill="#ef4444" opacity="0.7" transform="translate(-10,0) scale(0.7)"/>
+      <text x="12" y="4" font-family="system-ui" font-size="11" font-weight="600" fill="#22d3ee">8,192</text>
+    </g>
+    <g transform="translate(-120, 50)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
+      <path d="M-15,-2 Q-15,-7 -10,-10 Q-5,-13 0,-7 Q5,-13 10,-10 Q15,-7 15,-2 Q15,5 0,12 Q-15,5 -15,-2Z" fill="#ef4444" opacity="0.7" transform="translate(-10,0) scale(0.7)"/>
+      <text x="12" y="4" font-family="system-ui" font-size="11" font-weight="600" fill="#22d3ee">5,847</text>
+    </g>
+    <g transform="translate(140, 40)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#1e293b" stroke="#0ea5e9" stroke-width="1.5"/>
+      <path d="M-15,-2 Q-15,-7 -10,-10 Q-5,-13 0,-7 Q5,-13 10,-10 Q15,-7 15,-2 Q15,5 0,12 Q-15,5 -15,-2Z" fill="#ef4444" opacity="0.7" transform="translate(-10,0) scale(0.7)"/>
+      <text x="12" y="4" font-family="system-ui" font-size="11" font-weight="600" fill="#0ea5e9">1,203</text>
+    </g>
+    <!-- Eye icon -->
+    <g transform="translate(0, 90)" opacity="0.5">
+      <ellipse cx="0" cy="0" rx="18" ry="11" fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <circle cx="0" cy="0" r="5" fill="#22d3ee" opacity="0.6"/>
+    </g>
+  </g>
+  <text x="600" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" letter-spacing="0.5">Instagram Likes Viewer</text>
+  <text x="600" y="475" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="1">SEE WHO LIKED ANY PUBLIC POST</text>
+  <circle cx="100" cy="100" r="3" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="1100" cy="530" r="3" fill="#22d3ee" opacity="0.3"/>
+  <circle cx="150" cy="500" r="2" fill="#0ea5e9" opacity="0.2"/>
+  <circle cx="1050" cy="130" r="2" fill="#22d3ee" opacity="0.2"/>
+</svg>
