@@ -41,7 +41,7 @@ const platformLinks = platforms.map(p => ({
 
       <!-- Product -->
       <div>
-        <h4 class="text-sm font-semibold text-white mb-4">{fT.product || 'Product'}</h4>
+        <p class="text-sm font-semibold text-white mb-4">{fT.product || 'Product'}</p>
         <ul class="space-y-2.5">
           <li><a href={getLocalizedPath('/', lang) + '#features'} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.features || 'Features'}</a></li>
           <li><a href={getLocalizedPath('/pricing', lang)} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.pricing || 'Pricing'}</a></li>
@@ -52,7 +52,7 @@ const platformLinks = platforms.map(p => ({
 
       <!-- Resources -->
       <div>
-        <h4 class="text-sm font-semibold text-white mb-4">{fT.resources || 'Resources'}</h4>
+        <p class="text-sm font-semibold text-white mb-4">{fT.resources || 'Resources'}</p>
         <ul class="space-y-2.5">
           <li><a href={getLocalizedPath('/blog', lang)} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.blog || 'Blog'}</a></li>
           <li><a href={getLocalizedPath('/', lang) + '#use-cases'} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.useCases || 'Use Cases'}</a></li>
@@ -62,7 +62,7 @@ const platformLinks = platforms.map(p => ({
 
       <!-- Legal -->
       <div>
-        <h4 class="text-sm font-semibold text-white mb-4">{fT.legal || 'Legal'}</h4>
+        <p class="text-sm font-semibold text-white mb-4">{fT.legal || 'Legal'}</p>
         <ul class="space-y-2.5">
           <li><a href={getLocalizedPath('/privacy', lang)} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.privacyPolicy || 'Privacy Policy'}</a></li>
           <li><a href={getLocalizedPath('/terms', lang)} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.termsOfService || 'Terms of Service'}</a></li>
@@ -78,9 +78,9 @@ const platformLinks = platforms.map(p => ({
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-12 pt-8 border-t border-white/5">
       {platformLinks.map(p => (
         <div>
-          <h4 class="text-sm font-semibold mb-4" style={`color: ${p.color}`}>
+          <p class="text-sm font-semibold mb-4" style={`color: ${p.color}`}>
             <a href={getLocalizedPath(`/${p.id}`, lang)} class="hover:underline">{p.label} {fT.tools || 'Tools'}</a>
-          </h4>
+          </p>
           <ul class="space-y-2.5">
             {p.features.map(f => (
               <li>

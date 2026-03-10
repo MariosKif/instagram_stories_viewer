@@ -39,7 +39,7 @@ export default defineConfig({
   // Vite config
   vite: {
     build: {
-      cssCodeSplit: false,
+      cssCodeSplit: true,
     },
   },
 

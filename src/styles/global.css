@@ -1,5 +1,4 @@
-/* Google Fonts — must be first */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+/* Fonts loaded non-blocking via MainLayout.astro <link> tags */
 
 @tailwind base;
 @tailwind components;
@@ -92,12 +91,27 @@
     );
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    will-change: background-position;
   }
 
   @keyframes gradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+  }
+
+  /* Respect reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .animated-gradient {
+      animation: none;
+      background-position: 0% 50%;
+    }
+
+    .animate-float,
+    .animate-fade-in,
+    .animate-slide-up {
+      animation: none !important;
+    }
   }
 
   /* Glow effect */

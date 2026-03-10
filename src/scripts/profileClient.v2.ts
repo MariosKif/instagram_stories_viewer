@@ -476,7 +476,7 @@ function renderStoryCard(story: any, index: number): string {
 
   return `
     <div class="content-item story-item" data-story-index="${index}">
-      ${initialSrc ? `<img src="${initialSrc}" alt="Story" loading="lazy" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
+      ${initialSrc ? `<img src="${initialSrc}" alt="Story" loading="lazy" decoding="async" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
       <div class="image-fallback" style="${showFallback} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
         <span>Story blocked by Instagram</span>
       </div>
@@ -521,7 +521,7 @@ function renderPostCard(post: any, index: number): string {
 
   return `
     <div class="content-item post-item" data-post-index="${index}">
-      ${initialSrc ? `<img src="${initialSrc}" alt="${escapeHtmlAttr(caption.substring(0, 50))}..." loading="lazy" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
+      ${initialSrc ? `<img src="${initialSrc}" alt="${escapeHtmlAttr(caption.substring(0, 50))}..." loading="lazy" decoding="async" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
       <div class="image-fallback" style="${showFallback} width:100%; height:100%; background:#f3f4f6; align-items:center; justify-content:center; color:#9ca3af; font-size:14px;">
         <span>Image blocked by Instagram</span>
       </div>
@@ -573,7 +573,7 @@ function renderHighlightCard(highlight: any): string {
 
   return `
     <div class="content-item highlight-item" data-highlight-id="${encodeURIComponent(node.id || '')}" data-highlight-title="${encodeURIComponent(title)}" data-highlight-url="${encodeURIComponent(highlightUrl)}">
-      ${initialSrc ? `<img src="${initialSrc}" alt="${escapeHtmlAttr(title)}" loading="lazy" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
+      ${initialSrc ? `<img src="${initialSrc}" alt="${escapeHtmlAttr(title)}" loading="lazy" decoding="async" data-proxy-src="${proxyUrl || ''}" data-original-src="${originalUrl || ''}" />` : ''}
       <div class="image-fallback" data-state="${coverUrl ? 'loading' : 'empty'}" style="${fallbackDisplay} width:100%; height:100%; background:#f3f4f6; border-radius:12px; align-items:center; justify-content:center; color:#4b5563; font-size:14px; font-weight:500; text-align:center; padding:0.75rem;">
         <span>${fallbackLabel}</span>
       </div>

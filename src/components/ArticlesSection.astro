@@ -54,6 +54,9 @@ function getReadingTime(body: string): number {
               <img
                 src={post.data.image || '/blog/default-blog-hero.svg'}
                 alt={post.data.title}
+                width="400"
+                height="192"
+                decoding="async"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />

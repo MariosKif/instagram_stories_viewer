@@ -146,8 +146,11 @@ const breadcrumbSchema = JSON.stringify({
         <img
           src={post.data.image || '/blog/default-blog-hero.svg'}
           alt={post.data.title}
+          width="1200"
+          height="630"
+          decoding="async"
           class="w-full"
-          loading="eager"
+          fetchpriority="high"
         />
       </div>
 
@@ -283,6 +286,9 @@ const breadcrumbSchema = JSON.stringify({
                 <img
                   src={p.data.image || '/blog/default-blog-hero.svg'}
                   alt={p.data.title}
+                  width="400"
+                  height="160"
+                  decoding="async"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />

@@ -79,21 +79,21 @@ const needsArabicFont = lang === 'ar';
     <meta name="theme-color" content="#667eea" />
 
     <!-- DNS prefetch for third-party origins -->
-    <link rel="dns-prefetch" href="https://googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
 
     <!-- Fonts (non-render-blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
       media="print"
       onload="this.media='all'"
     />
     <noscript>
       <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet"
       />
     </noscript>
@@ -114,8 +114,16 @@ const needsArabicFont = lang === 'ar';
       />
     )}
 
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1279144350888956" crossorigin="anonymous"></script>
+    <!-- Google AdSense (deferred to not block rendering) -->
+    <script>
+      window.addEventListener('load', function() {
+        var s = document.createElement('script');
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1279144350888956';
+        s.crossOrigin = 'anonymous';
+        s.async = true;
+        document.head.appendChild(s);
+      });
+    </script>
 
     <!-- Structured Data — SaaS / WebApplication schema -->
     <script type="application/ld+json" set:html={JSON.stringify({
