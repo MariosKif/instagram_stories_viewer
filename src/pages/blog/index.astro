@@ -135,7 +135,7 @@ const platformColors: Record<string, string> = {
         {featuredPost && (
           <a href={getLocalizedPath(`/blog/${getPostSlug(featuredPost)}`, lang)} data-platform={getPlatform(featuredPost)} class="blog-card glass overflow-hidden card-hover group block mb-10" id="featured-post">
             <div class="grid lg:grid-cols-2 gap-0">
-              <div class="h-56 lg:h-auto overflow-hidden relative">
+              <div class="h-44 sm:h-56 lg:h-auto overflow-hidden relative">
                 <img
                   src={getPlatformImage(featuredPost)}
                   alt={featuredPost.data.title}
@@ -147,7 +147,7 @@ const platformColors: Record<string, string> = {
                   {getPlatform(featuredPost)}
                 </span>
               </div>
-              <div class="p-6 lg:p-8 flex flex-col justify-center">
+              <div class="p-4 sm:p-6 lg:p-8 flex flex-col justify-center">
                 <div class="flex items-center gap-3 mb-3">
                   <span class="text-[11px] font-medium uppercase tracking-wider text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-full">
                     {featuredPost.data.category || 'Guides'}
@@ -176,7 +176,7 @@ const platformColors: Record<string, string> = {
 
         <!-- Other Posts Grid -->
         {otherPosts.length > 0 && (
-          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6" id="posts-grid">
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6" id="posts-grid">
             {otherPosts.map((post) => (
               <a href={getLocalizedPath(`/blog/${getPostSlug(post)}`, lang)} data-platform={getPlatform(post)} class="blog-card glass overflow-hidden card-hover group block">
                 <div class="h-40 overflow-hidden relative">

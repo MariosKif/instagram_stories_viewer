@@ -102,10 +102,10 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
   <section class="relative min-h-[60vh] flex items-center overflow-hidden">
     <div class="absolute inset-0 animated-gradient"></div>
     <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cpath d=&quot;M60 0H0v60&quot; fill=&quot;none&quot; stroke=&quot;%23fff&quot; stroke-width=&quot;0.5&quot;/%3E%3C/svg%3E');"></div>
-    <div class="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-3xl animate-float" style={`background: ${platform.color}10`}></div>
-    <div class="absolute bottom-1/4 right-1/4 w-72 h-72 rounded-full blur-3xl animate-float" style={`background: ${platform.color}08; animation-delay: -3s;`}></div>
+    <div class="absolute top-1/4 left-1/4 w-48 h-48 sm:w-72 sm:h-72 lg:w-96 lg:h-96 rounded-full blur-3xl animate-float" style={`background: ${platform.color}10`}></div>
+    <div class="absolute bottom-1/4 right-1/4 w-40 h-40 sm:w-56 sm:h-56 lg:w-72 lg:h-72 rounded-full blur-3xl animate-float" style={`background: ${platform.color}08; animation-delay: -3s;`}></div>
 
-    <div class="relative section-container py-24 lg:py-32">
+    <div class="relative section-container py-16 sm:py-24 lg:py-32">
       <div class="max-w-4xl mx-auto text-center">
         <nav class="flex items-center justify-center gap-2 text-sm text-dark-400 mb-8 animate-fade-in" aria-label="Breadcrumb">
           <a href={getLocalizedPath('/', lang)} class="hover:text-white transition-colors">{t.common?.home || 'Home'}</a>
@@ -121,7 +121,7 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
           </svg>
         </div>
 
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6 animate-fade-in text-white">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold leading-tight mb-6 animate-fade-in text-white">
           <span style={`color: ${platform.color}`}>{platform.label}</span> {content.heroTitle.replace(platform.label + ' ', '')}
         </h1>
 
@@ -160,7 +160,7 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {cat.features.map((f) => (
-                <a href={getLocalizedPath(`/${platform.id}/${f.slug}`, lang)} class="glass p-5 card-hover group block">
+                <a href={getLocalizedPath(`/${platform.id}/${f.slug}`, lang)} class="glass p-3 sm:p-5 card-hover group block">
                   <div class="flex items-center gap-2 mb-2">
                     <h4 class="text-base font-semibold text-white group-hover:transition-colors">
                       {mm[platform.id]?.[f.slug] || f.label}

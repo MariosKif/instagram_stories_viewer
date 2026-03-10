@@ -33,7 +33,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
       <!-- Report content (hidden until loaded) -->
       <div id="report" class="hidden">
         <!-- Profile header -->
-        <div class="glass p-6 lg:p-8 mb-6 flex flex-col sm:flex-row items-center gap-6">
+        <div class="glass p-6 lg:p-8 mb-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <img
             id="profile-pic"
             src={`https://ui-avatars.com/api/?name=${username}&background=0ea5e9&color=fff&size=200`}
@@ -50,7 +50,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
             <p id="full-name" class="text-dark-400 text-sm">{displayName}</p>
             <p id="bio" class="text-dark-500 text-xs mt-1">Digital creator | Content enthusiast</p>
           </div>
-          <div class="flex gap-6 text-center">
+          <div class="grid grid-cols-3 gap-3 sm:gap-6 text-center">
             <div>
               <p id="stat-followers" class="text-xl font-bold text-white">--</p>
               <p class="text-xs text-dark-500">{t.searchReport?.followers || "Followers"}</p>
@@ -160,7 +160,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
 
   <!-- Ad modal overlay (hidden by default) -->
   <div id="ad-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm">
-    <div class="glass p-8 max-w-lg w-full mx-4 text-center">
+    <div class="glass p-5 sm:p-8 max-w-lg w-full mx-4 text-center">
       <h3 class="text-xl font-semibold text-white mb-2">{t.searchReport?.watchAdTitle || "Watch this Ad"}</h3>
       <p class="text-dark-400 text-sm mb-6">{t.searchReport?.watchAdDesc || "Please wait 30 seconds to claim your reward"}</p>
       <div class="bg-dark-800 border border-dark-700 rounded-lg p-4 mb-6 min-h-[250px] flex items-center justify-center">

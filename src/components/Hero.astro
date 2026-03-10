@@ -20,19 +20,19 @@ const heroT = t.hero || {};
   <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cpath d=&quot;M60 0H0v60&quot; fill=&quot;none&quot; stroke=&quot;%23fff&quot; stroke-width=&quot;0.5&quot;/%3E%3C/svg%3E');"></div>
 
   <!-- Floating orbs -->
-  <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" aria-hidden="true"></div>
-  <div class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-secondary/10 rounded-full blur-3xl animate-float" style="animation-delay: -3s;" aria-hidden="true"></div>
+  <div class="absolute top-1/4 left-1/4 w-48 h-48 sm:w-72 sm:h-72 lg:w-96 lg:h-96 bg-primary/10 rounded-full blur-3xl animate-float" aria-hidden="true"></div>
+  <div class="absolute bottom-1/4 right-1/4 w-40 h-40 sm:w-56 sm:h-56 lg:w-72 lg:h-72 bg-secondary/10 rounded-full blur-3xl animate-float" style="animation-delay: -3s;" aria-hidden="true"></div>
 
-  <div class="relative section-container py-24 lg:py-32">
+  <div class="relative section-container py-16 sm:py-24 lg:py-32">
     <div class="max-w-4xl mx-auto text-center">
       <!-- Headline -->
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold leading-tight mb-6 animate-fade-in">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold leading-tight mb-6 animate-fade-in">
         {heroT.title || 'Your All-in-One'}
         <span class="gradient-text"> {heroT.titleHighlight || 'Social Media Analytics'}</span> {heroT.titleEnd || 'Tool'}
       </h1>
 
       <!-- Subheadline -->
-      <p class="text-lg sm:text-xl text-dark-300 max-w-2xl mx-auto mb-10 animate-slide-up">
+      <p class="text-lg sm:text-xl text-dark-300 max-w-2xl mx-auto mb-8 sm:mb-10 animate-slide-up">
         {heroT.subtitle || 'Analyze public profiles, track engagement trends, and explore content — across platforms, no account needed.'}
       </p>
 

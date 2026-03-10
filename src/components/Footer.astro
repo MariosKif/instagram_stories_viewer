@@ -22,7 +22,7 @@ const platformLinks = platforms.map(p => ({
 
 <footer class="border-t border-white/5 bg-dark-950">
   <div class="section-container py-16">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 mb-12">
       <!-- Brand -->
       <div class="col-span-2 md:col-span-1">
         <a href={getLocalizedPath('/', lang)} class="flex items-center gap-2 mb-4">
@@ -42,7 +42,7 @@ const platformLinks = platforms.map(p => ({
       <!-- Product -->
       <div>
         <p class="text-sm font-semibold text-white mb-4">{fT.product || 'Product'}</p>
-        <ul class="space-y-2.5">
+        <ul class="space-y-3">
           <li><a href={getLocalizedPath('/', lang) + '#features'} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.features || 'Features'}</a></li>
           <li><a href={getLocalizedPath('/pricing', lang)} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.pricing || 'Pricing'}</a></li>
           <li><a href={getLocalizedPath('/search/instagram', lang)} class="text-sm text-dark-400 hover:text-white transition-colors">{fT.sampleReport || 'Sample Report'}</a></li>
@@ -75,7 +75,7 @@ const platformLinks = platforms.map(p => ({
     </div>
 
     <!-- Platform links -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-12 pt-8 border-t border-white/5">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 mb-12 pt-8 border-t border-white/5">
       {platformLinks.map(p => (
         <div>
           <p class="text-sm font-semibold mb-4" style={`color: ${p.color}`}>

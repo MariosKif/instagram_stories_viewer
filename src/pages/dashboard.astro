@@ -21,15 +21,15 @@ const t = (Astro.locals as any).t || {};
 
     <!-- Stats row -->
     <div class="grid sm:grid-cols-3 gap-4 mb-8">
-      <div class="glass p-5">
+      <div class="glass p-4 sm:p-5">
         <p class="text-xs text-dark-500 mb-1">{t.dashboard?.currentPlan || "Current Plan"}</p>
         <p class="text-lg font-semibold text-white" id="user-plan">{t.dashboard?.free || "Free"}</p>
       </div>
-      <div class="glass p-5">
+      <div class="glass p-4 sm:p-5">
         <p class="text-xs text-dark-500 mb-1">{t.dashboard?.searchesUsed || "Searches (8h)"}</p>
         <p class="text-lg font-semibold text-white" id="searches-today">0 / 3</p>
       </div>
-      <div class="glass p-5">
+      <div class="glass p-4 sm:p-5">
         <p class="text-xs text-dark-500 mb-1">{t.dashboard?.totalSearches || "Total Searches"}</p>
         <p class="text-lg font-semibold text-white" id="total-searches">0</p>
       </div>
@@ -38,7 +38,7 @@ const t = (Astro.locals as any).t || {};
     <!-- Quick search -->
     <div class="glass p-6 mb-8">
       <h2 class="text-lg font-semibold text-white mb-4">{t.dashboard?.quickSearch || "Quick Search"}</h2>
-      <form id="dash-search-form" class="flex gap-3">
+      <form id="dash-search-form" class="flex flex-col sm:flex-row gap-3">
         <div class="flex-1 relative">
           <span class="absolute left-4 top-1/2 -translate-y-1/2 text-dark-400">@</span>
           <input

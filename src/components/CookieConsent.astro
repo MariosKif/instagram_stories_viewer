@@ -10,17 +10,17 @@ const t = (Astro.locals as any).t || {};
 const ckT = t.cookie || {};
 ---
 
-<div id="cookie-consent" class="fixed bottom-0 inset-x-0 z-50 p-4 hidden">
+<div id="cookie-consent" class="fixed bottom-0 inset-x-0 z-50 p-4 hidden safe-area-bottom">
   <div class="max-w-4xl mx-auto glass p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 border border-white/10 rounded-2xl shadow-2xl">
     <div class="flex-1 text-sm text-dark-300">
       {ckT.message || 'We use cookies to enhance your experience, analyze traffic, and serve relevant ads. By clicking "Accept All," you consent to our use of cookies.'}
       <a href={getLocalizedPath('/cookie-policy', lang)} class="text-primary underline ml-1">{ckT.learnMore || 'Learn more about our cookie policy'}</a>
     </div>
     <div class="flex gap-3 shrink-0">
-      <a href={getLocalizedPath('/cookie-policy', lang)} class="btn-ghost text-sm px-4 py-2 text-dark-400 hover:text-white">
+      <a href={getLocalizedPath('/cookie-policy', lang)} class="btn-ghost text-sm px-4 py-2.5 text-dark-400 hover:text-white">
         {ckT.managePreferences || 'Manage Preferences'}
       </a>
-      <button id="cookie-accept" class="btn-primary text-sm px-5 py-2">
+      <button id="cookie-accept" class="btn-primary text-sm px-5 py-2.5">
         {ckT.acceptAll || 'Accept All'}
       </button>
     </div>

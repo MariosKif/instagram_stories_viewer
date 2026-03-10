@@ -137,12 +137,12 @@ const breadcrumbSchema = JSON.stringify({
           <li><svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></li>
           <li><a href={getLocalizedPath('/blog', lang)} class="hover:text-primary transition-colors">Blog</a></li>
           <li><svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></li>
-          <li class="text-dark-300 truncate max-w-[200px] sm:max-w-none">{post.data.title}</li>
+          <li class="text-dark-300 truncate max-w-[140px] sm:max-w-[200px] md:max-w-none">{post.data.title}</li>
         </ol>
       </nav>
 
       <!-- Hero Image -->
-      <div class="rounded-2xl overflow-hidden mb-8">
+      <div class="rounded-xl sm:rounded-2xl overflow-hidden mb-8">
         <img
           src={post.data.image || '/blog/default-blog-hero.svg'}
           alt={post.data.title}
@@ -208,7 +208,7 @@ const breadcrumbSchema = JSON.stringify({
           <!-- Share Buttons -->
           <div class="mt-12 pt-8 border-t border-white/5">
             <p class="text-sm font-medium text-dark-400 mb-4">Share this article</p>
-            <div class="flex items-center gap-3">
+            <div class="flex flex-wrap items-center gap-2 sm:gap-3">
               <a
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.data.title)}&url=${encodeURIComponent(postUrl)}`}
                 target="_blank"

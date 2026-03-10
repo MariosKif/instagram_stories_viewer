@@ -35,9 +35,9 @@ const pricingFaqs = pT.faqs || [
       </div>
 
       <!-- Cards -->
-      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
         <!-- Free plan -->
-        <div class="glass p-8 flex flex-col">
+        <div class="glass p-5 sm:p-6 lg:p-8 flex flex-col">
           <div class="mb-6">
             <h3 class="text-lg font-semibold text-white mb-1">{freeT.name || 'Free'}</h3>
             <p class="text-dark-400 text-sm">{freeT.description || 'For casual users and quick lookups.'}</p>
@@ -72,7 +72,7 @@ const pricingFaqs = pT.faqs || [
         </div>
 
         <!-- Pro plan -->
-        <div class="glass p-8 flex flex-col border-primary/30 relative overflow-hidden">
+        <div class="glass p-5 sm:p-6 lg:p-8 flex flex-col border-primary/30 relative overflow-hidden">
           <div class="absolute top-4 right-4">
             <span class="badge text-xs">{proT.badge || 'Most Popular'}</span>
           </div>

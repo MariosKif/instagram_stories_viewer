@@ -37,13 +37,13 @@
 
   /* Button styles */
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 bg-primary hover:bg-primary-600
+    @apply inline-flex items-center justify-center px-4 py-2.5 sm:px-6 sm:py-3 bg-primary hover:bg-primary-600
            text-white font-semibold rounded-xl transition-all duration-300
            hover:shadow-lg hover:shadow-primary/25 active:scale-[0.98];
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-6 py-3
+    @apply inline-flex items-center justify-center px-4 py-2.5 sm:px-6 sm:py-3
            bg-white/10 hover:bg-white/15 text-white font-semibold rounded-xl
            border border-white/10 transition-all duration-300
            hover:border-white/20 active:scale-[0.98];
@@ -200,6 +200,30 @@
     padding: 0.75rem 1rem !important;
   }
 
+  /* Mobile blog typography */
+  @media (max-width: 639px) {
+    .blog-content h2 {
+      font-size: 1.3rem !important;
+      margin-top: 2.25rem !important;
+    }
+    .blog-content h3 {
+      font-size: 1.1rem !important;
+    }
+    .blog-content p,
+    .blog-content li {
+      font-size: 1rem !important;
+      line-height: 1.75 !important;
+    }
+    .blog-content blockquote {
+      padding: 1rem 1.25rem !important;
+    }
+    .blog-content th,
+    .blog-content td {
+      padding: 0.5rem 0.75rem !important;
+      font-size: 0.875rem !important;
+    }
+  }
+
   /* RTL support */
   [dir="rtl"] .rtl\:flip {
     transform: scaleX(-1);
@@ -218,5 +242,9 @@
   [dir="rtl"] svg path[d*="M9 5l7 7"] {
     transform-origin: center;
     transform: scaleX(-1);
+  }
+
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
