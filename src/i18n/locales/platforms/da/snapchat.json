@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Snapchat-v\u00e6rkt\u00f8jer \u2014 Score-tracker, historie-downloader og aktivitetstracker",
+    "heroTitle": "Snapchat Analytics & Indholdsv\u00e6rkt\u00f8jskasse",
+    "sectionHeading": "Se alle Snapchat-funktioner",
+    "sectionSub": "fokuserede v\u00e6rkt\u00f8jer til Snapchat-scoresp\u00f8ring, streak-analyse, historie-download og aktivitetssp\u00f8ring.",
+    "ctaHeading": "Begynd at sp\u00f8re Snapchat-aktivitet",
+    "ctaSub": "Indtast et hvilket som helst offentligt Snapchat-brugernavn for at f\u00e5 adgang til scoresp\u00f8ring, indholdsdownloads og aktivitetssp\u00f8ring.",
+    "cardCta": "Brug denne funktion"
+  },
+  "faqs": [
+    {
+      "question": "Hvad er en Snapchat-score, og hvordan beregnes den?",
+      "answer": "Din Snapchat-score er et tal, der afspejler din samlede aktivitet p\u00e5 platformen. Den stiger baseret p\u00e5 antallet af Snaps, du sender og modtager, historier du poster og andre engagementfaktorer."
+    },
+    {
+      "question": "Hvordan \u00f8ger du din Snapchat-score?",
+      "answer": "Send og \u00e5bn Snaps ofte, post historier, oprethold Snap Streaks og tilf\u00f8j nye venner. Gruppe-Snaps og video-Snaps kan ogs\u00e5 give flere point end tekst-Snaps."
+    },
+    {
+      "question": "Kan du se, hvem der har set din Snapchat-historie efter 24 timer?",
+      "answer": "Nej. N\u00e5r en Snapchat-historie udl\u00f8ber efter 24 timer, er seerlisten ikke l\u00e6ngere tilg\u00e6ngelig i appen. Tredjepartssporingsv\u00e6rkt\u00f8jer kan hj\u00e6lpe dig med at overv\u00e5ge visninger, f\u00f8r de udl\u00f8ber."
+    },
+    {
+      "question": "Hvem har adgang til Snapchat Insights?",
+      "answer": "Snapchat Insights er tilg\u00e6ngelig for offentlige profiler og skabere med en vis f\u00f8lgergr\u00e6nse. For alle andre tilbyder tredjepartsanalysev\u00e6rkt\u00f8jer som IGStoryPeek scoresp\u00f8ring og aktivitetsoverv\u00e5gning."
+    },
+    {
+      "question": "Hvad g\u00f8r Snapchat-score-multiplikatoren for Snapchat+-abonnenter?",
+      "answer": "Snapchat+-abonnenter kan se en score-multiplikator, der viser, hvor hurtigt deres score vokser. Den \u00e6ndrer ikke, hvordan point optjenes \u2014 den viser blot stigningshastigheden."
+    },
+    {
+      "question": "Hvor ofte opdaterer Snapchat din score?",
+      "answer": "Snapchat-scores opdateres i n\u00e6sten realtid, selvom der nogle gange kan v\u00e6re en kort forsinkelse. Din score afspejler kumulativ aktivitet siden du oprettede din konto."
+    }
+  ]
+}

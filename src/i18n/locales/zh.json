@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "IGStoryPeek - 免费Instagram快拍查看器 | 无需账号浏览快拍 2025",
+    "description": "免费Instagram快拍查看器 - 无需账号浏览Instagram快拍。100%隐私查看公开个人资料、帖子、快拍、精选。无需注册。2025年最佳Instagram快拍查看工具。",
+    "keywords": "instagram快拍查看器, instagram查看器, 快拍查看器, instagram个人资料查看器, instagram帖子查看器, 隐私浏览, instagram精选, 浏览instagram快拍, 免费instagram查看器, instagram快拍下载器, 无需账号查看instagram快拍, instagram查看工具, instagram快拍查看器2025, ig快拍查看器, 无需登录instagram查看器"
+  },
+  "nav": {
+    "home": "首页",
+    "blog": "博客",
+    "terms": "使用条款",
+    "privacy": "隐私政策",
+    "contact": "联系我们"
+  },
+  "navbar": {
+    "features": "功能",
+    "pricing": "定价",
+    "blog": "博客",
+    "login": "登录",
+    "dashboard": "仪表盘",
+    "searchNow": "立即搜索"
+  },
+  "hero": {
+    "title": "一站式",
+    "titleHighlight": "社交媒体分析",
+    "titleEnd": "工具",
+    "subtitle": "分析公开个人资料、追踪互动趋势、探索内容 — 跨平台，无需账号。",
+    "placeholder": "输入Instagram用户名...",
+    "button": "搜索",
+    "viewSample": "查看示例报告",
+    "badge1": "AI驱动",
+    "badge2": "无需账号",
+    "badge3": "仅公开数据",
+    "badge4": "实时分析",
+    "popularSearches": "热门搜索："
+  },
+  "searchBar": {
+    "placeholder": "输入Instagram用户名",
+    "button": "立即搜索",
+    "errorEmpty": "请输入用户名。",
+    "errorInvalid": "用户名无效。请使用字母、数字、句号或下划线。"
+  },
+  "notice": {
+    "title": "Instagram内容访问",
+    "description": "IGStoryPeek服务目前支持访问Instagram快拍、帖子、精选和个人资料详情。可匿名查看公开的Instagram内容。",
+    "availableContent": "可用内容：",
+    "availableContentDesc": "来自公开账号的快拍、帖子、精选和个人资料信息。",
+    "privacy": "隐私保护：",
+    "privacyDesc": "每次浏览会话都是私密的 - 浏览公开内容无需账号或登录。"
+  },
+  "features": {
+    "title": "IGStoryPeek功能",
+    "intro": "IGStoryPeek提供免费服务，无需Instagram账号即可浏览公开账号的Instagram快拍。所有功能完全免费，只需输入您想查看的Instagram用户名。",
+    "anonymity": {
+      "title": "100%隐私",
+      "description": "无需创建账号或登录即可浏览公开内容"
+    },
+    "noAccount": {
+      "title": "无需账号",
+      "description": "无需创建Instagram账号。您还可以在无需注册和下载应用的情况下观看用户的快拍和其他多媒体内容"
+    },
+    "download": {
+      "title": "下载功能",
+      "description": "您可以在任何设备上免费查看和下载快拍、帖子和其他信息：电脑、笔记本电脑、平板电脑或智能手机（Android、iOS及其他操作系统）"
+    }
+  },
+  "benefits": {
+    "heading": "选择",
+    "headingHighlight": "IGStoryPeek",
+    "subtitle": "专为隐私、准确性和易用性设计的强大功能。",
+    "publicData": {
+      "title": "仅公开数据",
+      "description": "我们只分析公开可用的信息。绝不访问或存储任何私人数据。"
+    },
+    "noLogin": {
+      "title": "无需登录",
+      "description": "无需创建账号或登录即可浏览个人资料和快拍。"
+    },
+    "realTime": {
+      "title": "实时更新",
+      "description": "设置自动提醒，随时了解账号变动和最新动态。"
+    },
+    "aiInsights": {
+      "title": "AI洞察",
+      "description": "高级算法分析互动模式，提供可执行的洞察建议。"
+    },
+    "multiPlatform": {
+      "title": "多平台支持",
+      "description": "在一个地方分析Instagram、TikTok、Facebook和Snapchat的个人资料。"
+    },
+    "easyToUse": {
+      "title": "简单易用",
+      "description": "只需输入用户名即可获取报告。无需技术知识。"
+    }
+  },
+  "useCases": {
+    "heading": "适用于",
+    "headingHighlight": "各种场景",
+    "subtitle": "无论您是营销人员还是个人用户，IGStoryPeek都能提供您所需的洞察。",
+    "forMarketers": "营销人员",
+    "forIndividuals": "个人用户",
+    "marketer1Title": "追踪竞争对手",
+    "marketer1Desc": "监控竞争对手的发布模式、互动率和内容策略。",
+    "marketer2Title": "监控互动激增",
+    "marketer2Desc": "当账号出现异常增长或病毒式内容时获取提醒。",
+    "marketer3Title": "发现网红",
+    "marketer3Desc": "基于真实互动数据和受众质量发现和评估网红。",
+    "individual1Title": "无需账号浏览",
+    "individual1Desc": "无需登录或创建账号即可查看快拍和帖子。",
+    "individual2Title": "追踪互动模式",
+    "individual2Desc": "查看受众如何与特定账号和内容互动。",
+    "individual3Title": "内容表现洞察",
+    "individual3Desc": "了解各个人资料的互动模式和内容表现。"
+  },
+  "featuresSuite": {
+    "heading": "完整的",
+    "headingHighlight": "产品套件",
+    "subtitle": "四款强大工具，全面呈现任何公开Instagram主页的完整画面。",
+    "analyzer": {
+      "title": "Instagram分析器",
+      "description": "任何公开个人资料的深度分析。互动率、增长趋势、内容表现和受众洞察。"
+    },
+    "browser": {
+      "title": "内容浏览器",
+      "description": "无需登录即可浏览快拍、帖子和精选 — 无需账号。"
+    },
+    "downloader": {
+      "title": "下载器",
+      "description": "以原始画质保存快拍、短视频和帖子。为竞争分析或个人使用保留记录。"
+    },
+    "tracker": {
+      "title": "动态追踪器",
+      "description": "为任何公开账号设置自动提醒。获取新帖子、快拍更新和粉丝变化的通知。"
+    },
+    "learnMore": "了解更多"
+  },
+  "testimonials": {
+    "heading": "深受",
+    "headingHighlight": "数千用户",
+    "subtitle": "看看用户对IGStoryPeek的评价。"
+  },
+  "trust": {
+    "userCount": "50,000+用户",
+    "trustLine": "信赖IGStoryPeek",
+    "sslEncrypted": "SSL加密",
+    "gdprCompliant": "GDPR合规",
+    "publicDataOnly": "仅公开数据",
+    "complianceNote": "所有数据均依照适用法律从公开个人资料中获取。"
+  },
+  "ctaSection": {
+    "heading": "立即开始",
+    "headingHighlight": "分析",
+    "description": "输入任何公开用户名，几秒钟内即可获取全面的分析报告。"
+  },
+  "articles": {
+    "heading": "最新",
+    "headingHighlight": "博客",
+    "subtitle": "技巧、指南和行业洞察。",
+    "viewAll": "查看所有文章",
+    "readMore": "阅读更多",
+    "noPosts": "暂无博客文章。请稍后再来！"
+  },
+  "faq": {
+    "title": "常见问题"
+  },
+  "cookie": {
+    "message": "我们使用Cookie来提升您的体验、分析流量并提供相关广告。点击\"全部接受\"即表示您同意我们使用Cookie。",
+    "learnMore": "了解更多",
+    "managePreferences": "管理偏好设置",
+    "acceptAll": "全部接受"
+  },
+  "footer": {
+    "brandDescription": "社交媒体分析和内容工具。分析公开个人资料、追踪互动、生成洞察。",
+    "product": "产品",
+    "features": "功能",
+    "pricing": "定价",
+    "sampleReport": "示例报告",
+    "dashboard": "仪表盘",
+    "resources": "资源",
+    "blog": "博客",
+    "useCases": "使用场景",
+    "faqLink": "常见问题",
+    "legal": "法律信息",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "aboutUs": "关于我们",
+    "contact": "联系我们",
+    "cookiePolicy": "Cookie政策",
+    "dmca": "DMCA",
+    "tools": "工具",
+    "viewAll": "查看全部",
+    "copyright": "IGStoryPeek. All rights reserved. 与Instagram或Meta无关。",
+    "dataSource": "所有数据来自公开可用的信息。",
+    "navigation": "导航",
+    "disclaimer": "IGStoryPeek与Instagram无关。我们不会在服务器上托管Instagram快拍，所有权利归其各自所有者所有。",
+    "instagramVideoDownloader": "Instagram视频下载器",
+    "instagramStoryViewer": "Instagram快拍查看器",
+    "comingSoon": "此功能即将推出！",
+    "alreadyUsing": "您已在使用Instagram快拍查看器！",
+    "removeProfile": "删除个人资料",
+    "removeProfileMessage": "如需删除您的个人资料，请将您的Instagram用户名发送至support@igstorypeek.com联系客服。"
+  },
+  "howItWorks": {
+    "title": "Instagram快拍隐私查看如何运作？",
+    "step1": "输入您想查看的个人资料的用户名",
+    "step2": "您输入的用户名将被我们的系统接收并通过自动化流程处理",
+    "step3": "我们的服务将显示个人资料页面，展示最新信息",
+    "step4": "Instagram快拍的查看将记录在我们的服务账号中",
+    "step5": "您的身份完全保密",
+    "cta": "开始搜索"
+  },
+  "pricing": {
+    "title": "简单透明的",
+    "titleHighlight": "定价",
+    "subtitle": "免费开始使用。需要更多功能时随时升级。",
+    "free": {
+      "name": "免费版",
+      "description": "适合普通用户和快速查询。",
+      "price": "$0",
+      "period": "/ 月",
+      "feature1": "每8小时2次搜索",
+      "feature2": "基础互动报告",
+      "feature3": "个人资料概览",
+      "excluded1": "无持续监控",
+      "excluded2": "无AI洞察",
+      "cta": "免费开始"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "最受欢迎",
+      "description": "适合资深用户和专业人士。",
+      "price": "$29",
+      "period": "/ 月",
+      "feature1": "无限搜索",
+      "feature2": "完整分析仪表盘",
+      "feature3": "持续监控与提醒",
+      "feature4": "AI驱动的洞察",
+      "feature5": "跨平台检测",
+      "feature6": "优先支持",
+      "cta": "升级到Pro"
+    },
+    "faqs": [
+      {
+        "question": "可以随时取消吗？",
+        "answer": "可以！您可以随时取消Pro订阅。在计费周期结束前，您仍可继续使用所有功能。"
+      },
+      {
+        "question": "支持哪些支付方式？",
+        "answer": "我们通过安全的支付处理器（Stripe）接受所有主要的信用卡和借记卡。同时也支持Apple Pay和Google Pay。"
+      },
+      {
+        "question": "我的数据安全吗？",
+        "answer": "绝对安全。所有连接均使用SSL加密。我们从不存储Instagram密码，仅处理公开可用的数据。"
+      },
+      {
+        "question": "Instagram分析工具的一般费用是多少？",
+        "answer": "大多数工具的价格从免费到$30/月不等。IGStoryPeek提供每8小时2次搜索的免费方案，以及$29/月的Pro方案，可无限访问Instagram、TikTok、Facebook和Snapchat。"
+      },
+      {
+        "question": "付费社交媒体工具有哪些免费工具没有的功能？",
+        "answer": "Pro方案通常包含无限搜索、持续追踪提醒、AI驱动的洞察、高级筛选和CSV导出等功能，这些都超出了免费版本的范围。"
+      },
+      {
+        "question": "社交媒体分析工具提供免费试用吗？",
+        "answer": "IGStoryPeek的免费方案永久免费，每8小时可搜索2次。您可以随时升级到Pro，也可以随时取消 — 无需试用期。"
+      },
+      {
+        "question": "有免费工具的情况下，购买Instagram分析付费版值得吗？",
+        "answer": "免费工具适合日常使用。如果您需要无限搜索、自动提醒或专业级报告，付费方案将提供更大的价值并节省时间。"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于",
+    "titleHighlight": "IGStoryPeek",
+    "mission": "我们的使命是让社交媒体分析对每个人来说都易于获取、透明且尊重隐私。",
+    "whatWeDoTitle": "我们做什么",
+    "whatWeDoDesc": "IGStoryPeek是一个社交媒体分析平台，帮助营销人员、研究人员和个人分析Instagram、TikTok、Facebook和Snapchat上公开可用的个人资料数据。",
+    "valuesTitle": "我们的价值观",
+    "transparency": {
+      "title": "透明性",
+      "description": "我们坦诚地说明我们访问哪些数据以及如何使用这些数据。"
+    },
+    "publicDataOnly": {
+      "title": "仅公开数据",
+      "description": "我们绝不访问私密个人资料、私信或非公开内容。"
+    },
+    "compliance": {
+      "title": "合规性",
+      "description": "我们按照GDPR、CCPA及适用的数据保护法规运营。"
+    },
+    "userPrivacy": {
+      "title": "用户隐私",
+      "description": "您的浏览活动绝不会被分享。我们不要求提供社交媒体登录凭据。"
+    },
+    "contactTitle": "联系我们",
+    "contactDesc": "有问题或反馈？我们很乐意听取您的意见。",
+    "contactEmail": "发送邮件至",
+    "faqs": [
+      {
+        "question": "使用社交媒体分析工具合法吗？",
+        "answer": "合法。IGStoryPeek仅处理公开可用的数据，并遵守适用的隐私法规。我们绝不访问私密个人资料或受限内容。"
+      },
+      {
+        "question": "IGStoryPeek可以用于学术或市场研究吗？",
+        "answer": "当然可以。许多研究人员和营销专业人士使用IGStoryPeek分析公开的社交媒体趋势、互动模式和内容策略。"
+      },
+      {
+        "question": "IGStoryPeek会出售用户数据吗？",
+        "answer": "不会。我们不会向第三方出售、交换或分享任何用户数据。详情请阅读我们的隐私政策。"
+      },
+      {
+        "question": "IGStoryPeek如何收集数据？",
+        "answer": "我们分析社交媒体平台上公开可用的数据。绝不访问私人数据、私信或受限内容。"
+      },
+      {
+        "question": "IGStoryPeek支持哪些平台？",
+        "answer": "目前，IGStoryPeek支持Instagram、TikTok、Facebook和Snapchat的分析。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系",
+    "titleHighlight": "我们",
+    "subtitle": "有问题、反馈或需要支持？我们随时为您提供帮助。",
+    "formName": "姓名",
+    "formEmail": "邮箱",
+    "formSubject": "主题",
+    "formMessage": "留言",
+    "formSubmit": "发送消息",
+    "subjectGeneral": "一般咨询",
+    "subjectSupport": "技术支持",
+    "subjectBilling": "账单相关",
+    "subjectDmca": "DMCA/版权",
+    "subjectFeedback": "反馈意见",
+    "directEmail": "或直接发送邮件至",
+    "responseTime": "我们通常在24-48个工作小时内回复。",
+    "legalTitle": "法律请求",
+    "legalDesc": "如有数据删除和GDPR相关的法律请求，请发送邮件至",
+    "dmcaTitle": "DMCA通知",
+    "dmcaDesc": "如需提交DMCA下架通知，请访问我们的"
+  },
+  "login": {
+    "title": "欢迎回来",
+    "subtitle": "登录以访问您的仪表盘和搜索历史。",
+    "googleSignIn": "使用Google登录",
+    "orDivider": "或",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "输入您的密码",
+    "submitButton": "登录",
+    "noAccount": "还没有账号？",
+    "signUp": "注册",
+    "errorInvalid": "邮箱或密码无效。请重试。",
+    "errorTooMany": "尝试次数过多。请稍后再试。"
+  },
+  "register": {
+    "title": "创建账号",
+    "subtitle": "注册以保存搜索记录并解锁更多功能。",
+    "googleSignUp": "使用Google注册",
+    "orDivider": "或",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "创建密码",
+    "confirmPasswordLabel": "确认密码",
+    "confirmPasswordPlaceholder": "再次输入密码",
+    "termsAgree": "我同意",
+    "termsLink": "服务条款",
+    "andText": "和",
+    "privacyLink": "隐私政策",
+    "submitButton": "创建账号",
+    "hasAccount": "已有账号？",
+    "logIn": "登录",
+    "errorEmailInUse": "该邮箱已被使用。请尝试其他邮箱。",
+    "errorWeakPassword": "密码强度不够。请使用至少6个字符。",
+    "errorMismatch": "两次输入的密码不一致。",
+    "errorMinLength": "密码至少需要6个字符。"
+  },
+  "dashboard": {
+    "title": "仪表盘",
+    "currentPlan": "当前方案",
+    "searchesUsed": "已使用搜索次数",
+    "totalSearches": "总搜索次数",
+    "free": "免费版",
+    "pro": "Pro",
+    "unlimited": "无限",
+    "quickSearch": "快速搜索",
+    "quickSearchPlaceholder": "输入用户名",
+    "quickSearchButton": "搜索",
+    "upgradeCta": "升级到Pro",
+    "upgradeDesc": "获取无限搜索、AI洞察和持续监控。",
+    "searchHistory": "搜索历史",
+    "noSearches": "暂无搜索记录。请在上方搜索用户名开始使用。"
+  },
+  "searchReport": {
+    "analyzingProfile": "正在分析个人资料",
+    "generatingReport": "正在生成分析报告：",
+    "engagementRate": "互动率",
+    "avgLikes": "平均点赞数",
+    "avgComments": "平均评论数",
+    "followerGrowth": "粉丝增长（30天）",
+    "contentBreakdown": "内容分析",
+    "recentActivity": "近期动态",
+    "date": "日期",
+    "posts": "帖子",
+    "stories": "快拍",
+    "likes": "点赞",
+    "topInteractions": "热门互动",
+    "topHashtags": "热门标签",
+    "limitReached": "搜索次数已达上限",
+    "limitDesc": "您已用完本期的所有免费搜索次数。",
+    "nextReset": "下次重置还剩",
+    "watchAd": "观看广告 +3小时",
+    "upgradePro": "升级到Pro",
+    "followers": "粉丝",
+    "following": "关注"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "关于Instagram分析、隐私和社交媒体趋势的技巧、指南和行业洞察。",
+    "allPosts": "所有文章",
+    "readMore": "阅读更多",
+    "publishedOn": "发布于",
+    "updatedOn": "更新于",
+    "by": "作者",
+    "relatedPosts": "相关文章",
+    "noPosts": "未找到文章",
+    "backToBlog": "返回博客",
+    "featured": "精选文章"
+  },
+  "legal": {
+    "termsTitle": "服务条款",
+    "privacyTitle": "隐私政策",
+    "cookiePolicyTitle": "Cookie政策",
+    "dmcaTitle": "DMCA政策",
+    "lastUpdated": "最后更新"
+  },
+  "common": {
+    "home": "首页",
+    "learnMore": "了解更多",
+    "getStarted": "立即开始",
+    "viewAll": "查看全部"
+  },
+  "homeFaqs": [
+    {
+      "question": "可以在没有账号的情况下查看Instagram快拍吗？",
+      "answer": "可以。IGStoryPeek让您无需创建账号或登录即可浏览公开的Instagram快拍。只需输入公开用户名，即可立即查看其快拍、精选和短视频。"
+    },
+    {
+      "question": "什么是社交媒体分析工具？它是如何工作的？",
+      "answer": "社交媒体分析工具从Instagram、TikTok、Facebook和Snapchat等平台收集和分析公开可用的数据。它以易于阅读的报告形式呈现互动率、粉丝增长和内容表现等指标。"
+    },
+    {
+      "question": "使用第三方Instagram快拍查看器安全吗？",
+      "answer": "像IGStoryPeek这样的正规工具是安全的，因为它们只访问公开可用的数据，从不要求您的Instagram登录凭据。请避免使用要求输入密码或用社交媒体账号登录的服务。"
+    },
+    {
+      "question": "哪些社交媒体平台可以不用创建账号就能浏览？",
+      "answer": "使用IGStoryPeek，您可以浏览Instagram、TikTok、Facebook和Snapchat的公开内容 — 无需在这些平台上创建账号。"
+    },
+    {
+      "question": "快拍查看工具对私密Instagram账号有效吗？",
+      "answer": "无效。IGStoryPeek及类似工具只能访问公开个人资料的内容。无法访问私密账号，任何声称可以访问的服务都不应被信任。"
+    },
+    {
+      "question": "社交媒体分析和社交媒体监控有什么区别？",
+      "answer": "分析侧重于衡量互动率和增长趋势等绩效指标。监控侧重于了解新帖子、快拍或个人资料更新等实时变化。"
+    }
+  ],
+  "profile": {
+    "posts": "帖子",
+    "stories": "快拍",
+    "highlights": "精选",
+    "postsCount": "帖子",
+    "followers": "粉丝",
+    "following": "关注",
+    "noPosts": "暂无可用帖子。",
+    "noStories": "暂无可用快拍。快拍仅通过IGStoryPeek服务访问。",
+    "noHighlights": "暂无可用精选。",
+    "viewOnInstagram": "在Instagram上查看",
+    "ago": "前",
+    "videoNotSupported": "您的浏览器不支持视频标签。"
+  },
+  "messages": {
+    "pleaseEnterUsername": "请输入用户名",
+    "pleaseEnterValidUsername": "请输入有效的用户名",
+    "foundProfile": "已找到个人资料：",
+    "profileNotFound": "未找到个人资料",
+    "errorConnecting": "连接服务器时出错。请重试。"
+  },
+  "megaMenu": {
+    "categories": {
+      "Profile Explorer": "个人资料探索",
+      "Analyzer": "分析器",
+      "Downloader": "下载器",
+      "Viewer": "查看器",
+      "Activity Tracker": "动态追踪器"
+    },
+    "badges": {
+      "NEW": "NEW"
+    },
+    "instagram": {
+      "user-search": "Instagram用户搜索",
+      "view-comments-privately": "私密查看评论",
+      "follower-analyzer": "粉丝分析器",
+      "activity-analyzer": "动态分析器",
+      "see-likes": "查看Instagram点赞",
+      "hashtags-generator": "话题标签生成器",
+      "stories-downloader": "快拍下载器",
+      "highlights-downloader": "精选下载器",
+      "posts-downloader": "帖子下载器",
+      "video-downloader": "视频下载器",
+      "post-viewer": "帖子查看器",
+      "stories-viewer": "快拍查看器",
+      "highlights-viewer": "精选查看器",
+      "comment-viewer": "评论查看器",
+      "likes-viewer": "点赞查看器",
+      "relationship-insights": "关系洞察",
+      "recent-mutuals": "最近互关"
+    },
+    "tiktok": {
+      "user-search": "TikTok用户搜索",
+      "view-comments-privately": "私密查看评论",
+      "follower-analyzer": "粉丝分析器",
+      "activity-analyzer": "动态分析器",
+      "see-likes": "查看TikTok点赞",
+      "trending-sounds-finder": "热门音频搜索",
+      "video-downloader": "视频下载器",
+      "stories-downloader": "快拍下载器",
+      "audio-downloader": "音频下载器",
+      "slideshow-downloader": "幻灯片下载器",
+      "video-viewer": "视频查看器",
+      "stories-viewer": "快拍查看器",
+      "comment-viewer": "评论查看器",
+      "likes-viewer": "点赞查看器",
+      "followers-viewer": "粉丝查看器",
+      "engagement-tracker": "互动追踪器",
+      "duet-and-stitch-tracker": "合拍与拼接追踪器"
+    },
+    "facebook": {
+      "user-search": "Facebook用户搜索",
+      "view-comments-privately": "私密查看评论",
+      "page-analyzer": "主页分析器",
+      "group-analyzer": "群组分析器",
+      "see-reactions": "查看Facebook表情回应",
+      "ad-library-explorer": "广告资料库探索",
+      "stories-downloader": "快拍下载器",
+      "reels-downloader": "短视频下载器",
+      "video-downloader": "视频下载器",
+      "photo-album-downloader": "相册下载器",
+      "post-viewer": "帖子查看器",
+      "stories-viewer": "快拍查看器",
+      "reels-viewer": "短视频查看器",
+      "comment-viewer": "评论查看器",
+      "likes-viewer": "点赞查看器",
+      "page-activity-tracker": "主页动态追踪器",
+      "friend-interaction-insights": "好友互动洞察"
+    },
+    "snapchat": {
+      "user-search": "Snapchat用户搜索",
+      "view-stories-privately": "私密查看快拍",
+      "score-tracker": "积分追踪器",
+      "activity-analyzer": "动态分析器",
+      "best-friends-analyzer": "最好朋友分析器",
+      "streak-tracker": "连续互动追踪器",
+      "stories-downloader": "快拍下载器",
+      "spotlight-downloader": "聚焦下载器",
+      "memories-downloader": "回忆下载器",
+      "stories-viewer": "快拍查看器",
+      "spotlight-viewer": "聚焦查看器",
+      "map-viewer": "地图查看器",
+      "public-profile-viewer": "公开资料查看器",
+      "score-change-tracker": "积分变动追踪器",
+      "online-status-tracker": "在线状态追踪器"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Herramientas Snapchat — Rastreador de puntuacion, descargador de stories y rastreador de actividad",
+    "heroTitle": "Snapchat Analytics & Kit de herramientas de contenido",
+    "sectionHeading": "Ver todas las funciones de Snapchat",
+    "sectionSub": "Herramientas enfocadas para el seguimiento de puntuacion de Snapchat, analisis de rachas, descarga de stories y seguimiento de actividad.",
+    "ctaHeading": "Comienza a rastrear la actividad de Snapchat",
+    "ctaSub": "Ingresa cualquier nombre de usuario publico de Snapchat para acceder al seguimiento de puntuacion, descargas de contenido y seguimiento de actividad.",
+    "cardCta": "Usar esta funcion"
+  },
+  "faqs": [
+    {
+      "question": "Que es una puntuacion de Snapchat y como se calcula?",
+      "answer": "Tu puntuacion de Snapchat es un numero que refleja tu actividad general en la plataforma. Aumenta en funcion del numero de Snaps que envias y recibes, las Stories que publicas y otros factores de engagement."
+    },
+    {
+      "question": "Como se aumenta la puntuacion de Snapchat?",
+      "answer": "Envia y abre Snaps frecuentemente, publica Stories, mantiene Snap Streaks y agrega nuevos amigos. Los Snaps de grupo y los Snaps de video pueden contribuir mas puntos que los Snaps solo de texto."
+    },
+    {
+      "question": "Se puede ver quien vio tu story de Snapchat despues de 24 horas?",
+      "answer": "No. Una vez que una Story de Snapchat expira despues de 24 horas, la lista de espectadores ya no es accesible a traves de la aplicacion. Las herramientas de seguimiento de terceros pueden ayudarte a monitorear las vistas antes de que expiren."
+    },
+    {
+      "question": "Quien tiene acceso a Snapchat Insights?",
+      "answer": "Snapchat Insights esta disponible para perfiles publicos y creadores con un cierto umbral de seguidores. Para todos los demas, herramientas de analytics de terceros como IGStoryPeek ofrecen seguimiento de puntuacion y monitoreo de actividad."
+    },
+    {
+      "question": "Que hace el multiplicador de puntuacion de Snapchat para los suscriptores de Snapchat+?",
+      "answer": "Los suscriptores de Snapchat+ pueden ver un multiplicador de puntuacion que muestra que tan rapido esta creciendo su puntuacion. No cambia como se ganan los puntos, simplemente muestra la tasa de aumento."
+    },
+    {
+      "question": "Con que frecuencia Snapchat actualiza tu puntuacion?",
+      "answer": "Las puntuaciones de Snapchat se actualizan casi en tiempo real, aunque a veces puede haber un breve retraso. Tu puntuacion refleja la actividad acumulada desde que creaste tu cuenta."
+    }
+  ]
+}

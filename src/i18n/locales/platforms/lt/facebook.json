@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook \u012frankiai \u2014 Puslapi\u0173 analizatorius, turinio atsisiuntimas ir turinio nar\u0161ykl\u0117",
+    "heroTitle": "Facebook \u012f\u017evalg\u0173 ir analitikos centras",
+    "sectionHeading": "Atraskite visus Facebook \u012frankius",
+    "sectionSub": "skirti \u012frankiai Facebook puslapi\u0173 ir grupi\u0173 analizei, turinio saugojimui, turinio nar\u0161ymui ir veiklos steb\u0117jimui.",
+    "ctaHeading": "Prad\u0117kite analizuoti Facebook paskyras",
+    "ctaSub": "Pateikite bet kur\u012f vie\u0161\u0105 Facebook profilio ar puslapio pavadinim\u0105, kad sugeneruotum\u0117te i\u0161sami\u0105 analitik\u0105 ir \u012f\u017evalgas.",
+    "cardCta": "Paleisti \u012frank\u012f"
+  },
+  "faqs": [
+    {
+      "question": "Ar kas nors gali matyti, jei \u017ei\u016brit\u0117 j\u0173 Facebook profil\u012f?",
+      "answer": "Ne. Facebook neprane\u0161a naudotojams, kai kas nors per\u017ei\u016bri j\u0173 profil\u012f. Bet kokia programu\u0117l\u0117 ar paslauga, teigianti prie\u0161ingai, n\u0117ra teis\u0117ta."
+    },
+    {
+      "question": "Ar Facebook vis dar turi savo analitikos \u012frank\u012f?",
+      "answer": "Facebook nutrauk\u0117 savo atskir\u0105 analitikos \u012frank\u012f 2021 m. Puslapio \u012f\u017evalgos dabar prieinamos per Meta Business Suite. Tre\u010di\u0173j\u0173 \u0161ali\u0173 \u012frankiai, tokie kaip IGStoryPeek, teikia papildom\u0105 analitik\u0105 vie\u0161iems puslapiams."
+    },
+    {
+      "question": "Kaip per\u017ei\u016br\u0117ti vie\u0161\u0105 Facebook puslap\u012f neprisijungus?",
+      "answer": "Daugelis vie\u0161\u0173 Facebook puslapi\u0173 yra prieinami be paskyros. IGStoryPeek leid\u017eia ie\u0161koti ir analizuoti vie\u0161us Facebook puslapius ir profilius neprisijungus prie Facebook."
+    },
+    {
+      "question": "Kas nutiko su Facebook Analytics po jo nutraukimo?",
+      "answer": "Facebook Analytics buvo nutrauktas 2021 m. bir\u017eelio 30 d. Jo funkcijos buvo perkeltos \u012f Meta Business Suite ir Ads Manager. Tre\u010di\u0173j\u0173 \u0161ali\u0173 \u012frankiai dabar u\u017epildo sprint\u0105 i\u0161orin\u0117je puslapi\u0173 analiz\u0117je."
+    },
+    {
+      "question": "Ar galima steb\u0117ti konkurent\u0173 Facebook puslapius naudojant analitikos \u012frankius?",
+      "answer": "Taip. Tokie \u012frankiai kaip IGStoryPeek leid\u017eia steb\u0117ti vie\u0161us Facebook puslapius, sekti \u012fsitraukimo rodiklius ir lyginti na\u0161um\u0105 \u2014 visa tai be prieigos prie pa\u010dio puslapio \u012f\u017evalg\u0173."
+    },
+    {
+      "question": "Kokius rodiklius reik\u0117t\u0173 steb\u0117ti Facebook verslo puslapyje?",
+      "answer": "Svarb\u016bs Facebook puslapio rodikliai apima puslapio patiktukus, \u012fra\u0161\u0173 pasiekiamum\u0105, \u012fsitraukimo rodikl\u012f, paspaudim\u0173 rodikl\u012f, vaizdo \u012fra\u0161\u0173 per\u017ei\u016bras ir sek\u0117j\u0173 augim\u0105. J\u0173 steb\u0117jimas padeda \u012fvertinti turinio efektyvum\u0105."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Instagram Alati — Analizirajte Profile, Pregledavajte Priče i Preuzmite Sadržaj Besplatno",
+    "heroTitle": "Paket za Analizu i Sadržaj Instagrama",
+    "sectionHeading": "Pregledajte Sve Značajke Instagrama",
+    "sectionSub": "specijalizirani alati za analizu Instagram profila, pregledavanje sadržaja, preuzimanje i praćenje aktivnosti.",
+    "ctaHeading": "Započnite s Analizom Instagrama",
+    "ctaSub": "Pretražite bilo koji javni Instagram profil i odmah dobijte detaljne analize, pristup sadržaju i izvještaje o aktivnosti.",
+    "cardCta": "Isprobajte ovaj alat"
+  },
+  "faqs": [
+    {
+      "question": "Kako provjeriti stopu angažiranosti Instagram računa?",
+      "answer": "Stopa angažiranosti izračunava se dijeljenjem ukupnog broja interakcija (lajkovi, komentari, spremanja, dijeljenja) s brojem pratitelja, a zatim množenjem sa 100. IGStoryPeek automatizira ovaj izračun za bilo koji javni Instagram profil."
+    },
+    {
+      "question": "Koje metrike trebate pratiti na Instagramu?",
+      "answer": "Ključne Instagram metrike uključuju stopu angažiranosti, rast pratitelja, doseg, prikaze, preglede priča, spremanja, dijeljenja i učestalost objavljivanja. IGStoryPeek pruža sve te podatke za javne račune."
+    },
+    {
+      "question": "Možete li analizirati javni Instagram profil druge osobe?",
+      "answer": "Da. Svaki Instagram profil postavljen kao javan može se analizirati pomoću alata poput IGStoryPeek. Možete pregledati metrike angažiranosti, performanse sadržaja i obrasce objavljivanja bez potrebe za prijavom."
+    },
+    {
+      "question": "Koja je dobra stopa angažiranosti na Instagramu?",
+      "answer": "Prosječna stopa angažiranosti na Instagramu iznosi između 1% i 3%. Stope iznad 3% smatraju se jakima, a stope iznad 6% su izvrsne. Angažiranost varira ovisno o niši, veličini publike i vrsti sadržaja."
+    },
+    {
+      "question": "Zahtijevaju li alati za analizu Instagrama prijavu vašim računom?",
+      "answer": "Ne svi. IGStoryPeek ne zahtijeva nikakvu prijavu niti Instagram vjerodajnice. Izravno analizira javno dostupne podatke, držeći vaš osobni račun potpuno odvojenim."
+    },
+    {
+      "question": "Kako možete vidjeti tko vas je prestao pratiti na Instagramu?",
+      "answer": "Instagram vas ne obavještava kada vas netko prestane pratiti. Alati za praćenje trećih strana mogu nadzirati vašu javnu listu pratitelja tijekom vremena i upozoriti vas na promjene, uključujući prestanke praćenja."
+    }
+  ]
+}

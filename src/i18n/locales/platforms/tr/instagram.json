@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Instagram Araçları — Profil Analizi, Hikaye Görüntüleme ve Ücretsiz İçerik İndirme",
+    "heroTitle": "Instagram Analitik ve İçerik Paketi",
+    "sectionHeading": "Tüm Instagram Özelliklerini Keşfedin",
+    "sectionSub": "Instagram profil analizi, içerik tarama, indirme ve aktivite takibi için özel araçlar.",
+    "ctaHeading": "Instagram Analitiğine Başlayın",
+    "ctaSub": "Herhangi bir herkese açık Instagram kullanıcı adını arayın ve anında ayrıntılı analitik, içerik erişimi ve aktivite raporları alın.",
+    "cardCta": "Bu aracı deneyin"
+  },
+  "faqs": [
+    {
+      "question": "Bir Instagram hesabının etkileşim oranını nasıl kontrol edersiniz?",
+      "answer": "Etkileşim oranı, toplam etkileşimlerin (beğeniler, yorumlar, kaydetmeler, paylaşımlar) takipçi sayısına bölünüp 100 ile çarpılmasıyla hesaplanır. IGStoryPeek bu hesaplamayı herhangi bir herkese açık Instagram profili için otomatikleştirir."
+    },
+    {
+      "question": "Instagram'da hangi metrikleri takip etmelisiniz?",
+      "answer": "Temel Instagram metrikleri arasında etkileşim oranı, takipçi büyümesi, erişim, gösterim, hikaye görüntülemeleri, kaydetmeler, paylaşımlar ve paylaşım sıklığı yer alır. IGStoryPeek, herkese açık hesaplar için tüm bunları sağlar."
+    },
+    {
+      "question": "Başka birinin herkese açık Instagram profilini analiz edebilir misiniz?",
+      "answer": "Evet. Herkese açık olarak ayarlanmış herhangi bir Instagram profili, IGStoryPeek gibi araçlar kullanılarak analiz edilebilir. Giriş yapmanıza gerek kalmadan etkileşim metriklerini, içerik performansını ve paylaşım kalıplarını görüntüleyebilirsiniz."
+    },
+    {
+      "question": "Instagram'da iyi bir etkileşim oranı nedir?",
+      "answer": "Instagram'daki ortalama etkileşim oranı %1 ile %3 arasındadır. %3'ün üzerindeki oranlar güçlü, %6'nın üzerindeki oranlar ise mükemmel kabul edilir. Etkileşim; niş alana, kitle büyüklüğüne ve içerik türüne göre değişir."
+    },
+    {
+      "question": "Instagram analitik araçları hesabınızla giriş yapmanızı gerektirir mi?",
+      "answer": "Hepsi değil. IGStoryPeek herhangi bir giriş veya Instagram kimlik bilgisi gerektirmez. Herkese açık verileri doğrudan analiz eder ve kişisel hesabınızı tamamen ayrı tutar."
+    },
+    {
+      "question": "Instagram'da sizi kimin takipten çıkardığını nasıl görebilirsiniz?",
+      "answer": "Instagram, biri sizi takipten çıktığında bildirim göndermez. Üçüncü taraf takip araçları, herkese açık takipçi listenizi zaman içinde izleyebilir ve takipten çıkmalar dahil değişiklikler hakkında sizi uyarabilir."
+    }
+  ]
+}

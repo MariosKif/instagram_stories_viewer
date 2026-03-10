@@ -1,0 +1,82 @@
+---
+/**
+ * About Us page — establishes trust and legitimacy.
+ */
+import MainLayout from '../layouts/MainLayout.astro';
+import FAQSection from '../components/FAQSection.astro';
+import { getLocalizedPath } from '../i18n/utils';
+import type { Language } from '../i18n/utils';
+
+const lang = (Astro.locals as any).lang || 'en';
+const t = (Astro.locals as any).t || {};
+
+const defaultFaqs = [
+  {
+    question: 'What does IGStoryPeek do?',
+    answer: 'IGStoryPeek is a social media analytics platform that lets you browse and analyze public profiles on Instagram, TikTok, Facebook, and Snapchat. You can view stories, posts, reels, and engagement metrics without creating an account.',
+  },
+  {
+    question: 'Is it legal to view someone\'s public social media profile?',
+    answer: 'Yes. Publicly shared social media content is accessible to anyone by design. IGStoryPeek only accesses information that account holders have chosen to make publicly visible.',
+  },
+  {
+    question: 'Can public social media data be used for research?',
+    answer: 'Public social media data is widely used in academic research, journalism, and market analysis. IGStoryPeek makes it easy to gather publicly available metrics for ethical research purposes.',
+  },
+  {
+    question: 'Does IGStoryPeek sell user data?',
+    answer: 'No. IGStoryPeek does not sell, trade, or share your personal information with third parties. We collect minimal data and only use it to operate and improve the service.',
+  },
+  {
+    question: 'How does IGStoryPeek collect data from public profiles?',
+    answer: 'IGStoryPeek accesses publicly available data through standard web protocols. It does not use hacking, scraping of private data, or any unauthorized access methods.',
+  },
+];
+
+const aboutFaqs = t.about?.faqs || defaultFaqs;
+---
+
+<MainLayout title={t.about?.title ? `${t.about.title} ${t.about.titleHighlight || 'IGStoryPeek'}` : 'About Us'}>
+  <section class="pt-28 pb-20 lg:pt-36 lg:pb-28">
+    <div class="section-container max-w-3xl">
+      <h1 class="text-3xl sm:text-4xl font-heading font-bold text-white mb-8">{t.about?.title || 'About'} {t.about?.titleHighlight || 'IGStoryPeek'}</h1>
+
+      <div class="space-y-8 text-dark-300 text-sm leading-relaxed">
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">{t.about?.whatWeDoTitle || 'Our Mission'}</h2>
+          <p>{t.about?.mission || 'IGStoryPeek was built to make public social media data more accessible and easier to understand. We believe that information shared publicly on platforms like Instagram, TikTok, Facebook, and Snapchat should be easy to explore, analyze, and learn from — without requiring you to create an account or install an app.'}</p>
+          <p class="mt-2">{t.about?.whatWeDoDesc || 'Our tools help marketers, researchers, content creators, and everyday users gain meaningful insights from public social media profiles.'}</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">{t.about?.valuesTitle || 'Our Values'}</h2>
+          <ul class="space-y-3 ml-2">
+            <li>
+              <strong class="text-white">{t.about?.transparency?.title || 'Transparency'}</strong>
+              <p class="mt-0.5">{t.about?.transparency?.description || 'We are upfront about what our tools do and how they work. We only process publicly available data and clearly communicate our practices.'}</p>
+            </li>
+            <li>
+              <strong class="text-white">{t.about?.publicDataOnly?.title || 'Public Data Only'}</strong>
+              <p class="mt-0.5">{t.about?.publicDataOnly?.description || 'We strictly limit our tools to public information. Private accounts, direct messages, and non-public content are never accessed.'}</p>
+            </li>
+            <li>
+              <strong class="text-white">{t.about?.compliance?.title || 'Compliance'}</strong>
+              <p class="mt-0.5">{t.about?.compliance?.description || 'We respect platform terms of service, intellectual property rights, and applicable privacy regulations including GDPR and CCPA.'}</p>
+            </li>
+            <li>
+              <strong class="text-white">{t.about?.userPrivacy?.title || 'User Privacy'}</strong>
+              <p class="mt-0.5">{t.about?.userPrivacy?.description || 'We collect minimal data from our users and never sell personal information to third parties.'}</p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">{t.about?.contactTitle || 'Contact Us'}</h2>
+          <p>{t.about?.contactDesc || "Have questions, feedback, or concerns? We'd love to hear from you."} {t.about?.contactEmail || 'Email us at'} <a href="mailto:contact@igstorypeek.com" class="text-primary hover:underline">contact@igstorypeek.com</a> {t.nav?.contact ? '' : ''}<a href={getLocalizedPath('/contact', lang)} class="text-primary hover:underline">{t.nav?.contact || 'contact page'}</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <FAQSection faqs={aboutFaqs} />
+</MainLayout>

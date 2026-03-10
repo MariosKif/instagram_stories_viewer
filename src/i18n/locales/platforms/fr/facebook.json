@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Outils Facebook — Analyseur de pages, telechargeur de contenu et navigateur de contenu",
+    "heroTitle": "Hub Facebook Insights & Analytics",
+    "sectionHeading": "Decouvrir tous les outils Facebook",
+    "sectionSub": "Outils dedies a l'analyse de pages et groupes Facebook, a la sauvegarde de contenu, a la navigation de contenu et au suivi d'activite.",
+    "ctaHeading": "Commencez a analyser les comptes Facebook",
+    "ctaSub": "Fournissez n'importe quel profil ou nom de page Facebook public pour generer des analyses et des insights complets.",
+    "cardCta": "Lancer l'outil"
+  },
+  "faqs": [
+    {
+      "question": "Quelqu'un peut-il voir si vous consultez son profil Facebook ?",
+      "answer": "Non. Facebook ne notifie pas les utilisateurs lorsque quelqu'un consulte leur profil. Toute application ou service pretendant le contraire n'est pas legitime."
+    },
+    {
+      "question": "Facebook dispose-t-il encore de son propre outil d'analyse ?",
+      "answer": "Facebook a retire son outil Analytics autonome en 2021. Les insights de page sont desormais disponibles via Meta Business Suite. Des outils tiers comme IGStoryPeek fournissent des analyses supplementaires pour les pages publiques."
+    },
+    {
+      "question": "Comment consulter une page Facebook publique sans se connecter ?",
+      "answer": "De nombreuses pages Facebook publiques sont accessibles sans compte. IGStoryPeek vous permet de rechercher et d'analyser des pages et profils Facebook publics sans vous connecter a Facebook."
+    },
+    {
+      "question": "Qu'est-il advenu de Facebook Analytics apres sa suppression ?",
+      "answer": "Facebook Analytics a ete retire le 30 juin 2021. Ses fonctionnalites ont ete integrees dans Meta Business Suite et Ads Manager. Des outils tiers comblent desormais le manque pour l'analyse externe de pages."
+    },
+    {
+      "question": "Peut-on suivre les pages Facebook des concurrents avec des outils d'analyse ?",
+      "answer": "Oui. Des outils comme IGStoryPeek vous permettent de surveiller les pages Facebook publiques, de suivre les metriques d'engagement et de comparer les performances — le tout sans avoir besoin d'acceder aux propres insights de la page."
+    },
+    {
+      "question": "Quelles metriques devriez-vous suivre sur une page Facebook professionnelle ?",
+      "answer": "Les metriques importantes pour les pages Facebook comprennent les mentions j'aime de la page, la portee des publications, le taux d'engagement, le taux de clics, les vues de videos et la croissance des abonnes. Le suivi de ces metriques aide a mesurer l'efficacite du contenu."
+    }
+  ]
+}

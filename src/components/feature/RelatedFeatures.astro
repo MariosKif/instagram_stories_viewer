@@ -1,0 +1,43 @@
+---
+import type { Feature } from '../../data/features';
+
+interface Props {
+  features: Feature[];
+  platformId: string;
+  platformColor: string;
+  heading: string;
+  subheading: string;
+}
+
+const { features, platformId, platformColor, heading, subheading } = Astro.props;
+---
+
+{features.length > 0 && (
+  <section class="py-20 lg:py-28 border-t border-white/5">
+    <div class="section-container">
+      <div class="text-center mb-14">
+        <h2 class="text-3xl sm:text-4xl font-heading font-bold mb-4 text-white" set:html={heading} />
+        <p class="text-dark-400 text-lg max-w-2xl mx-auto">
+          {subheading}
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {features.map((f) => (
+          <a href={`/${platformId}/${f.slug}`} class="glass p-5 card-hover group block">
+            <h3 class="text-base font-semibold text-white mb-2">
+              {f.label}
+            </h3>
+            <p class="text-sm text-dark-400 leading-relaxed line-clamp-2">{f.description}</p>
+            <span class="inline-flex items-center gap-1 mt-3 text-sm font-medium transition-colors" style={`color: ${platformColor}`}>
+              Try it free
+              <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

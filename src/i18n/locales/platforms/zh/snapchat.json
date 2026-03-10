@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Snapchat 工具 — 分数追踪器、故事下载器和活动追踪器",
+    "heroTitle": "Snapchat 分析与内容工具包",
+    "sectionHeading": "查看所有 Snapchat 功能",
+    "sectionSub": "专注于 Snapchat 分数追踪、连续记录分析、故事下载和活动追踪的工具。",
+    "ctaHeading": "开始追踪 Snapchat 活动",
+    "ctaSub": "输入任何公开的 Snapchat 用户名，即可访问分数追踪、内容下载和活动追踪。",
+    "cardCta": "使用此功能"
+  },
+  "faqs": [
+    {
+      "question": "什么是 Snapchat 分数，如何计算？",
+      "answer": "您的 Snapchat 分数是一个反映您在平台上整体活动的数字。它根据您发送和接收的 Snap 数量、发布的故事以及其他互动因素而增加。"
+    },
+    {
+      "question": "如何提高您的 Snapchat 分数？",
+      "answer": "经常发送和打开 Snap、发布故事、保持 Snap 连续记录并添加新朋友。群组 Snap 和视频 Snap 可能比纯文本 Snap 贡献更多的积分。"
+    },
+    {
+      "question": "24 小时后还能看到谁查看了您的 Snapchat 故事吗？",
+      "answer": "不能。一旦 Snapchat 故事在 24 小时后过期，查看者列表将无法通过应用程序访问。第三方追踪工具可以帮助您在过期前监控查看情况。"
+    },
+    {
+      "question": "谁可以访问 Snapchat Insights？",
+      "answer": "Snapchat Insights 适用于公开个人资料和达到一定粉丝门槛的创作者。对于其他所有人，IGStoryPeek 等第三方分析工具提供分数追踪和活动监控。"
+    },
+    {
+      "question": "Snapchat+ 订阅者的 Snapchat 分数倍增器有什么作用？",
+      "answer": "Snapchat+ 订阅者可以看到一个分数倍增器，显示他们的分数增长速度。它不会改变积分的获取方式 — 只是显示增长速率。"
+    },
+    {
+      "question": "Snapchat 多久更新一次您的分数？",
+      "answer": "Snapchat 分数几乎实时更新，但有时可能会有短暂延迟。您的分数反映了自创建账户以来的累计活动。"
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "IGStoryPeek - Kostenloser Instagram Stories Viewer | Stories ohne Konto ansehen 2025",
+    "description": "Kostenloser Instagram Stories Viewer - Instagram Stories ohne Konto ansehen. 100% private Ansicht öffentlicher Profile, Beiträge, Stories, Highlights. Keine Registrierung erforderlich. Bestes Instagram Story Viewer Tool 2025.",
+    "keywords": "instagram stories viewer, instagram viewer, story viewer, instagram profil viewer, instagram beiträge viewer, privates surfen, instagram highlights, instagram stories ohne konto ansehen, kostenloser instagram viewer, instagram story downloader, privates instagram surfen, instagram viewer tool, instagram story viewer 2025, ig story viewer, instagram viewer ohne anmeldung"
+  },
+  "nav": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Kontakt"
+  },
+  "navbar": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "blog": "Blog",
+    "login": "Anmelden",
+    "dashboard": "Dashboard",
+    "searchNow": "Jetzt suchen"
+  },
+  "hero": {
+    "title": "Ihr All-in-One",
+    "titleHighlight": "Social-Media-Analyse",
+    "titleEnd": "Tool",
+    "subtitle": "Analysieren Sie öffentliche Profile, verfolgen Sie Engagement-Trends und erkunden Sie Inhalte – plattformübergreifend, ohne Konto.",
+    "placeholder": "Instagram-Benutzernamen eingeben...",
+    "button": "Suchen",
+    "viewSample": "Beispielbericht ansehen",
+    "badge1": "KI-gestützt",
+    "badge2": "Kein Konto nötig",
+    "badge3": "Nur öffentliche Daten",
+    "badge4": "Echtzeit-Analyse",
+    "popularSearches": "Beliebte Suchen:"
+  },
+  "searchBar": {
+    "placeholder": "Instagram-Benutzernamen eingeben",
+    "button": "Jetzt suchen",
+    "errorEmpty": "Bitte geben Sie einen Benutzernamen ein.",
+    "errorInvalid": "Ungültiger Benutzername. Verwenden Sie Buchstaben, Zahlen, Punkte oder Unterstriche."
+  },
+  "notice": {
+    "title": "Zugriff auf Instagram-Inhalte",
+    "description": "Der IGStoryPeek-Service ermöglicht derzeit den Zugriff auf Instagram Stories, Beiträge, Highlights und Profildetails. Dies ermöglicht eine vertrauliche Ansicht öffentlich verfügbarer Instagram-Inhalte.",
+    "availableContent": "Verfügbare Inhalte:",
+    "availableContentDesc": "Stories, Beiträge, Highlights und Profildetails von öffentlich zugänglichen Konten.",
+    "privacy": "Datenschutz:",
+    "privacyDesc": "Jede Ansichtssitzung ist privat – kein Konto oder Login ist erforderlich, um öffentliche Inhalte zu durchsuchen."
+  },
+  "features": {
+    "title": "IGStoryPeek-Funktionen",
+    "intro": "IGStoryPeek bietet einen kostenlosen Service zum Durchsuchen von Instagram-Stories öffentlich zugänglicher Konten, ohne ein Instagram-Konto zu benötigen. Alle Funktionen sind völlig kostenlos und erfordern nur die Eingabe des gewünschten Instagram-Benutzernamens.",
+    "anonymity": {
+      "title": "100% privat",
+      "description": "Öffentliche Inhalte durchsuchen, ohne ein Konto erstellen oder sich anmelden zu müssen"
+    },
+    "noAccount": {
+      "title": "Kein Konto erforderlich",
+      "description": "Es ist nicht erforderlich, ein Instagram-Konto zu erstellen. Sie haben auch die Möglichkeit, Benutzer-Stories und andere Multimedia-Publikationen ohne Registrierung und Anwendung anzusehen"
+    },
+    "download": {
+      "title": "Download-Funktion",
+      "description": "Sie können Stories, Publikationen und andere Informationen kostenlos auf jedem Gerät anzeigen, herunterladen und speichern: Computer, Laptop, Tablet oder Smartphone (Android, iOS und andere Betriebssysteme)"
+    }
+  },
+  "benefits": {
+    "heading": "Warum",
+    "headingHighlight": "IGStoryPeek",
+    "subtitle": "Leistungsstarke Funktionen für Datenschutz, Genauigkeit und Benutzerfreundlichkeit.",
+    "publicData": {
+      "title": "Nur öffentliche Daten",
+      "description": "Wir analysieren ausschließlich öffentlich verfügbare Informationen. Private Daten werden niemals abgerufen oder gespeichert."
+    },
+    "noLogin": {
+      "title": "Kein Login erforderlich",
+      "description": "Profile und Stories durchsuchen, ohne ein Konto zu erstellen oder sich anzumelden."
+    },
+    "realTime": {
+      "title": "Echtzeit-Updates",
+      "description": "Richten Sie automatische Benachrichtigungen ein, um über Kontoänderungen und neue Aktivitäten informiert zu bleiben."
+    },
+    "aiInsights": {
+      "title": "KI-Einblicke",
+      "description": "Fortschrittliche Algorithmen analysieren Engagement-Muster und liefern umsetzbare Erkenntnisse."
+    },
+    "multiPlatform": {
+      "title": "Multiplattform-Unterstützung",
+      "description": "Analysieren Sie Profile auf Instagram, TikTok, Facebook und Snapchat von einem Ort aus."
+    },
+    "easyToUse": {
+      "title": "Einfach zu bedienen",
+      "description": "Geben Sie einfach einen Benutzernamen ein und erhalten Sie Ihren Bericht. Keine technischen Kenntnisse erforderlich."
+    }
+  },
+  "useCases": {
+    "heading": "Entwickelt für",
+    "headingHighlight": "jeden Anwendungsfall",
+    "subtitle": "Ob Marketer oder Privatperson – IGStoryPeek liefert die Einblicke, die Sie brauchen.",
+    "forMarketers": "Für Marketer",
+    "forIndividuals": "Für Privatpersonen",
+    "marketer1Title": "Wettbewerber verfolgen",
+    "marketer1Desc": "Überwachen Sie Posting-Muster, Engagement-Raten und Inhaltsstrategien der Konkurrenz.",
+    "marketer2Title": "Engagement-Spitzen erkennen",
+    "marketer2Desc": "Erhalten Sie Benachrichtigungen, wenn Konten ungewöhnliches Wachstum oder virale Inhalte verzeichnen.",
+    "marketer3Title": "Influencer-Entdeckung",
+    "marketer3Desc": "Finden und prüfen Sie Influencer anhand echter Engagement-Daten und Zielgruppenqualität.",
+    "individual1Title": "Ohne Konto durchsuchen",
+    "individual1Desc": "Stories und Beiträge ansehen, ohne sich anmelden oder ein Konto erstellen zu müssen.",
+    "individual2Title": "Engagement-Muster verfolgen",
+    "individual2Desc": "Sehen Sie, wie Zielgruppen mit bestimmten Konten und Inhalten interagieren.",
+    "individual3Title": "Inhaltsleistung analysieren",
+    "individual3Desc": "Verstehen Sie Engagement-Muster und Inhaltsleistung über Profile hinweg."
+  },
+  "featuresSuite": {
+    "heading": "Komplettes",
+    "headingHighlight": "Produktpaket",
+    "subtitle": "Vier leistungsstarke Tools für einen vollständigen Überblick über jede öffentliche Instagram-Präsenz.",
+    "analyzer": {
+      "title": "Instagram-Analysator",
+      "description": "Tiefgehende Analysen für jedes öffentliche Profil. Engagement-Raten, Wachstumstrends, Inhaltsleistung und Zielgruppen-Einblicke."
+    },
+    "browser": {
+      "title": "Inhalts-Browser",
+      "description": "Stories, Beiträge und Highlights durchsuchen, ohne sich anzumelden – kein Konto erforderlich."
+    },
+    "downloader": {
+      "title": "Downloader",
+      "description": "Stories, Reels und Beiträge in Originalqualität speichern. Für Wettbewerbsanalysen oder den persönlichen Gebrauch."
+    },
+    "tracker": {
+      "title": "Aktivitäts-Tracker",
+      "description": "Richten Sie automatische Benachrichtigungen für jedes öffentliche Konto ein. Erhalten Sie Updates über neue Beiträge, Story-Änderungen und Follower-Entwicklungen."
+    },
+    "learnMore": "Mehr erfahren"
+  },
+  "testimonials": {
+    "heading": "Vertraut von",
+    "headingHighlight": "Tausenden",
+    "subtitle": "Sehen Sie, was unsere Nutzer über IGStoryPeek sagen."
+  },
+  "trust": {
+    "userCount": "50.000+ Nutzer",
+    "trustLine": "vertrauen IGStoryPeek",
+    "sslEncrypted": "SSL-verschlüsselt",
+    "gdprCompliant": "GDPR-konform",
+    "publicDataOnly": "Nur öffentliche Daten",
+    "complianceNote": "Alle Daten stammen aus öffentlich verfügbaren Profilen in Übereinstimmung mit geltenden Gesetzen."
+  },
+  "ctaSection": {
+    "heading": "Jetzt mit der Analyse",
+    "headingHighlight": "beginnen",
+    "description": "Geben Sie einen beliebigen öffentlichen Benutzernamen ein und erhalten Sie in Sekunden einen umfassenden Analysebericht."
+  },
+  "articles": {
+    "heading": "Neuestes aus dem",
+    "headingHighlight": "Blog",
+    "subtitle": "Tipps, Anleitungen und Brancheneinblicke.",
+    "viewAll": "Alle Beiträge ansehen",
+    "readMore": "Weiterlesen",
+    "noPosts": "Noch keine Blog-Beiträge. Schauen Sie bald wieder vorbei!"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern, den Datenverkehr zu analysieren und relevante Werbung bereitzustellen. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie unserer Cookie-Nutzung zu.",
+    "learnMore": "Mehr erfahren",
+    "managePreferences": "Einstellungen verwalten",
+    "acceptAll": "Alle akzeptieren"
+  },
+  "footer": {
+    "brandDescription": "Social-Media-Analyse- und Content-Tools. Analysieren Sie öffentliche Profile, verfolgen Sie Engagement und generieren Sie Einblicke.",
+    "product": "Produkt",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "sampleReport": "Beispielbericht",
+    "dashboard": "Dashboard",
+    "resources": "Ressourcen",
+    "blog": "Blog",
+    "useCases": "Anwendungsfälle",
+    "faqLink": "FAQ",
+    "legal": "Rechtliches",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "aboutUs": "Über uns",
+    "contact": "Kontakt",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "dmca": "DMCA",
+    "tools": "Tools",
+    "viewAll": "Alle ansehen",
+    "copyright": "IGStoryPeek. Alle Rechte vorbehalten. Nicht mit Instagram oder Meta verbunden.",
+    "dataSource": "Alle Daten stammen aus öffentlich verfügbaren Informationen.",
+    "navigation": "Navigation",
+    "disclaimer": "IGStoryPeek ist nicht mit Instagram verbunden. Wir hosten keine Instagram Stories auf unseren Servern, alle Rechte gehören ihren Eigentümern.",
+    "instagramVideoDownloader": "Instagram Video Downloader",
+    "instagramStoryViewer": "Instagram Story Viewer",
+    "comingSoon": "Diese Funktion kommt bald!",
+    "alreadyUsing": "Sie verwenden bereits den Instagram Story Viewer!",
+    "removeProfile": "Profil entfernen",
+    "removeProfileMessage": "Um Ihr Profil zu entfernen, kontaktieren Sie bitte support@igstorypeek.com mit Ihrem Instagram-Benutzernamen."
+  },
+  "howItWorks": {
+    "title": "Wie funktioniert die private Ansicht von Instagram Stories?",
+    "step1": "Geben Sie den Benutzernamen des Profils ein, das Sie ansehen möchten",
+    "step2": "Der von Ihnen eingegebene Benutzername wird von unserem System empfangen und von unserem automatisierten Prozess verarbeitet",
+    "step3": "Unser Service zeigt die Profilseite mit den neuesten und aktuellen Informationen an",
+    "step4": "Instagram-Story-Ansichten werden unter einem unserer Service-Konten registriert",
+    "step5": "Ihre Identität bleibt vollständig privat",
+    "cta": "Suche beginnen"
+  },
+  "pricing": {
+    "title": "Einfache, transparente",
+    "titleHighlight": "Preise",
+    "subtitle": "Starten Sie kostenlos. Upgraden Sie, wenn Sie mehr Leistung brauchen.",
+    "free": {
+      "name": "Kostenlos",
+      "description": "Für Gelegenheitsnutzer und schnelle Abfragen.",
+      "price": "$0",
+      "period": "/ Monat",
+      "feature1": "2 Suchen alle 8 Stunden",
+      "feature2": "Basis-Engagement-Bericht",
+      "feature3": "Profilübersicht",
+      "excluded1": "Keine fortlaufende Überwachung",
+      "excluded2": "Keine KI-Einblicke",
+      "cta": "Kostenlos starten"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Am beliebtesten",
+      "description": "Für Power-User und Profis.",
+      "price": "$29",
+      "period": "/ Monat",
+      "feature1": "Unbegrenzte Suchen",
+      "feature2": "Vollständiges Analyse-Dashboard",
+      "feature3": "Fortlaufende Überwachung & Benachrichtigungen",
+      "feature4": "KI-gestützte Einblicke",
+      "feature5": "Plattformübergreifende Erkennung",
+      "feature6": "Prioritäts-Support",
+      "cta": "Auf Pro upgraden"
+    },
+    "faqs": [
+      {
+        "question": "Kann ich jederzeit kündigen?",
+        "answer": "Ja! Sie können Ihr Pro-Abonnement jederzeit kündigen. Sie behalten den Zugang bis zum Ende Ihres Abrechnungszeitraums."
+      },
+      {
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Wir akzeptieren alle gängigen Kredit- und Debitkarten über unseren sicheren Zahlungsanbieter (Stripe). Apple Pay und Google Pay werden ebenfalls unterstützt."
+      },
+      {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Absolut. Alle Verbindungen sind mit SSL verschlüsselt. Wir speichern niemals Instagram-Passwörter und verarbeiten nur öffentlich verfügbare Daten."
+      },
+      {
+        "question": "Wie viel kosten Instagram-Analyse-Tools normalerweise?",
+        "answer": "Die meisten kosten zwischen kostenlos und $30/Monat. IGStoryPeek bietet ein kostenloses Paket mit 2 Suchen alle 8 Stunden und einen Pro-Plan für $29/Monat mit unbegrenztem Zugriff auf Instagram, TikTok, Facebook und Snapchat."
+      },
+      {
+        "question": "Welche Funktionen bieten kostenpflichtige Social-Media-Tools, die kostenlose nicht haben?",
+        "answer": "Pro-Pläne umfassen typischerweise unbegrenzte Suchen, kontinuierliche Tracking-Benachrichtigungen, KI-gestützte Einblicke, erweiterte Filterung und CSV-Exporte – Funktionen, die über kostenlose Angebote hinausgehen."
+      },
+      {
+        "question": "Bieten Social-Media-Analyse-Tools kostenlose Testphasen an?",
+        "answer": "Der kostenlose Plan von IGStoryPeek ist dauerhaft kostenlos mit 2 Suchen alle 8 Stunden. Sie können jederzeit auf Pro upgraden und jederzeit kündigen – keine Testphase nötig."
+      },
+      {
+        "question": "Lohnt sich ein kostenpflichtiges Instagram-Analyse-Tool, wenn es kostenlose gibt?",
+        "answer": "Kostenlose Tools sind ideal für gelegentliche Nutzung. Wenn Sie unbegrenzte Suchen, automatische Benachrichtigungen oder professionelle Berichte benötigen, bietet ein kostenpflichtiger Plan deutlich mehr Wert und spart Zeit."
+      }
+    ]
+  },
+  "about": {
+    "title": "Über",
+    "titleHighlight": "IGStoryPeek",
+    "mission": "Unsere Mission ist es, Social-Media-Analyse für jeden zugänglich, transparent und datenschutzfreundlich zu gestalten.",
+    "whatWeDoTitle": "Was wir tun",
+    "whatWeDoDesc": "IGStoryPeek ist eine Social-Media-Analyseplattform, die Marketern, Forschern und Privatpersonen hilft, öffentlich verfügbare Profildaten auf Instagram, TikTok, Facebook und Snapchat zu analysieren.",
+    "valuesTitle": "Unsere Werte",
+    "transparency": {
+      "title": "Transparenz",
+      "description": "Wir sind offen darüber, auf welche Daten wir zugreifen und wie wir sie verwenden."
+    },
+    "publicDataOnly": {
+      "title": "Nur öffentliche Daten",
+      "description": "Wir greifen niemals auf private Profile, Direktnachrichten oder nicht-öffentliche Inhalte zu."
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "Wir arbeiten in Übereinstimmung mit GDPR, CCPA und geltenden Datenschutzvorschriften."
+    },
+    "userPrivacy": {
+      "title": "Nutzerdatenschutz",
+      "description": "Ihre Browsing-Aktivitäten werden niemals geteilt. Wir benötigen keine Social-Media-Anmeldedaten."
+    },
+    "contactTitle": "Kontaktieren Sie uns",
+    "contactDesc": "Haben Sie Fragen oder Feedback? Wir freuen uns, von Ihnen zu hören.",
+    "contactEmail": "Schreiben Sie uns an",
+    "faqs": [
+      {
+        "question": "Ist die Nutzung von Social-Media-Analyse-Tools legal?",
+        "answer": "Ja. IGStoryPeek verarbeitet ausschließlich öffentlich verfügbare Daten und hält die geltenden Datenschutzbestimmungen ein. Wir greifen niemals auf private Profile oder eingeschränkte Inhalte zu."
+      },
+      {
+        "question": "Kann ich IGStoryPeek für akademische oder Marktforschung nutzen?",
+        "answer": "Absolut. Viele Forscher und Marketingexperten nutzen IGStoryPeek, um öffentliche Social-Media-Trends, Engagement-Muster und Inhaltsstrategien zu analysieren."
+      },
+      {
+        "question": "Verkauft IGStoryPeek Nutzerdaten?",
+        "answer": "Nein. Wir verkaufen, handeln oder teilen keine Nutzerdaten mit Dritten. Lesen Sie unsere Datenschutzerklärung für Details."
+      },
+      {
+        "question": "Wie sammelt IGStoryPeek Daten?",
+        "answer": "Wir analysieren öffentlich verfügbare Daten von Social-Media-Plattformen. Private Daten, Direktnachrichten oder eingeschränkte Inhalte werden niemals abgerufen."
+      },
+      {
+        "question": "Welche Plattformen unterstützt IGStoryPeek?",
+        "answer": "Derzeit unterstützt IGStoryPeek die Analyse von Instagram, TikTok, Facebook und Snapchat."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Nehmen Sie",
+    "titleHighlight": "Kontakt auf",
+    "subtitle": "Haben Sie Fragen, Feedback oder brauchen Unterstützung? Wir sind für Sie da.",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formSubject": "Betreff",
+    "formMessage": "Nachricht",
+    "formSubmit": "Nachricht senden",
+    "subjectGeneral": "Allgemeine Anfrage",
+    "subjectSupport": "Technischer Support",
+    "subjectBilling": "Abrechnung",
+    "subjectDmca": "DMCA/Urheberrecht",
+    "subjectFeedback": "Feedback",
+    "directEmail": "Oder schreiben Sie uns direkt an",
+    "responseTime": "Wir antworten in der Regel innerhalb von 24–48 Geschäftsstunden.",
+    "legalTitle": "Rechtliche Anfragen",
+    "legalDesc": "Für rechtliche Anfragen einschließlich Datenlöschung und GDPR-Anfragen kontaktieren Sie bitte",
+    "dmcaTitle": "DMCA-Hinweise",
+    "dmcaDesc": "Um einen DMCA-Takedown-Hinweis einzureichen, besuchen Sie bitte unsere"
+  },
+  "login": {
+    "title": "Willkommen zurück",
+    "subtitle": "Melden Sie sich an, um auf Ihr Dashboard und Ihren Suchverlauf zuzugreifen.",
+    "googleSignIn": "Mit Google anmelden",
+    "orDivider": "oder",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "sie@beispiel.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Passwort eingeben",
+    "submitButton": "Anmelden",
+    "noAccount": "Noch kein Konto?",
+    "signUp": "Registrieren",
+    "errorInvalid": "Ungültige E-Mail oder ungültiges Passwort. Bitte versuchen Sie es erneut.",
+    "errorTooMany": "Zu viele Versuche. Bitte versuchen Sie es später erneut."
+  },
+  "register": {
+    "title": "Konto erstellen",
+    "subtitle": "Registrieren Sie sich, um Ihre Suchen zu speichern und weitere Funktionen freizuschalten.",
+    "googleSignUp": "Mit Google registrieren",
+    "orDivider": "oder",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "sie@beispiel.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Passwort erstellen",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "confirmPasswordPlaceholder": "Passwort bestätigen",
+    "termsAgree": "Ich stimme den",
+    "termsLink": "Nutzungsbedingungen",
+    "andText": "und der",
+    "privacyLink": "Datenschutzerklärung",
+    "submitButton": "Konto erstellen",
+    "hasAccount": "Bereits ein Konto?",
+    "logIn": "Anmelden",
+    "errorEmailInUse": "E-Mail bereits verwendet. Bitte verwenden Sie eine andere E-Mail.",
+    "errorWeakPassword": "Passwort ist zu schwach. Bitte verwenden Sie mindestens 6 Zeichen.",
+    "errorMismatch": "Passwörter stimmen nicht überein.",
+    "errorMinLength": "Das Passwort muss mindestens 6 Zeichen lang sein."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "currentPlan": "Aktueller Plan",
+    "searchesUsed": "Verwendete Suchen",
+    "totalSearches": "Gesamte Suchen",
+    "free": "Kostenlos",
+    "pro": "Pro",
+    "unlimited": "Unbegrenzt",
+    "quickSearch": "Schnellsuche",
+    "quickSearchPlaceholder": "Benutzername eingeben",
+    "quickSearchButton": "Suchen",
+    "upgradeCta": "Auf Pro upgraden",
+    "upgradeDesc": "Erhalten Sie unbegrenzte Suchen, KI-Einblicke und fortlaufende Überwachung.",
+    "searchHistory": "Suchverlauf",
+    "noSearches": "Noch keine Suchen. Beginnen Sie mit einer Suche oben."
+  },
+  "searchReport": {
+    "analyzingProfile": "Profil wird analysiert",
+    "generatingReport": "Analysebericht wird erstellt für",
+    "engagementRate": "Engagement-Rate",
+    "avgLikes": "Durchschn. Likes",
+    "avgComments": "Durchschn. Kommentare",
+    "followerGrowth": "Follower-Wachstum (30 Tage)",
+    "contentBreakdown": "Inhaltsaufschlüsselung",
+    "recentActivity": "Letzte Aktivität",
+    "date": "Datum",
+    "posts": "Beiträge",
+    "stories": "Stories",
+    "likes": "Likes",
+    "topInteractions": "Top-Interaktionen",
+    "topHashtags": "Top-Hashtags",
+    "limitReached": "Suchlimit erreicht",
+    "limitDesc": "Sie haben alle kostenlosen Suchen für diesen Zeitraum aufgebraucht.",
+    "nextReset": "Nächste Zurücksetzung in",
+    "watchAd": "Werbung ansehen für +3 Stunden",
+    "upgradePro": "Auf Pro upgraden",
+    "followers": "Follower",
+    "following": "folgt"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Tipps, Anleitungen und Brancheneinblicke über Instagram-Analyse, Datenschutz und Social-Media-Trends.",
+    "allPosts": "Alle Beiträge",
+    "readMore": "Weiterlesen",
+    "publishedOn": "Veröffentlicht am",
+    "updatedOn": "Aktualisiert am",
+    "by": "Von",
+    "relatedPosts": "Ähnliche Beiträge",
+    "noPosts": "Keine Beiträge gefunden",
+    "backToBlog": "Zurück zum Blog",
+    "featured": "Empfohlen"
+  },
+  "legal": {
+    "termsTitle": "Nutzungsbedingungen",
+    "privacyTitle": "Datenschutzerklärung",
+    "cookiePolicyTitle": "Cookie-Richtlinie",
+    "dmcaTitle": "DMCA-Richtlinie",
+    "lastUpdated": "Zuletzt aktualisiert"
+  },
+  "common": {
+    "home": "Startseite",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "viewAll": "Alle ansehen"
+  },
+  "homeFaqs": [
+    {
+      "question": "Kann man Instagram Stories ohne Konto ansehen?",
+      "answer": "Ja. IGStoryPeek ermöglicht es Ihnen, öffentliche Instagram Stories anzusehen, ohne ein Konto zu erstellen oder sich anzumelden. Geben Sie einfach einen öffentlichen Benutzernamen ein und sehen Sie sofort deren Stories, Highlights und Reels."
+    },
+    {
+      "question": "Was ist ein Social-Media-Analyse-Tool und wie funktioniert es?",
+      "answer": "Ein Social-Media-Analyse-Tool sammelt und analysiert öffentlich verfügbare Daten von Plattformen wie Instagram, TikTok, Facebook und Snapchat. Es stellt Kennzahlen wie Engagement-Raten, Follower-Wachstum und Inhaltsleistung in leicht lesbaren Berichten dar."
+    },
+    {
+      "question": "Ist es sicher, Instagram-Story-Viewer von Drittanbietern zu nutzen?",
+      "answer": "Seriöse Tools wie IGStoryPeek sind sicher, da sie nur auf öffentlich verfügbare Daten zugreifen und niemals nach Ihren Instagram-Anmeldedaten fragen. Vermeiden Sie stets Dienste, die Ihr Passwort verlangen oder eine Anmeldung mit Ihrem Social-Media-Konto erfordern."
+    },
+    {
+      "question": "Welche Social-Media-Plattformen kann man ohne Konto durchsuchen?",
+      "answer": "Mit IGStoryPeek können Sie öffentliche Inhalte von Instagram, TikTok, Facebook und Snapchat durchsuchen – ganz ohne ein Konto auf einer dieser Plattformen zu erstellen."
+    },
+    {
+      "question": "Funktionieren Story-Viewer-Tools bei privaten Instagram-Konten?",
+      "answer": "Nein. IGStoryPeek und ähnliche Tools greifen nur auf Inhalte öffentlicher Profile zu. Private Konten sind nicht zugänglich, und jedem Dienst, der etwas anderes behauptet, sollte man nicht vertrauen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Social-Media-Analyse und Social-Media-Monitoring?",
+      "answer": "Analyse konzentriert sich auf die Messung von Leistungskennzahlen wie Engagement-Raten und Wachstumstrends. Monitoring konzentriert sich darauf, über Echtzeit-Änderungen wie neue Beiträge, Stories oder Profilaktualisierungen informiert zu bleiben."
+    }
+  ],
+  "profile": {
+    "posts": "Beiträge",
+    "stories": "Stories",
+    "highlights": "Highlights",
+    "postsCount": "Beiträge",
+    "followers": "Follower",
+    "following": "folgt",
+    "noPosts": "Keine Beiträge verfügbar.",
+    "noStories": "Keine Stories verfügbar. Stories sind nur über den IGStoryPeek-Service zugänglich.",
+    "noHighlights": "Keine Highlights verfügbar.",
+    "viewOnInstagram": "Auf Instagram ansehen",
+    "ago": "vor",
+    "videoNotSupported": "Ihr Browser unterstützt das Video-Tag nicht."
+  },
+  "messages": {
+    "pleaseEnterUsername": "Bitte geben Sie einen Benutzernamen ein",
+    "pleaseEnterValidUsername": "Bitte geben Sie einen gültigen Benutzernamen ein",
+    "foundProfile": "Profil gefunden:",
+    "profileNotFound": "Profil nicht gefunden",
+    "errorConnecting": "Fehler beim Verbinden mit dem Server. Bitte versuchen Sie es erneut."
+  },
+  "megaMenu": {
+    "categories": {
+      "Profile Explorer": "Profil-Explorer",
+      "Analyzer": "Analysator",
+      "Downloader": "Downloader",
+      "Viewer": "Betrachter",
+      "Activity Tracker": "Aktivitäts-Tracker"
+    },
+    "badges": {
+      "NEW": "NEU"
+    },
+    "instagram": {
+      "user-search": "Benutzersuche für Instagram",
+      "view-comments-privately": "Kommentare privat ansehen",
+      "follower-analyzer": "Follower-Analysator",
+      "activity-analyzer": "Aktivitäts-Analysator",
+      "see-likes": "Likes auf Instagram sehen",
+      "hashtags-generator": "Hashtag-Generator",
+      "stories-downloader": "Stories-Downloader",
+      "highlights-downloader": "Highlights-Downloader",
+      "posts-downloader": "Beiträge-Downloader",
+      "video-downloader": "Video-Downloader",
+      "post-viewer": "Beitrags-Betrachter",
+      "stories-viewer": "Stories-Betrachter",
+      "highlights-viewer": "Highlights-Betrachter",
+      "comment-viewer": "Kommentar-Betrachter",
+      "likes-viewer": "Likes-Betrachter",
+      "relationship-insights": "Beziehungseinblicke",
+      "recent-mutuals": "Neueste gemeinsame Kontakte"
+    },
+    "tiktok": {
+      "user-search": "Benutzersuche für TikTok",
+      "view-comments-privately": "Kommentare privat ansehen",
+      "follower-analyzer": "Follower-Analysator",
+      "activity-analyzer": "Aktivitäts-Analysator",
+      "see-likes": "Likes auf TikTok sehen",
+      "trending-sounds-finder": "Trending-Sounds-Finder",
+      "video-downloader": "Video-Downloader",
+      "stories-downloader": "Stories-Downloader",
+      "audio-downloader": "Audio-Downloader",
+      "slideshow-downloader": "Diashow-Downloader",
+      "video-viewer": "Video-Betrachter",
+      "stories-viewer": "Stories-Betrachter",
+      "comment-viewer": "Kommentar-Betrachter",
+      "likes-viewer": "Likes-Betrachter",
+      "followers-viewer": "Follower-Betrachter",
+      "engagement-tracker": "Engagement-Tracker",
+      "duet-and-stitch-tracker": "Duett- & Stitch-Tracker"
+    },
+    "facebook": {
+      "user-search": "Benutzersuche für Facebook",
+      "view-comments-privately": "Kommentare privat ansehen",
+      "page-analyzer": "Seiten-Analysator",
+      "group-analyzer": "Gruppen-Analysator",
+      "see-reactions": "Reaktionen auf Facebook sehen",
+      "ad-library-explorer": "Werbebibliothek-Explorer",
+      "stories-downloader": "Stories-Downloader",
+      "reels-downloader": "Reels-Downloader",
+      "video-downloader": "Video-Downloader",
+      "photo-album-downloader": "Fotoalbum-Downloader",
+      "post-viewer": "Beitrags-Betrachter",
+      "stories-viewer": "Stories-Betrachter",
+      "reels-viewer": "Reels-Betrachter",
+      "comment-viewer": "Kommentar-Betrachter",
+      "likes-viewer": "Likes-Betrachter",
+      "page-activity-tracker": "Seitenaktivitäts-Tracker",
+      "friend-interaction-insights": "Freundes-Interaktionseinblicke"
+    },
+    "snapchat": {
+      "user-search": "Benutzersuche für Snapchat",
+      "view-stories-privately": "Stories privat ansehen",
+      "score-tracker": "Score-Tracker",
+      "activity-analyzer": "Aktivitäts-Analysator",
+      "best-friends-analyzer": "Beste-Freunde-Analysator",
+      "streak-tracker": "Streak-Tracker",
+      "stories-downloader": "Stories-Downloader",
+      "spotlight-downloader": "Spotlight-Downloader",
+      "memories-downloader": "Erinnerungen-Downloader",
+      "stories-viewer": "Stories-Betrachter",
+      "spotlight-viewer": "Spotlight-Betrachter",
+      "map-viewer": "Karten-Betrachter",
+      "public-profile-viewer": "Öffentlicher-Profil-Betrachter",
+      "score-change-tracker": "Score-Änderungs-Tracker",
+      "online-status-tracker": "Online-Status-Tracker"
+    }
+  }
+}

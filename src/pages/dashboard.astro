@@ -1,0 +1,174 @@
+---
+/**
+ * Protected dashboard page.
+ * Shows user plan, search history, upgrade CTA, and quick search input.
+ * Auth guard runs client-side via DashboardLayout script.
+ */
+import DashboardLayout from '../layouts/DashboardLayout.astro';
+import { getLocalizedPath, type Language } from '../i18n/utils';
+
+const lang = (Astro.locals as any).lang || 'en';
+const t = (Astro.locals as any).t || {};
+---
+
+<DashboardLayout title={t.dashboard?.title || "Dashboard"}>
+  <div class="p-6 lg:p-10 max-w-6xl mx-auto">
+    <!-- Page header -->
+    <div class="mb-8">
+      <h1 class="text-2xl lg:text-3xl font-heading font-bold text-white mb-1">{t.dashboard?.title || "Dashboard"}</h1>
+      <p class="text-dark-400" id="welcome-msg">{t.dashboard?.welcomeBack || "Welcome back!"}</p>
+    </div>
+
+    <!-- Stats row -->
+    <div class="grid sm:grid-cols-3 gap-4 mb-8">
+      <div class="glass p-5">
+        <p class="text-xs text-dark-500 mb-1">{t.dashboard?.currentPlan || "Current Plan"}</p>
+        <p class="text-lg font-semibold text-white" id="user-plan">{t.dashboard?.free || "Free"}</p>
+      </div>
+      <div class="glass p-5">
+        <p class="text-xs text-dark-500 mb-1">{t.dashboard?.searchesUsed || "Searches (8h)"}</p>
+        <p class="text-lg font-semibold text-white" id="searches-today">0 / 3</p>
+      </div>
+      <div class="glass p-5">
+        <p class="text-xs text-dark-500 mb-1">{t.dashboard?.totalSearches || "Total Searches"}</p>
+        <p class="text-lg font-semibold text-white" id="total-searches">0</p>
+      </div>
+    </div>
+
+    <!-- Quick search -->
+    <div class="glass p-6 mb-8">
+      <h2 class="text-lg font-semibold text-white mb-4">{t.dashboard?.quickSearch || "Quick Search"}</h2>
+      <form id="dash-search-form" class="flex gap-3">
+        <div class="flex-1 relative">
+          <span class="absolute left-4 top-1/2 -translate-y-1/2 text-dark-400">@</span>
+          <input
+            id="dash-search-input"
+            type="text"
+            placeholder={t.dashboard?.quickSearchPlaceholder || "Enter Instagram username"}
+            class="input-field pl-8"
+          />
+        </div>
+        <button type="submit" class="btn-primary shrink-0">{t.dashboard?.quickSearchButton || "Search"}</button>
+      </form>
+    </div>
+
+    <!-- Upgrade CTA (shown for free users) -->
+    <div id="upgrade-cta" class="hidden glass p-6 mb-8 border-primary/20 bg-gradient-to-r from-primary/5 to-secondary/5">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <h3 class="text-lg font-semibold text-white mb-1">{t.dashboard?.upgradeCta || "Upgrade to Pro"}</h3>
+          <p class="text-sm text-dark-400">{t.dashboard?.upgradeDesc || "Get unlimited searches, full analytics, and continuous monitoring."}</p>
+        </div>
+        <a href={getLocalizedPath('/pricing', lang)} class="btn-primary shrink-0 text-sm">{t.pricing?.pro?.cta || "View Plans"}</a>
+      </div>
+    </div>
+
+    <!-- Search history -->
+    <div class="glass p-6">
+      <h2 class="text-lg font-semibold text-white mb-4">{t.dashboard?.searchHistory || "Recent Searches"}</h2>
+      <div id="search-history" class="space-y-2">
+        <p class="text-sm text-dark-500 py-4 text-center">{t.dashboard?.loadingHistory || "Loading history..."}</p>
+      </div>
+    </div>
+  </div>
+
+  <script define:vars={{ lang, t }}>
+    window.__LANG__ = lang;
+    window.__T__ = t;
+  </script>
+
+  <script>
+    import { getUserProfile, getUserSearches, getSearchesInWindow } from '../lib/firestore';
+    import { Timestamp } from 'firebase/firestore';
+
+    const lang = (window as any).__LANG__ || 'en';
+    const t = (window as any).__T__ || {};
+
+    function getLocalizedPathClient(path: string, lang: string): string {
+      if (lang === 'en') return path;
+      return `/${lang}${path}`;
+    }
+
+    const uid = localStorage.getItem('igsp_uid');
+    const email = localStorage.getItem('igsp_email');
+
+    if (uid) init(uid, email || '');
+
+    async function init(uid: string, email: string) {
+      // Welcome message
+      const welcomeMsg = document.getElementById('welcome-msg');
+      if (welcomeMsg && email) {
+        welcomeMsg.textContent = `${t.dashboard?.welcomeBack || 'Welcome back'}, ${email}`;
+      }
+
+      // Load user profile
+      try {
+        const profile = await getUserProfile(uid);
+        if (profile) {
+          const planEl = document.getElementById('user-plan');
+          if (planEl) planEl.textContent = profile.plan === 'pro' ? (t.dashboard?.pro || 'Pro') : (t.dashboard?.free || 'Free');
+
+          // Show upgrade CTA for free users
+          if (profile.plan === 'free') {
+            document.getElementById('upgrade-cta')?.classList.remove('hidden');
+          }
+
+          // Check usage in current 8h window
+          const todayEl = document.getElementById('searches-today');
+          if (todayEl) {
+            if (profile.plan === 'pro') {
+              todayEl.textContent = t.dashboard?.unlimited || 'Unlimited';
+            } else {
+              const used = await getSearchesInWindow(uid);
+              todayEl.textContent = `${used} / 2`;
+            }
+          }
+        }
+      } catch {
+        // Profile may not exist yet — that's fine
+      }
+
+      // Load search history
+      try {
+        const searches = await getUserSearches(uid);
+        const historyEl = document.getElementById('search-history')!;
+        const totalEl = document.getElementById('total-searches');
+        if (totalEl) totalEl.textContent = String(searches.length);
+
+        if (searches.length === 0) {
+          historyEl.innerHTML = `<p class="text-sm text-dark-500 py-4 text-center">${t.dashboard?.noSearches || 'No searches yet. Try searching for a username above!'}</p>`;
+          return;
+        }
+
+        historyEl.innerHTML = searches.map((s) => {
+          const date = s.createdAt instanceof Timestamp
+            ? s.createdAt.toDate().toLocaleDateString(lang === 'en' ? 'en-US' : lang, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+            : '';
+          return `
+            <a href="${getLocalizedPathClient('/search/' + encodeURIComponent(s.username), lang)}" class="flex items-center justify-between p-3 rounded-lg hover:bg-white/5 transition-colors group">
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                  <span class="text-xs font-medium text-primary">@</span>
+                </div>
+                <span class="text-sm font-medium text-white group-hover:text-primary transition-colors">${s.username}</span>
+              </div>
+              <span class="text-xs text-dark-500">${date}</span>
+            </a>`;
+        }).join('');
+      } catch {
+        document.getElementById('search-history')!.innerHTML = `<p class="text-sm text-dark-500 py-4 text-center">${t.dashboard?.errorLoadingHistory || 'Could not load history.'}</p>`;
+      }
+    }
+
+    // Quick search form
+    const form = document.getElementById('dash-search-form') as HTMLFormElement;
+    const input = document.getElementById('dash-search-input') as HTMLInputElement;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const raw = input.value.trim().replace(/^@/, '');
+      if (raw && /^[a-zA-Z0-9._]{1,30}$/.test(raw)) {
+        window.location.href = getLocalizedPathClient(`/search/${encodeURIComponent(raw)}`, lang);
+      }
+    });
+  </script>
+</DashboardLayout>

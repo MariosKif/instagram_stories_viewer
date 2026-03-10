@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Orodja za Snapchat — Sledilnik rezultatov, prenosnik zgodb in sledilnik aktivnosti",
+    "heroTitle": "Analitični in vsebinski komplet za Snapchat",
+    "sectionHeading": "Oglejte si vse funkcije Snapchata",
+    "sectionSub": "ciljno usmerjena orodja za sledenje rezultatov Snapchata, analizo nizov, prenos zgodb in sledenje aktivnosti.",
+    "ctaHeading": "Začnite spremljati aktivnost na Snapchatu",
+    "ctaSub": "Vnesite katerokoli javno uporabniško ime na Snapchatu za dostop do sledenja rezultatov, prenosov vsebin in sledenja aktivnosti.",
+    "cardCta": "Uporabite to funkcijo"
+  },
+  "faqs": [
+    {
+      "question": "Kaj je rezultat Snapchata in kako se izračuna?",
+      "answer": "Vaš rezultat na Snapchatu je številka, ki odraža vašo celotno aktivnost na platformi. Povečuje se glede na število Snapov, ki jih pošljete in prejmete, zgodb, ki jih objavite, in drugih dejavnikov vključenosti."
+    },
+    {
+      "question": "Kako povečate svoj rezultat na Snapchatu?",
+      "answer": "Pogosto pošiljajte in odpirajte Snape, objavljajte zgodbe, vzdržujte Snap Streake in dodajajte nove prijatelje. Skupinski Snapi in video Snapi lahko prispevajo tudi več točk kot samo besedilni Snapi."
+    },
+    {
+      "question": "Ali lahko po 24 urah vidite, kdo si je ogledal vašo Snapchat zgodbo?",
+      "answer": "Ne. Ko Snapchat zgodba po 24 urah poteče, seznam gledalcev ni več dostopen prek aplikacije. Orodja za sledenje tretjih oseb vam lahko pomagajo spremljati oglede, preden potečejo."
+    },
+    {
+      "question": "Kdo ima dostop do Snapchat Insights?",
+      "answer": "Snapchat Insights je na voljo javnim profilom in ustvarjalcem z določenim pragom sledilcev. Za vse ostale orodja za analitiko tretjih oseb, kot je IGStoryPeek, ponujajo sledenje rezultatov in spremljanje aktivnosti."
+    },
+    {
+      "question": "Kaj počne množilnik rezultatov Snapchata za naročnike Snapchat+?",
+      "answer": "Naročniki Snapchat+ lahko vidijo množilnik rezultatov, ki prikazuje, kako hitro se njihov rezultat povečuje. Ne spremeni načina pridobivanja točk — preprosto prikazuje stopnjo rasti."
+    },
+    {
+      "question": "Kako pogosto Snapchat posodobi vaš rezultat?",
+      "answer": "Rezultati Snapchata se posodabljajo skoraj v realnem času, čeprav je včasih možna kratka zakasnitev. Vaš rezultat odraža kumulativno aktivnost od ustvarjenja računa."
+    }
+  ]
+}

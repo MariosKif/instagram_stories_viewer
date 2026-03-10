@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook 도구 — 페이지 분석기, 콘텐츠 다운로더 및 콘텐츠 브라우저",
+    "heroTitle": "Facebook 인사이트 및 분석 허브",
+    "sectionHeading": "모든 Facebook 도구 살펴보기",
+    "sectionSub": "Facebook 페이지 및 그룹 분석, 콘텐츠 저장, 콘텐츠 탐색 및 활동 추적을 위한 전용 도구.",
+    "ctaHeading": "Facebook 계정 분석 시작하기",
+    "ctaSub": "공개된 Facebook 프로필 또는 페이지 이름을 입력하면 종합적인 분석과 인사이트를 생성합니다.",
+    "cardCta": "도구 실행"
+  },
+  "faqs": [
+    {
+      "question": "누군가가 당신의 Facebook 프로필을 봤는지 알 수 있나요?",
+      "answer": "아니요. Facebook은 누군가가 프로필을 조회했을 때 사용자에게 알리지 않습니다. 그와 달리 주장하는 앱이나 서비스는 정당하지 않습니다."
+    },
+    {
+      "question": "Facebook에 아직 자체 분석 도구가 있나요?",
+      "answer": "Facebook은 2021년에 독립형 분석 도구를 종료했습니다. 페이지 인사이트는 이제 Meta Business Suite를 통해 사용할 수 있습니다. IGStoryPeek과 같은 서드파티 도구는 공개 페이지에 대한 추가 분석을 제공합니다."
+    },
+    {
+      "question": "로그인하지 않고 공개 Facebook 페이지를 보려면 어떻게 하나요?",
+      "answer": "많은 공개 Facebook 페이지는 계정 없이도 접근할 수 있습니다. IGStoryPeek을 사용하면 Facebook에 로그인하지 않고도 공개 Facebook 페이지와 프로필을 검색하고 분석할 수 있습니다."
+    },
+    {
+      "question": "Facebook Analytics가 종료된 후 어떻게 되었나요?",
+      "answer": "Facebook Analytics는 2021년 6월 30일에 종료되었습니다. 해당 기능은 Meta Business Suite와 Ads Manager에 통합되었습니다. 현재 서드파티 도구가 외부 페이지 분석의 공백을 채우고 있습니다."
+    },
+    {
+      "question": "분석 도구로 경쟁사의 Facebook 페이지를 추적할 수 있나요?",
+      "answer": "네. IGStoryPeek과 같은 도구를 사용하면 공개 Facebook 페이지를 모니터링하고, 참여 지표를 추적하고, 성과를 비교할 수 있습니다 — 페이지 자체의 인사이트에 접근할 필요 없이 모두 가능합니다."
+    },
+    {
+      "question": "Facebook 비즈니스 페이지에서 어떤 지표를 추적해야 하나요?",
+      "answer": "중요한 Facebook 페이지 지표에는 페이지 좋아요, 게시물 도달 범위, 참여율, 클릭률, 동영상 조회수 및 팔로워 성장이 포함됩니다. 이러한 지표를 추적하면 콘텐츠 효과를 측정하는 데 도움이 됩니다."
+    }
+  ]
+}

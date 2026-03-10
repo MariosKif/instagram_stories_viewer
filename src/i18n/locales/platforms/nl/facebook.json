@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook Tools — Pagina-analysator, Content Downloader & Content Browser",
+    "heroTitle": "Facebook Inzichten & Analyse Hub",
+    "sectionHeading": "Ontdek Alle Facebook Tools",
+    "sectionSub": "speciale tools voor Facebook-pagina- en groepsanalyse, content opslaan, contentbrowsing en activiteitstracking.",
+    "ctaHeading": "Begin Met Het Analyseren Van Facebook Accounts",
+    "ctaSub": "Voer een openbare Facebook-profiel- of paginanaam in om uitgebreide analyses en inzichten te genereren.",
+    "cardCta": "Start tool"
+  },
+  "faqs": [
+    {
+      "question": "Kan iemand zien of je hun Facebook-profiel bekijkt?",
+      "answer": "Nee. Facebook informeert gebruikers niet wanneer iemand hun profiel bekijkt. Elke app of dienst die het tegenovergestelde beweert, is niet legitiem."
+    },
+    {
+      "question": "Heeft Facebook nog steeds een eigen analysetool?",
+      "answer": "Facebook heeft zijn zelfstandige analysetool in 2021 stopgezet. Pagina-inzichten zijn nu beschikbaar via Meta Business Suite. Tools van derden zoals IGStoryPeek bieden aanvullende analyses voor openbare pagina's."
+    },
+    {
+      "question": "Hoe bekijk je een openbare Facebook-pagina zonder in te loggen?",
+      "answer": "Veel openbare Facebook-pagina's zijn toegankelijk zonder account. IGStoryPeek stelt je in staat om openbare Facebook-pagina's en -profielen te zoeken en analyseren zonder in te loggen bij Facebook."
+    },
+    {
+      "question": "Wat is er gebeurd met Facebook Analytics na de stopzetting?",
+      "answer": "Facebook Analytics werd stopgezet op 30 juni 2021. De functies werden opgenomen in Meta Business Suite en Ads Manager. Tools van derden vullen nu het gat voor externe pagina-analyse."
+    },
+    {
+      "question": "Kun je Facebook-pagina's van concurrenten volgen met analysetools?",
+      "answer": "Ja. Tools zoals IGStoryPeek laten je openbare Facebook-pagina's monitoren, engagementstatistieken bijhouden en prestaties vergelijken — alles zonder toegang tot de eigen inzichten van de pagina."
+    },
+    {
+      "question": "Welke statistieken moet je bijhouden op een zakelijke Facebook-pagina?",
+      "answer": "Belangrijke Facebook-paginastatistieken zijn onder andere pagina-likes, postbereik, engagementpercentage, doorklikpercentage, videoweergaven en volgersgroei. Het bijhouden hiervan helpt de effectiviteit van content te meten."
+    }
+  ]
+}

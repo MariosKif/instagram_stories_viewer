@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Instagram Tools — Analyze Profiles, Browse Stories & Download Content Free",
+    "heroTitle": "Instagram Analytics & Content Suite",
+    "sectionHeading": "Browse All Instagram Features",
+    "sectionSub": "specialized tools for Instagram profile analysis, content browsing, downloading, and activity tracking.",
+    "ctaHeading": "Get Started With Instagram Analytics",
+    "ctaSub": "Search any public Instagram handle and receive detailed analytics, content access, and activity reports instantly.",
+    "cardCta": "Try this tool"
+  },
+  "faqs": [
+    {
+      "question": "How do you check the engagement rate of an Instagram account?",
+      "answer": "Engagement rate is calculated by dividing total interactions (likes, comments, saves, shares) by follower count, then multiplying by 100. IGStoryPeek automates this calculation for any public Instagram profile."
+    },
+    {
+      "question": "What metrics should you track on Instagram?",
+      "answer": "Key Instagram metrics include engagement rate, follower growth, reach, impressions, story views, saves, shares, and posting frequency. IGStoryPeek provides all of these for public accounts."
+    },
+    {
+      "question": "Can you analyze someone else's public Instagram profile?",
+      "answer": "Yes. Any Instagram profile set to public can be analyzed using tools like IGStoryPeek. You can view engagement metrics, content performance, and posting patterns without needing to log in."
+    },
+    {
+      "question": "What is a good engagement rate on Instagram?",
+      "answer": "The average engagement rate on Instagram is between 1% and 3%. Rates above 3% are considered strong, and rates above 6% are excellent. Engagement varies by niche, audience size, and content type."
+    },
+    {
+      "question": "Do Instagram analytics tools require you to log in with your account?",
+      "answer": "Not all of them. IGStoryPeek does not require any login or Instagram credentials. It analyzes publicly available data directly, keeping your personal account completely separate."
+    },
+    {
+      "question": "How can you see who unfollowed you on Instagram?",
+      "answer": "Instagram does not notify you when someone unfollows. Third-party tracking tools can monitor your public follower list over time and alert you to changes, including unfollows."
+    }
+  ]
+}

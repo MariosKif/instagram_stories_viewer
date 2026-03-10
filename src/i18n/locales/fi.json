@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "IGStoryPeek - Ilmainen Instagram-tarinoiden katselu | Selaa tarinoita ilman tiliä 2025",
+    "description": "Ilmainen Instagram-tarinoiden katselutyökalu - Selaa Instagram-tarinoita ilman tiliä. 100% yksityinen julkisten profiilien, julkaisujen, tarinoiden ja kohokohtien katselu. Rekisteröitymistä ei tarvita. Paras Instagram-tarinoiden katselutyökalu 2025.",
+    "keywords": "instagram-tarinoiden katselu, instagram-katselu, tarinoiden katselu, instagram-profiilin katselu, instagram-julkaisujen katselu, yksityinen selaus, instagram-kohokohdat, instagram-tarinoiden selaus, ilmainen instagram-katselu, instagram-tarinoiden lataus, instagram-tarinoiden katselu ilman tiliä, instagram-katselutyökalu, instagram-tarinoiden katselu 2025, ig story viewer, instagram-katselu ilman kirjautumista"
+  },
+  "nav": {
+    "home": "Etusivu",
+    "blog": "Blogi",
+    "terms": "Käyttöehdot",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Yhteystiedot"
+  },
+  "navbar": {
+    "features": "Ominaisuudet",
+    "pricing": "Hinnoittelu",
+    "blog": "Blogi",
+    "login": "Kirjaudu",
+    "dashboard": "Hallintapaneeli",
+    "searchNow": "Hae nyt"
+  },
+  "hero": {
+    "title": "Kaikenkattava",
+    "titleHighlight": "sosiaalisen median analytiikka",
+    "titleEnd": "työkalu",
+    "subtitle": "Analysoi julkisia profiileja, seuraa sitoutumistrendejä ja tutki sisältöä — eri alustoilla, ilman tiliä.",
+    "placeholder": "Kirjoita Instagram-käyttäjänimi...",
+    "button": "Hae",
+    "viewSample": "Katso esimerkkiraportti",
+    "badge1": "Tekoälypohjainen",
+    "badge2": "Tiliä ei tarvita",
+    "badge3": "Vain julkista dataa",
+    "badge4": "Reaaliaikainen analyysi",
+    "popularSearches": "Suositut haut:"
+  },
+  "searchBar": {
+    "placeholder": "Kirjoita Instagram-käyttäjänimi",
+    "button": "Hae nyt",
+    "errorEmpty": "Anna käyttäjänimi.",
+    "errorInvalid": "Virheellinen käyttäjänimi. Käytä kirjaimia, numeroita, pisteitä tai alaviivoja."
+  },
+  "notice": {
+    "title": "Instagram-sisällön käyttö",
+    "description": "IGStoryPeek-palvelu mahdollistaa tällä hetkellä pääsyn Instagram-tarinoihin, julkaisuihin, kohokohtiin ja profiilitietoihin. Tämä mahdollistaa julkisesti saatavilla olevan Instagram-sisällön yksityisen katselun.",
+    "availableContent": "Saatavilla oleva sisältö:",
+    "availableContentDesc": "Tarinat, julkaisut, kohokohdat ja profiilitiedot julkisesti saatavilla olevista tileistä.",
+    "privacy": "Yksityisyys:",
+    "privacyDesc": "Jokainen katselusessio on yksityinen — tiliä tai kirjautumista ei tarvita julkisen sisällön selaamiseen."
+  },
+  "features": {
+    "title": "IGStoryPeek-ominaisuudet",
+    "intro": "IGStoryPeek tarjoaa ilmaisen palvelun Instagram-tarinoiden selaamiseen julkisesti saatavilla olevista tileistä ilman Instagram-tiliä. Kaikki ominaisuudet ovat täysin ilmaisia ja vaativat vain sen Instagram-käyttäjänimen syöttämisen, jonka haluat tarkastella.",
+    "anonymity": {
+      "title": "100% yksityinen",
+      "description": "Selaa julkista sisältöä ilman tilin luomista tai kirjautumista"
+    },
+    "noAccount": {
+      "title": "Tiliä ei tarvita",
+      "description": "Instagram-tilin luomista ei vaadita. Voit myös katsella käyttäjien tarinoita ja muita multimediajulkaisuja ilman rekisteröitymistä ja sovellusta"
+    },
+    "download": {
+      "title": "Latausmahdollisuus",
+      "description": "Voit tarkastella, ladata ja tallentaa tarinoita, julkaisuja ja muuta tietoa ilmaiseksi millä tahansa laitteella: tietokone, kannettava, tabletti tai älypuhelin (Android, iOS ja muut käyttöjärjestelmät)"
+    }
+  },
+  "benefits": {
+    "heading": "Miksi valita",
+    "headingHighlight": "IGStoryPeek",
+    "subtitle": "Tehokkaat ominaisuudet, jotka on suunniteltu yksityisyyden, tarkkuuden ja helppokäyttöisyyden takaamiseksi.",
+    "publicData": {
+      "title": "Vain julkista dataa",
+      "description": "Analysoimme vain julkisesti saatavilla olevaa tietoa. Yksityistä dataa ei koskaan käytetä tai tallenneta."
+    },
+    "noLogin": {
+      "title": "Kirjautumista ei vaadita",
+      "description": "Selaa profiileja ja tarinoita ilman tilin luomista tai kirjautumista."
+    },
+    "realTime": {
+      "title": "Reaaliaikaiset päivitykset",
+      "description": "Aseta automaattiset ilmoitukset pysyäksesi ajan tasalla tilimuutoksista ja uudesta toiminnasta."
+    },
+    "aiInsights": {
+      "title": "Tekoälynäkemykset",
+      "description": "Kehittyneet algoritmit analysoivat sitoutumismalleja ja tarjoavat käyttökelpoisia näkemyksiä."
+    },
+    "multiPlatform": {
+      "title": "Monialustatuki",
+      "description": "Analysoi profiileja Instagramissa, TikTokissa, Facebookissa ja Snapchatissa yhdestä paikasta."
+    },
+    "easyToUse": {
+      "title": "Helppokäyttöinen",
+      "description": "Syötä vain käyttäjänimi ja saat raporttisi. Teknistä osaamista ei vaadita."
+    }
+  },
+  "useCases": {
+    "heading": "Suunniteltu",
+    "headingHighlight": "jokaiseen käyttötarkoitukseen",
+    "subtitle": "Olitpa markkinoija tai yksityishenkilö, IGStoryPeek tarjoaa tarvitsemasi näkemykset.",
+    "forMarketers": "Markkinoijille",
+    "forIndividuals": "Yksityishenkilöille",
+    "marketer1Title": "Seuraa kilpailijoita",
+    "marketer1Desc": "Seuraa kilpailijoiden julkaisumalleja, sitoutumisasteita ja sisältöstrategioita.",
+    "marketer2Title": "Seuraa sitoutumispiikkejä",
+    "marketer2Desc": "Saa ilmoituksia, kun tileillä on epätavallista kasvua tai viraalisisältöä.",
+    "marketer3Title": "Vaikuttajien löytäminen",
+    "marketer3Desc": "Löydä ja arvioi vaikuttajia todellisen sitoutumisdatan ja yleisön laadun perusteella.",
+    "individual1Title": "Selaa ilman tiliä",
+    "individual1Desc": "Katso tarinoita ja julkaisuja ilman kirjautumista tai tilin luomista.",
+    "individual2Title": "Seuraa sitoutumismalleja",
+    "individual2Desc": "Katso, miten yleisöt ovat vuorovaikutuksessa tiettyjen tilien ja sisällön kanssa.",
+    "individual3Title": "Sisällön suorituskykynäkemykset",
+    "individual3Desc": "Ymmärrä sitoutumismalleja ja sisällön suorituskykyä eri profiileissa."
+  },
+  "featuresSuite": {
+    "heading": "Täydellinen",
+    "headingHighlight": "tuotevalikoima",
+    "subtitle": "Neljä tehokasta työkalua, jotka on suunniteltu antamaan sinulle kokonaiskuva mistä tahansa julkisesta Instagram-läsnäolosta.",
+    "analyzer": {
+      "title": "Instagram-analysaattori",
+      "description": "Syvällinen analytiikka mille tahansa julkiselle profiilille. Sitoutumisasteet, kasvutrendit, sisällön suorituskyky ja yleisönäkemykset."
+    },
+    "browser": {
+      "title": "Sisällön selain",
+      "description": "Selaa tarinoita, julkaisuja ja kohokohtia kirjautumatta — tiliä ei tarvita."
+    },
+    "downloader": {
+      "title": "Lataaja",
+      "description": "Tallenna tarinat, reelsit ja julkaisut alkuperäisessä laadussa. Säilytä ne kilpailija-analyysiä tai henkilökohtaista käyttöä varten."
+    },
+    "tracker": {
+      "title": "Toimintaseuranta",
+      "description": "Aseta automaattiset ilmoitukset mille tahansa julkiselle tilille. Saa ilmoituksia uusista julkaisuista, tarinapäivityksistä ja seuraajamäärän muutoksista."
+    },
+    "learnMore": "Lue lisää"
+  },
+  "testimonials": {
+    "heading": "Luotettu",
+    "headingHighlight": "tuhansien",
+    "subtitle": "Katso, mitä käyttäjämme sanovat IGStoryPeekistä."
+  },
+  "trust": {
+    "userCount": "50 000+ käyttäjää",
+    "trustLine": "luottaa IGStoryPeekiin",
+    "sslEncrypted": "SSL-salattu",
+    "gdprCompliant": "GDPR-yhteensopiva",
+    "publicDataOnly": "Vain julkista dataa",
+    "complianceNote": "Kaikki data on peräisin julkisesti saatavilla olevista profiileista sovellettavien lakien mukaisesti."
+  },
+  "ctaSection": {
+    "heading": "Aloita analysointi",
+    "headingHighlight": "tänään",
+    "description": "Syötä mikä tahansa julkinen käyttäjänimi ja saa kattava analytiikkaraportti sekunneissa."
+  },
+  "articles": {
+    "heading": "Uusimmat",
+    "headingHighlight": "blogista",
+    "subtitle": "Vinkkejä, oppaita ja alan näkemyksiä.",
+    "viewAll": "Näytä kaikki julkaisut",
+    "readMore": "Lue lisää",
+    "noPosts": "Ei vielä blogikirjoituksia. Tarkista myöhemmin uudelleen!"
+  },
+  "faq": {
+    "title": "Usein kysytyt kysymykset"
+  },
+  "cookie": {
+    "message": "Käytämme evästeitä parantaaksemme käyttökokemustasi, analysoidaksemme liikennettä ja näyttääksemme asiaankuuluvia mainoksia. Napsauttamalla \"Hyväksy kaikki\" annat suostumuksesi evästeiden käyttöön.",
+    "learnMore": "Lue lisää",
+    "managePreferences": "Hallitse asetuksia",
+    "acceptAll": "Hyväksy kaikki"
+  },
+  "footer": {
+    "brandDescription": "Sosiaalisen median analytiikka- ja sisältötyökalut. Analysoi julkisia profiileja, seuraa sitoutumista ja luo näkemyksiä.",
+    "product": "Tuote",
+    "features": "Ominaisuudet",
+    "pricing": "Hinnoittelu",
+    "sampleReport": "Esimerkkiraportti",
+    "dashboard": "Hallintapaneeli",
+    "resources": "Resurssit",
+    "blog": "Blogi",
+    "useCases": "Käyttötarkoitukset",
+    "faqLink": "UKK",
+    "legal": "Oikeudelliset tiedot",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "termsOfService": "Käyttöehdot",
+    "aboutUs": "Tietoa meistä",
+    "contact": "Yhteystiedot",
+    "cookiePolicy": "Evästekäytäntö",
+    "dmca": "DMCA",
+    "tools": "Työkalut",
+    "viewAll": "Näytä kaikki",
+    "copyright": "IGStoryPeek. Kaikki oikeudet pidätetään. Ei liity Instagramiin tai Meta-yhtiöön.",
+    "dataSource": "Kaikki data on peräisin julkisesti saatavilla olevasta tiedosta.",
+    "navigation": "Navigointi",
+    "disclaimer": "IGStoryPeek ei ole yhteydessä Instagramiin. Emme säilytä Instagram-tarinoita palvelimillamme, kaikki oikeudet kuuluvat niiden omistajille.",
+    "instagramVideoDownloader": "Instagram-videoiden lataus",
+    "instagramStoryViewer": "Instagram-tarinoiden katselu",
+    "comingSoon": "Tämä ominaisuus on tulossa pian!",
+    "alreadyUsing": "Käytät jo Instagram-tarinoiden katselua!",
+    "removeProfile": "Poista profiili",
+    "removeProfileMessage": "Poistaaksesi profiilisi, ota yhteyttä osoitteeseen support@igstorypeek.com Instagram-käyttäjänimesi kera."
+  },
+  "howItWorks": {
+    "title": "Miten Instagram-tarinoiden yksityinen katselu toimii?",
+    "step1": "Kirjoita sen profiilin käyttäjänimi, jota haluat tarkastella",
+    "step2": "Syöttämäsi käyttäjänimi vastaanotetaan järjestelmässämme ja käsitellään automaattisella prosessilla",
+    "step3": "Palvelumme näyttää profiilisivun uusimmilla ja ajantasaisilla tiedoilla",
+    "step4": "Instagram-tarinoiden katselut rekisteröidään yhden palvelutilimme alle",
+    "step5": "Henkilöllisyytesi pysyy täysin yksityisenä",
+    "cta": "Aloita haku"
+  },
+  "pricing": {
+    "title": "Yksinkertainen, läpinäkyvä",
+    "titleHighlight": "hinnoittelu",
+    "subtitle": "Aloita ilmaiseksi. Päivitä, kun tarvitset enemmän tehoa.",
+    "free": {
+      "name": "Ilmainen",
+      "description": "Satunnaisille käyttäjille ja nopeisiin hakuihin.",
+      "price": "$0",
+      "period": "/ kuukausi",
+      "feature1": "2 hakua 8 tunnin välein",
+      "feature2": "Perussitoutumisraportti",
+      "feature3": "Profiiliyhteenveto",
+      "excluded1": "Ei jatkuvaa seurantaa",
+      "excluded2": "Ei tekoälynäkemyksiä",
+      "cta": "Aloita ilmaiseksi"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Suosituin",
+      "description": "Tehokäyttäjille ja ammattilaisille.",
+      "price": "$29",
+      "period": "/ kuukausi",
+      "feature1": "Rajattomat haut",
+      "feature2": "Täysi analytiikkahallintapaneeli",
+      "feature3": "Jatkuva seuranta ja ilmoitukset",
+      "feature4": "Tekoälypohjaiset näkemykset",
+      "feature5": "Monialustahavainnointi",
+      "feature6": "Ensisijainen tuki",
+      "cta": "Päivitä Pro-versioon"
+    },
+    "faqs": [
+      {
+        "question": "Voinko peruuttaa milloin tahansa?",
+        "answer": "Kyllä! Voit peruuttaa Pro-tilauksesi milloin tahansa. Käyttöoikeutesi säilyy laskutuskauden loppuun asti."
+      },
+      {
+        "question": "Mitä maksutapoja hyväksytte?",
+        "answer": "Hyväksymme kaikki yleisimmät luotto- ja pankkikortit turvallisen maksuprosessorimme (Stripe) kautta. Myös Apple Pay ja Google Pay ovat tuettuja."
+      },
+      {
+        "question": "Onko datani turvassa?",
+        "answer": "Ehdottomasti. Kaikki yhteydet on salattu SSL:llä. Emme koskaan tallenna Instagram-salasanoja ja käsittelemme vain julkisesti saatavilla olevaa dataa."
+      },
+      {
+        "question": "Kuinka paljon Instagram-analytiikkatyökalut tyypillisesti maksavat?",
+        "answer": "Useimmat vaihtelevat ilmaisesta 30 dollariin kuukaudessa. IGStoryPeek tarjoaa ilmaisen suunnitelman 2 haulla 8 tunnin välein ja Pro-suunnitelman hintaan $29/kuukausi rajoittamattomalla pääsyllä Instagramiin, TikTokiin, Facebookiin ja Snapchatiin."
+      },
+      {
+        "question": "Mitä ominaisuuksia maksulliset sosiaalisen median työkalut tarjoavat, joita ilmaiset eivät tarjoa?",
+        "answer": "Pro-suunnitelmat sisältävät tyypillisesti rajattomat haut, jatkuvat seurantailmoitukset, tekoälypohjaiset näkemykset, edistyneen suodatuksen ja CSV-viennit — ominaisuuksia, jotka ylittävät ilmaisten tasojen tarjonnan."
+      },
+      {
+        "question": "Tarjoavatko sosiaalisen median analytiikkatyökalut ilmaisia kokeilujaksoja?",
+        "answer": "IGStoryPeekin ilmainen suunnitelma on pysyvästi ilmainen 2 haulla 8 tunnin välein. Voit päivittää Pro-versioon milloin tahansa ja peruuttaa koska haluat — kokeilujaksoa ei tarvita."
+      },
+      {
+        "question": "Kannattaako Instagram-analytiikasta maksaa, kun ilmaisia työkaluja on olemassa?",
+        "answer": "Ilmaiset työkalut ovat erinomaisia satunnaiseen käyttöön. Jos tarvitset rajattomia hakuja, automaattisia ilmoituksia tai ammattilaistason raportteja, maksullinen suunnitelma tarjoaa huomattavasti enemmän arvoa ja säästää aikaa."
+      }
+    ]
+  },
+  "about": {
+    "title": "Tietoa",
+    "titleHighlight": "IGStoryPeekistä",
+    "mission": "Tehtävämme on tehdä sosiaalisen median analytiikasta saavutettavaa, läpinäkyvää ja yksityisyyttä kunnioittavaa kaikille.",
+    "whatWeDoTitle": "Mitä teemme",
+    "whatWeDoDesc": "IGStoryPeek on sosiaalisen median analytiikka-alusta, joka auttaa markkinoijia, tutkijoita ja yksityishenkilöitä analysoimaan julkisesti saatavilla olevaa profiilitietoa Instagramissa, TikTokissa, Facebookissa ja Snapchatissa.",
+    "valuesTitle": "Arvomme",
+    "transparency": {
+      "title": "Läpinäkyvyys",
+      "description": "Olemme avoimia siitä, mitä dataa käytämme ja miten sitä käytämme."
+    },
+    "publicDataOnly": {
+      "title": "Vain julkista dataa",
+      "description": "Emme koskaan käytä yksityisiä profiileja, suoraviestejä tai ei-julkista sisältöä."
+    },
+    "compliance": {
+      "title": "Säädöstenmukaisuus",
+      "description": "Toimimme GDPR:n, CCPA:n ja sovellettavien tietosuojasäädösten mukaisesti."
+    },
+    "userPrivacy": {
+      "title": "Käyttäjän yksityisyys",
+      "description": "Selaustoimintaasi ei koskaan jaeta. Emme vaadi sosiaalisen median tunnistetietoja."
+    },
+    "contactTitle": "Ota yhteyttä",
+    "contactDesc": "Onko sinulla kysyttävää tai palautetta? Kuulemme mielellämme sinusta.",
+    "contactEmail": "Lähetä meille sähköpostia",
+    "faqs": [
+      {
+        "question": "Onko sosiaalisen median analytiikkatyökalujen käyttö laillista?",
+        "answer": "Kyllä. IGStoryPeek käsittelee vain julkisesti saatavilla olevaa dataa ja noudattaa sovellettavia tietosuojasäädöksiä. Emme koskaan käytä yksityisiä profiileja tai rajoitettua sisältöä."
+      },
+      {
+        "question": "Voinko käyttää IGStoryPeekiä akateemiseen tai markkinatutkimukseen?",
+        "answer": "Ehdottomasti. Monet tutkijat ja markkinoinnin ammattilaiset käyttävät IGStoryPeekiä analysoidakseen julkisia sosiaalisen median trendejä, sitoutumismalleja ja sisältöstrategioita."
+      },
+      {
+        "question": "Myyko IGStoryPeek käyttäjätietoja?",
+        "answer": "Ei. Emme myy, vaihda tai jaa käyttäjätietoja kolmansien osapuolten kanssa. Lue tietosuojakäytäntömme saadaksesi lisätietoja."
+      },
+      {
+        "question": "Miten IGStoryPeek kerää dataa?",
+        "answer": "Analysoimme julkisesti saatavilla olevaa dataa sosiaalisen median alustoilta. Yksityistä dataa, suoraviestejä tai rajoitettua sisältöä ei koskaan käytetä."
+      },
+      {
+        "question": "Mitä alustoja IGStoryPeek tukee?",
+        "answer": "Tällä hetkellä IGStoryPeek tukee Instagramin, TikTokin, Facebookin ja Snapchatin analytiikkaa."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ota",
+    "titleHighlight": "yhteyttä",
+    "subtitle": "Onko sinulla kysymyksiä, palautetta tai tarvitsetko tukea? Olemme täällä auttamassa.",
+    "formName": "Nimi",
+    "formEmail": "Sähköposti",
+    "formSubject": "Aihe",
+    "formMessage": "Viesti",
+    "formSubmit": "Lähetä viesti",
+    "subjectGeneral": "Yleinen tiedustelu",
+    "subjectSupport": "Tekninen tuki",
+    "subjectBilling": "Laskutus",
+    "subjectDmca": "DMCA/Tekijänoikeus",
+    "subjectFeedback": "Palaute",
+    "directEmail": "Tai lähetä meille sähköpostia suoraan osoitteeseen",
+    "responseTime": "Vastaamme yleensä 24–48 arkitunnin kuluessa.",
+    "legalTitle": "Oikeudelliset pyynnöt",
+    "legalDesc": "Oikeudellisissa pyynnöissä, mukaan lukien tietojen poistaminen ja GDPR-tiedustelut, lähetä sähköpostia osoitteeseen",
+    "dmcaTitle": "DMCA-ilmoitukset",
+    "dmcaDesc": "Lähettääksesi DMCA-poistoilmoituksen, vieraile"
+  },
+  "login": {
+    "title": "Tervetuloa takaisin",
+    "subtitle": "Kirjaudu sisään päästäksesi hallintapaneeliin ja hakuhistoriaan.",
+    "googleSignIn": "Kirjaudu Googlella",
+    "orDivider": "tai",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Salasana",
+    "passwordPlaceholder": "Syötä salasanasi",
+    "submitButton": "Kirjaudu",
+    "noAccount": "Eikö sinulla ole tiliä?",
+    "signUp": "Rekisteröidy",
+    "errorInvalid": "Virheellinen sähköposti tai salasana. Yritä uudelleen.",
+    "errorTooMany": "Liian monta yritystä. Yritä myöhemmin uudelleen."
+  },
+  "register": {
+    "title": "Luo tili",
+    "subtitle": "Rekisteröidy tallentaaksesi hakusi ja avataksesi lisää ominaisuuksia.",
+    "googleSignUp": "Rekisteröidy Googlella",
+    "orDivider": "tai",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Salasana",
+    "passwordPlaceholder": "Luo salasana",
+    "confirmPasswordLabel": "Vahvista salasana",
+    "confirmPasswordPlaceholder": "Vahvista salasanasi",
+    "termsAgree": "Hyväksyn",
+    "termsLink": "käyttöehdot",
+    "andText": "ja",
+    "privacyLink": "tietosuojakäytännön",
+    "submitButton": "Luo tili",
+    "hasAccount": "Onko sinulla jo tili?",
+    "logIn": "Kirjaudu",
+    "errorEmailInUse": "Sähköposti on jo käytössä. Kokeile toista sähköpostia.",
+    "errorWeakPassword": "Salasana on liian heikko. Käytä vähintään 6 merkkiä.",
+    "errorMismatch": "Salasanat eivät täsmää.",
+    "errorMinLength": "Salasanan on oltava vähintään 6 merkkiä."
+  },
+  "dashboard": {
+    "title": "Hallintapaneeli",
+    "currentPlan": "Nykyinen suunnitelma",
+    "searchesUsed": "Käytetyt haut",
+    "totalSearches": "Haut yhteensä",
+    "free": "Ilmainen",
+    "pro": "Pro",
+    "unlimited": "Rajaton",
+    "quickSearch": "Pikahaku",
+    "quickSearchPlaceholder": "Syötä käyttäjänimi",
+    "quickSearchButton": "Hae",
+    "upgradeCta": "Päivitä Pro-versioon",
+    "upgradeDesc": "Saa rajattomat haut, tekoälynäkemykset ja jatkuva seuranta.",
+    "searchHistory": "Hakuhistoria",
+    "noSearches": "Ei vielä hakuja. Aloita hakemalla käyttäjänimeä yllä."
+  },
+  "searchReport": {
+    "analyzingProfile": "Analysoidaan profiilia",
+    "generatingReport": "Luodaan analytiikkaraporttia kohteelle",
+    "engagementRate": "Sitoutumisaste",
+    "avgLikes": "Keskim. tykkäykset",
+    "avgComments": "Keskim. kommentit",
+    "followerGrowth": "Seuraajien kasvu (30 päivää)",
+    "contentBreakdown": "Sisällön erittely",
+    "recentActivity": "Viimeaikainen toiminta",
+    "date": "Päivämäärä",
+    "posts": "Julkaisut",
+    "stories": "Tarinat",
+    "likes": "Tykkäykset",
+    "topInteractions": "Eniten vuorovaikutuksia",
+    "topHashtags": "Suosituimmat hashtagit",
+    "limitReached": "Hakuraja saavutettu",
+    "limitDesc": "Olet käyttänyt kaikki ilmaiset hakusi tälle jaksolle.",
+    "nextReset": "Seuraava nollaus",
+    "watchAd": "Katso mainos +3 tuntia",
+    "upgradePro": "Päivitä Pro-versioon",
+    "followers": "seuraajaa",
+    "following": "seurataan"
+  },
+  "blog": {
+    "title": "Blogi",
+    "description": "Vinkkejä, oppaita ja alan näkemyksiä Instagram-analytiikasta, yksityisyydestä ja sosiaalisen median trendeistä.",
+    "allPosts": "Kaikki julkaisut",
+    "readMore": "Lue lisää",
+    "publishedOn": "Julkaistu",
+    "updatedOn": "Päivitetty",
+    "by": "Kirjoittanut",
+    "relatedPosts": "Aiheeseen liittyvät julkaisut",
+    "noPosts": "Julkaisuja ei löytynyt",
+    "backToBlog": "Takaisin blogiin",
+    "featured": "Suositeltu"
+  },
+  "legal": {
+    "termsTitle": "Käyttöehdot",
+    "privacyTitle": "Tietosuojakäytäntö",
+    "cookiePolicyTitle": "Evästekäytäntö",
+    "dmcaTitle": "DMCA-käytäntö",
+    "lastUpdated": "Viimeksi päivitetty"
+  },
+  "common": {
+    "home": "Etusivu",
+    "learnMore": "Lue lisää",
+    "getStarted": "Aloita",
+    "viewAll": "Näytä kaikki"
+  },
+  "homeFaqs": [
+    {
+      "question": "Voiko Instagram-tarinoita katsoa ilman tiliä?",
+      "answer": "Kyllä. IGStoryPeek antaa sinun selata julkisia Instagram-tarinoita ilman tilin luomista tai kirjautumista. Syötä vain julkinen käyttäjänimi ja katso heidän tarinansa, kohokohtansa ja reelsinsä välittömästi."
+    },
+    {
+      "question": "Mikä on sosiaalisen median analytiikkatyökalu ja miten se toimii?",
+      "answer": "Sosiaalisen median analytiikkatyökalu kerää ja analysoi julkisesti saatavilla olevaa dataa alustoilta kuten Instagram, TikTok, Facebook ja Snapchat. Se esittää mittareita kuten sitoutumisasteet, seuraajien kasvu ja sisällön suorituskyky helppolukuisissa raporteissa."
+    },
+    {
+      "question": "Onko kolmannen osapuolen Instagram-tarinoiden katselutyökalujen käyttö turvallista?",
+      "answer": "Luotettavat työkalut kuten IGStoryPeek ovat turvallisia, koska ne käyttävät vain julkisesti saatavilla olevaa dataa eivätkä koskaan pyydä Instagram-tunnistetietojasi. Vältä aina palveluita, jotka pyytävät salasanaasi tai vaativat kirjautumista sosiaalisen median tililläsi."
+    },
+    {
+      "question": "Mitä sosiaalisen median alustoja voi selata ilman tilin luomista?",
+      "answer": "IGStoryPeekillä voit selata julkista sisältöä Instagramissa, TikTokissa, Facebookissa ja Snapchatissa — ilman tilin luomista millekään näistä alustoista."
+    },
+    {
+      "question": "Toimivatko tarinoiden katselutyökalut yksityisillä Instagram-tileillä?",
+      "answer": "Ei. IGStoryPeek ja vastaavat työkalut pääsevät käsiksi vain julkisten profiilien sisältöön. Yksityiset tilit eivät ole käytettävissä, eikä mihinkään palveluun, joka väittää toisin, tulisi luottaa."
+    },
+    {
+      "question": "Mitä eroa on sosiaalisen median analytiikalla ja sosiaalisen median seurannalla?",
+      "answer": "Analytiikka keskittyy suorituskykymittareiden mittaamiseen, kuten sitoutumisasteisiin ja kasvutrendeihin. Seuranta keskittyy reaaliaikaisten muutosten seuraamiseen, kuten uudet julkaisut, tarinat tai profiilipäivitykset."
+    }
+  ],
+  "profile": {
+    "posts": "Julkaisut",
+    "stories": "Tarinat",
+    "highlights": "Kohokohdat",
+    "postsCount": "julkaisua",
+    "followers": "seuraajaa",
+    "following": "seurataan",
+    "noPosts": "Ei julkaisuja saatavilla.",
+    "noStories": "Ei tarinoita saatavilla. Tarinat ovat saatavilla vain IGStoryPeek-palvelun kautta.",
+    "noHighlights": "Ei kohokohtia saatavilla.",
+    "viewOnInstagram": "Katso Instagramissa",
+    "ago": "sitten",
+    "videoNotSupported": "Selaimesi ei tue video-tunnistetta."
+  },
+  "messages": {
+    "pleaseEnterUsername": "Anna käyttäjänimi",
+    "pleaseEnterValidUsername": "Anna kelvollinen käyttäjänimi",
+    "foundProfile": "Löydetty profiili:",
+    "profileNotFound": "Profiilia ei löytynyt",
+    "errorConnecting": "Virhe yhdistettäessä palvelimeen. Yritä uudelleen."
+  },
+  "megaMenu": {
+    "categories": {
+      "Profile Explorer": "Profiilin selain",
+      "Analyzer": "Analysaattori",
+      "Downloader": "Lataaja",
+      "Viewer": "Katselin",
+      "Activity Tracker": "Aktiivisuuden seuranta"
+    },
+    "badges": {
+      "NEW": "UUSI"
+    },
+    "instagram": {
+      "user-search": "Käyttäjähaku Instagramissa",
+      "view-comments-privately": "Katso kommentteja yksityisesti",
+      "follower-analyzer": "Seuraaja-analysaattori",
+      "activity-analyzer": "Aktiivisuusanalysaattori",
+      "see-likes": "Katso tykkäyksiä Instagramissa",
+      "hashtags-generator": "Aihetunnisteiden luoja",
+      "stories-downloader": "Tarinoiden lataaja",
+      "highlights-downloader": "Kohokohtien lataaja",
+      "posts-downloader": "Julkaisujen lataaja",
+      "video-downloader": "Videoiden lataaja",
+      "post-viewer": "Julkaisujen katselin",
+      "stories-viewer": "Tarinoiden katselin",
+      "highlights-viewer": "Kohokohtien katselin",
+      "comment-viewer": "Kommenttien katselin",
+      "likes-viewer": "Tykkäysten katselin",
+      "relationship-insights": "Suhteiden näkymät",
+      "recent-mutuals": "Viimeisimmät yhteiset seuraajat"
+    },
+    "tiktok": {
+      "user-search": "Käyttäjähaku TikTokissa",
+      "view-comments-privately": "Katso kommentteja yksityisesti",
+      "follower-analyzer": "Seuraaja-analysaattori",
+      "activity-analyzer": "Aktiivisuusanalysaattori",
+      "see-likes": "Katso tykkäyksiä TikTokissa",
+      "trending-sounds-finder": "Suosittujen äänien etsijä",
+      "video-downloader": "Videoiden lataaja",
+      "stories-downloader": "Tarinoiden lataaja",
+      "audio-downloader": "Äänen lataaja",
+      "slideshow-downloader": "Diaesityksen lataaja",
+      "video-viewer": "Videoiden katselin",
+      "stories-viewer": "Tarinoiden katselin",
+      "comment-viewer": "Kommenttien katselin",
+      "likes-viewer": "Tykkäysten katselin",
+      "followers-viewer": "Seuraajien katselin",
+      "engagement-tracker": "Sitoutumisen seuranta",
+      "duet-and-stitch-tracker": "Duet- ja Stitch-seuranta"
+    },
+    "facebook": {
+      "user-search": "Käyttäjähaku Facebookissa",
+      "view-comments-privately": "Katso kommentteja yksityisesti",
+      "page-analyzer": "Sivuanalysaattori",
+      "group-analyzer": "Ryhmäanalysaattori",
+      "see-reactions": "Katso reaktioita Facebookissa",
+      "ad-library-explorer": "Mainoskirjaston selain",
+      "stories-downloader": "Tarinoiden lataaja",
+      "reels-downloader": "Reels-lataaja",
+      "video-downloader": "Videoiden lataaja",
+      "photo-album-downloader": "Valokuva-albumin lataaja",
+      "post-viewer": "Julkaisujen katselin",
+      "stories-viewer": "Tarinoiden katselin",
+      "reels-viewer": "Reels-katselin",
+      "comment-viewer": "Kommenttien katselin",
+      "likes-viewer": "Tykkäysten katselin",
+      "page-activity-tracker": "Sivun aktiivisuuden seuranta",
+      "friend-interaction-insights": "Ystävien vuorovaikutusnäkymät"
+    },
+    "snapchat": {
+      "user-search": "Käyttäjähaku Snapchatissa",
+      "view-stories-privately": "Katso tarinoita yksityisesti",
+      "score-tracker": "Pisteiden seuranta",
+      "activity-analyzer": "Aktiivisuusanalysaattori",
+      "best-friends-analyzer": "Parhaiden ystävien analysaattori",
+      "streak-tracker": "Putkiseuranta",
+      "stories-downloader": "Tarinoiden lataaja",
+      "spotlight-downloader": "Spotlight-lataaja",
+      "memories-downloader": "Muistojen lataaja",
+      "stories-viewer": "Tarinoiden katselin",
+      "spotlight-viewer": "Spotlight-katselin",
+      "map-viewer": "Karttakatselin",
+      "public-profile-viewer": "Julkisen profiilin katselin",
+      "score-change-tracker": "Pistemuutosten seuranta",
+      "online-status-tracker": "Verkkotilan seuranta"
+    }
+  }
+}

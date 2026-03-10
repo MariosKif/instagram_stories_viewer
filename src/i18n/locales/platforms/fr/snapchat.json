@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Outils Snapchat — Suivi de score, telechargeur de stories et suivi d'activite",
+    "heroTitle": "Snapchat Analytics & Boite a outils de contenu",
+    "sectionHeading": "Voir toutes les fonctionnalites Snapchat",
+    "sectionSub": "Outils specialises pour le suivi de score Snapchat, l'analyse de streaks, le telechargement de stories et le suivi d'activite.",
+    "ctaHeading": "Commencez a suivre l'activite Snapchat",
+    "ctaSub": "Entrez n'importe quel nom d'utilisateur Snapchat public pour acceder au suivi de score, aux telechargements de contenu et au suivi d'activite.",
+    "cardCta": "Utiliser cette fonctionnalite"
+  },
+  "faqs": [
+    {
+      "question": "Qu'est-ce qu'un score Snapchat et comment est-il calcule ?",
+      "answer": "Votre score Snapchat est un nombre qui reflete votre activite globale sur la plateforme. Il augmente en fonction du nombre de Snaps envoyes et recus, des Stories publiees et d'autres facteurs d'engagement."
+    },
+    {
+      "question": "Comment augmenter son score Snapchat ?",
+      "answer": "Envoyez et ouvrez regulierement des Snaps, publiez des Stories, maintenez des Snap Streaks et ajoutez de nouveaux amis. Les Snaps de groupe et les Snaps video peuvent aussi contribuer davantage de points que les Snaps texte uniquement."
+    },
+    {
+      "question": "Peut-on voir qui a regarde votre story Snapchat apres 24 heures ?",
+      "answer": "Non. Une fois qu'une Story Snapchat expire apres 24 heures, la liste des spectateurs n'est plus accessible via l'application. Des outils de suivi tiers peuvent vous aider a surveiller les vues avant leur expiration."
+    },
+    {
+      "question": "Qui a acces a Snapchat Insights ?",
+      "answer": "Snapchat Insights est disponible pour les profils publics et les createurs ayant atteint un certain seuil d'abonnes. Pour tous les autres, des outils d'analytics tiers comme IGStoryPeek offrent le suivi de score et la surveillance d'activite."
+    },
+    {
+      "question": "Que fait le multiplicateur de score Snapchat pour les abonnes Snapchat+ ?",
+      "answer": "Les abonnes Snapchat+ peuvent voir un multiplicateur de score qui indique a quelle vitesse leur score augmente. Il ne change pas la facon dont les points sont gagnes — il affiche simplement le taux d'augmentation."
+    },
+    {
+      "question": "A quelle frequence Snapchat met-il a jour votre score ?",
+      "answer": "Les scores Snapchat sont mis a jour en quasi-temps reel, bien qu'il puisse parfois y avoir un court delai. Votre score reflete l'activite cumulative depuis la creation de votre compte."
+    }
+  ]
+}

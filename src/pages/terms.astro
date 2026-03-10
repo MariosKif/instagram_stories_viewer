@@ -1,0 +1,89 @@
+---
+/**
+ * Terms of Service page — legal compliance page.
+ */
+import MainLayout from '../layouts/MainLayout.astro';
+import { getLocalizedPath } from '../i18n/utils';
+import type { Language } from '../i18n/utils';
+
+const lang = (Astro.locals as any).lang || 'en';
+const t = (Astro.locals as any).t || {};
+---
+
+<MainLayout title={t.legal?.termsTitle || 'Terms of Service'}>
+  <section class="pt-28 pb-20 lg:pt-36 lg:pb-28">
+    <div class="section-container max-w-3xl">
+      <h1 class="text-3xl sm:text-4xl font-heading font-bold text-white mb-8">{t.legal?.termsTitle || 'Terms of Service'}</h1>
+      <p class="text-sm text-dark-500 mb-10">{t.legal?.lastUpdated || 'Last updated'}: March 2026</p>
+
+      <div class="space-y-8 text-dark-300 text-sm leading-relaxed">
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">1. Acceptance of Terms</h2>
+          <p>By accessing or using IGStoryPeek, you agree to be bound by these Terms of Service. If you do not agree, please do not use our service.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">2. Description of Service</h2>
+          <p>IGStoryPeek provides analytics and content tools for publicly available social media data. Our service allows users to analyze public profiles, track account activity, and generate engagement reports.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">3. User Accounts</h2>
+          <ul class="list-disc list-inside space-y-1.5 ml-2">
+            <li>You must provide accurate information when creating an account</li>
+            <li>You are responsible for maintaining the security of your account</li>
+            <li>You must be at least 18 years old to use our service</li>
+            <li>One account per person — shared accounts are not permitted</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">4. Acceptable Use</h2>
+          <p>You agree not to:</p>
+          <ul class="list-disc list-inside space-y-1.5 ml-2 mt-2">
+            <li>Use the service for harassment, stalking, or any illegal activity</li>
+            <li>Attempt to access private or non-public Instagram data</li>
+            <li>Circumvent usage limits or abuse the platform</li>
+            <li>Resell or redistribute data obtained through our service</li>
+            <li>Use automated tools to scrape or extract data from our platform</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">5. Subscriptions and Payments</h2>
+          <p>Free accounts are subject to daily search limits. Pro subscriptions provide enhanced access and are billed monthly. You may cancel at any time; access continues until the end of the billing period. Refunds are handled on a case-by-case basis.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">6. Data Accuracy</h2>
+          <p>Reports and analytics are generated from publicly available data and may not be 100% accurate in real-time. We make no guarantees regarding the completeness or accuracy of any report. Data is provided for informational purposes only.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">7. Intellectual Property</h2>
+          <p>All content, design, code, and branding on IGStoryPeek are owned by us. Instagram content displayed through our service remains the property of the respective content creators.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">8. Limitation of Liability</h2>
+          <p>IGStoryPeek is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of the service, including but not limited to data inaccuracies, service interruptions, or loss of data.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">9. Termination</h2>
+          <p>We reserve the right to suspend or terminate accounts that violate these terms. You may delete your account at any time by contacting us.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">10. Changes to Terms</h2>
+          <p>We may update these terms at any time. Continued use of the service after changes constitutes acceptance of the revised terms.</p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-white mb-3">11. Contact</h2>
+          <p>For questions about these Terms, contact us at <a href="mailto:contact@igstorypeek.com" class="text-primary hover:underline">contact@igstorypeek.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>

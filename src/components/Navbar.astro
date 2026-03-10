@@ -1,0 +1,261 @@
+---
+/**
+ * Sticky navigation with full-width mega dropdown.
+ * All 4 platforms shown side-by-side as columns — no scroll required.
+ * Each column lists 5 feature categories with their links.
+ * Data sourced from shared features.ts — single source of truth.
+ */
+import { platforms } from '../data/features';
+import { getLocalizedPath, type Language } from '../i18n/utils';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const t = (Astro.locals as any).t || {};
+const navT = t.navbar || {};
+const mm = t.megaMenu || {};
+
+// Map shared data to Navbar link format with translations
+const navPlatforms = platforms.map(p => ({
+  ...p,
+  categories: p.categories.map(cat => ({
+    title: mm.categories?.[cat.title] || cat.title,
+    icon: cat.icon,
+    links: cat.features.map(f => ({
+      label: mm[p.id]?.[f.slug] || f.label,
+      href: getLocalizedPath(`/${p.id}/${f.slug}`, lang),
+      badge: f.badge ? (mm.badges?.[f.badge] || f.badge) : undefined,
+    })),
+  })),
+}));
+---
+
+<nav id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+  <div class="section-container">
+    <div class="flex items-center justify-between h-16 lg:h-18">
+      <!-- Logo -->
+      <a href={getLocalizedPath('/', lang)} class="flex items-center gap-2 group">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+          </svg>
+        </div>
+        <span class="text-lg font-heading font-bold text-white group-hover:text-primary transition-colors">IGStoryPeek</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <div class="hidden lg:flex items-center gap-8">
+        <div id="features-trigger" class="relative">
+          <button class="btn-ghost text-sm inline-flex items-center gap-1" aria-expanded="false" aria-haspopup="true">
+            {navT.features || 'Features'}
+            <svg class="w-3.5 h-3.5 transition-transform duration-200" id="features-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+        </div>
+        <a href={getLocalizedPath('/pricing', lang)} class="btn-ghost text-sm">{navT.pricing || 'Pricing'}</a>
+        <a href={getLocalizedPath('/blog', lang)} class="btn-ghost text-sm">{navT.blog || 'Blog'}</a>
+      </div>
+
+      <!-- Desktop right -->
+      <div class="hidden lg:flex items-center gap-3">
+        <a href={getLocalizedPath('/login', lang)} id="nav-login-btn" class="btn-ghost text-sm">{navT.login || 'Log in'}</a>
+        <LanguageSwitcher />
+        <a href={getLocalizedPath('/', lang) + '#hero'} class="btn-primary text-sm px-5 py-2">{navT.searchNow || 'Search Now'}</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 text-dark-400 hover:text-white transition-colors" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+       MEGA MENU — 4 platform columns, everything visible
+       ══════════════════════════════════════════════════ -->
+  <div id="mega-menu" class="hidden lg:block absolute top-full inset-x-0 opacity-0 invisible translate-y-1 transition-all duration-200 ease-out">
+    <div class="bg-dark-900/[0.97] backdrop-blur-2xl border-t border-b border-white/5 shadow-2xl shadow-black/50">
+      <div class="max-w-[1360px] mx-auto px-6 py-6">
+        <!-- 4 platform columns side-by-side -->
+        <div class="grid grid-cols-4 gap-0">
+          {navPlatforms.map((p, pIdx) => (
+            <div class={`${pIdx > 0 ? 'border-l border-white/5 pl-6' : ''} ${pIdx < 3 ? 'pr-6' : ''}`}>
+              {/* Platform header */}
+              <div class="flex items-center gap-2 mb-4 pb-2.5 border-b" style={`border-color: ${p.color}30`}>
+                <svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor" style={`color: ${p.color}`}>
+                  <Fragment set:html={p.brandIcon} />
+                </svg>
+                <span class="text-sm font-heading font-bold" style={`color: ${p.color}`}>{p.label}</span>
+              </div>
+
+              {/* 5 categories stacked vertically */}
+              <div class="space-y-3.5">
+                {p.categories.map((cat) => (
+                  <div>
+                    <div class="flex items-center gap-1.5 mb-1">
+                      <svg class="w-3.5 h-3.5 shrink-0" style={`color: ${p.color}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                        <Fragment set:html={cat.icon} />
+                      </svg>
+                      <h4 class="text-[12px] font-bold uppercase tracking-wide" style={`color: ${p.color}`}>{cat.title}</h4>
+                    </div>
+                    <ul class="space-y-0.5 pl-5">
+                      {cat.links.map((link) => (
+                        <li>
+                          <a href={link.href} class="text-[12px] leading-relaxed text-dark-400 hover:text-white transition-colors inline-flex items-center gap-1.5">
+                            {link.label}
+                            {link.badge && (
+                              <span class="px-1 py-px text-[9px] font-bold rounded" style={`background: ${p.color}20; color: ${p.color}`}>{link.badge}</span>
+                            )}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       MOBILE MENU
+       ══════════════════════════════════════ -->
+  <div id="mobile-menu" class="lg:hidden hidden border-t border-white/10 bg-dark-900/95 backdrop-blur-xl max-h-[85vh] overflow-y-auto">
+    <div class="section-container py-4 flex flex-col gap-1">
+      <button id="mobile-features-btn" class="flex items-center justify-between px-4 py-2.5 text-dark-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors w-full text-left">
+        <span>{navT.features || 'Features'}</span>
+        <svg class="w-4 h-4 transition-transform duration-200" id="mobile-features-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+
+      <div id="mobile-features-panel" class="hidden">
+        {navPlatforms.map((p) => (
+          <div class="mb-1">
+            <button class="mobile-platform-btn flex items-center gap-2 px-5 py-2.5 text-dark-400 hover:text-white hover:bg-white/5 rounded-lg transition-colors w-full text-left">
+              <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" style={`color: ${p.color}`}>
+                <Fragment set:html={p.brandIcon} />
+              </svg>
+              <span class="text-sm font-semibold" style={`color: ${p.color}`}>{p.label}</span>
+              <svg class="w-3.5 h-3.5 ml-auto text-dark-500 transition-transform duration-200 mobile-platform-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="hidden mobile-platform-panel pl-3">
+              {p.categories.map((cat) => (
+                <div class="mb-2">
+                  <div class="flex items-center gap-1.5 px-5 py-1">
+                    <svg class="w-3.5 h-3.5 shrink-0" style={`color: ${p.color}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                      <Fragment set:html={cat.icon} />
+                    </svg>
+                    <span class="text-xs font-semibold" style={`color: ${p.color}`}>{cat.title}</span>
+                  </div>
+                  {cat.links.map((link) => (
+                    <a href={link.href} class="block px-12 py-1.5 text-sm text-dark-400 hover:text-white hover:bg-white/5 rounded-lg transition-colors">
+                      {link.label}
+                      {link.badge && (
+                        <span class="ml-1.5 px-1 py-px text-[9px] font-bold rounded" style={`background: ${p.color}20; color: ${p.color}`}>{link.badge}</span>
+                      )}
+                    </a>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <a href={getLocalizedPath('/pricing', lang)} class="px-4 py-2.5 text-dark-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors">{navT.pricing || 'Pricing'}</a>
+      <a href={getLocalizedPath('/blog', lang)} class="px-4 py-2.5 text-dark-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors">{navT.blog || 'Blog'}</a>
+
+      <!-- Mobile language switcher -->
+      <div class="px-4 py-2.5">
+        <LanguageSwitcher />
+      </div>
+
+      <hr class="border-white/10 my-2" />
+      <a href={getLocalizedPath('/login', lang)} class="px-4 py-2.5 text-dark-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors">{navT.login || 'Log in'}</a>
+      <a href={getLocalizedPath('/', lang) + '#hero'} class="btn-primary text-sm text-center mt-1">{navT.searchNow || 'Search Now'}</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const navbar = document.getElementById('navbar')!;
+  const updateNav = () => {
+    if (window.scrollY > 20) {
+      navbar.classList.add('bg-dark-900/80', 'backdrop-blur-xl', 'border-b', 'border-white/5');
+    } else {
+      navbar.classList.remove('bg-dark-900/80', 'backdrop-blur-xl', 'border-b', 'border-white/5');
+    }
+  };
+  window.addEventListener('scroll', updateNav, { passive: true });
+  updateNav();
+
+  // Desktop mega-menu
+  const trigger = document.getElementById('features-trigger')!;
+  const megaMenu = document.getElementById('mega-menu')!;
+  const chevron = document.getElementById('features-chevron')!;
+  let hideTimeout: ReturnType<typeof setTimeout>;
+
+  function showMega() {
+    clearTimeout(hideTimeout);
+    megaMenu.classList.remove('opacity-0', 'invisible', 'translate-y-1');
+    megaMenu.classList.add('opacity-100', 'visible', 'translate-y-0');
+    chevron.classList.add('rotate-180');
+    trigger.querySelector('button')!.setAttribute('aria-expanded', 'true');
+  }
+  function hideMega() {
+    hideTimeout = setTimeout(() => {
+      megaMenu.classList.add('opacity-0', 'invisible', 'translate-y-1');
+      megaMenu.classList.remove('opacity-100', 'visible', 'translate-y-0');
+      chevron.classList.remove('rotate-180');
+      trigger.querySelector('button')!.setAttribute('aria-expanded', 'false');
+    }, 200);
+  }
+
+  trigger.addEventListener('mouseenter', showMega);
+  trigger.addEventListener('mouseleave', hideMega);
+  megaMenu.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
+  megaMenu.addEventListener('mouseleave', hideMega);
+  trigger.querySelector('button')!.addEventListener('click', () => {
+    megaMenu.classList.contains('opacity-100') ? hideMega() : showMega();
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideMega(); });
+  document.addEventListener('click', (e) => {
+    if (!trigger.contains(e.target as Node) && !megaMenu.contains(e.target as Node)) {
+      clearTimeout(hideTimeout);
+      megaMenu.classList.add('opacity-0', 'invisible', 'translate-y-1');
+      megaMenu.classList.remove('opacity-100', 'visible', 'translate-y-0');
+      chevron.classList.remove('rotate-180');
+    }
+  });
+
+  // Mobile
+  document.getElementById('mobile-menu-btn')!.addEventListener('click', () => {
+    document.getElementById('mobile-menu')!.classList.toggle('hidden');
+  });
+  document.getElementById('mobile-features-btn')!.addEventListener('click', () => {
+    document.getElementById('mobile-features-panel')!.classList.toggle('hidden');
+    document.getElementById('mobile-features-chevron')!.classList.toggle('rotate-180');
+  });
+  document.querySelectorAll<HTMLButtonElement>('.mobile-platform-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      (btn.nextElementSibling as HTMLElement).classList.toggle('hidden');
+      btn.querySelector('.mobile-platform-chevron')?.classList.toggle('rotate-180');
+    });
+  });
+
+  // Auth
+  const loginBtn = document.getElementById('nav-login-btn');
+  if (loginBtn && localStorage.getItem('igsp_uid')) {
+    loginBtn.textContent = loginBtn.dataset.dashboardLabel || 'Dashboard';
+    loginBtn.setAttribute('href', '/dashboard');
+  }
+</script>

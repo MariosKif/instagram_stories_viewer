@@ -1,0 +1,37 @@
+---
+import type { Benefit } from '../../data/features';
+
+interface Props {
+  benefits: Benefit[];
+  platformColor: string;
+  heading: string;
+  subheading: string;
+}
+
+const { benefits, platformColor, heading, subheading } = Astro.props;
+---
+
+<section class="py-20 lg:py-28">
+  <div class="section-container">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl sm:text-4xl font-heading font-bold mb-4 text-white" set:html={heading} />
+      <p class="text-dark-400 text-lg max-w-2xl mx-auto">
+        {subheading}
+      </p>
+    </div>
+
+    <div class={`grid sm:grid-cols-2 ${benefits.length >= 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'} gap-6`}>
+      {benefits.map((b) => (
+        <div class="glass p-6 card-hover group">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform" style={`background: ${platformColor}10`}>
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" style={`color: ${platformColor}`}>
+              <Fragment set:html={b.icon} />
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-white mb-2">{b.title}</h3>
+          <p class="text-sm text-dark-400 leading-relaxed">{b.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

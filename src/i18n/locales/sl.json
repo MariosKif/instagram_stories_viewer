@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "IGStoryPeek - Brezplacen pregledovalnik Instagram Stories | Ogled zgodb brez racuna 2025",
+    "description": "Brezplacen pregledovalnik Instagram Stories - Oglejte si Instagram zgodbe brez racuna. 100% zasebno pregledovanje javnih profilov, objav, zgodb, poudarkov. Registracija ni potrebna. Najboljse orodje za ogled Instagram zgodb 2025.",
+    "keywords": "instagram stories pregledovalnik, instagram pregledovalnik, story pregledovalnik, instagram profil pregledovalnik, instagram objave pregledovalnik, zasebno brskanje, instagram poudarki, ogled instagram zgodb, brezplacen instagram pregledovalnik, instagram story prenos, ogled instagram zgodb brez racuna, instagram pregledovalnik orodje, instagram story pregledovalnik 2025, ig story pregledovalnik, instagram pregledovalnik brez prijave"
+  },
+  "nav": {
+    "home": "Domov",
+    "blog": "Blog",
+    "terms": "Pogoji uporabe",
+    "privacy": "Pravilnik o zasebnosti",
+    "contact": "Kontakt"
+  },
+  "navbar": {
+    "features": "Funkcije",
+    "pricing": "Cenik",
+    "blog": "Blog",
+    "login": "Prijava",
+    "dashboard": "Nadzorna plosca",
+    "searchNow": "Iskanje zdaj"
+  },
+  "hero": {
+    "title": "Vase vse-v-enem",
+    "titleHighlight": "orodje za analitiko druzabnih omrezij",
+    "titleEnd": "",
+    "subtitle": "Analizirajte javne profile, spremljajte trende vkljucenosti in raziskujte vsebine - na vec platformah, brez racuna.",
+    "placeholder": "Vnesite Instagram uporabnisko ime...",
+    "button": "Iskanje",
+    "viewSample": "Oglejte si vzorcno porocilo",
+    "badge1": "Poganjano z UI",
+    "badge2": "Racun ni potreben",
+    "badge3": "Samo javni podatki",
+    "badge4": "Analiza v realnem casu",
+    "popularSearches": "Priljubljena iskanja:"
+  },
+  "searchBar": {
+    "placeholder": "Vnesite Instagram uporabnisko ime",
+    "button": "Iskanje zdaj",
+    "errorEmpty": "Prosimo, vnesite uporabnisko ime.",
+    "errorInvalid": "Neveljavno uporabnisko ime. Uporabite crke, stevilke, pike ali podcrtaje."
+  },
+  "notice": {
+    "title": "Dostop do vsebine Instagram",
+    "description": "Storitev IGStoryPeek trenutno omogoca dostop do Instagram Stories, objav, poudarkov in podrobnosti profilov. To omogoca diskretno ogledovanje javno dostopne vsebine Instagram.",
+    "availableContent": "Razpolozljiva vsebina:",
+    "availableContentDesc": "Zgodbe, objave, poudarki in podrobnosti profilov iz javno dostopnih racunov.",
+    "privacy": "Zasebnost:",
+    "privacyDesc": "Vsaka seja ogleda je zasebna - za brskanje po javni vsebini ni potreben racun ali prijava."
+  },
+  "features": {
+    "title": "Funkcije IGStoryPeek",
+    "intro": "IGStoryPeek ponuja brezplacno storitev za ogled Instagram zgodb iz javno dostopnih racunov brez potrebe po Instagram racunu. Vse funkcije so popolnoma brezplacne in zahtevajo le vnos uporabniskega imena Instagram, ki ga zelite ogledati.",
+    "anonymity": {
+      "title": "100% zasebno",
+      "description": "Brskajte po javni vsebini brez potrebe po ustvarjanju racuna ali prijavi"
+    },
+    "noAccount": {
+      "title": "Racun ni potreben",
+      "description": "Ni potrebno ustvariti racuna Instagram. Imate tudi moznost ogleda uporabniskih zgodb in drugih multimedijskih objav brez registracije in aplikacije"
+    },
+    "download": {
+      "title": "Moznost prenosa",
+      "description": "Zgodbe, objave in druge informacije si lahko ogledate in prenesete brezplacno na kateri koli napravi: racunalnik, prenosni racunalnik, tablica ali pametni telefon (Android, iOS in drugi operacijski sistemi)"
+    }
+  },
+  "benefits": {
+    "heading": "Zakaj izbrati",
+    "headingHighlight": "IGStoryPeek",
+    "subtitle": "Zmogljive funkcije zasnovane za zasebnost, natancnost in enostavno uporabo.",
+    "publicData": {
+      "title": "Samo javni podatki",
+      "description": "Analiziramo samo javno dostopne informacije. Zasebni podatki niso nikoli dostopani ali shranjeni."
+    },
+    "noLogin": {
+      "title": "Prijava ni potrebna",
+      "description": "Brskajte po profilih in zgodbah brez ustvarjanja racuna ali prijave."
+    },
+    "realTime": {
+      "title": "Posodobitve v realnem casu",
+      "description": "Nastavite samodejne opozorila, da ostanete obvesceni o spremembah racunov in novi dejavnosti."
+    },
+    "aiInsights": {
+      "title": "Vpogledi UI",
+      "description": "Napredni algoritmi analizirajo vzorce vkljucenosti in zagotavljajo uporabne vpoglede."
+    },
+    "multiPlatform": {
+      "title": "Podpora vec platform",
+      "description": "Analizirajte profile na Instagram, TikTok, Facebook in Snapchat iz enega mesta."
+    },
+    "easyToUse": {
+      "title": "Enostavno za uporabo",
+      "description": "Samo vnesite uporabnisko ime in dobite svoje porocilo. Tehnicno znanje ni potrebno."
+    }
+  },
+  "useCases": {
+    "heading": "Zgrajeno za",
+    "headingHighlight": "vsak primer uporabe",
+    "subtitle": "Ne glede na to, ali ste trznik ali posameznik, IGStoryPeek zagotavlja vpoglede, ki jih potrebujete.",
+    "forMarketers": "Za trznike",
+    "forIndividuals": "Za posameznike",
+    "marketer1Title": "Spremljajte konkurenco",
+    "marketer1Desc": "Spremljajte vzorce objavljanja konkurentov, stopnje vkljucenosti in vsebinske strategije.",
+    "marketer2Title": "Spremljajte poraste vkljucenosti",
+    "marketer2Desc": "Prejemajte opozorila, ko racuni dozivljajo nenavadno rast ali viralno vsebino.",
+    "marketer3Title": "Odkrivanje vplivnezev",
+    "marketer3Desc": "Poiscite in preverite vplivneze na podlagi resnicnih podatkov o vkljucenosti in kakovosti obcinstva.",
+    "individual1Title": "Brskajte brez racuna",
+    "individual1Desc": "Oglejte si zgodbe in objave brez prijave ali ustvarjanja racuna.",
+    "individual2Title": "Spremljajte vzorce vkljucenosti",
+    "individual2Desc": "Poglejte, kako obcinstva komunicirajo z dolocenimi racuni in vsebinami.",
+    "individual3Title": "Vpogledi v uspesnost vsebine",
+    "individual3Desc": "Razumite vzorce vkljucenosti in uspesnost vsebine med profili."
+  },
+  "featuresSuite": {
+    "heading": "Celoten",
+    "headingHighlight": "nabor izdelkov",
+    "subtitle": "Stiri zmogljiva orodja, zasnovana za celovit pregled katerekoli javne prisotnosti na Instagramu.",
+    "analyzer": {
+      "title": "Analizator Instagrama",
+      "description": "Poglobljena analitika za katerikoli javni profil. Stopnje vkljucenosti, trendi rasti, uspesnost vsebine in vpogledi v obcinstvo."
+    },
+    "browser": {
+      "title": "Pregledovalnik vsebine",
+      "description": "Brskajte po zgodbah, objavah in poudarkih brez prijave - racun ni potreben."
+    },
+    "downloader": {
+      "title": "Prenasalnik",
+      "description": "Shranite zgodbe, kratke posnetke in objave v izvirni kakovosti. Hranite zapise za konkurencno analizo ali osebno uporabo."
+    },
+    "tracker": {
+      "title": "Sledilnik dejavnosti",
+      "description": "Nastavite samodejne opozorila za katerikoli javni racun. Prejemajte obvestila o novih objavah, posodobitvah zgodb in spremembah sledilcev."
+    },
+    "learnMore": "Izvedi vec"
+  },
+  "testimonials": {
+    "heading": "Zaupajo nam",
+    "headingHighlight": "tisoci",
+    "subtitle": "Poglejte, kaj nasi uporabniki pravijo o IGStoryPeek."
+  },
+  "trust": {
+    "userCount": "50.000+ uporabnikov",
+    "trustLine": "zaupa IGStoryPeek",
+    "sslEncrypted": "SSL sifrirano",
+    "gdprCompliant": "Skladno z GDPR",
+    "publicDataOnly": "Samo javni podatki",
+    "complianceNote": "Vsi podatki so pridobljeni iz javno dostopnih profilov v skladu z veljavno zakonodajo."
+  },
+  "ctaSection": {
+    "heading": "Zacnite analizirati",
+    "headingHighlight": "danes",
+    "description": "Vnesite katerokoli javno uporabnisko ime in dobite celovito analiticno porocilo v nekaj sekundah."
+  },
+  "articles": {
+    "heading": "Najnovejse iz",
+    "headingHighlight": "bloga",
+    "subtitle": "Nasveti, vodici in vpogledi v industrijo.",
+    "viewAll": "Oglejte si vse objave",
+    "readMore": "Preberi vec",
+    "noPosts": "Se ni objav na blogu. Pridite kmalu nazaj!"
+  },
+  "faq": {
+    "title": "Pogosto zastavljena vprasanja"
+  },
+  "cookie": {
+    "message": "Uporabljamo piskotke za izboljsanje vase izkusnje, analizo prometa in prikazovanje ustreznih oglasov. S klikom na \"Sprejmi vse\" soglasate z naso uporabo piskotkov.",
+    "learnMore": "Izvedi vec",
+    "managePreferences": "Upravljaj nastavitve",
+    "acceptAll": "Sprejmi vse"
+  },
+  "footer": {
+    "brandDescription": "Analitika druzabnih omrezij in vsebinska orodja. Analizirajte javne profile, spremljajte vkljucenost in ustvarjajte vpoglede.",
+    "product": "Izdelek",
+    "features": "Funkcije",
+    "pricing": "Cenik",
+    "sampleReport": "Vzorcno porocilo",
+    "dashboard": "Nadzorna plosca",
+    "resources": "Viri",
+    "blog": "Blog",
+    "useCases": "Primeri uporabe",
+    "faqLink": "FAQ",
+    "legal": "Pravne informacije",
+    "privacyPolicy": "Pravilnik o zasebnosti",
+    "termsOfService": "Pogoji storitve",
+    "aboutUs": "O nas",
+    "contact": "Kontakt",
+    "cookiePolicy": "Pravilnik o piskotkih",
+    "dmca": "DMCA",
+    "tools": "Orodja",
+    "viewAll": "Oglej si vse",
+    "copyright": "IGStoryPeek. Vse pravice pridrzane. Ni povezan z Instagram ali Meta.",
+    "dataSource": "Vsi podatki so pridobljeni iz javno dostopnih informacij.",
+    "navigation": "Navigacija",
+    "disclaimer": "IGStoryPeek ni povezan z Instagramom. Ne gostimo Instagram Stories na nasih streznikih, vse pravice pripadajo njihovim lastnikom.",
+    "instagramVideoDownloader": "Prenasalnik videoposnetkov Instagram",
+    "instagramStoryViewer": "Pregledovalnik Instagram Stories",
+    "comingSoon": "Ta funkcija kmalu prihaja!",
+    "alreadyUsing": "Ze uporabljate pregledovalnik Instagram Stories!",
+    "removeProfile": "Odstrani profil",
+    "removeProfileMessage": "Za odstranitev vasega profila prosimo kontaktirajte support@igstorypeek.com z vasim uporabniskim imenom Instagram."
+  },
+  "howItWorks": {
+    "title": "Kako deluje zasebno ogledovanje Instagram Stories?",
+    "step1": "Vnesite uporabnisko ime profila, ki ga zelite ogledati",
+    "step2": "Vneseno uporabnisko ime prejme nas sistem in ga obdela nas avtomatiziran proces",
+    "step3": "Nasa storitev prikaze stran profila z najnovejsimi in trenutnimi informacijami",
+    "step4": "Ogledi Instagram zgodb so registrirani pod enim od nasih storitvenih racunov",
+    "step5": "Vasa identiteta ostane popolnoma zasebna",
+    "cta": "Zacni iskati"
+  },
+  "pricing": {
+    "title": "Enostavne, pregledne",
+    "titleHighlight": "cene",
+    "subtitle": "Zacnite brezplacno. Nadgradite, ko potrebujete vec moci.",
+    "free": {
+      "name": "Brezplacno",
+      "description": "Za obcasne uporabnike in hitra iskanja.",
+      "price": "$0",
+      "period": "/ mesec",
+      "feature1": "2 iskanji vsakih 8 ur",
+      "feature2": "Osnovno porocilo o vkljucenosti",
+      "feature3": "Pregled profila",
+      "excluded1": "Brez neprekinjenega spremljanja",
+      "excluded2": "Brez vpogledov UI",
+      "cta": "Zacnite brezplacno"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Najbolj priljubljeno",
+      "description": "Za napredne uporabnike in profesionalce.",
+      "price": "$29",
+      "period": "/ mesec",
+      "feature1": "Neomejeno iskanj",
+      "feature2": "Celotna analiticna nadzorna plosca",
+      "feature3": "Neprekinjeno spremljanje in opozorila",
+      "feature4": "Vpogledi, poganjani z UI",
+      "feature5": "Zaznavanje med platformami",
+      "feature6": "Prednostna podpora",
+      "cta": "Nadgradite na Pro"
+    },
+    "faqs": [
+      {
+        "question": "Ali lahko kadarkoli preklicem?",
+        "answer": "Seveda! Svojo Pro narocnino lahko preklicem kadarkoli. Dostop ohranite do konca obracunskega obdobja."
+      },
+      {
+        "question": "Katere nacine placila sprejemate?",
+        "answer": "Sprejemamo vse glavne kreditne in debetne kartice prek nasega varnega ponudnika placil (Stripe). Podprta sta tudi Apple Pay in Google Pay."
+      },
+      {
+        "question": "Ali so moji podatki varni?",
+        "answer": "Zagotovo. Vse povezave so sifrirane s SSL. Nikoli ne shranjujemo gesel Instagram in obdelujemo samo javno dostopne podatke."
+      },
+      {
+        "question": "Koliko obicajno stanejo orodja za analitiko Instagrama?",
+        "answer": "Vecina se giblje od brezplacno do $30/mesec. IGStoryPeek ponuja brezplacen nacrt z 2 iskanjema vsakih 8 ur in Pro nacrt za $29/mesec z neomejenim dostopom do Instagram, TikTok, Facebook in Snapchat."
+      },
+      {
+        "question": "Katere funkcije ponujajo placljiva orodja za druzabna omrezja, ki jih brezplacna ne ponujajo?",
+        "answer": "Pro nacrti obicajno vkljucujejo neomejeno iskanj, neprekinjena sledilna opozorila, vpoglede, poganjane z UI, napredno filtriranje in izvoz CSV - funkcije, ki presegajo zmoznosti brezplacnih nacrtov."
+      },
+      {
+        "question": "Ali orodja za analitiko druzabnih omrezij ponujajo brezplacne preizkuse?",
+        "answer": "Brezplacni nacrt IGStoryPeek je trajno brezplacen z 2 iskanjema vsakih 8 ur. Kadarkoli lahko nadgradite na Pro in kadarkoli preklicem - preizkusno obdobje ni potrebno."
+      },
+      {
+        "question": "Ali se splaca placati za analitiko Instagrama, ce obstajajo brezplacna orodja?",
+        "answer": "Brezplacna orodja so odlicna za obcasno uporabo. Ce potrebujete neomejeno iskanj, samodejne opozorila ali porocila profesionalne ravni, placljiv nacrt zagotavlja bistveno vecjo vrednost in prihrani cas."
+      }
+    ]
+  },
+  "about": {
+    "title": "O",
+    "titleHighlight": "IGStoryPeek",
+    "mission": "Nasa misija je narediti analitiko druzabnih omrezij dostopno, pregledno in spostljivo do zasebnosti za vsakogar.",
+    "whatWeDoTitle": "Kaj pocnemo",
+    "whatWeDoDesc": "IGStoryPeek je platforma za analitiko druzabnih omrezij, ki pomaga trznikom, raziskovalcem in posameznikom analizirati javno dostopne podatke profilov na Instagram, TikTok, Facebook in Snapchat.",
+    "valuesTitle": "Nase vrednote",
+    "transparency": {
+      "title": "Preglednost",
+      "description": "Odkrito povemo, do katerih podatkov dostopamo in kako jih uporabljamo."
+    },
+    "publicDataOnly": {
+      "title": "Samo javni podatki",
+      "description": "Nikoli ne dostopamo do zasebnih profilov, neposrednih sporocil ali nejavnih vsebin."
+    },
+    "compliance": {
+      "title": "Skladnost",
+      "description": "Delujemo v skladu z GDPR, CCPA in veljavnimi predpisi o varstvu podatkov."
+    },
+    "userPrivacy": {
+      "title": "Zasebnost uporabnika",
+      "description": "Vasa dejavnost brskanja ni nikoli deljena. Ne zahtevamo poverilnic za druzabna omrezja."
+    },
+    "contactTitle": "Pisite nam",
+    "contactDesc": "Imate vprasanja ali povratne informacije? Z veseljem bi slisali od vas.",
+    "contactEmail": "Pisite nam na e-posta",
+    "faqs": [
+      {
+        "question": "Ali je zakonito uporabljati orodja za analitiko druzabnih omrezij?",
+        "answer": "Da. IGStoryPeek obdeluje samo javno dostopne podatke in je skladen z veljavnimi predpisi o zasebnosti. Nikoli ne dostopamo do zasebnih profilov ali omejenih vsebin."
+      },
+      {
+        "question": "Ali lahko uporabljam IGStoryPeek za akademske ali trzne raziskave?",
+        "answer": "Zagotovo. Stevilni raziskovalci in trzni profesionalci uporabljajo IGStoryPeek za analizo javnih trendov druzabnih omrezij, vzorcev vkljucenosti in vsebinskih strategij."
+      },
+      {
+        "question": "Ali IGStoryPeek prodaja podatke uporabnikov?",
+        "answer": "Ne. Ne prodajamo, trgujemo ali delimo podatkov uporabnikov s tretjimi osebami. Za podrobnosti preberite nas Pravilnik o zasebnosti."
+      },
+      {
+        "question": "Kako IGStoryPeek zbira podatke?",
+        "answer": "Analiziramo javno dostopne podatke s platform druzabnih omrezij. Do zasebnih podatkov, neposrednih sporocil ali omejenih vsebin nikoli ne dostopamo."
+      },
+      {
+        "question": "Katere platforme podpira IGStoryPeek?",
+        "answer": "Trenutno IGStoryPeek podpira analitiko za Instagram, TikTok, Facebook in Snapchat."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Pisite",
+    "titleHighlight": "nam",
+    "subtitle": "Imate vprasanja, povratne informacije ali potrebujete podporo? Tu smo, da pomagamo.",
+    "formName": "Ime",
+    "formEmail": "E-posta",
+    "formSubject": "Zadeva",
+    "formMessage": "Sporocilo",
+    "formSubmit": "Poslji sporocilo",
+    "subjectGeneral": "Splosno povprasevanje",
+    "subjectSupport": "Tehnicna podpora",
+    "subjectBilling": "Obracunavanje",
+    "subjectDmca": "DMCA/Avtorske pravice",
+    "subjectFeedback": "Povratne informacije",
+    "directEmail": "Ali nam pisite neposredno na",
+    "responseTime": "Obicajno odgovorimo v 24-48 delovnih urah.",
+    "legalTitle": "Pravne zahteve",
+    "legalDesc": "Za pravne zahteve, vkljucno z brisanjem podatkov in poizvedbami GDPR, prosimo pisite na",
+    "dmcaTitle": "DMCA obvestila",
+    "dmcaDesc": "Za oddajo DMCA obvestila o odstranitvi prosimo obizcite naso"
+  },
+  "login": {
+    "title": "Dobrodosli nazaj",
+    "subtitle": "Prijavite se za dostop do nadzorne plosce in zgodovine iskanj.",
+    "googleSignIn": "Prijavite se z Google",
+    "orDivider": "ali",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Geslo",
+    "passwordPlaceholder": "Vnesite geslo",
+    "submitButton": "Prijava",
+    "noAccount": "Nimate racuna?",
+    "signUp": "Registracija",
+    "errorInvalid": "Neveljavna e-posta ali geslo. Prosimo, poskusite znova.",
+    "errorTooMany": "Prevec poskusov. Prosimo, poskusite pozneje."
+  },
+  "register": {
+    "title": "Ustvari racun",
+    "subtitle": "Registrirajte se za shranjevanje iskanj in odklepanje vec funkcij.",
+    "googleSignUp": "Registrirajte se z Google",
+    "orDivider": "ali",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Geslo",
+    "passwordPlaceholder": "Ustvarite geslo",
+    "confirmPasswordLabel": "Potrdite geslo",
+    "confirmPasswordPlaceholder": "Potrdite svoje geslo",
+    "termsAgree": "Strinjam se s",
+    "termsLink": "Pogoji storitve",
+    "andText": "in",
+    "privacyLink": "Pravilnik o zasebnosti",
+    "submitButton": "Ustvari racun",
+    "hasAccount": "Ze imate racun?",
+    "logIn": "Prijava",
+    "errorEmailInUse": "E-posta je ze v uporabi. Prosimo, poskusite z drugim e-postnim naslovom.",
+    "errorWeakPassword": "Geslo je presolabo. Prosimo, uporabite vsaj 6 znakov.",
+    "errorMismatch": "Gesli se ne ujemata.",
+    "errorMinLength": "Geslo mora imeti vsaj 6 znakov."
+  },
+  "dashboard": {
+    "title": "Nadzorna plosca",
+    "currentPlan": "Trenutni nacrt",
+    "searchesUsed": "Porabljena iskanja",
+    "totalSearches": "Skupna iskanja",
+    "free": "Brezplacno",
+    "pro": "Pro",
+    "unlimited": "Neomejeno",
+    "quickSearch": "Hitro iskanje",
+    "quickSearchPlaceholder": "Vnesite uporabnisko ime",
+    "quickSearchButton": "Iskanje",
+    "upgradeCta": "Nadgradite na Pro",
+    "upgradeDesc": "Pridobite neomejeno iskanj, vpoglede UI in neprekinjeno spremljanje.",
+    "searchHistory": "Zgodovina iskanj",
+    "noSearches": "Se ni iskanj. Zacnite z iskanjem uporabniskega imena zgoraj."
+  },
+  "searchReport": {
+    "analyzingProfile": "Analiziranje profila",
+    "generatingReport": "Ustvarjanje analiticnega porocila za",
+    "engagementRate": "Stopnja vkljucenosti",
+    "avgLikes": "Povp. vseckov",
+    "avgComments": "Povp. komentarjev",
+    "followerGrowth": "Rast sledilcev (30 dni)",
+    "contentBreakdown": "Razdelitev vsebine",
+    "recentActivity": "Nedavna dejavnost",
+    "date": "Datum",
+    "posts": "Objave",
+    "stories": "Zgodbe",
+    "likes": "Vsecki",
+    "topInteractions": "Najpogostejse interakcije",
+    "topHashtags": "Najpogostejsi hashtagov",
+    "limitReached": "Omejitev iskanj dosezena",
+    "limitDesc": "Porabili ste vsa brezplacna iskanja za to obdobje.",
+    "nextReset": "Naslednja ponastavitev cez",
+    "watchAd": "Oglejte si oglas za +3 ure",
+    "upgradePro": "Nadgradite na Pro",
+    "followers": "sledilcev",
+    "following": "sledenih"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Nasveti, vodici in vpogledi v industrijo o analitiki Instagrama, zasebnosti in trendih druzabnih omrezij.",
+    "allPosts": "Vse objave",
+    "readMore": "Preberi vec",
+    "publishedOn": "Objavljeno",
+    "updatedOn": "Posodobljeno",
+    "by": "Avtor",
+    "relatedPosts": "Povezane objave",
+    "noPosts": "Ni najdenih objav",
+    "backToBlog": "Nazaj na blog",
+    "featured": "Izpostavljeno"
+  },
+  "legal": {
+    "termsTitle": "Pogoji storitve",
+    "privacyTitle": "Pravilnik o zasebnosti",
+    "cookiePolicyTitle": "Pravilnik o piskotkih",
+    "dmcaTitle": "DMCA pravilnik",
+    "lastUpdated": "Zadnja posodobitev"
+  },
+  "common": {
+    "home": "Domov",
+    "learnMore": "Izvedi vec",
+    "getStarted": "Zacni",
+    "viewAll": "Oglej si vse"
+  },
+  "homeFaqs": [
+    {
+      "question": "Ali lahko gledate Instagram zgodbe brez racuna?",
+      "answer": "Da. IGStoryPeek vam omogoca brskanje po javnih Instagram zgodbah brez ustvarjanja racuna ali prijave. Enostavno vnesite javno uporabnisko ime in si takoj oglejte njihove zgodbe, poudarke in kratke posnetke."
+    },
+    {
+      "question": "Kaj je orodje za analitiko druzabnih omrezij in kako deluje?",
+      "answer": "Orodje za analitiko druzabnih omrezij zbira in analizira javno dostopne podatke s platform, kot so Instagram, TikTok, Facebook in Snapchat. Predstavi metrike, kot so stopnje vkljucenosti, rast sledilcev in uspesnost vsebine v lahko berljivih porocilih."
+    },
+    {
+      "question": "Ali je varno uporabljati pregledovalnike Instagram zgodb tretjih oseb?",
+      "answer": "Zaupanja vredna orodja, kot je IGStoryPeek, so varna, ker dostopajo samo do javno dostopnih podatkov in nikoli ne zahtevajo vasih poverilnic za Instagram. Vedno se izogibajte storitvam, ki zahtevajo vase geslo ali prijavo z racunom druzabnega omrezja."
+    },
+    {
+      "question": "Na katerih platformah druzabnih omrezij lahko brskate brez ustvarjanja racuna?",
+      "answer": "Z IGStoryPeek lahko brskate po javni vsebini z Instagram, TikTok, Facebook in Snapchat - vse brez ustvarjanja racuna na katerikoli od teh platform."
+    },
+    {
+      "question": "Ali orodja za ogled zgodb delujejo na zasebnih racunih Instagram?",
+      "answer": "Ne. IGStoryPeek in podobna orodja dostopajo samo do vsebine javnih profilov. Zasebni racuni niso dostopni in nobeni storitvi, ki trdi nasprotno, ne bi smeli zaupati."
+    },
+    {
+      "question": "Kaksen je razlika med analitiko druzabnih omrezij in spremljanjem druzabnih omrezij?",
+      "answer": "Analitika se osredotoca na merjenje metrik uspesnosti, kot so stopnje vkljucenosti in trendi rasti. Spremljanje se osredotoca na obvescenost o spremembah v realnem casu, kot so nove objave, zgodbe ali posodobitve profilov."
+    }
+  ],
+  "profile": {
+    "posts": "Objave",
+    "stories": "Zgodbe",
+    "highlights": "Poudarki",
+    "postsCount": "objav",
+    "followers": "sledilcev",
+    "following": "sledenih",
+    "noPosts": "Ni razpolozljivih objav.",
+    "noStories": "Ni razpolozljivih zgodb. Zgodbe so dostopne samo prek storitve IGStoryPeek.",
+    "noHighlights": "Ni razpolozljivih poudarkov.",
+    "viewOnInstagram": "Ogled na Instagramu",
+    "ago": "nazaj",
+    "videoNotSupported": "Vas brskalnik ne podpira video oznake."
+  },
+  "messages": {
+    "pleaseEnterUsername": "Prosimo, vnesite uporabnisko ime",
+    "pleaseEnterValidUsername": "Prosimo, vnesite veljavno uporabnisko ime",
+    "foundProfile": "Najden profil:",
+    "profileNotFound": "Profil ni najden",
+    "errorConnecting": "Napaka pri povezovanju s streznikom. Prosimo, poskusite znova."
+  },
+  "megaMenu": {
+    "categories": {
+      "Profile Explorer": "Raziskovalec profilov",
+      "Analyzer": "Analizator",
+      "Downloader": "Prenasalnik",
+      "Viewer": "Pregledovalnik",
+      "Activity Tracker": "Sledilnik dejavnosti"
+    },
+    "badges": {
+      "NEW": "NOVO"
+    },
+    "instagram": {
+      "user-search": "Iskanje uporabnikov za Instagram",
+      "view-comments-privately": "Zasebno ogledovanje komentarjev",
+      "follower-analyzer": "Analizator sledilcev",
+      "activity-analyzer": "Analizator dejavnosti",
+      "see-likes": "Ogled vseckov na Instagramu",
+      "hashtags-generator": "Generator hashtagov",
+      "stories-downloader": "Prenasalnik zgodb",
+      "highlights-downloader": "Prenasalnik poudarkov",
+      "posts-downloader": "Prenasalnik objav",
+      "video-downloader": "Prenasalnik videoposnetkov",
+      "post-viewer": "Pregledovalnik objav",
+      "stories-viewer": "Pregledovalnik zgodb",
+      "highlights-viewer": "Pregledovalnik poudarkov",
+      "comment-viewer": "Pregledovalnik komentarjev",
+      "likes-viewer": "Pregledovalnik vseckov",
+      "relationship-insights": "Vpogledi v odnose",
+      "recent-mutuals": "Nedavni skupni kontakti"
+    },
+    "tiktok": {
+      "user-search": "Iskanje uporabnikov za TikTok",
+      "view-comments-privately": "Zasebno ogledovanje komentarjev",
+      "follower-analyzer": "Analizator sledilcev",
+      "activity-analyzer": "Analizator dejavnosti",
+      "see-likes": "Ogled vseckov na TikToku",
+      "trending-sounds-finder": "Iskalnik priljubljenih zvokov",
+      "video-downloader": "Prenasalnik videoposnetkov",
+      "stories-downloader": "Prenasalnik zgodb",
+      "audio-downloader": "Prenasalnik zvoka",
+      "slideshow-downloader": "Prenasalnik diaprojekcij",
+      "video-viewer": "Pregledovalnik videoposnetkov",
+      "stories-viewer": "Pregledovalnik zgodb",
+      "comment-viewer": "Pregledovalnik komentarjev",
+      "likes-viewer": "Pregledovalnik vseckov",
+      "followers-viewer": "Pregledovalnik sledilcev",
+      "engagement-tracker": "Sledilnik vkljucenosti",
+      "duet-and-stitch-tracker": "Sledilnik duetov in stitch"
+    },
+    "facebook": {
+      "user-search": "Iskanje uporabnikov za Facebook",
+      "view-comments-privately": "Zasebno ogledovanje komentarjev",
+      "page-analyzer": "Analizator strani",
+      "group-analyzer": "Analizator skupin",
+      "see-reactions": "Ogled reakcij na Facebooku",
+      "ad-library-explorer": "Raziskovalec knjiznice oglasov",
+      "stories-downloader": "Prenasalnik zgodb",
+      "reels-downloader": "Prenasalnik kratkih posnetkov",
+      "video-downloader": "Prenasalnik videoposnetkov",
+      "photo-album-downloader": "Prenasalnik foto albumov",
+      "post-viewer": "Pregledovalnik objav",
+      "stories-viewer": "Pregledovalnik zgodb",
+      "reels-viewer": "Pregledovalnik kratkih posnetkov",
+      "comment-viewer": "Pregledovalnik komentarjev",
+      "likes-viewer": "Pregledovalnik vseckov",
+      "page-activity-tracker": "Sledilnik dejavnosti strani",
+      "friend-interaction-insights": "Vpogledi v interakcije prijateljev"
+    },
+    "snapchat": {
+      "user-search": "Iskanje uporabnikov za Snapchat",
+      "view-stories-privately": "Zasebno ogledovanje zgodb",
+      "score-tracker": "Sledilnik rezultata",
+      "activity-analyzer": "Analizator dejavnosti",
+      "best-friends-analyzer": "Analizator najboljsih prijateljev",
+      "streak-tracker": "Sledilnik serij",
+      "stories-downloader": "Prenasalnik zgodb",
+      "spotlight-downloader": "Prenasalnik spotlighta",
+      "memories-downloader": "Prenasalnik spominov",
+      "stories-viewer": "Pregledovalnik zgodb",
+      "spotlight-viewer": "Pregledovalnik spotlighta",
+      "map-viewer": "Pregledovalnik zemljevida",
+      "public-profile-viewer": "Pregledovalnik javnega profila",
+      "score-change-tracker": "Sledilnik sprememb rezultata",
+      "online-status-tracker": "Sledilnik stanja na spletu"
+    }
+  }
+}

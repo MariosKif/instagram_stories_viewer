@@ -1,0 +1,154 @@
+---
+/**
+ * Main marketing layout — wraps public pages (homepage, pricing, blog, legal).
+ * Includes Navbar, Footer, global styles, fonts, and SEO meta.
+ */
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import CookieConsent from '../components/CookieConsent.astro';
+import HreflangTags from '../components/HreflangTags.astro';
+import { isRTL, type Language } from '../i18n/utils';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+  noIndex?: boolean;
+}
+
+const {
+  title,
+  description = 'Social media analytics and content tools. Analyze public profiles, track engagement trends, and discover insights across Instagram, TikTok, Facebook, and Snapchat.',
+  ogImage = '/og-default.png',
+  canonical,
+  noIndex = false,
+} = Astro.props;
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const rtl = isRTL(lang);
+const siteName = 'IGStoryPeek';
+const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+const siteUrl = Astro.url.origin;
+const currentPath = Astro.url.pathname;
+
+// CJK/Arabic font families
+const needsCJKFont = ['ja', 'ko', 'zh'].includes(lang);
+const needsArabicFont = lang === 'ar';
+---
+
+<!doctype html>
+<html lang={lang} dir={rtl ? 'rtl' : 'ltr'} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noIndex && <meta name="robots" content="noindex,nofollow" />}
+    {canonical && <link rel="canonical" href={canonical} />}
+
+    <!-- Hreflang tags -->
+    <HreflangTags lang={lang} path={currentPath} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:locale" content={lang} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    {needsCJKFont && (
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    )}
+    {needsArabicFont && (
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    )}
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1279144350888956" crossorigin="anonymous"></script>
+
+    <!-- Structured Data — SaaS / WebApplication schema -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": siteName,
+      "url": siteUrl,
+      "description": description,
+      "applicationCategory": "SocialMediaApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "0",
+        "highPrice": "29.99",
+        "priceCurrency": "USD",
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1240",
+      },
+    })} />
+
+    <!-- Organization schema -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": siteName,
+      "url": siteUrl,
+      "logo": `${siteUrl}/favicon.svg`,
+      "description": "Social media analytics and content tools for public profiles.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@igstorypeek.com",
+        "contactType": "customer support",
+      },
+      "sameAs": [],
+    })} />
+
+    {needsCJKFont && (
+      <style>
+        body { font-family: 'Inter', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', sans-serif; }
+      </style>
+    )}
+    {needsArabicFont && (
+      <style>
+        body { font-family: 'Inter', 'Noto Sans Arabic', sans-serif; }
+      </style>
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Navbar />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <CookieConsent />
+  </body>
+</html>

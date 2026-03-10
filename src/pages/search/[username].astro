@@ -1,0 +1,481 @@
+---
+/**
+ * Search report page — dynamic route for /search/:username.
+ * Generates a mock analytics report for the given username.
+ * Includes engagement summary, charts, activity, interactions, tags.
+ * Supports 3 user types: anonymous, logged-in free, logged-in pro.
+ */
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getLocalizedPath, type Language } from '../../i18n/utils';
+
+const { username } = Astro.params;
+if (!username) return Astro.redirect('/');
+
+const lang = (Astro.locals as any).lang || 'en';
+const t = (Astro.locals as any).t || {};
+
+const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
+---
+
+<MainLayout
+  title={`${t.searchReport?.analyzingProfile || 'Analyze'} @${username} — Instagram Report`}
+  description={`${t.searchReport?.generatingReport || 'Analyze Instagram activity for'} ${username}. ${t.searchReport?.engagementRate || 'View engagement rates'}, ${t.searchReport?.followerGrowth || 'follower trends'}, ${t.searchReport?.recentActivity || 'recent activity'}.`}
+>
+  <section class="pt-24 pb-16 lg:pt-32 lg:pb-24">
+    <div class="section-container max-w-6xl">
+      <!-- Auth check + data loading indicator -->
+      <div id="loading-state" class="text-center py-20">
+        <div class="inline-block w-8 h-8 border-2 border-primary/30 border-t-primary rounded-full animate-spin mb-4"></div>
+        <p class="text-dark-400">{t.searchReport?.generatingReport || "Generating report for"} @{username}...</p>
+      </div>
+
+      <!-- Report content (hidden until loaded) -->
+      <div id="report" class="hidden">
+        <!-- Profile header -->
+        <div class="glass p-6 lg:p-8 mb-6 flex flex-col sm:flex-row items-center gap-6">
+          <img
+            id="profile-pic"
+            src={`https://ui-avatars.com/api/?name=${username}&background=0ea5e9&color=fff&size=200`}
+            alt={`${username} profile`}
+            class="w-20 h-20 rounded-full ring-2 ring-primary/30"
+          />
+          <div class="text-center sm:text-left flex-1">
+            <div class="flex items-center justify-center sm:justify-start gap-2 mb-1">
+              <h1 class="text-2xl font-heading font-bold text-white">@{username}</h1>
+              <span id="verified-badge" class="hidden text-primary">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+              </span>
+            </div>
+            <p id="full-name" class="text-dark-400 text-sm">{displayName}</p>
+            <p id="bio" class="text-dark-500 text-xs mt-1">Digital creator | Content enthusiast</p>
+          </div>
+          <div class="flex gap-6 text-center">
+            <div>
+              <p id="stat-followers" class="text-xl font-bold text-white">--</p>
+              <p class="text-xs text-dark-500">{t.searchReport?.followers || "Followers"}</p>
+            </div>
+            <div>
+              <p id="stat-following" class="text-xl font-bold text-white">--</p>
+              <p class="text-xs text-dark-500">{t.searchReport?.following || "Following"}</p>
+            </div>
+            <div>
+              <p id="stat-posts" class="text-xl font-bold text-white">--</p>
+              <p class="text-xs text-dark-500">{t.searchReport?.posts || "Posts"}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Engagement summary row -->
+        <div class="grid sm:grid-cols-3 gap-4 mb-6">
+          <div class="glass p-5">
+            <p class="text-xs text-dark-500 mb-1">{t.searchReport?.engagementRate || "Engagement Rate"}</p>
+            <p id="engagement-rate" class="text-2xl font-bold text-primary">--</p>
+          </div>
+          <div class="glass p-5">
+            <p class="text-xs text-dark-500 mb-1">{t.searchReport?.avgLikes || "Avg. Likes"}</p>
+            <p id="avg-likes" class="text-2xl font-bold text-white">--</p>
+          </div>
+          <div class="glass p-5">
+            <p class="text-xs text-dark-500 mb-1">{t.searchReport?.avgComments || "Avg. Comments"}</p>
+            <p id="avg-comments" class="text-2xl font-bold text-white">--</p>
+          </div>
+        </div>
+
+        <!-- Charts row -->
+        <div class="grid lg:grid-cols-2 gap-6 mb-6">
+          <!-- Follower growth chart -->
+          <div class="glass p-6">
+            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.followerGrowth || "Follower Growth (30 days)"}</h3>
+            <canvas id="follower-chart" height="200"></canvas>
+          </div>
+
+          <!-- Content breakdown -->
+          <div class="glass p-6">
+            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.contentBreakdown || "Content Breakdown"}</h3>
+            <canvas id="content-chart" height="200"></canvas>
+          </div>
+        </div>
+
+        <!-- Recent activity -->
+        <div class="glass p-6 mb-6">
+          <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.recentActivity || "Recent Activity (7 days)"}</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-white/5 text-dark-500">
+                  <th class="text-left py-2 font-medium">{t.searchReport?.date || "Date"}</th>
+                  <th class="text-center py-2 font-medium">{t.searchReport?.posts || "Posts"}</th>
+                  <th class="text-center py-2 font-medium">{t.searchReport?.stories || "Stories"}</th>
+                  <th class="text-center py-2 font-medium">{t.searchReport?.likes || "Likes"}</th>
+                </tr>
+              </thead>
+              <tbody id="activity-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Two column: interactions + tags -->
+        <div class="grid lg:grid-cols-2 gap-6">
+          <!-- Top interactions -->
+          <div class="glass p-6">
+            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.topInteractions || "Top Interactions"}</h3>
+            <div id="interactions-list" class="space-y-3"></div>
+          </div>
+
+          <!-- Hashtag analysis -->
+          <div class="glass p-6">
+            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.topHashtags || "Top Hashtags"}</h3>
+            <div id="hashtags-list" class="flex flex-wrap gap-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Limit-reached panel (hidden by default) -->
+      <div id="limit-reached" class="hidden">
+        <div class="glass p-8 max-w-md mx-auto text-center">
+          <svg class="w-12 h-12 text-yellow-400 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+          </svg>
+          <h2 class="text-xl font-semibold text-white mb-2">{t.searchReport?.limitReached || "Search Limit Reached"}</h2>
+          <p class="text-dark-400 text-sm mb-2">{t.searchReport?.limitDesc || "You've used your 2 free searches. Next search available in:"}</p>
+          <p id="countdown-timer" class="text-2xl font-bold text-primary mb-6">--</p>
+          <div class="flex flex-col gap-3">
+            <button id="watch-ad-btn" class="btn-secondary w-full hidden">
+              <svg class="w-5 h-5 mr-2 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              {t.searchReport?.watchAd || "Watch an Ad (-3 hours cooldown)"}
+            </button>
+            <a href={getLocalizedPath('/pricing', lang)} class="btn-primary w-full text-center">{t.searchReport?.upgradePro || "Upgrade to Pro"}</a>
+          </div>
+          <p id="anon-login-prompt" class="hidden text-dark-500 text-xs mt-4">
+            <a href={getLocalizedPath('/login', lang)} class="text-primary hover:underline">{t.login?.title || "Log in"}</a> {t.searchReport?.keepHistory || "to keep your search history"}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad modal overlay (hidden by default) -->
+  <div id="ad-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm">
+    <div class="glass p-8 max-w-lg w-full mx-4 text-center">
+      <h3 class="text-xl font-semibold text-white mb-2">{t.searchReport?.watchAdTitle || "Watch this Ad"}</h3>
+      <p class="text-dark-400 text-sm mb-6">{t.searchReport?.watchAdDesc || "Please wait 30 seconds to claim your reward"}</p>
+      <div class="bg-dark-800 border border-dark-700 rounded-lg p-4 mb-6 min-h-[250px] flex items-center justify-center">
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-1279144350888956"
+          data-ad-slot="auto"
+          data-ad-format="rectangle"
+          data-full-width-responsive="true"></ins>
+      </div>
+      <!-- Progress bar -->
+      <div class="w-full bg-dark-700 rounded-full h-2 mb-4">
+        <div id="ad-progress-bar" class="bg-primary h-2 rounded-full transition-all duration-1000" style="width: 0%"></div>
+      </div>
+      <p id="ad-timer-text" class="text-dark-400 text-sm mb-4">{t.searchReport?.adTimerText || "30 seconds remaining..."}</p>
+      <div class="flex gap-3">
+        <button id="ad-cancel-btn" class="btn-secondary flex-1">{t.searchReport?.adCancel || "Cancel"}</button>
+        <button id="ad-claim-btn" class="btn-primary flex-1 opacity-50 cursor-not-allowed" disabled>{t.searchReport?.adClaim || "Claim Reward (-3 hours)"}</button>
+      </div>
+    </div>
+  </div>
+
+  <script define:vars={{ lang, t }}>
+    window.__LANG__ = lang;
+    window.__T__ = t;
+  </script>
+
+  <script>
+    import { Chart, registerables } from 'chart.js';
+    import { getUserProfile, canSearch, saveSearch, generateMockReport, getTimeUntilResetFirestore, hasUsedAdRewardFirestore, applyAdRewardFirestore } from '../../lib/firestore';
+    import { canSearchAnonymous, recordAnonymousSearch, getTimeUntilReset, hasUsedAdReward, applyAdReward, formatCountdown, getDeviceId } from '../../lib/searchLimits';
+
+    Chart.register(...registerables);
+
+    const lang = (window as any).__LANG__ || 'en';
+    const t = (window as any).__T__ || {};
+
+    function getLocalizedPathClient(path: string, lang: string): string {
+      if (lang === 'en') return path;
+      return `/${lang}${path}`;
+    }
+
+    const username = window.location.pathname.split('/search/')[1]?.split('/')[0];
+    if (!username) window.location.href = getLocalizedPathClient('/', lang);
+
+    const decodedUsername = decodeURIComponent(username!);
+    const isSampleReport = decodedUsername === 'instagram';
+    const uid = localStorage.getItem('igsp_uid');
+
+    // Ensure device ID exists
+    getDeviceId();
+
+    if (isSampleReport) {
+      // Sample report — no limits
+      const data = generateMockReport('instagram');
+      populateReport(data);
+    } else if (uid) {
+      // Logged-in user
+      loadLoggedInReport(uid, decodedUsername);
+    } else {
+      // Anonymous user
+      loadAnonymousReport(decodedUsername);
+    }
+
+    /* ── Logged-in user flow ──────────────────────────── */
+
+    async function loadLoggedInReport(uid: string, username: string) {
+      try {
+        const profile = await getUserProfile(uid);
+        const plan = profile?.plan || 'free';
+
+        // Pro users — unlimited
+        if (plan === 'pro') {
+          const data = generateMockReport(username);
+          try { await saveSearch(uid, username, data); } catch {}
+          populateReport(data);
+          return;
+        }
+
+        // Free user — check 8h window
+        const allowed = await canSearch(uid, plan);
+        if (!allowed) {
+          const ms = await getTimeUntilResetFirestore(uid);
+          const adUsed = await hasUsedAdRewardFirestore(uid);
+          showLimitReached(ms, adUsed, false);
+          return;
+        }
+
+        // Allowed — generate and save
+        const data = generateMockReport(username);
+        try { await saveSearch(uid, username, data); } catch {}
+        populateReport(data);
+      } catch {
+        // Firestore unavailable — fall through to generate anyway
+        const data = generateMockReport(username);
+        populateReport(data);
+      }
+    }
+
+    /* ── Anonymous user flow ──────────────────────────── */
+
+    function loadAnonymousReport(username: string) {
+      const { allowed } = canSearchAnonymous();
+      if (!allowed) {
+        const ms = getTimeUntilReset();
+        const adUsed = hasUsedAdReward();
+        showLimitReached(ms, adUsed, true);
+        return;
+      }
+
+      // Record search and show report (no Firestore save)
+      recordAnonymousSearch();
+      const data = generateMockReport(username);
+      populateReport(data);
+    }
+
+    /* ── Limit reached UI ─────────────────────────────── */
+
+    let countdownInterval: ReturnType<typeof setInterval> | null = null;
+
+    function showLimitReached(msRemaining: number, adRewardUsed: boolean, isAnonymous: boolean) {
+      document.getElementById('loading-state')!.classList.add('hidden');
+      document.getElementById('limit-reached')!.classList.remove('hidden');
+
+      // Show/hide ad button
+      if (!adRewardUsed) {
+        document.getElementById('watch-ad-btn')!.classList.remove('hidden');
+      }
+
+      // Show login prompt for anonymous users
+      if (isAnonymous) {
+        document.getElementById('anon-login-prompt')!.classList.remove('hidden');
+      }
+
+      // Live countdown
+      let remaining = msRemaining;
+      const timerEl = document.getElementById('countdown-timer')!;
+      timerEl.textContent = formatCountdown(remaining);
+
+      countdownInterval = setInterval(() => {
+        remaining -= 1000;
+        if (remaining <= 0) {
+          if (countdownInterval) clearInterval(countdownInterval);
+          window.location.reload();
+          return;
+        }
+        timerEl.textContent = formatCountdown(remaining);
+      }, 1000);
+
+      // Ad button handler
+      document.getElementById('watch-ad-btn')?.addEventListener('click', () => {
+        openAdModal(isAnonymous);
+      });
+    }
+
+    /* ── Ad modal ─────────────────────────────────────── */
+
+    function openAdModal(isAnonymous: boolean) {
+      const modal = document.getElementById('ad-modal')!;
+      modal.classList.remove('hidden');
+
+      // Try to push AdSense ad
+      try {
+        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+      } catch {}
+
+      const progressBar = document.getElementById('ad-progress-bar')!;
+      const timerText = document.getElementById('ad-timer-text')!;
+      const claimBtn = document.getElementById('ad-claim-btn') as HTMLButtonElement;
+      const cancelBtn = document.getElementById('ad-cancel-btn')!;
+
+      let secondsLeft = 30;
+      const adInterval = setInterval(() => {
+        secondsLeft--;
+        const pct = ((30 - secondsLeft) / 30) * 100;
+        progressBar.style.width = `${pct}%`;
+        timerText.textContent = secondsLeft > 0
+          ? `${secondsLeft} ${t.searchReport?.secondsRemaining || 'seconds remaining...'}`
+          : (t.searchReport?.readyToClaim || 'Ready to claim!');
+
+        if (secondsLeft <= 0) {
+          clearInterval(adInterval);
+          claimBtn.disabled = false;
+          claimBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+        }
+      }, 1000);
+
+      // Cancel
+      cancelBtn.addEventListener('click', () => {
+        clearInterval(adInterval);
+        modal.classList.add('hidden');
+        // Reset progress
+        progressBar.style.width = '0%';
+        timerText.textContent = `30 ${t.searchReport?.secondsRemaining || 'seconds remaining...'}`;
+        claimBtn.disabled = true;
+        claimBtn.classList.add('opacity-50', 'cursor-not-allowed');
+      });
+
+      // Claim reward
+      claimBtn.addEventListener('click', async () => {
+        claimBtn.disabled = true;
+        claimBtn.textContent = t.searchReport?.applying || 'Applying...';
+        try {
+          if (isAnonymous) {
+            applyAdReward();
+          } else {
+            const uid = localStorage.getItem('igsp_uid')!;
+            await applyAdRewardFirestore(uid);
+          }
+        } catch {}
+        window.location.reload();
+      });
+    }
+
+    /* ── Report rendering ─────────────────────────────── */
+
+    function formatNumber(n: number): string {
+      if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+      if (n >= 1_000) return (n / 1_000).toFixed(1) + 'K';
+      return String(n);
+    }
+
+    function populateReport(data: Record<string, any>) {
+      document.getElementById('loading-state')!.classList.add('hidden');
+      document.getElementById('report')!.classList.remove('hidden');
+
+      // Profile header
+      if (data.isVerified) document.getElementById('verified-badge')!.classList.remove('hidden');
+      (document.getElementById('profile-pic') as HTMLImageElement).src = data.profilePic;
+      document.getElementById('full-name')!.textContent = data.fullName;
+      document.getElementById('bio')!.textContent = data.bio;
+      document.getElementById('stat-followers')!.textContent = formatNumber(data.followers);
+      document.getElementById('stat-following')!.textContent = formatNumber(data.following);
+      document.getElementById('stat-posts')!.textContent = formatNumber(data.posts);
+
+      // Engagement stats
+      document.getElementById('engagement-rate')!.textContent = data.engagementRate + '%';
+      document.getElementById('avg-likes')!.textContent = formatNumber(data.avgLikes);
+      document.getElementById('avg-comments')!.textContent = formatNumber(data.avgComments);
+
+      // Follower chart
+      const fCtx = (document.getElementById('follower-chart') as HTMLCanvasElement).getContext('2d')!;
+      new Chart(fCtx, {
+        type: 'line',
+        data: {
+          labels: data.followerGrowth.map((d: any) => d.date.slice(5)),
+          datasets: [{
+            label: t.searchReport?.followers || 'Followers',
+            data: data.followerGrowth.map((d: any) => d.count),
+            borderColor: '#0ea5e9',
+            backgroundColor: 'rgba(14, 165, 233, 0.1)',
+            fill: true,
+            tension: 0.4,
+            pointRadius: 0,
+          }],
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#64748b', maxTicksLimit: 7 }, grid: { color: 'rgba(255,255,255,0.03)' } },
+            y: { ticks: { color: '#64748b' }, grid: { color: 'rgba(255,255,255,0.03)' } },
+          },
+        },
+      });
+
+      // Content breakdown chart
+      const cCtx = (document.getElementById('content-chart') as HTMLCanvasElement).getContext('2d')!;
+      const cb = data.contentBreakdown;
+      new Chart(cCtx, {
+        type: 'doughnut',
+        data: {
+          labels: [
+            t.searchReport?.photos || 'Photos',
+            t.searchReport?.videos || 'Videos',
+            t.searchReport?.reels || 'Reels',
+            t.searchReport?.carousels || 'Carousels'
+          ],
+          datasets: [{
+            data: [cb.photos, cb.videos, cb.reels, cb.carousels],
+            backgroundColor: ['#0ea5e9', '#22d3ee', '#06b6d4', '#0284c7'],
+            borderWidth: 0,
+          }],
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', padding: 16 } } },
+        },
+      });
+
+      // Activity table
+      const tbody = document.getElementById('activity-table')!;
+      tbody.innerHTML = data.recentActivity.map((a: any) => `
+        <tr class="border-b border-white/5">
+          <td class="py-2.5 text-dark-300">${a.date}</td>
+          <td class="py-2.5 text-center text-dark-300">${a.posts}</td>
+          <td class="py-2.5 text-center text-dark-300">${a.stories}</td>
+          <td class="py-2.5 text-center text-dark-300">${a.likes}</td>
+        </tr>`).join('');
+
+      // Top interactions
+      const interList = document.getElementById('interactions-list')!;
+      interList.innerHTML = data.topInteractions.map((i: any, idx: number) => `
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">${idx + 1}</span>
+            <span class="text-sm text-dark-300">@${i.username}</span>
+          </div>
+          <span class="text-xs text-dark-500">${i.interactions} ${t.searchReport?.interactions || 'interactions'}</span>
+        </div>`).join('');
+
+      // Hashtags
+      const hashList = document.getElementById('hashtags-list')!;
+      hashList.innerHTML = data.topHashtags.map((h: string) =>
+        `<span class="badge">${h}</span>`
+      ).join('');
+    }
+  </script>
+</MainLayout>

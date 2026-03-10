@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Ferramentas Facebook — Analisador de Páginas, Download de Conteúdo e Navegador de Conteúdo",
+    "heroTitle": "Hub de Insights e Análises do Facebook",
+    "sectionHeading": "Descubra Todas as Ferramentas Facebook",
+    "sectionSub": "ferramentas dedicadas para análise de páginas e grupos do Facebook, salvamento de conteúdo, navegação de conteúdo e rastreamento de atividades.",
+    "ctaHeading": "Comece a Analisar Contas do Facebook",
+    "ctaSub": "Forneça qualquer nome de perfil ou página pública do Facebook para gerar análises e insights abrangentes.",
+    "cardCta": "Iniciar ferramenta"
+  },
+  "faqs": [
+    {
+      "question": "Alguém pode ver se você visitou o perfil do Facebook dele?",
+      "answer": "Não. O Facebook não notifica os usuários quando alguém visita o perfil deles. Qualquer aplicativo ou serviço que afirme o contrário não é legítimo."
+    },
+    {
+      "question": "O Facebook ainda tem sua própria ferramenta de análise?",
+      "answer": "O Facebook descontinuou sua ferramenta de análise independente em 2021. Os insights de página agora estão disponíveis através do Meta Business Suite. Ferramentas de terceiros como o IGStoryPeek fornecem análises adicionais para páginas públicas."
+    },
+    {
+      "question": "Como visualizar uma página pública do Facebook sem fazer login?",
+      "answer": "Muitas páginas públicas do Facebook são acessíveis sem uma conta. O IGStoryPeek permite que você pesquise e analise páginas e perfis públicos do Facebook sem fazer login no Facebook."
+    },
+    {
+      "question": "O que aconteceu com o Facebook Analytics após sua descontinuação?",
+      "answer": "O Facebook Analytics foi descontinuado em 30 de junho de 2021. Seus recursos foram absorvidos pelo Meta Business Suite e Gerenciador de Anúncios. Ferramentas de terceiros agora preenchem a lacuna para análise externa de páginas."
+    },
+    {
+      "question": "É possível rastrear páginas do Facebook de concorrentes com ferramentas de análise?",
+      "answer": "Sim. Ferramentas como o IGStoryPeek permitem monitorar páginas públicas do Facebook, rastrear métricas de engajamento e comparar desempenho — tudo sem precisar de acesso aos insights da própria página."
+    },
+    {
+      "question": "Quais métricas você deve acompanhar em uma página comercial do Facebook?",
+      "answer": "Métricas importantes de páginas do Facebook incluem curtidas na página, alcance de publicações, taxa de engajamento, taxa de cliques, visualizações de vídeo e crescimento de seguidores. Acompanhar essas métricas ajuda a medir a eficácia do conteúdo."
+    }
+  ]
+}

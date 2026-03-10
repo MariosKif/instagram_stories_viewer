@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Strumenti Facebook — Analizzatore Pagine, Scarica Contenuti e Sfoglia Contenuti",
+    "heroTitle": "Hub di Analisi e Statistiche Facebook",
+    "sectionHeading": "Scopri Tutti gli Strumenti Facebook",
+    "sectionSub": "strumenti dedicati per l'analisi di pagine e gruppi Facebook, salvataggio contenuti, navigazione contenuti e monitoraggio dell'attività.",
+    "ctaHeading": "Inizia ad Analizzare gli Account Facebook",
+    "ctaSub": "Inserisci il nome di qualsiasi profilo o pagina Facebook pubblica per generare analisi e statistiche complete.",
+    "cardCta": "Avvia strumento"
+  },
+  "faqs": [
+    {
+      "question": "Qualcuno può vedere se visiti il suo profilo Facebook?",
+      "answer": "No. Facebook non notifica gli utenti quando qualcuno visita il loro profilo. Qualsiasi app o servizio che afferma il contrario non è legittimo."
+    },
+    {
+      "question": "Facebook ha ancora il proprio strumento di analisi?",
+      "answer": "Facebook ha ritirato il suo strumento di analisi autonomo nel 2021. Le statistiche delle pagine sono ora disponibili tramite Meta Business Suite. Strumenti di terze parti come IGStoryPeek forniscono analisi aggiuntive per le pagine pubbliche."
+    },
+    {
+      "question": "Come si visualizza una pagina Facebook pubblica senza accedere?",
+      "answer": "Molte pagine Facebook pubbliche sono accessibili senza un account. IGStoryPeek ti permette di cercare e analizzare pagine e profili Facebook pubblici senza effettuare l'accesso a Facebook."
+    },
+    {
+      "question": "Cosa è successo a Facebook Analytics dopo la sua dismissione?",
+      "answer": "Facebook Analytics è stato ritirato il 30 giugno 2021. Le sue funzionalità sono state integrate in Meta Business Suite e Ads Manager. Strumenti di terze parti ora colmano il vuoto per l'analisi esterna delle pagine."
+    },
+    {
+      "question": "Si possono monitorare le pagine Facebook dei concorrenti con strumenti di analisi?",
+      "answer": "Sì. Strumenti come IGStoryPeek ti permettono di monitorare le pagine Facebook pubbliche, tracciare le metriche di coinvolgimento e confrontare le prestazioni — tutto senza bisogno di accedere alle statistiche della pagina stessa."
+    },
+    {
+      "question": "Quali metriche dovresti monitorare su una pagina Facebook aziendale?",
+      "answer": "Le metriche importanti per le pagine Facebook includono like alla pagina, copertura dei post, tasso di coinvolgimento, tasso di click, visualizzazioni video e crescita dei follower. Monitorare queste metriche aiuta a misurare l'efficacia dei contenuti."
+    }
+  ]
+}

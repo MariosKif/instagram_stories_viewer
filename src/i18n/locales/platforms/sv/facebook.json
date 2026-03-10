@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook-verktyg — Sidanalysator, innehållsnedladdning och innehållsbläddring",
+    "heroTitle": "Facebooks insikts- och analyshub",
+    "sectionHeading": "Upptäck alla Facebook-verktyg",
+    "sectionSub": "dedikerade verktyg för analys av Facebook-sidor och grupper, innehållssparande, innehållsbläddring och aktivitetsspårning.",
+    "ctaHeading": "Börja analysera Facebook-konton",
+    "ctaSub": "Ange valfri offentlig Facebook-profil eller sidnamn för att generera omfattande analys och insikter.",
+    "cardCta": "Starta verktyg"
+  },
+  "faqs": [
+    {
+      "question": "Kan någon se om du har tittat på deras Facebook-profil?",
+      "answer": "Nej. Facebook meddelar inte användare när någon tittar på deras profil. Alla appar eller tjänster som påstår motsatsen är inte legitima."
+    },
+    {
+      "question": "Har Facebook fortfarande ett eget analysverktyg?",
+      "answer": "Facebook lade ner sitt fristående analysverktyg 2021. Sidinsikter finns nu tillgängliga via Meta Business Suite. Tredjepartsverktyg som IGStoryPeek erbjuder ytterligare analys för offentliga sidor."
+    },
+    {
+      "question": "Hur visar du en offentlig Facebook-sida utan att logga in?",
+      "answer": "Många offentliga Facebook-sidor är tillgängliga utan konto. IGStoryPeek låter dig söka efter och analysera offentliga Facebook-sidor och profiler utan att logga in på Facebook."
+    },
+    {
+      "question": "Vad hände med Facebook Analytics efter att det lades ner?",
+      "answer": "Facebook Analytics lades ner den 30 juni 2021. Dess funktioner absorberades i Meta Business Suite och Ads Manager. Tredjepartsverktyg fyller nu gapet för extern sidanalys."
+    },
+    {
+      "question": "Kan du spåra konkurrenters Facebook-sidor med analysverktyg?",
+      "answer": "Ja. Verktyg som IGStoryPeek låter dig övervaka offentliga Facebook-sidor, spåra engagemangsmått och jämföra prestanda — allt utan att behöva tillgång till sidans egna insikter."
+    },
+    {
+      "question": "Vilka mätvärden bör du spåra på en Facebook-företagssida?",
+      "answer": "Viktiga mätvärden för Facebook-sidor inkluderar sidgillningar, inläggsräckvidd, engagemangsgrad, klickfrekvens, videovisningar och följartillväxt. Att spåra dessa hjälper till att mäta innehållets effektivitet."
+    }
+  ]
+}

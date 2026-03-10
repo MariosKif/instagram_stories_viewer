@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Instagram 工具 — 分析个人资料、浏览故事并免费下载内容",
+    "heroTitle": "Instagram 分析与内容套件",
+    "sectionHeading": "浏览所有 Instagram 功能",
+    "sectionSub": "用于 Instagram 个人资料分析、内容浏览、下载和活动跟踪的专业工具。",
+    "ctaHeading": "开始使用 Instagram 分析",
+    "ctaSub": "搜索任何公开的 Instagram 用户名，即可获得详细的分析数据、内容访问和即时活动报告。",
+    "cardCta": "试用此工具"
+  },
+  "faqs": [
+    {
+      "question": "如何查看 Instagram 账户的互动率？",
+      "answer": "互动率的计算方法是将总互动量（点赞、评论、收藏、分享）除以粉丝数，然后乘以 100。IGStoryPeek 可以自动为任何公开的 Instagram 个人资料计算此数据。"
+    },
+    {
+      "question": "在 Instagram 上应该跟踪哪些指标？",
+      "answer": "关键的 Instagram 指标包括互动率、粉丝增长、覆盖率、曝光量、故事浏览量、收藏量、分享量和发布频率。IGStoryPeek 为公开账户提供所有这些数据。"
+    },
+    {
+      "question": "可以分析他人的公开 Instagram 个人资料吗？",
+      "answer": "可以。任何设置为公开的 Instagram 个人资料都可以使用 IGStoryPeek 等工具进行分析。您无需登录即可查看互动指标、内容表现和发布模式。"
+    },
+    {
+      "question": "Instagram 上多少互动率算好？",
+      "answer": "Instagram 的平均互动率在 1% 到 3% 之间。超过 3% 被认为是优秀的，超过 6% 则是卓越的。互动率因行业领域、受众规模和内容类型而异。"
+    },
+    {
+      "question": "Instagram 分析工具需要登录账户吗？",
+      "answer": "并非所有工具都需要。IGStoryPeek 不需要任何登录或 Instagram 凭据。它直接分析公开可用的数据，使您的个人账户完全独立。"
+    },
+    {
+      "question": "如何查看谁在 Instagram 上取消了对你的关注？",
+      "answer": "Instagram 不会在有人取消关注时通知您。第三方跟踪工具可以随时间监控您的公开粉丝列表，并提醒您注意变化，包括取消关注。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import FeatureHero from '../../components/feature/FeatureHero.astro';
+import FeatureHowItWorks from '../../components/feature/FeatureHowItWorks.astro';
+import FeatureBenefits from '../../components/feature/FeatureBenefits.astro';
+import FeatureFAQ from '../../components/feature/FeatureFAQ.astro';
+import RelatedFeatures from '../../components/feature/RelatedFeatures.astro';
+import FeatureCTA from '../../components/feature/FeatureCTA.astro';
+import { getFeatureBySlug, getRelatedFeatures } from '../../data/features';
+import { type Language } from '../../i18n/utils';
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const t = (Astro.locals as any).t || {};
+
+const { platform: platformId, feature: featureSlug } = Astro.params;
+const result = getFeatureBySlug(platformId!, featureSlug!);
+
+if (!result) {
+  return Astro.redirect('/404');
+}
+
+const { platform, category, feature } = result;
+const related = getRelatedFeatures(platform.id, feature.slug, 4);
+---
+
+<MainLayout
+  title={feature.title}
+  description={feature.metaDescription}
+>
+  <FeatureHero platform={platform} category={category} feature={feature} />
+  <FeatureHowItWorks
+    steps={feature.howItWorks}
+    platformColor={platform.color}
+    heading={feature.howItWorksHeading}
+    subheading={feature.howItWorksSubheading}
+  />
+  <FeatureBenefits
+    benefits={feature.benefits}
+    platformColor={platform.color}
+    heading={feature.benefitsHeading}
+    subheading={feature.benefitsSubheading}
+  />
+  <FeatureFAQ
+    faqs={feature.faqs}
+    platformColor={platform.color}
+    heading={feature.faqHeading}
+    subheading={feature.faqSubheading}
+  />
+  <RelatedFeatures
+    features={related}
+    platformId={platform.id}
+    platformColor={platform.color}
+    heading={feature.relatedHeading}
+    subheading={feature.relatedSubheading}
+  />
+  <FeatureCTA
+    platformColor={platform.color}
+    ctaHeading={feature.ctaHeading}
+    ctaDescription={feature.ctaDescription}
+  />
+</MainLayout>

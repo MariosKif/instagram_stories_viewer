@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0c1929"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F2EA"/>
+      <stop offset="100%" stop-color="#FF0050"/>
+    </linearGradient>
+    <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Glow orbs -->
+  <circle cx="380" cy="280" r="200" fill="#00F2EA" opacity="0.06" filter="url(#blur1)"/>
+  <circle cx="820" cy="320" r="200" fill="#FF0050" opacity="0.06" filter="url(#blur1)"/>
+  <circle cx="600" cy="250" r="150" fill="#ffffff" opacity="0.02" filter="url(#blur1)"/>
+  <!-- Grid -->
+  <g opacity="0.03" stroke="#94a3b8" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="630"/><line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/><line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/><line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/><line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/><line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/><line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/><line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/><line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/><line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/><line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+  <!-- Central icon: Music note (TikTok-like) with glitch offset effect -->
+  <g transform="translate(600,235)">
+    <!-- Cyan offset (left/up) -->
+    <g transform="translate(-3,-2)" opacity="0.5">
+      <path d="M15 -55 L15 20 C15 38 -15 45 -15 28 C-15 11 15 4 15 20" fill="none" stroke="#00F2EA" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="-5" cy="30" r="16" fill="none" stroke="#00F2EA" stroke-width="3" opacity="0.6"/>
+    </g>
+    <!-- Red offset (right/down) -->
+    <g transform="translate(3,2)" opacity="0.5">
+      <path d="M15 -55 L15 20 C15 38 -15 45 -15 28 C-15 11 15 4 15 20" fill="none" stroke="#FF0050" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="-5" cy="30" r="16" fill="none" stroke="#FF0050" stroke-width="3" opacity="0.6"/>
+    </g>
+    <!-- White main note -->
+    <path d="M15 -55 L15 20 C15 38 -15 45 -15 28 C-15 11 15 4 15 20" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="-5" cy="30" r="16" fill="none" stroke="white" stroke-width="2.5" opacity="0.6"/>
+    <!-- Note head fill -->
+    <circle cx="-5" cy="30" r="12" fill="white" opacity="0.1"/>
+    <!-- Stem top bar -->
+    <line x1="15" y1="-55" x2="40" y2="-48" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <line x1="12" y1="-57" x2="37" y2="-50" stroke="#00F2EA" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+    <line x1="18" y1="-53" x2="43" y2="-46" stroke="#FF0050" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  </g>
+  <!-- Floating decorative elements -->
+  <g opacity="0.25">
+    <circle cx="430" cy="200" r="4" fill="#00F2EA"/>
+    <circle cx="770" cy="230" r="3" fill="#FF0050"/>
+    <circle cx="500" cy="350" r="3" fill="#00F2EA"/>
+    <circle cx="700" cy="180" r="2.5" fill="#FF0050"/>
+    <circle cx="350" cy="310" r="2" fill="#FF0050"/>
+    <circle cx="850" cy="290" r="3.5" fill="#00F2EA"/>
+  </g>
+  <!-- Text -->
+  <text x="600" y="400" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="32" font-weight="700" fill="white" letter-spacing="0.5">TikTok</text>
+  <text x="600" y="435" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="16" fill="#94a3b8">Tips &amp; Guides</text>
+  <!-- Bottom accent line -->
+  <rect x="530" y="460" width="140" height="2" rx="1" fill="url(#accent)" opacity="0.5"/>
+  <!-- Corner decorations -->
+  <path d="M40 40 L40 80 M40 40 L80 40" stroke="#00F2EA" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+  <path d="M1160 40 L1160 80 M1160 40 L1120 40" stroke="#FF0050" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+  <path d="M40 590 L40 550 M40 590 L80 590" stroke="#FF0050" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+  <path d="M1160 590 L1160 550 M1160 590 L1120 590" stroke="#00F2EA" stroke-width="1.5" opacity="0.2" stroke-linecap="round"/>
+</svg>

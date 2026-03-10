@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Snapchat-verktyg — Poängspårare, Story-nedladdare och aktivitetsspårare",
+    "heroTitle": "Snapchats analys- och innehållsverktyg",
+    "sectionHeading": "Se alla Snapchat-funktioner",
+    "sectionSub": "fokuserade verktyg för Snapchat-poängspårning, streak-analys, story-nedladdning och aktivitetsspårning.",
+    "ctaHeading": "Börja spåra Snapchat-aktivitet",
+    "ctaSub": "Ange valfritt offentligt Snapchat-användarnamn för att få tillgång till poängspårning, innehållsnedladdningar och aktivitetsspårning.",
+    "cardCta": "Använd denna funktion"
+  },
+  "faqs": [
+    {
+      "question": "Vad är en Snapchat-poäng och hur beräknas den?",
+      "answer": "Din Snapchat-poäng är ett nummer som speglar din övergripande aktivitet på plattformen. Den ökar baserat på antalet Snaps du skickar och tar emot, Stories du publicerar och andra engagemangsfaktorer."
+    },
+    {
+      "question": "Hur ökar du din Snapchat-poäng?",
+      "answer": "Skicka och öppna Snaps ofta, publicera Stories, underhåll Snap Streaks och lägg till nya vänner. Grupp-Snaps och video-Snaps kan också bidra med fler poäng än enbart text-Snaps."
+    },
+    {
+      "question": "Kan du se vem som tittade på din Snapchat-story efter 24 timmar?",
+      "answer": "Nej. När en Snapchat-story löper ut efter 24 timmar är tittarlistan inte längre tillgänglig via appen. Tredjepartsspårningsverktyg kan hjälpa dig att övervaka visningar innan de löper ut."
+    },
+    {
+      "question": "Vem har tillgång till Snapchat Insights?",
+      "answer": "Snapchat Insights är tillgängligt för offentliga profiler och kreatörer med en viss följartröskel. För alla andra erbjuder tredjepartsanalysverktyg som IGStoryPeek poängspårning och aktivitetsövervakning."
+    },
+    {
+      "question": "Vad gör Snapchat-poängmultiplikatorn för Snapchat+-prenumeranter?",
+      "answer": "Snapchat+-prenumeranter kan se en poängmultiplikator som visar hur snabbt deras poäng växer. Den ändrar inte hur poäng tjänas in — den visar helt enkelt ökningstakten."
+    },
+    {
+      "question": "Hur ofta uppdaterar Snapchat din poäng?",
+      "answer": "Snapchat-poäng uppdateras i nästan realtid, även om det ibland kan förekomma en kort fördröjning. Din poäng speglar kumulativ aktivitet sedan du skapade ditt konto."
+    }
+  ]
+}

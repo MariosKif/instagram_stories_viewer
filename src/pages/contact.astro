@@ -1,0 +1,89 @@
+---
+/**
+ * Contact page — provides contact information and a styled contact form.
+ */
+import MainLayout from '../layouts/MainLayout.astro';
+import { getLocalizedPath } from '../i18n/utils';
+import type { Language } from '../i18n/utils';
+
+const lang = (Astro.locals as any).lang || 'en';
+const t = (Astro.locals as any).t || {};
+---
+
+<MainLayout title={t.contact?.title ? `${t.contact.title} ${t.contact.titleHighlight || ''}` : 'Contact Us'}>
+  <section class="pt-28 pb-20 lg:pt-36 lg:pb-28">
+    <div class="section-container max-w-3xl">
+      <h1 class="text-3xl sm:text-4xl font-heading font-bold text-white mb-4">{t.contact?.title || 'Get in'} {t.contact?.titleHighlight || 'Touch'}</h1>
+      <p class="text-dark-400 text-sm mb-10">{t.contact?.subtitle || 'Have a question, suggestion, or concern? We\'re here to help.'}</p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Contact form -->
+        <div class="glass p-6 lg:p-8">
+          <h2 class="text-lg font-semibold text-white mb-4">{t.contact?.formSubmit ? t.contact.formSubmit.replace('Send ', 'Send a ') : 'Send a Message'}</h2>
+          <form id="contact-form" class="space-y-4">
+            <div>
+              <label for="name" class="block text-sm text-dark-400 mb-1">{t.contact?.formName || 'Name'}</label>
+              <input type="text" id="name" name="name" required
+                class="w-full px-4 py-2.5 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder-dark-500 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/30"
+                placeholder={t.contact?.formName || 'Your name'} />
+            </div>
+            <div>
+              <label for="email" class="block text-sm text-dark-400 mb-1">{t.contact?.formEmail || 'Email'}</label>
+              <input type="email" id="email" name="email" required
+                class="w-full px-4 py-2.5 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder-dark-500 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/30"
+                placeholder={t.login?.emailPlaceholder || 'you@example.com'} />
+            </div>
+            <div>
+              <label for="subject" class="block text-sm text-dark-400 mb-1">{t.contact?.formSubject || 'Subject'}</label>
+              <select id="subject" name="subject"
+                class="w-full px-4 py-2.5 rounded-lg bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/30">
+                <option value="general">{t.contact?.subjectGeneral || 'General Inquiry'}</option>
+                <option value="support">{t.contact?.subjectSupport || 'Technical Support'}</option>
+                <option value="billing">{t.contact?.subjectBilling || 'Billing Question'}</option>
+                <option value="dmca">{t.contact?.subjectDmca || 'DMCA / Copyright'}</option>
+                <option value="feedback">{t.contact?.subjectFeedback || 'Feedback'}</option>
+              </select>
+            </div>
+            <div>
+              <label for="message" class="block text-sm text-dark-400 mb-1">{t.contact?.formMessage || 'Message'}</label>
+              <textarea id="message" name="message" rows="5" required
+                class="w-full px-4 py-2.5 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder-dark-500 focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/30 resize-none"
+                placeholder={t.contact?.formMessage || 'Tell us how we can help...'}></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full">{t.contact?.formSubmit || 'Send Message'}</button>
+          </form>
+          <p id="form-success" class="hidden mt-4 text-sm text-green-400 text-center">{t.contact?.successMessage || 'Thank you! Your message has been received. We\'ll get back to you shortly.'}</p>
+        </div>
+
+        <!-- Contact info -->
+        <div class="space-y-6">
+          <div class="glass p-6">
+            <h2 class="text-lg font-semibold text-white mb-3">{t.contact?.directEmail || 'Email Us Directly'}</h2>
+            <p class="text-sm text-dark-400 mb-2">{t.contact?.subtitle || 'For general inquiries and support:'}</p>
+            <a href="mailto:contact@igstorypeek.com" class="text-primary hover:underline text-sm">contact@igstorypeek.com</a>
+          </div>
+
+          <div class="glass p-6">
+            <h2 class="text-lg font-semibold text-white mb-3">{t.contact?.responseTimeTitle || 'Response Time'}</h2>
+            <p class="text-sm text-dark-400">{t.contact?.responseTime || 'We aim to respond to all inquiries within'} <strong class="text-white">24-48 {t.contact?.responseTimeUnit || 'hours'}</strong> {t.contact?.responseTimeDays || 'during business days (Monday-Friday)'}.</p>
+          </div>
+
+          <div class="glass p-6">
+            <h2 class="text-lg font-semibold text-white mb-3">{t.contact?.legalTitle || 'Legal Requests'}</h2>
+            <p class="text-sm text-dark-400">{t.contact?.dmcaDesc || 'For DMCA takedown requests, please visit our'} <a href={getLocalizedPath('/dmca', lang)} class="text-primary hover:underline">{t.legal?.dmcaTitle || 'DMCA page'}</a> {t.contact?.legalDesc || 'for the proper procedure, or email us directly.'}.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const form = document.getElementById('contact-form') as HTMLFormElement;
+    const success = document.getElementById('form-success')!;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      form.classList.add('hidden');
+      success.classList.remove('hidden');
+    });
+  </script>
+</MainLayout>

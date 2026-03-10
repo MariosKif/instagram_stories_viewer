@@ -1,0 +1,29 @@
+---
+interface Props {
+  platformId: string;
+  platformLabel: string;
+  platformColor: string;
+  categoryTitle: string;
+  featureLabel: string;
+}
+
+const { platformId, platformLabel, platformColor, categoryTitle, featureLabel } = Astro.props;
+---
+
+<nav class="flex items-center gap-2 text-sm text-dark-400 flex-wrap" aria-label="Breadcrumb">
+  <a href="/" class="hover:text-white transition-colors">Home</a>
+  <svg class="w-3 h-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+  </svg>
+  <a href={`/${platformId}`} class="hover:text-white transition-colors" style={`color: ${platformColor}`}>
+    {platformLabel}
+  </a>
+  <svg class="w-3 h-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+  </svg>
+  <span class="text-dark-500">{categoryTitle}</span>
+  <svg class="w-3 h-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+  </svg>
+  <span class="text-white">{featureLabel}</span>
+</nav>

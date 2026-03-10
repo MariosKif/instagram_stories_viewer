@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook Tools — Page Analyzer, Content Downloader & Content Browser",
+    "heroTitle": "Facebook Insights & Analytics Hub",
+    "sectionHeading": "Discover All Facebook Tools",
+    "sectionSub": "dedicated tools for Facebook page and group analysis, content saving, content browsing, and activity tracking.",
+    "ctaHeading": "Start Analyzing Facebook Accounts",
+    "ctaSub": "Provide any public Facebook profile or page name to generate comprehensive analytics and insights.",
+    "cardCta": "Launch tool"
+  },
+  "faqs": [
+    {
+      "question": "Can someone see if you view their Facebook profile?",
+      "answer": "No. Facebook does not notify users when someone views their profile. Any app or service claiming otherwise is not legitimate."
+    },
+    {
+      "question": "Does Facebook still have its own analytics tool?",
+      "answer": "Facebook retired its standalone Analytics tool in 2021. Page insights are now available through Meta Business Suite. Third-party tools like IGStoryPeek provide additional analytics for public pages."
+    },
+    {
+      "question": "How do you view a public Facebook page without logging in?",
+      "answer": "Many public Facebook pages are accessible without an account. IGStoryPeek allows you to search and analyze public Facebook pages and profiles without logging in to Facebook."
+    },
+    {
+      "question": "What happened to Facebook Analytics after it was retired?",
+      "answer": "Facebook Analytics was retired on June 30, 2021. Its features were absorbed into Meta Business Suite and Ads Manager. Third-party tools now fill the gap for external page analysis."
+    },
+    {
+      "question": "Can you track competitors' Facebook pages with analytics tools?",
+      "answer": "Yes. Tools like IGStoryPeek let you monitor public Facebook pages, track engagement metrics, and compare performance — all without needing access to the page's own insights."
+    },
+    {
+      "question": "What metrics should you track on a Facebook business page?",
+      "answer": "Important Facebook page metrics include page likes, post reach, engagement rate, click-through rate, video views, and follower growth. Tracking these helps measure content effectiveness."
+    }
+  ]
+}

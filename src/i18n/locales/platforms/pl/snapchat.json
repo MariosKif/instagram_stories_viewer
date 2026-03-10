@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Narzędzia Snapchat — Śledzenie Wyniku, Pobieranie Relacji i Śledzenie Aktywności",
+    "heroTitle": "Zestaw Narzędzi Analitycznych i Treściowych Snapchat",
+    "sectionHeading": "Zobacz Wszystkie Funkcje Snapchat",
+    "sectionSub": "ukierunkowane narzędzia do śledzenia wyniku Snapchat, analizy serii, pobierania relacji i śledzenia aktywności.",
+    "ctaHeading": "Zacznij Śledzić Aktywność na Snapchacie",
+    "ctaSub": "Wprowadź dowolną publiczną nazwę użytkownika Snapchat, aby uzyskać dostęp do śledzenia wyniku, pobierania treści i śledzenia aktywności.",
+    "cardCta": "Użyj tej funkcji"
+  },
+  "faqs": [
+    {
+      "question": "Czym jest wynik Snapchat i jak jest obliczany?",
+      "answer": "Twój wynik Snapchat to liczba odzwierciedlająca Twoją ogólną aktywność na platformie. Rośnie w oparciu o liczbę wysłanych i otrzymanych Snapów, opublikowanych Relacji i inne czynniki zaangażowania."
+    },
+    {
+      "question": "Jak zwiększyć swój wynik na Snapchacie?",
+      "answer": "Wysyłaj i otwieraj Snapy często, publikuj Relacje, utrzymuj Serie Snapów i dodawaj nowych znajomych. Grupowe Snapy i Snapy wideo mogą również przynosić więcej punktów niż Snapy tekstowe."
+    },
+    {
+      "question": "Czy można zobaczyć, kto wyświetlił Twoją relację na Snapchacie po 24 godzinach?",
+      "answer": "Nie. Po wygaśnięciu Relacji Snapchat po 24 godzinach lista widzów nie jest już dostępna przez aplikację. Narzędzia śledzące firm trzecich mogą pomóc monitorować wyświetlenia przed ich wygaśnięciem."
+    },
+    {
+      "question": "Kto ma dostęp do Statystyk Snapchat?",
+      "answer": "Statystyki Snapchat są dostępne dla profili publicznych i twórców z określoną liczbą obserwujących. Dla wszystkich pozostałych narzędzia analityczne firm trzecich, takie jak IGStoryPeek, oferują śledzenie wyniku i monitorowanie aktywności."
+    },
+    {
+      "question": "Co robi mnożnik wyniku Snapchat dla subskrybentów Snapchat+?",
+      "answer": "Subskrybenci Snapchat+ mogą zobaczyć mnożnik wyniku pokazujący, jak szybko ich wynik rośnie. Nie zmienia sposobu zdobywania punktów — po prostu wyświetla tempo wzrostu."
+    },
+    {
+      "question": "Jak często Snapchat aktualizuje Twój wynik?",
+      "answer": "Wyniki Snapchat aktualizują się niemal w czasie rzeczywistym, choć czasami może wystąpić krótkie opóźnienie. Twój wynik odzwierciedla skumulowaną aktywność od momentu utworzenia konta."
+    }
+  ]
+}

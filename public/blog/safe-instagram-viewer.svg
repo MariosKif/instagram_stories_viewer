@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="350" cy="280" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="850" cy="350" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <!-- Grid -->
+  <g opacity="0.03" stroke="#fff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="630"/><line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/><line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/><line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/><line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/><line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/><line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+  <!-- Large center shield with checkmark -->
+  <g transform="translate(600, 240)">
+    <!-- Outer shield glow -->
+    <path d="M0 -120 L82 -88 L82 22 C82 82 0 130 0 130 C0 130 -82 82 -82 22 L-82 -88Z" fill="#0ea5e9" opacity="0.06"/>
+    <!-- Shield body -->
+    <path d="M0 -105 L72 -75 L72 18 C72 70 0 112 0 112 C0 112 -72 70 -72 18 L-72 -75Z" fill="#1e293b" stroke="#0ea5e9" stroke-width="2.5"/>
+    <!-- Shield inner highlight -->
+    <path d="M0 -88 L58 -62 L58 12 C58 54 0 90 0 90 C0 90 -58 54 -58 12 L-58 -62Z" fill="#0ea5e9" opacity="0.05"/>
+    <!-- Checkmark on shield -->
+    <path d="M-25 0 L-8 18 L28 -20" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  </g>
+  <!-- Lock icon (upper left) -->
+  <g transform="translate(340, 190)" opacity="0.45">
+    <rect x="-22" y="0" width="44" height="36" rx="7" fill="#1e293b" stroke="#0ea5e9" stroke-width="1.5"/>
+    <path d="M-12 0 L-12 -14 C-12 -26 12 -26 12 -14 L12 0" fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.7"/>
+    <circle cx="0" cy="14" r="5" fill="#0ea5e9" opacity="0.35"/>
+    <rect x="-2" y="16" width="4" height="9" rx="1.5" fill="#0ea5e9" opacity="0.35"/>
+  </g>
+  <!-- Lock icon (lower right) -->
+  <g transform="translate(860, 290)" opacity="0.35">
+    <rect x="-20" y="0" width="40" height="32" rx="6" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5"/>
+    <path d="M-10 0 L-10 -12 C-10 -22 10 -22 10 -12 L10 0" fill="none" stroke="#22d3ee" stroke-width="1.8" opacity="0.7"/>
+    <circle cx="0" cy="12" r="4.5" fill="#22d3ee" opacity="0.3"/>
+    <rect x="-1.8" y="14" width="3.6" height="8" rx="1.5" fill="#22d3ee" opacity="0.3"/>
+  </g>
+  <!-- HTTPS badge (left side) -->
+  <g transform="translate(250, 310)" opacity="0.3">
+    <rect x="-40" y="-14" width="80" height="28" rx="6" fill="#1e293b" stroke="#0ea5e9" stroke-width="1.2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0ea5e9" letter-spacing="1.5">HTTPS</text>
+  </g>
+  <!-- Encrypted connection lines (left) -->
+  <g opacity="0.15">
+    <line x1="290" y1="310" x2="340" y2="230" stroke="#0ea5e9" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="290" y1="310" x2="528" y2="240" stroke="#0ea5e9" stroke-width="1" stroke-dasharray="4 4"/>
+  </g>
+  <!-- Key icon (upper right) -->
+  <g transform="translate(880, 160)" opacity="0.3">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="5" fill="#22d3ee" opacity="0.2"/>
+    <line x1="12" y1="0" x2="36" y2="0" stroke="#22d3ee" stroke-width="1.5"/>
+    <line x1="30" y1="0" x2="30" y2="8" stroke="#22d3ee" stroke-width="1.5"/>
+    <line x1="36" y1="0" x2="36" y2="8" stroke="#22d3ee" stroke-width="1.5"/>
+  </g>
+  <!-- Crossed-out eye (no tracking) -->
+  <g transform="translate(440, 340)" opacity="0.25">
+    <path d="M-28 0 C-14 -18 14 -18 28 0 C14 18 -14 18 -28 0Z" fill="none" stroke="#22d3ee" stroke-width="1.3"/>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#22d3ee" stroke-width="1.3" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#22d3ee" opacity="0.25"/>
+    <line x1="-24" y1="20" x2="24" y2="-20" stroke="#ef4444" stroke-width="1.8" opacity="0.5" stroke-linecap="round"/>
+  </g>
+  <!-- Warning triangle (top accent) -->
+  <g transform="translate(720, 140)" opacity="0.22">
+    <path d="M0 -18 L16 12 L-16 12Z" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="0" y1="-6" x2="0" y2="3" stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="0" cy="7.5" r="1.3" fill="#f59e0b"/>
+  </g>
+  <!-- Small shield accent (bottom left) -->
+  <g transform="translate(190, 400)" opacity="0.18">
+    <path d="M0 -22 L16 -14 L16 4 C16 16 0 24 0 24 C0 24 -16 16 -16 4 L-16 -14Z" fill="none" stroke="#0ea5e9" stroke-width="1.3"/>
+    <path d="M-5 2 L-1 6 L7 -4" fill="none" stroke="#0ea5e9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  </g>
+  <!-- Small shield accent (bottom right) -->
+  <g transform="translate(1000, 380)" opacity="0.15">
+    <path d="M0 -20 L14 -12 L14 4 C14 14 0 22 0 22 C0 22 -14 14 -14 4 L-14 -12Z" fill="none" stroke="#22d3ee" stroke-width="1.3"/>
+    <path d="M-4 2 L-1 5 L6 -3" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  </g>
+  <!-- Fingerprint scan icon (right side) -->
+  <g transform="translate(950, 270)" opacity="0.2">
+    <path d="M-10 12 C-10 -6 10 -6 10 12" fill="none" stroke="#22d3ee" stroke-width="1.3"/>
+    <path d="M-16 12 C-16 -12 16 -12 16 12" fill="none" stroke="#22d3ee" stroke-width="1.3"/>
+    <path d="M-22 12 C-22 -18 22 -18 22 12" fill="none" stroke="#22d3ee" stroke-width="1.3"/>
+    <line x1="0" y1="-4" x2="0" y2="14" stroke="#22d3ee" stroke-width="1.3" opacity="0.5"/>
+  </g>
+  <!-- Text -->
+  <text x="600" y="430" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" letter-spacing="0.5">Safe Instagram Viewer</text>
+  <text x="600" y="468" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="1">5 ESSENTIAL FREE SAFETY TIPS FOR 2025</text>
+  <!-- Decorative dots -->
+  <circle cx="110" cy="100" r="3" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="1090" cy="530" r="3" fill="#22d3ee" opacity="0.3"/>
+  <circle cx="160" cy="510" r="2" fill="#0ea5e9" opacity="0.2"/>
+  <circle cx="1040" cy="120" r="2" fill="#22d3ee" opacity="0.2"/>
+  <circle cx="930" cy="75" r="4" fill="#0ea5e9" opacity="0.15"/>
+  <circle cx="270" cy="555" r="4" fill="#22d3ee" opacity="0.15"/>
+</svg>

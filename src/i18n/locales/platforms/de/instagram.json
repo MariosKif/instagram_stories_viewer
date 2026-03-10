@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Instagram-Tools — Profile analysieren, Stories ansehen & Inhalte kostenlos herunterladen",
+    "heroTitle": "Instagram Analytics & Content-Suite",
+    "sectionHeading": "Alle Instagram-Funktionen durchsuchen",
+    "sectionSub": "Spezialisierte Tools zur Instagram-Profilanalyse, zum Durchsuchen von Inhalten, Herunterladen und zur Aktivitätsverfolgung.",
+    "ctaHeading": "Starten Sie mit Instagram Analytics",
+    "ctaSub": "Suchen Sie nach einem öffentlichen Instagram-Handle und erhalten Sie sofort detaillierte Analysen, Zugang zu Inhalten und Aktivitätsberichte.",
+    "cardCta": "Tool ausprobieren"
+  },
+  "faqs": [
+    {
+      "question": "Wie überprüft man die Engagement-Rate eines Instagram-Kontos?",
+      "answer": "Die Engagement-Rate wird berechnet, indem die Gesamtinteraktionen (Likes, Kommentare, Speicherungen, Shares) durch die Followerzahl geteilt und mit 100 multipliziert werden. IGStoryPeek automatisiert diese Berechnung für jedes öffentliche Instagram-Profil."
+    },
+    {
+      "question": "Welche Metriken sollte man auf Instagram verfolgen?",
+      "answer": "Wichtige Instagram-Metriken umfassen Engagement-Rate, Follower-Wachstum, Reichweite, Impressionen, Story-Aufrufe, Speicherungen, Shares und Veröffentlichungsfrequenz. IGStoryPeek stellt all diese für öffentliche Konten bereit."
+    },
+    {
+      "question": "Kann man das öffentliche Instagram-Profil einer anderen Person analysieren?",
+      "answer": "Ja. Jedes Instagram-Profil, das auf öffentlich eingestellt ist, kann mit Tools wie IGStoryPeek analysiert werden. Sie können Engagement-Metriken, Inhaltsleistung und Veröffentlichungsmuster einsehen, ohne sich anmelden zu müssen."
+    },
+    {
+      "question": "Was ist eine gute Engagement-Rate auf Instagram?",
+      "answer": "Die durchschnittliche Engagement-Rate auf Instagram liegt zwischen 1 % und 3 %. Raten über 3 % gelten als stark, und Raten über 6 % sind ausgezeichnet. Das Engagement variiert je nach Nische, Publikumsgröße und Inhaltstyp."
+    },
+    {
+      "question": "Erfordern Instagram-Analyse-Tools eine Anmeldung mit Ihrem Konto?",
+      "answer": "Nicht alle. IGStoryPeek erfordert keine Anmeldung oder Instagram-Zugangsdaten. Es analysiert direkt öffentlich verfügbare Daten und hält Ihr persönliches Konto vollständig getrennt."
+    },
+    {
+      "question": "Wie kann man sehen, wer einem auf Instagram nicht mehr folgt?",
+      "answer": "Instagram benachrichtigt Sie nicht, wenn jemand Ihnen nicht mehr folgt. Tracking-Tools von Drittanbietern können Ihre öffentliche Followerliste im Laufe der Zeit überwachen und Sie über Änderungen informieren, einschließlich Entfolger."
+    }
+  ]
+}

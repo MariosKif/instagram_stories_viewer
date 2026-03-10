@@ -1,0 +1,27 @@
+---
+import SearchBar from '../SearchBar.astro';
+
+interface Props {
+  platformColor: string;
+  ctaHeading: string;
+  ctaDescription: string;
+}
+
+const { platformColor, ctaHeading, ctaDescription } = Astro.props;
+---
+
+<section class="py-20 lg:py-28 relative overflow-hidden">
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="w-[600px] h-[600px] rounded-full blur-3xl" style={`background: ${platformColor}05`}></div>
+  </div>
+
+  <div class="relative section-container text-center">
+    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mb-4 text-white" set:html={ctaHeading} />
+    <p class="text-dark-400 text-lg max-w-xl mx-auto mb-10">
+      {ctaDescription}
+    </p>
+    <div class="max-w-xl mx-auto">
+      <SearchBar size="large" />
+    </div>
+  </div>
+</section>

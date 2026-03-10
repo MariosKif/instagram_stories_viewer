@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.astro/
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+firebase-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+

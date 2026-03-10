@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Herramientas de Instagram — Analiza perfiles, explora stories y descarga contenido gratis",
+    "heroTitle": "Instagram Analytics & Suite de contenido",
+    "sectionHeading": "Explorar todas las funciones de Instagram",
+    "sectionSub": "Herramientas especializadas para el analisis de perfiles de Instagram, navegacion de contenido, descargas y seguimiento de actividad.",
+    "ctaHeading": "Comienza con Instagram Analytics",
+    "ctaSub": "Busca cualquier usuario publico de Instagram y recibe al instante analisis detallados, acceso a contenido e informes de actividad.",
+    "cardCta": "Probar esta herramienta"
+  },
+  "faqs": [
+    {
+      "question": "Como se comprueba la tasa de engagement de una cuenta de Instagram?",
+      "answer": "La tasa de engagement se calcula dividiendo el total de interacciones (likes, comentarios, guardados, compartidos) entre el numero de seguidores y multiplicando por 100. IGStoryPeek automatiza este calculo para cualquier perfil publico de Instagram."
+    },
+    {
+      "question": "Que metricas deberia seguir en Instagram?",
+      "answer": "Las metricas clave de Instagram incluyen tasa de engagement, crecimiento de seguidores, alcance, impresiones, vistas de stories, guardados, compartidos y frecuencia de publicacion. IGStoryPeek proporciona todas estas para cuentas publicas."
+    },
+    {
+      "question": "Se puede analizar el perfil publico de Instagram de otra persona?",
+      "answer": "Si. Cualquier perfil de Instagram configurado como publico puede ser analizado con herramientas como IGStoryPeek. Puedes ver metricas de engagement, rendimiento del contenido y patrones de publicacion sin necesidad de iniciar sesion."
+    },
+    {
+      "question": "Cual es una buena tasa de engagement en Instagram?",
+      "answer": "La tasa de engagement promedio en Instagram esta entre el 1% y el 3%. Las tasas superiores al 3% se consideran fuertes, y las superiores al 6% son excelentes. El engagement varia segun el nicho, el tamano de la audiencia y el tipo de contenido."
+    },
+    {
+      "question": "Las herramientas de analisis de Instagram requieren iniciar sesion con tu cuenta?",
+      "answer": "No todas. IGStoryPeek no requiere ningun inicio de sesion ni credenciales de Instagram. Analiza directamente los datos disponibles publicamente, manteniendo tu cuenta personal completamente separada."
+    },
+    {
+      "question": "Como puedes ver quien dejo de seguirte en Instagram?",
+      "answer": "Instagram no te notifica cuando alguien deja de seguirte. Las herramientas de seguimiento de terceros pueden monitorear tu lista publica de seguidores a lo largo del tiempo y alertarte sobre cambios, incluyendo quienes dejaron de seguirte."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="350" cy="220" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="850" cy="380" r="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.03" stroke="#fff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="630"/><line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/><line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/><line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/><line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/><line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/><line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+  <!-- Profile card background -->
+  <g transform="translate(600, 240)">
+    <rect x="-180" y="-140" width="360" height="280" rx="20" fill="url(#cardGrad)" stroke="url(#ring)" stroke-width="2" opacity="0.6"/>
+    <!-- Profile avatar circle -->
+    <circle cx="0" cy="-40" r="58" stroke="url(#ring)" stroke-width="3.5" fill="none"/>
+    <circle cx="0" cy="-40" r="50" fill="#1e293b"/>
+    <!-- User icon inside avatar -->
+    <circle cx="0" cy="-52" r="16" fill="none" stroke="#0ea5e9" stroke-width="2.5"/>
+    <path d="M-26 -14 C-26 -30 -14 -34 0 -34 C14 -34 26 -30 26 -14" fill="none" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Profile info lines -->
+    <rect x="-60" y="30" width="120" height="8" rx="4" fill="#0ea5e9" opacity="0.4"/>
+    <rect x="-80" y="50" width="160" height="6" rx="3" fill="#94a3b8" opacity="0.25"/>
+    <rect x="-65" y="65" width="130" height="6" rx="3" fill="#94a3b8" opacity="0.2"/>
+    <!-- Stats row -->
+    <g transform="translate(0, 95)">
+      <text x="-70" y="0" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0ea5e9" opacity="0.7">248</text>
+      <text x="-70" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8" opacity="0.5">Posts</text>
+      <text x="0" y="0" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0ea5e9" opacity="0.7">12.4K</text>
+      <text x="0" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8" opacity="0.5">Followers</text>
+      <text x="70" y="0" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0ea5e9" opacity="0.7">891</text>
+      <text x="70" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8" opacity="0.5">Following</text>
+    </g>
+  </g>
+  <!-- Left side: Stories circles -->
+  <g transform="translate(260, 200)">
+    <circle cx="0" cy="0" r="36" stroke="url(#ring)" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="0" r="30" fill="#1e293b"/>
+    <path d="M-8 -6 L6 2 L-8 10Z" fill="#0ea5e9" opacity="0.6"/>
+  </g>
+  <g transform="translate(260, 290)">
+    <circle cx="0" cy="0" r="36" stroke="url(#ring)" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="0" r="30" fill="#1e293b"/>
+    <rect x="-10" y="-12" width="20" height="24" rx="3" fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.6"/>
+    <circle cx="0" cy="-2" r="6" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <!-- Right side: Content grid -->
+  <g transform="translate(830, 170)">
+    <rect x="0" y="0" width="70" height="70" rx="6" fill="#1e293b" stroke="#0ea5e9" stroke-width="1" opacity="0.4"/>
+    <rect x="80" y="0" width="70" height="70" rx="6" fill="#1e293b" stroke="#0ea5e9" stroke-width="1" opacity="0.3"/>
+    <rect x="0" y="80" width="70" height="70" rx="6" fill="#1e293b" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+    <rect x="80" y="80" width="70" height="70" rx="6" fill="#1e293b" stroke="#22d3ee" stroke-width="1" opacity="0.4"/>
+    <!-- Play icon in top-left grid cell -->
+    <path d="M30 30 L45 38 L30 46Z" fill="#0ea5e9" opacity="0.5"/>
+    <!-- Image icon in bottom-right grid cell -->
+    <circle cx="110" cy="110" r="8" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.5"/>
+    <path d="M85 125 L95 115 L105 120 L115 108 L125 125Z" fill="#22d3ee" opacity="0.2"/>
+  </g>
+  <!-- Eye/view icon top center -->
+  <g transform="translate(600, 60)" opacity="0.4">
+    <path d="M-20 0 C-10 -14 10 -14 20 0 C10 14 -10 14 -20 0Z" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2.5" fill="#22d3ee"/>
+  </g>
+  <!-- Text -->
+  <text x="600" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" letter-spacing="0.5">Instagram Profile Viewer</text>
+  <text x="600" y="475" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="1">BROWSE COMPLETE PUBLIC PROFILES WITHOUT AN ACCOUNT</text>
+  <!-- Decorative dots -->
+  <circle cx="90" cy="90" r="3" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="1110" cy="540" r="3" fill="#22d3ee" opacity="0.3"/>
+  <circle cx="140" cy="510" r="2" fill="#0ea5e9" opacity="0.2"/>
+  <circle cx="1060" cy="120" r="2" fill="#22d3ee" opacity="0.2"/>
+  <circle cx="960" cy="70" r="4" fill="#0ea5e9" opacity="0.15"/>
+  <circle cx="240" cy="560" r="4" fill="#22d3ee" opacity="0.15"/>
+  <circle cx="180" cy="300" r="2.5" fill="#0ea5e9" opacity="0.2"/>
+  <circle cx="1020" cy="400" r="2.5" fill="#22d3ee" opacity="0.2"/>
+</svg>

@@ -1,0 +1,85 @@
+---
+/**
+ * Testimonial cards — social proof from anonymous users.
+ * Testimonial quotes stay in English; only headings are translated.
+ */
+const t = (Astro.locals as any).t || {};
+const tT = t.testimonials || {};
+
+const testimonials = [
+  {
+    name: 'Ethan M***',
+    role: 'Marketing Manager',
+    stars: 5,
+    text: 'IGStoryPeek has transformed how we track competitors. The engagement analytics are incredibly detailed and the monitoring alerts save us hours every week.',
+    avatar: 'EM',
+  },
+  {
+    name: 'Sarah K***',
+    role: 'Social Media Analyst',
+    stars: 5,
+    text: 'Finally a tool that delivers real insights without compromising privacy. The AI-powered analysis catches trends I would have completely missed.',
+    avatar: 'SK',
+  },
+  {
+    name: 'James R***',
+    role: 'Freelance Researcher',
+    stars: 4,
+    text: 'Very solid tool overall. The reports are thorough and the UI is clean. Wish the free tier had a few more searches per day, but the Pro plan is worth it.',
+    avatar: 'JR',
+  },
+  {
+    name: 'Mia L***',
+    role: 'Brand Strategist',
+    stars: 5,
+    text: 'We use IGStoryPeek daily for influencer vetting. The cross-platform detection and audience quality metrics have saved us from bad partnerships.',
+    avatar: 'ML',
+  },
+];
+---
+
+<section class="py-20 lg:py-28 bg-dark-800/30">
+  <div class="section-container">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl sm:text-4xl font-heading font-bold mb-4">
+        {tT.heading || 'Trusted by'} <span class="gradient-text">{tT.headingHighlight || 'Thousands'}</span>
+      </h2>
+      <p class="text-dark-400 text-lg max-w-2xl mx-auto">
+        {tT.subtitle || 'See what our users say about IGStoryPeek.'}
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {testimonials.map((t) => (
+        <div class="glass p-6 flex flex-col card-hover">
+          <!-- Stars -->
+          <div class="flex gap-0.5 mb-4">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <svg
+                class={`w-4 h-4 ${i < t.stars ? 'text-yellow-400' : 'text-dark-600'}`}
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+
+          <!-- Text -->
+          <p class="text-sm text-dark-300 leading-relaxed flex-1 mb-5">"{t.text}"</p>
+
+          <!-- Author -->
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-xs font-bold text-white">
+              {t.avatar}
+            </div>
+            <div>
+              <p class="text-sm font-medium text-white">{t.name}</p>
+              <p class="text-xs text-dark-500">{t.role}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Ferramentas Instagram — Analise Perfis, Navegue por Stories e Baixe Conteúdo Grátis",
+    "heroTitle": "Suite de Análise e Conteúdo do Instagram",
+    "sectionHeading": "Explore Todas as Funcionalidades do Instagram",
+    "sectionSub": "ferramentas especializadas para análise de perfis do Instagram, navegação de conteúdo, download e rastreamento de atividades.",
+    "ctaHeading": "Comece com a Análise do Instagram",
+    "ctaSub": "Pesquise qualquer perfil público do Instagram e receba análises detalhadas, acesso a conteúdo e relatórios de atividade instantaneamente.",
+    "cardCta": "Experimente esta ferramenta"
+  },
+  "faqs": [
+    {
+      "question": "Como verificar a taxa de engajamento de uma conta do Instagram?",
+      "answer": "A taxa de engajamento é calculada dividindo o total de interações (curtidas, comentários, salvamentos, compartilhamentos) pelo número de seguidores e multiplicando por 100. O IGStoryPeek automatiza esse cálculo para qualquer perfil público do Instagram."
+    },
+    {
+      "question": "Quais métricas você deve acompanhar no Instagram?",
+      "answer": "As principais métricas do Instagram incluem taxa de engajamento, crescimento de seguidores, alcance, impressões, visualizações de stories, salvamentos, compartilhamentos e frequência de publicação. O IGStoryPeek fornece todos esses dados para contas públicas."
+    },
+    {
+      "question": "É possível analisar o perfil público do Instagram de outra pessoa?",
+      "answer": "Sim. Qualquer perfil do Instagram configurado como público pode ser analisado usando ferramentas como o IGStoryPeek. Você pode visualizar métricas de engajamento, desempenho de conteúdo e padrões de publicação sem precisar fazer login."
+    },
+    {
+      "question": "Qual é uma boa taxa de engajamento no Instagram?",
+      "answer": "A taxa média de engajamento no Instagram está entre 1% e 3%. Taxas acima de 3% são consideradas fortes e taxas acima de 6% são excelentes. O engajamento varia conforme o nicho, o tamanho do público e o tipo de conteúdo."
+    },
+    {
+      "question": "As ferramentas de análise do Instagram exigem que você faça login com sua conta?",
+      "answer": "Nem todas. O IGStoryPeek não exige nenhum login ou credenciais do Instagram. Ele analisa dados publicamente disponíveis diretamente, mantendo sua conta pessoal completamente separada."
+    },
+    {
+      "question": "Como você pode ver quem deixou de te seguir no Instagram?",
+      "answer": "O Instagram não notifica quando alguém deixa de seguir você. Ferramentas de rastreamento de terceiros podem monitorar sua lista pública de seguidores ao longo do tempo e alertá-lo sobre mudanças, incluindo quem deixou de seguir."
+    }
+  ]
+}

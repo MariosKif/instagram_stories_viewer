@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Snapchat Araçları — Puan Takipçisi, Hikaye İndirici ve Aktivite Takipçisi",
+    "heroTitle": "Snapchat Analitik ve İçerik Araç Seti",
+    "sectionHeading": "Tüm Snapchat Özelliklerini Görüntüleyin",
+    "sectionSub": "Snapchat puan takibi, seri analizi, hikaye indirme ve aktivite takibine odaklanan araçlar.",
+    "ctaHeading": "Snapchat Aktivitesini Takip Etmeye Başlayın",
+    "ctaSub": "Puan takibi, içerik indirmeleri ve aktivite takibine erişmek için herhangi bir herkese açık Snapchat kullanıcı adı girin.",
+    "cardCta": "Bu özelliği kullanın"
+  },
+  "faqs": [
+    {
+      "question": "Snapchat puanı nedir ve nasıl hesaplanır?",
+      "answer": "Snapchat puanınız, platformdaki genel etkinliğinizi yansıtan bir sayıdır. Gönderdiğiniz ve aldığınız Snap sayısına, paylaştığınız Hikayelere ve diğer etkileşim faktörlerine göre artar."
+    },
+    {
+      "question": "Snapchat puanınızı nasıl artırırsınız?",
+      "answer": "Sık sık Snap gönderin ve açın, Hikayeler paylaşın, Snap Serilerini sürdürün ve yeni arkadaşlar ekleyin. Grup Snap'leri ve video Snap'leri, yalnızca metin içeren Snap'lerden daha fazla puan kazandırabilir."
+    },
+    {
+      "question": "24 saat sonra Snapchat hikayenizi kimin görüntülediğini görebilir misiniz?",
+      "answer": "Hayır. Bir Snapchat Hikayesi 24 saat sonra süresi dolduğunda, izleyici listesi artık uygulama aracılığıyla erişilebilir değildir. Üçüncü taraf takip araçları, süresi dolmadan önce görüntülemeleri izlemenize yardımcı olabilir."
+    },
+    {
+      "question": "Snapchat Insights'a kim erişebilir?",
+      "answer": "Snapchat Insights, herkese açık profiller ve belirli bir takipçi eşiğine sahip içerik üreticiler için kullanılabilir. Diğer herkes için IGStoryPeek gibi üçüncü taraf analitik araçları puan takibi ve aktivite izleme sunar."
+    },
+    {
+      "question": "Snapchat+ aboneleri için Snapchat puan çarpanı ne işe yarar?",
+      "answer": "Snapchat+ aboneleri, puanlarının ne kadar hızlı büyüdüğünü gösteren bir puan çarpanı görebilir. Puanların nasıl kazanıldığını değiştirmez — yalnızca artış hızını gösterir."
+    },
+    {
+      "question": "Snapchat puanınızı ne sıklıkla günceller?",
+      "answer": "Snapchat puanları neredeyse gerçek zamanlı olarak güncellenir, ancak bazen kısa bir gecikme olabilir. Puanınız, hesabınızı oluşturduğunuzdan bu yana biriken toplam etkinliği yansıtır."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "TikTok-verktyg — Kreatörsanalys, videonedladdning och innehållsbläddring",
+    "heroTitle": "TikTok-analysplattform för kreatörer",
+    "sectionHeading": "Utforska alla TikTok-verktyg",
+    "sectionSub": "specialbyggda verktyg för TikTok-kreatörsanalys, nedladdningar i originalkvalitet, innehållsbläddring och engagemangsspårning.",
+    "ctaHeading": "Lås upp TikTok-insikter nu",
+    "ctaSub": "Ange valfritt offentligt TikTok-kreatörsnamn för att få tillgång till analys, nedladdningar och spårningsfunktioner.",
+    "cardCta": "Öppna verktyg"
+  },
+  "faqs": [
+    {
+      "question": "Hur fungerar TikTok-analys?",
+      "answer": "TikTok-analys spårar videoprestationsmått som visningar, gillningar, kommentarer, delningar och publikdemografi. IGStoryPeek låter dig se offentlig TikTok-kreatörsanalys utan att behöva ett TikTok-konto."
+    },
+    {
+      "question": "Kan man ladda ner TikTok-videor i originalkvalitet?",
+      "answer": "Ja. IGStoryPeek erbjuder en TikTok-videonedladdare som sparar videor i deras originalkvalitet utan vattenstämplar, vilket gör det enkelt att referera till innehåll offline."
+    },
+    {
+      "question": "Är det lagligt att ladda ner någon annans TikTok-video?",
+      "answer": "Att ladda ner offentliga TikTok-videor för personlig referens eller forskning är i allmänhet tillåtet. Att dock återdistribuera eller tjäna pengar på någon annans innehåll utan tillstånd kan bryta mot upphovsrättslagen."
+    },
+    {
+      "question": "Behöver man ett Pro-konto för att se TikTok-analys?",
+      "answer": "TikToks inbyggda analys kräver ett Pro-konto (företags- eller kreatörskonto). Verktyg som IGStoryPeek kan dock visa offentliga prestandadata för alla kreatörer utan att kräva något TikTok-konto."
+    },
+    {
+      "question": "Vilka mätvärden spårar TikTok-analys?",
+      "answer": "TikTok-analys spårar videovisningar, profilvisningar, antal följare, gillningar, kommentarer, delningar, genomsnittlig visningstid och publikdemografi inklusive plats och kön."
+    },
+    {
+      "question": "Kan man se TikTok-profiler utan ett konto?",
+      "answer": "Ja. Offentliga TikTok-profiler kan bläddras utan att skapa ett konto. IGStoryPeek låter dig söka efter valfritt offentligt TikTok-användarnamn och se deras innehåll och analys direkt."
+    }
+  ]
+}

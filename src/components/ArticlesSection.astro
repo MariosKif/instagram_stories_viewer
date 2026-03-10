@@ -1,0 +1,82 @@
+---
+/**
+ * Blog preview section — pulls latest posts from the blog content collection.
+ * Shows image, title, date, excerpt, category badge, reading time, and a "Read More" link.
+ */
+import { getCollection } from 'astro:content';
+import { getLocalizedPath, type Language } from '../i18n/utils';
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const t = (Astro.locals as any).t || {};
+const artT = t.articles || {};
+
+const allPosts = await getCollection('blog');
+let langPosts = allPosts.filter((p) => p.data.lang === lang);
+if (langPosts.length === 0) langPosts = allPosts.filter((p) => p.data.lang === 'en');
+
+const posts = langPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+function getPostSlug(post: any): string {
+  return post.slug.includes('/') ? post.slug.split('/').slice(1).join('/') : post.slug;
+}
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString(lang === 'en' ? 'en-US' : lang, { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function getReadingTime(body: string): number {
+  const words = body.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+}
+---
+
+<section class="py-20 lg:py-28">
+  <div class="section-container">
+    <div class="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-12">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-heading font-bold mb-2">
+          {artT.heading || 'Latest from the'} <span class="gradient-text">{artT.headingHighlight || 'Blog'}</span>
+        </h2>
+        <p class="text-dark-400 text-lg">{artT.subtitle || 'Tips, guides, and industry insights.'}</p>
+      </div>
+      <a href={getLocalizedPath('/blog', lang)} class="btn-ghost text-primary text-sm mt-4 sm:mt-0">
+        {artT.viewAll || 'View all posts'} &rarr;
+      </a>
+    </div>
+
+    {posts.length > 0 ? (
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {posts.map((post) => (
+          <a href={getLocalizedPath(`/blog/${getPostSlug(post)}`, lang)} class="glass overflow-hidden card-hover group block">
+            <div class="h-48 overflow-hidden">
+              <img
+                src={post.data.image || '/blog/default-blog-hero.svg'}
+                alt={post.data.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="text-[10px] font-medium uppercase tracking-wider text-primary bg-primary/10 border border-primary/20 px-2 py-0.5 rounded-full">
+                  {post.data.category || 'Guides'}
+                </span>
+                <span class="text-[11px] text-dark-500">{getReadingTime(post.body ?? '')} min read</span>
+              </div>
+              <time class="text-xs text-dark-500">{formatDate(post.data.pubDate)}</time>
+              <h3 class="text-base font-semibold text-white mt-1 mb-2 group-hover:text-primary transition-colors line-clamp-2">
+                {post.data.title}
+              </h3>
+              <p class="text-sm text-dark-400 line-clamp-2">{post.data.description}</p>
+              <span class="inline-block mt-3 text-xs text-primary font-medium">{artT.readMore || 'Read More'} &rarr;</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="text-dark-500 text-center py-12">{artT.noPosts || 'No blog posts yet. Check back soon!'}</p>
+    )}
+  </div>
+</section>

@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Instagram-ty\u00f6kalut \u2014 Analysoi profiileja, selaa tarinoita ja lataa sis\u00e4lt\u00f6\u00e4 ilmaiseksi",
+    "heroTitle": "Instagram-analytiikka ja sis\u00e4lt\u00f6paketti",
+    "sectionHeading": "Selaa kaikkia Instagram-ominaisuuksia",
+    "sectionSub": "erikoisty\u00f6kalut Instagram-profiilianalyysiin, sis\u00e4ll\u00f6n selaamiseen, lataamiseen ja toiminnan seurantaan.",
+    "ctaHeading": "Aloita Instagram-analytiikan k\u00e4ytt\u00f6",
+    "ctaSub": "Etsi mik\u00e4 tahansa julkinen Instagram-k\u00e4ytt\u00e4j\u00e4nimi ja saa yksityiskohtainen analytiikka, p\u00e4\u00e4sy sis\u00e4lt\u00f6\u00f6n ja toimintaraportit v\u00e4litt\u00f6m\u00e4sti.",
+    "cardCta": "Kokeile t\u00e4t\u00e4 ty\u00f6kalua"
+  },
+  "faqs": [
+    {
+      "question": "Miten tarkistat Instagram-tilin sitoutumisasteen?",
+      "answer": "Sitoutumisaste lasketaan jakamalla kokonaisinteraktiot (tykk\u00e4ykset, kommentit, tallennukset, jaot) seuraajam\u00e4\u00e4r\u00e4ll\u00e4 ja kertomalla sitten 100:lla. IGStoryPeek automatisoi t\u00e4m\u00e4n laskelman mille tahansa julkiselle Instagram-profiilille."
+    },
+    {
+      "question": "Mit\u00e4 mittareita sinun tulisi seurata Instagramissa?",
+      "answer": "T\u00e4rkeit\u00e4 Instagram-mittareita ovat sitoutumisaste, seuraajien kasvu, kattavuus, n\u00e4ytt\u00f6kerrat, tarinan\u00e4kym\u00e4t, tallennukset, jaot ja julkaisutiheys. IGStoryPeek tarjoaa kaikki n\u00e4m\u00e4 julkisille tileille."
+    },
+    {
+      "question": "Voitko analysoida toisen henkil\u00f6n julkista Instagram-profiilia?",
+      "answer": "Kyll\u00e4. Mit\u00e4 tahansa julkiseksi asetettua Instagram-profiilia voidaan analysoida ty\u00f6kaluilla kuten IGStoryPeek. Voit tarkastella sitoutumismittareita, sis\u00e4ll\u00f6n suorituskyky\u00e4 ja julkaisumalleja ilman kirjautumista."
+    },
+    {
+      "question": "Mik\u00e4 on hyv\u00e4 sitoutumisaste Instagramissa?",
+      "answer": "Instagramin keskim\u00e4\u00e4r\u00e4inen sitoutumisaste on 1\u20133 %. Yli 3 %:n asteet katsotaan vahvoiksi ja yli 6 % erinomaisiksi. Sitoutuminen vaihtelee nichen, yleis\u00f6n koon ja sis\u00e4lt\u00f6tyypin mukaan."
+    },
+    {
+      "question": "Vaativatko Instagram-analytiikkaty\u00f6kalut kirjautumista tilill\u00e4si?",
+      "answer": "Eiv\u00e4t kaikki. IGStoryPeek ei vaadi kirjautumista eik\u00e4 Instagram-tunnuksia. Se analysoi julkisesti saatavilla olevia tietoja suoraan pit\u00e4en henkil\u00f6kohtaisen tilisi t\u00e4ysin erillisen\u00e4."
+    },
+    {
+      "question": "Miten n\u00e4et, kuka on lakannut seuraamasta sinua Instagramissa?",
+      "answer": "Instagram ei ilmoita sinulle, kun joku lakkaa seuraamasta sinua. Kolmannen osapuolen seurantaty\u00f6kalut voivat seurata julkista seuraajaluetteloasi ajan mittaan ja ilmoittaa muutoksista, mukaan lukien seuraamisen lopettamisista."
+    }
+  ]
+}

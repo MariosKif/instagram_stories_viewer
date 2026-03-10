@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "IGStoryPeek - Bezmaksas Instagram Stories skatītājs | Skatīt Stories bez konta 2025",
+    "description": "Bezmaksas Instagram Stories skatītājs - Skatieties Instagram stories bez konta. 100% privāts publisko profilu, ierakstu, stories, izcelto skatīšanās. Reģistrācija nav nepieciešama. Labākais Instagram story skatītāja rīks 2025.",
+    "keywords": "instagram stories skatītājs, instagram skatītājs, story skatītājs, instagram profila skatītājs, instagram ierakstu skatītājs, privāta pārlūkošana, instagram izceltas, instagram stories pārlūkošana, bezmaksas instagram skatītājs, instagram story lejupielādētājs, skatīt instagram stories bez konta, instagram skatītāja rīks, instagram story skatītājs 2025, ig story skatītājs, instagram skatītājs bez pieteikšanās"
+  },
+  "nav": {
+    "home": "Sākums",
+    "blog": "Blogs",
+    "terms": "Noteikumi un nosacījumi",
+    "privacy": "Privātuma politika",
+    "contact": "Kontakti"
+  },
+  "navbar": {
+    "features": "Funkcijas",
+    "pricing": "Cenas",
+    "blog": "Blogs",
+    "login": "Pieteikties",
+    "dashboard": "Vadības panelis",
+    "searchNow": "Meklēt tagad"
+  },
+  "hero": {
+    "title": "Jūsu universālais",
+    "titleHighlight": "sociālo mediju analītikas",
+    "titleEnd": "rīks",
+    "subtitle": "Analizējiet publiskos profilus, sekojiet iesaistīšanās tendencēm un izpētiet saturu — vairākās platformās, bez konta.",
+    "placeholder": "Ievadiet Instagram lietotājvārdu...",
+    "button": "Meklēt",
+    "viewSample": "Skatīt parauga atskaiti",
+    "badge1": "AI darbināts",
+    "badge2": "Konts nav nepieciešams",
+    "badge3": "Tikai publiski dati",
+    "badge4": "Reāllaika analīze",
+    "popularSearches": "Populāri meklējumi:"
+  },
+  "searchBar": {
+    "placeholder": "Ievadiet Instagram lietotājvārdu",
+    "button": "Meklēt tagad",
+    "errorEmpty": "Lūdzu, ievadiet lietotājvārdu.",
+    "errorInvalid": "Nederīgs lietotājvārds. Izmantojiet burtus, ciparus, punktus vai apakšsvītras."
+  },
+  "notice": {
+    "title": "Piekļuve Instagram saturam",
+    "description": "IGStoryPeek pakalpojums pašlaik nodrošina piekļuvi Instagram Stories, ierakstiem, izceltajam un profila informācijai. Tas ļauj diskrēti skatīt publiski pieejamu Instagram saturu.",
+    "availableContent": "Pieejamais saturs:",
+    "availableContentDesc": "Stories, ieraksti, izceltais un profila informācija no publiski pieejamiem kontiem.",
+    "privacy": "Privātums:",
+    "privacyDesc": "Katra skatīšanas sesija ir privāta - nav nepieciešams konts vai pieteikšanās, lai pārlūkotu publisku saturu."
+  },
+  "features": {
+    "title": "IGStoryPeek funkcijas",
+    "intro": "IGStoryPeek piedāvā bezmaksas pakalpojumu Instagram stories pārlūkošanai no publiski pieejamiem kontiem bez Instagram konta nepieciešamības. Visas funkcijas ir pilnīgi bezmaksas un prasa tikai ievadīt Instagram lietotājvārdu, ko vēlaties skatīt.",
+    "anonymity": {
+      "title": "100% privāts",
+      "description": "Pārlūkojiet publisku saturu bez nepieciešamības izveidot kontu vai pieteikties"
+    },
+    "noAccount": {
+      "title": "Konts nav nepieciešams",
+      "description": "Nav nepieciešams izveidot Instagram kontu. Jums ir iespēja skatīt lietotāju stories un citas multivides publikācijas bez reģistrācijas un lietotnes"
+    },
+    "download": {
+      "title": "Lejupielādes iespēja",
+      "description": "Jūs varat skatīt, lejupielādēt stories, publikācijas un citu informāciju bez maksas jebkurā ierīcē: datorā, klēpjdatorā, planšetdatorā vai viedtālrunī (Android, iOS un citās operētājsistēmās)"
+    }
+  },
+  "benefits": {
+    "heading": "Kāpēc izvēlēties",
+    "headingHighlight": "IGStoryPeek",
+    "subtitle": "Jaudīgas funkcijas, kas veidotas privātumam, precizitātei un ērtai lietošanai.",
+    "publicData": {
+      "title": "Tikai publiski dati",
+      "description": "Mēs analizējam tikai publiski pieejamu informāciju. Privāti dati nekad netiek piekļūti vai saglabāti."
+    },
+    "noLogin": {
+      "title": "Pieteikšanās nav nepieciešama",
+      "description": "Pārlūkojiet profilus un stories bez konta izveidošanas vai pieteikšanās."
+    },
+    "realTime": {
+      "title": "Reāllaika atjauninājumi",
+      "description": "Iestatiet automatiskus brīdinājumus, lai būtu informēti par konta izmaiņām un jaunu aktivitāti."
+    },
+    "aiInsights": {
+      "title": "AI ieskati",
+      "description": "Uzlabotas algoritmas analizē iesaistīšanās modeļus un sniedz praktiski izmantojamus ieskatus."
+    },
+    "multiPlatform": {
+      "title": "Vairāku platformu atbalsts",
+      "description": "Analizējiet profilus Instagram, TikTok, Facebook un Snapchat no vienas vietas."
+    },
+    "easyToUse": {
+      "title": "Vienkāršs lietošanā",
+      "description": "Vienkārši ievadiet lietotājvārdu un saņemiet savu atskaiti. Nav nepieciešamas tehniskas zināšanas."
+    }
+  },
+  "useCases": {
+    "heading": "Veidots",
+    "headingHighlight": "katram lietošanas gadījumam",
+    "subtitle": "Neatkarīgi no tā, vai esat mārketinga speciālists vai indivīds, IGStoryPeek nodrošina nepieciešamos ieskatus.",
+    "forMarketers": "Mārketinga speciālistiem",
+    "forIndividuals": "Indivīdiem",
+    "marketer1Title": "Sekojiet konkurentiem",
+    "marketer1Desc": "Uzraugiet konkurentu publicēšanas modeļus, iesaistīšanās rādītājus un satura stratēģijas.",
+    "marketer2Title": "Uzraugiet iesaistīšanās pieaugumu",
+    "marketer2Desc": "Saņemiet brīdinājumus, kad kontiem ir neparasta izaugsme vai virāls saturs.",
+    "marketer3Title": "Ietekmētāju atklāšana",
+    "marketer3Desc": "Atrodiet un novērtējiet ietekmētājus, pamatojoties uz reāliem iesaistīšanās datiem un auditorijas kvalitāti.",
+    "individual1Title": "Pārlūkojiet bez konta",
+    "individual1Desc": "Skatiet stories un ierakstus bez nepieciešamības pieteikties vai izveidot kontu.",
+    "individual2Title": "Sekojiet iesaistīšanās modeļiem",
+    "individual2Desc": "Skatiet, kā auditorija mijiedarbojas ar konkrētiem kontiem un saturu.",
+    "individual3Title": "Satura veiktspējas ieskati",
+    "individual3Desc": "Izprotiet iesaistīšanās modeļus un satura veiktspēju dažādos profilos."
+  },
+  "featuresSuite": {
+    "heading": "Pilns",
+    "headingHighlight": "produktu komplekts",
+    "subtitle": "Četri jaudīgi rīki, kas veidoti, lai sniegtu pilnu priekšstatu par jebkuru publisku Instagram klātbūtni.",
+    "analyzer": {
+      "title": "Instagram analizators",
+      "description": "Padziļināta analītika jebkuram publiskam profilam. Iesaistīšanās rādītāji, izaugsmes tendences, satura veiktspēja un auditorijas ieskati."
+    },
+    "browser": {
+      "title": "Satura pārlūks",
+      "description": "Pārlūkojiet stories, ierakstus un izceltās bez pieteikšanās — konts nav nepieciešams."
+    },
+    "downloader": {
+      "title": "Lejupielādētājs",
+      "description": "Saglabājiet stories, reels un ierakstus oriģinālā kvalitātē. Saglabājiet ierakstus konkurences analīzei vai personiskai lietošanai."
+    },
+    "tracker": {
+      "title": "Aktivitātes izsekotājs",
+      "description": "Iestatiet automatiskus brīdinājumus jebkuram publiskam kontam. Saņemiet paziņojumus par jauniem ierakstiem, story atjauninājumiem un sekotāju izmaiņām."
+    },
+    "learnMore": "Uzzināt vairāk"
+  },
+  "testimonials": {
+    "heading": "Uzticas",
+    "headingHighlight": "tūkstošiem",
+    "subtitle": "Skatiet, ko mūsu lietotāji saka par IGStoryPeek."
+  },
+  "trust": {
+    "userCount": "50 000+ lietotāju",
+    "trustLine": "uzticas IGStoryPeek",
+    "sslEncrypted": "SSL šifrēts",
+    "gdprCompliant": "GDPR saderīgs",
+    "publicDataOnly": "Tikai publiski dati",
+    "complianceNote": "Visi dati ir iegūti no publiski pieejamiem profiliem saskaņā ar piemērojamiem likumiem."
+  },
+  "ctaSection": {
+    "heading": "Sāciet analizēt",
+    "headingHighlight": "šodien",
+    "description": "Ievadiet jebkuru publisku lietotājvārdu un saņemiet visaptverošu analītikas atskaiti dažu sekunžu laikā."
+  },
+  "articles": {
+    "heading": "Jaunākais no",
+    "headingHighlight": "bloga",
+    "subtitle": "Padomi, ceļveži un nozares ieskati.",
+    "viewAll": "Skatīt visus ierakstus",
+    "readMore": "Lasīt vairāk",
+    "noPosts": "Vēl nav bloga ierakstu. Atgriezieties drīz!"
+  },
+  "faq": {
+    "title": "Bieži uzdotie jautājumi"
+  },
+  "cookie": {
+    "message": "Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pieredzi, analizētu datplūsmu un rādītu atbilstošas reklāmas. Noklikšķinot uz \"Pieņemt visus\", jūs piekrītat mūsu sīkdatņu izmantošanai.",
+    "learnMore": "Uzzināt vairāk",
+    "managePreferences": "Pārvaldīt preferences",
+    "acceptAll": "Pieņemt visus"
+  },
+  "footer": {
+    "brandDescription": "Sociālo mediju analītika un satura rīki. Analizējiet publiskos profilus, sekojiet iesaistīšanai un ģenerējiet ieskatus.",
+    "product": "Produkts",
+    "features": "Funkcijas",
+    "pricing": "Cenas",
+    "sampleReport": "Parauga atskaite",
+    "dashboard": "Vadības panelis",
+    "resources": "Resursi",
+    "blog": "Blogs",
+    "useCases": "Lietošanas gadījumi",
+    "faqLink": "BUJ",
+    "legal": "Juridiski",
+    "privacyPolicy": "Privātuma politika",
+    "termsOfService": "Pakalpojumu noteikumi",
+    "aboutUs": "Par mums",
+    "contact": "Kontakti",
+    "cookiePolicy": "Sīkdatņu politika",
+    "dmca": "DMCA",
+    "tools": "Rīki",
+    "viewAll": "Skatīt visus",
+    "copyright": "IGStoryPeek. Visas tiesības aizsargātas. Nav saistīts ar Instagram vai Meta.",
+    "dataSource": "Visi dati iegūti no publiski pieejamas informācijas.",
+    "navigation": "Navigācija",
+    "disclaimer": "IGStoryPeek nav saistīts ar Instagram. Mēs neuzglabājam Instagram Stories savos serveros, visas tiesības pieder to īpašniekiem.",
+    "instagramVideoDownloader": "Instagram video lejupielādētājs",
+    "instagramStoryViewer": "Instagram Story skatītājs",
+    "comingSoon": "Šī funkcija drīzumā būs pieejama!",
+    "alreadyUsing": "Jūs jau izmantojat Instagram Story skatītāju!",
+    "removeProfile": "Noņemt profilu",
+    "removeProfileMessage": "Lai noņemtu savu profilu, lūdzu, sazinieties ar support@igstorypeek.com ar savu Instagram lietotājvārdu."
+  },
+  "howItWorks": {
+    "title": "Kā darbojas privāta Instagram Stories skatīšana?",
+    "step1": "Ievadiet tā profila lietotājvārdu, ko vēlaties skatīt",
+    "step2": "Ievadīto lietotājvārdu saņem mūsu sistēma un apstrādā mūsu automatizētais process",
+    "step3": "Mūsu pakalpojums attēlo profila lapu, rādot jaunāko un pašreizējo informāciju",
+    "step4": "Instagram story skatījumi tiek reģistrēti zem viena no mūsu pakalpojumu kontiem",
+    "step5": "Jūsu identitāte paliek pilnīgi privāta",
+    "cta": "Sākt meklēšanu"
+  },
+  "pricing": {
+    "title": "Vienkāršas, caurspīdīgas",
+    "titleHighlight": "cenas",
+    "subtitle": "Sāciet bez maksas. Jauniniet, kad nepieciešams vairāk jaudas.",
+    "free": {
+      "name": "Bezmaksas",
+      "description": "Neregulāriem lietotājiem un ātriem meklējumiem.",
+      "price": "$0",
+      "period": "/ mēnesī",
+      "feature1": "2 meklējumi ik pēc 8 stundām",
+      "feature2": "Pamata iesaistīšanās atskaite",
+      "feature3": "Profila pārskats",
+      "excluded1": "Nav nepārtrauktas uzraudzības",
+      "excluded2": "Nav AI ieskatu",
+      "cta": "Sākt bez maksas"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Populārākais",
+      "description": "Pieredzējušiem lietotājiem un profesionāļiem.",
+      "price": "$29",
+      "period": "/ mēnesī",
+      "feature1": "Neierobežoti meklējumi",
+      "feature2": "Pilna analītikas vadības panelis",
+      "feature3": "Nepārtraukta uzraudzība un brīdinājumi",
+      "feature4": "AI darbināti ieskati",
+      "feature5": "Vairāku platformu noteikšana",
+      "feature6": "Prioritāra atbalsts",
+      "cta": "Jaunināt uz Pro"
+    },
+    "faqs": [
+      {
+        "question": "Vai varu atcelt jebkurā laikā?",
+        "answer": "Jā! Jūs varat atcelt savu Pro abonementu jebkurā laikā. Jūs saglabāsiet piekļuvi līdz norēķinu perioda beigām."
+      },
+      {
+        "question": "Kādas maksājumu metodes jūs pieņemat?",
+        "answer": "Mēs pieņemam visas galvenās kredītkartes un debetkartes caur mūsu drošo maksājumu apstrādātāju (Stripe). Tiek atbalstīts arī Apple Pay un Google Pay."
+      },
+      {
+        "question": "Vai mani dati ir droši?",
+        "answer": "Noteikti. Visi savienojumi ir šifrēti ar SSL. Mēs nekad neuzglabājam Instagram paroles un apstrādājam tikai publiski pieejamus datus."
+      },
+      {
+        "question": "Cik parasti maksā Instagram analītikas rīki?",
+        "answer": "Lielākā daļa svārstās no bezmaksas līdz $30/mēnesī. IGStoryPeek piedāvā bezmaksas līmeni ar 2 meklējumiem ik pēc 8 stundām un Pro plānu par $29/mēnesī ar neierobežotu piekļuvi Instagram, TikTok, Facebook un Snapchat."
+      },
+      {
+        "question": "Kādas funkcijas piedāvā maksas sociālo mediju rīki, ko bezmaksas nepiedāvā?",
+        "answer": "Pro plāni parasti ietver neierobežotus meklējumus, nepārtrauktus izsekošanas brīdinājumus, AI darbinātus ieskatus, uzlabotu filtrēšanu un CSV eksportēšanu — funkcijas, kas pārsniedz bezmaksas līmeņa iespējas."
+      },
+      {
+        "question": "Vai sociālo mediju analītikas rīki piedāvā bezmaksas izmēģinājumus?",
+        "answer": "IGStoryPeek bezmaksas plāns ir pastāvīgi bezmaksas ar 2 meklējumiem ik pēc 8 stundām. Jūs varat jaunināt uz Pro jebkurā laikā un atcelt, kad vēlaties — nav nepieciešams izmēģinājuma periods."
+      },
+      {
+        "question": "Vai ir vērts maksāt par Instagram analītiku, ja pastāv bezmaksas rīki?",
+        "answer": "Bezmaksas rīki ir lieliski neregulārai lietošanai. Ja nepieciešami neierobežoti meklējumi, automātiski brīdinājumi vai profesionāla līmeņa atskaites, maksas plāns sniedz ievērojami lielāku vērtību un ietaupa laiku."
+      }
+    ]
+  },
+  "about": {
+    "title": "Par",
+    "titleHighlight": "IGStoryPeek",
+    "mission": "Mūsu misija ir padarīt sociālo mediju analītiku pieejamu, caurspīdīgu un privātumu respektējošu ikvienam.",
+    "whatWeDoTitle": "Ko mēs darām",
+    "whatWeDoDesc": "IGStoryPeek ir sociālo mediju analītikas platforma, kas palīdz mārketinga speciālistiem, pētniekiem un indivīdiem analizēt publiski pieejamus profila datus Instagram, TikTok, Facebook un Snapchat platformās.",
+    "valuesTitle": "Mūsu vērtības",
+    "transparency": {
+      "title": "Caurspīdīgums",
+      "description": "Mēs esam atklāti par to, kādiem datiem piekļūstam un kā tos izmantojam."
+    },
+    "publicDataOnly": {
+      "title": "Tikai publiski dati",
+      "description": "Mēs nekad nepiekļūstam privātiem profiliem, tiešajām ziņām vai nepubliskam saturam."
+    },
+    "compliance": {
+      "title": "Atbilstība",
+      "description": "Mēs darbojamies saskaņā ar GDPR, CCPA un piemērojamiem datu aizsardzības noteikumiem."
+    },
+    "userPrivacy": {
+      "title": "Lietotāja privātums",
+      "description": "Jūsu pārlūkošanas aktivitāte nekad netiek kopīgota. Mēs nepieprasām sociālo mediju akreditācijas datus."
+    },
+    "contactTitle": "Sazināties ar mums",
+    "contactDesc": "Jautājumi vai atsauksmes? Labprāt dzirdētu no jums.",
+    "contactEmail": "Rakstiet mums uz e-pastu",
+    "faqs": [
+      {
+        "question": "Vai ir likumīgi izmantot sociālo mediju analītikas rīkus?",
+        "answer": "Jā. IGStoryPeek apstrādā tikai publiski pieejamus datus un atbilst piemērojamiem privātuma noteikumiem. Mēs nekad nepiekļūstam privātiem profiliem vai ierobežotam saturam."
+      },
+      {
+        "question": "Vai varu izmantot IGStoryPeek akadēmiskiem vai tirgus pētījumiem?",
+        "answer": "Noteikti. Daudzi pētnieki un mārketinga profesionāļi izmanto IGStoryPeek, lai analizētu publiskās sociālo mediju tendences, iesaistīšanās modeļus un satura stratēģijas."
+      },
+      {
+        "question": "Vai IGStoryPeek pārdod lietotāju datus?",
+        "answer": "Nē. Mēs nepārdodam, netirgojam un nekopīgojam lietotāju datus ar trešajām pusēm. Lasiet mūsu Privātuma politiku sīkākai informācijai."
+      },
+      {
+        "question": "Kā IGStoryPeek vāc datus?",
+        "answer": "Mēs analizējam publiski pieejamus datus no sociālo mediju platformām. Privāti dati, tiešās ziņas vai ierobežots saturs nekad netiek piekļūts."
+      },
+      {
+        "question": "Kādas platformas atbalsta IGStoryPeek?",
+        "answer": "Pašlaik IGStoryPeek atbalsta Instagram, TikTok, Facebook un Snapchat analītiku."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Sazināties",
+    "titleHighlight": "ar mums",
+    "subtitle": "Jautājumi, atsauksmes vai nepieciešams atbalsts? Mēs esam šeit, lai palīdzētu.",
+    "formName": "Vārds",
+    "formEmail": "E-pasts",
+    "formSubject": "Temats",
+    "formMessage": "Ziņojums",
+    "formSubmit": "Nosūtīt ziņojumu",
+    "subjectGeneral": "Vispārīgs jautājums",
+    "subjectSupport": "Tehniskais atbalsts",
+    "subjectBilling": "Norēķini",
+    "subjectDmca": "DMCA/Autortiesības",
+    "subjectFeedback": "Atsauksmes",
+    "directEmail": "Vai rakstiet mums tieši uz",
+    "responseTime": "Parasti atbildam 24–48 darba stundu laikā.",
+    "legalTitle": "Juridiski pieprasījumi",
+    "legalDesc": "Juridiskiem pieprasījumiem, tostarp datu dzēšanai un GDPR jautājumiem, lūdzu, rakstiet uz",
+    "dmcaTitle": "DMCA paziņojumi",
+    "dmcaDesc": "Lai iesniegtu DMCA noņemšanas paziņojumu, lūdzu, apmeklējiet mūsu"
+  },
+  "login": {
+    "title": "Laipni lūgti atpakaļ",
+    "subtitle": "Pieteikties, lai piekļūtu savam vadības panelim un meklēšanas vēsturei.",
+    "googleSignIn": "Pieteikties ar Google",
+    "orDivider": "vai",
+    "emailLabel": "E-pasts",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Parole",
+    "passwordPlaceholder": "Ievadiet savu paroli",
+    "submitButton": "Pieteikties",
+    "noAccount": "Nav konta?",
+    "signUp": "Reģistrēties",
+    "errorInvalid": "Nederīgs e-pasts vai parole. Lūdzu, mēģiniet vēlreiz.",
+    "errorTooMany": "Pārāk daudz mēģinājumu. Lūdzu, mēģiniet vēlāk."
+  },
+  "register": {
+    "title": "Izveidot kontu",
+    "subtitle": "Reģistrējieties, lai saglabātu savus meklējumus un atbloķētu papildu funkcijas.",
+    "googleSignUp": "Reģistrēties ar Google",
+    "orDivider": "vai",
+    "emailLabel": "E-pasts",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Parole",
+    "passwordPlaceholder": "Izveidojiet paroli",
+    "confirmPasswordLabel": "Apstiprināt paroli",
+    "confirmPasswordPlaceholder": "Apstipriniet savu paroli",
+    "termsAgree": "Es piekrītu",
+    "termsLink": "Pakalpojumu noteikumiem",
+    "andText": "un",
+    "privacyLink": "Privātuma politikai",
+    "submitButton": "Izveidot kontu",
+    "hasAccount": "Jau ir konts?",
+    "logIn": "Pieteikties",
+    "errorEmailInUse": "E-pasts jau tiek izmantots. Lūdzu, mēģiniet citu e-pastu.",
+    "errorWeakPassword": "Parole ir pārāk vāja. Lūdzu, izmantojiet vismaz 6 rakstzīmes.",
+    "errorMismatch": "Paroles nesakrīt.",
+    "errorMinLength": "Parolei jābūt vismaz 6 rakstzīmēm."
+  },
+  "dashboard": {
+    "title": "Vadības panelis",
+    "currentPlan": "Pašreizējais plāns",
+    "searchesUsed": "Izmantotie meklējumi",
+    "totalSearches": "Kopējie meklējumi",
+    "free": "Bezmaksas",
+    "pro": "Pro",
+    "unlimited": "Neierobežots",
+    "quickSearch": "Ātrā meklēšana",
+    "quickSearchPlaceholder": "Ievadiet lietotājvārdu",
+    "quickSearchButton": "Meklēt",
+    "upgradeCta": "Jaunināt uz Pro",
+    "upgradeDesc": "Iegūstiet neierobežotus meklējumus, AI ieskatus un nepārtrauktu uzraudzību.",
+    "searchHistory": "Meklēšanas vēsture",
+    "noSearches": "Vēl nav meklējumu. Sāciet, meklējot lietotājvārdu augstāk."
+  },
+  "searchReport": {
+    "analyzingProfile": "Profila analīze",
+    "generatingReport": "Analītikas atskaites ģenerēšana priekš",
+    "engagementRate": "Iesaistīšanās rādītājs",
+    "avgLikes": "Vid. patīk",
+    "avgComments": "Vid. komentāri",
+    "followerGrowth": "Sekotāju pieaugums (30 dienas)",
+    "contentBreakdown": "Satura sadalījums",
+    "recentActivity": "Nesenā aktivitāte",
+    "date": "Datums",
+    "posts": "Ieraksti",
+    "stories": "Stories",
+    "likes": "Patīk",
+    "topInteractions": "Populārākās mijiedarbības",
+    "topHashtags": "Populārākie hashtagi",
+    "limitReached": "Meklēšanas limits sasniegts",
+    "limitDesc": "Jūs esat izmantojis visus savus bezmaksas meklējumus šim periodam.",
+    "nextReset": "Nākamā atiestatīšana pēc",
+    "watchAd": "Skatīt reklāmu +3 stundām",
+    "upgradePro": "Jaunināt uz Pro",
+    "followers": "sekotāji",
+    "following": "seko"
+  },
+  "blog": {
+    "title": "Blogs",
+    "description": "Padomi, ceļveži un nozares ieskati par Instagram analītiku, privātumu un sociālo mediju tendencēm.",
+    "allPosts": "Visi ieraksti",
+    "readMore": "Lasīt vairāk",
+    "publishedOn": "Publicēts",
+    "updatedOn": "Atjaunināts",
+    "by": "Autors",
+    "relatedPosts": "Saistītie ieraksti",
+    "noPosts": "Ieraksti nav atrasti",
+    "backToBlog": "Atpakaļ uz blogu",
+    "featured": "Izceltie"
+  },
+  "legal": {
+    "termsTitle": "Pakalpojumu noteikumi",
+    "privacyTitle": "Privātuma politika",
+    "cookiePolicyTitle": "Sīkdatņu politika",
+    "dmcaTitle": "DMCA politika",
+    "lastUpdated": "Pēdējo reizi atjaunināts"
+  },
+  "common": {
+    "home": "Sākums",
+    "learnMore": "Uzzināt vairāk",
+    "getStarted": "Sākt",
+    "viewAll": "Skatīt visus"
+  },
+  "homeFaqs": [
+    {
+      "question": "Vai var skatīt Instagram stories bez konta?",
+      "answer": "Jā. IGStoryPeek ļauj pārlūkot publiskās Instagram stories bez konta izveidošanas vai pieteikšanās. Vienkārši ievadiet publisku lietotājvārdu un skatiet viņu stories, izceltās un reels uzreiz."
+    },
+    {
+      "question": "Kas ir sociālo mediju analītikas rīks un kā tas darbojas?",
+      "answer": "Sociālo mediju analītikas rīks vāc un analizē publiski pieejamus datus no platformām kā Instagram, TikTok, Facebook un Snapchat. Tas parāda metriku, piemēram, iesaistīšanās rādītājus, sekotāju pieaugumu un satura veiktspēju viegli lasāmās atskaitēs."
+    },
+    {
+      "question": "Vai ir droši izmantot trešo pušu Instagram story skatītājus?",
+      "answer": "Uzticami rīki kā IGStoryPeek ir droši, jo tie piekļūst tikai publiski pieejamiem datiem un nekad neprasa jūsu Instagram akreditācijas datus. Vienmēr izvairieties no pakalpojumiem, kas pieprasa jūsu paroli vai prasa pieteikties ar sociālo mediju kontu."
+    },
+    {
+      "question": "Kuras sociālo mediju platformas var pārlūkot bez konta izveidošanas?",
+      "answer": "Ar IGStoryPeek jūs varat pārlūkot publisku saturu no Instagram, TikTok, Facebook un Snapchat — visu bez konta izveidošanas nevienā no šīm platformām."
+    },
+    {
+      "question": "Vai story skatītāja rīki darbojas ar privātiem Instagram kontiem?",
+      "answer": "Nē. IGStoryPeek un līdzīgi rīki piekļūst tikai publisko profilu saturam. Privātie konti nav pieejami, un nevienam pakalpojumam, kas apgalvo pretējo, nevajadzētu uzticēties."
+    },
+    {
+      "question": "Kāda ir atšķirība starp sociālo mediju analītiku un sociālo mediju uzraudzību?",
+      "answer": "Analītika koncentrējas uz veiktspējas metrikas mērīšanu, piemēram, iesaistīšanās rādītājiem un izaugsmes tendencēm. Uzraudzība koncentrējas uz informētību par reāllaika izmaiņām, piemēram, jauniem ierakstiem, stories vai profila atjauninājumiem."
+    }
+  ],
+  "profile": {
+    "posts": "Ieraksti",
+    "stories": "Stories",
+    "highlights": "Izceltās",
+    "postsCount": "ieraksti",
+    "followers": "sekotāji",
+    "following": "seko",
+    "noPosts": "Nav pieejamu ierakstu.",
+    "noStories": "Nav pieejamu stories. Stories ir pieejamas tikai caur IGStoryPeek pakalpojumu.",
+    "noHighlights": "Nav pieejamu izcelto.",
+    "viewOnInstagram": "Skatīt Instagram",
+    "ago": "atpakaļ",
+    "videoNotSupported": "Jūsu pārlūkprogramma neatbalsta video tagu."
+  },
+  "messages": {
+    "pleaseEnterUsername": "Lūdzu, ievadiet lietotājvārdu",
+    "pleaseEnterValidUsername": "Lūdzu, ievadiet derīgu lietotājvārdu",
+    "foundProfile": "Atrasts profils:",
+    "profileNotFound": "Profils nav atrasts",
+    "errorConnecting": "Kļūda, savienojoties ar serveri. Lūdzu, mēģiniet vēlreiz."
+  },
+  "megaMenu": {
+    "categories": {
+      "Profile Explorer": "Profila pārlūks",
+      "Analyzer": "Analizators",
+      "Downloader": "Lejupielādētājs",
+      "Viewer": "Skatītājs",
+      "Activity Tracker": "Aktivitātes izsekotājs"
+    },
+    "badges": {
+      "NEW": "JAUNS"
+    },
+    "instagram": {
+      "user-search": "Lietotāju meklēšana Instagram",
+      "view-comments-privately": "Skatīt komentārus privāti",
+      "follower-analyzer": "Sekotāju analizators",
+      "activity-analyzer": "Aktivitātes analizators",
+      "see-likes": "Skatīt atzīmes Patīk Instagram",
+      "hashtags-generator": "Mirkļbirku ģenerators",
+      "stories-downloader": "Stāstu lejupielādētājs",
+      "highlights-downloader": "Izcelto lejupielādētājs",
+      "posts-downloader": "Ierakstu lejupielādētājs",
+      "video-downloader": "Video lejupielādētājs",
+      "post-viewer": "Ierakstu skatītājs",
+      "stories-viewer": "Stāstu skatītājs",
+      "highlights-viewer": "Izcelto skatītājs",
+      "comment-viewer": "Komentāru skatītājs",
+      "likes-viewer": "Atzīmju Patīk skatītājs",
+      "relationship-insights": "Attiecību ieskati",
+      "recent-mutuals": "Nesenie kopīgie sekotāji"
+    },
+    "tiktok": {
+      "user-search": "Lietotāju meklēšana TikTok",
+      "view-comments-privately": "Skatīt komentārus privāti",
+      "follower-analyzer": "Sekotāju analizators",
+      "activity-analyzer": "Aktivitātes analizators",
+      "see-likes": "Skatīt atzīmes Patīk TikTok",
+      "trending-sounds-finder": "Populāru skaņu meklētājs",
+      "video-downloader": "Video lejupielādētājs",
+      "stories-downloader": "Stāstu lejupielādētājs",
+      "audio-downloader": "Audio lejupielādētājs",
+      "slideshow-downloader": "Slaidrādes lejupielādētājs",
+      "video-viewer": "Video skatītājs",
+      "stories-viewer": "Stāstu skatītājs",
+      "comment-viewer": "Komentāru skatītājs",
+      "likes-viewer": "Atzīmju Patīk skatītājs",
+      "followers-viewer": "Sekotāju skatītājs",
+      "engagement-tracker": "Iesaistes izsekotājs",
+      "duet-and-stitch-tracker": "Duetu un Stitch izsekotājs"
+    },
+    "facebook": {
+      "user-search": "Lietotāju meklēšana Facebook",
+      "view-comments-privately": "Skatīt komentārus privāti",
+      "page-analyzer": "Lapu analizators",
+      "group-analyzer": "Grupu analizators",
+      "see-reactions": "Skatīt reakcijas Facebook",
+      "ad-library-explorer": "Reklāmu bibliotēkas pārlūks",
+      "stories-downloader": "Stāstu lejupielādētājs",
+      "reels-downloader": "Reels lejupielādētājs",
+      "video-downloader": "Video lejupielādētājs",
+      "photo-album-downloader": "Fotoalbuma lejupielādētājs",
+      "post-viewer": "Ierakstu skatītājs",
+      "stories-viewer": "Stāstu skatītājs",
+      "reels-viewer": "Reels skatītājs",
+      "comment-viewer": "Komentāru skatītājs",
+      "likes-viewer": "Atzīmju Patīk skatītājs",
+      "page-activity-tracker": "Lapas aktivitātes izsekotājs",
+      "friend-interaction-insights": "Draugu mijiedarbības ieskati"
+    },
+    "snapchat": {
+      "user-search": "Lietotāju meklēšana Snapchat",
+      "view-stories-privately": "Skatīt stāstus privāti",
+      "score-tracker": "Rezultātu izsekotājs",
+      "activity-analyzer": "Aktivitātes analizators",
+      "best-friends-analyzer": "Labāko draugu analizators",
+      "streak-tracker": "Sēriju izsekotājs",
+      "stories-downloader": "Stāstu lejupielādētājs",
+      "spotlight-downloader": "Spotlight lejupielādētājs",
+      "memories-downloader": "Atmiņu lejupielādētājs",
+      "stories-viewer": "Stāstu skatītājs",
+      "spotlight-viewer": "Spotlight skatītājs",
+      "map-viewer": "Kartes skatītājs",
+      "public-profile-viewer": "Publiskā profila skatītājs",
+      "score-change-tracker": "Rezultātu izmaiņu izsekotājs",
+      "online-status-tracker": "Tiešsaistes statusa izsekotājs"
+    }
+  }
+}

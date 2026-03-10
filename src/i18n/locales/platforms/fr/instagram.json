@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Outils Instagram — Analysez les profils, parcourez les stories et telechargez du contenu gratuitement",
+    "heroTitle": "Instagram Analytics & Suite de contenu",
+    "sectionHeading": "Parcourir toutes les fonctionnalites Instagram",
+    "sectionSub": "Outils specialises pour l'analyse de profils Instagram, la navigation de contenu, le telechargement et le suivi d'activite.",
+    "ctaHeading": "Commencez avec Instagram Analytics",
+    "ctaSub": "Recherchez n'importe quel identifiant Instagram public et recevez instantanement des analyses detaillees, un acces au contenu et des rapports d'activite.",
+    "cardCta": "Essayer cet outil"
+  },
+  "faqs": [
+    {
+      "question": "Comment verifier le taux d'engagement d'un compte Instagram ?",
+      "answer": "Le taux d'engagement est calcule en divisant le total des interactions (likes, commentaires, sauvegardes, partages) par le nombre d'abonnes, puis en multipliant par 100. IGStoryPeek automatise ce calcul pour tout profil Instagram public."
+    },
+    {
+      "question": "Quelles metriques devriez-vous suivre sur Instagram ?",
+      "answer": "Les metriques Instagram cles comprennent le taux d'engagement, la croissance des abonnes, la portee, les impressions, les vues de stories, les sauvegardes, les partages et la frequence de publication. IGStoryPeek fournit toutes ces donnees pour les comptes publics."
+    },
+    {
+      "question": "Peut-on analyser le profil Instagram public de quelqu'un d'autre ?",
+      "answer": "Oui. Tout profil Instagram defini comme public peut etre analyse avec des outils comme IGStoryPeek. Vous pouvez consulter les metriques d'engagement, les performances du contenu et les habitudes de publication sans avoir besoin de vous connecter."
+    },
+    {
+      "question": "Quel est un bon taux d'engagement sur Instagram ?",
+      "answer": "Le taux d'engagement moyen sur Instagram se situe entre 1 % et 3 %. Les taux superieurs a 3 % sont consideres comme forts, et les taux superieurs a 6 % sont excellents. L'engagement varie selon la niche, la taille de l'audience et le type de contenu."
+    },
+    {
+      "question": "Les outils d'analyse Instagram necessitent-ils de se connecter avec votre compte ?",
+      "answer": "Pas tous. IGStoryPeek ne necessite aucune connexion ni identifiant Instagram. Il analyse directement les donnees accessibles au public, gardant votre compte personnel completement separe."
+    },
+    {
+      "question": "Comment savoir qui vous a desabonne sur Instagram ?",
+      "answer": "Instagram ne vous notifie pas lorsque quelqu'un se desabonne. Des outils de suivi tiers peuvent surveiller votre liste d'abonnes publique au fil du temps et vous alerter des changements, y compris les desabonnements."
+    }
+  ]
+}

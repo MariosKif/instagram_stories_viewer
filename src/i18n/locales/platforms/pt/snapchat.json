@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Ferramentas Snapchat — Rastreador de Pontuação, Download de Stories e Rastreador de Atividades",
+    "heroTitle": "Kit de Ferramentas de Análise e Conteúdo Snapchat",
+    "sectionHeading": "Veja Todas as Funcionalidades do Snapchat",
+    "sectionSub": "ferramentas focadas para rastreamento de pontuação do Snapchat, análise de sequências, download de stories e rastreamento de atividades.",
+    "ctaHeading": "Comece a Rastrear a Atividade do Snapchat",
+    "ctaSub": "Insira qualquer nome de usuário público do Snapchat para acessar rastreamento de pontuação, downloads de conteúdo e rastreamento de atividades.",
+    "cardCta": "Use esta funcionalidade"
+  },
+  "faqs": [
+    {
+      "question": "O que é a pontuação do Snapchat e como ela é calculada?",
+      "answer": "Sua pontuação do Snapchat é um número que reflete sua atividade geral na plataforma. Ela aumenta com base no número de Snaps que você envia e recebe, Stories que publica e outros fatores de engajamento."
+    },
+    {
+      "question": "Como aumentar sua pontuação no Snapchat?",
+      "answer": "Envie e abra Snaps com frequência, publique Stories, mantenha Sequências de Snaps e adicione novos amigos. Snaps de grupo e Snaps em vídeo também podem contribuir com mais pontos do que Snaps apenas de texto."
+    },
+    {
+      "question": "É possível ver quem visualizou sua story do Snapchat após 24 horas?",
+      "answer": "Não. Quando uma Story do Snapchat expira após 24 horas, a lista de visualizadores não fica mais acessível pelo aplicativo. Ferramentas de rastreamento de terceiros podem ajudá-lo a monitorar visualizações antes que expirem."
+    },
+    {
+      "question": "Quem tem acesso aos Insights do Snapchat?",
+      "answer": "Os Insights do Snapchat estão disponíveis para perfis públicos e criadores com um certo limite de seguidores. Para todos os outros, ferramentas de análise de terceiros como o IGStoryPeek oferecem rastreamento de pontuação e monitoramento de atividades."
+    },
+    {
+      "question": "O que o multiplicador de pontuação do Snapchat faz para assinantes do Snapchat+?",
+      "answer": "Assinantes do Snapchat+ podem ver um multiplicador de pontuação que mostra a velocidade de crescimento da pontuação. Ele não muda como os pontos são ganhos — simplesmente exibe a taxa de aumento."
+    },
+    {
+      "question": "Com que frequência o Snapchat atualiza sua pontuação?",
+      "answer": "As pontuações do Snapchat são atualizadas quase em tempo real, embora às vezes possa haver um pequeno atraso. Sua pontuação reflete a atividade acumulada desde a criação da sua conta."
+    }
+  ]
+}

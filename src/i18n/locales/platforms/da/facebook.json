@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook-v\u00e6rkt\u00f8jer \u2014 Sideanalysator, indholdsdownloader og indholdsgennemsyn",
+    "heroTitle": "Facebook Indsigter & Analysecenter",
+    "sectionHeading": "Opdag alle Facebook-v\u00e6rkt\u00f8jer",
+    "sectionSub": "dedikerede v\u00e6rkt\u00f8jer til Facebook-side- og gruppeanalyse, indholdsgemning, indholdsgennemsyn og aktivitetssp\u00f8ring.",
+    "ctaHeading": "Begynd at analysere Facebook-konti",
+    "ctaSub": "Angiv et hvilket som helst offentligt Facebook-profil- eller sidenavn for at generere omfattende analyser og indsigter.",
+    "cardCta": "Start v\u00e6rkt\u00f8j"
+  },
+  "faqs": [
+    {
+      "question": "Kan nogen se, om du ser deres Facebook-profil?",
+      "answer": "Nej. Facebook underretter ikke brugere, n\u00e5r nogen ser deres profil. Enhver app eller tjeneste, der h\u00e6vder andet, er ikke legitim."
+    },
+    {
+      "question": "Har Facebook stadig sit eget analysev\u00e6rkt\u00f8j?",
+      "answer": "Facebook nedlagde sit selvst\u00e6ndige analysev\u00e6rkt\u00f8j i 2021. Sideindsigter er nu tilg\u00e6ngelige via Meta Business Suite. Tredjepartsv\u00e6rkt\u00f8jer som IGStoryPeek tilbyder yderligere analyser for offentlige sider."
+    },
+    {
+      "question": "Hvordan ser du en offentlig Facebook-side uden at logge ind?",
+      "answer": "Mange offentlige Facebook-sider er tilg\u00e6ngelige uden en konto. IGStoryPeek giver dig mulighed for at s\u00f8ge efter og analysere offentlige Facebook-sider og profiler uden at logge ind p\u00e5 Facebook."
+    },
+    {
+      "question": "Hvad skete der med Facebook Analytics efter det blev nedlagt?",
+      "answer": "Facebook Analytics blev nedlagt den 30. juni 2021. Dets funktioner blev optaget i Meta Business Suite og Ads Manager. Tredjepartsv\u00e6rkt\u00f8jer udfylder nu hullet for ekstern sideanalyse."
+    },
+    {
+      "question": "Kan du sp\u00f8re konkurrenters Facebook-sider med analysev\u00e6rkt\u00f8jer?",
+      "answer": "Ja. V\u00e6rkt\u00f8jer som IGStoryPeek lader dig overv\u00e5ge offentlige Facebook-sider, sp\u00f8re engagementm\u00e5linger og sammenligne pr\u00e6station \u2014 alt sammen uden at beh\u00f8ve adgang til sidens egne indsigter."
+    },
+    {
+      "question": "Hvilke m\u00e5linger b\u00f8r du sp\u00f8re p\u00e5 en Facebook-virksomhedsside?",
+      "answer": "Vigtige Facebook-sidemalinger inkluderer siderlikes, opslags r\u00e6kkevidde, engagementsrate, klik-rate, videovisninger og f\u00f8lgertilv\u00e6kst. At sp\u00f8re disse hj\u00e6lper med at m\u00e5le indholdseffektivitet."
+    }
+  ]
+}

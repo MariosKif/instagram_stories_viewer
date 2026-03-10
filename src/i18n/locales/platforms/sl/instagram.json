@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Orodja za Instagram — Analizirajte profile, brskajte po zgodbah in brezplačno prenašajte vsebine",
+    "heroTitle": "Analitični in vsebinski paket za Instagram",
+    "sectionHeading": "Preglejte vse funkcije Instagrama",
+    "sectionSub": "specializirana orodja za analizo profilov na Instagramu, brskanje po vsebinah, prenašanje in sledenje aktivnosti.",
+    "ctaHeading": "Začnite z analitiko Instagrama",
+    "ctaSub": "Poiščite katerokoli javno uporabniško ime na Instagramu in takoj prejmite podrobno analitiko, dostop do vsebin in poročila o aktivnosti.",
+    "cardCta": "Preizkusite to orodje"
+  },
+  "faqs": [
+    {
+      "question": "Kako preverite stopnjo vključenosti Instagram računa?",
+      "answer": "Stopnja vključenosti se izračuna tako, da skupne interakcije (všečki, komentarji, shranjevanja, deljenja) delite s številom sledilcev in nato pomnožite s 100. IGStoryPeek ta izračun avtomatizira za katerikoli javni profil na Instagramu."
+    },
+    {
+      "question": "Katere metrike morate spremljati na Instagramu?",
+      "answer": "Ključne metrike Instagrama vključujejo stopnjo vključenosti, rast sledilcev, doseg, prikaze, oglede zgodb, shranjevanja, deljenja in pogostost objavljanja. IGStoryPeek vse to zagotavlja za javne račune."
+    },
+    {
+      "question": "Ali lahko analizirate javni Instagram profil nekoga drugega?",
+      "answer": "Da. Katerikoli profil na Instagramu, nastavljen kot javen, je mogoče analizirati z orodji, kot je IGStoryPeek. Ogledate si lahko metrike vključenosti, uspešnost vsebin in vzorce objavljanja brez prijave."
+    },
+    {
+      "question": "Kakšna je dobra stopnja vključenosti na Instagramu?",
+      "answer": "Povprečna stopnja vključenosti na Instagramu je med 1 % in 3 %. Stopnje nad 3 % veljajo za močne, stopnje nad 6 % pa za odlične. Vključenost se razlikuje glede na nišo, velikost občinstva in vrsto vsebine."
+    },
+    {
+      "question": "Ali orodja za analitiko Instagrama zahtevajo prijavo z vašim računom?",
+      "answer": "Ne vsa. IGStoryPeek ne zahteva nobene prijave ali poverilnic za Instagram. Neposredno analizira javno dostopne podatke in vaš osebni račun ohranja popolnoma ločen."
+    },
+    {
+      "question": "Kako lahko vidite, kdo vas je na Instagramu nehal spremljati?",
+      "answer": "Instagram vas ne obvesti, ko vas nekdo neha spremljati. Orodja za sledenje tretjih oseb lahko sčasoma spremljajo vaš javni seznam sledilcev in vas opozorijo na spremembe, vključno s prenehanjem spremljanja."
+    }
+  ]
+}

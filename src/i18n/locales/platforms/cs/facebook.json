@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Nástroje pro Facebook — Analyzátor Stránek, Stahování Obsahu a Prohlížeč Obsahu",
+    "heroTitle": "Centrum Statistik a Analýz Facebooku",
+    "sectionHeading": "Objevte Všechny Nástroje Facebooku",
+    "sectionSub": "specializované nástroje pro analýzu stránek a skupin na Facebooku, ukládání obsahu, procházení obsahu a sledování aktivity.",
+    "ctaHeading": "Začněte Analyzovat Účty na Facebooku",
+    "ctaSub": "Zadejte jakýkoli název veřejného profilu nebo stránky na Facebooku pro generování komplexních analýz a statistik.",
+    "cardCta": "Spustit nástroj"
+  },
+  "faqs": [
+    {
+      "question": "Může někdo vidět, že jste navštívili jeho profil na Facebooku?",
+      "answer": "Ne. Facebook neupozorňuje uživatele, když někdo navštíví jejich profil. Jakákoli aplikace nebo služba, která tvrdí opak, není legitimní."
+    },
+    {
+      "question": "Má Facebook stále vlastní analytický nástroj?",
+      "answer": "Facebook ukončil svůj samostatný analytický nástroj v roce 2021. Statistiky stránek jsou nyní dostupné prostřednictvím Meta Business Suite. Nástroje třetích stran jako IGStoryPeek poskytují dodatečné analýzy pro veřejné stránky."
+    },
+    {
+      "question": "Jak zobrazit veřejnou stránku na Facebooku bez přihlášení?",
+      "answer": "Mnoho veřejných stránek na Facebooku je přístupných bez účtu. IGStoryPeek vám umožňuje vyhledávat a analyzovat veřejné stránky a profily na Facebooku bez přihlášení k Facebooku."
+    },
+    {
+      "question": "Co se stalo s Facebook Analytics po jeho ukončení?",
+      "answer": "Facebook Analytics byl ukončen 30. června 2021. Jeho funkce byly začleněny do Meta Business Suite a Správce reklam. Nástroje třetích stran nyní vyplňují mezeru pro externí analýzu stránek."
+    },
+    {
+      "question": "Můžete sledovat facebookové stránky konkurentů pomocí analytických nástrojů?",
+      "answer": "Ano. Nástroje jako IGStoryPeek vám umožňují monitorovat veřejné stránky na Facebooku, sledovat metriky zapojení a porovnávat výkonnost — vše bez nutnosti přístupu k vlastním statistikám stránky."
+    },
+    {
+      "question": "Jaké metriky byste měli sledovat na firemní stránce na Facebooku?",
+      "answer": "Důležité metriky stránek na Facebooku zahrnují lajky stránky, dosah příspěvků, míru zapojení, míru prokliku, zhlédnutí videí a růst sledujících. Sledování těchto metrik pomáhá měřit účinnost obsahu."
+    }
+  ]
+}

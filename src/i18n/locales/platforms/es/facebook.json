@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Herramientas Facebook — Analizador de paginas, descargador de contenido y navegador de contenido",
+    "heroTitle": "Hub de Facebook Insights & Analytics",
+    "sectionHeading": "Descubrir todas las herramientas de Facebook",
+    "sectionSub": "Herramientas dedicadas para el analisis de paginas y grupos de Facebook, guardado de contenido, navegacion de contenido y seguimiento de actividad.",
+    "ctaHeading": "Comienza a analizar cuentas de Facebook",
+    "ctaSub": "Proporciona cualquier perfil o nombre de pagina publica de Facebook para generar analisis e insights completos.",
+    "cardCta": "Lanzar herramienta"
+  },
+  "faqs": [
+    {
+      "question": "Puede alguien ver si visitas su perfil de Facebook?",
+      "answer": "No. Facebook no notifica a los usuarios cuando alguien visita su perfil. Cualquier aplicacion o servicio que afirme lo contrario no es legitimo."
+    },
+    {
+      "question": "Facebook todavia tiene su propia herramienta de analytics?",
+      "answer": "Facebook retiro su herramienta Analytics independiente en 2021. Los insights de pagina ahora estan disponibles a traves de Meta Business Suite. Herramientas de terceros como IGStoryPeek proporcionan analytics adicionales para paginas publicas."
+    },
+    {
+      "question": "Como se puede ver una pagina publica de Facebook sin iniciar sesion?",
+      "answer": "Muchas paginas publicas de Facebook son accesibles sin cuenta. IGStoryPeek te permite buscar y analizar paginas y perfiles publicos de Facebook sin iniciar sesion en Facebook."
+    },
+    {
+      "question": "Que sucedio con Facebook Analytics despues de su retiro?",
+      "answer": "Facebook Analytics fue retirado el 30 de junio de 2021. Sus funciones fueron absorbidas por Meta Business Suite y Ads Manager. Herramientas de terceros ahora llenan el vacio para el analisis externo de paginas."
+    },
+    {
+      "question": "Se pueden rastrear las paginas de Facebook de la competencia con herramientas de analisis?",
+      "answer": "Si. Herramientas como IGStoryPeek te permiten monitorear paginas publicas de Facebook, rastrear metricas de engagement y comparar rendimiento, todo sin necesitar acceso a los insights propios de la pagina."
+    },
+    {
+      "question": "Que metricas deberia seguir en una pagina de empresa de Facebook?",
+      "answer": "Las metricas importantes de paginas de Facebook incluyen likes de la pagina, alcance de publicaciones, tasa de engagement, tasa de clics, vistas de video y crecimiento de seguidores. El seguimiento de estas metricas ayuda a medir la efectividad del contenido."
+    }
+  ]
+}

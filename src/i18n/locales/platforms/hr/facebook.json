@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook Alati — Analizator Stranica, Preuzimanje Sadržaja i Preglednik Sadržaja",
+    "heroTitle": "Centar za Statistike i Analize Facebooka",
+    "sectionHeading": "Otkrijte Sve Facebook Alate",
+    "sectionSub": "namjenski alati za analizu Facebook stranica i grupa, spremanje sadržaja, pregledavanje sadržaja i praćenje aktivnosti.",
+    "ctaHeading": "Započnite s Analizom Facebook Računa",
+    "ctaSub": "Unesite naziv bilo kojeg javnog Facebook profila ili stranice za generiranje sveobuhvatnih analiza i statistika.",
+    "cardCta": "Pokreni alat"
+  },
+  "faqs": [
+    {
+      "question": "Može li netko vidjeti ako ste posjetili njegov Facebook profil?",
+      "answer": "Ne. Facebook ne obavještava korisnike kada netko posjeti njihov profil. Svaka aplikacija ili usluga koja tvrdi suprotno nije legitimna."
+    },
+    {
+      "question": "Ima li Facebook još uvijek vlastiti alat za analizu?",
+      "answer": "Facebook je povukao svoj samostalni alat za analizu 2021. godine. Statistike stranica sada su dostupne putem Meta Business Suite. Alati trećih strana poput IGStoryPeek pružaju dodatne analize za javne stranice."
+    },
+    {
+      "question": "Kako pregledati javnu Facebook stranicu bez prijave?",
+      "answer": "Mnoge javne Facebook stranice dostupne su bez računa. IGStoryPeek vam omogućuje pretraživanje i analizu javnih Facebook stranica i profila bez prijave na Facebook."
+    },
+    {
+      "question": "Što se dogodilo s Facebook Analytics nakon povlačenja?",
+      "answer": "Facebook Analytics povučen je 30. lipnja 2021. Njegove značajke integrirane su u Meta Business Suite i Ads Manager. Alati trećih strana sada popunjavaju prazninu za vanjsku analizu stranica."
+    },
+    {
+      "question": "Možete li pratiti Facebook stranice konkurenata pomoću alata za analizu?",
+      "answer": "Da. Alati poput IGStoryPeek omogućuju vam nadzor javnih Facebook stranica, praćenje metrika angažiranosti i usporedbu performansi — sve bez potrebe za pristupom vlastitim statistikama stranice."
+    },
+    {
+      "question": "Koje metrike trebate pratiti na poslovnoj Facebook stranici?",
+      "answer": "Važne metrike Facebook stranica uključuju lajkove stranice, doseg objava, stopu angažiranosti, stopu klikanja, preglede videa i rast pratitelja. Praćenje ovih metrika pomaže mjeriti učinkovitost sadržaja."
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+---
+/**
+ * Blog listing page — hero section, featured post, category badges, reading time.
+ * Statically rendered for SEO with BreadcrumbList JSON-LD.
+ */
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+import { getLocalizedPath } from '../../i18n/utils';
+import type { Language } from '../../i18n/utils';
+
+const lang = (Astro.locals as any).lang || 'en';
+const t = (Astro.locals as any).t || {};
+
+const allPosts = await getCollection('blog');
+
+// Get posts for current language, fallback to English
+function getPostSlug(post: any): string {
+  return post.slug.includes('/') ? post.slug.split('/').slice(1).join('/') : post.slug;
+}
+
+function getPlatform(post: any): string {
+  const slug = getPostSlug(post).toLowerCase();
+  if (slug.startsWith('facebook-')) return 'facebook';
+  if (slug.startsWith('tiktok-')) return 'tiktok';
+  if (slug.startsWith('snapchat-')) return 'snapchat';
+  return 'instagram';
+}
+
+function getPlatformImage(post: any): string {
+  if (post.data.image && post.data.image !== '/blog/default-blog-hero.svg') {
+    return post.data.image;
+  }
+  const platform = getPlatform(post);
+  return `/blog/platform-${platform}.svg`;
+}
+
+let langPosts = allPosts.filter((p) => p.data.lang === lang);
+if (langPosts.length === 0) langPosts = allPosts.filter((p) => p.data.lang === 'en');
+
+const posts = langPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featuredPost = posts[0];
+const otherPosts = posts.filter((p) => p.slug !== featuredPost?.slug);
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString(lang === 'en' ? 'en-US' : lang, { month: 'long', day: 'numeric', year: 'numeric' });
+}
+
+function getReadingTime(body: string): number {
+  const words = body.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+}
+
+const siteUrl = 'https://www.igstorypeek.com';
+
+const breadcrumbSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog` },
+  ],
+});
+
+const platformColors: Record<string, string> = {
+  instagram: 'from-pink-500 to-orange-400',
+  facebook: 'from-blue-600 to-blue-400',
+  tiktok: 'from-cyan-400 to-pink-500',
+  snapchat: 'from-yellow-400 to-yellow-300',
+};
+---
+
+<MainLayout
+  title={t.blog?.title || 'Blog — IGStoryPeek'}
+  description={t.blog?.description || 'Tips, guides, and industry insights about Instagram analytics, privacy, and social media trends.'}
+>
+  <!-- Hero Section -->
+  <section class="pt-28 pb-12 lg:pt-36 lg:pb-16 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent pointer-events-none"></div>
+    <div class="section-container max-w-6xl relative">
+      <!-- Breadcrumb -->
+      <nav aria-label="Breadcrumb" class="mb-8">
+        <ol class="flex items-center gap-2 text-sm text-dark-500">
+          <li><a href={getLocalizedPath('/', lang)} class="hover:text-primary transition-colors">Home</a></li>
+          <li><svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></li>
+          <li class="text-dark-300">Blog</li>
+        </ol>
+      </nav>
+
+      <div class="max-w-2xl">
+        <h1 class="text-4xl sm:text-5xl font-heading font-bold mb-4">
+          The <span class="gradient-text">{t.blog?.title || 'Blog'}</span>
+        </h1>
+        <p class="text-dark-400 text-lg">{t.articles?.subtitle || 'Tips, guides, and industry insights about Instagram stories, privacy, and more.'}</p>
+      </div>
+    </div>
+  </section>
+
+  {posts.length > 0 ? (
+    <section class="pb-20 lg:pb-28">
+      <div class="section-container max-w-6xl">
+
+        <!-- Platform Filters -->
+        <div class="flex flex-wrap items-center gap-3 mb-8" id="platform-filters">
+          <button data-filter="all" class="filter-btn active px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border border-dark-700 bg-primary/10 text-primary border-primary/30">
+            All
+          </button>
+          <button data-filter="instagram" class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border border-dark-700 bg-dark-800/50 text-dark-400 hover:text-white hover:border-dark-500">
+            <span class="inline-flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-pink-500 to-orange-400"></span>
+              Instagram
+            </span>
+          </button>
+          <button data-filter="facebook" class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border border-dark-700 bg-dark-800/50 text-dark-400 hover:text-white hover:border-dark-500">
+            <span class="inline-flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
+              Facebook
+            </span>
+          </button>
+          <button data-filter="tiktok" class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border border-dark-700 bg-dark-800/50 text-dark-400 hover:text-white hover:border-dark-500">
+            <span class="inline-flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-cyan-400 to-pink-500"></span>
+              TikTok
+            </span>
+          </button>
+          <button data-filter="snapchat" class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border border-dark-700 bg-dark-800/50 text-dark-400 hover:text-white hover:border-dark-500">
+            <span class="inline-flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
+              Snapchat
+            </span>
+          </button>
+        </div>
+
+        <!-- Featured Post -->
+        {featuredPost && (
+          <a href={getLocalizedPath(`/blog/${getPostSlug(featuredPost)}`, lang)} data-platform={getPlatform(featuredPost)} class="blog-card glass overflow-hidden card-hover group block mb-10" id="featured-post">
+            <div class="grid lg:grid-cols-2 gap-0">
+              <div class="h-56 lg:h-auto overflow-hidden relative">
+                <img
+                  src={getPlatformImage(featuredPost)}
+                  alt={featuredPost.data.title}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="eager"
+                  onerror="this.src='/blog/default-blog-hero.svg'"
+                />
+                <span class={`absolute top-3 left-3 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full text-white bg-gradient-to-r ${platformColors[getPlatform(featuredPost)]}`}>
+                  {getPlatform(featuredPost)}
+                </span>
+              </div>
+              <div class="p-6 lg:p-8 flex flex-col justify-center">
+                <div class="flex items-center gap-3 mb-3">
+                  <span class="text-[11px] font-medium uppercase tracking-wider text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-full">
+                    {featuredPost.data.category || 'Guides'}
+                  </span>
+                  <span class="text-xs text-dark-500">{getReadingTime(featuredPost.body ?? '')} min read</span>
+                  <span class="badge text-[10px] py-0.5">{t.blog?.featured || 'Featured'}</span>
+                </div>
+                <h2 class="text-xl lg:text-2xl font-heading font-bold text-white mb-3 group-hover:text-primary transition-colors">
+                  {featuredPost.data.title}
+                </h2>
+                <p class="text-sm text-dark-400 line-clamp-3 mb-4">{featuredPost.data.description}</p>
+                <div class="flex items-center gap-4">
+                  <time class="text-xs text-dark-500">{formatDate(featuredPost.data.pubDate)}</time>
+                  {featuredPost.data.tags && featuredPost.data.tags.length > 0 && (
+                    <div class="flex flex-wrap gap-1.5">
+                      {featuredPost.data.tags.slice(0, 3).map((tag: string) => (
+                        <span class="text-[10px] text-dark-500 bg-dark-800 px-2 py-0.5 rounded-full">{tag}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </a>
+        )}
+
+        <!-- Other Posts Grid -->
+        {otherPosts.length > 0 && (
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6" id="posts-grid">
+            {otherPosts.map((post) => (
+              <a href={getLocalizedPath(`/blog/${getPostSlug(post)}`, lang)} data-platform={getPlatform(post)} class="blog-card glass overflow-hidden card-hover group block">
+                <div class="h-40 overflow-hidden relative">
+                  <img
+                    src={getPlatformImage(post)}
+                    alt={post.data.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    onerror="this.src='/blog/default-blog-hero.svg'"
+                  />
+                  <span class={`absolute top-2 left-2 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full text-white bg-gradient-to-r ${platformColors[getPlatform(post)]}`}>
+                    {getPlatform(post)}
+                  </span>
+                </div>
+                <div class="p-4">
+                  <div class="flex items-center gap-2 mb-2">
+                    <span class="text-[10px] font-medium uppercase tracking-wider text-primary bg-primary/10 border border-primary/20 px-2 py-0.5 rounded-full">
+                      {post.data.category || 'Guides'}
+                    </span>
+                    <span class="text-[11px] text-dark-500">{getReadingTime(post.body ?? '')} min read</span>
+                  </div>
+                  <h2 class="text-sm font-semibold text-white mb-1.5 group-hover:text-primary transition-colors line-clamp-2">
+                    {post.data.title}
+                  </h2>
+                  <p class="text-xs text-dark-400 line-clamp-2">{post.data.description}</p>
+                  <div class="flex items-center gap-2 mt-2">
+                    <time class="text-[10px] text-dark-500">{formatDate(post.data.pubDate)}</time>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  ) : (
+    <section class="pb-20">
+      <div class="section-container max-w-6xl">
+        <div class="glass p-12 text-center">
+          <p class="text-dark-500">{t.blog?.noPosts || 'No blog posts yet. Check back soon!'}</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <script type="application/ld+json" set:html={breadcrumbSchema} />
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filters = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.blog-card');
+      const featuredPost = document.getElementById('featured-post');
+
+      filters.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+
+          // Update active state
+          filters.forEach(b => {
+            b.classList.remove('active', 'bg-primary/10', 'text-primary', 'border-primary/30');
+            b.classList.add('bg-dark-800/50', 'text-dark-400');
+          });
+          btn.classList.add('active', 'bg-primary/10', 'text-primary', 'border-primary/30');
+          btn.classList.remove('bg-dark-800/50', 'text-dark-400');
+
+          // Filter cards
+          cards.forEach(card => {
+            const platform = card.getAttribute('data-platform');
+            if (filter === 'all' || platform === filter) {
+              (card as HTMLElement).style.display = '';
+            } else {
+              (card as HTMLElement).style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</MainLayout>

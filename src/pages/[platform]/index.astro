@@ -1,0 +1,209 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import SearchBar from '../../components/SearchBar.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { platforms, getPlatform, type Platform } from '../../data/features';
+import { getLocalizedPath, type Language } from '../../i18n/utils';
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const t = (Astro.locals as any).t || {};
+const mm = t.megaMenu || {};
+
+const { platform: platformId } = Astro.params;
+const platform = getPlatform(platformId!);
+
+if (!platform) {
+  return Astro.redirect('/404');
+}
+
+// Unique per-platform hub page content — no two hub pages share the same text
+const hubContent: Record<string, { heroTitle: string; seoTitle: string; sectionHeading: string; sectionSub: string; ctaHeading: string; ctaSub: string; cardCta: string }> = {
+  instagram: {
+    seoTitle: 'Instagram Tools — Analyze Profiles, Browse Stories & Download Content Free',
+    heroTitle: 'Instagram Analytics & Content Suite',
+    sectionHeading: 'Browse All Instagram Features',
+    sectionSub: `${platforms.find(p => p.id === 'instagram')?.categories.reduce((s, c) => s + c.features.length, 0)} specialized tools for Instagram profile analysis, content browsing, downloading, and activity tracking.`,
+    ctaHeading: 'Get Started With Instagram Analytics',
+    ctaSub: 'Search any public Instagram handle and receive detailed analytics, content access, and activity reports instantly.',
+    cardCta: 'Try this tool',
+  },
+  tiktok: {
+    seoTitle: 'TikTok Tools — Creator Analytics, Video Downloader & Content Browser',
+    heroTitle: 'TikTok Creator Analytics Platform',
+    sectionHeading: 'Explore Every TikTok Tool',
+    sectionSub: `${platforms.find(p => p.id === 'tiktok')?.categories.reduce((s, c) => s + c.features.length, 0)} purpose-built tools for TikTok creator analytics, original-quality downloads, content browsing, and engagement tracking.`,
+    ctaHeading: 'Unlock TikTok Insights Now',
+    ctaSub: 'Enter any public TikTok creator handle to access analytics, downloads, and tracking features.',
+    cardCta: 'Open tool',
+  },
+  facebook: {
+    seoTitle: 'Facebook Tools — Page Analyzer, Content Downloader & Content Browser',
+    heroTitle: 'Facebook Insights & Analytics Hub',
+    sectionHeading: 'Discover All Facebook Tools',
+    sectionSub: `${platforms.find(p => p.id === 'facebook')?.categories.reduce((s, c) => s + c.features.length, 0)} dedicated tools for Facebook page and group analysis, content saving, content browsing, and activity tracking.`,
+    ctaHeading: 'Start Analyzing Facebook Accounts',
+    ctaSub: 'Provide any public Facebook profile or page name to generate comprehensive analytics and insights.',
+    cardCta: 'Launch tool',
+  },
+  snapchat: {
+    seoTitle: 'Snapchat Tools — Score Tracker, Story Downloader & Activity Tracker',
+    heroTitle: 'Snapchat Analytics & Content Toolkit',
+    sectionHeading: 'View All Snapchat Features',
+    sectionSub: `${platforms.find(p => p.id === 'snapchat')?.categories.reduce((s, c) => s + c.features.length, 0)} focused tools for Snapchat score tracking, streak analysis, story downloading, and activity tracking.`,
+    ctaHeading: 'Begin Tracking Snapchat Activity',
+    ctaSub: 'Enter any public Snapchat username to access score tracking, content downloads, and activity tracking.',
+    cardCta: 'Use this feature',
+  },
+};
+
+const content = hubContent[platform.id] || hubContent.instagram;
+
+const hubFaqs: Record<string, { question: string; answer: string }[]> = {
+  instagram: [
+    { question: 'How do you check the engagement rate of an Instagram account?', answer: 'Engagement rate is calculated by dividing total interactions (likes, comments, saves, shares) by follower count, then multiplying by 100. IGStoryPeek automates this calculation for any public Instagram profile.' },
+    { question: 'What metrics should you track on Instagram?', answer: 'Key Instagram metrics include engagement rate, follower growth, reach, impressions, story views, saves, shares, and posting frequency. IGStoryPeek provides all of these for public accounts.' },
+    { question: "Can you analyze someone else's public Instagram profile?", answer: 'Yes. Any Instagram profile set to public can be analyzed using tools like IGStoryPeek. You can view engagement metrics, content performance, and posting patterns without needing to log in.' },
+    { question: 'What is a good engagement rate on Instagram?', answer: 'The average engagement rate on Instagram is between 1% and 3%. Rates above 3% are considered strong, and rates above 6% are excellent. Engagement varies by niche, audience size, and content type.' },
+    { question: 'Do Instagram analytics tools require you to log in with your account?', answer: 'Not all of them. IGStoryPeek does not require any login or Instagram credentials. It analyzes publicly available data directly, keeping your personal account completely separate.' },
+    { question: 'How can you see who unfollowed you on Instagram?', answer: 'Instagram does not notify you when someone unfollows. Third-party tracking tools can monitor your public follower list over time and alert you to changes, including unfollows.' },
+  ],
+  tiktok: [
+    { question: 'How does TikTok analytics work?', answer: 'TikTok analytics tracks video performance metrics like views, likes, comments, shares, and audience demographics. IGStoryPeek lets you view public TikTok creator analytics without needing a TikTok account.' },
+    { question: 'Can you download TikTok videos in original quality?', answer: 'Yes. IGStoryPeek offers a TikTok video downloader that saves videos in their original quality without watermarks, making it easy to reference content offline.' },
+    { question: "Is it legal to download someone else's TikTok video?", answer: 'Downloading public TikTok videos for personal reference or research is generally permitted. However, redistributing or monetizing someone else\'s content without permission may violate copyright law.' },
+    { question: 'Do you need a Pro Account to see TikTok analytics?', answer: "TikTok's built-in analytics require a Pro (Business or Creator) account. However, tools like IGStoryPeek can show public performance data for any creator without requiring any TikTok account." },
+    { question: 'What metrics does TikTok analytics track?', answer: 'TikTok analytics tracks video views, profile views, follower count, likes, comments, shares, average watch time, and audience demographics including location and gender.' },
+    { question: 'Can you view TikTok profiles without an account?', answer: 'Yes. Public TikTok profiles can be browsed without creating an account. IGStoryPeek lets you search any public TikTok username and view their content and analytics instantly.' },
+  ],
+  facebook: [
+    { question: 'Can someone see if you view their Facebook profile?', answer: 'No. Facebook does not notify users when someone views their profile. Any app or service claiming otherwise is not legitimate.' },
+    { question: 'Does Facebook still have its own analytics tool?', answer: 'Facebook retired its standalone Analytics tool in 2021. Page insights are now available through Meta Business Suite. Third-party tools like IGStoryPeek provide additional analytics for public pages.' },
+    { question: 'How do you view a public Facebook page without logging in?', answer: 'Many public Facebook pages are accessible without an account. IGStoryPeek allows you to search and analyze public Facebook pages and profiles without logging in to Facebook.' },
+    { question: 'What happened to Facebook Analytics after it was retired?', answer: 'Facebook Analytics was retired on June 30, 2021. Its features were absorbed into Meta Business Suite and Ads Manager. Third-party tools now fill the gap for external page analysis.' },
+    { question: "Can you track competitors' Facebook pages with analytics tools?", answer: "Yes. Tools like IGStoryPeek let you monitor public Facebook pages, track engagement metrics, and compare performance — all without needing access to the page's own insights." },
+    { question: 'What metrics should you track on a Facebook business page?', answer: 'Important Facebook page metrics include page likes, post reach, engagement rate, click-through rate, video views, and follower growth. Tracking these helps measure content effectiveness.' },
+  ],
+  snapchat: [
+    { question: 'What is a Snapchat score and how is it calculated?', answer: 'Your Snapchat score is a number that reflects your overall activity on the platform. It increases based on the number of Snaps you send and receive, Stories you post, and other engagement factors.' },
+    { question: 'How do you increase your Snapchat score?', answer: 'Send and open Snaps frequently, post Stories, maintain Snap Streaks, and add new friends. Group Snaps and video Snaps may also contribute more points than text-only Snaps.' },
+    { question: 'Can you see who viewed your Snapchat story after 24 hours?', answer: 'No. Once a Snapchat Story expires after 24 hours, the viewer list is no longer accessible through the app. Third-party tracking tools can help you monitor views before they expire.' },
+    { question: 'Who has access to Snapchat Insights?', answer: 'Snapchat Insights is available to public profiles and creators with a certain follower threshold. For everyone else, third-party analytics tools like IGStoryPeek offer score tracking and activity monitoring.' },
+    { question: 'What does the Snapchat score multiplier do for Snapchat+ subscribers?', answer: 'Snapchat+ subscribers can see a score multiplier that shows how quickly their score is growing. It does not change how points are earned — it simply displays the rate of increase.' },
+    { question: 'How often does Snapchat update your score?', answer: 'Snapchat scores update in near real-time, though there can sometimes be a short delay. Your score reflects cumulative activity since you created your account.' },
+  ],
+};
+---
+
+<MainLayout
+  title={content.seoTitle}
+  description={platform.description}
+>
+  <!-- Hero -->
+  <section class="relative min-h-[60vh] flex items-center overflow-hidden">
+    <div class="absolute inset-0 animated-gradient"></div>
+    <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cpath d=&quot;M60 0H0v60&quot; fill=&quot;none&quot; stroke=&quot;%23fff&quot; stroke-width=&quot;0.5&quot;/%3E%3C/svg%3E');"></div>
+    <div class="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-3xl animate-float" style={`background: ${platform.color}10`}></div>
+    <div class="absolute bottom-1/4 right-1/4 w-72 h-72 rounded-full blur-3xl animate-float" style={`background: ${platform.color}08; animation-delay: -3s;`}></div>
+
+    <div class="relative section-container py-24 lg:py-32">
+      <div class="max-w-4xl mx-auto text-center">
+        <nav class="flex items-center justify-center gap-2 text-sm text-dark-400 mb-8 animate-fade-in" aria-label="Breadcrumb">
+          <a href={getLocalizedPath('/', lang)} class="hover:text-white transition-colors">{t.common?.home || 'Home'}</a>
+          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+          </svg>
+          <span class="text-white">{platform.label}</span>
+        </nav>
+
+        <div class="inline-flex items-center gap-3 mb-6 animate-fade-in">
+          <svg class="w-10 h-10" viewBox="0 0 24 24" fill="currentColor" style={`color: ${platform.color}`}>
+            <Fragment set:html={platform.brandIcon} />
+          </svg>
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6 animate-fade-in text-white">
+          <span style={`color: ${platform.color}`}>{platform.label}</span> {content.heroTitle.replace(platform.label + ' ', '')}
+        </h1>
+
+        <p class="text-lg sm:text-xl text-dark-300 max-w-2xl mx-auto mb-10 animate-slide-up">
+          {platform.description}
+        </p>
+
+        <div class="max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.15s;">
+          <SearchBar size="large" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features grouped by category -->
+  <section class="py-20 lg:py-28">
+    <div class="section-container">
+      <div class="text-center mb-14">
+        <h2 class="text-3xl sm:text-4xl font-heading font-bold mb-4 text-white">
+          {content.sectionHeading}
+        </h2>
+        <p class="text-dark-400 text-lg max-w-2xl mx-auto">
+          {content.sectionSub}
+        </p>
+      </div>
+
+      <div class="space-y-12">
+        {platform.categories.map((cat) => (
+          <div>
+            <div class="flex items-center gap-2 mb-6">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" style={`color: ${platform.color}`}>
+                <Fragment set:html={cat.icon} />
+              </svg>
+              <h3 class="text-xl font-heading font-bold" style={`color: ${platform.color}`}>{mm.categories?.[cat.title] || cat.title}</h3>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              {cat.features.map((f) => (
+                <a href={getLocalizedPath(`/${platform.id}/${f.slug}`, lang)} class="glass p-5 card-hover group block">
+                  <div class="flex items-center gap-2 mb-2">
+                    <h4 class="text-base font-semibold text-white group-hover:transition-colors">
+                      {mm[platform.id]?.[f.slug] || f.label}
+                    </h4>
+                    {f.badge && (
+                      <span class="px-1.5 py-0.5 text-[10px] font-bold rounded" style={`background: ${platform.color}20; color: ${platform.color}`}>{mm.badges?.[f.badge] || f.badge}</span>
+                    )}
+                  </div>
+                  <p class="text-sm text-dark-400 leading-relaxed line-clamp-2">{f.description}</p>
+                  <span class="inline-flex items-center gap-1 mt-3 text-sm font-medium transition-colors" style={`color: ${platform.color}`}>
+                    {content.cardCta}
+                    <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+                    </svg>
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {hubFaqs[platform.id] && (
+    <FAQSection faqs={hubFaqs[platform.id]} heading={`${platform.label} — ${t.faq?.title || 'Frequently Asked Questions'}`} />
+  )}
+
+  <!-- CTA -->
+  <section class="py-20 lg:py-28 relative overflow-hidden">
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="w-[600px] h-[600px] rounded-full blur-3xl" style={`background: ${platform.color}05`}></div>
+    </div>
+    <div class="relative section-container text-center">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mb-4 text-white">
+        {content.ctaHeading}
+      </h2>
+      <p class="text-dark-400 text-lg max-w-xl mx-auto mb-10">
+        {content.ctaSub}
+      </p>
+      <div class="max-w-xl mx-auto">
+        <SearchBar size="large" />
+      </div>
+    </div>
+  </section>
+</MainLayout>

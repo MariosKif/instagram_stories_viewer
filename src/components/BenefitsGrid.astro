@@ -1,0 +1,68 @@
+---
+/**
+ * 6-card advantages grid — highlights key platform benefits.
+ * Cards animate on hover with icon, title, and description.
+ */
+const t = (Astro.locals as any).t || {};
+const bT = t.benefits || {};
+
+const benefits = [
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />`,
+    title: bT.publicData?.title || 'Public Data Only',
+    description: bT.publicData?.description || 'We only analyze publicly available information. No private data is ever accessed or stored.',
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`,
+    title: bT.noLogin?.title || 'No Login Required',
+    description: bT.noLogin?.description || 'Browse profiles and stories without creating an account or signing in.',
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />`,
+    title: bT.realTime?.title || 'Real-Time Updates',
+    description: bT.realTime?.description || 'Set up automated alerts to stay informed about account changes and new activity.',
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />`,
+    title: bT.aiInsights?.title || 'AI Insights',
+    description: bT.aiInsights?.description || 'Advanced algorithms analyze engagement patterns and deliver actionable insights.',
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />`,
+    title: bT.multiPlatform?.title || 'Multi-Platform Support',
+    description: bT.multiPlatform?.description || 'Analyze profiles across Instagram, TikTok, Facebook, and Snapchat from one place.',
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`,
+    title: bT.easyToUse?.title || 'Easy to Use',
+    description: bT.easyToUse?.description || 'Just enter a username and get your report. No technical knowledge required.',
+  },
+];
+---
+
+<section id="features" class="py-20 lg:py-28">
+  <div class="section-container">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl sm:text-4xl font-heading font-bold mb-4">
+        {bT.heading || 'Why Choose'} <span class="gradient-text">{bT.headingHighlight || 'IGStoryPeek'}</span>
+      </h2>
+      <p class="text-dark-400 text-lg max-w-2xl mx-auto">
+        {bT.subtitle || 'Powerful features designed for privacy, accuracy, and ease of use.'}
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {benefits.map((b) => (
+        <div class="glass p-6 card-hover group">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <Fragment set:html={b.icon} />
+            </svg>
+          </div>
+          <h3 class="text-lg font-semibold text-white mb-2">{b.title}</h3>
+          <p class="text-sm text-dark-400 leading-relaxed">{b.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

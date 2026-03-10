@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "IGStoryPeek - Amharcachán Instagram Stories Saor in Aisce | Féach ar Stories Gan Chuntas 2025",
+    "description": "Amharcachán Instagram Stories saor in aisce - Féach ar Instagram stories gan chuntas. Amharc 100% príobháideach ar phróifílí poiblí, postanna, stories, buaicphointí. Níl clárú ag teastáil. An uirlis amharcacháin Instagram Stories is fearr 2025.",
+    "keywords": "amharcachán instagram stories, amharcachán instagram, amharcachán story, amharcachán próifíl instagram, amharcachán postanna instagram, brabhsáil phríobháideach, buaicphointí instagram, brabhsáil instagram stories, amharcachán instagram saor in aisce, íoslódálaí instagram story, féach ar instagram stories gan chuntas, uirlis amharcacháin instagram, amharcachán instagram story 2025, ig story viewer, amharcachán instagram gan logáil isteach"
+  },
+  "nav": {
+    "home": "Baile",
+    "blog": "Blag",
+    "terms": "Téarmaí agus Coinníollacha",
+    "privacy": "Polasaí Príobháideachta",
+    "contact": "Teagmhálaithe"
+  },
+  "navbar": {
+    "features": "Gnéithe",
+    "pricing": "Praghsáil",
+    "blog": "Blag",
+    "login": "Logáil isteach",
+    "dashboard": "Deais",
+    "searchNow": "Cuardaigh Anois"
+  },
+  "hero": {
+    "title": "D'Uirlis Uilechuimsitheach",
+    "titleHighlight": "Anailísíocht Meán Sóisialta",
+    "titleEnd": "",
+    "subtitle": "Anailísigh próifílí poiblí, lean treochtaí rannpháirtíochta, agus aimsiú ábhair — thar ardáin, gan chuntas a bheith ag teastáil.",
+    "placeholder": "Clóscríobh ainm úsáideora Instagram...",
+    "button": "Cuardaigh",
+    "viewSample": "Féach ar Thuairisc Shamplach",
+    "badge1": "Cumhachtaithe ag AI",
+    "badge2": "Níl Cuntas ag Teastáil",
+    "badge3": "Sonraí Poiblí Amháin",
+    "badge4": "Anailís i bhFíor-Am",
+    "popularSearches": "Cuardaigh faoi thrend:"
+  },
+  "searchBar": {
+    "placeholder": "Cuir isteach ainm úsáideora Instagram",
+    "button": "Cuardaigh Anois",
+    "errorEmpty": "Cuir isteach ainm úsáideora le do thoil.",
+    "errorInvalid": "Ainm úsáideora neamhbhailí. Úsáid litreacha, uimhreacha, poncanna nó fostríocanna."
+  },
+  "notice": {
+    "title": "Rochtain ar Ábhar Instagram",
+    "description": "Cuireann seirbhís IGStoryPeek rochtain ar fáil faoi láthair ar Instagram Stories, Postanna, Buaicphointí, agus sonraí próifíle. Cumasaíonn sé seo féachaint neamhnochtaithe ar ábhar Instagram atá ar fáil go poiblí.",
+    "availableContent": "Ábhar atá ar fáil:",
+    "availableContentDesc": "Stories, Postanna, Buaicphointí, agus sonraí próifíle ó chuntais atá inrochtana go poiblí.",
+    "privacy": "Príobháideachas:",
+    "privacyDesc": "Tá gach seisiún amhairc príobháideach - níl aon chuntas ná logáil isteach ag teastáil chun ábhar poiblí a bhrabhsáil."
+  },
+  "features": {
+    "title": "Gnéithe IGStoryPeek",
+    "intro": "Cuireann IGStoryPeek seirbhís saor in aisce ar fáil chun Instagram stories a bhrabhsáil ó chuntais atá inrochtana go poiblí gan chuntas Instagram a bheith ag teastáil. Tá na gnéithe ar fad saor in aisce go hiomlán agus ní éilíonn siad ach ainm úsáideora Instagram a iontráil a theastaíonn uait féachaint air.",
+    "anonymity": {
+      "title": "100% príobháideach",
+      "description": "Brabhsáil ábhar poiblí gan gá le cuntas a chruthú nó logáil isteach"
+    },
+    "noAccount": {
+      "title": "Níl cuntas ag teastáil",
+      "description": "Níl gá le cuntas Instagram a chruthú. Tá deis agat freisin féachaint ar stories úsáideora agus foilseacháin ilmheánach eile gan clárú agus feidhmchlár"
+    },
+    "download": {
+      "title": "Cumas íoslódála",
+      "description": "Is féidir leat stories, foilseacháin agus faisnéis eile a fheiceáil, a íoslódáil saor in aisce ar aon ghléas: ríomhaire, ríomhaire glúine, táibléad nó fón cliste (Android, iOS agus córais oibriúcháin eile)"
+    }
+  },
+  "benefits": {
+    "heading": "Cén Fáth a Roghnú",
+    "headingHighlight": "IGStoryPeek",
+    "subtitle": "Gnéithe cumhachtacha deartha le haghaidh príobháideachta, cruinnis agus éascaíochta úsáide.",
+    "publicData": {
+      "title": "Sonraí Poiblí Amháin",
+      "description": "Ní anailísímid ach faisnéis atá ar fáil go poiblí. Ní rochtanítear ná ní stóráiltear sonraí príobháideacha riamh."
+    },
+    "noLogin": {
+      "title": "Níl Logáil Isteach ag Teastáil",
+      "description": "Brabhsáil próifílí agus stories gan chuntas a chruthú nó síniú isteach."
+    },
+    "realTime": {
+      "title": "Nuashonruithe i bhFíor-Am",
+      "description": "Socraigh foláirimh uathoibrithe chun fanacht ar an eolas faoi athruithe cuntais agus gníomhaíocht nua."
+    },
+    "aiInsights": {
+      "title": "Léargais AI",
+      "description": "Anailísíonn algartaim chumhachtacha patrúin rannpháirtíochta agus soláthraíonn siad léargais inghníomhaithe."
+    },
+    "multiPlatform": {
+      "title": "Tacaíocht Ilardán",
+      "description": "Anailísigh próifílí ar fud Instagram, TikTok, Facebook, agus Snapchat ó áit amháin."
+    },
+    "easyToUse": {
+      "title": "Éasca le hÚsáid",
+      "description": "Ní gá ach ainm úsáideora a iontráil agus faigh do thuairisc. Níl aon eolas teicniúil ag teastáil."
+    }
+  },
+  "useCases": {
+    "heading": "Tógtha do",
+    "headingHighlight": "Gach Cás Úsáide",
+    "subtitle": "Bíodh tú i do mhargóir nó i d'aonair, soláthraíonn IGStoryPeek na léargais a theastaíonn uait.",
+    "forMarketers": "Do Mhargóirí",
+    "forIndividuals": "D'Aonair",
+    "marketer1Title": "Lean Iomaitheoirí",
+    "marketer1Desc": "Monatóirigh patrúin postála iomaitheoirí, rátaí rannpháirtíochta agus straitéisí ábhair.",
+    "marketer2Title": "Monatóirigh Buaiceanna Rannpháirtíochta",
+    "marketer2Desc": "Faigh foláirimh nuair a bhíonn fás neamhghnách nó ábhar víreach ag cuntais.",
+    "marketer3Title": "Aimsigh Tionchairí",
+    "marketer3Desc": "Aimsigh agus meas tionchairí bunaithe ar shonraí fíor rannpháirtíochta agus cáilíocht lucht féachana.",
+    "individual1Title": "Brabhsáil Gan Chuntas",
+    "individual1Desc": "Féach ar stories agus postanna gan gá le logáil isteach nó cuntas a chruthú.",
+    "individual2Title": "Lean Patrúin Rannpháirtíochta",
+    "individual2Desc": "Féach conas a idirghníomhaíonn lucht féachana le cuntais agus ábhar ar leith.",
+    "individual3Title": "Léargais ar Fheidhmíocht Ábhair",
+    "individual3Desc": "Tuig patrúin rannpháirtíochta agus feidhmíocht ábhair ar fud próifílí."
+  },
+  "featuresSuite": {
+    "heading": "Sraith Iomlán",
+    "headingHighlight": "Táirgí",
+    "subtitle": "Ceithre uirlis chumhachtacha deartha chun pictiúr iomlán a thabhairt duit d'aon láithreacht phoiblí Instagram.",
+    "analyzer": {
+      "title": "Anailísí Instagram",
+      "description": "Anailísíocht dhomhain d'aon phróifíl phoiblí. Rátaí rannpháirtíochta, treochtaí fáis, feidhmíocht ábhair, agus léargais lucht féachana."
+    },
+    "browser": {
+      "title": "Brabhsálaí Ábhair",
+      "description": "Brabhsáil stories, postanna, agus buaicphointí gan logáil isteach — níl cuntas ag teastáil."
+    },
+    "downloader": {
+      "title": "Íoslódálaí",
+      "description": "Sábháil stories, reels, agus postanna sa chaighdeán bunaidh. Coinnigh taifead le haghaidh anailís iomaíoch nó úsáid phearsanta."
+    },
+    "tracker": {
+      "title": "Rianaitheoir Gníomhaíochta",
+      "description": "Socraigh foláirimh uathoibrithe d'aon chuntas poiblí. Faigh fógra faoi phostanna nua, nuashonruithe stories, agus athruithe leantóirí."
+    },
+    "learnMore": "Foghlaim tuilleadh"
+  },
+  "testimonials": {
+    "heading": "Muiníneach ag",
+    "headingHighlight": "na Mílte",
+    "subtitle": "Féach cad a deir ár n-úsáideoirí faoi IGStoryPeek."
+  },
+  "trust": {
+    "userCount": "50,000+ úsáideoir",
+    "trustLine": "a bhfuil muinín acu as IGStoryPeek",
+    "sslEncrypted": "Criptithe le SSL",
+    "gdprCompliant": "Comhlíontach le GDPR",
+    "publicDataOnly": "Sonraí Poiblí Amháin",
+    "complianceNote": "Tá gach sonra foinsithe ó phróifílí atá ar fáil go poiblí de réir dlíthe infheidhme."
+  },
+  "ctaSection": {
+    "heading": "Tosaigh ag Anailísiú",
+    "headingHighlight": "Inniu",
+    "description": "Cuir isteach aon ainm úsáideora poiblí agus faigh tuairisc anailísíochta chuimsitheach i soicindí."
+  },
+  "articles": {
+    "heading": "An Méid is Déanaí ón",
+    "headingHighlight": "mBlag",
+    "subtitle": "Leideanna, treoir agus léargais tionscail.",
+    "viewAll": "Féach ar gach post",
+    "readMore": "Léigh Tuilleadh",
+    "noPosts": "Níl aon phostanna blag ann fós. Tar ar ais go luath!"
+  },
+  "faq": {
+    "title": "Ceisteanna a Chuirtear go Minic"
+  },
+  "cookie": {
+    "message": "Úsáidimid fianáin chun d'eispéireas a fheabhsú, trácht a anailísiú, agus fógraí ábhartha a sheirbheáil. Trí \"Glac le Gach Ceann\" a chliceáil, aontaíonn tú lenár n-úsáid fianán.",
+    "learnMore": "Foghlaim tuilleadh",
+    "managePreferences": "Bainistigh Sainroghanna",
+    "acceptAll": "Glac le Gach Ceann"
+  },
+  "footer": {
+    "brandDescription": "Anailísíocht meán sóisialta agus uirlisí ábhair. Anailísigh próifílí poiblí, lean rannpháirtíocht, agus gineadh léargais.",
+    "product": "Táirge",
+    "features": "Gnéithe",
+    "pricing": "Praghsáil",
+    "sampleReport": "Tuairisc Shamplach",
+    "dashboard": "Deais",
+    "resources": "Acmhainní",
+    "blog": "Blag",
+    "useCases": "Cásanna Úsáide",
+    "faqLink": "CC",
+    "legal": "Dlíthiúil",
+    "privacyPolicy": "Polasaí Príobháideachta",
+    "termsOfService": "Téarmaí Seirbhíse",
+    "aboutUs": "Maidir Linn",
+    "contact": "Teagmháil",
+    "cookiePolicy": "Polasaí Fianán",
+    "dmca": "DMCA",
+    "tools": "Uirlisí",
+    "viewAll": "Féach ar gach ceann",
+    "copyright": "IGStoryPeek. Gach ceart ar cosaint. Níl baint aige le Instagram nó Meta.",
+    "dataSource": "Tá gach sonra foinsithe ó fhaisnéis atá ar fáil go poiblí.",
+    "navigation": "Nascleanúint",
+    "disclaimer": "Níl IGStoryPeek ceangailte le Instagram. Ní óstálaimid Instagram Stories ar ár bhfreastalaithe, is lena n-úinéirí a bhaineann gach ceart.",
+    "instagramVideoDownloader": "Íoslódálaí Físe Instagram",
+    "instagramStoryViewer": "Amharcachán Instagram Story",
+    "comingSoon": "Tá an ghné seo ag teacht go luath!",
+    "alreadyUsing": "Tá tú ag úsáid an Amharcacháin Instagram Story cheana féin!",
+    "removeProfile": "Bain próifíl",
+    "removeProfileMessage": "Chun do phróifíl a bhaint, déan teagmháil le support@igstorypeek.com le d'ainm úsáideora Instagram."
+  },
+  "howItWorks": {
+    "title": "Conas a oibríonn féachaint phríobháideach ar Instagram Stories?",
+    "step1": "Clóscríobh ainm úsáideora an phróifíl a theastaíonn uait féachaint air",
+    "step2": "Glactar leis an ainm úsáideora a chuir tú isteach ag ár gcóras agus déileálann ár bpróiseas uathoibrithe leis",
+    "step3": "Taispeánann ár seirbhís leathanach an phróifíl, ag taispeáint na faisnéise is déanaí agus is reatha",
+    "step4": "Cláraítear amhairc Instagram story faoi cheann dár gcuntais seirbhíse",
+    "step5": "Fanann d'aitheantas go hiomlán príobháideach",
+    "cta": "Tosaigh ag cuardach"
+  },
+  "pricing": {
+    "title": "Simplí, Trédhearcach",
+    "titleHighlight": "Praghsáil",
+    "subtitle": "Tosaigh saor in aisce. Uasghrádaigh nuair a theastaíonn tuilleadh cumhachta uait.",
+    "free": {
+      "name": "Saor in Aisce",
+      "description": "D'úsáideoirí ócáideacha agus cuardaigh thapa.",
+      "price": "$0",
+      "period": "/ mí",
+      "feature1": "2 chuardach gach 8 n-uaire",
+      "feature2": "Tuairisc bhunúsach rannpháirtíochta",
+      "feature3": "Forbhreathnú próifíle",
+      "excluded1": "Gan monatóireacht leanúnach",
+      "excluded2": "Gan léargais AI",
+      "cta": "Tosaigh Saor in Aisce"
+    },
+    "pro": {
+      "name": "Pro",
+      "badge": "Is Coitianta",
+      "description": "D'úsáideoirí cumhachtacha agus gairmithe.",
+      "price": "$29",
+      "period": "/ mí",
+      "feature1": "Cuardaigh gan teorainn",
+      "feature2": "Deais anailísíochta iomlán",
+      "feature3": "Monatóireacht leanúnach agus foláirimh",
+      "feature4": "Léargais cumhachtaithe ag AI",
+      "feature5": "Brath trasardán",
+      "feature6": "Tacaíocht tosaíochta",
+      "cta": "Uasghrádaigh go Pro"
+    },
+    "faqs": [
+      {
+        "question": "An féidir liom cealú ag am ar bith?",
+        "answer": "Is féidir! Is féidir leat do shuibscríbhinn Pro a chealú ag am ar bith. Coimeádfaidh tú rochtain go dtí deireadh do thréimhse billeála."
+      },
+      {
+        "question": "Cén modhanna íocaíochta a ghlacann sibh?",
+        "answer": "Glacaimid le gach mórchárta creidmheasa agus dochair trínár bpróiseálaí íocaíochta slán (Stripe). Tacaítear le Apple Pay agus Google Pay freisin."
+      },
+      {
+        "question": "An bhfuil mo shonraí slán?",
+        "answer": "Cinnte. Tá gach nasc criptithe le SSL. Ní stóráilimid pasfhocail Instagram riamh agus ní phróiseálaimid ach sonraí atá ar fáil go poiblí."
+      },
+      {
+        "question": "Cé mhéad a chosnaíonn uirlisí anailísíochta Instagram de ghnáth?",
+        "answer": "Tá an chuid is mó idir saor in aisce agus $30/mí. Cuireann IGStoryPeek leibhéal saor in aisce ar fáil le 2 chuardach gach 8 n-uaire agus plean Pro ar $29/mí le haghaidh rochtain gan teorainn ar fud Instagram, TikTok, Facebook, agus Snapchat."
+      },
+      {
+        "question": "Cén gnéithe a chuireann uirlisí meán sóisialta íoctha ar fáil nach gcuireann cinn saor in aisce?",
+        "answer": "Áiríonn pleananna Pro de ghnáth cuardaigh gan teorainn, foláirimh rianaithe leanúnacha, léargais cumhachtaithe ag AI, scagadh casta, agus easpórtálacha CSV — gnéithe a théann níos faide ná leibhéil shaor in aisce."
+      },
+      {
+        "question": "An gcuireann uirlisí anailísíochta meán sóisialta trialacha saor in aisce ar fáil?",
+        "answer": "Tá plean saor in aisce IGStoryPeek saor in aisce go buan le 2 chuardach gach 8 n-uaire. Is féidir leat uasghrádú go Pro am ar bith agus cealú nuair is mian leat — níl aon tréimhse triailte ag teastáil."
+      },
+      {
+        "question": "An fiú íoc as anailísíocht Instagram nuair atá uirlisí saor in aisce ann?",
+        "answer": "Tá uirlisí saor in aisce iontach d'úsáid ócáideach. Más gá leat cuardaigh gan teorainn, foláirimh uathoibrithe, nó tuairiscí gairmiúla, cuireann plean íoctha luach i bhfad níos mó ar fáil agus sábhálann sé am."
+      }
+    ]
+  },
+  "about": {
+    "title": "Maidir le",
+    "titleHighlight": "IGStoryPeek",
+    "mission": "Is é ár misean anailísíocht meán sóisialta a dhéanamh inrochtana, trédhearcach, agus le meas ar phríobháideachas do gach duine.",
+    "whatWeDoTitle": "Cad a Dhéanaimid",
+    "whatWeDoDesc": "Is ardán anailísíochta meán sóisialta é IGStoryPeek a chuidíonn le margóirí, taighdeoirí, agus daoine aonair sonraí próifíle atá ar fáil go poiblí a anailísiú ar fud Instagram, TikTok, Facebook, agus Snapchat.",
+    "valuesTitle": "Ár Luachanna",
+    "transparency": {
+      "title": "Trédhearcacht",
+      "description": "Táimid oscailte faoi na sonraí a rochtanímid agus conas a úsáidimid iad."
+    },
+    "publicDataOnly": {
+      "title": "Sonraí Poiblí Amháin",
+      "description": "Ní rochtanímid próifílí príobháideacha, teachtaireachtaí díreacha, ná ábhar neamhphoiblí riamh."
+    },
+    "compliance": {
+      "title": "Comhlíonadh",
+      "description": "Oibrímid de réir GDPR, CCPA, agus rialacháin infheidhme um chosaint sonraí."
+    },
+    "userPrivacy": {
+      "title": "Príobháideachas Úsáideora",
+      "description": "Ní roinntear do ghníomhaíocht brabhsála riamh. Ní éilímid dintiúir meán sóisialta."
+    },
+    "contactTitle": "Déan Teagmháil Linn",
+    "contactDesc": "Ceisteanna nó aiseolas agat? Ba bhreá linn cloisteáil uait.",
+    "contactEmail": "Seol ríomhphost chugainn ag",
+    "faqs": [
+      {
+        "question": "An dlíthiúil é uirlisí anailísíochta meán sóisialta a úsáid?",
+        "answer": "Tá. Ní phróiseálann IGStoryPeek ach sonraí atá ar fáil go poiblí agus comhlíonann sé rialacháin phríobháideachta infheidhme. Ní rochtanímid próifílí príobháideacha ná ábhar srianta riamh."
+      },
+      {
+        "question": "An féidir liom IGStoryPeek a úsáid le haghaidh taighde acadúil nó margaidh?",
+        "answer": "Cinnte. Úsáideann go leor taighdeoirí agus gairmithe margaíochta IGStoryPeek chun treochtaí meán sóisialta poiblí, patrúin rannpháirtíochta, agus straitéisí ábhair a anailísiú."
+      },
+      {
+        "question": "An ndíolann IGStoryPeek sonraí úsáideoirí?",
+        "answer": "Ní dhíolann. Ní dhíolaimid, ní thrádálaimid, ná ní roinntimid aon sonraí úsáideora le tríú páirtithe. Léigh ár bPolasaí Príobháideachta le haghaidh sonraí."
+      },
+      {
+        "question": "Conas a bhailíonn IGStoryPeek sonraí?",
+        "answer": "Anailísímid sonraí atá ar fáil go poiblí ó ardáin meán sóisialta. Ní rochtanítear sonraí príobháideacha, teachtaireachtaí díreacha, ná ábhar srianta riamh."
+      },
+      {
+        "question": "Cén ardáin a dtacaíonn IGStoryPeek leo?",
+        "answer": "Faoi láthair, tacaíonn IGStoryPeek le hanailísíocht Instagram, TikTok, Facebook, agus Snapchat."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Déan",
+    "titleHighlight": "Teagmháil",
+    "subtitle": "Ceisteanna, aiseolas, nó tacaíocht ag teastáil? Táimid anseo chun cabhrú.",
+    "formName": "Ainm",
+    "formEmail": "Ríomhphost",
+    "formSubject": "Ábhar",
+    "formMessage": "Teachtaireacht",
+    "formSubmit": "Seol Teachtaireacht",
+    "subjectGeneral": "Fiosrú Ginearálta",
+    "subjectSupport": "Tacaíocht Theicniúil",
+    "subjectBilling": "Billeáil",
+    "subjectDmca": "DMCA/Cóipcheart",
+    "subjectFeedback": "Aiseolas",
+    "directEmail": "Nó seol ríomhphost díreach chugainn ag",
+    "responseTime": "De ghnáth freagraímid laistigh de 24–48 uair gnó.",
+    "legalTitle": "Iarratais Dhlíthiúla",
+    "legalDesc": "Le haghaidh iarratais dhlíthiúla lena n-áirítear scriosadh sonraí agus fiosrúcháin GDPR, seol ríomhphost chuig",
+    "dmcaTitle": "Fógraí DMCA",
+    "dmcaDesc": "Chun fógra baint anuas DMCA a sheoladh, tabhair cuairt ar ár"
+  },
+  "login": {
+    "title": "Fáilte ar Ais",
+    "subtitle": "Logáil isteach chun do dheais agus stair chuardaigh a rochtain.",
+    "googleSignIn": "Sínigh isteach le Google",
+    "orDivider": "nó",
+    "emailLabel": "Ríomhphost",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Pasfhocal",
+    "passwordPlaceholder": "Cuir isteach do phasfhocal",
+    "submitButton": "Logáil Isteach",
+    "noAccount": "Níl cuntas agat?",
+    "signUp": "Cláraigh",
+    "errorInvalid": "Ríomhphost nó pasfhocal neamhbhailí. Bain triail eile as le do thoil.",
+    "errorTooMany": "An iomarca iarrachtaí. Bain triail eile as níos déanaí le do thoil."
+  },
+  "register": {
+    "title": "Cruthaigh Cuntas",
+    "subtitle": "Cláraigh chun do chuardaigh a shábháil agus gnéithe breise a dhíghlasáil.",
+    "googleSignUp": "Cláraigh le Google",
+    "orDivider": "nó",
+    "emailLabel": "Ríomhphost",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Pasfhocal",
+    "passwordPlaceholder": "Cruthaigh pasfhocal",
+    "confirmPasswordLabel": "Dearbhaigh Pasfhocal",
+    "confirmPasswordPlaceholder": "Dearbhaigh do phasfhocal",
+    "termsAgree": "Aontaím leis na",
+    "termsLink": "Téarmaí Seirbhíse",
+    "andText": "agus",
+    "privacyLink": "Polasaí Príobháideachta",
+    "submitButton": "Cruthaigh Cuntas",
+    "hasAccount": "Cuntas agat cheana féin?",
+    "logIn": "Logáil isteach",
+    "errorEmailInUse": "Ríomhphost in úsáid cheana féin. Bain triail as ríomhphost eile le do thoil.",
+    "errorWeakPassword": "Tá an pasfhocal ró-lag. Úsáid 6 charachtar ar a laghad le do thoil.",
+    "errorMismatch": "Ní mheaitseálann na pasfhocail.",
+    "errorMinLength": "Caithfidh 6 charachtar ar a laghad a bheith sa phasfhocal."
+  },
+  "dashboard": {
+    "title": "Deais",
+    "currentPlan": "Plean Reatha",
+    "searchesUsed": "Cuardaigh Úsáidte",
+    "totalSearches": "Cuardaigh Iomlána",
+    "free": "Saor in Aisce",
+    "pro": "Pro",
+    "unlimited": "Gan Teorainn",
+    "quickSearch": "Mearchuardach",
+    "quickSearchPlaceholder": "Cuir isteach ainm úsáideora",
+    "quickSearchButton": "Cuardaigh",
+    "upgradeCta": "Uasghrádaigh go Pro",
+    "upgradeDesc": "Faigh cuardaigh gan teorainn, léargais AI, agus monatóireacht leanúnach.",
+    "searchHistory": "Stair Chuardaigh",
+    "noSearches": "Níl aon chuardaigh ann fós. Tosaigh trí ainm úsáideora a chuardach thuas."
+  },
+  "searchReport": {
+    "analyzingProfile": "Próifíl á hAnailísiú",
+    "generatingReport": "Tuairisc anailísíochta á giniúint do",
+    "engagementRate": "Ráta Rannpháirtíochta",
+    "avgLikes": "Meánlíon Maith",
+    "avgComments": "Meánlíon Tuairimí",
+    "followerGrowth": "Fás Leantóirí (30 Lá)",
+    "contentBreakdown": "Miondealú Ábhair",
+    "recentActivity": "Gníomhaíocht Dhéanach",
+    "date": "Dáta",
+    "posts": "Postanna",
+    "stories": "Stories",
+    "likes": "Maith Acu",
+    "topInteractions": "Na hIdirghníomhuithe is Airde",
+    "topHashtags": "Na Haischlibeanna is Airde",
+    "limitReached": "Teorainn Chuardaigh Bainte Amach",
+    "limitDesc": "D'úsáid tú do chuardaigh shaor in aisce ar fad don tréimhse seo.",
+    "nextReset": "An chéad athshocrú eile i",
+    "watchAd": "Féach ar fhógra le haghaidh +3 uair",
+    "upgradePro": "Uasghrádaigh go Pro",
+    "followers": "leantóirí",
+    "following": "ag leanúint"
+  },
+  "blog": {
+    "title": "Blag",
+    "description": "Leideanna, treoir agus léargais tionscail faoi anailísíocht Instagram, príobháideachas, agus treochtaí meán sóisialta.",
+    "allPosts": "Gach Post",
+    "readMore": "Léigh Tuilleadh",
+    "publishedOn": "Foilsithe ar",
+    "updatedOn": "Nuashonraithe ar",
+    "by": "Le",
+    "relatedPosts": "Postanna Gaolmhara",
+    "noPosts": "Níor aimsíodh aon phostanna",
+    "backToBlog": "Ar Ais go dtí an Blag",
+    "featured": "Roghnaithe"
+  },
+  "legal": {
+    "termsTitle": "Téarmaí Seirbhíse",
+    "privacyTitle": "Polasaí Príobháideachta",
+    "cookiePolicyTitle": "Polasaí Fianán",
+    "dmcaTitle": "Polasaí DMCA",
+    "lastUpdated": "Nuashonraithe go deireanach"
+  },
+  "common": {
+    "home": "Baile",
+    "learnMore": "Foghlaim tuilleadh",
+    "getStarted": "Tosaigh",
+    "viewAll": "Féach ar gach ceann"
+  },
+  "homeFaqs": [
+    {
+      "question": "An féidir leat féachaint ar Instagram stories gan chuntas?",
+      "answer": "Is féidir. Ligeann IGStoryPeek duit brabhsáil ar stories poiblí Instagram gan chuntas a chruthú nó logáil isteach. Ní gá ach ainm úsáideora poiblí a iontráil agus féach ar a gcuid stories, buaicphointí, agus reels láithreach."
+    },
+    {
+      "question": "Cad é uirlis anailísíochta meán sóisialta agus conas a oibríonn sé?",
+      "answer": "Bailíonn agus anailísíonn uirlis anailísíochta meán sóisialta sonraí atá ar fáil go poiblí ó ardáin mar Instagram, TikTok, Facebook, agus Snapchat. Cuireann sé méadraigh ar nós rátaí rannpháirtíochta, fás leantóirí, agus feidhmíocht ábhair i dtuairiscí éasca le léamh."
+    },
+    {
+      "question": "An bhfuil sé sábháilte amharcachán Instagram stories tríú páirtí a úsáid?",
+      "answer": "Tá uirlisí aitheanta mar IGStoryPeek sábháilte toisc nach rochtanítear ach sonraí atá ar fáil go poiblí agus ní iarrtar riamh do dhintiúir Instagram. Seachain i gcónaí seirbhísí a iarrann do phasfhocal nó a éilíonn ort logáil isteach le do chuntas meán sóisialta."
+    },
+    {
+      "question": "Cé na hardáin meán sóisialta ar féidir leat brabhsáil orthu gan chuntas a chruthú?",
+      "answer": "Le IGStoryPeek is féidir leat brabhsáil ar ábhar poiblí ó Instagram, TikTok, Facebook, agus Snapchat — ar fad gan chuntas a chruthú ar aon cheann de na hardáin sin."
+    },
+    {
+      "question": "An n-oibríonn uirlisí amharcacháin story ar chuntais Instagram príobháideacha?",
+      "answer": "Ní oibríonn. Ní rochtanítear ach ábhar ó phróifílí poiblí le IGStoryPeek agus uirlisí comhchosúla. Níl cuntais phríobháideacha inrochtana, agus ní cheart muinín a bheith in aon seirbhís a mhaíonn a mhalairt."
+    },
+    {
+      "question": "Cad é an difríocht idir anailísíocht meán sóisialta agus monatóireacht meán sóisialta?",
+      "answer": "Díríonn anailísíocht ar mhéadraigh feidhmíochta a thomhas mar rátaí rannpháirtíochta agus treochtaí fáis. Díríonn monatóireacht ar fhanacht ar an eolas faoi athruithe fíor-ama mar phostanna nua, stories, nó nuashonruithe próifíle."
+    }
+  ],
+  "profile": {
+    "posts": "Postanna",
+    "stories": "Stories",
+    "highlights": "Buaicphointí",
+    "postsCount": "postanna",
+    "followers": "leantóirí",
+    "following": "ag leanúint",
+    "noPosts": "Níl aon phostanna ar fáil.",
+    "noStories": "Níl aon stories ar fáil. Níl rochtain ar stories ach trí sheirbhís IGStoryPeek.",
+    "noHighlights": "Níl aon bhuaicphointí ar fáil.",
+    "viewOnInstagram": "Féach ar Instagram",
+    "ago": "ó shin",
+    "videoNotSupported": "Ní thacaíonn do bhrabhsálaí leis an gclib físeáin."
+  },
+  "messages": {
+    "pleaseEnterUsername": "Cuir isteach ainm úsáideora le do thoil",
+    "pleaseEnterValidUsername": "Cuir isteach ainm úsáideora bailí le do thoil",
+    "foundProfile": "Próifíl aimsithe:",
+    "profileNotFound": "Próifíl gan aimsiú",
+    "errorConnecting": "Earráid ag ceangal leis an bhfreastalaí. Bain triail eile as le do thoil."
+  },
+  "megaMenu": {
+    "categories": {
+      "Profile Explorer": "Taiscéalaí próifíle",
+      "Analyzer": "Anailísí",
+      "Downloader": "Íoslódálaí",
+      "Viewer": "Amharcóir",
+      "Activity Tracker": "Rianaire gníomhaíochta"
+    },
+    "badges": {
+      "NEW": "NUA"
+    },
+    "instagram": {
+      "user-search": "Cuardach úsáideora do Instagram",
+      "view-comments-privately": "Féach ar thráchtanna go príobháideach",
+      "follower-analyzer": "Anailísí leantóirí",
+      "activity-analyzer": "Anailísí gníomhaíochta",
+      "see-likes": "Féach ar mholtaí ar Instagram",
+      "hashtags-generator": "Gineadóir haischlibeanna",
+      "stories-downloader": "Íoslódálaí scéalta",
+      "highlights-downloader": "Íoslódálaí buaicphointí",
+      "posts-downloader": "Íoslódálaí postálacha",
+      "video-downloader": "Íoslódálaí físeán",
+      "post-viewer": "Amharcóir postálacha",
+      "stories-viewer": "Amharcóir scéalta",
+      "highlights-viewer": "Amharcóir buaicphointí",
+      "comment-viewer": "Amharcóir tráchtanna",
+      "likes-viewer": "Amharcóir moltaí",
+      "relationship-insights": "Léargais chaidrimh",
+      "recent-mutuals": "Comhleantóirí le déanaí"
+    },
+    "tiktok": {
+      "user-search": "Cuardach úsáideora do TikTok",
+      "view-comments-privately": "Féach ar thráchtanna go príobháideach",
+      "follower-analyzer": "Anailísí leantóirí",
+      "activity-analyzer": "Anailísí gníomhaíochta",
+      "see-likes": "Féach ar mholtaí ar TikTok",
+      "trending-sounds-finder": "Aimsire fuaimeanna treochtacha",
+      "video-downloader": "Íoslódálaí físeán",
+      "stories-downloader": "Íoslódálaí scéalta",
+      "audio-downloader": "Íoslódálaí fuaime",
+      "slideshow-downloader": "Íoslódálaí taispeántas sleamhnán",
+      "video-viewer": "Amharcóir físeán",
+      "stories-viewer": "Amharcóir scéalta",
+      "comment-viewer": "Amharcóir tráchtanna",
+      "likes-viewer": "Amharcóir moltaí",
+      "followers-viewer": "Amharcóir leantóirí",
+      "engagement-tracker": "Rianaire rannpháirtíochta",
+      "duet-and-stitch-tracker": "Rianaire Duet agus Stitch"
+    },
+    "facebook": {
+      "user-search": "Cuardach úsáideora do Facebook",
+      "view-comments-privately": "Féach ar thráchtanna go príobháideach",
+      "page-analyzer": "Anailísí leathanaigh",
+      "group-analyzer": "Anailísí grúpaí",
+      "see-reactions": "Féach ar fhreagairtí ar Facebook",
+      "ad-library-explorer": "Taiscéalaí leabharlann fógraí",
+      "stories-downloader": "Íoslódálaí scéalta",
+      "reels-downloader": "Íoslódálaí Reels",
+      "video-downloader": "Íoslódálaí físeán",
+      "photo-album-downloader": "Íoslódálaí albam grianghraf",
+      "post-viewer": "Amharcóir postálacha",
+      "stories-viewer": "Amharcóir scéalta",
+      "reels-viewer": "Amharcóir Reels",
+      "comment-viewer": "Amharcóir tráchtanna",
+      "likes-viewer": "Amharcóir moltaí",
+      "page-activity-tracker": "Rianaire gníomhaíochta leathanaigh",
+      "friend-interaction-insights": "Léargais idirghníomhú cairde"
+    },
+    "snapchat": {
+      "user-search": "Cuardach úsáideora do Snapchat",
+      "view-stories-privately": "Féach ar scéalta go príobháideach",
+      "score-tracker": "Rianaire scóir",
+      "activity-analyzer": "Anailísí gníomhaíochta",
+      "best-friends-analyzer": "Anailísí na gcairde is fearr",
+      "streak-tracker": "Rianaire sraithe",
+      "stories-downloader": "Íoslódálaí scéalta",
+      "spotlight-downloader": "Íoslódálaí Spotlight",
+      "memories-downloader": "Íoslódálaí cuimhní",
+      "stories-viewer": "Amharcóir scéalta",
+      "spotlight-viewer": "Amharcóir Spotlight",
+      "map-viewer": "Amharcóir léarscáile",
+      "public-profile-viewer": "Amharcóir próifíle poiblí",
+      "score-change-tracker": "Rianaire athrú scóir",
+      "online-status-tracker": "Rianaire stádas ar líne"
+    }
+  }
+}

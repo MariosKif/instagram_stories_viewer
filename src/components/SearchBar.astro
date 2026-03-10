@@ -1,0 +1,97 @@
+---
+/**
+ * Search bar component used in hero and dashboard.
+ * Validates Instagram username format and redirects to report page.
+ */
+import { type Language } from '../i18n/utils';
+
+interface Props {
+  size?: 'default' | 'large';
+  class?: string;
+}
+
+const { size = 'default', class: className = '' } = Astro.props;
+const isLarge = size === 'large';
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const t = (Astro.locals as any).t || {};
+const sbT = t.searchBar || {};
+---
+
+<form id="search-form" class={`relative ${className}`} novalidate>
+  <div class={`relative flex items-center ${isLarge ? 'glass-strong glow' : 'bg-dark-800 border border-dark-700'} rounded-2xl overflow-hidden transition-all duration-300 focus-within:ring-2 focus-within:ring-primary/40`}>
+    <!-- @ prefix icon -->
+    <span class={`${isLarge ? 'pl-5 text-lg' : 'pl-4 text-base'} text-dark-400 font-medium select-none`}>@</span>
+
+    <input
+      id="search-input"
+      type="text"
+      placeholder={sbT.placeholder || 'Enter Instagram username'}
+      autocomplete="off"
+      spellcheck="false"
+      class={`flex-1 bg-transparent border-none outline-none text-white placeholder-dark-400 ${isLarge ? 'px-2 py-4 text-lg' : 'px-2 py-3 text-base'}`}
+    />
+
+    <button
+      type="submit"
+      class={`btn-primary rounded-l-none ${isLarge ? 'px-8 py-4 text-base' : 'px-6 py-3 text-sm'} rounded-2xl shrink-0`}
+    >
+      <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      {sbT.button || 'Search Now'}
+    </button>
+  </div>
+
+  <p id="search-error" class="hidden text-red-400 text-sm mt-2 ml-2"></p>
+</form>
+
+<!-- Pass translations to client-side script -->
+<script type="application/json" id="search-bar-i18n" set:html={JSON.stringify({
+  errorEmpty: sbT.errorEmpty || 'Please enter a username.',
+  errorInvalid: sbT.errorInvalid || 'Invalid username. Use letters, numbers, periods, or underscores.',
+})} />
+
+<script>
+  import { getDeviceId } from '../lib/searchLimits';
+
+  // Ensure device ID exists early for anonymous tracking
+  getDeviceId();
+
+  const form = document.getElementById('search-form') as HTMLFormElement;
+  const input = document.getElementById('search-input') as HTMLInputElement;
+  const error = document.getElementById('search-error')!;
+
+  // Load translations
+  const i18nEl = document.getElementById('search-bar-i18n');
+  const i18n = i18nEl ? JSON.parse(i18nEl.textContent || '{}') : {};
+
+  // Instagram username: 1-30 chars, letters, numbers, periods, underscores
+  const usernameRegex = /^[a-zA-Z0-9._]{1,30}$/;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const raw = input.value.trim().replace(/^@/, '');
+
+    if (!raw) {
+      showError(i18n.errorEmpty || 'Please enter a username.');
+      return;
+    }
+
+    if (!usernameRegex.test(raw)) {
+      showError(i18n.errorInvalid || 'Invalid username. Use letters, numbers, periods, or underscores.');
+      return;
+    }
+
+    error.classList.add('hidden');
+
+    // Navigate directly — rate limiting handled on the search page
+    window.location.href = `/search/${encodeURIComponent(raw)}`;
+  });
+
+  function showError(msg: string) {
+    error.textContent = msg;
+    error.classList.remove('hidden');
+    input.focus();
+  }
+</script>

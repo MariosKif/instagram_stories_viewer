@@ -1,0 +1,29 @@
+---
+/**
+ * Final CTA section — big centered call-to-action at bottom of homepage.
+ */
+import SearchBar from './SearchBar.astro';
+
+const t = (Astro.locals as any).t || {};
+const ctaT = t.ctaSection || {};
+---
+
+<section class="py-20 lg:py-28 relative overflow-hidden">
+  <!-- Background glow -->
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl"></div>
+  </div>
+
+  <div class="relative section-container text-center">
+    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mb-4">
+      {ctaT.heading || 'Start Analyzing'} <span class="gradient-text">{ctaT.headingHighlight || 'Today'}</span>
+    </h2>
+    <p class="text-dark-400 text-lg max-w-xl mx-auto mb-10">
+      {ctaT.description || 'Enter any public username and get a comprehensive analytics report in seconds.'}
+    </p>
+
+    <div class="max-w-xl mx-auto">
+      <SearchBar size="large" />
+    </div>
+  </div>
+</section>

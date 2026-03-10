@@ -1,0 +1,59 @@
+---
+/**
+ * Homepage — conversion-optimized landing page.
+ * All sections are server-rendered for SEO, with client-side interactivity.
+ */
+import MainLayout from '../layouts/MainLayout.astro';
+import Hero from '../components/Hero.astro';
+import TrustSection from '../components/TrustSection.astro';
+import UseCases from '../components/UseCases.astro';
+import BenefitsGrid from '../components/BenefitsGrid.astro';
+import FeaturesSuite from '../components/FeaturesSuite.astro';
+import ArticlesSection from '../components/ArticlesSection.astro';
+import Testimonials from '../components/Testimonials.astro';
+import FAQSection from '../components/FAQSection.astro';
+import CTASection from '../components/CTASection.astro';
+
+const t = (Astro.locals as any).t || {};
+const homeFaqs = t.homeFaqs || [
+  {
+    question: 'Can you view Instagram stories without an account?',
+    answer: 'Yes. IGStoryPeek lets you browse public Instagram stories without creating an account or logging in. Simply enter a public username and view their stories, highlights, and reels instantly.',
+  },
+  {
+    question: 'What is a social media analytics tool and how does it work?',
+    answer: 'A social media analytics tool collects and analyzes publicly available data from platforms like Instagram, TikTok, Facebook, and Snapchat. It presents metrics such as engagement rates, follower growth, and content performance in easy-to-read reports.',
+  },
+  {
+    question: 'Is it safe to use third-party Instagram story viewers?',
+    answer: 'Reputable tools like IGStoryPeek are safe because they only access publicly available data and never ask for your Instagram credentials. Always avoid services that request your password or require you to log in with your social media account.',
+  },
+  {
+    question: 'What social media platforms can you browse without creating an account?',
+    answer: 'With IGStoryPeek you can browse public content from Instagram, TikTok, Facebook, and Snapchat — all without creating an account on any of those platforms.',
+  },
+  {
+    question: 'Do story viewer tools work on private Instagram accounts?',
+    answer: 'No. IGStoryPeek and similar tools only access content from public profiles. Private accounts are not accessible, and any service that claims otherwise should not be trusted.',
+  },
+  {
+    question: 'What is the difference between social media analytics and social media monitoring?',
+    answer: 'Analytics focuses on measuring performance metrics like engagement rates and growth trends. Monitoring focuses on staying informed about real-time changes such as new posts, stories, or profile updates.',
+  },
+];
+---
+
+<MainLayout
+  title={t.meta?.title || "IGStoryPeek — Social Media Analytics & Content Tools"}
+  description={t.meta?.description || "Analyze public Instagram profiles, track engagement trends, and explore content across platforms. AI-powered insights for marketers and researchers."}
+>
+  <Hero />
+  <TrustSection />
+  <BenefitsGrid />
+  <UseCases />
+  <FeaturesSuite />
+  <ArticlesSection />
+  <Testimonials />
+  <FAQSection faqs={homeFaqs} heading={t.faq?.title} />
+  <CTASection />
+</MainLayout>

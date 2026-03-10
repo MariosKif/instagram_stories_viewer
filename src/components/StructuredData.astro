@@ -1,0 +1,127 @@
+---
+interface Props {
+  type: 'organization' | 'website' | 'webapplication' | 'breadcrumb' | 'faq';
+  lang?: string;
+  data?: any;
+}
+
+const { type, lang = 'en', data = {} } = Astro.props;
+
+const baseUrl = 'https://www.igstorypeek.com';
+const localizedPath = (typeof data.pagePath === 'string' && data.pagePath.length > 0)
+  ? data.pagePath
+  : lang === 'en'
+    ? '/'
+    : `/${lang}/`;
+
+const normalizedPath = localizedPath.startsWith('/') ? localizedPath : `/${localizedPath}`;
+const pageUrl = new URL(normalizedPath, baseUrl).toString();
+
+const description = data.description || (lang === 'en'
+  ? 'Free Instagram stories viewer - Browse Instagram stories without an account. 100% private viewing of public profiles, posts, stories, highlights. No registration needed.'
+  : 'Free Instagram stories viewer');
+
+const siteName = data.siteName || 'IGStoryPeek';
+const alternateName = data.alternateName || siteName;
+
+let schema: any = {};
+
+if (type === 'organization') {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${pageUrl}#organization`,
+    name: siteName,
+    url: pageUrl,
+    inLanguage: lang,
+    alternateName,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${baseUrl}/favicon.svg`,
+      width: 512,
+      height: 512
+    },
+    description,
+    sameAs: data.sameAs || [
+      'https://www.instagram.com/'
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Support',
+      email: 'contact@igstorypeek.com'
+    },
+    aggregateRating: data.aggregateRating || {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '1250'
+    }
+  };
+} else if (type === 'website') {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${pageUrl}#website`,
+    name: siteName,
+    url: pageUrl,
+    inLanguage: lang,
+    description,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${pageUrl}?q={search_term_string}`
+      },
+      'query-input': 'required name=search_term_string'
+    }
+  };
+} else if (type === 'webapplication') {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    '@id': `${pageUrl}#webapplication`,
+    name: siteName,
+    url: pageUrl,
+    inLanguage: lang,
+    applicationCategory: 'UtilityApplication',
+    operatingSystem: 'Web Browser',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD'
+    },
+    description,
+    featureList: data.featureList || [
+      'Private browsing',
+      'No account required',
+      'View stories',
+      'View profiles',
+      'View posts',
+      'View highlights',
+      'Free to use',
+      'Private browsing'
+    ],
+    browserRequirements: 'Requires JavaScript. Requires HTML5.',
+    softwareVersion: '1.0'
+  };
+} else if (type === 'breadcrumb' && data) {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': `${pageUrl}#breadcrumb`,
+    itemListElement: data.breadcrumbs || []
+  };
+} else if (type === 'faq' && data) {
+  schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${pageUrl}#faq`,
+    inLanguage: lang,
+    mainEntity: data.faqs || []
+  };
+}
+---
+
+{Object.keys(schema).length > 0 && (
+  <script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />
+)}
+

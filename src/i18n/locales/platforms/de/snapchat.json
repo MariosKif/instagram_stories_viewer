@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Snapchat-Tools — Score-Tracker, Story-Downloader & Aktivitätstracker",
+    "heroTitle": "Snapchat Analytics & Content-Toolkit",
+    "sectionHeading": "Alle Snapchat-Funktionen anzeigen",
+    "sectionSub": "Fokussierte Tools für Snapchat-Score-Tracking, Streak-Analyse, Story-Downloads und Aktivitätsverfolgung.",
+    "ctaHeading": "Snapchat-Aktivitäten jetzt verfolgen",
+    "ctaSub": "Geben Sie einen öffentlichen Snapchat-Benutzernamen ein, um auf Score-Tracking, Inhalts-Downloads und Aktivitätsverfolgung zuzugreifen.",
+    "cardCta": "Funktion nutzen"
+  },
+  "faqs": [
+    {
+      "question": "Was ist ein Snapchat-Score und wie wird er berechnet?",
+      "answer": "Ihr Snapchat-Score ist eine Zahl, die Ihre Gesamtaktivität auf der Plattform widerspiegelt. Er steigt basierend auf der Anzahl der gesendeten und empfangenen Snaps, geposteten Stories und anderen Engagement-Faktoren."
+    },
+    {
+      "question": "Wie erhöht man seinen Snapchat-Score?",
+      "answer": "Senden und öffnen Sie regelmäßig Snaps, posten Sie Stories, pflegen Sie Snap-Streaks und fügen Sie neue Freunde hinzu. Gruppen-Snaps und Video-Snaps können mehr Punkte beitragen als reine Text-Snaps."
+    },
+    {
+      "question": "Kann man nach 24 Stunden sehen, wer die Snapchat-Story angesehen hat?",
+      "answer": "Nein. Sobald eine Snapchat-Story nach 24 Stunden abläuft, ist die Zuschauerliste über die App nicht mehr zugänglich. Tracking-Tools von Drittanbietern können Ihnen helfen, Aufrufe vor dem Ablauf zu überwachen."
+    },
+    {
+      "question": "Wer hat Zugriff auf Snapchat Insights?",
+      "answer": "Snapchat Insights ist für öffentliche Profile und Creator mit einer bestimmten Follower-Schwelle verfügbar. Für alle anderen bieten Drittanbieter-Analytics-Tools wie IGStoryPeek Score-Tracking und Aktivitätsüberwachung."
+    },
+    {
+      "question": "Was bewirkt der Snapchat-Score-Multiplikator für Snapchat+-Abonnenten?",
+      "answer": "Snapchat+-Abonnenten können einen Score-Multiplikator sehen, der anzeigt, wie schnell ihr Score wächst. Er ändert nicht, wie Punkte verdient werden — er zeigt lediglich die Steigerungsrate an."
+    },
+    {
+      "question": "Wie oft aktualisiert Snapchat den Score?",
+      "answer": "Snapchat-Scores werden nahezu in Echtzeit aktualisiert, obwohl es manchmal eine kurze Verzögerung geben kann. Ihr Score spiegelt die kumulative Aktivität seit der Erstellung Ihres Kontos wider."
+    }
+  ]
+}

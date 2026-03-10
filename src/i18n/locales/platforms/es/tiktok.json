@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Herramientas TikTok — Analytics de creadores, descargador de videos y navegador de contenido",
+    "heroTitle": "Plataforma de analytics para creadores TikTok",
+    "sectionHeading": "Explorar todas las herramientas TikTok",
+    "sectionSub": "Herramientas especificas para analytics de creadores TikTok, descargas en calidad original, navegacion de contenido y seguimiento de engagement.",
+    "ctaHeading": "Desbloquea los insights de TikTok ahora",
+    "ctaSub": "Ingresa cualquier identificador publico de creador TikTok para acceder a analytics, descargas y funciones de seguimiento.",
+    "cardCta": "Abrir herramienta"
+  },
+  "faqs": [
+    {
+      "question": "Como funcionan las analytics de TikTok?",
+      "answer": "Las analytics de TikTok rastrean metricas de rendimiento de video como vistas, likes, comentarios, compartidos y datos demograficos de la audiencia. IGStoryPeek te permite ver las analytics publicas de creadores TikTok sin necesitar una cuenta de TikTok."
+    },
+    {
+      "question": "Se pueden descargar videos de TikTok en calidad original?",
+      "answer": "Si. IGStoryPeek ofrece un descargador de videos TikTok que guarda videos en su calidad original sin marcas de agua, facilitando la consulta de contenido sin conexion."
+    },
+    {
+      "question": "Es legal descargar el video de TikTok de otra persona?",
+      "answer": "Descargar videos publicos de TikTok para referencia personal o investigacion generalmente esta permitido. Sin embargo, redistribuir o monetizar el contenido de otra persona sin permiso puede violar las leyes de derechos de autor."
+    },
+    {
+      "question": "Se necesita una cuenta Pro para ver las analytics de TikTok?",
+      "answer": "Las analytics integradas de TikTok requieren una cuenta Pro (Business o Creador). Sin embargo, herramientas como IGStoryPeek pueden mostrar datos de rendimiento publicos de cualquier creador sin requerir ninguna cuenta de TikTok."
+    },
+    {
+      "question": "Que metricas rastrean las analytics de TikTok?",
+      "answer": "Las analytics de TikTok rastrean vistas de video, vistas de perfil, conteo de seguidores, likes, comentarios, compartidos, tiempo promedio de visualizacion y datos demograficos de la audiencia incluyendo ubicacion y genero."
+    },
+    {
+      "question": "Se pueden ver perfiles de TikTok sin una cuenta?",
+      "answer": "Si. Los perfiles publicos de TikTok se pueden explorar sin crear una cuenta. IGStoryPeek te permite buscar cualquier nombre de usuario publico de TikTok y ver su contenido y analytics al instante."
+    }
+  ]
+}

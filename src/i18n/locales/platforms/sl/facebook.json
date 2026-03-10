@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Orodja za Facebook — Analizator strani, prenosnik vsebin in brskalnik vsebin",
+    "heroTitle": "Središče za vpoglede in analitiko Facebooka",
+    "sectionHeading": "Odkrijte vsa orodja za Facebook",
+    "sectionSub": "namenska orodja za analizo strani in skupin na Facebooku, shranjevanje vsebin, brskanje po vsebinah in sledenje aktivnosti.",
+    "ctaHeading": "Začnite analizirati Facebook račune",
+    "ctaSub": "Vnesite katerikoli javni profil ali ime strani na Facebooku za izdelavo celovite analitike in vpogledov.",
+    "cardCta": "Zaženi orodje"
+  },
+  "faqs": [
+    {
+      "question": "Ali lahko nekdo vidi, da ste si ogledali njegov profil na Facebooku?",
+      "answer": "Ne. Facebook ne obvešča uporabnikov, ko si nekdo ogleda njihov profil. Katera koli aplikacija ali storitev, ki trdi drugače, ni legitimna."
+    },
+    {
+      "question": "Ali ima Facebook še vedno lastno analitično orodje?",
+      "answer": "Facebook je leta 2021 umaknil svoje samostojno orodje za analitiko. Vpogledi v strani so zdaj na voljo prek Meta Business Suite. Orodja tretjih oseb, kot je IGStoryPeek, zagotavljajo dodatno analitiko za javne strani."
+    },
+    {
+      "question": "Kako si ogledate javno stran na Facebooku brez prijave?",
+      "answer": "Številne javne strani na Facebooku so dostopne brez računa. IGStoryPeek vam omogoča iskanje in analizo javnih strani in profilov na Facebooku brez prijave v Facebook."
+    },
+    {
+      "question": "Kaj se je zgodilo s Facebook Analytics po umiku?",
+      "answer": "Facebook Analytics je bil umaknjen 30. junija 2021. Njegove funkcije so bile vključene v Meta Business Suite in Ads Manager. Orodja tretjih oseb zdaj zapolnjujejo vrzel za zunanjo analizo strani."
+    },
+    {
+      "question": "Ali lahko s pomočjo analitičnih orodij spremljate strani tekmecev na Facebooku?",
+      "answer": "Da. Orodja, kot je IGStoryPeek, vam omogočajo spremljanje javnih strani na Facebooku, sledenje metrik vključenosti in primerjavo uspešnosti — vse to brez dostopa do lastnih vpogledov strani."
+    },
+    {
+      "question": "Katere metrike morate spremljati na poslovni strani Facebooka?",
+      "answer": "Pomembne metrike strani na Facebooku vključujejo všečke strani, doseg objav, stopnjo vključenosti, stopnjo preklikanja, oglede videov in rast sledilcev. Spremljanje teh metrik pomaga meriti učinkovitost vsebine."
+    }
+  ]
+}

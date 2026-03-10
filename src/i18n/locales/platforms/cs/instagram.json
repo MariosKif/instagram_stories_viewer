@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Nástroje pro Instagram — Analyzujte Profily, Prohlížejte Příběhy a Stahujte Obsah Zdarma",
+    "heroTitle": "Analytická a Obsahová Sada pro Instagram",
+    "sectionHeading": "Prohlédněte Všechny Funkce Instagramu",
+    "sectionSub": "specializované nástroje pro analýzu profilů na Instagramu, procházení obsahu, stahování a sledování aktivity.",
+    "ctaHeading": "Začněte s Analýzou Instagramu",
+    "ctaSub": "Vyhledejte jakýkoli veřejný profil na Instagramu a okamžitě získejte podrobné analýzy, přístup k obsahu a zprávy o aktivitě.",
+    "cardCta": "Vyzkoušejte tento nástroj"
+  },
+  "faqs": [
+    {
+      "question": "Jak zkontrolovat míru zapojení účtu na Instagramu?",
+      "answer": "Míra zapojení se vypočítá vydělením celkového počtu interakcí (lajky, komentáře, uložení, sdílení) počtem sledujících a vynásobením 100. IGStoryPeek tento výpočet automatizuje pro jakýkoli veřejný profil na Instagramu."
+    },
+    {
+      "question": "Jaké metriky byste měli sledovat na Instagramu?",
+      "answer": "Klíčové metriky Instagramu zahrnují míru zapojení, růst sledujících, dosah, zobrazení, zhlédnutí příběhů, uložení, sdílení a frekvenci publikování. IGStoryPeek poskytuje všechna tato data pro veřejné účty."
+    },
+    {
+      "question": "Můžete analyzovat veřejný profil jiné osoby na Instagramu?",
+      "answer": "Ano. Jakýkoli profil na Instagramu nastavený jako veřejný lze analyzovat pomocí nástrojů jako IGStoryPeek. Můžete zobrazit metriky zapojení, výkonnost obsahu a vzorce publikování bez nutnosti přihlášení."
+    },
+    {
+      "question": "Jaká je dobrá míra zapojení na Instagramu?",
+      "answer": "Průměrná míra zapojení na Instagramu je mezi 1 % a 3 %. Míry nad 3 % jsou považovány za silné a míry nad 6 % jsou vynikající. Zapojení se liší podle niši, velikosti publika a typu obsahu."
+    },
+    {
+      "question": "Vyžadují analytické nástroje Instagramu přihlášení vaším účtem?",
+      "answer": "Ne všechny. IGStoryPeek nevyžaduje žádné přihlášení ani přihlašovací údaje k Instagramu. Analyzuje veřejně dostupná data přímo a váš osobní účet zůstává zcela oddělený."
+    },
+    {
+      "question": "Jak zjistíte, kdo vás přestal sledovat na Instagramu?",
+      "answer": "Instagram vás neupozorní, když vás někdo přestane sledovat. Sledovací nástroje třetích stran mohou monitorovat váš veřejný seznam sledujících v průběhu času a upozornit vás na změny, včetně zrušení sledování."
+    }
+  ]
+}

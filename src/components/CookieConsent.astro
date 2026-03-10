@@ -1,0 +1,43 @@
+---
+/**
+ * Cookie consent banner — fixed bottom, glass design.
+ * Uses localStorage to remember dismissal.
+ */
+import { getLocalizedPath, type Language } from '../i18n/utils';
+
+const lang = (Astro.locals as any).lang as Language || 'en';
+const t = (Astro.locals as any).t || {};
+const ckT = t.cookie || {};
+---
+
+<div id="cookie-consent" class="fixed bottom-0 inset-x-0 z-50 p-4 hidden">
+  <div class="max-w-4xl mx-auto glass p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 border border-white/10 rounded-2xl shadow-2xl">
+    <div class="flex-1 text-sm text-dark-300">
+      {ckT.message || 'We use cookies to enhance your experience, analyze traffic, and serve relevant ads. By clicking "Accept All," you consent to our use of cookies.'}
+      <a href={getLocalizedPath('/cookie-policy', lang)} class="text-primary hover:underline ml-1">{ckT.learnMore || 'Learn more'}</a>
+    </div>
+    <div class="flex gap-3 shrink-0">
+      <a href={getLocalizedPath('/cookie-policy', lang)} class="btn-ghost text-sm px-4 py-2 text-dark-400 hover:text-white">
+        {ckT.managePreferences || 'Manage Preferences'}
+      </a>
+      <button id="cookie-accept" class="btn-primary text-sm px-5 py-2">
+        {ckT.acceptAll || 'Accept All'}
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const CONSENT_KEY = 'igsp_cookie_consent';
+  const banner = document.getElementById('cookie-consent')!;
+  const acceptBtn = document.getElementById('cookie-accept')!;
+
+  if (!localStorage.getItem(CONSENT_KEY)) {
+    banner.classList.remove('hidden');
+  }
+
+  acceptBtn.addEventListener('click', () => {
+    localStorage.setItem(CONSENT_KEY, 'accepted');
+    banner.classList.add('hidden');
+  });
+</script>

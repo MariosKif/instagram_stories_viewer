@@ -1,0 +1,37 @@
+{
+  "hub": {
+    "seoTitle": "Facebook-Tools — Seiten-Analyzer, Content-Downloader & Content-Browser",
+    "heroTitle": "Facebook Insights & Analytics-Hub",
+    "sectionHeading": "Alle Facebook-Tools entdecken",
+    "sectionSub": "Dedizierte Tools für Facebook-Seiten- und Gruppenanalyse, Inhalte speichern, Content-Browsing und Aktivitätsverfolgung.",
+    "ctaHeading": "Facebook-Konten jetzt analysieren",
+    "ctaSub": "Geben Sie ein öffentliches Facebook-Profil oder einen Seitennamen ein, um umfassende Analysen und Einblicke zu generieren.",
+    "cardCta": "Tool starten"
+  },
+  "faqs": [
+    {
+      "question": "Kann jemand sehen, ob Sie sein Facebook-Profil besucht haben?",
+      "answer": "Nein. Facebook benachrichtigt Benutzer nicht, wenn jemand ihr Profil ansieht. Jede App oder jeder Dienst, der etwas anderes behauptet, ist nicht seriös."
+    },
+    {
+      "question": "Hat Facebook noch ein eigenes Analyse-Tool?",
+      "answer": "Facebook hat sein eigenständiges Analytics-Tool 2021 eingestellt. Seiteneinblicke sind jetzt über die Meta Business Suite verfügbar. Drittanbieter-Tools wie IGStoryPeek bieten zusätzliche Analytics für öffentliche Seiten."
+    },
+    {
+      "question": "Wie kann man eine öffentliche Facebook-Seite ansehen, ohne sich anzumelden?",
+      "answer": "Viele öffentliche Facebook-Seiten sind ohne Konto zugänglich. IGStoryPeek ermöglicht es Ihnen, öffentliche Facebook-Seiten und -Profile zu suchen und zu analysieren, ohne sich bei Facebook anzumelden."
+    },
+    {
+      "question": "Was ist mit Facebook Analytics nach der Einstellung passiert?",
+      "answer": "Facebook Analytics wurde am 30. Juni 2021 eingestellt. Seine Funktionen wurden in die Meta Business Suite und den Ads Manager integriert. Drittanbieter-Tools füllen jetzt die Lücke für externe Seitenanalysen."
+    },
+    {
+      "question": "Kann man die Facebook-Seiten von Wettbewerbern mit Analyse-Tools verfolgen?",
+      "answer": "Ja. Tools wie IGStoryPeek ermöglichen es Ihnen, öffentliche Facebook-Seiten zu überwachen, Engagement-Metriken zu verfolgen und Leistungen zu vergleichen — alles ohne Zugang zu den eigenen Insights der Seite."
+    },
+    {
+      "question": "Welche Metriken sollte man auf einer Facebook-Unternehmensseite verfolgen?",
+      "answer": "Wichtige Facebook-Seiten-Metriken umfassen Seiten-Likes, Beitragsreichweite, Engagement-Rate, Klickrate, Videoaufrufe und Follower-Wachstum. Die Verfolgung dieser Metriken hilft, die Effektivität von Inhalten zu messen."
+    }
+  ]
+}
