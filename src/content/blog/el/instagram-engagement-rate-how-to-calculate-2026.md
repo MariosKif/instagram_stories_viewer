@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "el"
 tags: ["ποσοστό αφοσίωσης instagram", "υπολογισμός αφοσίωσης", "αναλυτικά instagram", "μετρικές κοινωνικών μέσων", "influencer marketing", "benchmarks instagram", "2026", "ανάπτυξη instagram", "στρατηγική περιεχομένου", "συνεργασίες brands"]

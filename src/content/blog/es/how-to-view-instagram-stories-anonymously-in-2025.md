@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "es"
 tags: ["stories de instagram", "sin inicio de sesion", "privacidad", "visor de instagram", "como hacerlo", "tutorial", "2025", "visor de stories de instagram", "explorar instagram", "ver stories de instagram", "mirar stories de instagram"]

@@ -5,7 +5,7 @@ pubDate: 2025-02-18
 updatedDate: 2025-02-18
 author: "IGStoryPeek"
 featured: false
-image: "/blog/download-instagram-stories.svg"
+image: "/blog/hero-stories-download.svg"
 category: "Tutorials"
 lang: "zh"
 tags:

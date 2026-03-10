@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "zh"
 tags: ["instagram粉丝", "粉丝分析器", "虚假粉丝", "受众洞察", "instagram分析", "粉丝增长", "2026", "instagram工具", "机器人检测", "互动分析"]

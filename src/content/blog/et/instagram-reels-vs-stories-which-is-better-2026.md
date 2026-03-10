@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "et"
 tags: ["instagram reels", "instagrami lood", "reels vs lood", "instagrami algoritm", "sisustrateegia", "instagrami kaasatus", "2026", "instagrami ulatus", "sotsiaalmeedia turundus", "videosisu"]

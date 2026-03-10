@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "lv"
 tags: ["instagram atzīmes patīk", "atzīmju skatītājs", "instagram iesaiste", "kas atzīmēja ar patīk", "instagram analītika", "publiskās atzīmes", "2026", "instagram rīki", "iesaistes ieskati", "sociālo mediju analīze"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "mt"
 tags: ["kalendarju tal-kontenut", "skeda tal-posting", "aħjar ħin biex tippowstja", "strateġija instagram", "pariri instagram", "ppjanar tal-kontenut", "2026", "iskeduljar midja soċjali", "frekwenza tal-posting", "tkabbir instagram"]

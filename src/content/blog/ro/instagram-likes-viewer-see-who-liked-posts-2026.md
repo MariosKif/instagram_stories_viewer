@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "ro"
 tags: ["like-uri instagram", "vizualizator like-uri", "engagement instagram", "vezi cine a apreciat", "analitică instagram", "like-uri publice", "2026", "instrumente instagram", "informații engagement", "analiză social media"]

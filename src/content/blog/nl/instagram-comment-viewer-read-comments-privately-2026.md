@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "nl"
 tags: ["instagram reacties", "reactieviewer", "reacties anoniem bekijken", "instagram privacy", "reacties lezen zonder login", "instagram viewer", "2026", "social media privacy", "anoniem browsen", "instagram tools"]

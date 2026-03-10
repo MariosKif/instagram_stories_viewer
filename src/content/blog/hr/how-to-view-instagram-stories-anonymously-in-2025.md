@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "hr"
 tags: ["instagram priče", "bez prijave", "privatnost", "instagram preglednik", "kako", "vodič", "2025", "preglednik instagram priča", "pregledavanje instagrama", "gledanje instagram priča", "praćenje instagram priča"]

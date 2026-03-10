@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "lv"
 tags: ["instagram komentāri", "komentāru skatītājs", "skatīt komentārus anonīmi", "instagram privātums", "lasīt komentārus bez pieteikšanās", "instagram skatītājs", "2026", "sociālo mediju privātums", "anonīma pārlūkošana", "instagram rīki"]

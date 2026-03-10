@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "ar"
 tags: ["معدل التفاعل على إنستغرام", "حاسبة التفاعل", "تحليلات إنستغرام", "مقاييس وسائل التواصل", "تسويق المؤثرين", "معايير إنستغرام", "2026", "نمو إنستغرام", "استراتيجية المحتوى", "شراكات العلامات التجارية"]

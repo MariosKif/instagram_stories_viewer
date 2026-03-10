@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "ga"
 tags: ["leantóirí instagram", "anailísí leantóirí", "leantóirí bréagacha", "léargais lucht féachana", "anailísíocht instagram", "fás leantóirí", "2026", "uirlisí instagram", "brath bot", "anailís rannpháirtíochta"]

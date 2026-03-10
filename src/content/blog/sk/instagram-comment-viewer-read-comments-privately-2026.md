@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "sk"
 tags: ["instagram komentáre", "prehliadač komentárov", "zobrazenie komentárov anonymne", "instagram súkromie", "čítanie komentárov bez prihlásenia", "instagram prehliadač", "2026", "súkromie sociálnych médií", "anonymné prehliadanie", "instagram nástroje"]

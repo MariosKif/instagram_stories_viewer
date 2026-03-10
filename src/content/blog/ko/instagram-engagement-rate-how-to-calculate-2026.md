@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "ko"
 tags: ["인스타그램 참여율", "참여율 계산기", "인스타그램 분석", "소셜 미디어 지표", "인플루언서 마케팅", "인스타그램 벤치마크", "2026", "인스타그램 성장", "콘텐츠 전략", "브랜드 파트너십"]

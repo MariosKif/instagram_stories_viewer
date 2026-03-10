@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "et"
 tags: ["instagrami kaasatuse määr", "kaasatuse kalkulaator", "instagrami analüütika", "sotsiaalmeedia mõõdikud", "mõjuisiku turundus", "instagrami võrdlusnäitajad", "2026", "instagrami kasv", "sisustrateegia", "brändipartnerlused"]

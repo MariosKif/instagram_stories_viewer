@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "mt"
 tags: ["rata tal-involviment instagram", "kalkulatur tal-involviment", "analitika instagram", "metriċi tal-midja soċjali", "marketing tal-influencers", "benchmarks instagram", "2026", "tkabbir instagram", "strateġija tal-kontenut", "sħubiji mal-brands"]

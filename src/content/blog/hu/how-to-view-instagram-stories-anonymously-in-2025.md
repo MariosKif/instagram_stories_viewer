@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "hu"
 tags: ["instagram sztorik", "bejelentkezés nélkül", "adatvédelem", "instagram néző", "hogyan kell", "útmutató", "2025", "instagram sztori néző", "instagram böngészés", "instagram sztorik megtekintése", "instagram sztorik nézése"]

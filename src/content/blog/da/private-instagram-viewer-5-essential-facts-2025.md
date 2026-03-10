@@ -5,7 +5,7 @@ pubDate: 2025-02-25
 updatedDate: 2025-02-25
 author: "IGStoryPeek"
 featured: false
-image: "/blog/private-instagram-viewer.svg"
+image: "/blog/hero-private-browse.svg"
 category: "Privacy"
 lang: "da"
 tags:

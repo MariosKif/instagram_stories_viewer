@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "en"
 tags: ["content calendar", "posting schedule", "best time to post", "instagram strategy", "instagram tips", "content planning", "2026", "social media scheduling", "posting frequency", "instagram growth"]

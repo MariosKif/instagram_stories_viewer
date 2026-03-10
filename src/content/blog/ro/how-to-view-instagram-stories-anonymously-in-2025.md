@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "ro"
 tags: ["stories instagram", "fara autentificare", "confidentialitate", "vizualizator instagram", "cum sa", "tutorial", "2025", "vizualizator stories instagram", "navigare instagram", "vizualizare stories instagram", "urmarire stories instagram"]

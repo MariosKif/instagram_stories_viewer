@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "de"
 tags: ["instagram follower", "follower analyse", "fake follower", "zielgruppen einblicke", "instagram analytics", "follower wachstum", "2026", "instagram tools", "bot erkennung", "engagement analyse"]

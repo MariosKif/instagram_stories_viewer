@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "ro"
 tags: ["comentarii instagram", "vizualizator comentarii", "vizualizare comentarii anonim", "confidențialitate instagram", "citire comentarii fără autentificare", "vizualizator instagram", "2026", "confidențialitate social media", "navigare anonimă", "instrumente instagram"]

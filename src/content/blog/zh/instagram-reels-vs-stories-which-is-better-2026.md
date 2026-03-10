@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "zh"
 tags: ["instagram reels", "instagram快拍", "reels vs 快拍", "instagram算法", "内容策略", "instagram互动", "2026", "instagram覆盖", "社交媒体营销", "视频内容"]

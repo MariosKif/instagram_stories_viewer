@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "sk"
 tags: ["instagram lajky", "prehliadač lajkov", "instagram zapojenie", "vidieť kto lajkol", "instagram analytika", "verejné lajky", "2026", "instagram nástroje", "prehľady zapojenia", "analýza sociálnych médií"]

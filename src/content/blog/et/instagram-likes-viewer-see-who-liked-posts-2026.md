@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "et"
 tags: ["instagrami meeldimised", "meeldimiste vaataja", "instagrami kaasatus", "vaata kes meeldivaks märkis", "instagrami analüütika", "avalikud meeldimised", "2026", "instagrami tööriistad", "kaasatuse ülevaated", "sotsiaalmeedia analüüs"]

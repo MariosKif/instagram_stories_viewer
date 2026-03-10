@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "lt"
 tags: ["instagram sekejai", "sekejų analizatorius", "netikri sekejai", "auditorijos įžvalgos", "instagram analitika", "sekejų augimas", "2026", "instagram įrankiai", "botų aptikimas", "įsitraukimo analizė"]

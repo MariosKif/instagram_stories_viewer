@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "ar"
 tags: ["إعجابات إنستغرام", "عارض الإعجابات", "تفاعل إنستغرام", "معرفة من أعجب", "تحليلات إنستغرام", "الإعجابات العامة", "2026", "أدوات إنستغرام", "رؤى التفاعل", "تحليل وسائل التواصل"]

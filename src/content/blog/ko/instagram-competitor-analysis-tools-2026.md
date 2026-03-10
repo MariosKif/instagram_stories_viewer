@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 updatedDate: 2026-03-08
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-competitor-analysis.svg"
+image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"
 lang: "ko"
 tags: ["인스타그램 경쟁사 분석", "인스타그램 벤치마킹", "경쟁사 리서치", "인스타그램 분석", "소셜 미디어 전략", "2026", "인스타그램 도구", "콘텐츠 전략", "참여 지표", "경쟁 정보", "인스타그램 인사이트"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "ja"
 tags: ["instagramエンゲージメント率", "エンゲージメント計算", "instagram分析", "SNS指標", "インフルエンサーマーケティング", "instagramベンチマーク", "2026", "instagram成長", "コンテンツ戦略", "ブランド提携"]

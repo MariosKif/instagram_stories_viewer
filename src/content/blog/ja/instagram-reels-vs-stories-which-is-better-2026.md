@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "ja"
 tags: ["instagramリール", "instagramストーリーズ", "リールvsストーリーズ", "instagramアルゴリズム", "コンテンツ戦略", "instagramエンゲージメント", "2026", "instagramリーチ", "SNSマーケティング", "動画コンテンツ"]

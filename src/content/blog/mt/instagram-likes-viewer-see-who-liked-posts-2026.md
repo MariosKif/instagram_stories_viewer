@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "mt"
 tags: ["likes instagram", "viewer tal-likes", "involviment instagram", "ara min għamel like", "analitika instagram", "likes pubbliċi", "2026", "għodod instagram", "għarfien tal-involviment", "analiżi midja soċjali"]

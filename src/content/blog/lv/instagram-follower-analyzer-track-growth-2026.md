@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "lv"
 tags: ["instagram sekotāji", "sekotāju analizators", "viltoti sekotāji", "auditorijas analīze", "instagram analītika", "sekotāju izaugsme", "2026", "instagram rīki", "botu noteikšana", "iesaistes analīze"]

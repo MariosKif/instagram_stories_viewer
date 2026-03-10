@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "fi"
 tags: ["instagram tarinat", "ilman kirjautumista", "yksityisyys", "instagram katselin", "kuinka", "opas", "2025", "instagram tarinoiden katselin", "instagram selaaminen", "instagram tarinoiden katsominen", "instagram tarinoiden seuraaminen"]

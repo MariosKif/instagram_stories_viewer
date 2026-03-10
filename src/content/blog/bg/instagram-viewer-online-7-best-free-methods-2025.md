@@ -5,7 +5,7 @@ pubDate: 2025-02-15
 updatedDate: 2025-02-15
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-viewer-online.svg"
+image: "/blog/hero-online-browse.svg"
 category: "Guides"
 lang: "bg"
 tags:

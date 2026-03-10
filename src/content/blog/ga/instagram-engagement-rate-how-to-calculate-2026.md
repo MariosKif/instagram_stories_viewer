@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "ga"
 tags: ["ráta rannpháirtíochta instagram", "áireamhán rannpháirtíochta", "anailísíocht instagram", "méadrachais meán sóisialta", "margaíocht influencer", "tagarmharcanna instagram", "2026", "fás instagram", "straitéis ábhair", "comhpháirtíochtaí branda"]

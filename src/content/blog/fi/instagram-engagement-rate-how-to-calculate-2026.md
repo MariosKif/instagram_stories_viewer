@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "fi"
 tags: ["instagramin sitoutumisaste", "sitoutumislaskuri", "instagram-analytiikka", "sosiaalisen median mittarit", "vaikuttajamarkkinointi", "instagram-vertailuarvot", "2026", "instagram-kasvu", "sisältöstrategia", "brändiyhteistyöt"]

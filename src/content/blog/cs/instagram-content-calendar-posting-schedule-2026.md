@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "cs"
 tags: ["obsahový kalendář", "harmonogram publikování", "nejlepší čas na příspěvek", "strategie instagram", "tipy instagram", "plánování obsahu", "2026", "plánování sociálních médií", "frekvence publikování", "růst instagram"]

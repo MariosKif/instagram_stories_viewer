@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "ga"
 tags: ["scéalta instagram", "gan logáil isteach", "príobháideachas", "amharcóir instagram", "conas a dhéanamh", "treoir", "2025", "amharcóir scéalta instagram", "brabhsáil instagram", "scéalta instagram a fheiceáil", "scéalta instagram a fhaire"]

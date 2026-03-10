@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "ko"
 tags: ["인스타그램 릴스", "인스타그램 스토리", "릴스 vs 스토리", "인스타그램 알고리즘", "콘텐츠 전략", "인스타그램 참여", "2026", "인스타그램 도달", "소셜 미디어 마케팅", "영상 콘텐츠"]

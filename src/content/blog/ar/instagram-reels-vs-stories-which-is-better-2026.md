@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "ar"
 tags: ["ريلز إنستغرام", "قصص إنستغرام", "ريلز مقابل القصص", "خوارزمية إنستغرام", "استراتيجية المحتوى", "تفاعل إنستغرام", "2026", "وصول إنستغرام", "تسويق وسائل التواصل", "محتوى الفيديو"]

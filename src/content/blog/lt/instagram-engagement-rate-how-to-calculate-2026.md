@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "lt"
 tags: ["instagram įsitraukimo rodiklis", "įsitraukimo skaičiuoklė", "instagram analitika", "socialinių tinklų metrikos", "influencerių rinkodara", "instagram lyginamieji rodikliai", "2026", "instagram augimas", "turinio strategija", "prekės ženklo partnerystės"]

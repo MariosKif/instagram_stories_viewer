@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "ru"
 tags: ["хэштеги instagram", "стратегия хэштегов", "охват instagram", "генератор хэштегов", "рост instagram", "обнаружение контента", "2026", "советы по соцсетям", "алгоритм instagram", "исследование хэштегов"]

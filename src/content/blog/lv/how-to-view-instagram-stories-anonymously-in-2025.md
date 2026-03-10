@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "lv"
 tags: ["instagram stāsti", "bez pieteikšanās", "privātums", "instagram skatītājs", "kā to darīt", "pamācība", "2025", "instagram stāstu skatītājs", "instagram pārlūkošana", "skatīt instagram stāstus", "vērot instagram stāstus"]

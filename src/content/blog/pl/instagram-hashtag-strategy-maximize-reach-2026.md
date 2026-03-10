@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "pl"
 tags: ["hashtagi instagram", "strategia hashtagów", "zasięg instagram", "generator hashtagów", "wzrost instagram", "odkrywanie treści", "2026", "porady social media", "algorytm instagram", "badanie hashtagów"]

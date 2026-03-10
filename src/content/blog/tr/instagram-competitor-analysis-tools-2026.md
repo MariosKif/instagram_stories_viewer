@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 updatedDate: 2026-03-08
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-competitor-analysis.svg"
+image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"
 lang: "tr"
 tags: ["instagram rakip analizi", "instagram kıyaslama", "rakip araştırması", "instagram analitik", "sosyal medya stratejisi", "2026", "instagram araçları", "içerik stratejisi", "etkileşim metrikleri", "rekabet istihbaratı", "instagram içgörüleri"]

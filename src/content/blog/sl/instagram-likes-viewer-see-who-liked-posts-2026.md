@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "sl"
 tags: ["instagram všečki", "pregledovalnik všečkov", "instagram angažiranost", "kdo je všečkal", "instagram analitika", "javni všečki", "2026", "instagram orodja", "vpogledi v angažiranost", "analiza družbenih medijev"]

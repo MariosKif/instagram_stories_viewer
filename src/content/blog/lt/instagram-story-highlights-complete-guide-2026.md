@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "lt"
 tags: ["instagram akcentai", "istorijų akcentai", "instagram istorijos", "akcentų peržiūra", "akcentų viršeliai", "instagram vadovas", "2026", "instagram įrankiai", "instagram verslas", "akcentų dizainas", "instagram profilis"]

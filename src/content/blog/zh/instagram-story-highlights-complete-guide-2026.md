@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "zh"
 tags: ["instagram精选集", "快拍精选集", "instagram快拍", "精选集查看器", "精选集封面", "instagram指南", "2026", "instagram工具", "instagram商业", "精选集设计", "instagram主页"]

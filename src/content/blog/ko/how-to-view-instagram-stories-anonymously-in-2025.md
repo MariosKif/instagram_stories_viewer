@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "ko"
 tags: ["instagram 스토리", "로그인 불필요", "개인정보 보호", "instagram 뷰어", "사용법", "튜토리얼", "2025", "instagram 스토리 뷰어", "instagram 탐색", "instagram 스토리 보기", "instagram 스토리 시청"]

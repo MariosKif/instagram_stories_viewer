@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "zh"
 tags: ["instagram话题标签", "话题标签策略", "instagram覆盖", "话题标签生成器", "instagram增长", "内容发现", "2026", "社交媒体技巧", "instagram算法", "话题标签研究"]

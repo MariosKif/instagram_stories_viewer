@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "ru"
 tags: ["хайлайты instagram", "хайлайты stories", "instagram stories", "просмотр хайлайтов", "обложки хайлайтов", "руководство instagram", "2026", "инструменты instagram", "instagram бизнес", "дизайн хайлайтов", "профиль instagram"]

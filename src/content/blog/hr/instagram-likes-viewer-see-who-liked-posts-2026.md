@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "hr"
 tags: ["instagram lajkovi", "pregledavač lajkova", "instagram angažman", "vidi tko je lajkao", "instagram analitika", "javni lajkovi", "2026", "instagram alati", "uvidi u angažman", "analiza društvenih mreža"]

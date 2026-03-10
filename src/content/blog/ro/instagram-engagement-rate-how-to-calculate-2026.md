@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "ro"
 tags: ["rata de engagement instagram", "calculator engagement", "analitică instagram", "metrici social media", "influencer marketing", "benchmark-uri instagram", "2026", "creștere instagram", "strategie de conținut", "parteneriate cu branduri"]

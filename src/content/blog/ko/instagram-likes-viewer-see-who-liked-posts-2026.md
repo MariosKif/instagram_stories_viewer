@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "ko"
 tags: ["인스타그램 좋아요", "좋아요 뷰어", "인스타그램 참여", "누가 좋아요 눌렀는지", "인스타그램 분석", "공개 좋아요", "2026", "인스타그램 도구", "참여 인사이트", "소셜 미디어 분석"]

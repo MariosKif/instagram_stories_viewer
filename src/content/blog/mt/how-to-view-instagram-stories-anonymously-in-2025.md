@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "mt"
 tags: ["stejjer ta' instagram", "mingħajr login", "privatezza", "viewer ta' instagram", "kif tagħmel", "gwida", "2025", "viewer ta' stejjer instagram", "ibbrawżja instagram", "ara stejjer ta' instagram", "segwi stejjer ta' instagram"]

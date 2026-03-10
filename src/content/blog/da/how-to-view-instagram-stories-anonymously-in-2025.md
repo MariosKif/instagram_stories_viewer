@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "da"
 tags: ["instagram historier", "uden login", "privatliv", "instagram fremviser", "hvordan", "vejledning", "2025", "instagram historie fremviser", "gennemse instagram", "se instagram historier", "se instagram stories"]

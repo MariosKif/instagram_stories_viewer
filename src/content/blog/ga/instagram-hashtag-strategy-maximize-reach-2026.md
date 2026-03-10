@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "ga"
 tags: ["haischlibeanna instagram", "straitéis haischlibeanna", "sroicheadh instagram", "gineadóir haischlibeanna", "fás instagram", "fionnachtain ábhair", "2026", "leideanna meán sóisialta", "algartam instagram", "taighde haischlibeanna"]

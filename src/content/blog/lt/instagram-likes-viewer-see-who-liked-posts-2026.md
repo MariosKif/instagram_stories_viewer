@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "lt"
 tags: ["instagram patiktukai", "patiktukų peržiūra", "instagram įsitraukimas", "pamatyti kas pamėgo", "instagram analitika", "vieši patiktukai", "2026", "instagram įrankiai", "įsitraukimo įžvalgos", "socialinių tinklų analizė"]

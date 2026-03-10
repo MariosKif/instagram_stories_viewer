@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "ar"
 tags: ["تعليقات إنستغرام", "عارض التعليقات", "عرض التعليقات بشكل مجهول", "خصوصية إنستغرام", "قراءة التعليقات بدون تسجيل دخول", "عارض إنستغرام", "2026", "خصوصية وسائل التواصل", "تصفح مجهول", "أدوات إنستغرام"]

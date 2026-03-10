@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "hr"
 tags: ["instagram pratitelji", "analizator pratitelja", "lažni pratitelji", "uvidi u publiku", "instagram analitika", "rast pratitelja", "2026", "instagram alati", "detekcija botova", "analiza angažmana"]

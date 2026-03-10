@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "bg"
 tags: ["instagram коментари", "преглед на коментари", "анонимен преглед на коментари", "поверителност в instagram", "четене на коментари без влизане", "instagram преглед", "2026", "поверителност в социални мрежи", "анонимно сърфиране", "instagram инструменти"]

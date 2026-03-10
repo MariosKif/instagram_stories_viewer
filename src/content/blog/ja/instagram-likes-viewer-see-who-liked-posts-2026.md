@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "ja"
 tags: ["instagramいいね", "いいねビューアー", "instagramエンゲージメント", "いいねした人を確認", "instagram分析", "公開いいね", "2026", "instagramツール", "エンゲージメントインサイト", "SNS分析"]

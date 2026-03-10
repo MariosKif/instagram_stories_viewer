@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "tr"
 tags: ["instagram reels", "instagram hikayeleri", "reels ve hikayeler", "instagram algoritması", "içerik stratejisi", "instagram etkileşim", "2026", "instagram erişimi", "sosyal medya pazarlama", "video içerik"]

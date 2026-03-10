@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "fi"
 tags: ["instagram-tykkäykset", "tykkäysten katselu", "instagram-sitoutuminen", "näe kuka tykkäsi", "instagram-analytiikka", "julkiset tykkäykset", "2026", "instagram-työkalut", "sitoutumistiedot", "sosiaalisen median analyysi"]

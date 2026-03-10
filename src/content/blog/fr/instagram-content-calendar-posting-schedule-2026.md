@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "fr"
 tags: ["calendrier de contenu", "planning de publication", "meilleur moment pour publier", "stratégie instagram", "astuces instagram", "planification de contenu", "2026", "planification réseaux sociaux", "fréquence de publication", "croissance instagram"]

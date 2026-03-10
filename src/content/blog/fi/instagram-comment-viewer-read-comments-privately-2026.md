@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "fi"
 tags: ["instagram-kommentit", "kommenttien katselu", "kommenttien katsominen anonyymisti", "instagram-yksityisyys", "kommenttien lukeminen ilman kirjautumista", "instagram-katselu", "2026", "sosiaalisen median yksityisyys", "anonyymi selaaminen", "instagram-työkalut"]

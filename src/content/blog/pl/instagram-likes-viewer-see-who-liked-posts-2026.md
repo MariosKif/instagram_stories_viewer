@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "pl"
 tags: ["polubienia instagram", "przeglądarka polubień", "zaangażowanie instagram", "kto polubił", "analityka instagram", "publiczne polubienia", "2026", "narzędzia instagram", "analiza zaangażowania", "analiza mediów społecznościowych"]

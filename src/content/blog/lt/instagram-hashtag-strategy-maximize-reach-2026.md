@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "lt"
 tags: ["instagram žymos", "žymų strategija", "instagram pasiekiamumas", "žymų generatorius", "instagram augimas", "turinio atradimas", "2026", "socialinių tinklų patarimai", "instagram algoritmas", "žymų tyrimai"]

@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "et"
 tags: ["instagram lood", "ilma sisselogimiseta", "privaatsus", "instagram vaataja", "kuidas", "juhend", "2025", "instagram lugude vaataja", "instagram sirvimine", "instagram lugude vaatamine", "instagram lugude jälgimine"]

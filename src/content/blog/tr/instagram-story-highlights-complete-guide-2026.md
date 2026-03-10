@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "tr"
 tags: ["instagram öne çıkanlar", "hikaye öne çıkanları", "instagram hikayeleri", "öne çıkanlar görüntüleyici", "öne çıkan kapakları", "instagram rehber", "2026", "instagram araçları", "instagram iş", "öne çıkan tasarım", "instagram profil"]

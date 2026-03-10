@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "mt"
 tags: ["algoritmu instagram", "algoritmu instagram 2026", "feed instagram", "instagram reels", "instagram istejts", "paġna explore", "klassifika instagram", "strateġija kontenut", "reach instagram", "tkabbir instagram", "algoritmu midja soċjali"]

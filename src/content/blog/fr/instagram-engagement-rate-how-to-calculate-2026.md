@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "fr"
 tags: ["taux d'engagement instagram", "calculateur d'engagement", "instagram analytics", "métriques réseaux sociaux", "influencer marketing", "benchmarks instagram", "2026", "croissance instagram", "stratégie de contenu", "partenariats marques"]

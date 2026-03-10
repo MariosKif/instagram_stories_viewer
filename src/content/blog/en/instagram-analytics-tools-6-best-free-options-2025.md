@@ -5,7 +5,7 @@ pubDate: 2025-02-20
 updatedDate: 2025-02-20
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-analytics-tools.svg"
+image: "/blog/hero-analytics-overview.svg"
 category: "Social Media"
 lang: "en"
 tags:

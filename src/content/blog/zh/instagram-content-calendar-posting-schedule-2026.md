@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "zh"
 tags: ["内容日历", "发帖时间表", "最佳发帖时间", "instagram策略", "instagram技巧", "内容规划", "2026", "社交媒体排程", "发帖频率", "instagram增长"]

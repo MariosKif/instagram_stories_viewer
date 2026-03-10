@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "zh"
 tags: ["instagram互动率", "互动率计算器", "instagram分析", "社交媒体指标", "网红营销", "instagram基准", "2026", "instagram增长", "内容策略", "品牌合作"]

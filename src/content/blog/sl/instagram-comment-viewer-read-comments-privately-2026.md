@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "sl"
 tags: ["instagram komentarji", "pregledovalnik komentarjev", "anonimno branje komentarjev", "instagram zasebnost", "branje komentarjev brez prijave", "instagram pregledovalnik", "2026", "zasebnost na družbenih omrežjih", "anonimno brskanje", "instagram orodja"]

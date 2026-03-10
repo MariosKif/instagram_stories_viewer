@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "hr"
 tags: ["stopa angažmana instagram", "kalkulator angažmana", "instagram analitika", "metrike društvenih mreža", "influencer marketing", "instagram referentne vrijednosti", "2026", "instagram rast", "strategija sadržaja", "partnerstva s brendovima"]

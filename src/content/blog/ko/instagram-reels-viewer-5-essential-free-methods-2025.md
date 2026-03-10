@@ -5,7 +5,7 @@ pubDate: 2025-01-28
 updatedDate: 2025-01-28
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Tips"
 lang: "ko"
 tags:

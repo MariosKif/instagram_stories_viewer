@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "sk"
 tags: ["instagram zvýraznenia", "story zvýraznenia", "instagram stories", "prehliadač zvýraznení", "obálky zvýraznení", "instagram sprievodca", "2026", "instagram nástroje", "instagram biznis", "dizajn zvýraznení", "instagram profil"]

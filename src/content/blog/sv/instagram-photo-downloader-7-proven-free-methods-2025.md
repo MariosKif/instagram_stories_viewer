@@ -5,7 +5,7 @@ pubDate: 2025-03-12
 updatedDate: 2025-03-12
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-photo-downloader.svg"
+image: "/blog/hero-photo-save.svg"
 category: "Tutorials"
 lang: "sv"
 tags:

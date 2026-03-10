@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "zh"
 tags: ["instagram快拍", "无需登录", "隐私", "instagram查看器", "使用方法", "教程", "2025", "instagram快拍查看器", "浏览instagram", "查看instagram快拍", "观看instagram快拍"]

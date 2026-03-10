@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "ru"
 tags: ["вовлечённость instagram", "калькулятор вовлечённости", "аналитика instagram", "метрики социальных сетей", "инфлюенсер маркетинг", "бенчмарки instagram", "2026", "рост instagram", "контент-стратегия", "партнёрства с брендами"]

@@ -5,7 +5,7 @@ pubDate: 2025-03-01
 updatedDate: 2025-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-dp-viewer.svg"
+image: "/blog/hero-profile-photo.svg"
 category: "Tips"
 lang: "zh"
 tags:

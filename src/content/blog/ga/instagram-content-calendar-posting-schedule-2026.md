@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "ga"
 tags: ["féilire ábhair", "sceideal postála", "am is fearr le postáil", "straitéis instagram", "leideanna instagram", "pleanáil ábhair", "2026", "sceidealú meán sóisialta", "minicíocht postála", "fás instagram"]

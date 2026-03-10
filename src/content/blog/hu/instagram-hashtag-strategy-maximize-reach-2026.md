@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "hu"
 tags: ["instagram hashtagek", "hashtag stratégia", "instagram elérés", "hashtag generátor", "instagram növekedés", "tartalomfelfedezés", "2026", "közösségi média tippek", "instagram algoritmus", "hashtag kutatás"]

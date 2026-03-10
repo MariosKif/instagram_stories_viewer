@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "sl"
 tags: ["instagram koluti", "instagram zgodbe", "koluti proti zgodbam", "instagram algoritem", "vsebinska strategija", "instagram angažiranost", "2026", "instagram doseg", "trženje na družbenih omrežjih", "video vsebina"]

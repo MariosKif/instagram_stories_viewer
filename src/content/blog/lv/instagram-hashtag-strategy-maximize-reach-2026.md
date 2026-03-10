@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "lv"
 tags: ["instagram mirkļbirkas", "mirkļbirku stratēģija", "instagram sasniedzamība", "mirkļbirku ģenerators", "instagram izaugsme", "satura atklāšana", "2026", "sociālo mediju padomi", "instagram algoritms", "mirkļbirku izpēte"]

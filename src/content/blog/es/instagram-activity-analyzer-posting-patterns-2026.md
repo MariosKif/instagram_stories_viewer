@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-activity-analyzer.svg"
+image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"
 lang: "es"
 tags: ["actividad instagram", "patrones de publicación", "horarios de engagement", "estrategia de contenido", "instagram analytics", "analizador de actividad", "2026", "horario de publicación", "insights instagram", "optimización redes sociales"]

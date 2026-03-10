@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "ar"
 tags: ["متابعو إنستغرام", "تحليل المتابعين", "المتابعون المزيفون", "رؤى الجمهور", "تحليلات إنستغرام", "نمو المتابعين", "2026", "أدوات إنستغرام", "كشف البوتات", "تحليل التفاعل"]

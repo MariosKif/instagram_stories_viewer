@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 updatedDate: 2026-03-08
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-competitor-analysis.svg"
+image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"
 lang: "ar"
 tags: ["تحليل المنافسين على إنستغرام", "قياس أداء إنستغرام", "بحث المنافسين", "تحليلات إنستغرام", "استراتيجية وسائل التواصل", "2026", "أدوات إنستغرام", "استراتيجية المحتوى", "مقاييس التفاعل", "الاستخبارات التنافسية", "رؤى إنستغرام"]

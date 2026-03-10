@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "hu"
 tags: ["instagram követők", "követőelemző", "hamis követők", "közönségelemzés", "instagram analitika", "követőnövekedés", "2026", "instagram eszközök", "botfelismerés", "elköteleződés elemzés"]

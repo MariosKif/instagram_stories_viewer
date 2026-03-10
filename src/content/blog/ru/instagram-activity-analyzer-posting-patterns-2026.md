@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-activity-analyzer.svg"
+image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"
 lang: "ru"
 tags: ["активность instagram", "паттерны публикаций", "время вовлечённости", "контент-стратегия", "аналитика instagram", "анализатор активности", "2026", "график публикаций", "инсайты instagram", "оптимизация соцсетей"]

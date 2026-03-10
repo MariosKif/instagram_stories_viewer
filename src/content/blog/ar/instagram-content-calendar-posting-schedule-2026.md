@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "ar"
 tags: ["تقويم المحتوى", "جدول النشر", "أفضل وقت للنشر", "استراتيجية إنستغرام", "نصائح إنستغرام", "تخطيط المحتوى", "2026", "جدولة وسائل التواصل", "تكرار النشر", "نمو إنستغرام"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "bg"
 tags: ["календар за съдържание", "график за публикуване", "най-добро време за публикуване", "instagram стратегия", "instagram съвети", "планиране на съдържание", "2026", "планиране в социални мрежи", "честота на публикуване", "instagram растеж"]

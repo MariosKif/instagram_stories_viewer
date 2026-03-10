@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "da"
 tags: ["instagram kommentarer", "kommentarfremviser", "se kommentarer anonymt", "instagram privatliv", "læs kommentarer uden login", "instagram fremviser", "2026", "privatliv på sociale medier", "anonym browsing", "instagram værktøjer"]

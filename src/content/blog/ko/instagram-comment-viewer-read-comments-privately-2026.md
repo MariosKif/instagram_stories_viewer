@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "ko"
 tags: ["인스타그램 댓글", "댓글 뷰어", "익명으로 댓글 보기", "인스타그램 프라이버시", "로그인 없이 댓글 읽기", "인스타그램 뷰어", "2026", "소셜 미디어 프라이버시", "익명 브라우징", "인스타그램 도구"]

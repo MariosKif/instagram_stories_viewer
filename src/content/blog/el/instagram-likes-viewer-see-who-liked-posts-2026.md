@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "el"
 tags: ["likes instagram", "προβολέας likes", "αφοσίωση instagram", "δείτε ποιος έκανε like", "αναλυτικά instagram", "δημόσια likes", "2026", "εργαλεία instagram", "πληροφορίες αφοσίωσης", "ανάλυση κοινωνικών μέσων"]

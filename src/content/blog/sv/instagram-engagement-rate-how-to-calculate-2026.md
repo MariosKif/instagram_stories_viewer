@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "sv"
 tags: ["instagram engagemangsfrekvens", "engagemangskalkylator", "instagram-analys", "mätvärden sociala medier", "influencer-marknadsföring", "instagram-riktmärken", "2026", "instagram-tillväxt", "innehållsstrategi", "varumärkessamarbeten"]

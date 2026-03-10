@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "et"
 tags: ["instagrami teemaviited", "teemaviidete strateegia", "instagrami ulatus", "teemaviidete generaator", "instagrami kasv", "sisu avastamine", "2026", "sotsiaalmeedia nõuanded", "instagrami algoritm", "teemaviidete uurimine"]

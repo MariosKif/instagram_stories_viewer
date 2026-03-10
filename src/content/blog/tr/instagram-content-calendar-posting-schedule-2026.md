@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "tr"
 tags: ["içerik takvimi", "paylaşım programı", "en iyi paylaşım zamanı", "instagram stratejisi", "instagram ipuçları", "içerik planlama", "2026", "sosyal medya zamanlama", "paylaşım sıklığı", "instagram büyüme"]

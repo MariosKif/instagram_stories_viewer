@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "ar"
 tags: ["قصص instagram", "بدون تسجيل دخول", "الخصوصية", "عارض instagram", "كيفية", "دليل تعليمي", "2025", "عارض قصص instagram", "تصفح instagram", "عرض قصص instagram", "مشاهدة قصص instagram"]

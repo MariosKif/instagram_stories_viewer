@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "ja"
 tags: ["instagramハッシュタグ", "ハッシュタグ戦略", "instagramリーチ", "ハッシュタグジェネレーター", "instagram成長", "コンテンツ発見", "2026", "SNSのコツ", "instagramアルゴリズム", "ハッシュタグリサーチ"]

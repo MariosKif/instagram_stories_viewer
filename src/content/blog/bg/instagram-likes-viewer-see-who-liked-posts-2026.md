@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "bg"
 tags: ["instagram харесвания", "преглед на харесвания", "instagram ангажираност", "вижте кой е харесал", "instagram аналитика", "публични харесвания", "2026", "instagram инструменти", "прозрения за ангажираност", "анализ на социални мрежи"]

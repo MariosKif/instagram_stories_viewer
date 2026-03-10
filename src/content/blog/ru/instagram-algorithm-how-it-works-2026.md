@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "ru"
 tags: ["алгоритм instagram", "алгоритм instagram 2026", "лента instagram", "instagram reels", "instagram stories", "страница интересное", "ранжирование instagram", "контент-стратегия", "охват instagram", "рост instagram", "алгоритм соцсетей"]

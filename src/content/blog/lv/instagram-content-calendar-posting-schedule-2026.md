@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "lv"
 tags: ["satura kalendārs", "publicēšanas grafiks", "labākais laiks publicēšanai", "instagram stratēģija", "instagram padomi", "satura plānošana", "2026", "sociālo mediju plānošana", "publicēšanas biežums", "instagram izaugsme"]

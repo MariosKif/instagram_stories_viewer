@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "ko"
 tags: ["인스타그램 알고리즘", "인스타그램 알고리즘 2026", "인스타그램 피드", "인스타그램 릴스", "인스타그램 스토리", "탐색 페이지", "인스타그램 순위", "콘텐츠 전략", "인스타그램 도달", "인스타그램 성장", "소셜 미디어 알고리즘"]

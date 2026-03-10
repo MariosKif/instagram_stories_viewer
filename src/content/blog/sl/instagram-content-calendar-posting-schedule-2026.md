@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "sl"
 tags: ["koledar vsebine", "urnik objavljanja", "najboljši čas za objavo", "instagram strategija", "instagram nasveti", "načrtovanje vsebine", "2026", "načrtovanje na družbenih omrežjih", "pogostost objavljanja", "instagram rast"]

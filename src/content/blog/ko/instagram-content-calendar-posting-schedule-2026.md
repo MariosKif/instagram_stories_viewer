@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "ko"
 tags: ["콘텐츠 캘린더", "게시 일정", "최적 게시 시간", "인스타그램 전략", "인스타그램 팁", "콘텐츠 계획", "2026", "소셜 미디어 일정", "게시 빈도", "인스타그램 성장"]

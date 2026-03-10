@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "da"
 tags: ["indholdskalender", "opslagsskema", "bedste tid at poste", "instagram strategi", "instagram tips", "indholdsplanlægning", "2026", "planlægning af sociale medier", "opslagsfrekvens", "instagram vækst"]

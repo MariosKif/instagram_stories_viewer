@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "ja"
 tags: ["コンテンツカレンダー", "投稿スケジュール", "投稿に最適な時間", "instagram戦略", "instagramのコツ", "コンテンツ計画", "2026", "SNSスケジューリング", "投稿頻度", "instagram成長"]

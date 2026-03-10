@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "mt"
 tags: ["highlights instagram", "story highlights", "instagram istejts", "viewer highlights", "covers highlights", "gwida instagram", "2026", "għodod instagram", "negozju instagram", "disinn highlights", "profil instagram"]

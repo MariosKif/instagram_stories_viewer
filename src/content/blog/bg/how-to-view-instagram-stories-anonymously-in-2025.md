@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "bg"
 tags: ["stories v instagram", "bez vhod", "poveritelnost", "pregled na instagram", "kak da", "ukazanie", "2025", "pregled na stories v instagram", "razglejdane na instagram", "gledane na stories v instagram", "sledene na stories v instagram"]

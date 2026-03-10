@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "lt"
 tags: ["turinio kalendorius", "skelbimo tvarkaraštis", "geriausias laikas skelbti", "instagram strategija", "instagram patarimai", "turinio planavimas", "2026", "socialinių tinklų planavimas", "skelbimo dažnumas", "instagram augimas"]

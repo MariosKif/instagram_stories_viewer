@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "ga"
 tags: ["tuairimí instagram", "breathnóir tuairimí", "féach ar thuairimí go hanaithnid", "príobháideachas instagram", "léigh tuairimí gan logáil isteach", "breathnóir instagram", "2026", "príobháideachas meán sóisialta", "brabhsáil anaithnid", "uirlisí instagram"]

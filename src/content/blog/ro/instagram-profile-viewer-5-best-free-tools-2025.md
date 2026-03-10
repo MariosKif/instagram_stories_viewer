@@ -5,7 +5,7 @@ pubDate: 2025-03-10
 updatedDate: 2025-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-profile-viewer.svg"
+image: "/blog/hero-profile-guide.svg"
 category: "Guides"
 lang: "ro"
 tags:

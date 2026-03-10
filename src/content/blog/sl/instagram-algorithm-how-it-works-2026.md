@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "sl"
 tags: ["instagram algoritem", "instagram algoritem 2026", "instagram vir", "instagram koluti", "instagram zgodbe", "stran raziskuj", "instagram razvrščanje", "vsebinska strategija", "instagram doseg", "instagram rast", "algoritem družbenih medijev"]

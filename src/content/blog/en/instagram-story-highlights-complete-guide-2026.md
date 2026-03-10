@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "en"
 tags: ["instagram highlights", "story highlights", "instagram stories", "highlights viewer", "highlight covers", "instagram guide", "2026", "instagram tools", "instagram business", "highlights design", "instagram profile"]

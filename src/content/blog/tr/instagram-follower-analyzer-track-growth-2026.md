@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "tr"
 tags: ["instagram takipçileri", "takipçi analizi", "sahte takipçiler", "kitle analizi", "instagram analitik", "takipçi büyümesi", "2026", "instagram araçları", "bot tespiti", "etkileşim analizi"]

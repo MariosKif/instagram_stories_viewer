@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "tr"
 tags: ["instagram beğenileri", "beğeni görüntüleyici", "instagram etkileşim", "kimin beğendiğini görme", "instagram analitik", "herkese açık beğeniler", "2026", "instagram araçları", "etkileşim içgörüleri", "sosyal medya analizi"]

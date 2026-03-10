@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "ar"
 tags: ["أبرز إنستغرام", "أبرز القصص", "قصص إنستغرام", "عارض الأبرز", "أغلفة الأبرز", "دليل إنستغرام", "2026", "أدوات إنستغرام", "إنستغرام للأعمال", "تصميم الأبرز", "ملف إنستغرام"]

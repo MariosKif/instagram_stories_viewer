@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "fr"
 tags: ["likes instagram", "visionneuse de likes", "engagement instagram", "voir qui a aimé", "instagram analytics", "likes publics", "2026", "outils instagram", "analyse d'engagement", "analyse réseaux sociaux"]

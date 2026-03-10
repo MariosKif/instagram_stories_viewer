@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "fr"
 tags: ["stories instagram", "sans connexion", "confidentialite", "visionneuse instagram", "comment faire", "tutoriel", "2025", "visionneuse de stories instagram", "parcourir instagram", "voir les stories instagram", "regarder les stories instagram"]

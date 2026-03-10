@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 updatedDate: 2026-03-08
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-competitor-analysis.svg"
+image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"
 lang: "ro"
 tags: ["analiză competiție instagram", "benchmarking instagram", "cercetare competiție", "analitică instagram", "strategie social media", "2026", "instrumente instagram", "strategie conținut", "metrici engagement", "inteligență competitivă", "informații instagram"]

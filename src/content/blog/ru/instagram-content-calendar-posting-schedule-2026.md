@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "ru"
 tags: ["контент-календарь", "график публикаций", "лучшее время для постов", "стратегия instagram", "советы instagram", "планирование контента", "2026", "планирование соцсетей", "частота публикаций", "рост instagram"]

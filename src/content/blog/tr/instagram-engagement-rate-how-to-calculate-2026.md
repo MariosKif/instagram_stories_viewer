@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "tr"
 tags: ["instagram etkileşim oranı", "etkileşim hesaplayıcı", "instagram analitik", "sosyal medya metrikleri", "influencer pazarlama", "instagram kıyaslamaları", "2026", "instagram büyüme", "içerik stratejisi", "marka ortaklıkları"]

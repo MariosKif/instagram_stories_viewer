@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-activity-analyzer.svg"
+image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"
 lang: "zh"
 tags: ["instagram活动", "发帖模式", "互动时间", "内容策略", "instagram分析", "活动分析器", "2026", "发帖时间表", "instagram洞察", "社交媒体优化"]

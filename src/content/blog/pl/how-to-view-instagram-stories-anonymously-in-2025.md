@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "pl"
 tags: ["stories na instagram", "bez logowania", "prywatnosc", "przegladarka instagram", "jak to zrobic", "poradnik", "2025", "przegladarka stories instagram", "przegladanie instagram", "ogladanie stories instagram", "sledz stories instagram"]

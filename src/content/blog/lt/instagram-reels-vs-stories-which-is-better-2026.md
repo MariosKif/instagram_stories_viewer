@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "lt"
 tags: ["instagram reels", "instagram istorijos", "reels prieš istorijas", "instagram algoritmas", "turinio strategija", "instagram įsitraukimas", "2026", "instagram pasiekiamumas", "socialinių tinklų rinkodara", "vaizdo turinys"]

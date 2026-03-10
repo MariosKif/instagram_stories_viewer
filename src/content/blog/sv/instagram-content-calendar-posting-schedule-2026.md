@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "sv"
 tags: ["innehållskalender", "publiceringsschema", "bästa tid att publicera", "instagram-strategi", "instagram-tips", "innehållsplanering", "2026", "schemaläggning sociala medier", "publiceringsfrekvens", "instagram-tillväxt"]

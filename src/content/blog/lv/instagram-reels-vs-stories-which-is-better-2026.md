@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "lv"
 tags: ["instagram reels", "instagram stāsti", "reels pret stāstiem", "instagram algoritms", "satura stratēģija", "instagram iesaiste", "2026", "instagram sasniedzamība", "sociālo mediju mārketings", "video saturs"]

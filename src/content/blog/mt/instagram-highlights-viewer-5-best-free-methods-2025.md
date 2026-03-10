@@ -5,7 +5,7 @@ pubDate: 2025-03-04
 updatedDate: 2025-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "mt"
 tags:

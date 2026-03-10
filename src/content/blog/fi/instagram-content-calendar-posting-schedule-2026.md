@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "fi"
 tags: ["sisältökalenteri", "julkaisuaikataulu", "paras aika julkaista", "instagram-strategia", "instagram-vinkit", "sisällön suunnittelu", "2026", "sosiaalisen median ajastus", "julkaisutiheys", "instagram-kasvu"]

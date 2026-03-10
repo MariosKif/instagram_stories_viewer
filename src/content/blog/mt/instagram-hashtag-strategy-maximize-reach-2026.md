@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "mt"
 tags: ["hashtags instagram", "strateġija tal-hashtags", "reach instagram", "ġeneratur tal-hashtags", "tkabbir instagram", "skoperta tal-kontenut", "2026", "pariri midja soċjali", "algoritmu instagram", "riċerka tal-hashtags"]

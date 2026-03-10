@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "zh"
 tags: ["instagram评论", "评论查看器", "匿名查看评论", "instagram隐私", "免登录阅读评论", "instagram查看器", "2026", "社交媒体隐私", "匿名浏览", "instagram工具"]

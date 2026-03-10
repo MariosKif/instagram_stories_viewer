@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "ru"
 tags: ["комментарии instagram", "просмотр комментариев", "анонимный просмотр комментариев", "конфиденциальность instagram", "чтение комментариев без входа", "просмотрщик instagram", "2026", "конфиденциальность в соцсетях", "анонимный просмотр", "инструменты instagram"]

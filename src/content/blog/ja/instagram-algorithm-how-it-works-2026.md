@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "ja"
 tags: ["instagramアルゴリズム", "instagramアルゴリズム2026", "instagramフィード", "instagramリール", "instagramストーリーズ", "発見ページ", "instagramランキング", "コンテンツ戦略", "instagramリーチ", "instagram成長", "SNSアルゴリズム"]

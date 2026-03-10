@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-activity-analyzer.svg"
+image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"
 lang: "ko"
 tags: ["인스타그램 활동", "게시 패턴", "참여 시간", "콘텐츠 전략", "인스타그램 분석", "활동 분석기", "2026", "게시 일정", "인스타그램 인사이트", "소셜 미디어 최적화"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "ko"
 tags: ["인스타그램 해시태그", "해시태그 전략", "인스타그램 도달", "해시태그 생성기", "인스타그램 성장", "콘텐츠 발견", "2026", "소셜 미디어 팁", "인스타그램 알고리즘", "해시태그 리서치"]

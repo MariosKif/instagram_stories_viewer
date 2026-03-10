@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "sk"
 tags: ["instagram algoritmus", "instagram algoritmus 2026", "instagram kanál", "instagram reels", "instagram stories", "stránka explore", "instagram hodnotenie", "obsahová stratégia", "instagram dosah", "instagram rast", "algoritmus sociálnych médií"]

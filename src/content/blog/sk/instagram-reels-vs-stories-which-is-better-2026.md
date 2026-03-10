@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "sk"
 tags: ["instagram reels", "instagram stories", "reels vs stories", "instagram algoritmus", "obsahová stratégia", "instagram zapojenie", "2026", "instagram dosah", "marketing sociálnych médií", "video obsah"]

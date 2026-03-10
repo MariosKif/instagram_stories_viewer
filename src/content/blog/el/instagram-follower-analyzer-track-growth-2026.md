@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "el"
 tags: ["ακόλουθοι instagram", "αναλυτής ακολούθων", "ψεύτικοι ακόλουθοι", "πληροφορίες κοινού", "αναλυτικά instagram", "ανάπτυξη ακολούθων", "2026", "εργαλεία instagram", "εντοπισμός bot", "ανάλυση αφοσίωσης"]

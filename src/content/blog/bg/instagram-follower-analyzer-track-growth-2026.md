@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "bg"
 tags: ["instagram последователи", "анализатор на последователи", "фалшиви последователи", "прозрения за аудиторията", "instagram аналитика", "растеж на последователи", "2026", "instagram инструменти", "разпознаване на ботове", "анализ на ангажираност"]

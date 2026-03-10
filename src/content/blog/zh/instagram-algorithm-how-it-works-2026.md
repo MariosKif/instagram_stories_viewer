@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "zh"
 tags: ["instagram算法", "instagram算法2026", "instagram信息流", "instagram reels", "instagram快拍", "探索页面", "instagram排名", "内容策略", "instagram覆盖", "instagram增长", "社交媒体算法"]

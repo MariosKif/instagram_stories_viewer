@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "el"
 tags: ["instagram ιστορίες", "χωρίς σύνδεση", "απόρρητο", "πρόγραμμα προβολής instagram", "πώς να", "οδηγός", "2025", "πρόγραμμα προβολής ιστοριών instagram", "περιήγηση στο instagram", "προβολή ιστοριών instagram", "παρακολούθηση ιστοριών instagram"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "cs"
 tags: ["míra zapojení instagram", "kalkulačka zapojení", "analytika instagram", "metriky sociálních médií", "influencer marketing", "benchmarky instagram", "2026", "růst instagram", "obsahová strategie", "spolupráce se značkami"]

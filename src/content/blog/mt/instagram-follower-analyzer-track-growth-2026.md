@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "mt"
 tags: ["segwaċi instagram", "analizzatur tas-segwaċi", "segwaċi foloz", "għarfien dwar l-udjenza", "analitika instagram", "tkabbir tas-segwaċi", "2026", "għodod instagram", "skoperta tal-bots", "analiżi tal-involviment"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "el"
 tags: ["hashtags instagram", "στρατηγική hashtags", "κάλυψη instagram", "γεννήτρια hashtags", "ανάπτυξη instagram", "ανακάλυψη περιεχομένου", "2026", "συμβουλές κοινωνικών μέσων", "αλγόριθμος instagram", "έρευνα hashtags"]

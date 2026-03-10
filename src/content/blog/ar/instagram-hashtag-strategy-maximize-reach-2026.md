@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "ar"
 tags: ["هاشتاغات إنستغرام", "استراتيجية الهاشتاغ", "وصول إنستغرام", "مولد الهاشتاغات", "نمو إنستغرام", "اكتشاف المحتوى", "2026", "نصائح وسائل التواصل", "خوارزمية إنستغرام", "بحث الهاشتاغات"]

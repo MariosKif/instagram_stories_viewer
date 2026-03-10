@@ -5,7 +5,7 @@ pubDate: 2026-03-03
 updatedDate: 2026-03-03
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-hashtag-strategy.svg"
+image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "sl"
 tags: ["instagram ključniki", "strategija ključnikov", "instagram doseg", "generator ključnikov", "instagram rast", "odkrivanje vsebine", "2026", "nasveti za družbena omrežja", "instagram algoritem", "raziskava ključnikov"]

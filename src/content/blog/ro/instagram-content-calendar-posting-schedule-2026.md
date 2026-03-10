@@ -5,7 +5,7 @@ pubDate: 2026-03-07
 updatedDate: 2026-03-07
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-content-calendar.svg"
+image: "/blog/hero-content-calendar.svg"
 category: "Tips"
 lang: "ro"
 tags: ["calendar conținut", "program postare", "cel mai bun moment pentru postare", "strategie instagram", "sfaturi instagram", "planificare conținut", "2026", "programare social media", "frecvență postare", "creștere instagram"]

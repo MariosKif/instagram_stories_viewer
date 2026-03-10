@@ -5,7 +5,7 @@ pubDate: 2026-03-08
 updatedDate: 2026-03-08
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-competitor-analysis.svg"
+image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"
 lang: "sv"
 tags: ["instagram konkurrensanalys", "instagram benchmarking", "konkurrentforskning", "instagram-analys", "strategi sociala medier", "2026", "instagram-verktyg", "innehållsstrategi", "engagemangsmått", "konkurrensintelligens", "instagram-insikter"]

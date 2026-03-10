@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "ga"
 tags: ["instagram reels", "scéalta instagram", "reels vs scéalta", "algartam instagram", "straitéis ábhair", "rannpháirtíocht instagram", "2026", "sroicheadh instagram", "margaíocht meán sóisialta", "ábhar físe"]

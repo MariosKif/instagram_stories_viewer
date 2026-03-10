@@ -5,7 +5,7 @@ pubDate: 2025-11-08
 updatedDate: 2025-11-08
 author: "IGStoryPeek"
 featured: false
-image: "/blog/browse-instagram-stories-igstorypeek.svg"
+image: "/blog/hero-stories-browse.svg"
 category: "Tips"
 lang: "it"
 tags:

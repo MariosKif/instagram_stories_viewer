@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "sv"
 tags: ["instagram reels", "instagram stories", "reels vs stories", "instagram-algoritm", "innehållsstrategi", "instagram-engagemang", "2026", "instagram-räckvidd", "marknadsföring sociala medier", "videoinnehåll"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "hu"
 tags: ["instagram reels", "instagram történetek", "reels vs történetek", "instagram algoritmus", "tartalomstratégia", "instagram elköteleződés", "2026", "instagram elérés", "közösségi média marketing", "videótartalom"]

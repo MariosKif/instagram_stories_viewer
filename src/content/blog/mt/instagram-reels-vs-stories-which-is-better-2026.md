@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 updatedDate: 2026-03-05
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-reels-viewer.svg"
+image: "/blog/hero-reels-guide.svg"
 category: "Guides"
 lang: "mt"
 tags: ["instagram reels", "instagram istejts", "reels vs istejts", "algoritmu instagram", "strateġija tal-kontenut", "involviment instagram", "2026", "reach instagram", "marketing midja soċjali", "kontenut tal-vidjo"]

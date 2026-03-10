@@ -5,7 +5,7 @@ pubDate: 2026-03-09
 updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-algorithm.svg"
+image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "ar"
 tags: ["خوارزمية إنستغرام", "خوارزمية إنستغرام 2026", "خلاصة إنستغرام", "ريلز إنستغرام", "قصص إنستغرام", "صفحة الاستكشاف", "ترتيب إنستغرام", "استراتيجية المحتوى", "وصول إنستغرام", "نمو إنستغرام", "خوارزمية وسائل التواصل"]

@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "pt"
 tags: ["gostos instagram", "visualizador de gostos", "engagement instagram", "ver quem gostou", "análise instagram", "gostos públicos", "2026", "ferramentas instagram", "insights de engagement", "análise redes sociais"]

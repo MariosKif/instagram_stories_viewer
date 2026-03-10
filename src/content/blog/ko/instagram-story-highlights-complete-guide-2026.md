@@ -5,7 +5,7 @@ pubDate: 2026-03-10
 updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-highlights-viewer.svg"
+image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
 lang: "ko"
 tags: ["인스타그램 하이라이트", "스토리 하이라이트", "인스타그램 스토리", "하이라이트 뷰어", "하이라이트 커버", "인스타그램 가이드", "2026", "인스타그램 도구", "인스타그램 비즈니스", "하이라이트 디자인", "인스타그램 프로필"]

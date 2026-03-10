@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "ko"
 tags: ["인스타그램 팔로워", "팔로워 분석기", "가짜 팔로워", "오디언스 인사이트", "인스타그램 분석", "팔로워 성장", "2026", "인스타그램 도구", "봇 감지", "참여도 분석"]

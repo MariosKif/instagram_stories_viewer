@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "pl"
 tags: ["wskaźnik zaangażowania instagram", "kalkulator zaangażowania", "analityka instagram", "metryki mediów społecznościowych", "influencer marketing", "benchmarki instagram", "2026", "wzrost instagram", "strategia treści", "współprace z markami"]

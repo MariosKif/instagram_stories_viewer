@@ -5,7 +5,7 @@ pubDate: 2026-03-02
 updatedDate: 2026-03-02
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-engagement-rate.svg"
+image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
 lang: "hu"
 tags: ["instagram elköteleződési arány", "elköteleződés kalkulátor", "instagram analitika", "közösségi média mutatók", "influencer marketing", "instagram összehasonlítási értékek", "2026", "instagram növekedés", "tartalomstratégia", "márkaegyüttműködések"]

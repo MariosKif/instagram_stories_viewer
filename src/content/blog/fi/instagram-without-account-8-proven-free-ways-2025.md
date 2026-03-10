@@ -5,7 +5,7 @@ pubDate: 2025-01-20
 updatedDate: 2025-01-20
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-without-account.svg"
+image: "/blog/hero-no-account.svg"
 category: "Guides"
 lang: "fi"
 tags:

@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "ru"
 tags: ["instagram сторис", "без входа", "конфиденциальность", "просмотрщик instagram", "инструкция", "руководство", "2025", "просмотр instagram сторис", "просмотр instagram", "смотреть instagram сторис", "смотреть instagram истории"]

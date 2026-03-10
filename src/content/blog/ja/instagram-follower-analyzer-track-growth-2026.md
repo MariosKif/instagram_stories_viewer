@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "ja"
 tags: ["instagramフォロワー", "フォロワー分析", "偽フォロワー", "オーディエンスインサイト", "instagram分析", "フォロワー増加", "2026", "instagramツール", "ボット検出", "エンゲージメント分析"]

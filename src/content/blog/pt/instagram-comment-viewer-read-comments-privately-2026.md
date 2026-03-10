@@ -5,7 +5,7 @@ pubDate: 2026-03-04
 updatedDate: 2026-03-04
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-comment-viewer.svg"
+image: "/blog/hero-comments-guide.svg"
 category: "Guides"
 lang: "pt"
 tags: ["comentários instagram", "visualizador de comentários", "ver comentários anonimamente", "privacidade instagram", "ler comentários sem login", "visualizador instagram", "2026", "privacidade redes sociais", "navegação anónima", "ferramentas instagram"]

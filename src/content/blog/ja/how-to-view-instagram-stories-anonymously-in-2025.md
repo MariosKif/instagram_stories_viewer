@@ -5,7 +5,7 @@ pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"
 featured: true
-image: "/blog/how-to-view-instagram-stories-anonymously.svg"
+image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"
 lang: "ja"
 tags: ["instagramストーリー", "ログイン不要", "プライバシー", "instagramビューアー", "使い方", "チュートリアル", "2025", "instagramストーリービューアー", "instagram閲覧", "instagramストーリーを見る", "instagramストーリーを視聴"]

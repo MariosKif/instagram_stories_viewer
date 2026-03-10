@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 updatedDate: 2026-03-01
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-follower-analyzer.svg"
+image: "/blog/hero-follower-growth.svg"
 category: "Analytics"
 lang: "fi"
 tags: ["instagram-seuraajat", "seuraaja-analysaattori", "valeseuraajat", "yleisötiedot", "instagram-analytiikka", "seuraajien kasvu", "2026", "instagram-työkalut", "bottien tunnistus", "sitoutumisanalyysi"]

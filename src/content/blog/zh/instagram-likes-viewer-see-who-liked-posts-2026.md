@@ -5,7 +5,7 @@ pubDate: 2026-03-06
 updatedDate: 2026-03-06
 author: "IGStoryPeek"
 featured: false
-image: "/blog/instagram-likes-viewer.svg"
+image: "/blog/hero-likes-guide.svg"
 category: "Guides"
 lang: "zh"
 tags: ["instagram点赞", "点赞查看器", "instagram互动", "查看谁点赞", "instagram分析", "公开点赞", "2026", "instagram工具", "互动洞察", "社交媒体分析"]
