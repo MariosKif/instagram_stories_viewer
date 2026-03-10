@@ -1,0 +1,75 @@
+# IGStoryPeek
+
+> Social media analytics and content tools. Analyze public profiles, track engagement trends, and discover insights across Instagram, TikTok, Facebook, and Snapchat.
+
+IGStoryPeek is a free web-based platform that lets users view, analyze, and download publicly available content from major social media platforms — without needing to log in or create an account on those platforms.
+
+## Main Features
+
+### Instagram Tools
+- Profile Explorer: Search any public Instagram profile instantly
+- Follower Analyzer: Track growth, detect fake followers, audience demographics
+- Activity Analyzer: Posting patterns, engagement timing, content format analysis
+- Stories Viewer & Downloader: View and save Instagram stories anonymously in HD
+- Highlights Viewer & Downloader: Browse and save highlight reels
+- Posts Viewer & Downloader: View feed posts privately, save photos & carousels
+- Video & Reels Downloader: Save Instagram videos and reels in MP4
+- Comment Viewer: Read post comments without logging in
+- Likes Viewer: See who liked any public post
+- Hashtag Generator: AI-powered hashtag suggestions for maximum reach
+- Relationship Insights: Analyze follower connections and interactions
+
+### TikTok Tools
+- User Search: Find any TikTok creator profile
+- Follower Analyzer: Audience growth and demographics tracking
+- Activity Analyzer: Posting frequency and performance insights
+- Video Downloader: Save TikTok videos in original quality
+- Stories Downloader: Save TikTok stories
+- Audio Downloader: Extract sounds as MP3
+- Slideshow Downloader: Save photo carousels
+- Video & Stories Viewer: Watch content without the app
+- Trending Sounds Finder: Discover viral audio clips
+- Engagement Tracker: Track likes, views, and comments over time
+
+### Facebook Tools
+- User & Page Search: Locate any profile or public page
+- Page Analyzer: Audit engagement, growth, and content strategy
+- Group Analyzer: Evaluate community health and member activity
+- Ad Library Explorer: Browse active ads and creative strategies
+- Stories, Reels & Video Downloader: Save content offline in HD
+- Photo Album Downloader: Save entire albums in full resolution
+- Post, Stories & Reels Viewer: Browse content without logging in
+- Reactions Viewer: Breakdown of likes, loves, laughs, and more
+- Page Activity Tracker: Track posting and engagement shifts
+
+### Snapchat Tools
+- User Search: Locate any Snapchatter by username
+- Score Tracker: Track Snap Score changes over time
+- Activity Analyzer: Understand snapping habits and patterns
+- Best Friends Analyzer: Discover top contacts and emoji rankings
+- Streak Tracker: Track and protect Snap streaks
+- Stories & Spotlight Downloader: Save stories and spotlight videos
+- Memories Downloader: Export saved snaps and memories
+- Stories & Spotlight Viewer: Browse content in your browser
+- Map Viewer: Explore Snap Map locations and hotspots
+- Public Profile Viewer: Browse creator profiles online
+
+## Pricing
+- Free plan available with basic features
+- Pro plans from $9.99/month with advanced analytics and unlimited downloads
+- Full pricing at https://www.igstorypeek.com/pricing
+
+## Links
+- Homepage: https://www.igstorypeek.com
+- Blog: https://www.igstorypeek.com/blog
+- Instagram Tools: https://www.igstorypeek.com/instagram
+- TikTok Tools: https://www.igstorypeek.com/tiktok
+- Facebook Tools: https://www.igstorypeek.com/facebook
+- Snapchat Tools: https://www.igstorypeek.com/snapchat
+- Privacy Policy: https://www.igstorypeek.com/privacy
+- Terms of Service: https://www.igstorypeek.com/terms
+- Contact: https://www.igstorypeek.com/contact
+
+## Optional
+
+- Extended info: https://www.igstorypeek.com/llms-full.txt

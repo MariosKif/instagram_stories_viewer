@@ -3,17 +3,19 @@ Allow: /
 Allow: /ads.txt
 Allow: /blog
 Allow: /blog/
+Allow: /llms.txt
+Allow: /llms-full.txt
 Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
 Disallow: /search/
 
-# Crawl-delay for polite crawling
-Crawl-delay: 0
+# ─── AI Search Engine Crawlers ───────────────────────────
+# Explicitly allow all major AI crawlers to index the site
 
-# Allow major search engines
-User-agent: Googlebot
+# OpenAI / ChatGPT
+User-agent: GPTBot
 Allow: /
 Disallow: /api/
 Disallow: /login
@@ -21,7 +23,49 @@ Disallow: /register
 Disallow: /dashboard
 Disallow: /search/
 
+# OpenAI search features
+User-agent: ChatGPT-User
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic / Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Apple Intelligence / Siri
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft / Copilot (uses Bing)
 User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
+
+# ─── Traditional Search Engines ──────────────────────────
+
+User-agent: Googlebot
 Allow: /
 Disallow: /api/
 Disallow: /login
@@ -36,5 +80,23 @@ Disallow: /login
 Disallow: /register
 Disallow: /dashboard
 Disallow: /search/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
+
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
+
+# ─── Sitemaps & AI Content ───────────────────────────────
 
 Sitemap: https://www.igstorypeek.com/sitemap.xml

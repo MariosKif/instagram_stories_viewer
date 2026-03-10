@@ -1,11 +1,20 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="8" fill="url(#gradient)"/>
-  <path d="M8 12C8 9.79086 9.79086 8 12 8H20C22.2091 8 24 9.79086 24 12V20C24 22.2091 22.2091 24 20 24H12C9.79086 24 8 22.2091 8 20V12Z" fill="white"/>
-  <circle cx="16" cy="16" r="4" fill="url(#gradient)"/>
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="8" fill="url(#bg)"/>
+  <!-- Instagram-style camera body -->
+  <rect x="7" y="7" width="18" height="18" rx="5" stroke="white" stroke-width="2" fill="none"/>
+  <!-- Lens circle -->
+  <circle cx="16" cy="16" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+  <!-- Flash dot -->
+  <circle cx="22" cy="10" r="1.4" fill="white"/>
+  <!-- Peek eye element (bottom-right) — represents "peek" -->
+  <ellipse cx="24" cy="24" rx="5" ry="3" fill="white" opacity="0.9"/>
+  <circle cx="24" cy="24" r="1.5" fill="url(#bg)"/>
   <defs>
-    <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
       <stop stop-color="#667eea"/>
-      <stop offset="1" stop-color="#764ba2"/>
+      <stop offset="0.5" stop-color="#764ba2"/>
+      <stop offset="1" stop-color="#f56565"/>
     </linearGradient>
   </defs>
 </svg>

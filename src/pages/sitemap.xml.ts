@@ -33,9 +33,10 @@ function generateUrl(langCode: string, path: string): string {
 }
 
 function generateHreflangLinks(path: string): string {
-  return allLanguages
+  const links = allLanguages
     .map(l => `      <xhtml:link rel="alternate" hreflang="${l}" href="${generateUrl(l, path)}" />`)
     .join('\n');
+  return `${links}\n      <xhtml:link rel="alternate" hreflang="x-default" href="${generateUrl('en', path)}" />`;
 }
 
 export const GET: APIRoute = async () => {
@@ -62,19 +63,38 @@ export const GET: APIRoute = async () => {
     // No blog posts yet — skip
   }
 
-  const staticEntries = staticPages.map(({ path, changefreq, priority }) => `
+  // Generate entries for each page in every language
+  const allEntries = staticPages.map(({ path, changefreq, priority }) => {
+    // Primary English URL with all hreflang alternates
+    const entries = [`
   <url>
     <loc>${generateUrl('en', path)}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
 ${generateHreflangLinks(path)}
-  </url>`).join('');
+  </url>`];
+
+    // Localized URLs for each non-English language
+    for (const lang of allLanguages) {
+      if (lang === 'en') continue;
+      entries.push(`
+  <url>
+    <loc>${generateUrl(lang, path)}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>0.5</priority>
+${generateHreflangLinks(path)}
+  </url>`);
+    }
+
+    return entries.join('');
+  }).join('');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${staticEntries}
+${allEntries}
 ${blogEntries.join('')}
 </urlset>`.trim();
 
