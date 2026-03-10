@@ -22,7 +22,7 @@ const {
   title,
   description = 'Social media analytics and content tools. Analyze public profiles, track engagement trends, and discover insights across Instagram, TikTok, Facebook, and Snapchat.',
   ogImage = '/og-default.png',
-  canonical,
+  canonical: canonicalOverride,
   noIndex = false,
 } = Astro.props;
 
@@ -30,8 +30,10 @@ const lang = (Astro.locals as any).lang as Language || 'en';
 const rtl = isRTL(lang);
 const siteName = 'IGStoryPeek';
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+const siteBase = 'https://www.igstorypeek.com';
 const siteUrl = Astro.url.origin;
 const currentPath = Astro.url.pathname;
+const canonical = canonicalOverride || `${siteBase}${currentPath}`;
 
 // CJK/Arabic font families
 const needsCJKFont = ['ja', 'ko', 'zh'].includes(lang);
@@ -48,7 +50,7 @@ const needsArabicFont = lang === 'ar';
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     {noIndex && <meta name="robots" content="noindex,nofollow" />}
-    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="canonical" href={canonical} />
 
     <!-- Hreflang tags -->
     <HreflangTags lang={lang} path={currentPath} />
@@ -68,26 +70,47 @@ const needsArabicFont = lang === 'ar';
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
 
-    <!-- Favicon -->
+    <!-- Favicon & PWA -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#667eea" />
 
-    <!-- Fonts -->
+    <!-- DNS prefetch for third-party origins -->
+    <link rel="dns-prefetch" href="https://googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+
+    <!-- Fonts (non-render-blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
     {needsCJKFont && (
       <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
         rel="stylesheet"
+        media="print"
+        onload="this.media='all'"
       />
     )}
     {needsArabicFont && (
       <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
         rel="stylesheet"
+        media="print"
+        onload="this.media='all'"
       />
     )}
 

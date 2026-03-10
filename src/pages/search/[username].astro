@@ -20,6 +20,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
 <MainLayout
   title={`${t.searchReport?.analyzingProfile || 'Analyze'} @${username} — Instagram Report`}
   description={`${t.searchReport?.generatingReport || 'Analyze Instagram activity for'} ${username}. ${t.searchReport?.engagementRate || 'View engagement rates'}, ${t.searchReport?.followerGrowth || 'follower trends'}, ${t.searchReport?.recentActivity || 'recent activity'}.`}
+  noIndex
 >
   <section class="pt-24 pb-16 lg:pt-32 lg:pb-24">
     <div class="section-container max-w-6xl">

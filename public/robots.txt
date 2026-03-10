@@ -4,6 +4,10 @@ Allow: /ads.txt
 Allow: /blog
 Allow: /blog/
 Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
 
 # Crawl-delay for polite crawling
 Crawl-delay: 0
@@ -12,13 +16,25 @@ Crawl-delay: 0
 User-agent: Googlebot
 Allow: /
 Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
 
 User-agent: Bingbot
 Allow: /
 Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
 
 User-agent: Slurp
 Allow: /
 Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /search/
 
 Sitemap: https://www.igstorypeek.com/sitemap.xml
