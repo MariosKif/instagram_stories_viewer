@@ -33,10 +33,17 @@ export const onRequest = defineMiddleware(async (context, next) => {
   (locals as any).lang = lang;
   (locals as any).t = t;
 
-  // If we need to rewrite (non-default language), rewrite the URL
-  if (lang !== defaultLang) {
-    return next(rewritePath);
+  // Get response
+  const response = lang !== defaultLang ? await next(rewritePath) : await next();
+
+  // Add Cache-Control for static (non-dynamic) routes
+  const isStatic = !pathname.startsWith('/api/') && !pathname.startsWith('/_') &&
+    !pathname.startsWith('/search/') && !pathname.startsWith('/dashboard') &&
+    !pathname.startsWith('/login') && !pathname.startsWith('/register');
+
+  if (isStatic) {
+    response.headers.set('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate=86400');
   }
 
-  return next();
+  return response;
 });
