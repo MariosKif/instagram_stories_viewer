@@ -42,9 +42,7 @@ if (type === 'organization') {
       height: 512
     },
     description,
-    sameAs: data.sameAs || [
-      'https://www.instagram.com/'
-    ],
+    sameAs: data.sameAs || [],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Support',
@@ -97,8 +95,7 @@ if (type === 'organization') {
       'View profiles',
       'View posts',
       'View highlights',
-      'Free to use',
-      'Private browsing'
+      'Free to use'
     ],
     browserRequirements: 'Requires JavaScript. Requires HTML5.',
     softwareVersion: '1.0'

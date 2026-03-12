@@ -52,13 +52,14 @@ function getReadingTime(body: string): number {
 }
 
 const siteUrl = 'https://www.igstorypeek.com';
+const langPrefix = lang === 'en' ? '' : `/${lang}`;
 
 const breadcrumbSchema = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}${langPrefix || '/'}` },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}${langPrefix}/blog` },
   ],
 });
 
