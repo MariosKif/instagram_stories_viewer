@@ -15,6 +15,7 @@ interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  ogType?: string;
   canonical?: string;
   noIndex?: boolean;
 }
@@ -23,6 +24,7 @@ const {
   title,
   description = 'Social media analytics and content tools. Analyze public profiles, track engagement trends, and discover insights across Instagram, TikTok, Facebook, and Snapchat.',
   ogImage = '/og-default.svg',
+  ogType = 'website',
   canonical: canonicalOverride,
   noIndex = false,
 } = Astro.props;
@@ -57,7 +59,7 @@ const needsArabicFont = lang === 'ar';
     <HreflangTags lang={lang} path={currentPath} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />

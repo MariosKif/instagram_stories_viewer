@@ -1,25 +1,25 @@
 ---
 /**
  * Blog category archive page — displays all posts for a given category.
- * Statically rendered for SEO with BreadcrumbList JSON-LD.
+ * SSR-rendered with BreadcrumbList JSON-LD.
  */
 import MainLayout from '../../../layouts/MainLayout.astro';
 import { getCollection } from 'astro:content';
 import { getLocalizedPath } from '../../../i18n/utils';
 import type { Language } from '../../../i18n/utils';
 
-export async function getStaticPaths() {
-  const posts = await getCollection('blog');
-  const enPosts = posts.filter(p => p.data.lang === 'en');
-  const categories = [...new Set(enPosts.map(p => p.data.category).filter(Boolean))];
-  return categories.map(category => ({
-    params: { category: category!.toLowerCase().replace(/\s+/g, '-') },
-    props: { categoryName: category! },
-  }));
-}
-
-const { categoryName } = Astro.props;
 const lang = (Astro.locals as any).lang || 'en';
+const { category } = Astro.params;
+if (!category) return Astro.redirect(getLocalizedPath('/blog', lang), 302);
+
+// Resolve display name from posts by matching the slug-ified category
+const allPostsRaw = await getCollection('blog');
+const enPosts = allPostsRaw.filter(p => p.data.lang === 'en');
+const categoryMatch = enPosts.find(
+  p => p.data.category && p.data.category.toLowerCase().replace(/\s+/g, '-') === category
+);
+if (!categoryMatch) return Astro.redirect(getLocalizedPath('/blog', lang), 302);
+const categoryName = categoryMatch.data.category!;
 const t = (Astro.locals as any).t || {};
 
 const allPosts = await getCollection('blog');

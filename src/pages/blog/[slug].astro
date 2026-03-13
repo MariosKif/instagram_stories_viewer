@@ -167,9 +167,9 @@ const breadcrumbSchema = JSON.stringify({
   title={post.data.title}
   description={post.data.description}
   ogImage={post.data.image}
+  ogType="article"
 >
   <Fragment slot="head">
-    <meta property="og:type" content="article" />
     <meta property="article:published_time" content={formatDateISO(post.data.pubDate)} />
     {post.data.updatedDate && <meta property="article:modified_time" content={formatDateISO(post.data.updatedDate)} />}
     {post.data.tags && post.data.tags.map((tag: string) => (
