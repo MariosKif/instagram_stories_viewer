@@ -32,7 +32,7 @@ const rtl = isRTL(lang);
 const siteName = 'IGStoryPeek';
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 const siteBase = 'https://www.igstorypeek.com';
-const siteUrl = Astro.url.origin;
+const siteUrl = siteBase;
 const currentPath = Astro.url.pathname;
 const canonical = canonicalOverride || `${siteBase}${currentPath}`;
 
@@ -62,7 +62,7 @@ const needsArabicFont = lang === 'ar';
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={`${siteUrl}${ogImage}`} />
-    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={lang} />
 
     <!-- Twitter -->
@@ -131,6 +131,9 @@ const needsArabicFont = lang === 'ar';
         }
       });
     </script>
+
+    <!-- Extra head content (e.g. article OG tags from blog posts) -->
+    <slot name="head" />
 
     <!-- Structured Data — SaaS / WebApplication schema -->
     <script type="application/ld+json" set:html={JSON.stringify({

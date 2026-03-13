@@ -19,7 +19,15 @@ export const onRequest = defineMiddleware(async (context, next) => {
   let lang: Language = defaultLang;
   let rewritePath = pathname;
 
-  if (firstSegment && allLanguages.includes(firstSegment) && firstSegment !== defaultLang) {
+  if (firstSegment && allLanguages.includes(firstSegment)) {
+    if (firstSegment === defaultLang) {
+      // Redirect /en/* to /* to avoid duplicate content
+      const canonicalPath = '/' + segments.slice(1).join('/') || '/';
+      return new Response(null, {
+        status: 301,
+        headers: { Location: canonicalPath },
+      });
+    }
     lang = firstSegment;
     // Strip the language prefix for routing
     rewritePath = '/' + segments.slice(1).join('/');

@@ -140,6 +140,9 @@ const platformColors: Record<string, string> = {
                 <img
                   src={getPlatformImage(featuredPost)}
                   alt={featuredPost.data.title}
+                  width="600"
+                  height="400"
+                  decoding="async"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="eager"
                   onerror="this.src='/blog/default-blog-hero.svg'"
@@ -184,6 +187,9 @@ const platformColors: Record<string, string> = {
                   <img
                     src={getPlatformImage(post)}
                     alt={post.data.title}
+                    width="400"
+                    height="160"
+                    decoding="async"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     onerror="this.src='/blog/default-blog-hero.svg'"

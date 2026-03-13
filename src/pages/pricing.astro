@@ -16,6 +16,40 @@ const proT = pT.pro || {};
 const pricingFaqs = pT.faqs || [
   { question: 'Can I cancel anytime?', answer: 'Yes! You can cancel your Pro subscription at any time.' },
 ];
+
+const siteUrl = 'https://www.igstorypeek.com';
+const langPrefix = lang === 'en' ? '' : `/${lang}`;
+
+const softwareAppSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'IGStoryPeek',
+  applicationCategory: 'SocialNetworkingApplication',
+  operatingSystem: 'Web',
+  url: `${siteUrl}${langPrefix}/pricing`,
+  offers: [
+    {
+      '@type': 'Offer',
+      name: freeT.name || 'Free',
+      price: '0',
+      priceCurrency: 'USD',
+      description: freeT.description || 'For casual users and quick lookups.',
+    },
+    {
+      '@type': 'Offer',
+      name: proT.name || 'Pro',
+      price: '29',
+      priceCurrency: 'USD',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: '29',
+        priceCurrency: 'USD',
+        billingDuration: 'P1M',
+      },
+      description: proT.description || 'For power users and professionals.',
+    },
+  ],
+});
 ---
 
 <MainLayout
@@ -121,6 +155,8 @@ const pricingFaqs = pT.faqs || [
   </section>
 
   <FAQSection faqs={pricingFaqs} />
+
+  <script type="application/ld+json" set:html={softwareAppSchema} />
 
   <script>
     document.getElementById('pro-checkout-btn')?.addEventListener('click', () => {
