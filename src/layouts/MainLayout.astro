@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
 import HreflangTags from '../components/HreflangTags.astro';
 import { isRTL, type Language } from '../i18n/utils';
+import Analytics from '../components/Analytics.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -78,8 +79,10 @@ const needsArabicFont = lang === 'ar';
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#667eea" />
 
+    <!-- Google Analytics -->
+    <Analytics lang={lang} />
+
     <!-- DNS prefetch for third-party origins -->
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
 
     <!-- Self-hosted Latin fonts (Inter + Space Grotesk) -->

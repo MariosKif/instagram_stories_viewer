@@ -1,6 +1,7 @@
 ---
 import { getTranslation, type Language } from '../i18n/utils';
 import LanguageSwitcher from './LanguageSwitcher.astro';
+import Analytics from './Analytics.astro';
 
 interface Props {
   lang?: string;
@@ -32,16 +33,8 @@ const canonicalUrl = canonical || `${baseUrl}${lang === 'en' ? cleanPath : `/${l
 
 <html lang={lang}>
 	<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WVG6TLBCZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <Analytics lang={lang} />
 
-      gtag('config', 'G-1WVG6TLBCZ');
-    </script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{pageTitle}</title>
