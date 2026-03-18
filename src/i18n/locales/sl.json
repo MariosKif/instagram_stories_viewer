@@ -414,7 +414,9 @@
     "watchAd": "Oglejte si oglas za +3 ure",
     "upgradePro": "Nadgradite na Pro",
     "followers": "sledilcev",
-    "following": "sledenih"
+    "following": "sledenih",
+    "popularTitle": "Analiziraj @{username} Instagram — Analitično poročilo {displayName}",
+    "popularDescription": "Analizirajte Instagram {displayName} — trendi sledilcev, meritve angažiranosti, pogostost objav in analitika uspešnosti vsebine."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Pregledovalnik javnega profila",
       "score-change-tracker": "Sledilnik sprememb rezultata",
       "online-status-tracker": "Sledilnik stanja na spletu"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Priljubljeni Instagram profili",
+    "categories": {
+      "Platform": "Platforma",
+      "Sports": "Šport",
+      "Music": "Glasba",
+      "Celebrity": "Zvezdnik",
+      "Entertainment": "Zabava",
+      "Fashion": "Moda",
+      "Media": "Mediji",
+      "Brand": "Blagovna znamka",
+      "Science": "Znanost"
     }
   }
 }

@@ -414,7 +414,9 @@
     "watchAd": "광고 시청으로 +3시간",
     "upgradePro": "Pro로 업그레이드",
     "followers": "팔로워",
-    "following": "팔로잉"
+    "following": "팔로잉",
+    "popularTitle": "@{username} Instagram 분석 — {displayName} 분석 보고서",
+    "popularDescription": "{displayName}의 Instagram 분석 — 팔로워 트렌드, 참여 지표, 게시 빈도 및 콘텐츠 성과 분석."
   },
   "blog": {
     "title": "블로그",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "공개 프로필 뷰어",
       "score-change-tracker": "점수 변동 추적기",
       "online-status-tracker": "온라인 상태 추적기"
+    }
+  },
+  "popularAccounts": {
+    "heading": "인기 Instagram 프로필",
+    "categories": {
+      "Platform": "플랫폼",
+      "Sports": "스포츠",
+      "Music": "음악",
+      "Celebrity": "셀럽",
+      "Entertainment": "엔터테인먼트",
+      "Fashion": "패션",
+      "Media": "미디어",
+      "Brand": "브랜드",
+      "Science": "과학"
     }
   }
 }

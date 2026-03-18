@@ -414,7 +414,9 @@
     "watchAd": "Se annons for +3 timmar",
     "upgradePro": "Uppgradera till Pro",
     "followers": "foljare",
-    "following": "foljer"
+    "following": "foljer",
+    "popularTitle": "Analysera @{username} Instagram — {displayName} analysrapport",
+    "popularDescription": "Analysera {displayName}s Instagram — följartrender, engagemangsmått, inläggsfrekvens och innehållsprestandaanalyser."
   },
   "blog": {
     "title": "Blogg",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Offentlig profilvisare",
       "score-change-tracker": "Sparare for poangandringar",
       "online-status-tracker": "Onlinestatussparare"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Populära Instagram-profiler",
+    "categories": {
+      "Platform": "Plattform",
+      "Sports": "Sport",
+      "Music": "Musik",
+      "Celebrity": "Kändis",
+      "Entertainment": "Underhållning",
+      "Fashion": "Mode",
+      "Media": "Media",
+      "Brand": "Varumärke",
+      "Science": "Vetenskap"
     }
   }
 }

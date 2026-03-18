@@ -1,4 +1,7 @@
 import { makeScraperRequest } from '../../../lib/instagramScraper.js';
+import { getSearchCache, setSearchCache, getCachedApiData, setCachedApiData, POPULAR_CACHE_TTL } from '../../../lib/apiCache.ts';
+import { generateRealReport } from '../../../lib/firestore.ts';
+import { isPopularAccount } from '../../../data/popularAccounts.ts';
 
 function parseFollowerCount(text) {
     if (!text || typeof text !== 'string') return null;
@@ -50,7 +53,7 @@ async function getPosts(username, maxId = '') {
 async function getProfile(username) {
     try {
         console.log(`Fetching profile for: ${username}`);
-        
+
         const data = await makeScraperRequest('search', {
             search_query: username
         });
@@ -126,85 +129,144 @@ async function getHighlights(username) {
     }
 }
 
-// Cache system with 20-minute TTL (in-memory for serverless)
-const cache = new Map();
-const CACHE_TTL = 20 * 60 * 1000; // 20 minutes
-
 export async function GET({ params }) {
     try {
         const { username } = params;
         const cleanUsername = username.replace(/^@/, '').replace(/\/$/, '');
-        
-        // Check cache first
-        const cacheKey = `full:${cleanUsername}`;
-        const cached = cache.get(cacheKey);
-        if (cached && (Date.now() - cached.timestamp < CACHE_TTL)) {
-            console.log(`✓ Serving cached data for: ${cleanUsername}`);
-            return new Response(JSON.stringify(cached.data), {
+
+        // 1. Check searchCache first (full combined result, 6h TTL)
+        const searchCached = await getSearchCache(cleanUsername);
+        if (searchCached) {
+            console.log(`✓ Serving searchCache hit for: ${cleanUsername}`);
+            const result = {
+                success: true,
+                data: {
+                    username: cleanUsername,
+                    profile: searchCached.profile,
+                    posts: searchCached.posts,
+                    stories: searchCached.stories,
+                    highlights: searchCached.highlights,
+                },
+                report: searchCached.report,
+            };
+            return new Response(JSON.stringify(result), {
                 headers: { 'Content-Type': 'application/json' }
             });
         }
 
-        console.log(`Starting complete data fetch for: ${cleanUsername}`);
-
-        // Fetch all data in parallel
-        const [profileData, postsData, storiesData, highlightsData] = await Promise.allSettled([
-            getProfile(cleanUsername),
-            getPosts(cleanUsername),
-            getStories(cleanUsername),
-            getHighlights(cleanUsername)
+        // 2. Check per-data-type apiCache in parallel
+        const [cachedProfile, cachedPosts, cachedStories, cachedHighlights] = await Promise.all([
+            getCachedApiData(cleanUsername, 'profile'),
+            getCachedApiData(cleanUsername, 'posts'),
+            getCachedApiData(cleanUsername, 'stories'),
+            getCachedApiData(cleanUsername, 'highlights'),
         ]);
 
+        console.log(`apiCache hits for ${cleanUsername}: profile=${!!cachedProfile} posts=${!!cachedPosts} stories=${!!cachedStories} highlights=${!!cachedHighlights}`);
+
+        // 3. Only call RapidAPI for cache misses
+        const fetchPromises = [];
+        const fetchKeys = [];
+
+        if (!cachedProfile) { fetchPromises.push(getProfile(cleanUsername)); fetchKeys.push('profile'); }
+        if (!cachedPosts) { fetchPromises.push(getPosts(cleanUsername)); fetchKeys.push('posts'); }
+        if (!cachedStories) { fetchPromises.push(getStories(cleanUsername)); fetchKeys.push('stories'); }
+        if (!cachedHighlights) { fetchPromises.push(getHighlights(cleanUsername)); fetchKeys.push('highlights'); }
+
+        const fetchResults = await Promise.allSettled(fetchPromises);
+
+        // Map fetch results back by key
+        const freshData = {};
+        fetchKeys.forEach((key, i) => {
+            freshData[key] = fetchResults[i];
+        });
+
+        // Merge cached + fresh
+        const profileResult = cachedProfile
+            ? { status: 'fulfilled', value: cachedProfile }
+            : (freshData.profile || { status: 'rejected', reason: new Error('Not fetched') });
+        const postsResult = cachedPosts
+            ? { status: 'fulfilled', value: cachedPosts }
+            : (freshData.posts || { status: 'rejected', reason: new Error('Not fetched') });
+        const storiesResult = cachedStories
+            ? { status: 'fulfilled', value: cachedStories }
+            : (freshData.stories || { status: 'rejected', reason: new Error('Not fetched') });
+        const highlightsResult = cachedHighlights
+            ? { status: 'fulfilled', value: cachedHighlights }
+            : (freshData.highlights || { status: 'rejected', reason: new Error('Not fetched') });
+
         // Combine results
-        const profileSuccess = profileData.status === 'fulfilled' && profileData.value;
-        const postsSuccess = postsData.status === 'fulfilled' && postsData.value;
-        const storiesSuccess = storiesData.status === 'fulfilled' && storiesData.value && !storiesData.value.error && !storiesData.value.message;
-        const highlightsSuccess = highlightsData.status === 'fulfilled' && highlightsData.value;
+        const profileSuccess = profileResult.status === 'fulfilled' && profileResult.value;
+        const postsSuccess = postsResult.status === 'fulfilled' && postsResult.value;
+        const storiesSuccess = storiesResult.status === 'fulfilled' && storiesResult.value && !storiesResult.value.error && !storiesResult.value.message;
+        const highlightsSuccess = highlightsResult.status === 'fulfilled' && highlightsResult.value;
 
         const allSucceeded = profileSuccess && postsSuccess;
+
+        const profileVal = profileSuccess ? profileResult.value : null;
+        const postsVal = postsSuccess ? postsResult.value : null;
+        const storiesVal = storiesSuccess ? storiesResult.value : null;
+        const highlightsVal = highlightsSuccess ? highlightsResult.value : null;
 
         const result = {
             success: allSucceeded,
             error: undefined,
             data: {
                 username: cleanUsername,
-                profile: profileSuccess ? profileData.value : null,
-                posts: postsSuccess ? postsData.value : null,
-                stories: storiesSuccess ? storiesData.value : null,
-                highlights: highlightsSuccess ? highlightsData.value : null
+                profile: profileVal,
+                posts: postsVal,
+                stories: storiesVal,
+                highlights: highlightsVal,
             }
         };
 
         if (!profileSuccess) {
-            result.error = profileData.status === 'rejected'
-                ? profileData.reason?.message || 'Failed to fetch profile information'
+            result.error = profileResult.status === 'rejected'
+                ? profileResult.reason?.message || 'Failed to fetch profile information'
                 : 'Failed to fetch profile information';
         } else if (!postsSuccess) {
-            result.error = postsData.status === 'rejected'
-                ? postsData.reason?.message || 'Failed to fetch posts'
+            result.error = postsResult.status === 'rejected'
+                ? postsResult.reason?.message || 'Failed to fetch posts'
                 : 'Failed to fetch posts';
         }
 
         // Log any failed requests
-        if (profileData.status === 'rejected') {
-            console.error('Profile fetch failed:', profileData.reason);
+        if (profileResult.status === 'rejected') {
+            console.error('Profile fetch failed:', profileResult.reason);
         }
-        if (postsData.status === 'rejected') {
-            console.error('Posts fetch failed:', postsData.reason);
+        if (postsResult.status === 'rejected') {
+            console.error('Posts fetch failed:', postsResult.reason);
         }
-        if (storiesData.status === 'rejected') {
-            console.error('Stories fetch failed:', storiesData.reason);
+        if (storiesResult.status === 'rejected') {
+            console.error('Stories fetch failed:', storiesResult.reason);
         }
-        if (highlightsData.status === 'rejected') {
-            console.error('Highlights fetch failed:', highlightsData.reason);
+        if (highlightsResult.status === 'rejected') {
+            console.error('Highlights fetch failed:', highlightsResult.reason);
         }
 
-        // Cache the result only if profile & posts succeeded
+        // 4. Write fresh results to Firestore caches (fire-and-forget)
         if (allSucceeded) {
-            cache.set(cacheKey, { data: result, timestamp: Date.now() });
+            // Write per-data-type caches for any fresh fetches
+            if (!cachedProfile && profileVal) setCachedApiData(cleanUsername, 'profile', profileVal);
+            if (!cachedPosts && postsVal) setCachedApiData(cleanUsername, 'posts', postsVal);
+            if (!cachedStories && storiesVal) setCachedApiData(cleanUsername, 'stories', storiesVal);
+            if (!cachedHighlights && highlightsVal) setCachedApiData(cleanUsername, 'highlights', highlightsVal);
+
+            // Compute real report and write to searchCache
+            const report = generateRealReport(profileVal, postsVal);
+            result.report = report;
+            const cacheTtl = isPopularAccount(cleanUsername) ? POPULAR_CACHE_TTL : undefined;
+            setSearchCache(cleanUsername, {
+                profile: profileVal,
+                posts: postsVal,
+                stories: storiesVal,
+                highlights: highlightsVal,
+                report,
+            }, cacheTtl);
+
             console.log(`✓ Cached data for: ${cleanUsername}`);
         }
-        
+
         if (!allSucceeded) {
             return new Response(JSON.stringify(result), {
                 status: 502,
@@ -226,4 +288,3 @@ export async function GET({ params }) {
         });
     }
 }
-

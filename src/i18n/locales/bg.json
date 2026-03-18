@@ -414,7 +414,9 @@
     "watchAd": "Гледайте реклама за +3 часа",
     "upgradePro": "Надградете до Pro",
     "followers": "последователи",
-    "following": "следвани"
+    "following": "следвани",
+    "popularTitle": "Анализирай @{username} Instagram — Аналитичен доклад за {displayName}",
+    "popularDescription": "Анализирайте Instagram на {displayName} — тенденции на последователите, показатели за ангажираност, честота на публикуване и анализ на ефективността на съдържанието."
   },
   "blog": {
     "title": "Блог",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Преглед на публичен профил",
       "score-change-tracker": "Проследяване на промяна в резултата",
       "online-status-tracker": "Проследяване на онлайн статус"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Популярни Instagram профили",
+    "categories": {
+      "Platform": "Платформа",
+      "Sports": "Спорт",
+      "Music": "Музика",
+      "Celebrity": "Знаменитост",
+      "Entertainment": "Развлечение",
+      "Fashion": "Мода",
+      "Media": "Медии",
+      "Brand": "Марка",
+      "Science": "Наука"
     }
   }
 }

@@ -414,7 +414,9 @@
     "watchAd": "Katso mainos +3 tuntia",
     "upgradePro": "Päivitä Pro-versioon",
     "followers": "seuraajaa",
-    "following": "seurataan"
+    "following": "seurataan",
+    "popularTitle": "Analysoi @{username} Instagram — {displayName} analyysiraportti",
+    "popularDescription": "Analysoi {displayName}:n Instagram — seuraajatrendit, sitoutumismittarit, julkaisutiheys ja sisällön suorituskykyanalyysit."
   },
   "blog": {
     "title": "Blogi",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Julkisen profiilin katselin",
       "score-change-tracker": "Pistemuutosten seuranta",
       "online-status-tracker": "Verkkotilan seuranta"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Suositut Instagram-profiilit",
+    "categories": {
+      "Platform": "Alusta",
+      "Sports": "Urheilu",
+      "Music": "Musiikki",
+      "Celebrity": "Julkkis",
+      "Entertainment": "Viihde",
+      "Fashion": "Muoti",
+      "Media": "Media",
+      "Brand": "Brändi",
+      "Science": "Tiede"
     }
   }
 }

@@ -414,7 +414,9 @@
     "watchAd": "观看广告 +3小时",
     "upgradePro": "升级到Pro",
     "followers": "粉丝",
-    "following": "关注"
+    "following": "关注",
+    "popularTitle": "分析 @{username} Instagram — {displayName} 分析报告",
+    "popularDescription": "分析 {displayName} 的 Instagram — 粉丝趋势、互动指标、发布频率和内容表现分析。"
   },
   "blog": {
     "title": "博客",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "公开资料查看器",
       "score-change-tracker": "积分变动追踪器",
       "online-status-tracker": "在线状态追踪器"
+    }
+  },
+  "popularAccounts": {
+    "heading": "热门Instagram个人资料",
+    "categories": {
+      "Platform": "平台",
+      "Sports": "体育",
+      "Music": "音乐",
+      "Celebrity": "名人",
+      "Entertainment": "娱乐",
+      "Fashion": "时尚",
+      "Media": "媒体",
+      "Brand": "品牌",
+      "Science": "科学"
     }
   }
 }

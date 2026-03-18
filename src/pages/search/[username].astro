@@ -7,6 +7,7 @@
  */
 import MainLayout from '../../layouts/MainLayout.astro';
 import { getLocalizedPath, type Language } from '../../i18n/utils';
+import { getPopularAccount, isPopularAccount } from '../../data/popularAccounts';
 
 const { username } = Astro.params;
 if (!username) return Astro.redirect('/');
@@ -15,12 +16,24 @@ const lang = (Astro.locals as any).lang || 'en';
 const t = (Astro.locals as any).t || {};
 
 const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
+
+const popular = getPopularAccount(username);
+const pageTitle = popular
+  ? (t.searchReport?.popularTitle || 'Analyze @{username} Instagram — {displayName} Analytics Report')
+      .replace('{username}', username)
+      .replace('{displayName}', popular.displayName)
+  : `${t.searchReport?.analyzingProfile || 'Analyze'} @${username} — Instagram Report`;
+const pageDescription = popular
+  ? (t.searchReport?.popularDescription
+      ? t.searchReport.popularDescription.replace('{displayName}', popular.displayName)
+      : popular.description)
+  : `${t.searchReport?.generatingReport || 'Analyze Instagram activity for'} ${username}. ${t.searchReport?.engagementRate || 'View engagement rates'}, ${t.searchReport?.followerGrowth || 'follower trends'}, ${t.searchReport?.recentActivity || 'recent activity'}.`;
 ---
 
 <MainLayout
-  title={`${t.searchReport?.analyzingProfile || 'Analyze'} @${username} — Instagram Report`}
-  description={`${t.searchReport?.generatingReport || 'Analyze Instagram activity for'} ${username}. ${t.searchReport?.engagementRate || 'View engagement rates'}, ${t.searchReport?.followerGrowth || 'follower trends'}, ${t.searchReport?.recentActivity || 'recent activity'}.`}
-  noIndex
+  title={pageTitle}
+  description={pageDescription}
+  noIndex={!popular}
 >
   <section class="pt-24 pb-16 lg:pt-32 lg:pb-24">
     <div class="section-container max-w-6xl">
@@ -86,7 +99,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
         <div class="grid lg:grid-cols-2 gap-6 mb-6">
           <!-- Follower growth chart -->
           <div class="glass p-6">
-            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.followerGrowth || "Follower Growth (30 days)"}</h3>
+            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.postingFrequency || "Posting Frequency (30 days)"}</h3>
             <canvas id="follower-chart" height="200"></canvas>
           </div>
 
@@ -106,7 +119,6 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
                 <tr class="border-b border-white/5 text-dark-500">
                   <th class="text-left py-2 font-medium">{t.searchReport?.date || "Date"}</th>
                   <th class="text-center py-2 font-medium">{t.searchReport?.posts || "Posts"}</th>
-                  <th class="text-center py-2 font-medium">{t.searchReport?.stories || "Stories"}</th>
                   <th class="text-center py-2 font-medium">{t.searchReport?.likes || "Likes"}</th>
                 </tr>
               </thead>
@@ -119,7 +131,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
         <div class="grid lg:grid-cols-2 gap-6">
           <!-- Top interactions -->
           <div class="glass p-6">
-            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.topInteractions || "Top Interactions"}</h3>
+            <h3 class="text-sm font-semibold text-white mb-4">{t.searchReport?.topPosts || "Top Posts"}</h3>
             <div id="interactions-list" class="space-y-3"></div>
           </div>
 
@@ -190,7 +202,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
 
   <script>
     import { Chart, registerables } from 'chart.js';
-    import { getUserProfile, canSearch, saveSearch, generateMockReport, getTimeUntilResetFirestore, hasUsedAdRewardFirestore, applyAdRewardFirestore } from '../../lib/firestore';
+    import { getUserProfile, canSearch, saveSearch, generateMockReport, generateRealReport, getTimeUntilResetFirestore, hasUsedAdRewardFirestore, applyAdRewardFirestore } from '../../lib/firestore';
     import { canSearchAnonymous, recordAnonymousSearch, getTimeUntilReset, hasUsedAdReward, applyAdReward, formatCountdown, getDeviceId } from '../../lib/searchLimits';
 
     Chart.register(...registerables);
@@ -213,8 +225,20 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
     // Ensure device ID exists
     getDeviceId();
 
+    async function fetchAndGenerateReport(username: string): Promise<Record<string, any>> {
+      const response = await fetch(`/api/full/${encodeURIComponent(username)}`);
+      const result = await response.json();
+      // If the API already computed a report (from searchCache), use it
+      if (result.report) return result.report;
+      // Otherwise compute from raw data
+      if (result.success && result.data?.profile && result.data?.posts) {
+        return generateRealReport(result.data.profile, result.data.posts);
+      }
+      throw new Error(result.error || 'Failed to fetch profile data');
+    }
+
     if (isSampleReport) {
-      // Sample report — no limits
+      // Sample report — no limits, use mock data
       const data = generateMockReport('instagram');
       populateReport(data);
     } else if (uid) {
@@ -234,7 +258,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
 
         // Pro users — unlimited
         if (plan === 'pro') {
-          const data = generateMockReport(username);
+          const data = await fetchAndGenerateReport(username);
           try { await saveSearch(uid, username, data); } catch {}
           populateReport(data);
           return;
@@ -249,20 +273,21 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
           return;
         }
 
-        // Allowed — generate and save
-        const data = generateMockReport(username);
+        // Allowed — fetch real data and save
+        const data = await fetchAndGenerateReport(username);
         try { await saveSearch(uid, username, data); } catch {}
         populateReport(data);
-      } catch {
-        // Firestore unavailable — fall through to generate anyway
-        const data = generateMockReport(username);
-        populateReport(data);
+      } catch (err) {
+        console.error('Report generation error:', err);
+        // Show error state
+        document.getElementById('loading-state')!.innerHTML =
+          '<p class="text-red-400">Failed to generate report. Please try again later.</p>';
       }
     }
 
     /* ── Anonymous user flow ──────────────────────────── */
 
-    function loadAnonymousReport(username: string) {
+    async function loadAnonymousReport(username: string) {
       const { allowed } = canSearchAnonymous();
       if (!allowed) {
         const ms = getTimeUntilReset();
@@ -271,10 +296,16 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
         return;
       }
 
-      // Record search and show report (no Firestore save)
+      // Record search and fetch real data
       recordAnonymousSearch();
-      const data = generateMockReport(username);
-      populateReport(data);
+      try {
+        const data = await fetchAndGenerateReport(username);
+        populateReport(data);
+      } catch (err) {
+        console.error('Report generation error:', err);
+        document.getElementById('loading-state')!.innerHTML =
+          '<p class="text-red-400">Failed to generate report. Please try again later.</p>';
+      }
     }
 
     /* ── Limit reached UI ─────────────────────────────── */
@@ -401,15 +432,16 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
       document.getElementById('avg-likes')!.textContent = formatNumber(data.avgLikes);
       document.getElementById('avg-comments')!.textContent = formatNumber(data.avgComments);
 
-      // Follower chart
+      // Posting frequency chart (replaces follower growth)
+      const freqData = data.postingFrequency || data.followerGrowth || [];
       const fCtx = (document.getElementById('follower-chart') as HTMLCanvasElement).getContext('2d')!;
       new Chart(fCtx, {
         type: 'line',
         data: {
-          labels: data.followerGrowth.map((d: any) => d.date.slice(5)),
+          labels: freqData.map((d: any) => d.date.slice(5)),
           datasets: [{
-            label: t.searchReport?.followers || 'Followers',
-            data: data.followerGrowth.map((d: any) => d.count),
+            label: t.searchReport?.postingFrequency || 'Posts',
+            data: freqData.map((d: any) => d.count),
             borderColor: '#0ea5e9',
             backgroundColor: 'rgba(14, 165, 233, 0.1)',
             fill: true,
@@ -422,7 +454,7 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
           plugins: { legend: { display: false } },
           scales: {
             x: { ticks: { color: '#64748b', maxTicksLimit: 7 }, grid: { color: 'rgba(255,255,255,0.03)' } },
-            y: { ticks: { color: '#64748b' }, grid: { color: 'rgba(255,255,255,0.03)' } },
+            y: { ticks: { color: '#64748b', stepSize: 1 }, grid: { color: 'rgba(255,255,255,0.03)' } },
           },
         },
       });
@@ -457,26 +489,44 @@ const displayName = username.replace(/[._]/g, ' ').replace(/\b\w/g, (c: string) 
         <tr class="border-b border-white/5">
           <td class="py-2.5 text-dark-300">${a.date}</td>
           <td class="py-2.5 text-center text-dark-300">${a.posts}</td>
-          <td class="py-2.5 text-center text-dark-300">${a.stories}</td>
           <td class="py-2.5 text-center text-dark-300">${a.likes}</td>
         </tr>`).join('');
 
-      // Top interactions
+      // Top posts (replaces top interactions)
       const interList = document.getElementById('interactions-list')!;
-      interList.innerHTML = data.topInteractions.map((i: any, idx: number) => `
-        <div class="flex items-center justify-between">
+      const topPosts = data.topPosts || data.topInteractions || [];
+      if (topPosts.length > 0 && topPosts[0].likes !== undefined) {
+        // Real data — show thumbnails + engagement
+        interList.innerHTML = topPosts.map((p: any, idx: number) => `
           <div class="flex items-center gap-3">
-            <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">${idx + 1}</span>
-            <span class="text-sm text-dark-300">@${i.username}</span>
-          </div>
-          <span class="text-xs text-dark-500">${i.interactions} ${t.searchReport?.interactions || 'interactions'}</span>
-        </div>`).join('');
+            <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary flex-shrink-0">${idx + 1}</span>
+            ${p.thumbnail ? `<img src="/api/image-proxy?url=${encodeURIComponent(p.thumbnail)}" alt="" class="w-10 h-10 rounded object-cover flex-shrink-0" />` : ''}
+            <div class="flex-1 min-w-0">
+              <p class="text-xs text-dark-400 truncate">${p.caption || 'Post'}</p>
+              <p class="text-xs text-dark-500">${formatNumber(p.likes)} likes &middot; ${formatNumber(p.comments)} comments</p>
+            </div>
+          </div>`).join('');
+      } else {
+        // Mock data fallback
+        interList.innerHTML = topPosts.map((i: any, idx: number) => `
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary">${idx + 1}</span>
+              <span class="text-sm text-dark-300">@${i.username}</span>
+            </div>
+            <span class="text-xs text-dark-500">${i.interactions} ${t.searchReport?.interactions || 'interactions'}</span>
+          </div>`).join('');
+      }
 
       // Hashtags
       const hashList = document.getElementById('hashtags-list')!;
-      hashList.innerHTML = data.topHashtags.map((h: string) =>
-        `<span class="badge">${h}</span>`
-      ).join('');
+      if (data.topHashtags && data.topHashtags.length > 0) {
+        hashList.innerHTML = data.topHashtags.map((h: string) =>
+          `<span class="badge">${h}</span>`
+        ).join('');
+      } else {
+        hashList.innerHTML = '<p class="text-dark-500 text-sm">No hashtags found</p>';
+      }
     }
   </script>
 </MainLayout>

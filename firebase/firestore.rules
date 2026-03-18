@@ -16,5 +16,17 @@ service cloud.firestore {
       allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
       // No update/delete — search records are immutable
     }
+
+    // API cache — stores public Instagram data, not user-sensitive info
+    match /apiCache/{docId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Search result cache — full combined results with pre-computed reports
+    match /searchCache/{docId} {
+      allow read: if true;
+      allow write: if true;
+    }
   }
 }

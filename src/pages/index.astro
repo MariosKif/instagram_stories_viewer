@@ -5,6 +5,7 @@
  */
 import MainLayout from '../layouts/MainLayout.astro';
 import Hero from '../components/Hero.astro';
+import PopularAccounts from '../components/PopularAccounts.astro';
 import TrustSection from '../components/TrustSection.astro';
 import UseCases from '../components/UseCases.astro';
 import BenefitsGrid from '../components/BenefitsGrid.astro';
@@ -48,6 +49,7 @@ const homeFaqs = t.homeFaqs || [
   description={t.meta?.description || "Analyze public Instagram profiles, track engagement trends, and explore content across platforms. AI-powered insights for marketers and researchers."}
 >
   <Hero />
+  <PopularAccounts />
   <TrustSection />
   <BenefitsGrid />
   <UseCases />

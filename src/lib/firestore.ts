@@ -183,6 +183,127 @@ export async function getUserSearches(
   return snap.docs.map((d) => ({ id: d.id, ...(d.data() as SearchRecord) }));
 }
 
+/** Generate a real analytics report from API response data */
+export function generateRealReport(
+  profile: Record<string, any>,
+  postsData: Record<string, any>,
+): Record<string, unknown> {
+  const username = profile?.username || '';
+  const followers = profile?.followers_count ?? 0;
+  const following = profile?.following_count ?? 0;
+
+  // Normalize posts array
+  let posts: any[] = [];
+  if (Array.isArray(postsData)) posts = postsData;
+  else if (Array.isArray(postsData?.items)) posts = postsData.items;
+  else if (Array.isArray(postsData?.posts)) posts = postsData.posts;
+  else if (Array.isArray(postsData?.edges)) posts = postsData.edges;
+  else if (postsData?.data) return generateRealReport(profile, postsData.data);
+  posts = posts.map((p) => p?.node || p).filter(Boolean);
+
+  // Avg likes & comments
+  const totalLikes = posts.reduce((sum, p) => sum + (p.like_count || 0), 0);
+  const totalComments = posts.reduce((sum, p) => sum + (p.comment_count || 0), 0);
+  const avgLikes = posts.length > 0 ? Math.round(totalLikes / posts.length) : 0;
+  const avgComments = posts.length > 0 ? Math.round(totalComments / posts.length) : 0;
+
+  // Engagement rate
+  const engagementRate = followers > 0
+    ? ((avgLikes + avgComments) / followers * 100).toFixed(2)
+    : '0.00';
+
+  // Content breakdown
+  let photos = 0, videos = 0, reels = 0, carousels = 0;
+  for (const p of posts) {
+    if (p.product_type === 'clips') { reels++; continue; }
+    switch (p.media_type) {
+      case 1: photos++; break;
+      case 2: videos++; break;
+      case 8: carousels++; break;
+      default: photos++; break;
+    }
+  }
+
+  // Top hashtags
+  const hashtagCounts: Record<string, number> = {};
+  for (const p of posts) {
+    const text = p.caption?.text || '';
+    const tags = text.match(/#[\w]+/g) || [];
+    for (const tag of tags) {
+      const lower = tag.toLowerCase();
+      hashtagCounts[lower] = (hashtagCounts[lower] || 0) + 1;
+    }
+  }
+  const topHashtags = Object.entries(hashtagCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([tag]) => tag);
+
+  // Recent activity (last 7 days)
+  const now = Math.floor(Date.now() / 1000);
+  const recentActivity = Array.from({ length: 7 }, (_, i) => {
+    const dayStart = now - (i + 1) * 86400;
+    const dayEnd = now - i * 86400;
+    const dayPosts = posts.filter((p) => {
+      const ts = p.taken_at || 0;
+      return ts >= dayStart && ts < dayEnd;
+    });
+    return {
+      date: new Date((dayEnd) * 1000).toISOString().slice(0, 10),
+      posts: dayPosts.length,
+      likes: dayPosts.reduce((s, p) => s + (p.like_count || 0), 0),
+    };
+  });
+
+  // Posting frequency (last 30 days) — replaces follower growth
+  const postingFrequency = Array.from({ length: 30 }, (_, i) => {
+    const dayStart = now - (29 - i + 1) * 86400;
+    const dayEnd = now - (29 - i) * 86400;
+    const count = posts.filter((p) => {
+      const ts = p.taken_at || 0;
+      return ts >= dayStart && ts < dayEnd;
+    }).length;
+    return {
+      date: new Date(dayEnd * 1000).toISOString().slice(0, 10),
+      count,
+    };
+  });
+
+  // Top posts (by engagement) — replaces top interactions
+  const topPosts = [...posts]
+    .sort((a, b) => ((b.like_count || 0) + (b.comment_count || 0)) - ((a.like_count || 0) + (a.comment_count || 0)))
+    .slice(0, 5)
+    .map((p) => {
+      const imageVersions = p.image_versions2?.candidates || [];
+      return {
+        code: p.code || '',
+        thumbnail: imageVersions.length > 0 ? imageVersions[0].url : '',
+        likes: p.like_count || 0,
+        comments: p.comment_count || 0,
+        caption: (p.caption?.text || '').slice(0, 100),
+      };
+    });
+
+  return {
+    username,
+    profilePic: profile?.profile_pic_url || `https://ui-avatars.com/api/?name=${username}&background=0ea5e9&color=fff&size=200`,
+    fullName: profile?.full_name || username,
+    bio: profile?.biography || '',
+    isVerified: profile?.is_verified || false,
+    followers,
+    following,
+    posts: posts.length,
+    engagementRate,
+    avgLikes,
+    avgComments,
+    recentActivity,
+    topHashtags,
+    postingFrequency,
+    topPosts,
+    contentBreakdown: { photos, videos, reels, carousels },
+  };
+}
+
 /** Generate a mock report for a username (placeholder for real data pipeline) */
 export function generateMockReport(username: string): Record<string, unknown> {
   const rand = (min: number, max: number) => Math.floor(Math.random() * (max - min + 1)) + min;

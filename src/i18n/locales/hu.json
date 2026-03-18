@@ -414,7 +414,9 @@
     "watchAd": "Nézzen hirdetést +3 óráért",
     "upgradePro": "Frissítés Pro-ra",
     "followers": "követő",
-    "following": "követett"
+    "following": "követett",
+    "popularTitle": "@{username} Instagram elemzése — {displayName} elemzési jelentés",
+    "popularDescription": "Elemezze {displayName} Instagramját — követői trendek, elköteleződési mutatók, posztolási gyakoriság és tartalomteljesítmény-elemzések."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Nyilvános profil megjelenítő",
       "score-change-tracker": "Pontszám változás követő",
       "online-status-tracker": "Online állapot követő"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Népszerű Instagram profilok",
+    "categories": {
+      "Platform": "Platform",
+      "Sports": "Sport",
+      "Music": "Zene",
+      "Celebrity": "Híresség",
+      "Entertainment": "Szórakozás",
+      "Fashion": "Divat",
+      "Media": "Média",
+      "Brand": "Márka",
+      "Science": "Tudomány"
     }
   }
 }

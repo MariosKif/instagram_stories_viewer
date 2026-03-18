@@ -414,7 +414,9 @@
     "watchAd": "Reklam izle +3 saat",
     "upgradePro": "Pro'ya Yukselt",
     "followers": "takipci",
-    "following": "takip edilen"
+    "following": "takip edilen",
+    "popularTitle": "@{username} Instagram Analizi — {displayName} Analiz Raporu",
+    "popularDescription": "{displayName}'ın Instagram'ını analiz edin — takipçi trendleri, etkileşim metrikleri, paylaşım sıklığı ve içerik performans analizleri."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Herkese Acik Profil Goruntuleyici",
       "score-change-tracker": "Puan Degisim Takipcisi",
       "online-status-tracker": "Cevrimici Durum Takipcisi"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Popüler Instagram Profilleri",
+    "categories": {
+      "Platform": "Platform",
+      "Sports": "Spor",
+      "Music": "Müzik",
+      "Celebrity": "Ünlü",
+      "Entertainment": "Eğlence",
+      "Fashion": "Moda",
+      "Media": "Medya",
+      "Brand": "Marka",
+      "Science": "Bilim"
     }
   }
 }

@@ -414,7 +414,9 @@
     "watchAd": "Skatīt reklāmu +3 stundām",
     "upgradePro": "Jaunināt uz Pro",
     "followers": "sekotāji",
-    "following": "seko"
+    "following": "seko",
+    "popularTitle": "Analizēt @{username} Instagram — {displayName} analīzes ziņojums",
+    "popularDescription": "Analizējiet {displayName} Instagram — sekotāju tendences, iesaistes rādītāji, publicēšanas biežums un satura veiktspējas analīze."
   },
   "blog": {
     "title": "Blogs",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Publiskā profila skatītājs",
       "score-change-tracker": "Rezultātu izmaiņu izsekotājs",
       "online-status-tracker": "Tiešsaistes statusa izsekotājs"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Populāri Instagram profili",
+    "categories": {
+      "Platform": "Platforma",
+      "Sports": "Sports",
+      "Music": "Mūzika",
+      "Celebrity": "Slavenība",
+      "Entertainment": "Izklaide",
+      "Fashion": "Mode",
+      "Media": "Mediji",
+      "Brand": "Zīmols",
+      "Science": "Zinātne"
     }
   }
 }

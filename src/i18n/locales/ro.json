@@ -414,7 +414,9 @@
     "watchAd": "Vizionează reclamă pentru +3 ore",
     "upgradePro": "Fă upgrade la Pro",
     "followers": "urmăritori",
-    "following": "urmărește"
+    "following": "urmărește",
+    "popularTitle": "Analizează @{username} Instagram — Raport de analiză {displayName}",
+    "popularDescription": "Analizează Instagram-ul lui {displayName} — tendințe de urmăritori, metrici de implicare, frecvență de postare și analize de performanță a conținutului."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Vizualizator de profil public",
       "score-change-tracker": "Monitor de schimbare a scorului",
       "online-status-tracker": "Monitor de stare online"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Profiluri Instagram populare",
+    "categories": {
+      "Platform": "Platformă",
+      "Sports": "Sport",
+      "Music": "Muzică",
+      "Celebrity": "Celebritate",
+      "Entertainment": "Divertisment",
+      "Fashion": "Modă",
+      "Media": "Media",
+      "Brand": "Brand",
+      "Science": "Știință"
     }
   }
 }

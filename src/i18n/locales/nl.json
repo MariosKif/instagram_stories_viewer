@@ -414,7 +414,9 @@
     "watchAd": "Bekijk advertentie voor +3 uur",
     "upgradePro": "Upgrade naar Pro",
     "followers": "volgers",
-    "following": "volgend"
+    "following": "volgend",
+    "popularTitle": "Analyseer @{username} Instagram — {displayName} Analyserapport",
+    "popularDescription": "Analyseer {displayName}'s Instagram — volgertrends, engagementstatistieken, postfrequentie en contentprestatieanalyses."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Openbaar profiel-viewer",
       "score-change-tracker": "Scoreverandering-tracker",
       "online-status-tracker": "Online status-tracker"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Populaire Instagram-profielen",
+    "categories": {
+      "Platform": "Platform",
+      "Sports": "Sport",
+      "Music": "Muziek",
+      "Celebrity": "Beroemdheid",
+      "Entertainment": "Entertainment",
+      "Fashion": "Mode",
+      "Media": "Media",
+      "Brand": "Merk",
+      "Science": "Wetenschap"
     }
   }
 }

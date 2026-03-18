@@ -414,7 +414,9 @@
     "watchAd": "Ver anuncio para +3 horas",
     "upgradePro": "Mejorar a Pro",
     "followers": "seguidores",
-    "following": "siguiendo"
+    "following": "siguiendo",
+    "popularTitle": "Analizar @{username} Instagram — Informe de análisis de {displayName}",
+    "popularDescription": "Analiza el Instagram de {displayName} — tendencias de seguidores, métricas de interacción, frecuencia de publicación y análisis de rendimiento del contenido."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Visor de perfil público",
       "score-change-tracker": "Seguimiento de cambio de puntuación",
       "online-status-tracker": "Seguimiento de estado en línea"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Perfiles populares de Instagram",
+    "categories": {
+      "Platform": "Plataforma",
+      "Sports": "Deportes",
+      "Music": "Música",
+      "Celebrity": "Celebridad",
+      "Entertainment": "Entretenimiento",
+      "Fashion": "Moda",
+      "Media": "Medios",
+      "Brand": "Marca",
+      "Science": "Ciencia"
     }
   }
 }

@@ -414,7 +414,9 @@
     "watchAd": "شاهد إعلاناً +3 ساعات",
     "upgradePro": "ترقية إلى Pro",
     "followers": "متابعين",
-    "following": "يتابع"
+    "following": "يتابع",
+    "popularTitle": "تحليل @{username} Instagram — تقرير تحليل {displayName}",
+    "popularDescription": "حلّل Instagram الخاص بـ {displayName} — اتجاهات المتابعين، مقاييس التفاعل، تكرار النشر وتحليلات أداء المحتوى."
   },
   "blog": {
     "title": "المدونة",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "عارض الملف الشخصي العام",
       "score-change-tracker": "متتبع تغيير النقاط",
       "online-status-tracker": "متتبع حالة الاتصال"
+    }
+  },
+  "popularAccounts": {
+    "heading": "ملفات Instagram الشائعة",
+    "categories": {
+      "Platform": "منصة",
+      "Sports": "رياضة",
+      "Music": "موسيقى",
+      "Celebrity": "مشاهير",
+      "Entertainment": "ترفيه",
+      "Fashion": "أزياء",
+      "Media": "إعلام",
+      "Brand": "علامة تجارية",
+      "Science": "علوم"
     }
   }
 }

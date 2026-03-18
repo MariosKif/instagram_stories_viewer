@@ -414,7 +414,9 @@
     "watchAd": "Féach ar fhógra le haghaidh +3 uair",
     "upgradePro": "Uasghrádaigh go Pro",
     "followers": "leantóirí",
-    "following": "ag leanúint"
+    "following": "ag leanúint",
+    "popularTitle": "Anailís @{username} Instagram — Tuarascáil anailíse {displayName}",
+    "popularDescription": "Déan anailís ar Instagram {displayName} — treochtaí leantóirí, méadracht rannpháirtíochta, minicíocht postála agus anailísí feidhmíochta ábhair."
   },
   "blog": {
     "title": "Blag",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Amharcóir próifíle poiblí",
       "score-change-tracker": "Rianaire athrú scóir",
       "online-status-tracker": "Rianaire stádas ar líne"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Próifílí Instagram coitianta",
+    "categories": {
+      "Platform": "Ardán",
+      "Sports": "Spórt",
+      "Music": "Ceol",
+      "Celebrity": "Duine cáiliúil",
+      "Entertainment": "Siamsaíocht",
+      "Fashion": "Faisean",
+      "Media": "Meáin",
+      "Brand": "Branda",
+      "Science": "Eolaíocht"
     }
   }
 }

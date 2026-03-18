@@ -414,7 +414,9 @@
     "watchAd": "Pozrieť reklamu za +3 hodiny",
     "upgradePro": "Inovovať na Pro",
     "followers": "sledovateľov",
-    "following": "sledovaných"
+    "following": "sledovaných",
+    "popularTitle": "Analyzovať @{username} Instagram — Analytická správa {displayName}",
+    "popularDescription": "Analyzujte Instagram {displayName} — trendy sledovateľov, metriky zapojenia, frekvencia príspevkov a analýzy výkonu obsahu."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Prehliadač verejného profilu",
       "score-change-tracker": "Sledovač zmien skóre",
       "online-status-tracker": "Sledovač online stavu"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Populárne profily na Instagrame",
+    "categories": {
+      "Platform": "Platforma",
+      "Sports": "Šport",
+      "Music": "Hudba",
+      "Celebrity": "Celebrita",
+      "Entertainment": "Zábava",
+      "Fashion": "Móda",
+      "Media": "Médiá",
+      "Brand": "Značka",
+      "Science": "Veda"
     }
   }
 }

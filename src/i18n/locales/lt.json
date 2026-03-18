@@ -414,7 +414,9 @@
     "watchAd": "Žiūrėti reklamą +3 valandoms",
     "upgradePro": "Atnaujinti iki Pro",
     "followers": "sekėjų",
-    "following": "sekamų"
+    "following": "sekamų",
+    "popularTitle": "Analizuoti @{username} Instagram — {displayName} analizės ataskaita",
+    "popularDescription": "Analizuokite {displayName} Instagram — sekėjų tendencijos, įsitraukimo rodikliai, skelbimo dažnis ir turinio efektyvumo analizė."
   },
   "blog": {
     "title": "Tinklaraštis",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Viešo profilio peržiūra",
       "score-change-tracker": "Taškų pokyčių sekimas",
       "online-status-tracker": "Prisijungimo būsenos sekimas"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Populiarūs Instagram profiliai",
+    "categories": {
+      "Platform": "Platforma",
+      "Sports": "Sportas",
+      "Music": "Muzika",
+      "Celebrity": "Įžymybė",
+      "Entertainment": "Pramogos",
+      "Fashion": "Mada",
+      "Media": "Medija",
+      "Brand": "Prekės ženklas",
+      "Science": "Mokslas"
     }
   }
 }

@@ -14,6 +14,8 @@ declare global {
       posts: any[];
       stories: any[];
       highlights: any[];
+      _storiesLoaded: boolean;
+      _highlightsLoaded: boolean;
     };
     currentHighlightTitle?: string | null;
     currentHighlightId?: string | null;
@@ -253,26 +255,26 @@ function handleSearch() {
   searchBtn.dataset.originalLabel = searchBtn.dataset.originalLabel || searchBtn.textContent || '';
   searchBtn.textContent = messages.loading || 'Loading...';
 
-  fetch(`/api/full/${cleanUsername}`)
-    .then(async (response) => {
-      if (!response.ok) {
-        window.trackError?.(`API response error: ${response.status}`, 'handleSearch');
-      }
-      try {
-        return await response.json();
-      } catch (error) {
-        window.trackError?.('Failed to parse JSON response', 'handleSearch');
-        throw error;
-      }
-    })
-    .then((data) => {
+  // Fetch profile + posts in parallel (lazy-load stories/highlights on tab click)
+  Promise.all([
+    fetch(`/api/profile/${cleanUsername}`).then(r => r.json()),
+    fetch(`/api/posts/${cleanUsername}`).then(r => r.json()),
+  ])
+    .then(([profileRes, postsRes]) => {
       restoreSearchButton();
-      if (data?.success) {
+      if (profileRes?.success && postsRes?.success) {
         showMessage(`${messages.foundProfile} @${cleanUsername}`, 'success');
-        showProfileData(data.data);
+        showProfileData({
+          username: cleanUsername,
+          profile: profileRes.data,
+          posts: postsRes.data,
+          stories: null,
+          highlights: null,
+        });
       } else {
-        window.trackError?.(data?.error || 'Profile not found', 'handleSearch');
-        showMessage(data?.error || messages.profileNotFound, 'error', {
+        const err = profileRes?.error || postsRes?.error || 'Profile not found';
+        window.trackError?.(err, 'handleSearch');
+        showMessage(err || messages.profileNotFound, 'error', {
           actionLabel: messages.retry,
           onAction: handleSearch
         });
@@ -390,7 +392,9 @@ function showProfileData(apiData: any) {
     profileImage,
     posts,
     stories,
-    highlights
+    highlights,
+    _storiesLoaded: stories.length > 0,
+    _highlightsLoaded: highlights.length > 0,
   };
 
   window.highlightCache = {};
@@ -425,18 +429,74 @@ function setupTabHandlers() {
 function switchTab(tabName: string | null, profileData: any) {
   switch (tabName) {
     case 'stories':
-      loadStories(profileData.stories || []);
+      if (!profileData._storiesLoaded) {
+        showTabLoading();
+        const username = profileData.username || window.currentProfileData?.username || '';
+        fetch(`/api/stories/${username}`)
+          .then(r => r.json())
+          .then(res => {
+            if (res?.success && res.data) {
+              const stories = normalizeMedia(res.data, { fallbackKey: 'stories' });
+              if (window.currentProfileData) {
+                window.currentProfileData.stories = stories;
+                window.currentProfileData._storiesLoaded = true;
+              }
+              loadStories(stories);
+            } else {
+              loadStories([]);
+            }
+          })
+          .catch(() => {
+            showTabError('Failed to load stories.');
+          });
+      } else {
+        loadStories(profileData.stories || []);
+      }
       break;
     case 'posts':
       loadPosts(profileData.posts || []);
       break;
     case 'highlights':
       window.trackHighlightView?.(window.currentProfileData?.username || 'unknown');
-      loadHighlights(profileData.highlights || []);
+      if (!profileData._highlightsLoaded) {
+        showTabLoading();
+        const username = profileData.username || window.currentProfileData?.username || '';
+        fetch(`/api/highlights-list/${username}`)
+          .then(r => r.json())
+          .then(res => {
+            if (res?.success && res.data) {
+              const highlights = normalizeMedia(res.data, { fallbackKey: 'highlights' });
+              if (window.currentProfileData) {
+                window.currentProfileData.highlights = highlights;
+                window.currentProfileData._highlightsLoaded = true;
+              }
+              loadHighlights(highlights);
+            } else {
+              loadHighlights([]);
+            }
+          })
+          .catch(() => {
+            showTabError('Failed to load highlights.');
+          });
+      } else {
+        loadHighlights(profileData.highlights || []);
+      }
       break;
     default:
       loadPosts(profileData.posts || []);
   }
+}
+
+function showTabLoading() {
+  const contentGrid = document.getElementById('contentGrid');
+  if (!contentGrid) return;
+  contentGrid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem;"><div class="inline-block w-6 h-6 border-2 border-primary/30 border-t-primary rounded-full animate-spin"></div></div>';
+}
+
+function showTabError(message: string) {
+  const contentGrid = document.getElementById('contentGrid');
+  if (!contentGrid) return;
+  contentGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #ef4444;">${message}</div>`;
 }
 
 function loadStories(stories: any[]) {

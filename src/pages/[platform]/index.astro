@@ -3,7 +3,7 @@ import MainLayout from '../../layouts/MainLayout.astro';
 import SearchBar from '../../components/SearchBar.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import { platforms, getPlatform, type Platform } from '../../data/features';
-import { getLocalizedPath, type Language } from '../../i18n/utils';
+import { getLocalizedPath, getPlatformTranslation, type Language } from '../../i18n/utils';
 
 const lang = (Astro.locals as any).lang as Language || 'en';
 const t = (Astro.locals as any).t || {};
@@ -22,7 +22,7 @@ const hubContent: Record<string, { heroTitle: string; seoTitle: string; sectionH
     seoTitle: 'Instagram Tools — Analyze Profiles, Browse Stories & Download Content Free',
     heroTitle: 'Instagram Analytics & Content Suite',
     sectionHeading: 'Browse All Instagram Features',
-    sectionSub: `${platforms.find(p => p.id === 'instagram')?.categories.reduce((s, c) => s + c.features.length, 0)} specialized tools for Instagram profile analysis, content browsing, downloading, and activity tracking.`,
+    sectionSub: 'specialized tools for Instagram profile analysis, content browsing, downloading, and activity tracking.',
     ctaHeading: 'Get Started With Instagram Analytics',
     ctaSub: 'Search any public Instagram handle and receive detailed analytics, content access, and activity reports instantly.',
     cardCta: 'Try this tool',
@@ -31,7 +31,7 @@ const hubContent: Record<string, { heroTitle: string; seoTitle: string; sectionH
     seoTitle: 'TikTok Tools — Creator Analytics, Video Downloader & Content Browser',
     heroTitle: 'TikTok Creator Analytics Platform',
     sectionHeading: 'Explore Every TikTok Tool',
-    sectionSub: `${platforms.find(p => p.id === 'tiktok')?.categories.reduce((s, c) => s + c.features.length, 0)} purpose-built tools for TikTok creator analytics, original-quality downloads, content browsing, and engagement tracking.`,
+    sectionSub: 'purpose-built tools for TikTok creator analytics, original-quality downloads, content browsing, and engagement tracking.',
     ctaHeading: 'Unlock TikTok Insights Now',
     ctaSub: 'Enter any public TikTok creator handle to access analytics, downloads, and tracking features.',
     cardCta: 'Open tool',
@@ -40,7 +40,7 @@ const hubContent: Record<string, { heroTitle: string; seoTitle: string; sectionH
     seoTitle: 'Facebook Tools — Page Analyzer, Content Downloader & Content Browser',
     heroTitle: 'Facebook Insights & Analytics Hub',
     sectionHeading: 'Discover All Facebook Tools',
-    sectionSub: `${platforms.find(p => p.id === 'facebook')?.categories.reduce((s, c) => s + c.features.length, 0)} dedicated tools for Facebook page and group analysis, content saving, content browsing, and activity tracking.`,
+    sectionSub: 'dedicated tools for Facebook page and group analysis, content saving, content browsing, and activity tracking.',
     ctaHeading: 'Start Analyzing Facebook Accounts',
     ctaSub: 'Provide any public Facebook profile or page name to generate comprehensive analytics and insights.',
     cardCta: 'Launch tool',
@@ -49,15 +49,33 @@ const hubContent: Record<string, { heroTitle: string; seoTitle: string; sectionH
     seoTitle: 'Snapchat Tools — Score Tracker, Story Downloader & Activity Tracker',
     heroTitle: 'Snapchat Analytics & Content Toolkit',
     sectionHeading: 'View All Snapchat Features',
-    sectionSub: `${platforms.find(p => p.id === 'snapchat')?.categories.reduce((s, c) => s + c.features.length, 0)} focused tools for Snapchat score tracking, streak analysis, story downloading, and activity tracking.`,
+    sectionSub: 'focused tools for Snapchat score tracking, streak analysis, story downloading, and activity tracking.',
     ctaHeading: 'Begin Tracking Snapchat Activity',
     ctaSub: 'Enter any public Snapchat username to access score tracking, content downloads, and activity tracking.',
     cardCta: 'Use this feature',
   },
 };
 
-const content = hubContent[platform.id] || hubContent.instagram;
+const englishContent = hubContent[platform.id] || hubContent.instagram;
 
+// Load platform-specific translations (hub + faqs)
+const pt = await getPlatformTranslation(lang, platform.id);
+
+// Overlay translated hub values over English defaults
+const content = {
+  seoTitle: pt?.hub?.seoTitle || englishContent.seoTitle,
+  heroTitle: pt?.hub?.heroTitle || englishContent.heroTitle,
+  sectionHeading: pt?.hub?.sectionHeading || englishContent.sectionHeading,
+  sectionSub: pt?.hub?.sectionSub || englishContent.sectionSub,
+  ctaHeading: pt?.hub?.ctaHeading || englishContent.ctaHeading,
+  ctaSub: pt?.hub?.ctaSub || englishContent.ctaSub,
+  cardCta: pt?.hub?.cardCta || englishContent.cardCta,
+};
+
+// Compute feature count for sectionSub prefix
+const featureCount = platform.categories.reduce((s, c) => s + c.features.length, 0);
+
+// English fallback FAQs
 const hubFaqs: Record<string, { question: string; answer: string }[]> = {
   instagram: [
     { question: 'How do you check the engagement rate of an Instagram account?', answer: 'Engagement rate is calculated by dividing total interactions (likes, comments, saves, shares) by follower count, then multiplying by 100. IGStoryPeek automates this calculation for any public Instagram profile.' },
@@ -92,6 +110,9 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
     { question: 'How often does Snapchat update your score?', answer: 'Snapchat scores update in near real-time, though there can sometimes be a short delay. Your score reflects cumulative activity since you created your account.' },
   ],
 };
+
+// Use translated FAQs if available, otherwise fall back to English
+const faqs = pt?.faqs?.length ? pt.faqs : hubFaqs[platform.id] || [];
 ---
 
 <MainLayout
@@ -144,7 +165,7 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
           {content.sectionHeading}
         </h2>
         <p class="text-dark-400 text-lg max-w-2xl mx-auto">
-          {content.sectionSub}
+          {featureCount} {content.sectionSub}
         </p>
       </div>
 
@@ -185,8 +206,8 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
     </div>
   </section>
 
-  {hubFaqs[platform.id] && (
-    <FAQSection faqs={hubFaqs[platform.id]} heading={`${platform.label} — ${t.faq?.title || 'Frequently Asked Questions'}`} />
+  {faqs.length > 0 && (
+    <FAQSection faqs={faqs} heading={`${platform.label} — ${t.faq?.title || 'Frequently Asked Questions'}`} />
   )}
 
   <!-- CTA -->

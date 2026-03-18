@@ -414,7 +414,9 @@
     "watchAd": "Δείτε διαφήμιση για +3 ώρες",
     "upgradePro": "Αναβάθμιση σε Pro",
     "followers": "ακόλουθοι",
-    "following": "ακολουθεί"
+    "following": "ακολουθεί",
+    "popularTitle": "Ανάλυση @{username} Instagram — Αναφορά ανάλυσης {displayName}",
+    "popularDescription": "Αναλύστε το Instagram του/της {displayName} — τάσεις ακολούθων, μετρικές αφοσίωσης, συχνότητα δημοσιεύσεων και αναλύσεις απόδοσης περιεχομένου."
   },
   "blog": {
     "title": "Ιστολόγιο",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Προβολέας δημόσιου προφίλ",
       "score-change-tracker": "Παρακολούθηση αλλαγών σκορ",
       "online-status-tracker": "Παρακολούθηση κατάστασης σύνδεσης"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Δημοφιλή προφίλ Instagram",
+    "categories": {
+      "Platform": "Πλατφόρμα",
+      "Sports": "Αθλητισμός",
+      "Music": "Μουσική",
+      "Celebrity": "Διασημότητα",
+      "Entertainment": "Ψυχαγωγία",
+      "Fashion": "Μόδα",
+      "Media": "Μέσα",
+      "Brand": "Μάρκα",
+      "Science": "Επιστήμη"
     }
   }
 }

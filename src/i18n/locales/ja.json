@@ -414,7 +414,9 @@
     "watchAd": "広告を見て+3時間",
     "upgradePro": "Proにアップグレード",
     "followers": "フォロワー",
-    "following": "フォロー中"
+    "following": "フォロー中",
+    "popularTitle": "@{username}のInstagram分析 — {displayName}分析レポート",
+    "popularDescription": "{displayName}のInstagramを分析 — フォロワートレンド、エンゲージメント指標、投稿頻度、コンテンツパフォーマンス分析。"
   },
   "blog": {
     "title": "ブログ",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "公開プロフィールビューアー",
       "score-change-tracker": "スコア変動トラッカー",
       "online-status-tracker": "オンライン状態トラッカー"
+    }
+  },
+  "popularAccounts": {
+    "heading": "人気のInstagramプロフィール",
+    "categories": {
+      "Platform": "プラットフォーム",
+      "Sports": "スポーツ",
+      "Music": "音楽",
+      "Celebrity": "セレブ",
+      "Entertainment": "エンタメ",
+      "Fashion": "ファッション",
+      "Media": "メディア",
+      "Brand": "ブランド",
+      "Science": "科学"
     }
   }
 }

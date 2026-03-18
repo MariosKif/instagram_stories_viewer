@@ -1,7 +1,5 @@
 import { makeScraperRequest } from '../../../lib/instagramScraper.js';
-
-const highlightCache = new Map();
-const CACHE_TTL = 20 * 60 * 1000;
+import { getCachedApiData, setCachedApiData } from '../../../lib/apiCache.ts';
 
 export async function GET({ params }) {
     try {
@@ -18,10 +16,12 @@ export async function GET({ params }) {
             });
         }
 
-        const cacheKey = `highlight:${highlightId}`;
-        const cached = highlightCache.get(cacheKey);
-        if (cached && (Date.now() - cached.timestamp < CACHE_TTL)) {
-            return new Response(JSON.stringify(cached.data), {
+        // Check Firestore cache
+        const cacheKey = `highlight_${highlightId}`;
+        const cached = await getCachedApiData(cacheKey, 'highlightStories');
+        if (cached) {
+            console.log(`✓ Serving cached highlight: ${highlightId}`);
+            return new Response(JSON.stringify(cached), {
                 headers: { 'Content-Type': 'application/json' }
             });
         }
@@ -38,10 +38,8 @@ export async function GET({ params }) {
             }
         };
 
-        highlightCache.set(cacheKey, {
-            data: responsePayload,
-            timestamp: Date.now()
-        });
+        // Write to Firestore cache (fire-and-forget)
+        setCachedApiData(cacheKey, 'highlightStories', responsePayload);
 
         return new Response(JSON.stringify(responsePayload), {
             headers: { 'Content-Type': 'application/json' }
@@ -57,5 +55,3 @@ export async function GET({ params }) {
         });
     }
 }
-
-

@@ -414,7 +414,9 @@
     "watchAd": "Ara reklam għal +3 sigħat",
     "upgradePro": "Aġġorna għal Pro",
     "followers": "followers",
-    "following": "following"
+    "following": "following",
+    "popularTitle": "Analizza @{username} Instagram — Rapport ta' analiżi ta' {displayName}",
+    "popularDescription": "Analizza l-Instagram ta' {displayName} — tendenzi tas-segwaċi, metriċi ta' involviment, frekwenza ta' pubblikazzjoni u analiżi tal-prestazzjoni tal-kontenut."
   },
   "blog": {
     "title": "Blog",
@@ -573,6 +575,20 @@
       "public-profile-viewer": "Werrej tal-profil pubbliku",
       "score-change-tracker": "Traċċatur tal-bidla fil-punteġġ",
       "online-status-tracker": "Traċċatur tal-istatus online"
+    }
+  },
+  "popularAccounts": {
+    "heading": "Profili Instagram popolari",
+    "categories": {
+      "Platform": "Pjattaforma",
+      "Sports": "Sport",
+      "Music": "Mużika",
+      "Celebrity": "Ċelebrità",
+      "Entertainment": "Divertiment",
+      "Fashion": "Moda",
+      "Media": "Medja",
+      "Brand": "Marka",
+      "Science": "Xjenza"
     }
   }
 }
