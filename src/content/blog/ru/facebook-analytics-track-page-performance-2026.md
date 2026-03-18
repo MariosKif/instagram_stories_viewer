@@ -1,8 +1,8 @@
 ---
 title: "Аналитика Facebook: 7 проверенных бесплатных способов отслеживания результатов"
 description: "Освойте аналитику facebook для отслеживания и улучшения эффективности страницы в 2026 году. Откройте 7 проверенных бесплатных методов измерения метрик, которые стимулируют рост."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "إعدادات خصوصية فيسبوك: 7 خطوات أساسية سهلة في 2026"
 description: "أتقن إعدادات خصوصية فيسبوك مع هذه الخطوات السبع الأساسية لتأمين ملفك الشخصي بالكامل في 2026. احمِ بياناتك بالطريقة السهلة الآن."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Downloader: 5 Beste Gratis Eenvoudige Methoden 2026"
 description: "Gebruik een facebook story downloader om gratis Stories op te slaan in 2026. Vijf eenvoudige methoden met stapsgewijze instructies voor downloaden op elk apparaat."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

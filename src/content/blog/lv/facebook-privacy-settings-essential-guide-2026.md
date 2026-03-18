@@ -1,8 +1,8 @@
 ---
 title: "Facebook privātuma iestatījumi: 7 būtiski vienkārši soļi 2026"
 description: "Apgūstiet savus facebook privātuma iestatījumus ar šiem 7 būtiskajiem soļiem, lai pilnībā nodrošinātu savu profilu 2026. gadā. Aizsargājiet savus datus vienkāršā veidā."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

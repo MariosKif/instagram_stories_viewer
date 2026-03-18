@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace Privacy: 9 Essential Easy Tips 2026"
 description: "Protect your facebook marketplace privacy with 9 essential tips for 2026. Learn to stay safe from scams, guard personal data, and trade without risk."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

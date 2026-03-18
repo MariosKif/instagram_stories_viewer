@@ -1,8 +1,8 @@
 ---
 title: "Facebook istorijos vs Instagram istorijos: 5 patikrinti paprasti patarimai"
 description: "Palyginkite facebook istorijas vs instagram istorijas 2026 m. Atraskite 5 patikrintus patarimus apie funkcijas, auditorijos pasiekiamumą ir geriausios platformos pasirinkimą."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

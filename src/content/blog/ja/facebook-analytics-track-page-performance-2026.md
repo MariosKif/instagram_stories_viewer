@@ -1,8 +1,8 @@
 ---
 title: "Facebook分析：結果を追跡する7つの実証済み無料方法"
 description: "facebook分析をマスターして2026年のページパフォーマンスを追跡・改善。成長を促進する指標を測定する7つの実証済み無料方法を発見。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

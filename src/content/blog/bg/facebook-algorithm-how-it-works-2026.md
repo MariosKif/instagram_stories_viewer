@@ -1,8 +1,8 @@
 ---
 title: "Алгоритъмът на Facebook през 2026: 5 доказани прости съвета за успех"
 description: "Открийте точно как работи алгоритъмът на facebook през 2026. Научете 5 доказани фактора за класиране, стратегии за съдържание и безплатни съвети за увеличаване на обхвата."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

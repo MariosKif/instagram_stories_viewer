@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Proven Free Ways to Track Results"
 description: "Master facebook analytics to track and improve page performance in 2026. Discover 7 proven free methods to measure the metrics that drive growth."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

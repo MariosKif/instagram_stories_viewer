@@ -1,7 +1,7 @@
 ---
 title: "Ghid complet Facebook Reels: 7 pași dovediți și simpli în 2026"
 description: "Stăpânește facebook reels cu acest ghid complet pentru 2026. Învață 7 pași dovediți pentru a deveni viral, a-ți crește audiența rapid și a construi o strategie de conținut câștigătoare."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

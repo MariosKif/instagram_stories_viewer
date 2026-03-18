@@ -1,8 +1,8 @@
 ---
 title: "Facebook-algoritmen 2026: 5 beprövade enkla tips för att vinna"
 description: "Upptäck exakt hur facebook-algoritmen fungerar 2026. Lär dig 5 beprövade rankningsfaktorer, innehållsstrategier och gratis tips för att öka din räckvidd."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

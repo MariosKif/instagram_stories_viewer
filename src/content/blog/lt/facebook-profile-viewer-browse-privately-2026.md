@@ -1,8 +1,8 @@
 ---
 title: "Facebook profilio peržiūra: 7 geriausi nemokami paprasti įrankiai"
 description: "Sužinokite, kaip naudoti facebook profilio peržiūrą, kad privačiai naršytumėte profilius 2026 m. Atraskite 7 nemokamus metodus, privatumo įrankius ir ekspertų patarimus saugumui."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Video Downloader: 7 ověřených bezplatných metod v roce 2026"
 description: "Naučte se 7 nejlepších bezplatných metod facebook video downloader pro rok 2026. Ukládejte HD videa rychle s průvodci krok za krokem, srovnáním nástrojů a právními tipy."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-17
+updatedDate: 2026-03-17
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

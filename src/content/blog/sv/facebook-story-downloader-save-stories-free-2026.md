@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story-nedladdare: 5 bästa gratis enkla metoder 2026"
 description: "Använd en facebook story-nedladdare för att spara Stories gratis 2026. Fem enkla metoder med steg-för-steg-instruktioner för nedladdning på alla enheter."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

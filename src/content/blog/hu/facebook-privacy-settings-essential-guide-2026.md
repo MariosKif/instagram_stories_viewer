@@ -1,8 +1,8 @@
 ---
 title: "Facebook Adatvédelmi Beállítások: 7 Alapvető Egyszerű Lépés 2026-ban"
 description: "Sajátítsd el a facebook adatvédelmi beállításokat ezzel a 7 alapvető lépéssel a profilod teljes lezárásához 2026-ban. Védd meg adataidat most egyszerűen."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

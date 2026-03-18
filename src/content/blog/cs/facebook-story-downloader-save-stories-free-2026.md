@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Downloader: 5 nejlepších bezplatných jednoduchých metod 2026"
 description: "Použijte facebook story downloader k ukládání Stories zdarma v roce 2026. Pět jednoduchých metod s pokyny krok za krokem pro stahování na každém zařízení."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

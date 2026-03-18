@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algorithm in 2026: 5 Proven Simple Tips to Win"
 description: "Discover exactly how the facebook algorithm works in 2026. Learn 5 proven ranking factors, content strategies, and free tips to boost your reach."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

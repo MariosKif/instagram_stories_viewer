@@ -1,8 +1,8 @@
 ---
 title: "Facebook Storyk vs Instagram Storyk: 5 Bevált Egyszerű Tipp"
 description: "Hasonlítsd össze a facebook storyk vs instagram storyk 2026-ban. Fedezz fel 5 bevált tippet a funkciókról, közönségelérésről és a legjobb platformod kiválasztásáról."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

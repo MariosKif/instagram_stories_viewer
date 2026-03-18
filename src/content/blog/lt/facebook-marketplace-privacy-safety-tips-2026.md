@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace privatumas: 9 būtini paprasti patarimai 2026"
 description: "Apsaugokite savo facebook marketplace privatumą su 9 būtinais patarimais 2026 m. Sužinokite, kaip apsisaugoti nuo sukčių, apsaugoti asmeninius duomenis ir prekiauti be rizikos."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

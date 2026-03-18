@@ -1,7 +1,7 @@
 ---
 title: "Facebook Reels完全指南：2026年7个简单有效步骤"
 description: "通过这份2026年完全指南掌握facebook reels。学习7个经过验证的步骤来走红、快速增长受众并建立制胜内容策略。"
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

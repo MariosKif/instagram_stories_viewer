@@ -1,8 +1,8 @@
 ---
 title: "Facebook快拍下载器：2026年5种最佳免费简单方法"
 description: "使用facebook快拍下载器在2026年免费保存快拍。五种简单方法，附分步说明，适用于每种设备上的下载。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

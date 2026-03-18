@@ -1,8 +1,8 @@
 ---
 title: "Facebook Preglednik Profila: 7 Najboljih Besplatnih Jednostavnih Alata"
 description: "Naučite kako koristiti facebook preglednik profila za privatno pregledavanje profila u 2026. Otkrijte 7 besplatnih metoda, alate za privatnost i stručne savjete za sigurnost."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

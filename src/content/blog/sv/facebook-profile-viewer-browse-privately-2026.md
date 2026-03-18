@@ -1,8 +1,8 @@
 ---
 title: "Facebook profilvisare: 7 ultimata enkla och gratis verktyg"
 description: "Lär dig använda en facebook profilvisare för att bläddra bland profiler privat 2026. Upptäck 7 gratis metoder, integritetsverktyg och experttips för säkerhet."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

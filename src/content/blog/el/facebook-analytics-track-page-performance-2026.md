@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Αποδεδειγμένοι Δωρεάν Τρόποι Παρακολούθησης Αποτελεσμάτων"
 description: "Κατακτήστε τα facebook analytics για παρακολούθηση και βελτίωση απόδοσης σελίδας το 2026. Ανακαλύψτε 7 αποδεδειγμένες δωρεάν μεθόδους μέτρησης μετρικών που οδηγούν ανάπτυξη."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

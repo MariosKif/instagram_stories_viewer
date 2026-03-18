@@ -1,8 +1,8 @@
 ---
 title: "تحليلات فيسبوك: 7 طرق مجانية مثبتة لتتبع النتائج"
 description: "أتقن تحليلات فيسبوك لتتبع وتحسين أداء الصفحة في 2026. اكتشف 7 طرق مجانية مثبتة لقياس المقاييس التي تدفع النمو."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

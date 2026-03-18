@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profile Viewer: 7 instrumente ultime ușoare și gratuite"
 description: "Învață cum să folosești un facebook profile viewer pentru a naviga profiluri în mod privat în 2026. Descoperă 7 metode gratuite, instrumente de confidențialitate și sfaturi de la experți pentru siguranță."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

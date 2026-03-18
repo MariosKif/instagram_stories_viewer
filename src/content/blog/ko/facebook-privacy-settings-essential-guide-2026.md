@@ -1,8 +1,8 @@
 ---
 title: "Facebook 개인정보 설정: 2026년 쉬운 7가지 필수 단계"
 description: "이 7가지 필수 단계로 facebook 개인정보 설정을 마스터하고 2026년에 프로필을 완전히 잠그세요. 지금 쉽게 데이터를 보호하세요."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

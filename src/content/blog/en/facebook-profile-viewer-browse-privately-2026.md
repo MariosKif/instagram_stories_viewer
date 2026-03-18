@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profile Viewer: 7 Ultimate Easy and Free Tools"
 description: "Learn how to use a facebook profile viewer to browse profiles privately in 2026. Discover 7 free methods, privacy tools, and expert tips for safety."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Stories срещу Instagram Stories: 5 доказани лесни съвета"
 description: "Сравнете facebook stories срещу instagram stories през 2026. Открийте 5 доказани съвета за функции, обхват на аудиторията и избор на най-добрата платформа."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

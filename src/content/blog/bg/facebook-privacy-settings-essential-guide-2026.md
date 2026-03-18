@@ -1,8 +1,8 @@
 ---
 title: "Настройки за поверителност във Facebook: 7 основни лесни стъпки за 2026"
 description: "Овладейте настройките за поверителност на facebook с тези 7 основни стъпки за пълно заключване на профила ви през 2026. Защитете данните си по лесния начин сега."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

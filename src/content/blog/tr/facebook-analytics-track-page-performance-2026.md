@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analitiği: Sonuçları İzlemek İçin 7 Kanıtlanmış Ücretsiz Yol"
 description: "2026'da sayfa performansını izlemek ve iyileştirmek için facebook analitiğini ustalaşın. Büyümeyi yönlendiren metrikleri ölçmek için 7 kanıtlanmış ücretsiz yöntem keşfedin."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

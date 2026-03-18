@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 доказани безплатни начина за проследяване на резултатите"
 description: "Овладейте facebook analytics за проследяване и подобряване на ефективността на страницата през 2026. Открийте 7 доказани безплатни метода за измерване на показателите, които движат растежа."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

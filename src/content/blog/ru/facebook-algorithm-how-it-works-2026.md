@@ -1,8 +1,8 @@
 ---
 title: "Алгоритм Facebook в 2026: 5 проверенных простых советов для победы"
 description: "Узнайте, как именно работает алгоритм facebook в 2026 году. Изучите 5 проверенных факторов ранжирования, контент-стратегии и бесплатные советы для увеличения охвата."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

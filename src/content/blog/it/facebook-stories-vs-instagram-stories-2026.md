@@ -1,8 +1,8 @@
 ---
 title: "Storie Facebook vs Storie Instagram: 5 Consigli Facili e Collaudati"
 description: "Confronta le storie facebook vs storie instagram nel 2026. Scopri 5 consigli collaudati su funzionalità, portata del pubblico e come scegliere la piattaforma migliore."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

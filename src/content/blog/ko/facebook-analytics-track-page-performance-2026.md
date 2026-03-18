@@ -1,8 +1,8 @@
 ---
 title: "Facebook 분석: 결과를 추적하는 7가지 검증된 무료 방법"
 description: "facebook 분석을 마스터하여 2026년 페이지 성과를 추적하고 개선하세요. 성장을 이끄는 지표를 측정하는 7가지 검증된 무료 방법을 발견하세요."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

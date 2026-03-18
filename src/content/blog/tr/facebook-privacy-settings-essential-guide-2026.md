@@ -1,8 +1,8 @@
 ---
 title: "Facebook Gizlilik Ayarları: 2026 İçin Kolay 7 Temel Adım"
 description: "Bu 7 temel adımla facebook gizlilik ayarlarınızı ustalaşın ve 2026'da profilinizi tamamen kilitleyin. Verilerinizi şimdi kolay yoldan koruyun."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

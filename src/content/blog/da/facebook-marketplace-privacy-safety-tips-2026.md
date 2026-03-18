@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace Privatliv: 9 Essentielle Nemme Tips 2026"
 description: "Beskyt dit facebook marketplace privatliv med 9 essentielle tips for 2026. Lær at holde dig sikker mod svindel, beskytte personlige data og handle uden risiko."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

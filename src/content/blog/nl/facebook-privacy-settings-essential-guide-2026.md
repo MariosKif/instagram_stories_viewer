@@ -1,8 +1,8 @@
 ---
 title: "Facebook Privacyinstellingen: 7 Essentiële Stappen voor Eenvoudig 2026"
 description: "Beheers je facebook privacyinstellingen met deze 7 essentiële stappen om je profiel volledig te vergrendelen in 2026. Bescherm je gegevens op de makkelijke manier."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

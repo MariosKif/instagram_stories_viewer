@@ -1,8 +1,8 @@
 ---
 title: "Facebook Stories vs Instagram Stories: 5 Αποδεδειγμένες Εύκολες Συμβουλές"
 description: "Συγκρίνετε facebook stories vs instagram stories το 2026. Ανακαλύψτε 5 αποδεδειγμένες συμβουλές για χαρακτηριστικά, εμβέλεια κοινού και επιλογή καλύτερης πλατφόρμας."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

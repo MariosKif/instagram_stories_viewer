@@ -1,8 +1,8 @@
 ---
 title: "خوارزمية فيسبوك 2026: 5 نصائح بسيطة مثبتة للفوز"
 description: "اكتشف بالضبط كيف تعمل خوارزمية فيسبوك في 2026. تعلم 5 عوامل ترتيب مثبتة واستراتيجيات محتوى ونصائح مجانية لزيادة وصولك."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

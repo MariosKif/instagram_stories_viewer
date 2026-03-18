@@ -1,8 +1,8 @@
 ---
 title: "Истории Facebook vs Instagram: 5 проверенных простых советов"
 description: "Сравните истории facebook и instagram в 2026 году. Откройте 5 проверенных советов по функциям, охвату аудитории и выбору лучшей платформы."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

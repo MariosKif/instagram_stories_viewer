@@ -1,8 +1,8 @@
 ---
 title: "Facebook-analytiikka: 7 todistettua ilmaista tapaa seurata tuloksia"
 description: "Hallitse facebook-analytiikka sivun suorituskyvyn seuraamiseen ja parantamiseen vuonna 2026. Löydä 7 todistettua ilmaista menetelmää kasvua ohjaavien mittareiden mittaamiseen."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

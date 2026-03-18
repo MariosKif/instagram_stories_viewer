@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profil Görüntüleyici: 7 En İyi Kolay ve Ücretsiz Araç"
 description: "2026'da profilleri gizlice görüntülemek için bir facebook profil görüntüleyici kullanmayı öğrenin. 7 ücretsiz yöntem, gizlilik araçları ve güvenlik için uzman ipuçları keşfedin."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

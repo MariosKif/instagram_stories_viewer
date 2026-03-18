@@ -1,8 +1,8 @@
 ---
 title: "Facebook数据分析：7种经过验证的免费追踪方法"
 description: "掌握facebook数据分析以在2026年追踪和改善页面表现。发现7种经过验证的免费方法来衡量推动增长的指标。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

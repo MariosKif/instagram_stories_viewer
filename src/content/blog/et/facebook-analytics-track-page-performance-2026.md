@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analüütika: 7 Tõestatud Tasuta Viisi Tulemuste Jälgimiseks"
 description: "Valdage facebook analüütikat lehe jõudluse jälgimiseks ja parandamiseks 2026. aastal. Avastage 7 tõestatud tasuta meetodit kasvu juhtivate mõõdikute mõõtmiseks."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

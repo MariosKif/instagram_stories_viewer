@@ -1,8 +1,8 @@
 ---
 title: "Facebook 동영상 다운로더: 2026년 검증된 7가지 무료 방법"
 description: "2026년 facebook 동영상 다운로더의 7가지 최고의 무료 방법을 알아보세요. 단계별 가이드, 도구 비교, 법적 팁으로 HD 동영상을 빠르게 저장하세요."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-17
+updatedDate: 2026-03-17
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Privatlivsindstillinger: 7 Essentielle Trin for Nem 2026"
 description: "Mestr dine facebook privatlivsindstillinger med disse 7 essentielle trin til at låse din profil helt ned i 2026. Beskyt dine data den nemme måde nu."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

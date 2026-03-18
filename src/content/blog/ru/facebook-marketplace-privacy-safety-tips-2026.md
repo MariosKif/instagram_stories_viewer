@@ -1,7 +1,7 @@
 ---
 title: "Конфиденциальность Facebook Marketplace: 9 простых важных советов 2026"
 description: "Защитите свою конфиденциальность на facebook marketplace с помощью 9 важных советов на 2026 год. Узнайте, как обезопасить себя от мошенников, защитить данные и торговать без риска."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

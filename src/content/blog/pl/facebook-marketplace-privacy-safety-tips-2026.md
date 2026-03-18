@@ -1,7 +1,7 @@
 ---
 title: "Prywatnosc na Facebook Marketplace: 9 Niezbednych Latwych Wskazowek 2026"
 description: "Chron swoja prywatnosc na facebook marketplace dzieki 9 niezbednym wskazowkom na 2026. Dowiedz sie, jak unikac oszustw, chronic dane osobowe i handlowac bez ryzyka."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

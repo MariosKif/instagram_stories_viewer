@@ -1,8 +1,8 @@
 ---
 title: "Breathnóir Próifíle Facebook: 7 nUirlis Deiridh Éasca Saor in Aisce"
 description: "Foghlaim conas breathnóir próifíle facebook a úsáid chun próifílí a bhrabhsáil go príobháideach in 2026. Aimsigh 7 modh saor in aisce, uirlisí príobháideachta agus leideanna saineolach le haghaidh sábháilteachta."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,7 +1,7 @@
 ---
 title: "Facebook 릴 완전 가이드: 2026년 검증된 7가지 쉬운 단계"
 description: "이 2026년 완전 가이드로 facebook 릴을 마스터하세요. 바이럴되는 7가지 검증된 단계, 빠른 오디언스 성장, 성공적인 콘텐츠 전략 구축 방법을 배우세요."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

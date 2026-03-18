@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profilfremviser: 7 Ultimative Nemme og Gratis Værktøjer"
 description: "Lær hvordan du bruger en facebook profilfremviser til at browse profiler privat i 2026. Opdag 7 gratis metoder, privatlivsværktøjer og eksperttips til sikkerhed."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

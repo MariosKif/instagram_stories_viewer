@@ -1,8 +1,8 @@
 ---
 title: "Загрузчик историй Facebook: 5 лучших бесплатных простых методов 2026"
 description: "Используйте загрузчик историй facebook для бесплатного сохранения историй в 2026 году. Пять простых методов с пошаговыми инструкциями для загрузки на любом устройстве."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

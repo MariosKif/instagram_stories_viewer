@@ -1,7 +1,7 @@
 ---
 title: "Facebook Reels komplett guide: 7 beprövade enkla steg 2026"
 description: "Bemästra facebook reels med denna kompletta guide för 2026. Lär dig 7 beprövade steg för att bli viral, växa din publik snabbt och bygga en vinnande innehållsstrategi."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

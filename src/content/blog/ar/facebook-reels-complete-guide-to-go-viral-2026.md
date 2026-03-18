@@ -1,7 +1,7 @@
 ---
 title: "دليل Facebook Reels الشامل: 7 خطوات سهلة مثبتة في 2026"
 description: "أتقن facebook reels مع هذا الدليل الشامل لعام 2026. تعلم 7 خطوات مثبتة للانتشار الفيروسي وتنمية جمهورك بسرعة وبناء استراتيجية محتوى رابحة."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

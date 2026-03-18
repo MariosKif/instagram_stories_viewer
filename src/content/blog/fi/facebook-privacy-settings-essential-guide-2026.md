@@ -1,8 +1,8 @@
 ---
 title: "Facebookin yksityisyysasetukset: 7 olennaista vaihetta helposti vuonna 2026"
 description: "Hallitse facebookin yksityisyysasetukset näillä 7 olennaisella vaiheella profiilisi täydelliseen lukitsemiseen vuonna 2026. Suojaa tietosi helpolla tavalla nyt."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

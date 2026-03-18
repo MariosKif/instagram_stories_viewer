@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Downloader: 5 Aħjar Metodi Sempliċi B'xejn 2026"
 description: "Uża facebook story downloader biex tiffranka Stories b'xejn fl-2026. Ħames metodi sempliċi b'istruzzjonijiet pass pass għad-download fuq kull apparat."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

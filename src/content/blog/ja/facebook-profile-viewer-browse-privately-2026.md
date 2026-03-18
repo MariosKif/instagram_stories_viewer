@@ -1,8 +1,8 @@
 ---
 title: "Facebookプロフィールビューアー：7つの究極の簡単無料ツール"
 description: "2026年にfacebookプロフィールビューアーを使ってプライベートにプロフィールを閲覧する方法を学びましょう。7つの無料方法、プライバシーツール、安全のための専門家のヒントを発見。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

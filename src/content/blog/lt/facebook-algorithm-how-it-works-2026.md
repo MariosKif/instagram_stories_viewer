@@ -1,8 +1,8 @@
 ---
 title: "Facebook algoritmas 2026 m.: 5 patikrinti paprasti patarimai laimėti"
 description: "Sužinokite tiksliai, kaip veikia facebook algoritmas 2026 m. Išmokite 5 patikrintus reitingavimo veiksnius, turinio strategijas ir nemokamus patarimus pasiekiamumui padidinti."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

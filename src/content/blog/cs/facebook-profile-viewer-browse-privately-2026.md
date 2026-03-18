@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profile Viewer: 7 nejlepších snadných a bezplatných nástrojů"
 description: "Naučte se používat facebook profile viewer k soukromému procházení profilů v roce 2026. Objevte 7 bezplatných metod, nástroje na ochranu soukromí a odborné tipy pro bezpečnost."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

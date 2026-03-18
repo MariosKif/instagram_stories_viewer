@@ -1,8 +1,8 @@
 ---
 title: "Ustawienia Prywatnosci Facebook: 7 Niezbednych Krokow na 2026"
 description: "Opanuj swoje ustawienia prywatnosci facebook dzieki tym 7 niezbednym krokom, aby calkowicie zablokowac swoj profil w 2026. Chron swoje dane w prosty sposob."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

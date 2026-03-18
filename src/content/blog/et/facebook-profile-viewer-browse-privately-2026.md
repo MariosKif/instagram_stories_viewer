@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profiili Vaataja: 7 Parimat Tasuta Lihtsat Tööriista"
 description: "Õppige kuidas kasutada facebook profiili vaatajat profiilide privaatseks sirvimiseks 2026. aastal. Avastage 7 tasuta meetodit, privaatsustööriistu ja ekspertnõuandeid turvalisuse jaoks."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

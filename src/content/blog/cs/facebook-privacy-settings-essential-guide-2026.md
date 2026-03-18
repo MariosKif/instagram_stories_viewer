@@ -1,8 +1,8 @@
 ---
 title: "Nastavení soukromí na Facebooku: 7 základních snadných kroků pro rok 2026"
 description: "Ovládněte nastavení soukromí na facebooku s těmito 7 základními kroky k úplnému zamknutí vašeho profilu v roce 2026. Chraňte svá data snadno hned teď."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

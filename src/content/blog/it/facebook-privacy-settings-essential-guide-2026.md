@@ -1,8 +1,8 @@
 ---
 title: "Impostazioni Privacy Facebook: 7 Passaggi Essenziali per il 2026"
 description: "Padroneggia le tue impostazioni privacy facebook con questi 7 passaggi essenziali per proteggere completamente il tuo profilo nel 2026. Proteggi i tuoi dati facilmente."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

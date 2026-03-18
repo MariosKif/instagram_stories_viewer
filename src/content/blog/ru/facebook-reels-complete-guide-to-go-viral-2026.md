@@ -1,7 +1,7 @@
 ---
 title: "Полное руководство по Facebook Reels: 7 простых проверенных шагов в 2026"
 description: "Освойте facebook reels с этим полным руководством 2026 года. Изучите 7 проверенных шагов для вирусного распространения, быстрого роста аудитории и построения выигрышной контент-стратегии."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

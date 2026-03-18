@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace Gizliliği: 2026 İçin 9 Kolay Temel İpucu"
 description: "2026 için 9 temel ipucuyla facebook marketplace gizliliğinizi koruyun. Dolandırıcılıklardan korunmayı, kişisel verileri güvende tutmayı ve risksiz ticaret yapmayı öğrenin."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

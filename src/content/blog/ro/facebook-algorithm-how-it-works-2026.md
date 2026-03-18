@@ -1,8 +1,8 @@
 ---
 title: "Algoritmul Facebook în 2026: 5 sfaturi simple și dovedite pentru a câștiga"
 description: "Descoperă exact cum funcționează algoritmul facebook în 2026. Învață 5 factori de clasare dovediți, strategii de conținut și sfaturi gratuite pentru a-ți crește reach-ul."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

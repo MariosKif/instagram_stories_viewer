@@ -1,8 +1,8 @@
 ---
 title: "Facebook快拍对比Instagram快拍：5个简单有效技巧"
 description: "比较2026年facebook快拍与instagram快拍。发现5个涵盖功能、受众覆盖面和选择最佳平台的经过验证的技巧。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

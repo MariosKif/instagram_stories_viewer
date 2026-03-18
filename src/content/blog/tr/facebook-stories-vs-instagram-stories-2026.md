@@ -1,8 +1,8 @@
 ---
 title: "Facebook Hikayeleri vs Instagram Hikayeleri: 5 Kanıtlanmış Kolay İpucu"
 description: "2026'da facebook hikayeleri ile instagram hikayelerini karşılaştırın. Özellikler, kitle erişimi ve en iyi platformunuzu seçme konusunda 5 kanıtlanmış ipucu keşfedin."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

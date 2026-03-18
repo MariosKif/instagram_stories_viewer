@@ -1,8 +1,8 @@
 ---
 title: "Facebook Storyji nasuprot Instagram Storyjima: 5 Provjerenih Jednostavnih Savjeta"
 description: "Usporedite facebook storyje nasuprot instagram storyjima u 2026. Otkrijte 5 provjerenih savjeta koji pokrivaju značajke, doseg publike i odabir vaše najbolje platforme."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

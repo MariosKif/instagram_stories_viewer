@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace 프라이버시: 2026년 9가지 필수 쉬운 팁"
 description: "2026년 9가지 필수 팁으로 facebook marketplace 프라이버시를 보호하세요. 사기로부터 안전을 유지하고, 개인 데이터를 지키며, 위험 없이 거래하는 방법을 배우세요."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

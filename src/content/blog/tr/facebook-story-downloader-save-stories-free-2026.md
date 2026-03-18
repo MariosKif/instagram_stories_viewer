@@ -1,8 +1,8 @@
 ---
 title: "Facebook Hikaye İndirici: 2026'da 5 En İyi Ücretsiz Basit Yöntem"
 description: "2026'da Hikayeleri ücretsiz kaydetmek için bir facebook hikaye indirici kullanın. Her cihazda indirmek için adım adım talimatlar içeren beş basit yöntem."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

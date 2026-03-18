@@ -1,8 +1,8 @@
 ---
 title: "Facebook Video Downloader: 7 metode gratuite dovedite în 2026"
 description: "Învață cele mai bune 7 metode gratuite de facebook video downloader pentru 2026. Salvează videoclipuri HD rapid cu ghiduri pas cu pas, comparații de instrumente și sfaturi legale."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-17
+updatedDate: 2026-03-17
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

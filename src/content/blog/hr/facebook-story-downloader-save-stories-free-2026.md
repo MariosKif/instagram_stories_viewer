@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Preuzimač: 5 Najboljih Besplatnih Jednostavnih Metoda 2026."
 description: "Koristite facebook story preuzimač za besplatno spremanje Storyja u 2026. Pet jednostavnih metoda s uputama korak po korak za preuzimanje na svakom uređaju."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

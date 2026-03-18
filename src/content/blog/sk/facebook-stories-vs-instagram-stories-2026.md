@@ -1,8 +1,8 @@
 ---
 title: "Facebook Stories vs Instagram Stories: 5 overených jednoduchých tipov"
 description: "Porovnajte facebook stories vs instagram stories v roku 2026. Objavte 5 overených tipov pokrývajúcich funkcie, dosah publika a výber najlepšej platformy."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

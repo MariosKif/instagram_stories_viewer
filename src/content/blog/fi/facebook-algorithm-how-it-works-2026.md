@@ -1,8 +1,8 @@
 ---
 title: "Facebook-algoritmi vuonna 2026: 5 todistettua yksinkertaista vinkkiä voittamiseen"
 description: "Löydä tarkalleen, miten facebook-algoritmi toimii vuonna 2026. Opi 5 todistettua sijoitustekijää, sisältöstrategioita ja ilmaisia vinkkejä kattavuuden lisäämiseksi."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

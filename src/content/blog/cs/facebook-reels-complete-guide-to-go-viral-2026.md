@@ -1,7 +1,7 @@
 ---
 title: "Kompletní průvodce Facebook Reels: 7 ověřených snadných kroků v roce 2026"
 description: "Ovládněte facebook reels s tímto kompletním průvodcem pro rok 2026. Naučte se 7 ověřených kroků k viralitě, rychlému růstu publika a vybudování vítězné strategie obsahu."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

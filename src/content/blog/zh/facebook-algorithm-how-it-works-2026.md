@@ -1,8 +1,8 @@
 ---
 title: "Facebook算法2026：5个简单有效的制胜技巧"
 description: "详细了解facebook算法在2026年如何运作。学习5个经过验证的排名因素、内容策略和免费技巧来提升您的覆盖面。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

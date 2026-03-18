@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Sprawdzonych Darmowych Sposobow na Sledzenie Wynikow"
 description: "Opanuj facebook analytics, aby sledzic i poprawiac wyniki strony w 2026. Odkryj 7 sprawdzonych darmowych metod mierzenia metryk napedzajacych wzrost."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

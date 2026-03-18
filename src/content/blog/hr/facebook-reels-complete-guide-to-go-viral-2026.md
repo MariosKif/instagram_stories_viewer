@@ -1,7 +1,7 @@
 ---
 title: "Facebook Reels Potpuni Vodič: 7 Provjerenih Jednostavnih Koraka u 2026."
 description: "Ovladajte facebook reelsima s ovim potpunim vodičem za 2026. Naučite 7 provjerenih koraka za viralnost, brz rast publike i izgradnju pobjedničke strategije sadržaja."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

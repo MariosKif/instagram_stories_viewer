@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Downloader: 5 Bedste Gratis Simple Metoder 2026"
 description: "Brug en facebook story downloader til at gemme Stories gratis i 2026. Fem simple metoder med trin-for-trin instruktioner til download på enhver enhed."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

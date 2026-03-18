@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analitika: 7 Provjerenih Besplatnih Načina za Praćenje Rezultata"
 description: "Ovladajte facebook analitikom za praćenje i poboljšanje izvedbe stranice u 2026. Otkrijte 7 provjerenih besplatnih metoda za mjerenje metrika koje pokreću rast."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

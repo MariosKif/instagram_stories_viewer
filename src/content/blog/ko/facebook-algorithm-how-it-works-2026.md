@@ -1,8 +1,8 @@
 ---
 title: "Facebook 알고리즘 2026: 성공을 위한 5가지 검증된 간단한 팁"
 description: "2026년 facebook 알고리즘의 정확한 작동 방식을 알아보세요. 5가지 검증된 랭킹 요소, 콘텐츠 전략, 도달 범위를 높이는 무료 팁을 배우세요."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Bewezen Gratis Manieren om Resultaten te Volgen"
 description: "Beheers facebook analytics om paginaprestaties te volgen en te verbeteren in 2026. Ontdek 7 bewezen gratis methoden om de metrieken te meten die groei stimuleren."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

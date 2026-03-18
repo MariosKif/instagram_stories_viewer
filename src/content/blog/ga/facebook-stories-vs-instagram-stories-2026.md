@@ -1,8 +1,8 @@
 ---
 title: "Scéalta Facebook vs Scéalta Instagram: 5 Leid Chruthaithe Éasca"
 description: "Cuir scéalta facebook vs scéalta instagram i gcomparáid in 2026. Aimsigh 5 leid chruthaithe a chlúdaíonn gnéithe, sroicheadh lucht féachana, agus do phríomhardán a roghnú."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

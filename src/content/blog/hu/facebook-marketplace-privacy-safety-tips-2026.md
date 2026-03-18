@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace Adatvédelem: 9 Alapvető Egyszerű Tipp 2026"
 description: "Védd a facebook marketplace adatvédelmedet 9 alapvető tippel 2026-ban. Tanulj meg biztonságban maradni a csalásoktól, személyes adataidat védeni és kockázat nélkül kereskedni."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

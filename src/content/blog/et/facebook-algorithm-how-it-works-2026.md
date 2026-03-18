@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algoritm 2026. Aastal: 5 Tõestatud Lihtsat Nõuannet Võitmiseks"
 description: "Avastage täpselt, kuidas facebook algoritm 2026. aastal töötab. Õppige 5 tõestatud reastamistegurit, sisustrateegiat ja tasuta nõuandeid oma haarde suurendamiseks."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

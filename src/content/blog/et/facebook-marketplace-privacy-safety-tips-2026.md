@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace'i Privaatsus: 9 Olulist Lihtsat Nõuannet 2026"
 description: "Kaitske oma facebook marketplace'i privaatsust 9 olulise nõuandega 2026. aastaks. Õppige end pettuste eest kaitsma, isikuandmeid hoidma ja riskivabalt kauplema."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

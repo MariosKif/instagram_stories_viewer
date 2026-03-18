@@ -1,7 +1,7 @@
 ---
 title: "Príobháideachas Facebook Marketplace: 9 Leid Riachtanacha Éasca 2026"
 description: "Cosain do phríobháideachas facebook marketplace le 9 leid riachtanacha do 2026. Foghlaim conas fanacht slán ó chamscéimeanna, sonraí pearsanta a chosaint agus trádáil gan riosca."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

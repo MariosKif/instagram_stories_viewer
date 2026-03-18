@@ -1,8 +1,8 @@
 ---
 title: "Facebook analitika: 7 patikrinti nemokami būdai sekti rezultatus"
 description: "Įvaldykite facebook analitiką, kad sektumėte ir gerintumėte puslapio našumą 2026 m. Atraskite 7 patikrintus nemokamus metodus, kad matuotumėte augimą skatinančias metrikas."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

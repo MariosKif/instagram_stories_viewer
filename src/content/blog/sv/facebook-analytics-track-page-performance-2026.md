@@ -1,8 +1,8 @@
 ---
 title: "Facebook-analys: 7 beprövade gratis sätt att spåra resultat"
 description: "Bemästra facebook-analys för att spåra och förbättra sidprestanda 2026. Upptäck 7 beprövade gratis metoder för att mäta de mått som driver tillväxt."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

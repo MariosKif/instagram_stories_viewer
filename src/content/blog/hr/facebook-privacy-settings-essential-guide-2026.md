@@ -1,8 +1,8 @@
 ---
 title: "Facebook Postavke Privatnosti: 7 Osnovnih Koraka za Jednostavnu 2026."
 description: "Ovladajte svojim facebook postavkama privatnosti s ovih 7 osnovnih koraka za potpuno zaključavanje profila u 2026. Zaštitite svoje podatke na jednostavan način."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

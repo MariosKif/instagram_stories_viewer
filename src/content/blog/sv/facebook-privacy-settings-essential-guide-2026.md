@@ -1,8 +1,8 @@
 ---
 title: "Facebook sekretessinställningar: 7 enkla viktiga steg 2026"
 description: "Bemästra dina facebook sekretessinställningar med dessa 7 viktiga steg för att helt låsa din profil 2026. Skydda dina data på det enkla sättet nu."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

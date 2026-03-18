@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profile Viewer: 7 Għodod Ultimattivi Faċli u B'xejn"
 description: "Tgħallem kif tuża facebook profile viewer biex tibbrawżja profili privatament fl-2026. Skopri 7 metodi b'xejn, għodod tal-privatezza, u pariri ta' esperti għas-sigurtà."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

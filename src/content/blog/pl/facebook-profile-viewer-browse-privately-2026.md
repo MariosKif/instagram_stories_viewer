@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profile Viewer: 7 Najlepszych Latwych i Darmowych Narzedzi"
 description: "Dowiedz sie, jak uzywac facebook profile viewer do prywatnego przegladania profili w 2026. Odkryj 7 darmowych metod, narzedzia prywatnosci i porady ekspertow."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

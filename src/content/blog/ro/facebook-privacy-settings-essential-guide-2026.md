@@ -1,8 +1,8 @@
 ---
 title: "Setări de confidențialitate Facebook: 7 pași esențiali simpli pentru 2026"
 description: "Stăpânește setările de confidențialitate facebook cu acești 7 pași esențiali pentru a-ți bloca complet profilul în 2026. Protejează-ți datele în mod simplu acum."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

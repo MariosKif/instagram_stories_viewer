@@ -1,7 +1,7 @@
 ---
 title: "Kompletny Przewodnik po Facebook Reels: 7 Sprawdzonych Prostych Krokow w 2026"
 description: "Opanuj facebook reels dzieki temu kompletnemu przewodnikowi na 2026. Poznaj 7 sprawdzonych krokow, aby stac sie wiralowym, szybko rozwijac publicznosc i zbudowac zwycieska strategie tresci."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

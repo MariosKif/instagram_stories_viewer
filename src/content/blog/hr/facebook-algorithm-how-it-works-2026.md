@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algoritam u 2026.: 5 Provjerenih Jednostavnih Savjeta za Pobjedu"
 description: "Otkrijte točno kako facebook algoritam funkcionira u 2026. Naučite 5 provjerenih faktora rangiranja, strategija sadržaja i besplatnih savjeta za povećanje dosega."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

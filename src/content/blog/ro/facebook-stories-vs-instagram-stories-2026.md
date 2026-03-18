@@ -1,8 +1,8 @@
 ---
 title: "Facebook Stories vs Instagram Stories: 5 sfaturi dovedite și simple"
 description: "Compară facebook stories vs instagram stories în 2026. Descoperă 5 sfaturi dovedite despre funcții, reach audiență și alegerea celei mai bune platforme."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

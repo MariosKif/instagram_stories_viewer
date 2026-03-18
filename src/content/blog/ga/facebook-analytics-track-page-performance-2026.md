@@ -1,8 +1,8 @@
 ---
 title: "Anailísíocht Facebook: 7 mBealach Cruthaithe Saor in Aisce chun Torthaí a Rianú"
 description: "Máistrigh anailísíocht facebook chun feidhmíocht leathanaigh a rianú agus a fheabhsú in 2026. Aimsigh 7 modh cruthaithe saor in aisce chun na méadrachtaí a mhéadaíonn fás a thomhas."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

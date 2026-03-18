@@ -1,7 +1,7 @@
 ---
 title: "Treoir Iomlán Facebook Reels: 7 gCéim Chruthaithe Éasca in 2026"
 description: "Máistrigh facebook reels leis an treoir iomlán seo do 2026. Foghlaim 7 gcéim chruthaithe chun dul víorálach, do lucht féachana a fhás go tapa, agus straitéis ábhair bhuach a thógáil."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

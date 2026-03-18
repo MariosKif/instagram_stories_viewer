@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algoritması 2026: Kazanmak İçin 5 Kanıtlanmış Basit İpucu"
 description: "2026'da facebook algoritmasının tam olarak nasıl çalıştığını keşfedin. Erişiminizi artırmak için 5 kanıtlanmış sıralama faktörü, içerik stratejileri ve ücretsiz ipuçları öğrenin."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analitika: 7 Bevált Ingyenes Módszer az Eredmények Nyomon Követéséhez"
 description: "Sajátítsd el a facebook analitikát az oldalteljesítmény nyomon követéséhez és javításához 2026-ban. Fedezz fel 7 bevált ingyenes módszert a növekedést hajtó mutatók méréséhez."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

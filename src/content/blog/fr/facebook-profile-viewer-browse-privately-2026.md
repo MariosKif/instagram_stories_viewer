@@ -1,8 +1,8 @@
 ---
 title: "Visionneuse de profil Facebook : 7 outils gratuits et faciles"
 description: "Apprenez à utiliser une visionneuse de profil Facebook pour naviguer sur les profils en privé en 2026. Découvrez 7 méthodes gratuites, outils de confidentialité et conseils d'experts."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

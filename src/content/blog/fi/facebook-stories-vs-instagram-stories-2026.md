@@ -1,8 +1,8 @@
 ---
 title: "Facebook-tarinat vs Instagram-tarinat: 5 todistettua helppoa vinkkiä"
 description: "Vertaa facebook-tarinat vs instagram-tarinat vuonna 2026. Löydä 5 todistettua vinkkiä ominaisuuksista, yleisön kattavuudesta ja parhaan alustasi valinnasta."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

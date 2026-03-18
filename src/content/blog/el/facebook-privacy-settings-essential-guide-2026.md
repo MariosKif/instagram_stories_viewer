@@ -1,8 +1,8 @@
 ---
 title: "Ρυθμίσεις Απορρήτου Facebook: 7 Απαραίτητα Εύκολα Βήματα 2026"
 description: "Κατακτήστε τις ρυθμίσεις απορρήτου facebook με αυτά τα 7 απαραίτητα βήματα για πλήρη κλείδωμα του προφίλ σας το 2026. Προστατέψτε τα δεδομένα σας εύκολα τώρα."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook隐私设置：2026年7个简单必备步骤"
 description: "通过这7个必备步骤掌握您的facebook隐私设置，在2026年全面锁定您的个人资料。现在就用简单的方法保护您的数据。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook profilu skatītājs: 7 labākie vienkāršie bezmaksas rīki"
 description: "Uzziniet, kā izmantot facebook profilu skatītāju, lai privāti pārlūkotu profilus 2026. gadā. Atklājiet 7 bezmaksas metodes, privātuma rīkus un ekspertu padomus drošībai."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

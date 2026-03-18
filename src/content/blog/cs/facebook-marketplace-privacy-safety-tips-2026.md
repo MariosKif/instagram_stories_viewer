@@ -1,7 +1,7 @@
 ---
 title: "Soukromí na Facebook Marketplace: 9 základních snadných tipů 2026"
 description: "Chraňte své soukromí na facebook marketplace s 9 základními tipy pro rok 2026. Naučte se zůstat v bezpečí před podvody, chránit osobní data a obchodovat bez rizika."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

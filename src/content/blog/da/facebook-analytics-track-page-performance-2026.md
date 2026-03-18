@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Gennemprøvede Gratis Måder at Spore Resultater"
 description: "Mestr facebook analytics til at spore og forbedre sidepræstation i 2026. Opdag 7 gennemprøvede gratis metoder til at måle de metrikker der driver vækst."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

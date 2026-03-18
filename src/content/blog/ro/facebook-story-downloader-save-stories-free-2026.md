@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Downloader: 5 cele mai bune metode gratuite și simple 2026"
 description: "Folosește un facebook story downloader pentru a salva Stories gratuit în 2026. Cinci metode simple cu instrucțiuni pas cu pas pentru descărcare pe orice dispozitiv."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

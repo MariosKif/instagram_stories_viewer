@@ -1,8 +1,8 @@
 ---
 title: "أداة تنزيل فيديو فيسبوك: 7 طرق مجانية مثبتة في 2026"
 description: "تعلم أفضل 7 طرق مجانية لتنزيل فيديو فيسبوك في 2026. احفظ فيديوهات HD بسرعة مع أدلة خطوة بخطوة ومقارنات أدوات ونصائح قانونية."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-17
+updatedDate: 2026-03-17
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "FacebookストーリーズvsInstagramストーリーズ：5つの実証済み簡単ヒント"
 description: "2026年のfacebookストーリーズvsinstagramストーリーズを比較。機能、オーディエンスリーチ、最適なプラットフォーム選択に関する5つの実証済みヒントを発見。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

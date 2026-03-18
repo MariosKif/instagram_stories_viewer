@@ -1,8 +1,8 @@
 ---
 title: "Facebook algoritms 2026. gadā: 5 pārbaudīti vienkārši padomi uzvarai"
 description: "Uzziniet tieši, kā darbojas facebook algoritms 2026. gadā. Apgūstiet 5 pārbaudītus ranžēšanas faktorus, satura stratēģijas un bezmaksas padomus sasniedzamības palielināšanai."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

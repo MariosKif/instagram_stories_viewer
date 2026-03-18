@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algoritmus 2026-ban: 5 Bevált Egyszerű Tipp a Sikerhez"
 description: "Fedezd fel pontosan, hogyan működik a facebook algoritmus 2026-ban. Ismerd meg az 5 bevált rangsorolási tényezőt, tartalomstratégiákat és ingyenes tippeket az elérésed növeléséhez."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

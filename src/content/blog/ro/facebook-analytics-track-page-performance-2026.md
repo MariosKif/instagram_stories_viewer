@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 moduri gratuite și dovedite de a urmări rezultatele"
 description: "Stăpânește facebook analytics pentru a urmări și îmbunătăți performanța paginii în 2026. Descoperă 7 metode gratuite dovedite pentru a măsura metricile care stimulează creșterea."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

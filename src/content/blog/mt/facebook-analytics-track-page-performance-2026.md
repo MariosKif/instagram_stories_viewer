@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Modi Ppruvati B'xejn Biex Tittrakkja r-Riżultati"
 description: "Ikkontrollha l-facebook analytics biex tittrakkja u ttejjeb il-prestazzjoni tal-paġna fl-2026. Skopri 7 metodi ppruvati b'xejn biex tkejjel il-metriċi li jmexxu t-tkabbir."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Algartam Facebook in 2026: 5 Leid Chruthaithe Shimplí chun Bua a Fháil"
 description: "Aimsigh go díreach conas a oibríonn algartam facebook in 2026. Foghlaim 5 fhachtóir rangaithe cruthaithe, straitéisí ábhair agus leideanna saor in aisce chun do shroicheadh a mhéadú."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Paramètres de confidentialité Facebook : 7 étapes essentielles pour 2026"
 description: "Maîtrisez vos paramètres de confidentialité Facebook avec ces 7 étapes essentielles pour verrouiller complètement votre profil en 2026. Protégez vos données facilement."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

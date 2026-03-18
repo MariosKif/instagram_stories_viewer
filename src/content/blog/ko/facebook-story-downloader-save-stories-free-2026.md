@@ -1,8 +1,8 @@
 ---
 title: "Facebook 스토리 다운로더: 2026년 5가지 최고의 무료 간단한 방법"
 description: "facebook 스토리 다운로더를 사용하여 2026년에 무료로 스토리를 저장하세요. 모든 기기에서 다운로드하는 단계별 안내가 포함된 5가지 간단한 방법."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

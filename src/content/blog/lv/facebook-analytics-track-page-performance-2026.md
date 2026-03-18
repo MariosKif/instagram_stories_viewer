@@ -1,8 +1,8 @@
 ---
 title: "Facebook analītika: 7 pārbaudīti bezmaksas veidi rezultātu izsekošanai"
 description: "Apgūstiet facebook analītiku, lai izsekotu un uzlabotu lapas veiktspēju 2026. gadā. Atklājiet 7 pārbaudītas bezmaksas metodes, lai mērītu rādītājus, kas virza izaugsmi."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

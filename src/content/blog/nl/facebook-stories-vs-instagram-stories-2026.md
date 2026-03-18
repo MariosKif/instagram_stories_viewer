@@ -1,8 +1,8 @@
 ---
 title: "Facebook Stories vs Instagram Stories: 5 Bewezen Eenvoudige Tips"
 description: "Vergelijk facebook stories vs instagram stories in 2026. Ontdek 5 bewezen tips over functies, publieksbereik en het kiezen van je beste platform."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

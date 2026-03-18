@@ -1,8 +1,8 @@
 ---
 title: "Socruithe Príobháideachta Facebook: 7 gCéim Riachtanacha Éasca 2026"
 description: "Máistrigh do shocruithe príobháideachta facebook leis na 7 gcéim riachtanacha seo chun do phróifíl a ghlasáil go hiomlán in 2026. Cosain do shonraí ar an mbealach éasca anois."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

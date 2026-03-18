@@ -1,7 +1,7 @@
 ---
 title: "خصوصية Facebook Marketplace: 9 نصائح أساسية سهلة 2026"
 description: "احمِ خصوصية facebook marketplace مع 9 نصائح أساسية لعام 2026. تعلم كيفية البقاء آمناً من الاحتيال وحماية البيانات الشخصية والتداول بدون مخاطر."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

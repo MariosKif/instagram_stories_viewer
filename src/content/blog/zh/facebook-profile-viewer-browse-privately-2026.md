@@ -1,8 +1,8 @@
 ---
 title: "Facebook个人资料查看器：7种终极简单免费工具"
 description: "了解如何在2026年使用facebook个人资料查看器私密浏览个人资料。发现7种免费方法、隐私工具和安全专家提示。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

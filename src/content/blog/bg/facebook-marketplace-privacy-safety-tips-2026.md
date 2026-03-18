@@ -1,7 +1,7 @@
 ---
 title: "Поверителност на Facebook Marketplace: 9 основни лесни съвета 2026"
 description: "Защитете поверителността си на facebook marketplace с 9 основни съвета за 2026. Научете се да се пазите от измами, да защитавате личните данни и да търгувате без риск."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 ověřených bezplatných způsobů sledování výsledků"
 description: "Ovládněte facebook analytics pro sledování a zlepšení výkonu stránky v roce 2026. Objevte 7 ověřených bezplatných metod pro měření metrik, které pohánějí růst."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

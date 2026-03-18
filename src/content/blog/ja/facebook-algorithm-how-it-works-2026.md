@@ -1,8 +1,8 @@
 ---
 title: "Facebookアルゴリズム2026：勝つための5つの実証済み簡単ヒント"
 description: "2026年のfacebookアルゴリズムの仕組みを正確に解明。5つの実証済みランキング要因、コンテンツ戦略、リーチを高める無料ヒントを学びましょう。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

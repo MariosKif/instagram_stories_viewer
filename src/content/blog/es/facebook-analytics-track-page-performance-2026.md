@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 Formas Gratuitas Probadas de Rastrear Resultados"
 description: "Domina facebook analytics para rastrear y mejorar el rendimiento de tu página en 2026. Descubre 7 métodos gratuitos probados para medir las métricas que impulsan el crecimiento."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

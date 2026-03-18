@@ -1,8 +1,8 @@
 ---
 title: "Algoritmo Facebook nel 2026: 5 Consigli Semplici e Collaudati per Vincere"
 description: "Scopri esattamente come funziona l'algoritmo facebook nel 2026. Impara 5 fattori di ranking collaudati, strategie di contenuto e consigli gratuiti per aumentare la tua portata."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

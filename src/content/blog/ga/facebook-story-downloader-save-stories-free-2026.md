@@ -1,8 +1,8 @@
 ---
 title: "Íoslódálaí Scéalta Facebook: 5 Modh Simplí Saor in Aisce is Fearr 2026"
 description: "Úsáid íoslódálaí scéalta facebook chun Scéalta a shábháil saor in aisce in 2026. Cúig mhodh simplí le treoracha céim ar chéim le haghaidh íoslódála ar gach gléas."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

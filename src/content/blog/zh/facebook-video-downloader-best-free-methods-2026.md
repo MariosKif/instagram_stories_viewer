@@ -1,8 +1,8 @@
 ---
 title: "Facebook视频下载器：2026年7种经过验证的免费方法"
 description: "学习2026年7种最佳免费facebook视频下载器方法。通过分步指南、工具对比和法律提示快速保存高清视频。"
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-17
+updatedDate: 2026-03-17
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

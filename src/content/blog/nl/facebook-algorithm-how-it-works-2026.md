@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algoritme in 2026: 5 Bewezen Eenvoudige Tips om te Winnen"
 description: "Ontdek precies hoe het facebook algoritme werkt in 2026. Leer 5 bewezen rangschikkingsfactoren, contentstrategieen en gratis tips om je bereik te vergroten."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

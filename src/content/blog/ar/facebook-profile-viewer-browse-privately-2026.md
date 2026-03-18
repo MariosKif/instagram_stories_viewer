@@ -1,8 +1,8 @@
 ---
 title: "عارض ملفات فيسبوك: 7 أدوات مجانية سهلة ومميزة"
 description: "تعلم كيفية استخدام عارض ملفات فيسبوك لتصفح الملفات الشخصية بخصوصية في 2026. اكتشف 7 طرق مجانية وأدوات خصوصية ونصائح خبراء للأمان."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

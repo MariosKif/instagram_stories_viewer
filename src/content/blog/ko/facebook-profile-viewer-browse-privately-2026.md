@@ -1,8 +1,8 @@
 ---
 title: "Facebook 프로필 뷰어: 7가지 궁극의 쉽고 무료 도구"
 description: "2026년에 facebook 프로필 뷰어를 사용하여 비공개로 프로필을 탐색하는 방법을 알아보세요. 7가지 무료 방법, 프라이버시 도구, 안전을 위한 전문가 팁을 발견하세요."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

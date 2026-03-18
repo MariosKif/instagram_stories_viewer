@@ -1,7 +1,7 @@
 ---
 title: "Confidențialitate Facebook Marketplace: 9 sfaturi esențiale și simple 2026"
 description: "Protejează-ți confidențialitatea pe facebook marketplace cu 9 sfaturi esențiale pentru 2026. Învață să te ferești de escrocherii, să-ți protejezi datele personale și să tranzacționezi fără riscuri."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

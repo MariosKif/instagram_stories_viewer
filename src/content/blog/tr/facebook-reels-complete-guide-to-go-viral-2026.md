@@ -1,7 +1,7 @@
 ---
 title: "Facebook Reels Tam Rehber: 2026'da 7 Kanıtlanmış Kolay Adım"
 description: "Bu 2026 tam rehberiyle facebook reels'i ustalaşın. Viral olma, kitlenizi hızla büyütme ve kazandıran içerik stratejisi oluşturma için 7 kanıtlanmış adım öğrenin."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

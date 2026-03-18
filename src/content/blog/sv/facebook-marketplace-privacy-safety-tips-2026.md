@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace integritet: 9 enkla viktiga tips 2026"
 description: "Skydda din facebook marketplace integritet med 9 viktiga tips för 2026. Lär dig att vara säker från bedrägerier, skydda personuppgifter och handla utan risk."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

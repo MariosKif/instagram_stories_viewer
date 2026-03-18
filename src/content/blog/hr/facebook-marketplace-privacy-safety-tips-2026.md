@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace Privatnost: 9 Osnovnih Jednostavnih Savjeta 2026."
 description: "Zaštitite svoju facebook marketplace privatnost s 9 osnovnih savjeta za 2026. Naučite kako se zaštititi od prijevara, čuvati osobne podatke i trgovati bez rizika."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

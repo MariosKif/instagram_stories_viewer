@@ -1,8 +1,8 @@
 ---
 title: "Facebook privatumo nustatymai: 7 būtini paprasti žingsniai 2026"
 description: "Įvaldykite savo facebook privatumo nustatymus su šiais 7 būtinais žingsniais, kad visiškai užrakintumėte savo profilį 2026 m. Apsaugokite savo duomenis paprastu būdu dabar."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

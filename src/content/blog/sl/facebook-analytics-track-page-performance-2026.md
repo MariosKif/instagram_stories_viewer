@@ -1,8 +1,8 @@
 ---
 title: "Facebook Analytics: 7 preverjenih brezplačnih načinov za sledenje rezultatov"
 description: "Obvladajte facebook analytics za sledenje in izboljšanje zmogljivosti strani v letu 2026. Odkrijte 7 preverjenih brezplačnih metod za merjenje metrik, ki poganjajo rast."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-10
+updatedDate: 2026-03-10
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

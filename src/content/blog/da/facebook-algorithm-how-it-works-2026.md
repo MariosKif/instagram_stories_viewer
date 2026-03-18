@@ -1,8 +1,8 @@
 ---
 title: "Facebook Algoritmen i 2026: 5 Gennemprøvede Simple Tips til at Vinde"
 description: "Opdag præcis hvordan facebook algoritmen fungerer i 2026. Lær 5 gennemprøvede rangordningsfaktorer, indholdsstrategier og gratis tips til at øge din rækkevidde."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

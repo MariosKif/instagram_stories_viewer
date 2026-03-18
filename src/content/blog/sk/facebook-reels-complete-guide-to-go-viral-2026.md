@@ -1,7 +1,7 @@
 ---
 title: "Facebook Reels kompletný sprievodca: 7 overených jednoduchých krokov v roku 2026"
 description: "Ovládnite facebook reels s týmto kompletným sprievodcom pre rok 2026. Naučte sa 7 overených krokov na virálny úspech, rýchly rast publika a budovanie víťaznej stratégie obsahu."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

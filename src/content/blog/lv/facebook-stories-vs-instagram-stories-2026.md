@@ -1,8 +1,8 @@
 ---
 title: "Facebook stāsti vs Instagram stāsti: 5 pārbaudīti vienkārši padomi"
 description: "Salīdziniet facebook stāstus vs instagram stāstus 2026. gadā. Atklājiet 5 pārbaudītus padomus par funkcijām, auditorijas sasniedzamību un labākās platformas izvēli."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

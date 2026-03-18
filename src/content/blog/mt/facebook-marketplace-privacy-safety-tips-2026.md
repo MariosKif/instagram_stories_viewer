@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace Privacy: 9 Pariri Essenzjali Faċli 2026"
 description: "Ipproteġi l-facebook marketplace privacy tiegħek b'9 pariri essenzjali għall-2026. Tgħallem kif tibqa' sigur mill-iskams, tħares id-data personali, u tinnegozja mingħajr riskju."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

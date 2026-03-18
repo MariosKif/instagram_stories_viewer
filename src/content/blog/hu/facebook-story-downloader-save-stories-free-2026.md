@@ -1,8 +1,8 @@
 ---
 title: "Facebook Story Letöltő: 5 Legjobb Ingyenes Egyszerű Módszer 2026"
 description: "Használj facebook story letöltőt a Storyk ingyenes mentéséhez 2026-ban. Öt egyszerű módszer lépésről lépésre útmutatóval minden eszközön történő letöltéshez."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

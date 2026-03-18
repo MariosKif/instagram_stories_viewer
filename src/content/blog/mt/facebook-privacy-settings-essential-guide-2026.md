@@ -1,8 +1,8 @@
 ---
 title: "Facebook Privacy Settings: 7 Passi Essenzjali Faċli għall-2026"
 description: "Ikkontrollha l-facebook privacy settings tiegħek b'dawn is-7 passi essenzjali biex tagħlaq il-profil tiegħek kompletament fl-2026. Ipproteġi d-data tiegħek bl-mod faċli issa."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-16
+updatedDate: 2026-03-16
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

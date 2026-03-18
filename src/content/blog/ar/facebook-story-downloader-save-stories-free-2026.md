@@ -1,8 +1,8 @@
 ---
 title: "أداة تنزيل قصص فيسبوك: أفضل 5 طرق مجانية بسيطة 2026"
 description: "استخدم أداة تنزيل قصص فيسبوك لحفظ القصص مجاناً في 2026. خمس طرق بسيطة مع تعليمات خطوة بخطوة للتنزيل على كل جهاز."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

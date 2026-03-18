@@ -1,8 +1,8 @@
 ---
 title: "Facebook-profiilin katselu: 7 parasta ilmaista helppoa työkalua"
 description: "Opi käyttämään facebook-profiilin katselutyökalua profiilien yksityiseen selaamiseen vuonna 2026. Löydä 7 ilmaista menetelmää, yksityisyystyökaluja ja asiantuntijavinkkejä turvallisuuteen."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

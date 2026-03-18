@@ -1,7 +1,7 @@
 ---
 title: "Facebook Marketplace privātums: 9 būtiski vienkārši padomi 2026"
 description: "Aizsargājiet savu facebook marketplace privātumu ar 9 būtiskiem padomiem 2026. gadam. Uzziniet, kā pasargāties no krāpšanas, aizsargāt personīgos datus un tirgot bez riska."
-pubDate: 2026-03-18
+pubDate: 2026-03-11
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

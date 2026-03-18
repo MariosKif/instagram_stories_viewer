@@ -1,8 +1,8 @@
 ---
 title: "Algoritmus Facebooku v roce 2026: 5 ověřených jednoduchých tipů k úspěchu"
 description: "Zjistěte přesně, jak funguje algoritmus facebooku v roce 2026. Naučte se 5 ověřených faktorů hodnocení, strategie obsahu a bezplatné tipy pro zvýšení dosahu."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

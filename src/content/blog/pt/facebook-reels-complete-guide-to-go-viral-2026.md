@@ -1,7 +1,7 @@
 ---
 title: "Guia Completo de Facebook Reels: 7 Passos Simples Comprovados em 2026"
 description: "Domine os facebook reels com este guia completo de 2026. Aprenda 7 passos comprovados para se tornar viral, crescer a sua audiencia rapidamente e construir uma estrategia de conteudo vencedora."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

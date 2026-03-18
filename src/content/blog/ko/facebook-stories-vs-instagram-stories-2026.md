@@ -1,8 +1,8 @@
 ---
 title: "Facebook 스토리 vs Instagram 스토리: 5가지 검증된 쉬운 팁"
 description: "2026년 facebook 스토리 vs instagram 스토리를 비교하세요. 기능, 오디언스 도달, 최적의 플랫폼 선택에 대한 5가지 검증된 팁을 발견하세요."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

@@ -1,7 +1,7 @@
 ---
 title: "Facebook Reels pilnīga rokasgrāmata: 7 pārbaudīti vienkārši soļi 2026"
 description: "Apgūstiet facebook reels ar šo pilnīgo 2026. gada rokasgrāmatu. Uzziniet 7 pārbaudītus soļus, lai kļūtu virāli, ātri audzētu savu auditoriju un veidotu uzvarošu satura stratēģiju."
-pubDate: 2026-03-18
+pubDate: 2026-03-12
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

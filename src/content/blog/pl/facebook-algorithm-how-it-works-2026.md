@@ -1,8 +1,8 @@
 ---
 title: "Algorytm Facebooka w 2026: 5 Sprawdzonych Prostych Wskazowek"
 description: "Odkryj dokladnie, jak algorytm facebooka dziala w 2026. Poznaj 5 sprawdzonych czynnikow rankingowych, strategie tresci i darmowe wskazowki, aby zwiekszyc swoj zasieg."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-13
+updatedDate: 2026-03-13
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

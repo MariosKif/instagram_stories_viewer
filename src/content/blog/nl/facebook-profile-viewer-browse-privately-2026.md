@@ -1,8 +1,8 @@
 ---
 title: "Facebook Profiel Viewer: 7 Ultieme Eenvoudige en Gratis Tools"
 description: "Leer hoe je een facebook profiel viewer gebruikt om profielen privé te bekijken in 2026. Ontdek 7 gratis methoden, privacytools en experttips voor veiligheid."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-14
+updatedDate: 2026-03-14
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"

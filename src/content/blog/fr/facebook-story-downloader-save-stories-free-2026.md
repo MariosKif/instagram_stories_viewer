@@ -1,8 +1,8 @@
 ---
 title: "Téléchargeur de Stories Facebook : 5 meilleures méthodes gratuites 2026"
 description: "Utilisez un téléchargeur de stories Facebook pour sauvegarder des Stories gratuitement en 2026. Cinq méthodes simples avec des instructions étape par étape pour chaque appareil."
-pubDate: 2026-03-18
-updatedDate: 2026-03-18
+pubDate: 2026-03-15
+updatedDate: 2026-03-15
 author: "IGStoryPeek"
 featured: false
 image: "/blog/platform-facebook.svg"
