@@ -12,6 +12,25 @@ export const onRequest = defineMiddleware(async (context, next) => {
     return next();
   }
 
+  // Redirect /blog/{lang}/slug → /{lang}/blog/slug (fix old indexed URLs)
+  if (pathname.startsWith('/blog/')) {
+    const blogSegments = pathname.split('/').filter(Boolean);
+    // blogSegments: ['blog', possibleLang, ...slugParts]
+    if (blogSegments.length >= 3) {
+      const possibleLang = blogSegments[1] as Language;
+      if (allLanguages.includes(possibleLang)) {
+        const slugParts = blogSegments.slice(2).join('/');
+        const correctPath = possibleLang === defaultLang
+          ? `/blog/${slugParts}`
+          : `/${possibleLang}/blog/${slugParts}`;
+        return new Response(null, {
+          status: 301,
+          headers: { Location: correctPath },
+        });
+      }
+    }
+  }
+
   // Check if the first segment is a language code
   const segments = pathname.split('/').filter(Boolean);
   const firstSegment = segments[0] as Language;
