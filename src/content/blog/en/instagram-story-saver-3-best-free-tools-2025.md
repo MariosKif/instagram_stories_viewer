@@ -1,6 +1,6 @@
 ---
 title: "Instagram Story Saver: The 3 Best Free Tools Without Login"
-description: "Compare the 3 best free instagram story saver tools for 2025. Save and archive stories before they expire using IGStoryPeek with no login required."
+description: "Compare the 3 best free instagram story saver tools for 2026. Save and archive stories before they expire using IGStoryPeek with no login required."
 pubDate: 2025-02-10
 updatedDate: 2025-02-10
 author: "IGStoryPeek"

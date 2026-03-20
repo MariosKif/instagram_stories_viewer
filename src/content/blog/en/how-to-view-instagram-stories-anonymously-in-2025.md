@@ -1,6 +1,6 @@
 ---
-title: "How to Browse Instagram Stories Without an Account in 2025"
-description: "Learn how to browse Instagram stories without logging in or creating an account. Discover the easiest methods to view Instagram stories for free in 2025 using IGStoryPeek. No login required."
+title: "How to Browse Instagram Stories Without an Account in 2026"
+description: "Learn how to browse Instagram stories without logging in or creating an account. Discover the easiest methods to view Instagram stories for free in 2026 using IGStoryPeek. No login required."
 pubDate: 2025-01-15
 updatedDate: 2025-01-15
 author: "IGStoryPeek"

@@ -500,7 +500,7 @@ const pageDescription = popular
         interList.innerHTML = topPosts.map((p: any, idx: number) => `
           <div class="flex items-center gap-3">
             <span class="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-[10px] font-bold text-primary flex-shrink-0">${idx + 1}</span>
-            ${p.thumbnail ? `<img src="/api/image-proxy?url=${encodeURIComponent(p.thumbnail)}" alt="" class="w-10 h-10 rounded object-cover flex-shrink-0" />` : ''}
+            ${p.thumbnail ? `<img src="/api/image-proxy?url=${encodeURIComponent(p.thumbnail)}" alt="Post by @${username}" class="w-10 h-10 rounded object-cover flex-shrink-0" />` : ''}
             <div class="flex-1 min-w-0">
               <p class="text-xs text-dark-400 truncate">${p.caption || 'Post'}</p>
               <p class="text-xs text-dark-500">${formatNumber(p.likes)} likes &middot; ${formatNumber(p.comments)} comments</p>

@@ -1,6 +1,6 @@
 ---
-title: "Instagram Viewer Online: The 7 Best Free Methods in 2025"
-description: "Discover the 7 best free methods to use an instagram viewer online in 2025. Browse public profiles from any browser with IGStoryPeek. No app needed."
+title: "Instagram Viewer Online: The 7 Best Free Methods in 2026"
+description: "Discover the 7 best free methods to use an instagram viewer online in 2026. Browse public profiles from any browser with IGStoryPeek. No app needed."
 pubDate: 2025-02-15
 updatedDate: 2025-02-15
 author: "IGStoryPeek"

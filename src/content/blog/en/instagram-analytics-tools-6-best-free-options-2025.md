@@ -1,6 +1,6 @@
 ---
-title: "Instagram Analytics Tools: 6 Best Free Options for 2025"
-description: "Discover the 6 best free Instagram analytics tools to monitor competitors in 2025. Track any public account with IGStoryPeek and no login required."
+title: "Instagram Analytics Tools: 6 Best Free Options for 2026"
+description: "Discover the 6 best free Instagram analytics tools to monitor competitors in 2026. Track any public account with IGStoryPeek and no login required."
 pubDate: 2025-02-20
 updatedDate: 2025-02-20
 author: "IGStoryPeek"

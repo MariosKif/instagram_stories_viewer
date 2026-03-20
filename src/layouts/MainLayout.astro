@@ -23,7 +23,7 @@ interface Props {
 const {
   title,
   description = 'Social media analytics and content tools. Analyze public profiles, track engagement trends, and discover insights across Instagram, TikTok, Facebook, and Snapchat.',
-  ogImage = '/og-default.svg',
+  ogImage = '/og-default.png',
   ogType = 'website',
   canonical: canonicalOverride,
   noIndex = false,
@@ -37,6 +37,20 @@ const siteBase = 'https://www.igstorypeek.com';
 const siteUrl = siteBase;
 const currentPath = Astro.url.pathname;
 const canonical = canonicalOverride || `${siteBase}${currentPath}`;
+
+// OG locale mapping
+const ogLocaleMap: Record<string, string> = {
+  en: 'en_US', de: 'de_DE', fr: 'fr_FR', es: 'es_ES', it: 'it_IT',
+  nl: 'nl_NL', pt: 'pt_PT', pl: 'pl_PL', ro: 'ro_RO', cs: 'cs_CZ',
+  bg: 'bg_BG', hr: 'hr_HR', da: 'da_DK', et: 'et_EE', fi: 'fi_FI',
+  el: 'el_GR', hu: 'hu_HU', ga: 'ga_IE', lv: 'lv_LV', lt: 'lt_LT',
+  mt: 'mt_MT', sk: 'sk_SK', sl: 'sl_SI', sv: 'sv_SE', ja: 'ja_JP',
+  ko: 'ko_KR', zh: 'zh_CN', ru: 'ru_RU', tr: 'tr_TR', ar: 'ar_SA',
+};
+const ogLocale = ogLocaleMap[lang] || 'en_US';
+
+// Conditional schema — don't inject WebApplication on blog pages
+const isBlogPage = currentPath.includes('/blog');
 
 // CJK/Arabic font families
 const needsCJKFont = ['ja', 'ko', 'zh'].includes(lang);
@@ -65,7 +79,7 @@ const needsArabicFont = lang === 'ar';
     <meta property="og:description" content={description} />
     <meta property="og:image" content={`${siteUrl}${ogImage}`} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={lang} />
+    <meta property="og:locale" content={ogLocale} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -85,7 +99,7 @@ const needsArabicFont = lang === 'ar';
     <Analytics lang={lang} />
 
     <!-- DNS prefetch for third-party origins -->
-    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
 
     <!-- Self-hosted Latin fonts (Inter + Space Grotesk) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
@@ -137,29 +151,26 @@ const needsArabicFont = lang === 'ar';
     <!-- Extra head content (e.g. article OG tags from blog posts) -->
     <slot name="head" />
 
-    <!-- Structured Data — SaaS / WebApplication schema -->
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "@id": `${siteBase}/#webapplication`,
-      "name": siteName,
-      "url": siteBase,
-      "inLanguage": lang,
-      "description": description,
-      "applicationCategory": "SocialMediaApplication",
-      "operatingSystem": "Web",
-      "offers": {
-        "@type": "AggregateOffer",
-        "lowPrice": "0",
-        "highPrice": "29.99",
-        "priceCurrency": "USD",
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "1240",
-      },
-    })} />
+    <!-- Structured Data — SaaS / WebApplication schema (not on blog pages) -->
+    {!isBlogPage && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "@id": `${siteBase}/#webapplication`,
+        "name": siteName,
+        "url": siteBase,
+        "inLanguage": lang,
+        "description": description,
+        "applicationCategory": "SocialMediaApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "0",
+          "highPrice": "29",
+          "priceCurrency": "USD",
+        },
+      })} />
+    )}
 
     <!-- Organization schema -->
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -176,10 +187,30 @@ const needsArabicFont = lang === 'ar';
         "height": 512,
       },
       "description": "Social media analytics and content tools for public profiles.",
+      "sameAs": [],
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "contact@igstorypeek.com",
         "contactType": "customer support",
+      },
+    })} />
+
+    <!-- WebSite schema with SearchAction (sitelinks searchbox) -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": `${siteBase}/#website`,
+      "name": siteName,
+      "url": siteBase,
+      "inLanguage": lang,
+      "publisher": { "@id": `${siteBase}/#organization` },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": `${siteBase}/search/{search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
       },
     })} />
 

@@ -1,6 +1,6 @@
 ---
-title: "Instagram Profile Viewer: 5 Best Free Tools [2025 Guide]"
-description: "Discover the 5 best free instagram profile viewer tools for 2025. Browse complete public profiles, stories, and reels with IGStoryPeek. No login."
+title: "Instagram Profile Viewer: 5 Best Free Tools [2026 Guide]"
+description: "Discover the 5 best free instagram profile viewer tools for 2026. Browse complete public profiles, stories, and reels with IGStoryPeek. No login."
 pubDate: 2025-03-10
 updatedDate: 2025-03-10
 author: "IGStoryPeek"

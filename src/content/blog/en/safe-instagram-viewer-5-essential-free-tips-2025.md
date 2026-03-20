@@ -1,6 +1,6 @@
 ---
-title: "Safe Instagram Viewer: 5 Essential Free Safety Tips 2025"
-description: "Discover the 5 essential free tips for using a safe Instagram viewer in 2025. Avoid scams, malware, and phishing threats. Browse with IGStoryPeek."
+title: "Safe Instagram Viewer: 5 Essential Free Safety Tips 2026"
+description: "Discover the 5 essential free tips for using a safe Instagram viewer in 2026. Avoid scams, malware, and phishing threats. Browse with IGStoryPeek."
 pubDate: 2025-03-05
 updatedDate: 2025-03-05
 author: "IGStoryPeek"

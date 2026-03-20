@@ -139,7 +139,7 @@ const blogPostingSchema = JSON.stringify({
   description: post.data.description,
   image: postImage,
   inLanguage: lang,
-  author: { '@type': 'Organization', name: post.data.author || 'IGStoryPeek', url: siteUrl },
+  author: { '@type': 'Person', name: post.data.author || 'Alex Morgan', url: `${siteUrl}/about` },
   publisher: {
     '@type': 'Organization',
     name: 'IGStoryPeek',
@@ -198,12 +198,13 @@ const breadcrumbSchema = JSON.stringify({
       <div class="rounded-xl sm:rounded-2xl overflow-hidden mb-8">
         <img
           src={post.data.image || '/blog/default-blog-hero.svg'}
-          alt={post.data.title}
+          alt={`Illustration for ${post.data.title}`}
           width="1200"
           height="630"
           decoding="async"
           class="w-full h-auto"
           fetchpriority="high"
+          loading="eager"
         />
       </div>
 
@@ -321,8 +322,8 @@ const breadcrumbSchema = JSON.stringify({
               <svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
             </div>
             <div>
-              <p class="font-heading font-semibold text-white">IGStoryPeek</p>
-              <p class="text-sm text-dark-400 mt-1">Browse Instagram stories, highlights, reels, and posts from public accounts — no login required. Fast, free, and privacy-first.</p>
+              <p class="font-heading font-semibold text-white">{post.data.author || 'Alex Morgan'}</p>
+              <p class="text-sm text-dark-400 mt-1">Social media analyst and content strategist at IGStoryPeek. Specializing in platform analytics, engagement optimization, and content trends across Instagram, TikTok, Facebook, and Snapchat.</p>
               <a href={getLocalizedPath('/', lang)} class="inline-block mt-2 text-sm text-primary hover:underline">Try IGStoryPeek &rarr;</a>
             </div>
           </div>

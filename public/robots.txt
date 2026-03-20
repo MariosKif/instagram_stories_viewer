@@ -3,13 +3,13 @@ Allow: /
 Allow: /ads.txt
 Allow: /blog
 Allow: /blog/
+Allow: /search/
 Allow: /llms.txt
 Allow: /llms-full.txt
 Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 # ─── AI Search Engine Crawlers ───────────────────────────
 # Explicitly allow all major AI crawlers to index the site
@@ -21,7 +21,6 @@ Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 # OpenAI search features
 User-agent: ChatGPT-User
@@ -61,7 +60,6 @@ Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 # ─── Traditional Search Engines ──────────────────────────
 
@@ -71,7 +69,6 @@ Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 User-agent: Slurp
 Allow: /
@@ -79,7 +76,6 @@ Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 User-agent: DuckDuckBot
 Allow: /
@@ -87,7 +83,6 @@ Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 User-agent: YandexBot
 Allow: /
@@ -95,7 +90,6 @@ Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
-Disallow: /search/
 
 # ─── Sitemaps & AI Content ───────────────────────────────
 

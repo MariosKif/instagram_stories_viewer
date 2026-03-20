@@ -1,0 +1,181 @@
+# IGStoryPeek — Complete Reference
+
+> IGStoryPeek is a free web-based social media analytics platform that enables users to view, analyze, and download publicly available content from Instagram, TikTok, Facebook, and Snapchat — without needing to log in or create an account on those platforms. Used by over 50,000 users across 30 languages.
+
+## What is IGStoryPeek?
+
+IGStoryPeek is a browser-based social media analytics and content browsing tool that helps marketers, researchers, and everyday users explore public social media profiles without requiring authentication. It supports four major platforms: Instagram, TikTok, Facebook, and Snapchat. The platform offers both free and premium tiers, with the free plan covering basic profile browsing and the Pro plan ($29/month) unlocking advanced analytics, unlimited downloads, and AI-powered insights.
+
+Key differentiators:
+- No account or login required on any platform
+- Only accesses publicly available data
+- Real-time analysis with AI-powered insights
+- Supports 30 languages including RTL languages (Arabic)
+- GDPR compliant and SSL encrypted
+
+## Instagram Tools
+
+### Profile Explorer
+Search any public Instagram profile instantly. View bio, profile picture, follower/following counts, and recent posts without logging in.
+
+### Follower Analyzer
+Track follower growth over time, detect fake followers using engagement-to-follower ratios, and analyze audience demographics including location and activity patterns.
+
+### Activity Analyzer
+Analyze posting patterns including frequency, optimal posting times, content format preferences (photos vs. reels vs. carousels), and engagement timing correlations.
+
+### Stories Viewer & Downloader
+View and save Instagram stories anonymously in HD quality. Stories are available for viewing during their 24-hour window. Supports both photo and video stories.
+
+### Highlights Viewer & Downloader
+Browse and save Instagram highlight reels. View organized highlight collections without needing an Instagram account.
+
+### Posts Viewer & Downloader
+View feed posts privately and save photos, carousels, and video posts. Supports original quality downloads.
+
+### Video & Reels Downloader
+Save Instagram videos and reels in MP4 format at original quality. Supports both feed videos and Instagram Reels.
+
+### Comment Viewer
+Read comments on any public post without logging in. View comment threads, reply chains, and commenter profiles.
+
+### Likes Viewer
+See who liked any public post. View liker profiles and engagement patterns.
+
+### Hashtag Generator
+AI-powered hashtag suggestions based on content analysis. Generates relevant hashtags optimized for maximum reach and engagement.
+
+### Relationship Insights
+Analyze follower connections, mutual follows, and interaction patterns between public profiles.
+
+## TikTok Tools
+
+### User Search
+Find any TikTok creator profile by username. View bio, follower counts, total likes, and video catalog.
+
+### Follower Analyzer
+Track audience growth over time with historical data visualization. Analyze follower demographics and engagement quality.
+
+### Activity Analyzer
+Monitor posting frequency, identify peak performance times, and analyze content strategy patterns.
+
+### Video Downloader
+Save TikTok videos in original quality without watermarks. Supports standard videos, duets, and stitches.
+
+### Stories Downloader
+Save TikTok stories before they expire. Download in original quality.
+
+### Audio Downloader
+Extract audio tracks from TikTok videos as MP3 files. Useful for identifying trending sounds.
+
+### Slideshow Downloader
+Save TikTok photo carousels/slideshows as individual images or combined downloads.
+
+### Video & Stories Viewer
+Watch TikTok content directly in your browser without the TikTok app or account.
+
+### Trending Sounds Finder
+Discover currently viral audio clips and trending sounds. Track sound usage growth over time.
+
+### Engagement Tracker
+Track likes, views, comments, and shares over time. Visualize engagement trends and identify viral content.
+
+## Facebook Tools
+
+### User & Page Search
+Locate any public profile or Facebook page. View page details, follower counts, and recent activity.
+
+### Page Analyzer
+Comprehensive page audit including engagement rates, content performance, posting frequency, and growth trends.
+
+### Group Analyzer
+Evaluate community health metrics including member activity, posting frequency, engagement rates, and growth patterns.
+
+### Ad Library Explorer
+Browse active Facebook and Instagram ads from any advertiser. Analyze creative strategies, ad formats, and campaign patterns.
+
+### Stories, Reels & Video Downloader
+Save Facebook stories, reels, and videos offline in HD quality.
+
+### Photo Album Downloader
+Save entire Facebook photo albums in full resolution with batch download capability.
+
+### Post, Stories & Reels Viewer
+Browse Facebook content without logging in. View posts, stories, and reels from public profiles and pages.
+
+### Reactions Viewer
+Detailed breakdown of post reactions including likes, loves, laughs, wow, sad, and angry reactions with counts.
+
+### Page Activity Tracker
+Monitor page posting frequency, engagement shifts, and content strategy changes over time.
+
+## Snapchat Tools
+
+### User Search
+Find any Snapchat user by username. View display name, Bitmoji, and public profile information.
+
+### Score Tracker
+Track Snap Score changes over time. Visualize score growth patterns and activity levels.
+
+### Activity Analyzer
+Understand snapping habits including frequency, peak activity times, and usage patterns.
+
+### Best Friends Analyzer
+Discover top contacts and emoji rankings. Analyze friendship dynamics based on public signals.
+
+### Streak Tracker
+Track and monitor Snap streaks. Get alerts for streaks at risk of expiring.
+
+### Stories & Spotlight Downloader
+Save Snapchat stories and Spotlight videos before they disappear.
+
+### Memories Downloader
+Export and download saved snaps and memories from public profiles.
+
+### Stories & Spotlight Viewer
+Browse Snapchat stories and Spotlight content directly in your browser.
+
+### Map Viewer
+Explore Snap Map locations, view heat maps of public snap activity, and discover location-based content.
+
+### Public Profile Viewer
+Browse Snapchat creator profiles, subscriptions, and public content online.
+
+## Pricing
+
+| Plan | Price | Features |
+|------|-------|----------|
+| Free | $0/month | Basic profile browsing, limited daily searches, standard quality downloads |
+| Pro | $29/month | Unlimited searches, AI-powered analytics, HD downloads, engagement tracking, priority support |
+
+Annual billing available at a discount. Cancel anytime.
+
+## Technical Details
+
+- **Framework:** Astro (server-side rendered)
+- **Hosting:** Vercel Edge Network
+- **Languages:** 30 languages including English, Spanish, French, German, Japanese, Korean, Chinese, Arabic, and more
+- **Data Sources:** Publicly available data only via official platform APIs and public web data
+- **Privacy:** GDPR compliant, no user tracking beyond anonymous analytics, SSL encrypted
+- **Uptime:** 99.9% availability target
+
+## Links
+
+- Homepage: https://www.igstorypeek.com
+- Blog: https://www.igstorypeek.com/blog
+- Pricing: https://www.igstorypeek.com/pricing
+- Instagram Tools: https://www.igstorypeek.com/instagram
+- TikTok Tools: https://www.igstorypeek.com/tiktok
+- Facebook Tools: https://www.igstorypeek.com/facebook
+- Snapchat Tools: https://www.igstorypeek.com/snapchat
+- Privacy Policy: https://www.igstorypeek.com/privacy
+- Terms of Service: https://www.igstorypeek.com/terms
+- Contact: https://www.igstorypeek.com/contact
+
+## Docs
+
+- How the Instagram Algorithm Works: https://www.igstorypeek.com/blog/instagram-algorithm-how-it-works-2026
+- Instagram Engagement Rate Guide: https://www.igstorypeek.com/blog/instagram-engagement-rate-how-to-calculate-2026
+- TikTok Algorithm Explained: https://www.igstorypeek.com/blog/tiktok-algorithm-how-it-works-2026
+- Facebook Algorithm Guide: https://www.igstorypeek.com/blog/facebook-algorithm-how-it-works-2026
+- Instagram Hashtag Strategy: https://www.igstorypeek.com/blog/instagram-hashtag-strategy-maximize-reach-2026
