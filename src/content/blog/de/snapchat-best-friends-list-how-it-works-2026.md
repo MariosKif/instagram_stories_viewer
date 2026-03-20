@@ -3,7 +3,7 @@ title: "Snapchat Beste-Freunde-Liste — Wie sie funktioniert und wer es 2026 re
 description: "Erfahre, wie die Snapchat Beste-Freunde-Liste 2026 funktioniert, einschließlich des Algorithmus hinter Freunde-Rankings, Emoji-Bedeutungen, Snapchat-Planeten und wie du deine Liste für den Datenschutz verwaltest."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

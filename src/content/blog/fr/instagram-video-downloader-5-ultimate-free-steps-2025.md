@@ -3,7 +3,7 @@ title: "Téléchargeur de Vidéos Instagram : 5 Étapes Gratuites Ultimes pour 2
 description: "Utilisez ce téléchargeur de vidéos Instagram pour enregistrer des vidéos de fil, IGTV et carrousels en HD. Suivez 5 étapes gratuites ultimes avec IGStoryPeek. Sans connexion."
 pubDate: 2025-02-05
 updatedDate: 2025-02-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-video-save.svg"
 category: "Tutorials"

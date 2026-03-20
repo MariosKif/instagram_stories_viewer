@@ -3,7 +3,7 @@ title: "Instagram ohne Konto: Die 8 besten bewährten kostenlosen Wege 2025"
 description: "Entdecken Sie 8 bewährte kostenlose Wege, um Instagram ohne Konto 2025 zu nutzen. Stories, Reels und Beiträge sofort anzeigen mit IGStoryPeek. Keine Anmeldung nötig."
 pubDate: 2025-01-20
 updatedDate: 2025-01-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-no-account.svg"
 category: "Guides"

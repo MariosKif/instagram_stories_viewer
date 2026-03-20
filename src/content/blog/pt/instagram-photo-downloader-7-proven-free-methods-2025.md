@@ -3,7 +3,7 @@ title: "Baixador de Fotos do Instagram: 7 Metodos Gratuitos Comprovados em 2025"
 description: "Descubra 7 metodos gratuitos comprovados para usar um baixador de fotos do Instagram em 2025. Salve fotos publicas e carrosseis em HD com o IGStoryPeek. Sem login."
 pubDate: 2025-03-12
 updatedDate: 2025-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-photo-save.svg"
 category: "Tutorials"

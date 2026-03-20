@@ -3,7 +3,7 @@ title: "Instagram Stories herunterladen: 7 bewaehrte kostenlose Schritte fuer 20
 description: "Lernen Sie 7 bewaehrte kostenlose Schritte, um Instagram Stories in HD-Qualitaet herunterzuladen. Speichern Sie Stories, Reels und Highlights sofort mit IGStoryPeek. Keine Anmeldung erforderlich."
 pubDate: 2025-02-18
 updatedDate: 2025-02-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-download.svg"
 category: "Tutorials"

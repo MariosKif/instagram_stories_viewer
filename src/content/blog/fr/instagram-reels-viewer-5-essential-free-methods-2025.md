@@ -3,7 +3,7 @@ title: "Instagram Reels Viewer : 5 methodes gratuites essentielles en 2025"
 description: "Decouvrez les 5 methodes gratuites essentielles pour utiliser un Instagram Reels Viewer en 2025. Regardez et enregistrez des reels publics instantanement avec IGStoryPeek. Aucun compte necessaire."
 pubDate: 2025-01-28
 updatedDate: 2025-01-28
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-reels-guide.svg"
 category: "Tips"

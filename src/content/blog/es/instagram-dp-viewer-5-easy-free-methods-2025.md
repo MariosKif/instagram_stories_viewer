@@ -3,7 +3,7 @@ title: "Visor de Foto de Perfil de Instagram: 5 Métodos Fáciles y Gratuitos pa
 description: "Descubre 5 métodos gratuitos definitivos para usar un visor de foto de perfil de Instagram en 2025. Ve fotos de perfil en tamaño completo y HD con IGStoryPeek. Sin inicio de sesión."
 pubDate: 2025-03-01
 updatedDate: 2025-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-photo.svg"
 category: "Tips"

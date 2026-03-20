@@ -3,7 +3,7 @@ title: "Instagram Hashtag-Strategie — So maximieren Sie Ihre Reichweite 2026"
 description: "Meistern Sie Instagram-Hashtags 2026 mit bewährten Strategien für Reichweite und Entdeckung. Nutzen Sie IGStoryPeeks Hashtag-Generator, um die besten Tags für Ihre Nische zu finden."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"

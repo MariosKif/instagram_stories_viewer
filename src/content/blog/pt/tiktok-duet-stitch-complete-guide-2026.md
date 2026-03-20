@@ -3,7 +3,7 @@ title: "Dueto e Stitch do TikTok — Guia Completo dos Recursos de Colaboracao e
 description: "Domine os recursos Dueto e Stitch do TikTok em 2026. Aprenda estrategias criativas, melhores praticas e como rastrear o desempenho de colaboracoes com as ferramentas gratuitas do IGStoryPeek."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Visionneuse Instagram Sécurisée : 5 Conseils de Sécurité Essentiels 
 description: "Découvrez les 5 conseils essentiels gratuits pour utiliser une visionneuse Instagram sécurisée en 2025. Évitez les arnaques, logiciels malveillants et menaces de phishing. Naviguez avec IGStoryPeek."
 pubDate: 2025-03-05
 updatedDate: 2025-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-safe-browse.svg"
 category: "Privacy"

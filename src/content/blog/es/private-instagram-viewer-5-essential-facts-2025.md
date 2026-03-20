@@ -3,7 +3,7 @@ title: "Visor de Instagram Privado: 5 Datos Esenciales Gratuitos para 2025"
 description: "Conoce 5 datos esenciales sobre el mito del visor de Instagram privado. Descubre por qué la mayoría de herramientas son estafas y cómo IGStoryPeek ve contenido público de forma segura."
 pubDate: 2025-02-25
 updatedDate: 2025-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-private-browse.svg"
 category: "Privacy"

@@ -3,7 +3,7 @@ title: "Téléchargeur de vidéos Facebook : 7 méthodes gratuites éprouvées e
 description: "Apprenez les 7 meilleures méthodes gratuites de téléchargeur de vidéos Facebook en 2026. Sauvegardez des vidéos HD rapidement avec des guides étape par étape et des conseils juridiques."
 pubDate: 2026-03-17
 updatedDate: 2026-03-17
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Guides"

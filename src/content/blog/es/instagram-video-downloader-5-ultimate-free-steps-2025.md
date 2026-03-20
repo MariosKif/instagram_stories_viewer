@@ -3,7 +3,7 @@ title: "Descargador de Videos de Instagram: 5 Pasos Gratuitos Definitivos para 2
 description: "Usa este descargador de videos de Instagram para guardar videos de feed, IGTV y carruseles en HD. Sigue 5 pasos gratuitos definitivos con IGStoryPeek. Sin inicio de sesión."
 pubDate: 2025-02-05
 updatedDate: 2025-02-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-video-save.svg"
 category: "Tutorials"

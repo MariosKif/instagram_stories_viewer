@@ -3,7 +3,7 @@ title: "Snapchat Memories — So speicherst, verwaltest und lädst du deine Inha
 description: "Vollständiger Leitfaden zu Snapchat Memories 2026. Erfahre, wie du Snaps speicherst, deine Inhalte organisierst, My Eyes Only nutzt, deine Erinnerungen herunterlädst und den Speicher effektiv verwaltest."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

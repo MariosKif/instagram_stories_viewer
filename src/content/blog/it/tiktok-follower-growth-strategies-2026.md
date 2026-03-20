@@ -3,7 +3,7 @@ title: "Crescita Follower TikTok — 10 Strategie Comprovate per Crescere Piu Ve
 description: "Scopri 10 strategie comprovate per far crescere i tuoi follower TikTok organicamente nel 2026. Tattiche pratiche per l'ottimizzazione dei contenuti, la promozione incrociata e la costruzione del pubblico."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

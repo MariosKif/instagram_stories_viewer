@@ -3,7 +3,7 @@ title: "Taxa de Engagement no TikTok — Como Calcular e Melhorar em 2026"
 description: "Domine os cálculos da taxa de engagement no TikTok com fórmulas exatas, benchmarks por nicho e estratégias comprovadas de melhoria. Use as ferramentas gratuitas de análise do IGStoryPeek para acompanhar seu desempenho."
 pubDate: 2026-02-20
 updatedDate: 2026-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

@@ -3,7 +3,7 @@ title: "Crescimento de Seguidores no TikTok — 10 Estrategias Comprovadas para 
 description: "Descubra 10 estrategias comprovadas para aumentar seus seguidores no TikTok organicamente em 2026. Taticas praticas para otimizacao de conteudo, promocao cruzada e construcao de audiencia."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Snapchat Streaks — Rules, Tips, and How to Never Lose Them in 2026"
 description: "Master Snapchat Streaks in 2026 with this complete guide. Learn the exact rules, understand the hourglass emoji warning, recover lost streaks, and discover strategies to maintain them effortlessly."
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Analisi Snapchat — Come monitorare le prestazioni del tuo profilo nel 
 description: "Padroneggia le analisi di Snapchat nel 2026 con questa guida completa al monitoraggio delle prestazioni del profilo, alla comprensione delle metriche chiave, alla misurazione dell'engagement e all'utilizzo degli insight per far crescere il tuo pubblico."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

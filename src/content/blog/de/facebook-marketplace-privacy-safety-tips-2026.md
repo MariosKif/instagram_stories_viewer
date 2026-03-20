@@ -2,7 +2,7 @@
 title: "Facebook Marketplace Datenschutz: 9 wichtige einfache Tipps 2026"
 description: "Schützen Sie Ihren Facebook Marketplace Datenschutz mit 9 wichtigen Tipps für 2026. Lernen Sie, sich vor Betrug zu schützen, persönliche Daten zu sichern und risikofrei zu handeln."
 pubDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Privacy"

@@ -3,7 +3,7 @@ title: "Visor de Perfiles de Instagram: 5 Mejores Herramientas Gratuitas [Guía 
 description: "Descubre las 5 mejores herramientas gratuitas de visor de perfiles de Instagram para 2025. Navega por perfiles públicos completos, historias y reels con IGStoryPeek. Sin inicio de sesión."
 pubDate: 2025-03-10
 updatedDate: 2025-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-guide.svg"
 category: "Guides"

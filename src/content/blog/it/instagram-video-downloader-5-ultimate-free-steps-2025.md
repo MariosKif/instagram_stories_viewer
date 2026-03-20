@@ -3,7 +3,7 @@ title: "Downloader video Instagram: 5 passaggi gratuiti definitivi per il 2025"
 description: "Usa questo downloader video Instagram per salvare video del feed, IGTV e caroselli in HD. Segui 5 passaggi gratuiti definitivi con IGStoryPeek. Nessun login richiesto."
 pubDate: 2025-02-05
 updatedDate: 2025-02-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-video-save.svg"
 category: "Tutorials"

@@ -3,7 +3,7 @@ title: "TikTok Trending Sounds — How to Find & Use Viral Audio in 2026"
 description: "Learn how to find TikTok trending sounds before they peak, time your usage for maximum reach, and boost your content strategy with viral audio in 2026."
 pubDate: 2026-02-25
 updatedDate: 2026-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

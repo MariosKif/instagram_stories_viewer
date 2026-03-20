@@ -3,7 +3,7 @@ title: "Algorithme TikTok expliqué — Comment la page Pour Toi fonctionne vrai
 description: "Comprenez comment l'algorithme TikTok décide de ce qui apparaît sur la page Pour Toi en 2026. Découvrez les signaux de classement, les phases de distribution du contenu et les stratégies pour obtenir plus de portée."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

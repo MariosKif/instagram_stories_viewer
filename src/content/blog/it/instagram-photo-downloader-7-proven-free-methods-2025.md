@@ -3,7 +3,7 @@ title: "Downloader foto Instagram: 7 metodi gratuiti comprovati nel 2025"
 description: "Scopri 7 metodi gratuiti comprovati per usare un downloader foto Instagram nel 2025. Salva foto pubbliche e caroselli in HD con IGStoryPeek. Nessun login necessario."
 pubDate: 2025-03-12
 updatedDate: 2025-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-photo-save.svg"
 category: "Tutorials"

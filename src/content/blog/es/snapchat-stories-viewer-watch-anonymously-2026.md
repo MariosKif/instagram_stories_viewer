@@ -3,7 +3,7 @@ title: "Cómo ver historias de Snapchat de forma anónima en 2026 — Guía comp
 description: "Descubre cómo ver historias de Snapchat sin que la otra persona lo sepa en 2026. Compara métodos, entiende las implicaciones de privacidad y aprende qué herramientas realmente funcionan."
 pubDate: 2026-02-22
 updatedDate: 2026-02-22
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Tips"

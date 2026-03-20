@@ -3,7 +3,7 @@ title: "Taux d'Engagement Instagram — Comment le Calculer et Quel est un Bon T
 description: "Apprenez à calculer votre taux d'engagement Instagram en 2026 avec des formules exactes et des benchmarks par niche. Utilisez les outils gratuits d'IGStoryPeek pour mesurer vos vraies performances."
 pubDate: 2026-03-02
 updatedDate: 2026-03-02
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"

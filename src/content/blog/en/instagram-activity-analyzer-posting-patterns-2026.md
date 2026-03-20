@@ -3,7 +3,7 @@ title: "Instagram Activity Analyzer — Uncover Posting Patterns & Peak Engageme
 description: "Discover how to analyze Instagram posting patterns, find peak engagement times, and optimize your content strategy. Use IGStoryPeek's free activity analyzer for instant insights."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"

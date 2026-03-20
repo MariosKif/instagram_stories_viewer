@@ -3,7 +3,7 @@ title: "Explorar stories de Instagram sin iniciar sesion | IGStoryPeek"
 description: "Descubre como explorar stories de Instagram sin cuenta en 2025 usando IGStoryPeek gratis. Sin inicio de sesion requerido, sin aplicacion necesaria."
 pubDate: 2025-11-08
 updatedDate: 2025-11-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-browse.svg"
 category: "Tips"

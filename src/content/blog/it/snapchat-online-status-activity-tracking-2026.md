@@ -3,7 +3,7 @@ title: "Stato Online di Snapchat — Come funziona il tracciamento dell'attivita
 description: "Scopri come funzionano l'indicatore di stato online e le funzionalita di tracciamento dell'attivita di Snapchat nel 2026. Impara cosa gli altri possono vedere della tua attivita, come gestire la visibilita e le impostazioni sulla privacy."
 pubDate: 2026-03-11
 updatedDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

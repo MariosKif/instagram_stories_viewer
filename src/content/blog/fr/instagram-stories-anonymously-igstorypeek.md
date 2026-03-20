@@ -3,7 +3,7 @@ title: "Parcourir les stories Instagram sans se connecter | IGStoryPeek"
 description: "Decouvrez comment parcourir les stories Instagram sans compte en 2025 avec IGStoryPeek gratuitement. Aucune connexion requise, aucune application necessaire."
 pubDate: 2025-11-08
 updatedDate: 2025-11-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-browse.svg"
 category: "Tips"

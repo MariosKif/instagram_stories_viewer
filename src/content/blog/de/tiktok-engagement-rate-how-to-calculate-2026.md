@@ -3,7 +3,7 @@ title: "TikTok Engagement Rate — So berechnest und verbesserst du sie in 2026"
 description: "Meistere die Berechnung der TikTok Engagement Rate mit exakten Formeln, Nischen-Benchmarks und bewährten Verbesserungsstrategien. Nutze die kostenlosen Analysetools von IGStoryPeek, um deine Performance zu tracken."
 pubDate: 2026-02-20
 updatedDate: 2026-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

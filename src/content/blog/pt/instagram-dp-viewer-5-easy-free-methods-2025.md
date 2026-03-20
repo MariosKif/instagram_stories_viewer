@@ -3,7 +3,7 @@ title: "Visualizador de DP do Instagram: 5 Metodos Faceis e Gratuitos para 2025"
 description: "Descubra 5 metodos gratuitos e faceis para usar um visualizador de DP do Instagram em 2025. Veja fotos de perfil em tamanho real e HD com o IGStoryPeek. Sem login."
 pubDate: 2025-03-01
 updatedDate: 2025-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-photo.svg"
 category: "Tips"

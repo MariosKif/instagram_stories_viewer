@@ -3,7 +3,7 @@ title: "Facebook Video Downloader: 7 Metodos Gratuitos Comprovados em 2026"
 description: "Aprenda os 7 melhores metodos gratuitos de facebook video downloader para 2026. Guarde videos HD rapidamente com guias passo a passo, comparacoes de ferramentas e dicas legais."
 pubDate: 2026-03-17
 updatedDate: 2026-03-17
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Guides"

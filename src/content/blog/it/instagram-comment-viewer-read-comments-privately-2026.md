@@ -3,7 +3,7 @@ title: "Visualizzatore di Commenti Instagram — Come Leggere i Commenti in Priv
 description: "Scopri come visualizzare i commenti di Instagram senza accedere o rivelare la tua identità. IGStoryPeek ti permette di leggere i commenti di qualsiasi post pubblico in modo privato e gratuito."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-comments-guide.svg"
 category: "Guides"

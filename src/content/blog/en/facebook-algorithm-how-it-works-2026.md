@@ -3,7 +3,7 @@ title: "Facebook Algorithm in 2026: 5 Proven Simple Tips to Win"
 description: "Discover exactly how the facebook algorithm works in 2026. Learn 5 proven ranking factors, content strategies, and free tips to boost your reach."
 pubDate: 2026-03-13
 updatedDate: 2026-03-13
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Social Media"
@@ -154,3 +154,9 @@ Consistency matters more than volume. The ranking system rewards regular posting
 ### Why does my Facebook reach keep dropping even with good content?
 
 Declining organic reach is a platform-wide trend driven by increasing content volume competing for limited feed space. Focus on engagement quality over reach quantity, and use [IGStoryPeek](https://www.igstorypeek.com) to benchmark your performance against realistic expectations.
+
+## Sources
+
+- [How Feed Works](https://transparency.meta.com/features/ranking-and-content/) — Meta Transparency Center
+- [Facebook News Feed Ranking](https://about.fb.com/news/2024/09/continuing-to-improve-the-facebook-feed/) — Meta Newsroom
+- [Facebook Community Standards](https://transparency.meta.com/policies/community-standards/) — Meta Transparency Center

@@ -3,7 +3,7 @@ title: "Telecharger des stories Instagram : 7 etapes gratuites eprouvees pour 20
 description: "Apprenez 7 etapes gratuites eprouvees pour telecharger des stories Instagram en qualite HD. Enregistrez stories, reels et highlights instantanement avec IGStoryPeek. Aucune connexion necessaire."
 pubDate: 2025-02-18
 updatedDate: 2025-02-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-download.svg"
 category: "Tutorials"

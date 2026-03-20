@@ -3,7 +3,7 @@ title: "Baixador de Videos do Instagram: 5 Passos Gratuitos Definitivos para 202
 description: "Use este baixador de videos do Instagram para salvar videos do feed, IGTV e carrosseis em HD. Siga 5 passos gratuitos definitivos com o IGStoryPeek. Sem login."
 pubDate: 2025-02-05
 updatedDate: 2025-02-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-video-save.svg"
 category: "Tutorials"

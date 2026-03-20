@@ -3,7 +3,7 @@ title: "TikTok Competitor Analysis — How to Research & Outperform Rivals in 20
 description: "Learn how to analyze TikTok competitors in 2026. Discover free tools for benchmarking engagement, tracking content gaps, and building a strategy that outperforms your rivals."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

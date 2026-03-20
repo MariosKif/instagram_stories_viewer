@@ -3,7 +3,7 @@ title: "Stratégie de contenu TikTok — La formule virale qui fonctionne en 202
 description: "Apprenez la stratégie de contenu TikTok qui génère une croissance virale en 2026. Maîtrisez la structure accroche-corps-CTA, les heures de publication optimales, les piliers de contenu et l'exploitation des tendances avec les outils gratuits d'IGStoryPeek."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

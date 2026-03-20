@@ -3,7 +3,7 @@ title: "Instagram Engagement Rate — How to Calculate It & What's a Good Rate i
 description: "Learn how to calculate your Instagram engagement rate in 2026 with exact formulas and niche benchmarks. Use IGStoryPeek's free tools to measure real performance."
 pubDate: 2026-03-02
 updatedDate: 2026-03-02
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"
@@ -166,3 +166,9 @@ Absolutely. Purchased followers are almost always bots or inactive accounts that
 ### What is the single fastest way to improve my engagement rate?
 
 Reply to every comment on your posts within 60 minutes of posting. This does two things: it doubles the comment count (your reply counts as a comment), and it signals to the algorithm that the post is generating active conversation. Combined with asking a genuine question in your caption, this one habit can increase engagement rate by 30-50% within a few weeks.
+
+## Sources
+
+- [Instagram Insights](https://help.instagram.com/788388387972460) — Instagram Help Center
+- [Professional Dashboard](https://creators.instagram.com/blog/professional-dashboard) — Instagram Creators
+- [Understanding Social Media Metrics](https://blog.hootsuite.com/instagram-analytics/) — Hootsuite Blog

@@ -3,7 +3,7 @@ title: "Instagram Sin Cuenta: Las 8 Mejores Formas Gratuitas Probadas en 2025"
 description: "Descubre 8 formas gratuitas probadas para navegar Instagram sin cuenta en 2025. Ve historias, reels y publicaciones al instante con IGStoryPeek. Sin inicio de sesión."
 pubDate: 2025-01-20
 updatedDate: 2025-01-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-no-account.svg"
 category: "Guides"

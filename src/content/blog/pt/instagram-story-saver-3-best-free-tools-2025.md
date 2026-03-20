@@ -3,7 +3,7 @@ title: "Salvador de Stories do Instagram: As 3 Melhores Ferramentas Gratuitas Se
 description: "Compare as 3 melhores ferramentas gratuitas de salvador de stories do Instagram para 2025. Salve e arquive stories antes que expirem usando o IGStoryPeek sem login."
 pubDate: 2025-02-10
 updatedDate: 2025-02-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-story-save.svg"
 category: "Tips"

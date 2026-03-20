@@ -3,7 +3,7 @@ title: "Definicoes de Privacidade do Facebook: 7 Passos Essenciais para 2026"
 description: "Domine as suas definicoes de privacidade do facebook com estes 7 passos essenciais para bloquear completamente o seu perfil em 2026. Proteja os seus dados facilmente."
 pubDate: 2026-03-16
 updatedDate: 2026-03-16
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Privacy"

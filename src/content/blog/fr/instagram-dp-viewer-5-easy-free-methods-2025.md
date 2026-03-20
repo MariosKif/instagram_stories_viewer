@@ -3,7 +3,7 @@ title: "Visionneuse de Photo de Profil Instagram : 5 Méthodes Gratuites et Faci
 description: "Découvrez 5 méthodes gratuites ultimes pour utiliser une visionneuse de photo de profil Instagram en 2025. Affichez les photos de profil en taille réelle et en HD avec IGStoryPeek. Sans connexion."
 pubDate: 2025-03-01
 updatedDate: 2025-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-photo.svg"
 category: "Tips"

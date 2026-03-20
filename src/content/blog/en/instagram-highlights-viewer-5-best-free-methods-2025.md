@@ -3,7 +3,7 @@ title: "Instagram Highlights Viewer: 5 Best Free Methods in 2026"
 description: "Discover the 5 best free methods to use an Instagram highlights viewer in 2026. Browse saved stories and highlights without login using IGStoryPeek."
 pubDate: 2025-03-04
 updatedDate: 2025-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

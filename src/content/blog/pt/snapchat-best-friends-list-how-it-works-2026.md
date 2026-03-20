@@ -3,7 +3,7 @@ title: "Lista de Melhores Amigos do Snapchat — Como Funciona e Quem Entra na L
 description: "Saiba como a lista de Melhores Amigos do Snapchat funciona em 2026, incluindo o algoritmo por tras das classificacoes de amigos, significados dos emojis, planetas do Snapchat e como gerenciar sua lista para privacidade."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

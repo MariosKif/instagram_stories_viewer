@@ -3,7 +3,7 @@ title: "Facebook Profile Viewer: 7 Herramientas Gratuitas Definitivas"
 description: "Aprende cómo usar un facebook profile viewer para navegar perfiles de forma privada en 2026. Descubre 7 métodos gratuitos, herramientas de privacidad y consejos de expertos para seguridad."
 pubDate: 2026-03-14
 updatedDate: 2026-03-14
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tips"

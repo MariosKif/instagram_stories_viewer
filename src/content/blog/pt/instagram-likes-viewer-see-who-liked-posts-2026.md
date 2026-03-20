@@ -3,7 +3,7 @@ title: "Visualizador de Gostos do Instagram — Como Ver Quem Gostou de Publica�
 description: "Aprenda a ver quem gostou de publicações do Instagram em 2026. Use o visualizador de gostos gratuito do IGStoryPeek para explorar dados públicos de engagement e obter insights sem fazer login."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-likes-guide.svg"
 category: "Guides"

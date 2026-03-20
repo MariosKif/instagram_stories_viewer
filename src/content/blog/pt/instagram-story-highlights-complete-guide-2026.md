@@ -3,7 +3,7 @@ title: "Destaques de Stories do Instagram — O Guia Completo para Criar e Visua
 description: "Tudo sobre Destaques de Stories do Instagram em 2026. Aprenda a criar, organizar e desenhar Destaques. Use o IGStoryPeek para ver os Destaques de qualquer pessoa facilmente."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Analizzatore di Attività Instagram — Scopri i Pattern di Pubblicazion
 description: "Scopri come analizzare i pattern di pubblicazione su Instagram, trovare i momenti di picco dell'engagement e ottimizzare la tua strategia di contenuti. Usa l'analizzatore di attività gratuito di IGStoryPeek per informazioni istantanee."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"

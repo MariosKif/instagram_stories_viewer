@@ -3,7 +3,7 @@ title: "Instagram Wettbewerbsanalyse — Wie Sie Konkurrenten recherchieren & be
 description: "Meistern Sie die Instagram-Wettbewerbsanalyse 2026 mit IGStoryPeek. Erfahren Sie, welche Kennzahlen Sie vergleichen sollten, wie Sie Content-Strategien benchmarken und umsetzbare Einblicke gewinnen."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"

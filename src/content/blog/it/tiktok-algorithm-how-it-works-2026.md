@@ -3,7 +3,7 @@ title: "Algoritmo TikTok Spiegato — Come Funziona Davvero la Pagina Per Te nel
 description: "Scopri come l'algoritmo di TikTok decide cosa appare nella Pagina Per Te nel 2026. Impara i segnali di ranking, le fasi di distribuzione dei contenuti e le strategie per ottenere maggiore visibilita."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

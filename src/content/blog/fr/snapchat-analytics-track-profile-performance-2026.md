@@ -3,7 +3,7 @@ title: "Analytique Snapchat — Comment suivre les performances de votre profil 
 description: "Maîtrisez l'analytique Snapchat en 2026 avec ce guide complet pour suivre les performances de votre profil, comprendre les indicateurs clés, mesurer l'engagement et utiliser les insights pour développer votre audience."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

@@ -3,7 +3,7 @@ title: "Snapchat Score spiegato — Come funziona e come aumentarlo nel 2026"
 description: "Scopri esattamente come viene calcolato lo Snapchat Score nel 2026, quali azioni lo aumentano, i miti comuni sfatati e strategie comprovate per aumentare il tuo punteggio piu velocemente che mai."
 pubDate: 2026-02-18
 updatedDate: 2026-02-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

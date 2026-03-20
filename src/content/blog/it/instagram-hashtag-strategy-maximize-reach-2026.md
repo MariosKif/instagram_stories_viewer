@@ -3,7 +3,7 @@ title: "Strategia Hashtag per Instagram — Come Massimizzare la Copertura nel 2
 description: "Padroneggia gli hashtag di Instagram nel 2026 con strategie comprovate per copertura e scoperta. Usa il Generatore di Hashtag di IGStoryPeek per trovare i migliori tag per il tuo settore."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Visionneuse Instagram Privée : 5 Faits Essentiels Gratuits pour 2025"
 description: "Découvrez 5 faits essentiels sur le mythe de la visionneuse Instagram privée. Apprenez pourquoi la plupart des outils sont des arnaques et comment IGStoryPeek visionne le contenu public en toute sécurité."
 pubDate: 2025-02-25
 updatedDate: 2025-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-private-browse.svg"
 category: "Privacy"

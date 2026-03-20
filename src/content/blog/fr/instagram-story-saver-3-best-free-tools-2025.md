@@ -3,7 +3,7 @@ title: "Sauvegardeur de Stories Instagram : Les 3 Meilleurs Outils Gratuits Sans
 description: "Comparez les 3 meilleurs outils gratuits de sauvegardeur de stories Instagram pour 2025. Enregistrez et archivez les stories avant leur expiration avec IGStoryPeek sans connexion requise."
 pubDate: 2025-02-10
 updatedDate: 2025-02-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-story-save.svg"
 category: "Tips"

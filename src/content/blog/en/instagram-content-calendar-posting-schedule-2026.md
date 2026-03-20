@@ -3,7 +3,7 @@ title: "Instagram Content Calendar — Best Posting Schedule and Times for 2026"
 description: "Build a winning Instagram content calendar for 2026. Discover the best times to post, ideal frequency, and scheduling tips. Analyze top accounts with IGStoryPeek."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-content-calendar.svg"
 category: "Tips"

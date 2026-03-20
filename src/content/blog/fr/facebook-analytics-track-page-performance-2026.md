@@ -3,7 +3,7 @@ title: "Facebook Analytics : 7 méthodes gratuites éprouvées pour suivre vos r
 description: "Maîtrisez les Facebook Analytics pour suivre et améliorer les performances de votre page en 2026. Découvrez 7 méthodes gratuites éprouvées pour mesurer les métriques qui stimulent la croissance."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tutorials"

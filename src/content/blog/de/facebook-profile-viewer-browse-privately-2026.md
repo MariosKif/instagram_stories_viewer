@@ -3,7 +3,7 @@ title: "Facebook Profil Viewer: 7 ultimative einfache und kostenlose Tools"
 description: "Erfahren Sie, wie Sie einen Facebook Profil Viewer nutzen, um Profile 2026 privat zu durchsuchen. Entdecken Sie 7 kostenlose Methoden, Datenschutz-Tools und Expertentipps für Sicherheit."
 pubDate: 2026-03-14
 updatedDate: 2026-03-14
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Instagram Aktivitäts-Analyzer — Posting-Muster & Spitzen-Engagement-Z
 description: "Erfahren Sie, wie Sie Instagram-Posting-Muster analysieren, Spitzen-Engagement-Zeiten finden und Ihre Content-Strategie optimieren. Nutzen Sie IGStoryPeeks kostenlosen Aktivitäts-Analyzer für sofortige Einblicke."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"

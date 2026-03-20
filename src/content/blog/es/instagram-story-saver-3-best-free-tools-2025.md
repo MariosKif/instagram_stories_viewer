@@ -3,7 +3,7 @@ title: "Guardador de Historias de Instagram: Las 3 Mejores Herramientas Gratuita
 description: "Compara las 3 mejores herramientas gratuitas de guardador de historias de Instagram para 2025. Guarda y archiva historias antes de que expiren usando IGStoryPeek sin inicio de sesión."
 pubDate: 2025-02-10
 updatedDate: 2025-02-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-story-save.svg"
 category: "Tips"

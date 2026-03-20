@@ -3,7 +3,7 @@ title: "Private Instagram Viewer: 5 wesentliche kostenlose Fakten für 2025"
 description: "Erfahren Sie 5 wesentliche Fakten über den Mythos des Private Instagram Viewers. Entdecken Sie, warum die meisten Tools Betrug sind und wie IGStoryPeek öffentliche Inhalte sicher anzeigt."
 pubDate: 2025-02-25
 updatedDate: 2025-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-private-browse.svg"
 category: "Privacy"

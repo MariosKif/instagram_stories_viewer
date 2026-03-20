@@ -22,7 +22,7 @@ const currentLang = lang as Language;
 
 // Generate hreflang tags for all languages
 const baseUrl = 'https://www.igstorypeek.com';
-const currentPath = Astro.url.pathname.replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)\//, '/').replace(/^\/(en|de|fr|es|it|nl|pt|pl|ro|cs|bg|hr|da|et|fi|el|hu|ga|lv|lt|mt|sk|sl|sv)$/, '/');
+const currentPath = Astro.url.pathname.replace(/^\/(en|de|fr|es|it|pt)\//, '/').replace(/^\/(en|de|fr|es|it|pt)$/, '/');
 const cleanPath = currentPath === '' ? '/' : currentPath;
 
 // Generate page title and meta
@@ -45,7 +45,7 @@ const canonicalUrl = canonical || `${baseUrl}${lang === 'en' ? cleanPath : `/${l
     <!-- hreflang tags for SEO -->
     <link rel="alternate" hreflang="en" href={`${baseUrl}${cleanPath}`} />
     <link rel="alternate" hreflang="x-default" href={`${baseUrl}${cleanPath}`} />
-    {['de', 'fr', 'es', 'it', 'nl', 'pt', 'pl', 'ro', 'cs', 'bg', 'hr', 'da', 'et', 'fi', 'el', 'hu', 'ga', 'lv', 'lt', 'mt', 'sk', 'sl', 'sv'].map(l => (
+    {['de', 'fr', 'es', 'it', 'pt'].map(l => (
       <link rel="alternate" hreflang={l} href={`${baseUrl}/${l}${cleanPath}`} />
     ))}
     

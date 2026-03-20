@@ -3,7 +3,7 @@ title: "Sicherer Instagram Viewer: 5 wesentliche kostenlose Sicherheitstipps 202
 description: "Entdecken Sie die 5 wesentlichen kostenlosen Tipps für die Nutzung eines sicheren Instagram Viewers 2025. Vermeiden Sie Betrug, Schadsoftware und Phishing-Bedrohungen. Sicher surfen mit IGStoryPeek."
 pubDate: 2025-03-05
 updatedDate: 2025-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-safe-browse.svg"
 category: "Privacy"

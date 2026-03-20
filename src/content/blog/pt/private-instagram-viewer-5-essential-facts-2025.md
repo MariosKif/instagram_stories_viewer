@@ -3,7 +3,7 @@ title: "Visualizador de Instagram Privado: 5 Fatos Essenciais para 2025"
 description: "Aprenda 5 fatos essenciais sobre o mito do visualizador de Instagram privado. Descubra por que a maioria das ferramentas sao golpes e como o IGStoryPeek visualiza conteudo publico com seguranca."
 pubDate: 2025-02-25
 updatedDate: 2025-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-private-browse.svg"
 category: "Privacy"

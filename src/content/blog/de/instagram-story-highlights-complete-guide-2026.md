@@ -3,7 +3,7 @@ title: "Instagram Story-Highlights — Der vollständige Leitfaden zum Erstellen
 description: "Alles über Instagram Story-Highlights 2026. Erfahren Sie, wie Sie Highlights erstellen, organisieren und gestalten. Nutzen Sie IGStoryPeek, um Highlights anderer einfach anzusehen."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

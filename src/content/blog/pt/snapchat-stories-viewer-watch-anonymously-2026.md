@@ -3,7 +3,7 @@ title: "Como Ver Stories do Snapchat Anonimamente em 2026 — Guia Completo"
 description: "Descubra como ver Stories do Snapchat sem que a outra pessoa saiba em 2026. Compare metodos, entenda as implicacoes de privacidade e saiba quais ferramentas realmente funcionam."
 pubDate: 2026-02-22
 updatedDate: 2026-02-22
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Tips"

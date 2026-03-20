@@ -3,7 +3,7 @@ title: "Descargador de Fotos de Instagram: 7 Métodos Gratuitos Probados en 2025
 description: "Descubre 7 métodos gratuitos probados para usar un descargador de fotos de Instagram en 2025. Guarda fotos públicas y carruseles en HD con IGStoryPeek. Sin inicio de sesión."
 pubDate: 2025-03-12
 updatedDate: 2025-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-photo-save.svg"
 category: "Tutorials"

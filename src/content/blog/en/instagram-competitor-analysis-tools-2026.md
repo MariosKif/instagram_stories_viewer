@@ -3,7 +3,7 @@ title: "Instagram Competitor Analysis — How to Research & Benchmark Rivals in 
 description: "Master Instagram competitor analysis in 2026 with IGStoryPeek. Learn which metrics to compare, how to benchmark content strategies, and gain actionable insights."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"

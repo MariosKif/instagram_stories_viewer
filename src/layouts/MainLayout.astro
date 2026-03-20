@@ -41,20 +41,13 @@ const canonical = canonicalOverride || `${siteBase}${currentPath}`;
 // OG locale mapping
 const ogLocaleMap: Record<string, string> = {
   en: 'en_US', de: 'de_DE', fr: 'fr_FR', es: 'es_ES', it: 'it_IT',
-  nl: 'nl_NL', pt: 'pt_PT', pl: 'pl_PL', ro: 'ro_RO', cs: 'cs_CZ',
-  bg: 'bg_BG', hr: 'hr_HR', da: 'da_DK', et: 'et_EE', fi: 'fi_FI',
-  el: 'el_GR', hu: 'hu_HU', ga: 'ga_IE', lv: 'lv_LV', lt: 'lt_LT',
-  mt: 'mt_MT', sk: 'sk_SK', sl: 'sl_SI', sv: 'sv_SE', ja: 'ja_JP',
-  ko: 'ko_KR', zh: 'zh_CN', ru: 'ru_RU', tr: 'tr_TR', ar: 'ar_SA',
+  pt: 'pt_PT',
 };
 const ogLocale = ogLocaleMap[lang] || 'en_US';
 
 // Conditional schema — don't inject WebApplication on blog pages
 const isBlogPage = currentPath.includes('/blog');
 
-// CJK/Arabic font families
-const needsCJKFont = ['ja', 'ko', 'zh'].includes(lang);
-const needsArabicFont = lang === 'ar';
 ---
 
 <!doctype html>
@@ -103,32 +96,6 @@ const needsArabicFont = lang === 'ar';
 
     <!-- Self-hosted Latin fonts (Inter + Space Grotesk) -->
     <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
-
-    <!-- CJK/Arabic fonts from Google (too large to self-host) -->
-    {needsCJKFont && (
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    )}
-    {needsArabicFont && !needsCJKFont && (
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    )}
-    {needsCJKFont && (
-      <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-        media="print"
-        onload="this.media='all'"
-      />
-    )}
-    {needsArabicFont && (
-      <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-        media="print"
-        onload="this.media='all'"
-      />
-    )}
 
     <!-- Google AdSense (deferred to idle time) -->
     <script>
@@ -214,16 +181,6 @@ const needsArabicFont = lang === 'ar';
       },
     })} />
 
-    {needsCJKFont && (
-      <style>
-        body { font-family: 'Inter', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', sans-serif; }
-      </style>
-    )}
-    {needsArabicFont && (
-      <style>
-        body { font-family: 'Inter', 'Noto Sans Arabic', sans-serif; }
-      </style>
-    )}
   </head>
   <body class="min-h-screen flex flex-col">
     <Navbar />

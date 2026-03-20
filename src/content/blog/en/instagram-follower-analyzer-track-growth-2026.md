@@ -3,7 +3,7 @@ title: "Instagram Follower Analyzer — How to Track Growth & Spot Fake Follower
 description: "Learn how to analyze Instagram followers, track growth trends, and detect fake or bot accounts. Use IGStoryPeek's free follower analyzer to get instant audience insights without logging in."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-follower-growth.svg"
 category: "Analytics"

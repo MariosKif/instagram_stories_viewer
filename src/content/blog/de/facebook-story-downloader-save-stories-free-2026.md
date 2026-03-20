@@ -3,7 +3,7 @@ title: "Facebook Story Downloader: 5 beste kostenlose einfache Methoden 2026"
 description: "Nutzen Sie einen Facebook Story Downloader, um Stories 2026 kostenlos zu speichern. Fünf einfache Methoden mit Schritt-für-Schritt-Anleitungen zum Herunterladen auf jedem Gerät."
 pubDate: 2026-03-15
 updatedDate: 2026-03-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tutorials"

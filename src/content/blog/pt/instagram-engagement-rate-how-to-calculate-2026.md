@@ -3,7 +3,7 @@ title: "Taxa de Engagement no Instagram — Como Calculá-la e Qual É uma Boa T
 description: "Aprenda a calcular a sua taxa de engagement no Instagram em 2026 com fórmulas exatas e benchmarks por nicho. Use as ferramentas gratuitas do IGStoryPeek para medir o desempenho real."
 pubDate: 2026-03-02
 updatedDate: 2026-03-02
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"

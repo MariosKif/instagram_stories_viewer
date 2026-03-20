@@ -3,7 +3,7 @@ title: "TikTok Duetto e Stitch — Guida Completa alle Funzionalita di Collabora
 description: "Padroneggia le funzionalita Duetto e Stitch di TikTok nel 2026. Scopri strategie creative, best practice e come monitorare le prestazioni delle collaborazioni con gli strumenti gratuiti di IGStoryPeek."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Snapchat Spotlight — So wirst du viral und wirst gefeatured 2026"
 description: "Erfahre, wie Snapchat Spotlight 2026 funktioniert, was der Algorithmus bevorzugt, wie du Inhalte erstellst, die gefeatured werden, und wie du deine viralen Snaps effektiv monetarisierst."
 pubDate: 2026-03-02
 updatedDate: 2026-03-02
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Tips"

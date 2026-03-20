@@ -3,7 +3,7 @@ title: "Visionneuse de Stories Facebook : 5 meilleures méthodes gratuites en 20
 description: "Découvrez les 5 meilleures méthodes gratuites pour utiliser une visionneuse de stories Facebook en 2026. Regardez les Stories anonymement avec des conseils de confidentialité éprouvés."
 pubDate: 2026-03-18
 updatedDate: 2026-03-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tips"

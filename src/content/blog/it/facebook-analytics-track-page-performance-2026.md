@@ -3,7 +3,7 @@ title: "Facebook Analytics: 7 Modi Gratuiti e Collaudati per Tracciare i Risulta
 description: "Padroneggia i facebook analytics per tracciare e migliorare le prestazioni della pagina nel 2026. Scopri 7 metodi gratuiti collaudati per misurare le metriche che guidano la crescita."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tutorials"

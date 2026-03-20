@@ -3,7 +3,7 @@ title: "TikTok Follower-Wachstum — 10 bewährte Strategien für schnelleres Wa
 description: "Entdecke 10 bewährte Strategien, um deine TikTok-Follower in 2026 organisch zu steigern. Umsetzbare Taktiken für Content-Optimierung, Cross-Promotion und Aufbau deiner Zielgruppe."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

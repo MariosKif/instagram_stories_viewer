@@ -3,7 +3,7 @@ title: "Salva storie Instagram: i 3 migliori strumenti gratuiti senza login"
 description: "Confronta i 3 migliori strumenti gratuiti per salvare storie Instagram nel 2025. Salva e archivia le storie prima che scadano usando IGStoryPeek senza login."
 pubDate: 2025-02-10
 updatedDate: 2025-02-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-story-save.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Herramientas de Analítica de Instagram: 6 Mejores Opciones Gratuitas pa
 description: "Descubre las 6 mejores herramientas gratuitas de analítica de Instagram para monitorear competidores en 2025. Rastrea cualquier cuenta pública con IGStoryPeek sin necesidad de iniciar sesión."
 pubDate: 2025-02-20
 updatedDate: 2025-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-analytics-overview.svg"
 category: "Social Media"

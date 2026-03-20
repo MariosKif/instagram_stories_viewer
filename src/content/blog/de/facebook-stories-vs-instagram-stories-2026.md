@@ -3,7 +3,7 @@ title: "Facebook Stories vs Instagram Stories: 5 bewährte einfache Tipps"
 description: "Vergleichen Sie Facebook Stories vs Instagram Stories 2026. Entdecken Sie 5 bewährte Tipps zu Funktionen, Reichweite und der Wahl Ihrer besten Plattform."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Social Media"

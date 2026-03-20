@@ -3,7 +3,7 @@ title: "Souvenirs Snapchat — Comment sauvegarder, gérer et télécharger votr
 description: "Guide complet des Souvenirs Snapchat en 2026. Apprenez à sauvegarder des snaps, organiser votre contenu, utiliser Mes Yeux Uniquement, télécharger vos souvenirs et gérer efficacement le stockage."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

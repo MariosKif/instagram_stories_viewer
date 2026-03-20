@@ -3,7 +3,7 @@ title: "Taux d'engagement TikTok — Comment le calculer et l'améliorer en 2026
 description: "Maîtrisez le calcul du taux d'engagement TikTok avec des formules exactes, des benchmarks par niche et des stratégies d'amélioration éprouvées. Utilisez les outils d'analyse gratuits d'IGStoryPeek pour suivre vos performances."
 pubDate: 2026-02-20
 updatedDate: 2026-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

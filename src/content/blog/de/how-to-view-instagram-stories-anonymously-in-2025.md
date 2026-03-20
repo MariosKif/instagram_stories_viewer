@@ -3,7 +3,7 @@ title: "So durchsuchen Sie Instagram Stories ohne Konto im Jahr 2025"
 description: "Erfahren Sie, wie Sie Instagram Stories ohne Anmeldung oder Kontoerstellung ansehen koennen. Entdecken Sie die einfachsten Methoden, um Instagram Stories im Jahr 2025 kostenlos mit IGStoryPeek anzusehen. Keine Anmeldung erforderlich."
 pubDate: 2025-01-15
 updatedDate: 2025-01-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: true
 image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"

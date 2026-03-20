@@ -3,7 +3,7 @@ title: "Visor de Comentarios de Instagram — Cómo Leer Comentarios en Privado 
 description: "Aprende a navegar por los comentarios de Instagram sin iniciar sesión ni revelar tu identidad. IGStoryPeek te permite leer comentarios en cualquier publicación pública de forma privada y gratuita."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-comments-guide.svg"
 category: "Guides"

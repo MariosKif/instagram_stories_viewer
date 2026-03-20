@@ -3,7 +3,7 @@ title: "Facebook Stories Viewer: 5 beste kostenlose Methoden zum Anschauen 2026"
 description: "Entdecken Sie die 5 besten kostenlosen Methoden, um einen Facebook Stories Viewer 2026 zu nutzen. Stories anonym ansehen mit bewährten Methoden, Datenschutztipps und Vergleichen."
 pubDate: 2026-03-18
 updatedDate: 2026-03-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tips"

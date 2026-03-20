@@ -3,7 +3,7 @@ title: "Estado en línea de Snapchat — Cómo funciona el rastreo de actividad 
 description: "Comprende cómo funcionan el indicador de estado en línea y las funciones de rastreo de actividad de Snapchat en 2026. Aprende qué pueden ver otros sobre tu actividad, cómo gestionar la visibilidad y la configuración de privacidad."
 pubDate: 2026-03-11
 updatedDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

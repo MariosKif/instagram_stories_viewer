@@ -3,7 +3,7 @@ title: "Snapchat Analytics — So verfolgst du deine Profilleistung im Jahr 2026
 description: "Meistere Snapchat-Analytics im Jahr 2026 mit diesem vollständigen Leitfaden zur Verfolgung der Profilleistung, zum Verständnis wichtiger Kennzahlen, zur Messung des Engagements und zur Nutzung von Erkenntnissen für das Publikumswachstum."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

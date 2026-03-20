@@ -3,7 +3,7 @@ title: "Instagram DP Viewer: 5 Ultimate Easy Free Methods for 2026"
 description: "Discover 5 ultimate free methods to use an Instagram DP viewer in 2026. View full-size profile pictures in HD with IGStoryPeek. No login needed."
 pubDate: 2025-03-01
 updatedDate: 2025-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-photo.svg"
 category: "Tips"

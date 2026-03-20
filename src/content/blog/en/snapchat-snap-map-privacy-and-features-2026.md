@@ -3,7 +3,7 @@ title: "Snapchat Snap Map — Features, Privacy Settings, and Safety Tips for 20
 description: "Explore how Snapchat's Snap Map works in 2026, including location sharing features, Ghost Mode settings, safety best practices, and how to control who sees your location."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

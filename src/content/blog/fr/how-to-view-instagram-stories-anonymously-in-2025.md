@@ -3,7 +3,7 @@ title: "Comment consulter les stories Instagram sans compte en 2025"
 description: "Apprenez a consulter les stories Instagram sans vous connecter ni creer de compte. Decouvrez les methodes les plus simples pour voir les stories Instagram gratuitement en 2025 avec IGStoryPeek. Aucune connexion requise."
 pubDate: 2025-01-15
 updatedDate: 2025-01-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: true
 image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Instagram Reels vs Stories 2026 — Welches Format gewinnt bei Reichweit
 description: "Vergleichen Sie Instagram Reels vs Stories 2026: Reichweite, Engagement, Algorithmus-Tipps und wann Sie welches Format nutzen sollten. Nutzen Sie IGStoryPeek zur Leistungsanalyse und Strategieoptimierung."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-reels-guide.svg"
 category: "Guides"

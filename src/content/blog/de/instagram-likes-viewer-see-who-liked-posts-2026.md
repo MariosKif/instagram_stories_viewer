@@ -3,7 +3,7 @@ title: "Instagram Likes-Viewer — So sehen Sie, wer einen Beitrag geliked hat, 
 description: "Erfahren Sie, wie Sie sehen können, wer Instagram-Beiträge geliked hat. Nutzen Sie IGStoryPeeks kostenlosen Likes-Viewer, um öffentliche Engagement-Daten zu erkunden und Einblicke zu gewinnen, ohne sich anzumelden."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-likes-guide.svg"
 category: "Guides"

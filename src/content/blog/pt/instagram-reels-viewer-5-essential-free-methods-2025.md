@@ -3,7 +3,7 @@ title: "Visualizador de Reels do Instagram: 5 Métodos Gratuitos Essenciais em 2
 description: "Encontre os 5 métodos gratuitos essenciais para usar um visualizador de reels do Instagram em 2025. Assista e salve reels públicos instantaneamente com o IGStoryPeek. Sem necessidade de conta."
 pubDate: 2025-01-28
 updatedDate: 2025-01-28
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-reels-guide.svg"
 category: "Tips"

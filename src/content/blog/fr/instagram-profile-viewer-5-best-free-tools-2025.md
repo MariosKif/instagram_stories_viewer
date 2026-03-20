@@ -3,7 +3,7 @@ title: "Visionneuse de Profil Instagram : 5 Meilleurs Outils Gratuits [Guide 202
 description: "Découvrez les 5 meilleurs outils gratuits de visionneuse de profil Instagram pour 2025. Parcourez les profils publics complets, stories et reels avec IGStoryPeek. Sans connexion."
 pubDate: 2025-03-10
 updatedDate: 2025-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-guide.svg"
 category: "Guides"

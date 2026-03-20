@@ -3,7 +3,7 @@ title: "Instagram Story Highlights — The Complete Guide to Creating & Viewing 
 description: "Everything about Instagram Story Highlights in 2026. Learn how to create, organize, and design Highlights. Use IGStoryPeek to view anyone's Highlights easily."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

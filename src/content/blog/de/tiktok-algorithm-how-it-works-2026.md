@@ -3,7 +3,7 @@ title: "TikTok-Algorithmus erklärt — So funktioniert die For You Page wirklic
 description: "Verstehe, wie der TikTok-Algorithmus in 2026 entscheidet, was auf der For You Page erscheint. Lerne die Ranking-Signale, Content-Verteilungsphasen und Strategien für mehr Reichweite."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Instagram Likes Viewer — How to See Who Liked Any Post in 2026"
 description: "Learn how to see who liked Instagram posts in 2026. Use IGStoryPeek's free likes viewer to explore public engagement data and gain insights without logging in."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-likes-guide.svg"
 category: "Guides"

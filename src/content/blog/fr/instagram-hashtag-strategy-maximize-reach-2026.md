@@ -3,7 +3,7 @@ title: "Stratégie Hashtag Instagram — Comment Maximiser Votre Portée en 2026
 description: "Maîtrisez les hashtags Instagram en 2026 avec des stratégies éprouvées pour la portée et la découverte. Utilisez le Générateur de Hashtags d'IGStoryPeek pour trouver les meilleurs tags pour votre niche."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"

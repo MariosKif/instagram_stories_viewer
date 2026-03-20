@@ -3,7 +3,7 @@ title: "Analíticas de Snapchat — Cómo rastrear el rendimiento de tu perfil e
 description: "Domina las analíticas de Snapchat en 2026 con esta guía completa para rastrear el rendimiento del perfil, comprender métricas clave, medir el engagement y usar información para hacer crecer tu audiencia."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

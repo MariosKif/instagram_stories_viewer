@@ -3,7 +3,7 @@ title: "Tasso di Engagement su TikTok — Come Calcolarlo e Migliorarlo nel 2026
 description: "Padroneggia il calcolo del tasso di engagement su TikTok con formule esatte, benchmark per nicchia e strategie di miglioramento comprovate. Usa gli strumenti di analisi gratuiti di IGStoryPeek per monitorare le tue prestazioni."
 pubDate: 2026-02-20
 updatedDate: 2026-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

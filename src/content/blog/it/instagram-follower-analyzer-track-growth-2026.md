@@ -3,7 +3,7 @@ title: "Analisi dei Follower Instagram — Come Monitorare la Crescita e Individ
 description: "Scopri come analizzare i follower di Instagram, monitorare le tendenze di crescita e individuare account falsi o bot. Usa l'analizzatore di follower gratuito di IGStoryPeek per ottenere informazioni istantanee sul pubblico senza effettuare l'accesso."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-follower-growth.svg"
 category: "Analytics"

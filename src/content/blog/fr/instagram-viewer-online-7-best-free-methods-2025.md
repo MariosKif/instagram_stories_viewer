@@ -3,7 +3,7 @@ title: "Visionneuse Instagram en Ligne : Les 7 Meilleures Méthodes Gratuites en
 description: "Découvrez les 7 meilleures méthodes gratuites pour utiliser une visionneuse Instagram en ligne en 2025. Parcourez les profils publics depuis n'importe quel navigateur avec IGStoryPeek. Sans application."
 pubDate: 2025-02-15
 updatedDate: 2025-02-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-online-browse.svg"
 category: "Guides"

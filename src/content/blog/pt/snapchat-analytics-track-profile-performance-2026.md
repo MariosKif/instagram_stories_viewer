@@ -3,7 +3,7 @@ title: "Snapchat Analytics — Como Acompanhar o Desempenho do Seu Perfil em 202
 description: "Domine as analises do Snapchat em 2026 com este guia completo para acompanhar o desempenho do perfil, entender metricas-chave, medir o engajamento e usar insights para aumentar sua audiencia."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

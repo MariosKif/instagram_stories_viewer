@@ -3,7 +3,7 @@ title: "Descargador de historias de Snapchat — Cómo guardar historias y Spotl
 description: "Aprende cómo guardar historias de Snapchat, videos de Spotlight y Recuerdos en 2026. Compara los mejores métodos de descarga, entiende los riesgos de notificación y usa las herramientas correctas de forma segura."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Downloads"

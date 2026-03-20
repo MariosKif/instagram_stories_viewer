@@ -3,7 +3,7 @@ title: "Calendrier de Contenu Instagram — Meilleur Planning de Publication et 
 description: "Construisez un calendrier de contenu Instagram gagnant pour 2026. Découvrez les meilleurs horaires, la fréquence idéale et les astuces de planification. Analysez les meilleurs comptes avec IGStoryPeek."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-content-calendar.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Descargar vídeos de TikTok — Los 5 mejores métodos gratuitos en 2026
 description: "Descubre los 5 mejores métodos gratuitos para descargar vídeos de TikTok sin marca de agua en 2026. Guías paso a paso, consejos legales y herramientas para guardar cualquier clip de TikTok al instante."
 pubDate: 2026-02-15
 updatedDate: 2026-02-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Downloads"

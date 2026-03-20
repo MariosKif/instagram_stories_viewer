@@ -3,7 +3,7 @@ title: "Snapchat Online Status — How Activity Tracking Works in 2026"
 description: "Understand how Snapchat's online status indicator and activity tracking features work in 2026. Learn what others can see about your activity, how to manage visibility, and privacy settings."
 pubDate: 2026-03-11
 updatedDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

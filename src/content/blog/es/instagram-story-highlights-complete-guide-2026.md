@@ -3,7 +3,7 @@ title: "Destacados de Stories en Instagram — La Guía Completa para Crear y Ve
 description: "Todo sobre los Destacados de Stories en Instagram en 2026. Aprende a crear, organizar y diseñar Destacados. Usa IGStoryPeek para ver los Destacados de cualquier persona fácilmente."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

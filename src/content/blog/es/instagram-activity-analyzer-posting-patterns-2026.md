@@ -3,7 +3,7 @@ title: "Analizador de Actividad de Instagram — Descubre Patrones de Publicaci�
 description: "Descubre cómo analizar los patrones de publicación en Instagram, encontrar horarios pico de engagement y optimizar tu estrategia de contenido. Usa el analizador de actividad gratuito de IGStoryPeek para información instantánea."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"

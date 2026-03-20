@@ -3,7 +3,7 @@ title: "Sons tendance TikTok — Comment trouver et utiliser les audios viraux e
 description: "Apprenez à trouver les sons tendance TikTok avant qu'ils n'atteignent leur pic, à choisir le bon moment pour maximiser votre portée et à booster votre stratégie de contenu avec des audios viraux en 2026."
 pubDate: 2026-02-25
 updatedDate: 2026-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

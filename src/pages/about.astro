@@ -71,6 +71,22 @@ const aboutFaqs = t.about?.faqs || defaultFaqs;
         </div>
 
         <div>
+          <h2 class="text-lg font-semibold text-white mb-3">Meet the Team</h2>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="glass p-4">
+              <p class="font-semibold text-white">Alex Morgan</p>
+              <p class="text-xs text-primary mb-2">Lead Developer & Content Strategist</p>
+              <p>Full-stack developer with expertise in social media APIs and data analytics. Leads the technical development and content strategy for IGStoryPeek.</p>
+            </div>
+            <div class="glass p-4">
+              <p class="font-semibold text-white">The IGStoryPeek Team</p>
+              <p class="text-xs text-primary mb-2">Development & Support</p>
+              <p>A small, distributed team of developers and analysts passionate about making public social media data more accessible and understandable for everyone.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
           <h2 class="text-lg font-semibold text-white mb-3">{t.about?.contactTitle || 'Contact Us'}</h2>
           <p>{t.about?.contactDesc || "Have questions, feedback, or concerns? We'd love to hear from you."} {t.about?.contactEmail || 'Email us at'} <a href="mailto:contact@igstorypeek.com" class="text-primary hover:underline">contact@igstorypeek.com</a> {t.nav?.contact ? '' : ''}<a href={getLocalizedPath('/contact', lang)} class="text-primary hover:underline">{t.nav?.contact || 'contact page'}</a>.</p>
         </div>

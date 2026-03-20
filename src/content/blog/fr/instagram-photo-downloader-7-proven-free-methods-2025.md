@@ -3,7 +3,7 @@ title: "Téléchargeur de Photos Instagram : 7 Méthodes Gratuites Éprouvées e
 description: "Découvrez 7 méthodes gratuites éprouvées pour utiliser un téléchargeur de photos Instagram en 2025. Enregistrez les photos publiques et les carrousels en HD avec IGStoryPeek. Sans connexion."
 pubDate: 2025-03-12
 updatedDate: 2025-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-photo-save.svg"
 category: "Tutorials"

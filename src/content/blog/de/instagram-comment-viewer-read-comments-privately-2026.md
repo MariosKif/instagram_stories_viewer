@@ -3,7 +3,7 @@ title: "Instagram Kommentar-Viewer — So lesen Sie Kommentare privat in 2026"
 description: "Erfahren Sie, wie Sie Instagram-Kommentare durchstöbern können, ohne sich anzumelden oder Ihre Identität preiszugeben. IGStoryPeek lässt Sie Kommentare auf jedem öffentlichen Beitrag privat und kostenlos lesen."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-comments-guide.svg"
 category: "Guides"

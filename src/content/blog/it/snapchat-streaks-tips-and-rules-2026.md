@@ -3,7 +3,7 @@ title: "Snapchat Streak — Regole, consigli e come non perderle mai nel 2026"
 description: "Padroneggia le Snapchat Streak nel 2026 con questa guida completa. Impara le regole esatte, comprendi l'avviso dell'emoji clessidra, recupera le streak perse e scopri strategie per mantenerle senza sforzo."
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

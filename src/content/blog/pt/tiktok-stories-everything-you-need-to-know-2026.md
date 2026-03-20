@@ -3,7 +3,7 @@ title: "TikTok Stories — Tudo o que Voce Precisa Saber em 2026"
 description: "O guia completo sobre TikTok Stories em 2026. Aprenda como criar, visualizar e baixar TikTok Stories, alem de dicas de analytics para medir desempenho usando as ferramentas gratuitas do IGStoryPeek."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

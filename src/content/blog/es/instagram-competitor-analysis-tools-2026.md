@@ -3,7 +3,7 @@ title: "Análisis de Competencia en Instagram — Cómo Investigar y Comparar Ri
 description: "Domina el análisis de competencia en Instagram en 2026 con IGStoryPeek. Aprende qué métricas comparar, cómo hacer benchmarking de estrategias de contenido y obtener información accionable."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"

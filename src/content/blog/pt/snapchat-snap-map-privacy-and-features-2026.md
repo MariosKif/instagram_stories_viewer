@@ -3,7 +3,7 @@ title: "Snapchat Snap Map — Recursos, Configuracoes de Privacidade e Dicas de 
 description: "Explore como o Snap Map do Snapchat funciona em 2026, incluindo recursos de compartilhamento de localizacao, configuracoes do Modo Fantasma, melhores praticas de seguranca e como controlar quem ve sua localizacao."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

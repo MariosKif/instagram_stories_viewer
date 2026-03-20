@@ -3,7 +3,7 @@ title: "Esplorare le storie di Instagram senza accesso | IGStoryPeek"
 description: "Scopri come esplorare le storie di Instagram senza account nel 2025 usando IGStoryPeek gratuitamente. Nessun accesso richiesto, nessuna app necessaria."
 pubDate: 2025-11-08
 updatedDate: 2025-11-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-browse.svg"
 category: "Tips"

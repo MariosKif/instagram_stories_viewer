@@ -3,7 +3,7 @@ title: "Facebook Datenschutzeinstellungen: 7 wichtige Schritte für 2026"
 description: "Meistern Sie Ihre Facebook Datenschutzeinstellungen mit diesen 7 wichtigen Schritten, um Ihr Profil 2026 vollständig zu sichern. Schützen Sie Ihre Daten einfach und effektiv."
 pubDate: 2026-03-16
 updatedDate: 2026-03-16
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Privacy"

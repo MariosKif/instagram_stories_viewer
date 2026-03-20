@@ -3,7 +3,7 @@ title: "Visor Seguro de Instagram: 5 Consejos Esenciales Gratuitos de Seguridad 
 description: "Descubre los 5 consejos esenciales gratuitos para usar un visor seguro de Instagram en 2025. Evita estafas, malware y amenazas de phishing. Navega con IGStoryPeek."
 pubDate: 2025-03-05
 updatedDate: 2025-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-safe-browse.svg"
 category: "Privacy"

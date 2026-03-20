@@ -3,7 +3,7 @@ title: "TikTok Algorithm Explained — How the For You Page Actually Works in 20
 description: "Understand how the TikTok algorithm decides what appears on the For You Page in 2026. Learn the ranking signals, content distribution phases, and strategies to get more reach."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"
@@ -197,3 +197,9 @@ Consistency matters more than frequency. Posting 1-2 high-quality videos per day
 ### Does deleting underperforming videos help my account?
 
 No. Deleting videos does not improve your account's algorithmic standing. The algorithm evaluates each new video independently. Mass deletion can actually signal instability and may temporarily affect how the algorithm categorizes your account. Instead of deleting, analyze why certain videos underperformed using [IGStoryPeek's Activity Analyzer](https://www.igstorypeek.com/tiktok/activity-analyzer) and apply those insights to future content.
+
+## Sources
+
+- [How TikTok Recommends Videos](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you) — TikTok Newsroom
+- [TikTok's Recommendation System](https://www.tiktok.com/transparency/en-us/recommendation-system/) — TikTok Transparency Center
+- [Community Guidelines](https://www.tiktok.com/community-guidelines/) — TikTok

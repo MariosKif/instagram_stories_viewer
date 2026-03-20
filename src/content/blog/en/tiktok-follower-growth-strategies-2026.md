@@ -3,7 +3,7 @@ title: "TikTok Follower Growth — 10 Proven Strategies to Grow Faster in 2026"
 description: "Discover 10 proven strategies to grow your TikTok followers organically in 2026. Actionable tactics for content optimization, cross-promotion, and audience building."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

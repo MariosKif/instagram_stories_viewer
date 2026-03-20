@@ -3,7 +3,7 @@ title: "Download Instagram Stories: 7 Proven Free Steps for 2026"
 description: "Learn 7 proven free steps to download Instagram stories in HD quality. Save stories, reels, and highlights instantly with IGStoryPeek. No login needed."
 pubDate: 2025-02-18
 updatedDate: 2025-02-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-download.svg"
 category: "Tutorials"

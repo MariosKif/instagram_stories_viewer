@@ -3,7 +3,7 @@ title: "Instagram Reels vs Stories em 2026 — Qual o Formato que Ganha em Alcan
 description: "Compare Instagram Reels vs Stories em 2026: alcance, engagement, dicas sobre o algoritmo e quando usar cada um. Use o IGStoryPeek para analisar o desempenho e otimizar a sua estratégia."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-reels-guide.svg"
 category: "Guides"

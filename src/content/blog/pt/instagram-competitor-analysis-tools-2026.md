@@ -3,7 +3,7 @@ title: "Análise de Concorrentes no Instagram — Como Pesquisar e Fazer Benchma
 description: "Domine a análise de concorrentes no Instagram em 2026 com o IGStoryPeek. Aprenda que métricas comparar, como fazer benchmark de estratégias de conteúdo e obter insights acionáveis."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"

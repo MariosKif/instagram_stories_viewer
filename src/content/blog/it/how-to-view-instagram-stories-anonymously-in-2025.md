@@ -3,7 +3,7 @@ title: "Come visualizzare le storie di Instagram senza account nel 2025"
 description: "Scopri come visualizzare le storie di Instagram senza effettuare l'accesso o creare un account. Scopri i metodi piu semplici per vedere le storie di Instagram gratis nel 2025 usando IGStoryPeek. Nessun accesso richiesto."
 pubDate: 2025-01-15
 updatedDate: 2025-01-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: true
 image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"

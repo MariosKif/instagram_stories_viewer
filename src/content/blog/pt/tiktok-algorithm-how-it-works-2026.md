@@ -3,7 +3,7 @@ title: "Algoritmo do TikTok Explicado — Como a Pagina Para Voce Realmente Func
 description: "Entenda como o algoritmo do TikTok decide o que aparece na Pagina Para Voce em 2026. Aprenda os sinais de ranking, fases de distribuicao de conteudo e estrategias para obter mais alcance."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

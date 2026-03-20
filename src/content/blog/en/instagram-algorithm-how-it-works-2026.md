@@ -3,7 +3,7 @@ title: "How the Instagram Algorithm Works in 2026 — Feed, Reels, Stories & Exp
 description: "Understand how the Instagram algorithm ranks content in 2026. IGStoryPeek breaks down ranking factors for Feed, Reels, Stories, and Explore so you can grow."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
@@ -144,3 +144,9 @@ Hashtags serve primarily as a categorization signal in 2026. They help Instagram
 ### Is posting time still important for the algorithm?
 
 Yes, but less than it used to be. Posting when your audience is active gives you a better chance of strong early engagement, which influences broader distribution. However, a great piece of content posted at a suboptimal time will still outperform mediocre content posted at the perfect time. Focus on quality first, timing second.
+
+## Sources
+
+- [How Instagram's Algorithm Works](https://about.instagram.com/blog/announcements/shedding-more-light-on-how-instagram-works) — Instagram Official Blog
+- [Instagram Ranking Explained](https://creators.instagram.com/blog/how-instagram-determines-what-to-show-in-feed) — Instagram Creators
+- [Understanding Instagram's Recommendation Guidelines](https://transparency.meta.com/features/approach-to-ranking/instagram-feed-reels-and-stories) — Meta Transparency Center

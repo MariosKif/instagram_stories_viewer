@@ -3,7 +3,7 @@ title: "Sons em Alta no TikTok — Como Encontrar e Usar Áudio Viral em 2026"
 description: "Aprenda a encontrar sons em alta no TikTok antes de atingirem o pico, temporizar seu uso para alcance máximo e impulsionar sua estratégia de conteúdo com áudio viral em 2026."
 pubDate: 2026-02-25
 updatedDate: 2026-02-25
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Estrategia de Hashtags en Instagram — Cómo Maximizar Tu Alcance en 20
 description: "Domina los hashtags de Instagram en 2026 con estrategias probadas para alcance y descubrimiento. Usa el Generador de Hashtags de IGStoryPeek para encontrar los mejores tags para tu nicho."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"

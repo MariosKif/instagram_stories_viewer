@@ -3,7 +3,7 @@ title: "Calendario dei Contenuti Instagram — Migliori Orari e Frequenza di Pub
 description: "Costruisci un calendario dei contenuti Instagram vincente per il 2026. Scopri i migliori orari per pubblicare, la frequenza ideale e consigli sulla programmazione. Analizza i migliori account con IGStoryPeek."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-content-calendar.svg"
 category: "Tips"

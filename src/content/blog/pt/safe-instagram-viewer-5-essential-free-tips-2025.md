@@ -3,7 +3,7 @@ title: "Visualizador Seguro do Instagram: 5 Dicas Essenciais Gratuitas 2025"
 description: "Descubra as 5 dicas essenciais gratuitas para usar um visualizador seguro do Instagram em 2025. Evite golpes, malware e ameacas de phishing. Navegue com o IGStoryPeek."
 pubDate: 2025-03-05
 updatedDate: 2025-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-safe-browse.svg"
 category: "Privacy"

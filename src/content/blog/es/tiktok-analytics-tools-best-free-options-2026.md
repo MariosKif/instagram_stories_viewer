@@ -3,7 +3,7 @@ title: "Herramientas de analytics de TikTok — Las 7 mejores opciones gratuitas
 description: "Compara las 7 mejores herramientas gratuitas de analytics de TikTok para creadores en 2026. Aprende qué métricas rastrear, opciones nativas vs de terceros, y cómo IGStoryPeek te ayuda a analizar cualquier cuenta pública."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

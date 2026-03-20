@@ -3,7 +3,7 @@ title: "Cómo Funciona el Algoritmo de Instagram en 2026 — Feed, Reels, Storie
 description: "Comprende cómo el algoritmo de Instagram clasifica el contenido en 2026. IGStoryPeek desglosa los factores de clasificación para Feed, Reels, Stories y Explorar para que puedas crecer."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"

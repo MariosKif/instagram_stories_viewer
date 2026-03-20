@@ -3,7 +3,7 @@ title: "Instagram Analytics Tools: Die 6 besten kostenlosen Optionen für 2025"
 description: "Entdecken Sie die 6 besten kostenlosen Instagram-Analytics-Tools zur Konkurrenzbeobachtung in 2025. Verfolgen Sie jedes öffentliche Konto mit IGStoryPeek – ganz ohne Anmeldung."
 pubDate: 2025-02-20
 updatedDate: 2025-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-analytics-overview.svg"
 category: "Social Media"

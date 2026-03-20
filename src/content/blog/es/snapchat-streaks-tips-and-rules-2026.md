@@ -3,7 +3,7 @@ title: "Rachas de Snapchat — Reglas, consejos y cómo no perderlas nunca en 20
 description: "Domina las rachas de Snapchat en 2026 con esta guía completa. Aprende las reglas exactas, entiende la advertencia del emoji de reloj de arena, recupera rachas perdidas y descubre estrategias para mantenerlas sin esfuerzo."
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

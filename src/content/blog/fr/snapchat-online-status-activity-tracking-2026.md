@@ -3,7 +3,7 @@ title: "Statut en ligne Snapchat — Comment fonctionne le suivi d'activité en 
 description: "Comprenez comment l'indicateur de statut en ligne et les fonctionnalités de suivi d'activité de Snapchat fonctionnent en 2026. Découvrez ce que les autres peuvent voir de votre activité, comment gérer la visibilité et les paramètres de confidentialité."
 pubDate: 2026-03-11
 updatedDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

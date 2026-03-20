@@ -3,7 +3,7 @@ title: "Status Online do Snapchat — Como o Rastreamento de Atividade Funciona 
 description: "Entenda como o indicador de status online e os recursos de rastreamento de atividade do Snapchat funcionam em 2026. Saiba o que outros podem ver sobre sua atividade, como gerenciar a visibilidade e configuracoes de privacidade."
 pubDate: 2026-03-11
 updatedDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

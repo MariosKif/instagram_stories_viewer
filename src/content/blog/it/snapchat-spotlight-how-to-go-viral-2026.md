@@ -3,7 +3,7 @@ title: "Snapchat Spotlight — Come diventare virale e finire in evidenza nel 20
 description: "Scopri come funziona Snapchat Spotlight nel 2026, cosa favorisce l'algoritmo, come creare contenuti che vengono messi in evidenza e come monetizzare efficacemente i tuoi Snap virali."
 pubDate: 2026-03-02
 updatedDate: 2026-03-02
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Tips"

@@ -3,7 +3,7 @@ title: "Instagram Content-Kalender — Bester Posting-Zeitplan und beste Zeiten 
 description: "Erstellen Sie einen erfolgreichen Instagram Content-Kalender für 2026. Entdecken Sie die besten Posting-Zeiten, ideale Frequenzen und Planungstipps. Analysieren Sie Top-Accounts mit IGStoryPeek."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-content-calendar.svg"
 category: "Tips"

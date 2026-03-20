@@ -3,7 +3,7 @@ title: "Snapchat Analytics — How to Track Your Profile Performance in 2026"
 description: "Master Snapchat analytics in 2026 with this complete guide to tracking profile performance, understanding key metrics, measuring engagement, and using insights to grow your audience."
 pubDate: 2026-03-07
 updatedDate: 2026-03-07
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

@@ -3,7 +3,7 @@ title: "Instagram Hashtag Strategy — How to Maximize Your Reach in 2026"
 description: "Master Instagram hashtags in 2026 with proven strategies for reach and discovery. Use IGStoryPeek's Hashtag Generator to find the best tags for your niche."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
@@ -168,3 +168,9 @@ Using the maximum 30 hashtags does not automatically hurt reach, but it increase
 ### How often should I change my hashtags?
 
 Rotate your hashtag sets with every post and do a full review of your sets monthly. Using identical hashtags on consecutive posts can trigger spam detection. Having 5-8 prepared sets that you rotate through solves this problem while keeping your research effort manageable.
+
+## Sources
+
+- [Using Hashtags on Instagram](https://creators.instagram.com/blog/using-hashtags-to-reach-new-audiences) — Instagram Creators
+- [How Hashtags Work on Instagram](https://about.instagram.com/blog/tips-and-tricks/how-to-use-hashtags-on-instagram) — Instagram Official Blog
+- [Instagram Search & Explore](https://help.instagram.com/381876165803550) — Instagram Help Center

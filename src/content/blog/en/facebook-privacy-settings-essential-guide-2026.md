@@ -3,7 +3,7 @@ title: "Facebook Privacy Settings: 7 Essential Steps for Easy 2026"
 description: "Master your facebook privacy settings with these 7 essential steps to lock down your profile completely in 2026. Protect your data the easy way now."
 pubDate: 2026-03-16
 updatedDate: 2026-03-16
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Privacy"

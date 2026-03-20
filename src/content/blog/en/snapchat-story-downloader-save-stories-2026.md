@@ -3,7 +3,7 @@ title: "Snapchat Story Downloader — How to Save Stories and Spotlights in 2026
 description: "Learn how to save Snapchat Stories, Spotlight videos, and Memories in 2026. Compare the best downloading methods, understand notification risks, and use the right tools safely."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Downloads"

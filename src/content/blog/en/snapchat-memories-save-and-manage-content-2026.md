@@ -3,7 +3,7 @@ title: "Snapchat Memories — How to Save, Manage, and Download Your Content in 
 description: "Complete guide to Snapchat Memories in 2026. Learn how to save snaps, organize your content, use My Eyes Only, download your memories, and manage storage effectively."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

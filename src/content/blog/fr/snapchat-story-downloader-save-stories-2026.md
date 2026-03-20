@@ -3,7 +3,7 @@ title: "Téléchargeur de stories Snapchat — Comment sauvegarder des stories e
 description: "Apprenez à sauvegarder des Stories Snapchat, des vidéos Spotlight et des Souvenirs en 2026. Comparez les meilleures méthodes de téléchargement, comprenez les risques de notification et utilisez les bons outils en toute sécurité."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Downloads"

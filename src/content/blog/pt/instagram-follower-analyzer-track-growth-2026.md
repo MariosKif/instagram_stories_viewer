@@ -3,7 +3,7 @@ title: "Analisador de Seguidores do Instagram — Como Acompanhar o Crescimento 
 description: "Aprenda a analisar seguidores do Instagram, acompanhar tendências de crescimento e detectar contas falsas ou bots. Use o analisador de seguidores gratuito do IGStoryPeek para obter insights instantâneos sobre o público sem fazer login."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-follower-growth.svg"
 category: "Analytics"

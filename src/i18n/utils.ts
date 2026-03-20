@@ -5,31 +5,7 @@ export const languages = {
   fr: { name: 'Français', code: 'fr' },
   es: { name: 'Español', code: 'es' },
   it: { name: 'Italiano', code: 'it' },
-  nl: { name: 'Nederlands', code: 'nl' },
   pt: { name: 'Português', code: 'pt' },
-  pl: { name: 'Polski', code: 'pl' },
-  ro: { name: 'Română', code: 'ro' },
-  cs: { name: 'Čeština', code: 'cs' },
-  bg: { name: 'Български', code: 'bg' },
-  hr: { name: 'Hrvatski', code: 'hr' },
-  da: { name: 'Dansk', code: 'da' },
-  et: { name: 'Eesti', code: 'et' },
-  fi: { name: 'Suomi', code: 'fi' },
-  el: { name: 'Ελληνικά', code: 'el' },
-  hu: { name: 'Magyar', code: 'hu' },
-  ga: { name: 'Gaeilge', code: 'ga' },
-  lv: { name: 'Latviešu', code: 'lv' },
-  lt: { name: 'Lietuvių', code: 'lt' },
-  mt: { name: 'Malti', code: 'mt' },
-  sk: { name: 'Slovenčina', code: 'sk' },
-  sl: { name: 'Slovenščina', code: 'sl' },
-  sv: { name: 'Svenska', code: 'sv' },
-  ja: { name: '日本語', code: 'ja' },
-  ko: { name: '한국어', code: 'ko' },
-  zh: { name: '中文', code: 'zh' },
-  ru: { name: 'Русский', code: 'ru' },
-  tr: { name: 'Türkçe', code: 'tr' },
-  ar: { name: 'العربية', code: 'ar' },
 } as const;
 
 export type Language = keyof typeof languages;
@@ -38,7 +14,7 @@ export const defaultLang: Language = 'en';
 export const allLanguages = Object.keys(languages) as Language[];
 
 // RTL languages
-const rtlLanguages: Language[] = ['ar'];
+const rtlLanguages: Language[] = [];
 
 export function isRTL(lang: Language): boolean {
   return rtlLanguages.includes(lang);
@@ -51,31 +27,7 @@ const languageMap: Record<string, Language> = {
   'fr': 'fr',
   'es': 'es',
   'it': 'it',
-  'nl': 'nl',
   'pt': 'pt',
-  'pl': 'pl',
-  'ro': 'ro',
-  'cs': 'cs',
-  'bg': 'bg',
-  'hr': 'hr',
-  'da': 'da',
-  'et': 'et',
-  'fi': 'fi',
-  'el': 'el',
-  'hu': 'hu',
-  'ga': 'ga',
-  'lv': 'lv',
-  'lt': 'lt',
-  'mt': 'mt',
-  'sk': 'sk',
-  'sl': 'sl',
-  'sv': 'sv',
-  'ja': 'ja',
-  'ko': 'ko',
-  'zh': 'zh',
-  'ru': 'ru',
-  'tr': 'tr',
-  'ar': 'ar',
 };
 
 /**

@@ -3,7 +3,7 @@ title: "Visualizzatore profilo Instagram: i 5 migliori strumenti gratuiti [Guida
 description: "Scopri i 5 migliori strumenti gratuiti per visualizzare profili Instagram nel 2025. Naviga profili pubblici completi, storie e reel con IGStoryPeek. Nessun login."
 pubDate: 2025-03-10
 updatedDate: 2025-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-guide.svg"
 category: "Guides"

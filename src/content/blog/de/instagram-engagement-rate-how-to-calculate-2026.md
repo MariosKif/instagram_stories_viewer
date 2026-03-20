@@ -3,7 +3,7 @@ title: "Instagram Engagement-Rate — Wie Sie sie berechnen & was eine gute Rate
 description: "Erfahren Sie, wie Sie Ihre Instagram Engagement-Rate 2026 mit genauen Formeln und Nischen-Benchmarks berechnen. Nutzen Sie IGStoryPeeks kostenlose Tools zur Leistungsmessung."
 pubDate: 2026-03-02
 updatedDate: 2026-03-02
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-engagement-guide.svg"
 category: "Analytics"

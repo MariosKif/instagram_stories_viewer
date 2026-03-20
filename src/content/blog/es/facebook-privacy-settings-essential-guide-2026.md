@@ -3,7 +3,7 @@ title: "Configuración de Privacidad de Facebook: 7 Pasos Esenciales en 2026"
 description: "Domina tu configuración de privacidad de facebook con estos 7 pasos esenciales para proteger tu perfil completamente en 2026. Protege tus datos de forma fácil ahora."
 pubDate: 2026-03-16
 updatedDate: 2026-03-16
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Privacy"

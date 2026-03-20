@@ -3,7 +3,7 @@ title: "Analyseur d'Activité Instagram — Découvrez les Schémas de Publicati
 description: "Découvrez comment analyser les schémas de publication Instagram, trouver les pics d'engagement et optimiser votre stratégie de contenu. Utilisez l'analyseur d'activité gratuit d'IGStoryPeek pour des informations instantanées."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-activity-patterns.svg"
 category: "Analytics"

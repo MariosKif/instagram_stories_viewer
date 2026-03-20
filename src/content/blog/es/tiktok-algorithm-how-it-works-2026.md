@@ -3,7 +3,7 @@ title: "Algoritmo de TikTok explicado — Cómo funciona realmente la página Pa
 description: "Entiende cómo el algoritmo de TikTok decide qué aparece en la página Para Ti en 2026. Aprende las señales de clasificación, las fases de distribución de contenido y las estrategias para conseguir más alcance."
 pubDate: 2026-03-01
 updatedDate: 2026-03-01
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

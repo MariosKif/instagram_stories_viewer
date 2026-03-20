@@ -3,7 +3,7 @@ title: "Instagram Viewer Online: Die 7 besten kostenlosen Methoden 2025"
 description: "Entdecken Sie die 7 besten kostenlosen Methoden zur Nutzung eines Instagram Viewers online 2025. Durchsuchen Sie öffentliche Profile von jedem Browser mit IGStoryPeek. Keine App nötig."
 pubDate: 2025-02-15
 updatedDate: 2025-02-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-online-browse.svg"
 category: "Guides"

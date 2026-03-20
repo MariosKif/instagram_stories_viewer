@@ -3,7 +3,7 @@ title: "Visualizador de Destaques do Instagram: 5 Melhores Métodos Gratuitos em
 description: "Descubra os 5 melhores métodos gratuitos para usar um visualizador de destaques do Instagram em 2025. Navegue por stories e destaques salvos sem login usando o IGStoryPeek."
 pubDate: 2025-03-04
 updatedDate: 2025-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

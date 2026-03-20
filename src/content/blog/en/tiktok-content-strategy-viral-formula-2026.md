@@ -3,7 +3,7 @@ title: "TikTok Content Strategy — The Viral Formula That Works in 2026"
 description: "Learn the TikTok content strategy that drives viral growth in 2026. Master hook-body-CTA structure, optimal posting times, content pillars, and trend-riding with IGStoryPeek's free tools."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

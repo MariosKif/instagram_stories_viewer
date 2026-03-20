@@ -3,7 +3,7 @@ title: "Snapchat Online-Status — So funktioniert Aktivitätsverfolgung 2026"
 description: "Verstehe, wie Snapchats Online-Status-Anzeige und Aktivitätsverfolgungsfunktionen 2026 funktionieren. Erfahre, was andere über deine Aktivität sehen können, wie du die Sichtbarkeit verwaltest und Datenschutzeinstellungen nutzt."
 pubDate: 2026-03-11
 updatedDate: 2026-03-11
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Analytics"

@@ -3,7 +3,7 @@ title: "Instagram senza account: 8 modi gratuiti e comprovati nel 2025"
 description: "Scopri 8 modi gratuiti comprovati per navigare Instagram senza account nel 2025. Visualizza storie, reel e post istantaneamente con IGStoryPeek. Nessun login necessario."
 pubDate: 2025-01-20
 updatedDate: 2025-01-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-no-account.svg"
 category: "Guides"

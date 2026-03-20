@@ -3,7 +3,7 @@ title: "Recuerdos de Snapchat — Cómo guardar, gestionar y descargar tu conten
 description: "Guía completa de Recuerdos de Snapchat en 2026. Aprende cómo guardar snaps, organizar tu contenido, usar Solo mis ojos, descargar tus recuerdos y gestionar el almacenamiento eficazmente."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

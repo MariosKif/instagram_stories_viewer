@@ -3,7 +3,7 @@ title: "Facebook Algorithmus 2026: 5 bewährte einfache Tipps zum Gewinnen"
 description: "Entdecken Sie genau, wie der Facebook Algorithmus 2026 funktioniert. Lernen Sie 5 bewährte Ranking-Faktoren, Content-Strategien und kostenlose Tipps zur Reichweitensteigerung."
 pubDate: 2026-03-13
 updatedDate: 2026-03-13
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Social Media"

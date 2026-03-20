@@ -3,7 +3,7 @@ title: "Strumenti di analisi Instagram: le 6 migliori opzioni gratuite per il 20
 description: "Scopri i 6 migliori strumenti di analisi Instagram gratuiti per monitorare i concorrenti nel 2025. Monitora qualsiasi account pubblico con IGStoryPeek senza login."
 pubDate: 2025-02-20
 updatedDate: 2025-02-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-analytics-overview.svg"
 category: "Social Media"

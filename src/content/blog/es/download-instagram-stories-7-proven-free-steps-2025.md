@@ -3,7 +3,7 @@ title: "Descargar stories de Instagram: 7 pasos gratuitos probados para 2025"
 description: "Aprende 7 pasos gratuitos probados para descargar stories de Instagram en calidad HD. Guarda stories, reels y highlights al instante con IGStoryPeek. Sin inicio de sesion."
 pubDate: 2025-02-18
 updatedDate: 2025-02-18
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-download.svg"
 category: "Tutorials"

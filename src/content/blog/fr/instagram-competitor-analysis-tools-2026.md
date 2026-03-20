@@ -3,7 +3,7 @@ title: "Analyse Concurrentielle Instagram — Comment Rechercher et Benchmarker 
 description: "Maîtrisez l'analyse concurrentielle Instagram en 2026 avec IGStoryPeek. Apprenez quelles métriques comparer, comment benchmarker les stratégies de contenu et obtenir des informations exploitables."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"

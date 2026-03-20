@@ -3,7 +3,7 @@ title: "Visor de Likes de Instagram — Cómo Ver Quién Dio Like a Cualquier Pu
 description: "Aprende cómo ver quién dio like a publicaciones de Instagram en 2026. Usa el visor de likes gratuito de IGStoryPeek para explorar datos de engagement público y obtener información sin iniciar sesión."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-likes-guide.svg"
 category: "Guides"

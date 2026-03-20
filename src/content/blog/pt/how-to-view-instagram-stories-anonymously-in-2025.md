@@ -3,7 +3,7 @@ title: "Como Ver Stories do Instagram Sem Conta em 2025"
 description: "Aprenda como ver stories do Instagram sem fazer login ou criar uma conta. Descubra os metodos mais faceis para ver stories do Instagram gratuitamente em 2025 usando o IGStoryPeek. Sem necessidade de login."
 pubDate: 2025-01-15
 updatedDate: 2025-01-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: true
 image: "/blog/hero-stories-anon-guide.svg"
 category: "Guides"

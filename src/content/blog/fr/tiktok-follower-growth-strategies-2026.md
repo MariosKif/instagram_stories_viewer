@@ -3,7 +3,7 @@ title: "Croissance des abonnés TikTok — 10 stratégies éprouvées pour grand
 description: "Découvrez 10 stratégies éprouvées pour développer vos abonnés TikTok de manière organique en 2026. Des tactiques concrètes pour l'optimisation du contenu, la promotion croisée et la construction d'audience."
 pubDate: 2026-03-03
 updatedDate: 2026-03-03
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

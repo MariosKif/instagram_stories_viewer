@@ -3,7 +3,7 @@ title: "Análisis de competidores en TikTok — Cómo investigar y superar a tus
 description: "Aprende a analizar competidores en TikTok en 2026. Descubre herramientas gratuitas para benchmarking de engagement, seguimiento de brechas de contenido y construcción de una estrategia que supere a tus rivales."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

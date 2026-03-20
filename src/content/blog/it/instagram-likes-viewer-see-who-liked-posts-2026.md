@@ -3,7 +3,7 @@ title: "Visualizzatore di Like Instagram — Come Vedere Chi Ha Messo Like ai Po
 description: "Scopri come vedere chi ha messo like ai post di Instagram nel 2026. Usa il visualizzatore di like gratuito di IGStoryPeek per esplorare i dati pubblici di engagement e ottenere informazioni senza accedere."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-likes-guide.svg"
 category: "Guides"

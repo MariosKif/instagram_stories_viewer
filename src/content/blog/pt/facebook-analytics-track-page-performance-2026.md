@@ -3,7 +3,7 @@ title: "Facebook Analytics: 7 Formas Gratuitas Comprovadas de Acompanhar Resulta
 description: "Domine o facebook analytics para acompanhar e melhorar o desempenho da pagina em 2026. Descubra 7 metodos gratuitos comprovados para medir as metricas que impulsionam o crescimento."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Tutorials"

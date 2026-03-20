@@ -3,7 +3,7 @@ title: "Snap Map Snapchat — Fonctionnalités, paramètres de confidentialité 
 description: "Découvrez comment fonctionne Snap Map de Snapchat en 2026, y compris les fonctionnalités de partage de localisation, les paramètres du Mode Fantôme, les meilleures pratiques de sécurité et comment contrôler qui voit votre position."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

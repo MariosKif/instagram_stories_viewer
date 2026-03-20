@@ -3,7 +3,7 @@ title: "Séries Snapchat — Règles, astuces et comment ne jamais les perdre en
 description: "Maîtrisez les Séries Snapchat en 2026 avec ce guide complet. Apprenez les règles exactes, comprenez l'avertissement de l'emoji sablier, récupérez les séries perdues et découvrez des stratégies pour les maintenir sans effort."
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

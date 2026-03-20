@@ -3,7 +3,7 @@ title: "Visualizador do Instagram Online: Os 7 Melhores Metodos Gratuitos em 202
 description: "Descubra os 7 melhores metodos gratuitos para usar um visualizador do Instagram online em 2025. Navegue por perfis publicos de qualquer navegador com o IGStoryPeek. Sem aplicativo."
 pubDate: 2025-02-15
 updatedDate: 2025-02-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-online-browse.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Instagram Photo Downloader: 7 Proven Free Methods in 2026"
 description: "Discover 7 proven free methods to use an Instagram photo downloader in 2026. Save public photos and carousels in HD with IGStoryPeek. No login needed."
 pubDate: 2025-03-12
 updatedDate: 2025-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-photo-save.svg"
 category: "Tutorials"

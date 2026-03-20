@@ -3,7 +3,7 @@ title: "Snap Map de Snapchat — Funciones, configuración de privacidad y conse
 description: "Explora cómo funciona el Snap Map de Snapchat en 2026, incluyendo funciones de compartir ubicación, configuración del modo fantasma, mejores prácticas de seguridad y cómo controlar quién ve tu ubicación."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

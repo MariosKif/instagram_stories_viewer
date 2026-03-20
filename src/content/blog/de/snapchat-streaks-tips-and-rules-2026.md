@@ -3,7 +3,7 @@ title: "Snapchat Streaks — Regeln, Tipps und wie du sie 2026 nie verlierst"
 description: "Meistere Snapchat Streaks 2026 mit diesem vollstaendigen Leitfaden. Lerne die genauen Regeln, verstehe die Sanduhr-Emoji-Warnung, stelle verlorene Streaks wieder her und entdecke Strategien zur muhelosen Aufrechterhaltung."
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

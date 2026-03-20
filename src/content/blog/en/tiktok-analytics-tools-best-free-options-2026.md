@@ -3,7 +3,7 @@ title: "TikTok Analytics Tools — 7 Best Free Options for Creators in 2026"
 description: "Compare the 7 best free TikTok analytics tools for creators in 2026. Learn what metrics to track, native vs third-party options, and how IGStoryPeek helps you analyze any public account."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

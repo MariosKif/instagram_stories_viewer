@@ -3,7 +3,7 @@ title: "Snapchat Snap Map — Funktionen, Datenschutzeinstellungen und Sicherhei
 description: "Erfahre, wie Snapchats Snap Map 2026 funktioniert, einschliesslich Standortfreigabe-Funktionen, Ghost-Mode-Einstellungen, bewaaehrte Sicherheitspraktiken und wie du kontrollierst, wer deinen Standort sieht."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

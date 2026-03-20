@@ -3,7 +3,7 @@ title: "Strumenti di Analisi TikTok — Le 7 Migliori Opzioni Gratuite per Creat
 description: "Confronta i 7 migliori strumenti gratuiti di analisi TikTok per creatori nel 2026. Scopri quali metriche monitorare, opzioni native vs di terze parti, e come IGStoryPeek ti aiuta ad analizzare qualsiasi account pubblico."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

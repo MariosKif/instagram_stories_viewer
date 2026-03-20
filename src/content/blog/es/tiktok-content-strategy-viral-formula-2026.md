@@ -3,7 +3,7 @@ title: "Estrategia de contenido en TikTok — La fórmula viral que funciona en 
 description: "Aprende la estrategia de contenido en TikTok que impulsa el crecimiento viral en 2026. Domina la estructura gancho-cuerpo-CTA, horarios óptimos de publicación, pilares de contenido y cómo aprovechar las tendencias con las herramientas gratuitas de IGStoryPeek."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Tips"

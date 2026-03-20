@@ -3,7 +3,7 @@ title: "Snapchat Memories — Como Salvar, Gerenciar e Baixar Seu Conteudo em 20
 description: "Guia completo sobre o Snapchat Memories em 2026. Aprenda como salvar snaps, organizar seu conteudo, usar o Somente Meus Olhos, baixar suas memorias e gerenciar o armazenamento de forma eficaz."
 pubDate: 2026-03-09
 updatedDate: 2026-03-09
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

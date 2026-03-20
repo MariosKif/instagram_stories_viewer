@@ -3,7 +3,7 @@ title: "Instagram Story Saver: Die 3 besten kostenlosen Tools ohne Anmeldung"
 description: "Vergleichen Sie die 3 besten kostenlosen Instagram Story Saver Tools für 2025. Speichern und archivieren Sie Stories, bevor sie ablaufen, mit IGStoryPeek – keine Anmeldung nötig."
 pubDate: 2025-02-10
 updatedDate: 2025-02-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-story-save.svg"
 category: "Tips"

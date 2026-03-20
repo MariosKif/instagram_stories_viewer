@@ -3,7 +3,7 @@ title: "Snapchat Best Friends List — How It Works and Who Makes the Cut in 202
 description: "Learn how the Snapchat Best Friends list works in 2026, including the algorithm behind friend rankings, emoji meanings, Snapchat planets, and how to manage your list for privacy."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

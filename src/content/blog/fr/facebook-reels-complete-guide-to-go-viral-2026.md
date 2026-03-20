@@ -2,7 +2,7 @@
 title: "Guide complet Facebook Reels : 7 étapes faciles et éprouvées en 2026"
 description: "Maîtrisez les Facebook Reels avec ce guide complet 2026. Apprenez 7 étapes éprouvées pour devenir viral, développer votre audience et bâtir une stratégie gagnante."
 pubDate: 2026-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Guides"

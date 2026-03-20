@@ -3,7 +3,7 @@ title: "Instagram Profil Viewer: Die 5 besten kostenlosen Tools [Leitfaden 2025]
 description: "Entdecken Sie die 5 besten kostenlosen Instagram Profil Viewer Tools für 2025. Durchsuchen Sie komplette öffentliche Profile, Stories und Reels mit IGStoryPeek. Keine Anmeldung."
 pubDate: 2025-03-10
 updatedDate: 2025-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-profile-guide.svg"
 category: "Guides"

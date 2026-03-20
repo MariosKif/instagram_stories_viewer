@@ -3,7 +3,7 @@ title: "TikTok Analytics Tools — Die 7 besten kostenlosen Optionen für Creato
 description: "Vergleiche die 7 besten kostenlosen TikTok-Analytics-Tools für Creator in 2026. Erfahre, welche Metriken du tracken solltest, native vs. Drittanbieter-Optionen und wie IGStoryPeek dir hilft, jedes öffentliche Profil zu analysieren."
 pubDate: 2026-03-05
 updatedDate: 2026-03-05
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Analytics"

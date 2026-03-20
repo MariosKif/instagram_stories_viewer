@@ -3,7 +3,7 @@ title: "Analisi dei Competitor su Instagram — Come Ricercare e Confrontare i R
 description: "Padroneggia l'analisi dei competitor su Instagram nel 2026 con IGStoryPeek. Scopri quali metriche confrontare, come fare benchmark delle strategie di contenuto e ottenere informazioni pratiche."
 pubDate: 2026-03-08
 updatedDate: 2026-03-08
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"

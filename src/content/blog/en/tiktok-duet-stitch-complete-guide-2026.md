@@ -3,7 +3,7 @@ title: "TikTok Duet & Stitch — Complete Guide to Collaboration Features in 202
 description: "Master TikTok Duet and Stitch features in 2026. Learn creative strategies, best practices, and how to track collaboration performance with IGStoryPeek's free tools."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-tiktok.svg"
 category: "Guides"

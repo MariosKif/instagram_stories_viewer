@@ -3,7 +3,7 @@ title: "Snapchat Streaks — Regras, Dicas e Como Nunca Perder em 2026"
 description: "Domine os Snapchat Streaks em 2026 com este guia completo. Aprenda as regras exatas, entenda o aviso do emoji de ampulheta, recupere streaks perdidos e descubra estrategias para mante-los sem esforco."
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-snapchat.svg"
 category: "Guides"

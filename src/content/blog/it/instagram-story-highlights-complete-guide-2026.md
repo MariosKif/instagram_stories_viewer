@@ -3,7 +3,7 @@ title: "Storie in Evidenza di Instagram — La Guida Completa per Creare e Visua
 description: "Tutto sulle Storie in Evidenza di Instagram nel 2026. Scopri come creare, organizzare e progettare le Storie in Evidenza. Usa IGStoryPeek per visualizzare quelle di chiunque facilmente."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"

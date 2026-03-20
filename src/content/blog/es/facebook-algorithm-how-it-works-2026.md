@@ -3,7 +3,7 @@ title: "Algoritmo de Facebook en 2026: 5 Consejos Simples Probados"
 description: "Descubre exactamente cómo funciona el algoritmo de facebook en 2026. Aprende 5 factores de clasificación probados, estrategias de contenido y consejos gratuitos para aumentar tu alcance."
 pubDate: 2026-03-13
 updatedDate: 2026-03-13
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Social Media"

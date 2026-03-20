@@ -2,7 +2,7 @@
 title: "Facebook Reels Complete Guide: 7 Proven Easy Steps in 2026"
 description: "Master facebook reels with this complete 2026 guide. Learn 7 proven steps to go viral, grow your audience fast, and build a winning content strategy."
 pubDate: 2026-03-12
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/platform-facebook.svg"
 category: "Guides"

@@ -3,7 +3,7 @@ title: "Visionneuse de Likes Instagram — Comment Voir Qui a Aimé une Publicat
 description: "Apprenez comment voir qui a aimé des publications Instagram en 2026. Utilisez la visionneuse de likes gratuite d'IGStoryPeek pour explorer les données d'engagement public et obtenir des informations sans connexion."
 pubDate: 2026-03-06
 updatedDate: 2026-03-06
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-likes-guide.svg"
 category: "Guides"

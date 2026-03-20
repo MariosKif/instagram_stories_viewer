@@ -3,7 +3,7 @@ title: "Instagram Without Account: Top 8 Proven Free Ways in 2026"
 description: "Discover 8 proven free ways to browse Instagram without account in 2026. View stories, reels, and posts instantly with IGStoryPeek. No login needed."
 pubDate: 2025-01-20
 updatedDate: 2025-01-20
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-no-account.svg"
 category: "Guides"

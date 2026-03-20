@@ -3,7 +3,7 @@ title: "Visualizador de Comentários do Instagram — Como Ler Comentários em P
 description: "Aprenda a navegar pelos comentários do Instagram sem fazer login ou revelar a sua identidade. O IGStoryPeek permite-lhe ler comentários de qualquer publicação pública de forma privada e gratuita."
 pubDate: 2026-03-04
 updatedDate: 2026-03-04
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-comments-guide.svg"
 category: "Guides"

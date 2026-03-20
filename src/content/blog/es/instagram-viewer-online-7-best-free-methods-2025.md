@@ -3,7 +3,7 @@ title: "Visor de Instagram Online: Los 7 Mejores Métodos Gratuitos en 2025"
 description: "Descubre los 7 mejores métodos gratuitos para usar un visor de Instagram online en 2025. Navega por perfiles públicos desde cualquier navegador con IGStoryPeek. Sin app necesaria."
 pubDate: 2025-02-15
 updatedDate: 2025-02-15
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-online-browse.svg"
 category: "Guides"

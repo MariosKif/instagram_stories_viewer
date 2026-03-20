@@ -3,7 +3,7 @@ title: "Highlights de Stories Instagram — Le Guide Complet pour Créer et Visu
 description: "Tout sur les Highlights de Stories Instagram en 2026. Apprenez à créer, organiser et concevoir des Highlights. Utilisez IGStoryPeek pour voir les Highlights de n'importe qui facilement."
 pubDate: 2026-03-10
 updatedDate: 2026-03-10
-author: "IGStoryPeek"
+author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
 category: "Guides"
