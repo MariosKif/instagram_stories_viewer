@@ -13,7 +13,7 @@ const t = (Astro.locals as any).t || {};
 const defaultFaqs = [
   {
     question: 'What does IGStoryPeek do?',
-    answer: 'IGStoryPeek is a social media analytics platform that lets you browse and analyze public profiles on Instagram, TikTok, Facebook, and Snapchat. You can view stories, posts, reels, and engagement metrics without creating an account.',
+    answer: 'IGStoryPeek is an Instagram analytics platform that lets you browse and analyze public Instagram profiles. You can view stories, posts, reels, highlights, and engagement metrics without creating an account.',
   },
   {
     question: 'Is it legal to view someone\'s public social media profile?',
@@ -44,7 +44,7 @@ const aboutFaqs = t.about?.faqs || defaultFaqs;
       <div class="space-y-8 text-dark-300 text-sm leading-relaxed">
         <div>
           <h2 class="text-lg font-semibold text-white mb-3">{t.about?.whatWeDoTitle || 'Our Mission'}</h2>
-          <p>{t.about?.mission || 'IGStoryPeek was built to make public social media data more accessible and easier to understand. We believe that information shared publicly on platforms like Instagram, TikTok, Facebook, and Snapchat should be easy to explore, analyze, and learn from — without requiring you to create an account or install an app.'}</p>
+          <p>{t.about?.mission || 'IGStoryPeek was built to make public Instagram data more accessible and easier to understand. We believe that information shared publicly on Instagram should be easy to explore, analyze, and learn from — without requiring you to create an account or install an app.'}</p>
           <p class="mt-2">{t.about?.whatWeDoDesc || 'Our tools help marketers, researchers, content creators, and everyday users gain meaningful insights from public social media profiles.'}</p>
         </div>
 
@@ -68,22 +68,6 @@ const aboutFaqs = t.about?.faqs || defaultFaqs;
               <p class="mt-0.5">{t.about?.userPrivacy?.description || 'We collect minimal data from our users and never sell personal information to third parties.'}</p>
             </li>
           </ul>
-        </div>
-
-        <div>
-          <h2 class="text-lg font-semibold text-white mb-3">Meet the Team</h2>
-          <div class="grid sm:grid-cols-2 gap-4">
-            <div class="glass p-4">
-              <p class="font-semibold text-white">Alex Morgan</p>
-              <p class="text-xs text-primary mb-2">Lead Developer & Content Strategist</p>
-              <p>Full-stack developer with expertise in social media APIs and data analytics. Leads the technical development and content strategy for IGStoryPeek.</p>
-            </div>
-            <div class="glass p-4">
-              <p class="font-semibold text-white">The IGStoryPeek Team</p>
-              <p class="text-xs text-primary mb-2">Development & Support</p>
-              <p>A small, distributed team of developers and analysts passionate about making public social media data more accessible and understandable for everyone.</p>
-            </div>
-          </div>
         </div>
 
         <div>

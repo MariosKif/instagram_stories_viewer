@@ -1,8 +1,8 @@
 ---
 title: "Private Instagram Viewer: 5 Essential Free Facts for 2026"
 description: "Learn 5 essential facts about the private Instagram viewer myth. Discover why most tools are scams and how IGStoryPeek safely views public content."
-pubDate: 2025-02-25
-updatedDate: 2025-02-25
+pubDate: 2025-12-15
+updatedDate: 2025-12-15
 author: "Alex Morgan"
 featured: false
 image: "/blog/hero-private-browse.svg"
@@ -142,3 +142,9 @@ Legitimate Instagram viewer tools like IGStoryPeek clearly state they access onl
 ### What public content can you view with IGStoryPeek?
 
 IGStoryPeek provides complete access to stories, highlights, reels, and posts from any public Instagram profile. The tool works on all devices with a modern browser, requires no account creation, and is completely free. It is the safest and most reliable public Instagram viewer in 2025.
+
+## Sources
+
+- [Instagram Privacy Settings](https://help.instagram.com/) — Instagram Help Center
+- [How Instagram Protects Account Privacy](https://about.instagram.com/blog/announcements) — Instagram Official Blog
+- [Meta Transparency Center — Account Security](https://transparency.meta.com/) — Meta Platform Policies

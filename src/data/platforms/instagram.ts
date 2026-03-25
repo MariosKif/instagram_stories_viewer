@@ -6,10 +6,10 @@ export const instagram: Platform = {
   description: 'Analyze Instagram profiles, browse stories without an account, download content, and track account activity — all from one powerful dashboard.',
   categories: [
     // ═══════════════════════════════════════════
-    // PROFILE EXPLORER (2 features)
+    // PROFILE & ANALYTICS (2 features)
     // ═══════════════════════════════════════════
     {
-      title: 'Profile Explorer', icon: icons.eye,
+      title: 'Profile & Analytics', icon: icons.eye,
       features: [
         {
           slug: 'user-search',
@@ -18,6 +18,19 @@ export const instagram: Platform = {
           description: 'Look up any Instagram account by username and access their public profile data without logging in. Our search tool retrieves bios, post counts, follower numbers, and profile pictures in seconds.',
           metaDescription: 'Search any Instagram user by username. View public profiles, bios, follower counts, and photos instantly — no login needed. Free Instagram profile lookup tool.',
           badges: ['Instant Lookup', 'No Login Needed', 'Public Profiles Only'],
+          longDescription: `<h2>Who Needs an Instagram Profile Search — and Why</h2>
+<p>Instagram hosts over two billion monthly active users, and a surprising amount of publicly available information sits behind each profile. Whether you are a marketer sizing up a competitor, a journalist verifying the authenticity of a source, or a parent checking whether your child's account is visible to strangers, the ability to quickly look up a profile without logging in is genuinely useful.</p>
+<p>For marketing professionals, a profile search is often the first step in competitive intelligence. Before investing time in a full audit, you need to know the basics: how large is the audience, how frequently does the account post, and what does the bio communicate about their positioning? Our tool surfaces all of this in seconds, so you can triage dozens of competitor or influencer profiles in a single session without ever needing to create a throwaway Instagram account.</p>
+<h2>What to Look for in a Public Profile</h2>
+<p>Once you pull up a profile, the follower-to-following ratio is one of the quickest indicators of account authority. Accounts with a high follower count but very few accounts followed tend to be established creators or brands, while a near-equal ratio often signals a personal or newer account still building an audience through reciprocal follows.</p>
+<p>The bio itself deserves close attention. Brands typically include a call-to-action, a link to a landing page, and branded hashtags. Influencers often list contact emails and representation details. If you are investigating whether a profile is legitimate — say, for journalistic fact-checking — look for verified badges, consistent posting history, and whether the bio aligns with the content in recent posts.</p>
+<h2>Practical Tips for Different Use Cases</h2>
+<ul>
+<li><strong>Competitive research:</strong> Search several competitors in your niche and note their posting frequency, bio messaging, and follower scale. Export the data points into a spreadsheet to track changes over time.</li>
+<li><strong>Journalist verification:</strong> Cross-reference the username with other social platforms. Check whether the account creation date aligns with the person's claimed online presence and whether the content history looks organic or recently fabricated.</li>
+<li><strong>Parental oversight:</strong> Enter your child's username to see exactly what a stranger would see. If the profile photo, bio, or post count is visible without logging in, the account is set to public and anyone can view its content.</li>
+</ul>
+<p>Understanding what public profile data reveals — and what it does not — helps you make informed decisions whether you are planning a campaign, verifying a story, or simply keeping your family safe online.</p>`,
           benefitsHeading: 'Why Our Instagram <span style="color:#E1306C">Profile Search</span> Stands Out',
           benefitsSubheading: 'Quickly find and preview any public Instagram account without creating an account or signing in.',
           benefits: [
@@ -47,90 +60,21 @@ export const instagram: Platform = {
           relatedSubheading: 'Explore additional ways to browse Instagram content privately.',
         },
         {
-          slug: 'view-comments-privately',
-          label: 'View Comments Privately',
-          title: 'View Instagram Comments Privately — Read Without Logging In',
-          description: 'Read every comment on any public Instagram post without needing to log in. Browse reply threads, see commenter profiles, and track conversations — all with complete privacy.',
-          metaDescription: 'Read Instagram comments privately. Browse reply threads on any public post without logging in or creating an account. Free and private comment viewer.',
-          badges: ['Private Browsing', 'Thread View', 'No Account Required'],
-          benefitsHeading: 'Why Browse Instagram <span style="color:#E1306C">Comments Privately</span>',
-          benefitsSubheading: 'Read full comment sections and reply threads on public posts without needing to log in.',
-          benefits: [
-            { title: 'Complete Privacy', description: 'Your visit is routed through our servers. No login or account is required to browse comments.', icon: icons.lock },
-            { title: 'Full Thread Access', description: 'Read top-level comments and nested replies just as they appear on the original post — nothing is hidden.', icon: icons.chat },
-            { title: 'Commenter Insights', description: 'See commenter usernames and profile snippets to understand who is engaging with the content.', icon: icons.users },
-            { title: 'Bookmark for Later', description: 'Save interesting comment threads to your dashboard and revisit them anytime without re-searching.', icon: icons.star },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">Read Comments Privately</span>',
-          howItWorksSubheading: 'Three simple steps to privately browse any public Instagram comment section.',
-          howItWorks: [
-            { title: 'Enter the Account', description: 'Type the Instagram username whose post comments you want to read.' },
-            { title: 'Pick a Post', description: 'Select the specific post from their public feed to load its comment section.' },
-            { title: 'Read Privately', description: 'Browse all comments and replies at your own pace — no account or login needed.' },
-          ],
-          faqs: [
-            { question: 'Can I see all comments or just top ones?', answer: 'You can see every publicly visible comment, including nested reply threads. Instagram may hide some comments by default, but all publicly accessible ones are shown through our tool.' },
-            { question: 'Does the commenter know I viewed their comment?', answer: 'No. Reading comments through IGStoryPeek is completely passive. Neither the poster nor any commenters receive any indication that their comments were viewed.' },
-            { question: 'Can I read comments on private account posts?', answer: 'No. Our tool only accesses data from public Instagram accounts. Comments on posts from private accounts are not accessible.' },
-            { question: 'Is there a limit to how many comments I can read?', answer: 'Free accounts can view comments on multiple posts per day. Pro subscribers enjoy unlimited access to comment threads across all public accounts.' },
-          ],
-          faqHeading: 'Private Comment Viewing <span style="color:#E1306C">Questions</span>',
-          faqSubheading: 'What you need to know about reading Instagram comments privately.',
-          ctaHeading: 'Read Instagram Comments <span style="color:#E1306C">Without Logging In</span>',
-          ctaDescription: 'Enter a username below to start browsing their public post comments in total privacy.',
-          relatedHeading: 'More <span style="color:#E1306C">Instagram</span> Viewing Tools',
-          relatedSubheading: 'Browse other Instagram content types with complete privacy.',
-        },
-      ],
-    },
-    // ═══════════════════════════════════════════
-    // ANALYZER (4 features)
-    // ═══════════════════════════════════════════
-    {
-      title: 'Analyzer', icon: icons.chart,
-      features: [
-        {
-          slug: 'follower-analyzer',
-          label: 'Follower Analyzer',
-          title: 'Instagram Follower Analyzer — Track Growth & Audience Insights',
-          description: 'Decode any public Instagram account\'s follower base. See growth trends over time, identify top followers, spot fake accounts, and understand audience demographics with AI-driven analysis.',
-          metaDescription: 'Analyze Instagram followers with AI. Track follower growth, spot fake accounts, see audience demographics, and get actionable growth insights. Free follower analysis tool.',
-          badges: ['AI-Driven Analysis', 'Growth Trends', 'Fake Account Detection'],
-          benefitsHeading: 'What Our <span style="color:#E1306C">Follower Analyzer</span> Reveals',
-          benefitsSubheading: 'Uncover hidden patterns in any public account\'s follower base with machine-learning insights.',
-          benefits: [
-            { title: 'Growth Timeline', description: 'Visualize follower count changes over weeks and months to identify growth spurts and sudden drops.', icon: icons.trendUp },
-            { title: 'Fake Follower Score', description: 'Our algorithm flags suspicious accounts — bots, inactive profiles, and purchased followers — and assigns a credibility score.', icon: icons.shield },
-            { title: 'Audience Breakdown', description: 'See estimated demographics including location clusters, active hours, and interest categories of the follower base.', icon: icons.users },
-            { title: 'Exportable Reports', description: 'Download your analysis as a PDF or CSV to share with clients, team members, or include in presentations.', icon: icons.chart },
-          ],
-          howItWorksHeading: 'How <span style="color:#E1306C">Follower Analysis</span> Works',
-          howItWorksSubheading: 'Get a complete breakdown of any Instagram follower base in three steps.',
-          howItWorks: [
-            { title: 'Enter the Handle', description: 'Provide the Instagram username whose followers you want to analyze.' },
-            { title: 'AI Processes the Data', description: 'Our algorithms examine public follower data, engagement ratios, and historical patterns to build a comprehensive profile.' },
-            { title: 'Review Your Report', description: 'Explore interactive charts showing growth curves, authenticity scores, and audience composition.' },
-          ],
-          faqs: [
-            { question: 'How accurate is the fake follower detection?', answer: 'Our AI model analyzes engagement ratios, posting patterns, profile completeness, and follower-to-following ratios to flag suspicious accounts. The accuracy rate exceeds 90% based on benchmark tests against known bot networks.' },
-            { question: 'Can I track follower growth over time?', answer: 'Yes. Once you run an analysis, we store a snapshot. Subsequent analyses let you compare changes and visualize growth or decline over days, weeks, and months.' },
-            { question: 'Does this work for large accounts with millions of followers?', answer: 'Absolutely. Our system is optimized for accounts of all sizes. Larger accounts may take a few extra seconds to process, but you\'ll still receive the full analysis.' },
-            { question: 'What data do you need from me?', answer: 'Just the public Instagram username. We don\'t require your Instagram login, password, or any personal information to run the analysis.' },
-          ],
-          faqHeading: 'Follower Analysis <span style="color:#E1306C">Questions Answered</span>',
-          faqSubheading: 'Everything you need to know about analyzing Instagram follower data.',
-          ctaHeading: 'Analyze Any Account\'s <span style="color:#E1306C">Followers Now</span>',
-          ctaDescription: 'Enter an Instagram username and get a detailed follower insights report in moments.',
-          relatedHeading: 'Explore More <span style="color:#E1306C">Instagram</span> Analytics',
-          relatedSubheading: 'Dive deeper into Instagram data with these complementary analysis tools.',
-        },
-        {
           slug: 'activity-analyzer',
           label: 'Activity Analyzer',
           title: 'Instagram Activity Analyzer — Posting Patterns & Engagement Timing',
           description: 'Discover when any public Instagram account posts, which content formats perform best, and what days drive the most engagement. Ideal for competitive research and content strategy.',
           metaDescription: 'Analyze Instagram posting activity and engagement patterns. Find optimal posting times, top content formats, and engagement trends. Free Instagram activity analysis.',
           badges: ['Posting Schedule Map', 'Engagement Heatmap', 'Content Strategy Data'],
+          longDescription: `<p>Every successful Instagram content strategy starts with data, and posting pattern analysis is one of the most underutilized sources of competitive intelligence available today. Instead of guessing when to post or what format to prioritize, you can study the actual behavior of accounts that are already winning in your niche and reverse-engineer their approach.</p>
+<h2>Reading an Engagement Heatmap</h2>
+<p>An engagement heatmap plots the days of the week against the hours of the day, with color intensity representing the volume of interactions a post receives when published in that time slot. A darker cell at, say, Tuesday 7 AM tells you that content published in that window historically attracts more likes, comments, and shares than content published at other times.</p>
+<p>However, interpreting the heatmap requires nuance. A single viral post can skew an entire time slot. That is why our analyzer weights engagement relative to the account's average performance, filtering out statistical outliers so you get a reliable picture of sustained patterns rather than one-off spikes.</p>
+<h2>What Posting Frequency Reveals</h2>
+<p>Posting frequency data shows more than just how often someone publishes. It reveals cadence consistency — whether an account posts daily like clockwork or in erratic bursts. Consistent accounts tend to perform better algorithmically because Instagram rewards predictable content signals. If a competitor posts three reels every Monday, Wednesday, and Friday and maintains strong engagement, that regularity is almost certainly part of why the algorithm favors them.</p>
+<h2>Niche-Specific Patterns Worth Noting</h2>
+<p>Different niches show strikingly different optimal windows. Accounts in the fitness space tend to see the highest engagement on weekday mornings between 6 AM and 8 AM, when their audience is planning workouts. Food and recipe accounts peak during late morning and early evening — the hours when people are deciding what to cook. B2B and professional accounts typically perform best during weekday lunch breaks, roughly 12 PM to 1 PM, when professionals scroll during downtime.</p>
+<p>These are not rigid rules. Geographic audience distribution, content format, and even seasonality all affect timing. The point of the analyzer is to replace assumptions with evidence specific to the accounts you care about. Run the analysis on three to five competitors, look for overlapping patterns, and use those patterns as a starting framework for your own posting schedule. Then iterate based on your own results.</p>`,
           benefitsHeading: 'Insights from the <span style="color:#E1306C">Activity Analyzer</span>',
           benefitsSubheading: 'Turn raw posting data into a clear content strategy by understanding when and how accounts engage their audience.',
           benefits: [
@@ -159,267 +103,14 @@ export const instagram: Platform = {
           relatedHeading: 'Related <span style="color:#E1306C">Instagram</span> Analysis Tools',
           relatedSubheading: 'Combine activity data with these tools for a full competitive picture.',
         },
-        {
-          slug: 'see-likes',
-          label: 'See Likes on Instagram',
-          title: 'See Who Liked Instagram Posts — Public Like Viewer & Counter',
-          description: 'Check the like count on any public Instagram post and see which accounts interacted. Identify top engagers, track like trends across posts, and measure content popularity at a glance.',
-          metaDescription: 'See who liked any public Instagram post. View like counts, identify top engagers, and track post popularity trends. Free Instagram likes checker tool.',
-          badges: ['Like Counter', 'Top Engager List', 'Trend Tracking'],
-          benefitsHeading: 'Why Check <span style="color:#E1306C">Instagram Likes</span> With Our Tool',
-          benefitsSubheading: 'Go beyond the like count — understand who is engaging and how post popularity shifts over time.',
-          benefits: [
-            { title: 'Detailed Like Data', description: 'See the total like count on any public post and browse the list of accounts that tapped the heart button.', icon: icons.heart },
-            { title: 'Top Engager Identification', description: 'Spot which accounts consistently like the most posts — valuable for identifying brand advocates and superfans.', icon: icons.star },
-            { title: 'Post-by-Post Comparison', description: 'Compare like counts across an account\'s recent posts to find which content themes generate the most love.', icon: icons.chart },
-            { title: 'No Account Needed', description: 'View like data from any public post without logging into Instagram or revealing your identity.', icon: icons.lock },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">Check Instagram Likes</span>',
-          howItWorksSubheading: 'Three steps to see who liked any public Instagram post.',
-          howItWorks: [
-            { title: 'Search the Account', description: 'Enter the Instagram username whose post likes you want to examine.' },
-            { title: 'Select a Post', description: 'Choose any post from their public feed to load its engagement data.' },
-            { title: 'See the Likes', description: 'View the total like count and scroll through the list of accounts that liked the post.' },
-          ],
-          faqs: [
-            { question: 'Can I see exactly who liked a post?', answer: 'For public accounts, we display the like count and a sample of accounts that liked the post. Instagram limits full liker list access, but our tool retrieves as many as publicly available.' },
-            { question: 'Why do some posts show likes but others show view counts?', answer: 'Reels and video posts primarily display view counts instead of likes. Our tool shows whatever engagement metric Instagram makes publicly available for each content type.' },
-            { question: 'Can I track likes over time on a specific post?', answer: 'Pro subscribers can snapshot like counts and compare them on subsequent visits to see how a post\'s engagement grows after publishing.' },
-            { question: 'Does this work for Instagram Reels?', answer: 'Yes. Reels display both like counts and view counts. Our tool captures all publicly visible engagement metrics for reels, stories, and standard posts alike.' },
-          ],
-          faqHeading: 'Instagram Likes <span style="color:#E1306C">Questions</span>',
-          faqSubheading: 'What you need to know about viewing and analyzing Instagram likes.',
-          ctaHeading: 'Check Likes on Any <span style="color:#E1306C">Instagram Post</span>',
-          ctaDescription: 'Enter a username to browse their posts and see detailed like and engagement data.',
-          relatedHeading: 'More <span style="color:#E1306C">Instagram</span> Engagement Tools',
-          relatedSubheading: 'Pair likes analysis with these tools for complete engagement analytics.',
-        },
-        {
-          slug: 'hashtags-generator',
-          label: 'Hashtags Generator',
-          title: 'Instagram Hashtag Generator — AI-Powered Tags for Maximum Reach',
-          description: 'Generate optimized hashtag sets tailored to your niche, content type, and audience size. Our AI analyzes trending tags, competition levels, and reach potential to suggest the perfect mix of hashtags.',
-          metaDescription: 'Generate the best Instagram hashtags with AI. Get niche-specific tag suggestions optimized for reach, competition, and trends. Free Instagram hashtag generator.',
-          badges: ['AI Tag Suggestions', 'Niche-Optimized', 'Reach Estimator'],
-          benefitsHeading: 'How Our <span style="color:#E1306C">Hashtag Generator</span> Boosts Reach',
-          benefitsSubheading: 'Stop guessing which hashtags to use — let AI find the perfect combination for every post.',
-          benefits: [
-            { title: 'Niche-Specific Tags', description: 'Enter your topic or niche and receive hashtag suggestions tailored to your exact content vertical, not generic popular tags.', icon: icons.hashtag },
-            { title: 'Competition Scoring', description: 'Each suggested hashtag includes a difficulty score so you can balance high-volume tags with attainable lower-competition ones.', icon: icons.chart },
-            { title: 'Trend Detection', description: 'Our algorithm surfaces hashtags that are currently surging in usage, helping you ride trending waves before they peak.', icon: icons.trendUp },
-            { title: 'Copy-Ready Sets', description: 'Get 30-hashtag sets organized by reach tier — just copy and paste directly into your Instagram post caption.', icon: icons.sparkles },
-          ],
-          howItWorksHeading: 'How the <span style="color:#E1306C">Hashtag Generator</span> Works',
-          howItWorksSubheading: 'Get a curated hashtag strategy for your next Instagram post in three steps.',
-          howItWorks: [
-            { title: 'Describe Your Content', description: 'Enter keywords, a topic, or an Instagram username to establish the niche context for your hashtag suggestions.' },
-            { title: 'AI Generates Tags', description: 'Our algorithm analyzes millions of posts to find hashtags with the best reach-to-competition ratio for your niche.' },
-            { title: 'Copy & Post', description: 'Review the suggested sets, customize if needed, and paste them directly into your next Instagram caption.' },
-          ],
-          faqs: [
-            { question: 'How many hashtags should I use per post?', answer: 'Instagram allows up to 30 hashtags per post. Our tool generates sets of 30 grouped by reach tier (high, medium, niche) so you can use the full allocation or pick a curated subset of 10–15.' },
-            { question: 'Are the suggestions based on real data?', answer: 'Yes. Our AI analyzes current Instagram post volumes, engagement rates, and trending velocity for each hashtag. Suggestions are refreshed regularly to reflect the latest platform trends.' },
-            { question: 'Can I generate hashtags for a specific account\'s niche?', answer: 'Absolutely. Enter any public Instagram username and our tool will analyze their content themes, top-performing posts, and existing hashtag usage to generate suggestions aligned with their audience.' },
-            { question: 'Do banned or shadowbanned hashtags get filtered?', answer: 'Yes. We maintain a frequently updated list of flagged and restricted hashtags and automatically exclude them from all generated sets.' },
-          ],
-          faqHeading: 'Hashtag Generator <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Common questions about generating Instagram hashtags with AI.',
-          ctaHeading: 'Generate Winning <span style="color:#E1306C">Hashtags Now</span>',
-          ctaDescription: 'Enter your niche or a username and get AI-curated hashtag sets optimized for reach and engagement.',
-          relatedHeading: 'Pair With Other <span style="color:#E1306C">Instagram</span> Tools',
-          relatedSubheading: 'Combine hashtag research with these tools to supercharge your Instagram strategy.',
-        },
       ],
     },
     // ═══════════════════════════════════════════
-    // DOWNLOADER (4 features)
+    // CONTENT VIEWER (3 features)
     // ═══════════════════════════════════════════
     {
-      title: 'Downloader', icon: icons.download,
+      title: 'Content Viewer', icon: icons.viewer,
       features: [
-        {
-          slug: 'stories-downloader',
-          label: 'Stories Downloader',
-          title: 'Download Instagram Stories — Save IG Stories in HD Quality',
-          description: 'Save any public Instagram story to your device for offline viewing. Download photos and videos in original HD quality with no compression or time limits.',
-          metaDescription: 'Download Instagram stories in HD for offline viewing. Save story photos and videos from any public account in original quality, no login required. Free IG story saver.',
-          badges: ['HD Quality', 'Original Quality', 'Save for Offline'],
-          benefitsHeading: 'Why Use Our <span style="color:#E1306C">Instagram Story Saver</span>',
-          benefitsSubheading: 'Save ephemeral story content for offline viewing and future reference.',
-          benefits: [
-            { title: 'Original Resolution', description: 'Stories are saved in the same quality they were uploaded — full HD photos and videos with no re-encoding.', icon: icons.photo },
-            { title: 'Batch Story Download', description: 'Save all active stories from a user at once instead of downloading them one by one.', icon: icons.collection },
-            { title: 'Original Quality Preserved', description: 'Unlike many tools, we preserve the original file quality with no overlays or branding on your downloaded story files.', icon: icons.check },
-            { title: 'Save for Offline Viewing', description: 'Download stories anytime during their 24-hour window. As long as they\'re live, you can save them for reference.', icon: icons.clock },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">Download Instagram Stories</span>',
-          howItWorksSubheading: 'Save Instagram stories to your device in three quick steps.',
-          howItWorks: [
-            { title: 'Enter the Username', description: 'Type the handle of the account whose stories you want to download.' },
-            { title: 'Preview Active Stories', description: 'See thumbnails of all currently live stories. Select individual stories or choose to download them all.' },
-            { title: 'Save to Your Device', description: 'Click download and the story files are saved directly to your phone or computer in HD quality.' },
-          ],
-          faqs: [
-            { question: 'Can I download stories from private accounts?', answer: 'No. Our tool only accesses stories from public Instagram accounts. If an account is set to private, their stories are not accessible through any third-party service.' },
-            { question: 'Do downloaded stories include the original audio?', answer: 'Yes. Video stories are saved with their full original audio track, including any music overlays the creator added.' },
-            { question: 'How long are downloaded stories available?', answer: 'Once saved to your device, the files are yours permanently. They don\'t expire like they do on Instagram.' },
-            { question: 'Can the user see that I downloaded their story?', answer: 'No. Downloading through our tool does not register as a view on the user\'s story. Your activity remains completely private.' },
-          ],
-          faqHeading: 'Story Download <span style="color:#E1306C">Questions</span>',
-          faqSubheading: 'Everything about saving Instagram stories to your device.',
-          ctaHeading: 'Save Instagram Stories <span style="color:#E1306C">for Offline Viewing</span>',
-          ctaDescription: 'Enter a username to preview and download their active stories in full HD.',
-          relatedHeading: 'More <span style="color:#E1306C">Instagram</span> Download Tools',
-          relatedSubheading: 'Save other types of Instagram content with these companion tools.',
-        },
-        {
-          slug: 'highlights-downloader',
-          label: 'Highlights Downloader',
-          title: 'Download Instagram Highlights — Save Highlight Reels Permanently',
-          description: 'Download entire Instagram highlight albums from any public profile. Save curated story collections in original quality and store them locally for reference.',
-          metaDescription: 'Download Instagram highlights in full quality. Save entire highlight reels from public profiles — photos and videos preserved permanently. Free highlight downloader.',
-          badges: ['Full Albums', 'Permanent Save', 'Original Quality'],
-          benefitsHeading: 'Benefits of Our <span style="color:#E1306C">Highlights Downloader</span>',
-          benefitsSubheading: 'Preserve curated story collections that accounts have pinned to their profile.',
-          benefits: [
-            { title: 'Entire Album Download', description: 'Save every photo and video within a highlight reel in a single batch — no need to grab them individually.', icon: icons.collection },
-            { title: 'Original Media Quality', description: 'Highlights are downloaded at the same resolution they were originally posted, with audio fully intact.', icon: icons.play },
-            { title: 'Organized Output', description: 'Files are named and ordered to match the original highlight sequence so you can recreate the album offline.', icon: icons.sparkles },
-            { title: 'Future-Proof Saves', description: 'Once downloaded, highlights are yours forever — even if the creator deletes or updates their highlight albums.', icon: icons.shield },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">Download Highlights</span>',
-          howItWorksSubheading: 'Preserve any public Instagram highlight album in three steps.',
-          howItWorks: [
-            { title: 'Search the Profile', description: 'Enter the Instagram username of the account whose highlights you want to save.' },
-            { title: 'Browse Highlight Albums', description: 'See all available highlight reels on their profile and choose which album to download.' },
-            { title: 'Download the Album', description: 'Save the entire highlight reel to your device with photos and videos organized in order.' },
-          ],
-          faqs: [
-            { question: 'Can I download just one story from a highlight?', answer: 'Yes. While batch download grabs the entire album, you can also select individual slides within a highlight to save only the specific stories you need.' },
-            { question: 'Are highlight cover images included?', answer: 'Yes. The highlight\'s cover thumbnail is saved along with the individual story slides so you have the complete album experience offline.' },
-            { question: 'What format are the files saved in?', answer: 'Photos are saved as JPG files and videos as MP4. These are universal formats that work on every device and media player.' },
-            { question: 'Do highlights update if the creator adds new stories?', answer: 'Downloaded files are snapshots taken at the time of download. To capture newly added stories to a highlight, simply run the download again.' },
-          ],
-          faqHeading: 'Highlights Downloader <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Answers about downloading and preserving Instagram highlight albums.',
-          ctaHeading: 'Download Instagram <span style="color:#E1306C">Highlights Now</span>',
-          ctaDescription: 'Enter a username and save their highlight albums in original quality — free and instant.',
-          relatedHeading: 'Additional <span style="color:#E1306C">Instagram</span> Savers',
-          relatedSubheading: 'Expand your download toolkit with these Instagram saving features.',
-        },
-        {
-          slug: 'posts-downloader',
-          label: 'Posts Downloader',
-          title: 'Download Instagram Posts — Save Photos & Carousels in HD',
-          description: 'Save any public Instagram photo, carousel, or image post in full resolution. Download single images or entire carousel albums at once in original quality.',
-          metaDescription: 'Download Instagram photos and carousel posts in full HD. Save images from any public profile in original quality. Free Instagram post downloader.',
-          badges: ['Full HD Photos', 'Carousel Support', 'Bulk Download'],
-          benefitsHeading: 'Why Our <span style="color:#E1306C">Post Downloader</span> Is the Best Choice',
-          benefitsSubheading: 'Save Instagram photos and carousels in the highest available quality — fast and free.',
-          benefits: [
-            { title: 'Maximum Resolution', description: 'Photos are saved at the highest resolution Instagram stores — typically 1080×1350 or larger for newer uploads.', icon: icons.photo },
-            { title: 'Full Carousel Albums', description: 'Download all images in a multi-slide carousel with one click instead of saving each photo separately.', icon: icons.collection },
-            { title: 'Caption Preserved', description: 'Optionally save the post caption alongside the image so you keep the full context of the content.', icon: icons.chat },
-            { title: 'No Signup for Basics', description: 'Download individual posts without even creating an account. Sign up only if you want batch features.', icon: icons.bolt },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">Save Instagram Posts</span>',
-          howItWorksSubheading: 'Download any public Instagram photo or carousel in three easy steps.',
-          howItWorks: [
-            { title: 'Find the Account', description: 'Enter the Instagram username whose posts you want to download.' },
-            { title: 'Choose the Post', description: 'Browse their public feed and select the photo or carousel post you want to save.' },
-            { title: 'Download in HD', description: 'Click the download button and the full-resolution image(s) save directly to your device.' },
-          ],
-          faqs: [
-            { question: 'Can I download an entire carousel at once?', answer: 'Yes. When you select a carousel post, our tool detects all slides and lets you download them as a ZIP file containing every image in the set at full resolution.' },
-            { question: 'What resolution are downloaded photos?', answer: 'We download the highest resolution version available on Instagram, which is typically 1080 pixels wide. Some posts may be available at even higher resolutions depending on how they were uploaded.' },
-            { question: 'Can I download photos from the Explore page?', answer: 'As long as the post comes from a public account, yes. Navigate to the account\'s profile through our tool and download any post from their feed.' },
-            { question: 'Are there any daily download limits?', answer: 'Free users can download several posts per day. Pro subscribers have no daily limits and can also use batch download to save multiple posts at once.' },
-          ],
-          faqHeading: 'Post Download <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Common questions about saving Instagram photos and carousels.',
-          ctaHeading: 'Save Instagram Posts <span style="color:#E1306C">in Full Quality</span>',
-          ctaDescription: 'Enter a username to browse and download their public photos and carousel albums.',
-          relatedHeading: 'Other <span style="color:#E1306C">Instagram</span> Download Tools',
-          relatedSubheading: 'Round out your Instagram saving workflow with these additional downloaders.',
-        },
-        {
-          slug: 'video-downloader',
-          label: 'Video Downloader',
-          title: 'Download Instagram Videos & Reels — Save IG Videos in MP4',
-          description: 'Download Instagram reels, IGTV clips, and video posts in MP4 format. Save videos in original quality with full audio — no re-encoding, no limits.',
-          metaDescription: 'Download Instagram reels and videos in MP4. Save IG video posts in original quality with audio. No login needed. Free Instagram video downloader.',
-          badges: ['MP4 Format', 'Audio Included', 'Reel Support'],
-          benefitsHeading: 'Why Choose Our <span style="color:#E1306C">Instagram Video Saver</span>',
-          benefitsSubheading: 'The fastest way to save Instagram reels and video posts to your device.',
-          benefits: [
-            { title: 'Universal MP4 Format', description: 'All videos are saved as MP4 files that play on every device, browser, and media player without conversion.', icon: icons.play },
-            { title: 'Full Audio Track', description: 'Downloaded videos include the complete audio — music, voiceovers, and sound effects, exactly as posted.', icon: icons.music },
-            { title: 'Reel & IGTV Support', description: 'Download short reels, long-form IGTV episodes, and standard video posts from any public profile.', icon: icons.film },
-            { title: 'No Quality Degradation', description: 'We pull the highest-bitrate version available so your saved video matches the original upload quality.', icon: icons.sparkles },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">Download IG Videos</span>',
-          howItWorksSubheading: 'Save any Instagram video or reel to your device in three steps.',
-          howItWorks: [
-            { title: 'Enter the Username', description: 'Type the Instagram handle of the account with the video you want to save.' },
-            { title: 'Pick a Video', description: 'Browse their public video posts and reels, then select the one you want to download.' },
-            { title: 'Save as MP4', description: 'Hit download and the video file is saved to your device in high quality with audio intact.' },
-          ],
-          faqs: [
-            { question: 'Can I download Instagram Reels?', answer: 'Yes. Reels are fully supported. Simply navigate to the account\'s profile through our tool, select the reel, and download it in MP4 format with original audio.' },
-            { question: 'What video quality options are available?', answer: 'We automatically select the highest available quality for each video. Instagram typically serves videos at 720p or 1080p depending on the original upload and your connection.' },
-            { question: 'Is the audio from the original reel included?', answer: 'Absolutely. Whether the reel uses a trending sound, original audio, or a voiceover, the full audio track is preserved in the downloaded MP4 file.' },
-            { question: 'Can I download multiple videos at once?', answer: 'Pro subscribers can queue multiple video downloads and save them in bulk. Free users download one video at a time.' },
-          ],
-          faqHeading: 'Video Download <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'What you need to know about saving Instagram videos and reels.',
-          ctaHeading: 'Download Any Instagram <span style="color:#E1306C">Video or Reel</span>',
-          ctaDescription: 'Enter a username and save their videos in MP4 format with full audio — free and instant.',
-          relatedHeading: 'Complete Your <span style="color:#E1306C">Instagram</span> Download Kit',
-          relatedSubheading: 'Save every type of Instagram content with these additional tools.',
-        },
-      ],
-    },
-    // ═══════════════════════════════════════════
-    // VIEWER (5 features)
-    // ═══════════════════════════════════════════
-    {
-      title: 'Viewer', icon: icons.viewer,
-      features: [
-        {
-          slug: 'post-viewer',
-          label: 'Post Viewer',
-          title: 'View Instagram Posts Privately — Browse Feed Without an Account',
-          description: 'Browse any public Instagram feed without signing in or creating an account. View photos, carousels, captions, and engagement counts from any profile with complete privacy.',
-          metaDescription: 'View Instagram posts privately without an account. Browse public feeds, captions, and engagement data with privacy. Free private Instagram post viewer.',
-          badges: ['Feed Browser', 'No Sign-In', 'Caption & Stats'],
-          benefitsHeading: 'Advantages of Our <span style="color:#E1306C">Private Post Viewer</span>',
-          benefitsSubheading: 'Browse Instagram feeds privately with full access to captions, images, and engagement stats.',
-          benefits: [
-            { title: 'No Instagram Account Needed', description: 'View public posts without creating or logging into any Instagram account — our tool handles everything.', icon: icons.users },
-            { title: 'Full Post Details', description: 'See the image or carousel, read the complete caption, and view like and comment counts for every post.', icon: icons.photo },
-            { title: 'Scroll the Feed', description: 'Browse through the account\'s entire public feed chronologically, just like scrolling Instagram itself.', icon: icons.refresh },
-            { title: 'Completely Private', description: 'Your viewing session is never logged by Instagram. No account or login is required to browse.', icon: icons.eye },
-          ],
-          howItWorksHeading: 'How to <span style="color:#E1306C">View Posts Privately</span>',
-          howItWorksSubheading: 'Browse any public Instagram feed in total privacy with three steps.',
-          howItWorks: [
-            { title: 'Search the Profile', description: 'Enter the Instagram username of the account whose posts you want to browse.' },
-            { title: 'Feed Loads Instantly', description: 'Their public feed appears with thumbnails, captions, and engagement data — all fetched through our servers.' },
-            { title: 'Browse Freely', description: 'Scroll through posts, read captions, and check engagement numbers — all without needing to log in.' },
-          ],
-          faqs: [
-            { question: 'Can I see the full caption of a post?', answer: 'Yes. Every post displays its complete caption text, including hashtags and mentions, exactly as the account owner wrote it.' },
-            { question: 'Are engagement stats accurate?', answer: 'We display the like and comment counts as they appear publicly on Instagram at the time of your visit. Numbers update on each fresh page load.' },
-            { question: 'Can I view posts from private accounts?', answer: 'No. Only posts from public Instagram accounts are viewable. If an account is private, their content is protected by Instagram\'s privacy settings and inaccessible through third-party tools.' },
-            { question: 'Do I need to install anything?', answer: 'No installation is required. Our post viewer runs entirely in your web browser on any device — phone, tablet, or desktop.' },
-          ],
-          faqHeading: 'Private Post Viewing <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Answers about browsing Instagram posts without needing to log in.',
-          ctaHeading: 'Browse Any Feed <span style="color:#E1306C">Privately</span>',
-          ctaDescription: 'Enter a username to start viewing their public Instagram posts without signing in.',
-          relatedHeading: 'More Private <span style="color:#E1306C">Instagram</span> Viewers',
-          relatedSubheading: 'View other types of Instagram content privately without an account.',
-        },
         {
           slug: 'stories-viewer',
           label: 'Stories Viewer',
@@ -427,6 +118,14 @@ export const instagram: Platform = {
           description: 'Watch any public Instagram story without needing to log in. Our private viewer lets you see photos, videos, polls, and Q&A slides — no account required.',
           metaDescription: 'Watch Instagram stories without an account or login. View photos, videos, and interactive slides from any public account. Free IG story viewer.',
           badges: ['Privacy-First', 'All Slide Types', 'No Account Required'],
+          longDescription: `<p>Instagram Stories were designed to be ephemeral — they disappear after 24 hours, creating a sense of urgency and authenticity that static posts lack. But that same ephemeral nature creates a real problem for anyone who needs to view story content without an Instagram account or without revealing their identity. External story viewers exist to bridge that gap, and the reasons people use them are more varied than you might expect.</p>
+<h2>Researchers and Trend Trackers</h2>
+<p>Social media researchers frequently need to monitor stories across dozens of accounts to track emerging trends, viral formats, or public discourse during breaking events. Creating personal Instagram accounts for research purposes introduces bias — the platform begins tailoring what you see — and raises ethical questions about using personal profiles for institutional research. An external viewer lets researchers observe public story content cleanly, without algorithmic interference or identity disclosure.</p>
+<h2>Brand and Competitive Monitoring</h2>
+<p>Marketing teams monitor competitor stories to understand promotional cadence, product launch timing, and creative direction. Stories often contain time-sensitive offers, behind-the-scenes content, and audience polls that never appear in the permanent feed. Missing a competitor's story means missing intelligence that vanishes in 24 hours. An external viewer ensures your team captures this content regardless of whether anyone remembered to check Instagram that day.</p>
+<h2>People Without Instagram Accounts</h2>
+<p>Not everyone has or wants an Instagram account. A significant number of people have deliberately chosen not to use the platform for privacy, mental health, or personal reasons. Yet public Instagram stories are, by definition, intended by their creators to be publicly visible. When a local restaurant posts today's specials to their story, or a public figure shares a statement, people without accounts deserve a way to access that intentionally public content.</p>
+<p>The 24-hour expiration window makes external viewers especially important. Unlike posts, which remain on a profile indefinitely, stories are gone permanently once they expire unless the creator saves them to highlights. If you discover that an account posted something relevant six hours ago, you have a narrow window to view it. Our caching system extends that window slightly, but the fundamental constraint remains: stories are fleeting, and having a reliable viewer ready when you need it is the difference between catching the content and missing it entirely.</p>`,
           benefitsHeading: 'Why <span style="color:#E1306C">Millions Use</span> Our Story Viewer',
           benefitsSubheading: 'The most trusted way to watch Instagram stories without needing to log in.',
           benefits: [
@@ -456,12 +155,64 @@ export const instagram: Platform = {
           relatedSubheading: 'Browse other Instagram content types privately with these tools.',
         },
         {
+          slug: 'post-viewer',
+          label: 'Post Viewer',
+          title: 'View Instagram Posts Privately — Browse Feed Without an Account',
+          description: 'Browse any public Instagram feed without signing in or creating an account. View photos, carousels, captions, and engagement counts from any profile with complete privacy.',
+          metaDescription: 'View Instagram posts privately without an account. Browse public feeds, captions, and engagement data with privacy. Free private Instagram post viewer.',
+          badges: ['Feed Browser', 'No Sign-In', 'Caption & Stats'],
+          longDescription: `<h2>The Case for Browsing Instagram Without an Account</h2>
+<p>Instagram's login wall has grown increasingly aggressive over the years. What was once a fully browsable public platform now prompts sign-up modals after viewing just a handful of posts. For professionals conducting market research, designers seeking content inspiration, or citizens monitoring public figures, this friction is more than an annoyance — it is a barrier to accessing intentionally public information.</p>
+<p>Our post viewer removes that barrier entirely. You see the same public content that any Instagram user would see — photos, carousels, captions, hashtags, and engagement metrics — without creating an account, accepting terms of service, or feeding personal data into Instagram's advertising ecosystem.</p>
+<h2>Market Research and Content Inspiration</h2>
+<p>For marketers and content strategists, browsing competitor feeds is a routine part of the job. You need to understand what visual styles are trending in your industry, which caption formats drive comments, and how competitors position their products. Doing this through a personal account means Instagram's algorithm starts shaping what you see based on your browsing behavior, which can create blind spots. Viewing feeds through an external tool gives you a raw, unfiltered look at exactly what each account publishes.</p>
+<p>Designers and creative directors often browse Instagram feeds for visual inspiration — color palettes, typography in graphics, photography styles, and layout trends. An external viewer lets you scroll through feeds methodically without the distraction of Instagram's Explore page, advertisements, and suggested content pulling your attention in unrelated directions.</p>
+<h2>Understanding Engagement Metrics in Context</h2>
+<p>When you view a post's like and comment counts through our tool, it helps to understand what those numbers actually signify. A post with 500 likes on an account with 5,000 followers represents a 10% engagement rate — well above the platform average of roughly 1-3% for most accounts. Meanwhile, the same 500 likes on a 500,000-follower account signals underperformance.</p>
+<p>Comment counts matter too, but quality varies enormously. A post with 200 comments that are mostly single emojis tells a different story than one with 50 thoughtful replies. While our viewer shows you the counts, the real analysis happens when you click through to read what people are actually saying. Use the numbers as a screening tool to identify which posts resonated, then dig deeper into the ones that stand out.</p>`,
+          benefitsHeading: 'Advantages of Our <span style="color:#E1306C">Private Post Viewer</span>',
+          benefitsSubheading: 'Browse Instagram feeds privately with full access to captions, images, and engagement stats.',
+          benefits: [
+            { title: 'No Instagram Account Needed', description: 'View public posts without creating or logging into any Instagram account — our tool handles everything.', icon: icons.users },
+            { title: 'Full Post Details', description: 'See the image or carousel, read the complete caption, and view like and comment counts for every post.', icon: icons.photo },
+            { title: 'Scroll the Feed', description: 'Browse through the account\'s entire public feed chronologically, just like scrolling Instagram itself.', icon: icons.refresh },
+            { title: 'Completely Private', description: 'Your viewing session is never logged by Instagram. No account or login is required to browse.', icon: icons.eye },
+          ],
+          howItWorksHeading: 'How to <span style="color:#E1306C">View Posts Privately</span>',
+          howItWorksSubheading: 'Browse any public Instagram feed in total privacy with three steps.',
+          howItWorks: [
+            { title: 'Search the Profile', description: 'Enter the Instagram username of the account whose posts you want to browse.' },
+            { title: 'Feed Loads Instantly', description: 'Their public feed appears with thumbnails, captions, and engagement data — all fetched through our servers.' },
+            { title: 'Browse Freely', description: 'Scroll through posts, read captions, and check engagement numbers — all without needing to log in.' },
+          ],
+          faqs: [
+            { question: 'Can I see the full caption of a post?', answer: 'Yes. Every post displays its complete caption text, including hashtags and mentions, exactly as the account owner wrote it.' },
+            { question: 'Are engagement stats accurate?', answer: 'We display the like and comment counts as they appear publicly on Instagram at the time of your visit. Numbers update on each fresh page load.' },
+            { question: 'Can I view posts from private accounts?', answer: 'No. Only posts from public Instagram accounts are viewable. If an account is private, their content is protected by Instagram\'s privacy settings and inaccessible through third-party tools.' },
+            { question: 'Do I need to install anything?', answer: 'No installation is required. Our post viewer runs entirely in your web browser on any device — phone, tablet, or desktop.' },
+          ],
+          faqHeading: 'Private Post Viewing <span style="color:#E1306C">FAQ</span>',
+          faqSubheading: 'Answers about browsing Instagram posts without needing to log in.',
+          ctaHeading: 'Browse Any Feed <span style="color:#E1306C">Privately</span>',
+          ctaDescription: 'Enter a username to start viewing their public Instagram posts without signing in.',
+          relatedHeading: 'More Private <span style="color:#E1306C">Instagram</span> Viewers',
+          relatedSubheading: 'View other types of Instagram content privately without an account.',
+        },
+        {
           slug: 'highlights-viewer',
           label: 'Highlights Viewer',
           title: 'View Instagram Highlights Privately — Browse Saved Stories',
           description: 'Browse any public Instagram highlight album without needing to log in. View every slide in their curated story collections — photos, videos, and interactive elements — all privately.',
           metaDescription: 'View Instagram highlights privately. Browse saved story albums from any public profile without an account. Free private highlight viewer online.',
           badges: ['Album Browser', 'Slide-by-Slide', 'Completely Private'],
+          longDescription: `<h2>What Instagram Highlights Actually Are</h2>
+<p>When an Instagram story expires after its 24-hour window, it normally vanishes from public view. Highlights change that equation. They are curated collections of past stories that a profile owner has chosen to pin permanently at the top of their profile, organized into named albums with custom cover images. Think of them as a "best of" reel — deliberately selected content that the account holder wants every visitor to see.</p>
+<p>This deliberate curation is what makes highlights so valuable for analysis. Unlike the main feed, which accumulates chronologically and includes everything from polished campaigns to casual snapshots, highlights represent a conscious editorial decision. When a brand creates a highlight album called "Customer Reviews" or "How It Works," they are telling you exactly what messaging they consider most important to surface for new visitors.</p>
+<h2>Why Highlights Reveal Brand Strategy</h2>
+<p>The structure and naming of highlight albums often mirrors a brand's sales funnel. A typical e-commerce profile might organize highlights into albums like "New Arrivals," "Sizing Guide," "Shipping Info," and "Reviews" — each one addressing a specific stage of the customer journey. By browsing these albums, you can reconstruct the brand's conversion strategy without ever speaking to their marketing team.</p>
+<p>For influencers and personal brands, highlights serve a different purpose. They tend to organize content by theme — travel, recipes, partnerships, personal life — giving new followers a quick way to understand what the account is about. The order of highlights (left to right on the profile) is also intentional, as most creators place their most important or popular albums first.</p>
+<h2>Practical Applications for Browsing Highlights</h2>
+<p>Competitive analysts can compare highlight structures across multiple brands in the same niche to identify common messaging patterns and gaps. If every competitor has a "FAQ" highlight but none address a specific customer concern you have identified, that represents an opportunity. Recruiters and HR professionals sometimes review company highlights to understand workplace culture before reaching out to candidates. Journalists use highlights to quickly review a public figure's past statements on a topic, since highlights often contain timestamped story content that would otherwise have disappeared. Whatever your reason, browsing highlights gives you access to the content a profile has chosen as its permanent public-facing narrative — and that choice itself is informative.</p>`,
           benefitsHeading: 'Reasons to Use Our <span style="color:#E1306C">Highlights Viewer</span>',
           benefitsSubheading: 'Explore curated story collections on any public profile without an account.',
           benefits: [
@@ -490,154 +241,56 @@ export const instagram: Platform = {
           relatedHeading: 'Additional <span style="color:#E1306C">Instagram</span> Viewer Tools',
           relatedSubheading: 'Privately view other Instagram content types with these companion features.',
         },
-        {
-          slug: 'comment-viewer',
-          label: 'Comment Viewer',
-          title: 'Instagram Comment Viewer — See All Comments on Any Public Post',
-          description: 'Read the full comment section on any public Instagram post, including nested replies and conversation threads. See commenter names, like counts on comments, and pinned comments.',
-          metaDescription: 'View all comments on any public Instagram post. See reply threads, comment likes, and pinned comments. Free Instagram comment viewer — no login required.',
-          badges: ['Full Threads', 'Reply Chains', 'Comment Likes'],
-          benefitsHeading: 'What Makes Our <span style="color:#E1306C">Comment Viewer</span> Different',
-          benefitsSubheading: 'Go deeper than the surface — read full conversations happening beneath every post.',
-          benefits: [
-            { title: 'Complete Comment Threads', description: 'See every top-level comment and its nested replies, not just the handful Instagram previews by default.', icon: icons.chat },
-            { title: 'Comment Engagement', description: 'View like counts on individual comments to identify the most popular opinions and reactions.', icon: icons.heart },
-            { title: 'Pinned Comments Flagged', description: 'Pinned comments by the account owner are clearly marked so you can see what the poster highlights.', icon: icons.star },
-            { title: 'Chronological Browsing', description: 'Browse comments sorted by newest or most popular to find the conversations that matter to you.', icon: icons.refresh },
-          ],
-          howItWorksHeading: 'How the <span style="color:#E1306C">Comment Viewer</span> Works',
-          howItWorksSubheading: 'Read every comment on any public post in three simple steps.',
-          howItWorks: [
-            { title: 'Search the Account', description: 'Enter the Instagram username of the account whose post comments you want to explore.' },
-            { title: 'Select a Post', description: 'Choose a post from their public feed to load its complete comment section.' },
-            { title: 'Read All Comments', description: 'Browse through every comment, reply thread, and pinned comment on the post.' },
-          ],
-          faqs: [
-            { question: 'Can I see how many likes a comment has?', answer: 'Yes. Each comment displays its like count alongside the commenter\'s username and comment text, just as you\'d see in the Instagram app.' },
-            { question: 'Are reply threads fully expanded?', answer: 'Yes. Our viewer loads and displays nested replies beneath their parent comment so you can follow the full conversation.' },
-            { question: 'Can I search within comments?', answer: 'Pro subscribers can filter comments by keyword to find specific mentions, opinions, or questions within large comment sections.' },
-            { question: 'Are deleted comments visible?', answer: 'No. We display only comments that are currently publicly visible on Instagram. Comments that have been deleted or hidden by the poster are not accessible.' },
-          ],
-          faqHeading: 'Comment Viewer <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Your questions about viewing Instagram comment sections answered.',
-          ctaHeading: 'Read Full Comment <span style="color:#E1306C">Threads Now</span>',
-          ctaDescription: 'Enter a username to browse their posts and explore the complete comment conversations.',
-          relatedHeading: 'Other <span style="color:#E1306C">Instagram</span> Content Viewers',
-          relatedSubheading: 'View more types of Instagram content privately with these tools.',
-        },
-        {
-          slug: 'likes-viewer',
-          label: 'Likes Viewer',
-          title: 'Instagram Likes Viewer — See Who Liked Any Public Post',
-          description: 'View the list of accounts that liked any public Instagram post. Identify consistent engagers, track like count growth over time, and understand who values specific content.',
-          metaDescription: 'See who liked any public Instagram post. View liker profiles, track like trends, and identify top engagers. Free Instagram likes viewer tool online.',
-          badges: ['Liker Profiles', 'Like Count History', 'Engager Identification'],
-          benefitsHeading: 'What the <span style="color:#E1306C">Likes Viewer</span> Shows You',
-          benefitsSubheading: 'Go beyond the number — discover who is actually engaging with each post.',
-          benefits: [
-            { title: 'Liker List Access', description: 'Browse the accounts that liked a post. See their usernames, avatars, and whether they follow the poster.', icon: icons.users },
-            { title: 'Recurring Engager Detection', description: 'Our tool flags accounts that consistently like multiple posts, helping you identify superfans and loyal followers.', icon: icons.star },
-            { title: 'Like Velocity Insights', description: 'See how quickly a post accumulates likes after being published to understand content virality.', icon: icons.trendUp },
-            { title: 'Private Viewing', description: 'Browse liker lists without needing to log in — no account required to access this information.', icon: icons.lock },
-          ],
-          howItWorksHeading: 'How the <span style="color:#E1306C">Likes Viewer</span> Works',
-          howItWorksSubheading: 'See who liked any public Instagram post in three quick steps.',
-          howItWorks: [
-            { title: 'Enter the Username', description: 'Provide the handle of the account whose post likes you want to examine.' },
-            { title: 'Choose a Post', description: 'Pick any post from their public feed to see its like data.' },
-            { title: 'Browse Likers', description: 'Scroll through the list of accounts that liked the post, complete with profile previews.' },
-          ],
-          faqs: [
-            { question: 'Can I see every single person who liked a post?', answer: 'We display as many likers as Instagram makes publicly available. For posts with thousands of likes, a representative sample of liker profiles is shown alongside the total count.' },
-            { question: 'Does this work for Reels likes?', answer: 'Yes. Reels that display public like counts are fully supported. You can see both the total count and the liker profiles just like standard photo posts.' },
-            { question: 'Can I export the liker list?', answer: 'Pro subscribers can export liker data as a CSV file for further analysis, influencer research, or CRM integration.' },
-            { question: 'How often is the data updated?', answer: 'Like data is fetched in real time each time you view a post. Refreshing the page will pull the latest like counts and liker profiles.' },
-          ],
-          faqHeading: 'Likes Viewer <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'What you need to know about viewing Instagram likes and likers.',
-          ctaHeading: 'See Who Likes <span style="color:#E1306C">Any Instagram Post</span>',
-          ctaDescription: 'Enter a username to browse their posts and explore who is tapping the like button.',
-          relatedHeading: 'Complementary <span style="color:#E1306C">Instagram</span> Engagement Tools',
-          relatedSubheading: 'Pair likes analysis with these tools for deeper engagement insights.',
-        },
       ],
     },
     // ═══════════════════════════════════════════
-    // ACTIVITY TRACKER (2 features)
+    // DOWNLOADER (1 feature)
     // ═══════════════════════════════════════════
     {
-      title: 'Activity Tracker', icon: icons.monitor,
+      title: 'Downloader', icon: icons.download,
       features: [
         {
-          slug: 'relationship-insights',
-          label: 'Relationship Insights',
-          title: 'Instagram Relationship Insights — Follower Connections & Interactions',
-          description: 'Understand the relationship dynamics between Instagram accounts. See mutual followers, frequent commenters, most-tagged accounts, and engagement overlap between profiles.',
-          metaDescription: 'Discover Instagram relationship patterns. See mutual followers, frequent commenters, tagged accounts, and engagement connections between profiles. Free relationship analysis.',
-          badges: ['Mutual Followers', 'Interaction Mapping', 'Connection Analysis'],
-          benefitsHeading: 'What <span style="color:#E1306C">Relationship Insights</span> Reveals',
-          benefitsSubheading: 'Map the social connections and engagement patterns between Instagram accounts.',
+          slug: 'stories-downloader',
+          label: 'Stories Downloader',
+          title: 'Download Instagram Stories — Save IG Stories in HD Quality',
+          description: 'Save any public Instagram story to your device for offline viewing. Download photos and videos in original HD quality with no compression or time limits.',
+          metaDescription: 'Download Instagram stories in HD for offline viewing. Save story photos and videos from any public account in original quality, no login required. Free IG story saver.',
+          badges: ['HD Quality', 'Original Quality', 'Save for Offline'],
+          longDescription: `<p>Downloading Instagram stories raises an immediate question: should you? The answer depends entirely on context. Public Instagram content is, by design, visible to anyone — the creator chose to share it without restricting their audience. Saving that content for legitimate purposes like research, archiving, and competitive analysis falls squarely within responsible use, provided you respect intellectual property and never misrepresent downloaded content as your own.</p>
+<h2>Legitimate Use Cases for Story Downloads</h2>
+<p>Academic and market researchers regularly need to archive social media content as part of their work. A researcher studying influencer marketing practices, for instance, might need to document the exact creative assets, text overlays, and calls-to-action used in a campaign that runs for only 24 hours. Without a download tool, that evidence vanishes permanently once the story expires.</p>
+<p>Competitive analysis teams at agencies and brands download competitor stories to build creative libraries — cataloging what visual styles, promotional formats, and messaging approaches are being used across their industry. These libraries inform strategy meetings and creative briefs, helping teams understand the landscape before developing their own campaigns.</p>
+<p>Content creators themselves often need to download their own stories. Instagram does not make it easy to retrieve previously posted stories in their original quality, and the built-in archive feature compresses files. Downloading through an external tool preserves the original resolution and serves as a reliable backup.</p>
+<h2>Why Original Quality Matters</h2>
+<p>Instagram applies compression to uploaded content, but the degree varies. Stories uploaded from high-end devices at native resolution retain significantly more detail than what a screenshot captures. When you screenshot a story, you get a compressed, screen-resolution image with visible interface elements. When you download through a dedicated tool, you get the media file as Instagram's servers store it — typically 1080 pixels wide for images and up to 1080x1920 for video, with the original audio track intact and no UI overlays.</p>
+<p>For any professional use case — whether you are including the content in a presentation, a research paper, or an internal report — original quality is not a luxury, it is a requirement. Blurry screenshots undermine credibility, and compressed video loses the detail needed for meaningful creative analysis. Our downloader preserves the file exactly as it exists on Instagram's servers, giving you a clean, high-fidelity copy suitable for any professional context.</p>`,
+          benefitsHeading: 'Why Use Our <span style="color:#E1306C">Instagram Story Saver</span>',
+          benefitsSubheading: 'Save ephemeral story content for offline viewing and future reference.',
           benefits: [
-            { title: 'Mutual Follower Discovery', description: 'Find accounts that follow both profiles to understand shared audiences and community overlap.', icon: icons.users },
-            { title: 'Frequent Interaction Mapping', description: 'Identify accounts that regularly comment on, like, or tag the profiled user\'s content.', icon: icons.link },
-            { title: 'Tag Network Analysis', description: 'See which accounts are most frequently tagged in posts and stories, revealing close real-world connections.', icon: icons.hashtag },
-            { title: 'Engagement Overlap', description: 'Discover which followers engage with both accounts you\'re comparing — useful for influencer partnerships and competitor research.', icon: icons.chart },
+            { title: 'Original Resolution', description: 'Stories are saved in the same quality they were uploaded — full HD photos and videos with no re-encoding.', icon: icons.photo },
+            { title: 'Batch Story Download', description: 'Save all active stories from a user at once instead of downloading them one by one.', icon: icons.collection },
+            { title: 'Original Quality Preserved', description: 'Unlike many tools, we preserve the original file quality with no overlays or branding on your downloaded story files.', icon: icons.check },
+            { title: 'Save for Offline Viewing', description: 'Download stories anytime during their 24-hour window. As long as they\'re live, you can save them for reference.', icon: icons.clock },
           ],
-          howItWorksHeading: 'How <span style="color:#E1306C">Relationship Insights</span> Work',
-          howItWorksSubheading: 'Map connections between Instagram accounts in three steps.',
+          howItWorksHeading: 'How to <span style="color:#E1306C">Download Instagram Stories</span>',
+          howItWorksSubheading: 'Save Instagram stories to your device in three quick steps.',
           howItWorks: [
-            { title: 'Enter a Username', description: 'Provide the primary Instagram account you want to analyze for relationship patterns.' },
-            { title: 'We Analyze Connections', description: 'Our system examines public interactions — comments, tags, mentions, and mutual follows — to map relationship strength.' },
-            { title: 'Review the Map', description: 'Explore an interactive view of the account\'s closest connections, top engagers, and mutual followers.' },
+            { title: 'Enter the Username', description: 'Type the handle of the account whose stories you want to download.' },
+            { title: 'Preview Active Stories', description: 'See thumbnails of all currently live stories. Select individual stories or choose to download them all.' },
+            { title: 'Save to Your Device', description: 'Click download and the story files are saved directly to your phone or computer in HD quality.' },
           ],
           faqs: [
-            { question: 'What types of relationships does this track?', answer: 'We analyze mutual follows, frequent commenting patterns, tag relationships, story mentions, and engagement overlap. All data comes from publicly visible activity on both accounts.' },
-            { question: 'Can I compare two specific accounts?', answer: 'Yes. Pro subscribers can enter two usernames and get a direct comparison showing mutual followers, shared engagers, and interaction frequency between the two accounts.' },
-            { question: 'Is this tool useful for brands?', answer: 'Absolutely. Brands use relationship insights to identify organic advocates, evaluate influencer audience overlap before partnerships, and understand competitor community dynamics.' },
-            { question: 'How current is the relationship data?', answer: 'We analyze recent public activity — typically the last 30–60 days of posts, comments, and tags — to provide an up-to-date picture of relationship dynamics.' },
+            { question: 'Can I download stories from private accounts?', answer: 'No. Our tool only accesses stories from public Instagram accounts. If an account is set to private, their stories are not accessible through any third-party service.' },
+            { question: 'Do downloaded stories include the original audio?', answer: 'Yes. Video stories are saved with their full original audio track, including any music overlays the creator added.' },
+            { question: 'How long are downloaded stories available?', answer: 'Once saved to your device, the files are yours permanently. They don\'t expire like they do on Instagram.' },
+            { question: 'Can the user see that I downloaded their story?', answer: 'No. Downloading through our tool does not register as a view on the user\'s story. Your activity remains completely private.' },
           ],
-          faqHeading: 'Relationship Insights <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Answers about understanding Instagram relationship dynamics and connections.',
-          ctaHeading: 'Discover Account <span style="color:#E1306C">Connections</span>',
-          ctaDescription: 'Enter a username to map their follower relationships, top engagers, and mutual connections.',
-          relatedHeading: 'More <span style="color:#E1306C">Instagram</span> Tracking Tools',
-          relatedSubheading: 'Follow Instagram activity more comprehensively with these additional features.',
-        },
-        {
-          slug: 'recent-mutuals',
-          label: 'Recent Mutuals',
-          badge: 'NEW',
-          title: 'Find Recent Instagram Mutuals — New Mutual Followers Tracker',
-          description: 'Discover recently established mutual follow connections on any public Instagram account. See who just started following each other and track new relationship formations in real time.',
-          metaDescription: 'Track new mutual followers on Instagram. See recently formed follow-back connections between accounts. Free Instagram recent mutuals finder — updated in real time.',
-          badges: ['Real-Time Updates', 'New Connections', 'Follow-Back Tracking'],
-          benefitsHeading: 'Why Track <span style="color:#E1306C">Recent Mutual Followers</span>',
-          benefitsSubheading: 'Stay informed about new social connections forming around any public Instagram account.',
-          benefits: [
-            { title: 'New Connection Alerts', description: 'See which accounts recently established mutual follows, indicating fresh social connections and potential collaborations.', icon: icons.bell },
-            { title: 'Relationship Timing', description: 'Know when mutual follows were established — days ago or just hours ago — to understand the recency of each connection.', icon: icons.clock },
-            { title: 'Network Growth Tracking', description: 'Follow how an account\'s mutual connection network expands over time to spot emerging alliances and partnerships.', icon: icons.trendUp },
-            { title: 'Competitor Insights', description: 'Track when competitors mutually follow new influencers, brands, or industry contacts to stay ahead of emerging partnerships.', icon: icons.search },
-          ],
-          howItWorksHeading: 'How the <span style="color:#E1306C">Mutual Follower Tracker</span> Works',
-          howItWorksSubheading: 'Discover new mutual follow connections with three easy steps.',
-          howItWorks: [
-            { title: 'Enter the Username', description: 'Provide the Instagram handle you want to track for new mutual follow connections.' },
-            { title: 'We Scan Recent Activity', description: 'Our system compares follower and following lists to identify accounts where both users recently followed each other.' },
-            { title: 'See New Mutuals', description: 'Review a list of recently formed mutual connections, sorted by recency, with profile previews for each.' },
-          ],
-          faqs: [
-            { question: 'How recently formed are the mutual connections shown?', answer: 'We focus on mutual follows that were established within the past 7–14 days. The exact timeframe depends on the account\'s size and activity level.' },
-            { question: 'Can I set up notifications for new mutuals?', answer: 'Pro subscribers can enable email or dashboard alerts that notify them when new mutual follow connections are discovered on tracked accounts.' },
-            { question: 'What counts as a mutual follow?', answer: 'A mutual follow means both accounts follow each other. If Account A follows Account B, and Account B also follows Account A, they are mutual followers.' },
-            { question: 'Does this work for accounts with large follower counts?', answer: 'Yes, though discovery may be slightly less immediate for accounts with millions of followers due to the size of the follower lists being compared.' },
-          ],
-          faqHeading: 'Recent Mutuals <span style="color:#E1306C">FAQ</span>',
-          faqSubheading: 'Common questions about tracking newly formed Instagram mutual connections.',
-          ctaHeading: 'Track New <span style="color:#E1306C">Mutual Connections</span>',
-          ctaDescription: 'Enter a username to see their most recently formed mutual follow relationships.',
-          relatedHeading: 'Related <span style="color:#E1306C">Instagram</span> Tracking',
-          relatedSubheading: 'Combine mutual tracking with these tools for comprehensive account analytics.',
+          faqHeading: 'Story Download <span style="color:#E1306C">Questions</span>',
+          faqSubheading: 'Everything about saving Instagram stories to your device.',
+          ctaHeading: 'Save Instagram Stories <span style="color:#E1306C">for Offline Viewing</span>',
+          ctaDescription: 'Enter a username to preview and download their active stories in full HD.',
+          relatedHeading: 'More <span style="color:#E1306C">Instagram</span> Download Tools',
+          relatedSubheading: 'Save other types of Instagram content with these companion tools.',
         },
       ],
     },

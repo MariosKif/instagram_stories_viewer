@@ -4,12 +4,16 @@ Allow: /ads.txt
 Allow: /blog
 Allow: /blog/
 Allow: /search/
+Allow: /instagram
 Allow: /llms.txt
 Allow: /llms-full.txt
 Disallow: /api/
 Disallow: /login
 Disallow: /register
 Disallow: /dashboard
+Disallow: /tiktok
+Disallow: /facebook
+Disallow: /snapchat
 
 # ─── AI Search Engine Crawlers ───────────────────────────
 # Explicitly allow all major AI crawlers to index the site

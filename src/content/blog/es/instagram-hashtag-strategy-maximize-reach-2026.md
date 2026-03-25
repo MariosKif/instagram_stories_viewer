@@ -1,170 +1,154 @@
 ---
-title: "Estrategia de Hashtags en Instagram — Cómo Maximizar Tu Alcance en 2026"
-description: "Domina los hashtags de Instagram en 2026 con estrategias probadas para alcance y descubrimiento. Usa el Generador de Hashtags de IGStoryPeek para encontrar los mejores tags para tu nicho."
-pubDate: 2026-03-03
-updatedDate: 2026-03-03
+title: "Estrategia de hashtags en Instagram: como ampliar tu alcance en 2026"
+description: "Domina el uso de hashtags en Instagram con estrategias probadas para ganar visibilidad. Encuentra las mejores etiquetas para tu nicho con las herramientas gratuitas de IGStoryPeek."
+pubDate: 2026-02-06
+updatedDate: 2026-02-06
 author: "Alex Morgan"
 featured: false
 image: "/blog/hero-hashtag-guide.svg"
 category: "Tips"
 lang: "es"
-tags: ["hashtags instagram", "estrategia de hashtags", "alcance instagram", "generador de hashtags", "crecimiento instagram", "descubrimiento de contenido", "2026", "consejos redes sociales", "algoritmo instagram", "investigación de hashtags"]
+tags: ["hashtags instagram 2026", "estrategia hashtags", "alcance instagram", "generador hashtags", "crecimiento instagram", "descubrimiento contenido", "etiquetas instagram", "investigar hashtags", "algoritmo instagram hashtags", "hashtags por nicho"]
 ---
 
-# Estrategia de Hashtags en Instagram — Cómo Maximizar Tu Alcance en 2026
+# Estrategia de hashtags en Instagram: como usarlos bien para llegar a mas gente
 
-> **Puntos clave:** Los hashtags siguen siendo una de las herramientas gratuitas más efectivas para el descubrimiento en Instagram en 2026 — pero solo cuando se usan estratégicamente. Usa el [Generador de Hashtags de IGStoryPeek](https://www.igstorypeek.com/instagram/hashtags-generator) para encontrar al instante hashtags de alto rendimiento y relevantes para cualquier tema, sin conjeturas.
+> **Lo clave:** Los hashtags siguen siendo una de las herramientas gratuitas mas eficaces para que te descubran en Instagram en 2026, pero solo si se usan con criterio. Con las [herramientas de Instagram de IGStoryPeek](https://www.igstorypeek.com/instagram) puedes investigar hashtags relevantes y de alto rendimiento para cualquier tema sin improvisar.
 
-Cada año, alguien declara que los hashtags han muerto en Instagram. Y cada año, los datos demuestran lo contrario. En 2026, los hashtags continúan funcionando como un mecanismo central de descubrimiento en la plataforma. Lo que ha cambiado es cómo el algoritmo los evalúa. Hacer spam con 30 tags genéricos ya no funciona. Una estrategia de hashtags enfocada y basada en investigación sí lo hace.
+Cada ano alguien declara que los hashtags han muerto en Instagram. Y cada ano los datos demuestran lo contrario. En 2026, los hashtags funcionan como un mecanismo central de descubrimiento. Lo que ha cambiado es como el algoritmo los evalua. Llenar un post con 30 etiquetas genericas ya no sirve. Una estrategia enfocada y basada en investigacion, si.
 
-Esta guía cubre exactamente cuántos hashtags usar, cómo investigar los correctos, qué tags evitar y cómo construir un sistema que expanda tu alcance de manera consistente.
+## Como funcionan los hashtags en Instagram en 2026
 
-## Cómo Funcionan los Hashtags de Instagram en 2026
+Al anadir un hashtag a un post o Reel, Instagram indexa tu contenido bajo esa etiqueta. Los usuarios que siguen, buscan o exploran ese hashtag pueden descubrir tu contenido aunque nunca hayan oido hablar de ti.
 
-Cuando añades un hashtag a una publicación o Reel, Instagram indexa tu contenido bajo ese tag. Los usuarios que siguen, buscan o navegan por ese hashtag pueden entonces descubrir tu contenido — incluso si nunca han oído hablar de tu cuenta.
+### El papel del algoritmo
 
-### El Papel del Algoritmo
+El algoritmo no trata por igual todo el contenido con hashtags. Evalua tres cosas:
 
-El algoritmo de Instagram en 2026 no trata todo el contenido con hashtags de la misma manera. Evalúa:
+- **Relevancia** — tu contenido realmente encaja con el tema del hashtag? Instagram usa reconocimiento de imagenes y analisis de texto para verificarlo. Etiquetar una foto de comida con #fitness se ignora o se penaliza.
+- **Velocidad de interaccion** — los posts que reciben engagement rapido despues de publicarse ascienden en los feeds de hashtags.
+- **Autoridad tematica** — las cuentas que publican contenido de calidad sobre un tema de forma constante construyen autoridad. Sus posts posicionan mejor en los feeds de hashtags relacionados con el tiempo.
 
-- **Relevancia** — ¿Tu contenido realmente coincide con el tema del hashtag? Instagram usa reconocimiento de imágenes y análisis de texto para verificarlo. Etiquetar una foto de comida con #fitness será ignorado o penalizado.
-- **Velocidad de engagement** — Las publicaciones que obtienen engagement rápido después de publicarse se posicionan más alto en los feeds de hashtags.
-- **Autoridad de la cuenta** — Las cuentas que publican contenido de alta calidad consistentemente sobre un tema construyen autoridad temática. Sus publicaciones se clasifican mejor en feeds de hashtags relacionados con el tiempo.
+Los hashtags no son simples etiquetas; son senales que le dicen a Instagram de que va tu contenido y a quien mostrarselo.
 
-Esto significa que los hashtags no son solo etiquetas — son señales que le dicen a Instagram de qué trata tu contenido y quién debería verlo.
+## Cuantos hashtags deberia usar?
 
-## ¿Cuántos Hashtags Deberías Usar?
+Instagram permite hasta 30 por post y 10 por story. Pero el maximo no es el objetivo.
 
-Instagram permite hasta 30 hashtags por publicación y 10 por Story. Pero el máximo no es el objetivo.
+### Lo que dicen los datos
 
-### Lo que Muestran los Datos
+Multiples estudios de 2025 y principios de 2026 sobre miles de cuentas coinciden:
 
-Múltiples estudios en 2025 y principios de 2026 han probado diferentes cantidades de hashtags en miles de cuentas. El consenso:
+- **Publicaciones del feed:** 5 a 15 hashtags ofrecen los mejores resultados para la mayoria
+- **Reels:** 3 a 8, ya que los Reels cuentan con una distribucion algoritmica fuerte de partida
+- **Stories:** 3 a 5 son suficientes; mas saturan lo visual
 
-- **Publicaciones del feed:** 5-15 hashtags dan los mejores resultados para la mayoría de las cuentas
-- **Reels:** 3-8 hashtags tienden a funcionar mejor, ya que los Reels ya tienen una fuerte distribución algorítmica
-- **Stories:** 3-5 hashtags son suficientes; más que eso satura el visual
+El numero ideal depende de tu tamano. Las cuentas pequenas (menos de 10.000 seguidores) se benefician de usar mas (12-15) porque necesitan mas oportunidades de descubrimiento. Las cuentas grandes pueden usar menos (5-8) porque su audiencia y autoridad algoritmica ya les proporcionan distribucion.
 
-El número ideal depende del tamaño de tu cuenta. Las cuentas más pequeñas (menos de 10.000 seguidores) a menudo se benefician de usar más hashtags (12-15) porque necesitan máximas oportunidades de descubrimiento. Las cuentas más grandes pueden usar menos (5-8) porque su audiencia existente y autoridad algorítmica ya proporcionan distribución.
+## Como investigar los hashtags adecuados
 
-### Calidad Sobre Cantidad
+### Metodo 1: Usar un generador de hashtags
 
-Cinco hashtags perfectamente relevantes siempre superarán a 30 genéricos. Cada hashtag debería ser un tag que tu audiencia ideal realmente buscaría o seguiría.
+La via mas rapida es emplear una herramienta dedicada como las [herramientas de Instagram de IGStoryPeek](https://www.igstorypeek.com/instagram). Introduce tu tema o palabra clave de nicho para investigar hashtags organizados por tamano y competitividad.
 
-## Cómo Investigar los Hashtags Correctos
+### Metodo 2: Analizar a la competencia
 
-La investigación efectiva de hashtags no se basa en suposiciones. Existen enfoques sistemáticos que producen consistentemente mejores resultados.
+Busca 5-10 cuentas de tu nicho ligeramente mas grandes que la tuya y con crecimiento constante. Revisa sus publicaciones con mejor rendimiento y fijate en que hashtags usan. Puedes explorar su contenido con [IGStoryPeek](https://www.igstorypeek.com) sin afectar sus metricas. Los hashtags que aparecen repetidamente en su mejor contenido probablemente estan impulsando el descubrimiento.
 
-### Método 1: Usar un Generador de Hashtags
+### Metodo 3: Explorar etiquetas relacionadas
 
-El enfoque más rápido es usar una herramienta dedicada como el [Generador de Hashtags de IGStoryPeek](https://www.igstorypeek.com/instagram/hashtags-generator). Ingresa tu tema o palabra clave de nicho, y devuelve un conjunto curado de hashtags relevantes organizados por tamaño y competitividad. Esto elimina el proceso de investigación manual y asegura que estés usando tags actualmente activos y del tamaño adecuado para tu cuenta.
+Parte de un hashtag que ya sabes que funciona. Ve a su pagina en Instagram y mira las sugerencias de "Relacionados". Ramificate desde ahi, construyendo una red de etiquetas conectadas.
 
-### Método 2: Analizar Competidores
+### Metodo 4: Comprobar el tamano del hashtag
 
-Encuentra 5-10 cuentas en tu nicho que sean ligeramente más grandes que la tuya y estén creciendo de manera constante. Revisa sus publicaciones recientes de mejor rendimiento y anota qué hashtags usan. Puedes navegar su contenido usando [IGStoryPeek](https://www.igstorypeek.com) para investigar sin afectar sus métricas. Busca hashtags que aparezcan repetidamente en su mejor contenido — probablemente estén impulsando el descubrimiento.
-
-### Método 3: Explorar Tags Relacionados
-
-Comienza con un hashtag que sabes que funciona. Ve a la página de ese hashtag en Instagram y mira las sugerencias de "Relacionados". Amplía desde ahí, construyendo una red de tags conectados. Este método te ayuda a encontrar tags específicos del nicho que los competidores quizás aún no estén usando.
-
-### Método 4: Verificar el Tamaño del Hashtag
-
-Cada hashtag tiene un volumen de publicaciones — el número total de publicaciones que lo usan. Esto importa más de lo que la mayoría piensa:
-
-| Tamaño del Hashtag | Volumen de Publicaciones | Mejor Para |
+| Tamano | Volumen de posts | Ideal para |
 |---|---|---|
-| Pequeño/Nicho | Menos de 100K publicaciones | Cuentas con menos de 10K seguidores |
-| Medio | 100K - 1M publicaciones | Cuentas de 10K-100K seguidores |
-| Grande | 1M - 10M publicaciones | Cuentas de 100K+ seguidores |
-| Mega | 10M+ publicaciones | Generalmente evitar — demasiado competitivo |
+| Pequeno/Nicho | Menos de 100K posts | Cuentas con menos de 10K seguidores |
+| Medio | 100K - 1M posts | Cuentas de 10K-100K seguidores |
+| Grande | 1M - 10M posts | Cuentas de 100K+ seguidores |
+| Mega | 10M+ posts | Evitar en general, demasiado competitivo |
 
-Usar hashtags que coincidan con el tamaño de tu cuenta te da una oportunidad realista de aparecer en la sección de "Publicaciones Destacadas" de ese hashtag, que genera el descubrimiento más sostenido.
+Usar hashtags acordes al tamano de tu cuenta te da opciones realistas de aparecer en los "Posts destacados" de ese hashtag.
 
-## La Estrategia de Mezcla de Hashtags
+## La estrategia de mezcla de hashtags
 
-El enfoque más efectivo en 2026 es usar una mezcla equilibrada de tamaños de hashtags en cada publicación.
+El enfoque mas efectivo en 2026 es usar una combinacion equilibrada de tamanos en cada publicacion. Para una cuenta con 15.000 seguidores usando 12 hashtags:
 
-Para una cuenta con 15.000 seguidores usando 12 hashtags, una buena mezcla sería:
+- **3-4 pequenos/nicho** (menos de 100K) — alta probabilidad de posicionar en Destacados
+- **4-5 medianos** (100K-1M) — competencia moderada, buen volumen de descubrimiento
+- **2-3 grandes** (1M-10M) — baja probabilidad de posicionar pero alta recompensa si lo logras
+- **0-1 mega** (10M+) — solo si es extremadamente relevante para tu contenido
 
-- **3-4 hashtags pequeños/nicho** (menos de 100K publicaciones) — alta probabilidad de aparecer en las Publicaciones Destacadas
-- **4-5 hashtags medianos** (100K-1M publicaciones) — competencia moderada, buen volumen de descubrimiento
-- **2-3 hashtags grandes** (1M-10M publicaciones) — baja probabilidad de posicionarse pero alta recompensa si lo logras
-- **0-1 mega hashtag** (10M+ publicaciones) — solo si es extremadamente relevante para tu contenido
+Este enfoque por capas asegura que aparezcas constantemente en feeds de hashtags mas pequenos mientras ocasionalmente rompes en los grandes.
 
-Este enfoque por capas asegura que aparezcas consistentemente en feeds de hashtags más pequeños mientras ocasionalmente logras visibilidad en los más grandes.
+## Hashtags prohibidos y restringidos
 
-## Hashtags Prohibidos y Restringidos — Qué Evitar
+Instagram mantiene una lista de hashtags baneados o restringidos que pueden limitar tu alcance. Son etiquetas asociadas con spam, contenido inapropiado o violaciones de normas.
 
-Instagram mantiene una lista de hashtags prohibidos o restringidos que pueden limitar tu alcance si los usas. Son tags que se han asociado con spam, contenido inapropiado o violaciones de las normas de la comunidad.
+Si buscas un hashtag y no aparecen resultados, o ves un aviso de contenido, es probable que este baneado. Usar varios hashtags prohibidos en un solo post puede desencadenar una reduccion de distribucion para toda tu cuenta, no solo para esa publicacion. Verifica siempre tus hashtags antes de usarlos. Una [herramienta de investigacion de hashtags](https://www.igstorypeek.com/instagram) excluira automaticamente las etiquetas baneadas.
 
-### Cómo Identificar Hashtags Prohibidos
+## Donde colocar los hashtags
 
-Si buscas un hashtag en Instagram y no aparecen resultados, o ves un mensaje de advertencia de contenido, el tag probablemente está prohibido o restringido. Algunos ejemplos de tags comúnmente restringidos incluyen palabras aparentemente inocentes que han sido apropiadas por spammers.
+### En el texto del post
 
-### El Riesgo del Shadow Ban
+Al final del texto, separados por saltos de linea. Mantiene las etiquetas visibles y deja claro de que temas trata la publicacion.
 
-Usar múltiples hashtags prohibidos en una sola publicación puede provocar una reducción en la distribución de toda tu cuenta — no solo de esa publicación. Instagram puede dejar de mostrar tu contenido en los feeds de hashtags por completo durante un período de tiempo. Siempre verifica tus hashtags antes de usarlos. Un [generador de hashtags](https://www.igstorypeek.com/instagram/hashtags-generator) excluirá automáticamente los tags prohibidos de sus sugerencias.
+### En el primer comentario
 
-## Dónde Colocar Tus Hashtags
+Publica los hashtags como primer comentario inmediatamente despues de publicar. Esto mantiene el texto limpio y sigue indexando el contenido. La clave es comentar en segundos, no minutos.
 
-Hay dos corrientes de pensamiento sobre la ubicación de los hashtags, y en 2026, ambas funcionan igual de bien desde una perspectiva algorítmica.
+### En las stories
 
-### En el Pie de Foto
+Anade stickers de hashtag o escribelos directamente. Puedes hacerlos pequenos y colocarlos en una esquina. Las stories con hashtags pueden aparecer en el feed de stories de ese hashtag. Comprueba como las cuentas mas exitosas usan hashtags en stories viendolas a traves del [visor de stories de IGStoryPeek](https://www.igstorypeek.com/instagram/stories-viewer).
 
-Coloca los hashtags al final de tu pie de foto, separados por saltos de línea. Esto los mantiene visibles y deja claro qué temas cubre la publicación.
+## Monta un sistema de hashtags reutilizable
 
-### En el Primer Comentario
+En lugar de investigar desde cero para cada publicacion, crea un sistema organizado.
 
-Publica tus hashtags como primer comentario inmediatamente después de publicar. Esto mantiene el pie de foto limpio mientras indexa el contenido. La clave es publicar el comentario en cuestión de segundos después de que la publicación esté en línea — los retrasos pueden reducir la efectividad.
+### Crea conjuntos de hashtags
 
-### En Stories
+Organiza entre 5 y 8 conjuntos por tema de contenido. Rota entre ellos para evitar usar exactamente las mismas etiquetas en cada post, lo que Instagram puede marcar como comportamiento repetitivo.
 
-Añade stickers de hashtag a tus Stories o escríbelos directamente. Puedes hacerlos pequeños y colocarlos en una esquina u ocultarlos detrás de otros stickers si prefieres un visual más limpio. Las Stories con hashtags pueden aparecer en el feed de Stories del hashtag, dándote descubrimiento adicional. Observa cómo las cuentas principales usan hashtags en Stories viéndolas a través del [Visor de Stories de IGStoryPeek](https://www.igstorypeek.com/instagram/stories-viewer).
+### Mide el rendimiento
 
-## Construye Tu Sistema de Hashtags
+Presta atencion a que hashtags generan mas impresiones. Instagram Insights muestra "Impresiones desde hashtags" para cada publicacion. Con el tiempo identificaras que etiquetas funcionan consistentemente. Tambien puedes usar el [analizador de actividad de IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) para estudiar como las estrategias de hashtags correlacionan con el engagement en diferentes cuentas.
 
-En lugar de investigar hashtags desde cero para cada publicación, construye un sistema reutilizable.
+### Actualiza cada mes
 
-### Crea Conjuntos de Hashtags
+Las tendencias de hashtags cambian. Una etiqueta moderadamente competitiva hace tres meses puede estar saturada ahora. Revisa y renueva tus conjuntos al menos una vez al mes. Usa las herramientas de [IGStoryPeek](https://www.igstorypeek.com) para mantenerte al dia.
 
-Organiza 5-8 conjuntos de hashtags por tema de contenido. Por ejemplo, una cuenta de fitness podría tener conjuntos separados para publicaciones de ejercicios, nutrición, motivación y transformación. Rota entre estos conjuntos para evitar usar exactamente los mismos hashtags en cada publicación, lo que Instagram podría marcar como comportamiento repetitivo.
+## Errores habituales con los hashtags
 
-### Rastrea el Rendimiento
+- **Usar hashtags irrelevantes para ganar alcance** — contraproducente, Instagram detecta el desajuste
+- **Copiar y pegar las mismas 30 etiquetas en cada post** — se marca como comportamiento spam
+- **Usar solo hashtags mega** — tu contenido se entierra en segundos
+- **Ignorar etiquetas de nicho** — el descubrimiento mas valioso ocurre en comunidades especificas
+- **No actualizar nunca las listas** — las estrategias estancadas producen resultados decrecientes
 
-Presta atención a qué hashtags generan más impresiones. Instagram Insights muestra "Impresiones desde Hashtags" para cada publicación. Con el tiempo, identificarás qué tags específicos entregan resultados consistentes para tu cuenta. También puedes usar el [Analizador de Actividad de IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) para estudiar cómo las estrategias de hashtags se correlacionan con el engagement en diferentes cuentas.
+## Preguntas frecuentes
 
-### Actualiza Mensualmente
+### Los hashtags siguen mereciendo la pena en Instagram en 2026?
 
-Las tendencias de hashtags cambian. Un tag que era moderadamente competitivo hace tres meses podría estar sobresaturado ahora. Revisa y renueva tus conjuntos de hashtags al menos una vez al mes, reemplazando los tags de bajo rendimiento por nuevos. Usa las herramientas de [IGStoryPeek](https://www.igstorypeek.com) para mantenerte al día con lo que funciona en tu nicho.
+Si. La propia documentacion de Instagram confirma que siguen siendo un mecanismo de descubrimiento. Aunque el algoritmo ha mejorado distribuyendo contenido via Explorar y Reels, los hashtags proporcionan un canal adicional, especialmente para cuentas con menos de 100K seguidores.
 
-## Errores Comunes con Hashtags en 2026
+### Deberia usar hashtags en los Reels?
 
-Evita estos errores que siguen perjudicando a las cuentas:
+Si, pero menos que en publicaciones del feed. De 3 a 8 hashtags bien elegidos ayudan a Instagram a categorizar el contenido y mostrarlo a la audiencia adecuada.
 
-- **Usar hashtags irrelevantes para conseguir alcance** — Esto es contraproducente porque Instagram detecta la incongruencia y puede reducir tu distribución
-- **Copiar y pegar los mismos 30 hashtags en cada publicación** — El uso repetitivo de hashtags se marca como comportamiento spam
-- **Usar solo mega hashtags** — Tu contenido queda enterrado en segundos en tags con millones de publicaciones
-- **Ignorar los tags específicos del nicho** — El descubrimiento más valioso ocurre en comunidades enfocadas, no en categorías amplias
-- **Nunca actualizar las listas de hashtags** — Las estrategias obsoletas producen resultados en declive
+### Como se si un hashtag esta baneado?
 
-## Preguntas Frecuentes
+Buscalo directamente en Instagram. Si no aparecen resultados o ves un mensaje de contenido oculto, esta restringido. Tambien puedes usar las [herramientas de Instagram de IGStoryPeek](https://www.igstorypeek.com/instagram) para identificar etiquetas prohibidas.
 
-### ¿Todavía vale la pena usar hashtags en Instagram en 2026?
+### Usar demasiados hashtags puede perjudicar mi alcance?
 
-Sí. La propia documentación de Instagram confirma que los hashtags siguen siendo un mecanismo de descubrimiento. Aunque el algoritmo se ha vuelto más sofisticado para distribuir contenido a través de Explorar y Reels, los hashtags aún proporcionan un canal adicional para llegar a nuevas audiencias — especialmente para cuentas con menos de 100K seguidores que aún no tienen una fuerte distribución algorítmica.
+Usar el maximo de 30 no perjudica automaticamente, pero aumenta el riesgo de incluir etiquetas irrelevantes o sobreusadas. Los estudios de 2026 muestran que 5-15 hashtags bien investigados superan consistentemente a 30 elegidos deprisa. Prioriza relevancia y adecuacion de tamano.
 
-### ¿Debería usar hashtags en los Reels de Instagram?
+### Con que frecuencia deberia cambiar mis hashtags?
 
-Sí, pero usa menos que en las publicaciones del feed. De tres a ocho hashtags bien elegidos en un Reel ayudan a Instagram a categorizar el contenido y mostrarlo a la audiencia correcta. Ya que los Reels tienen una amplia distribución algorítmica, los hashtags sirven más como señales temáticas que como herramientas principales de descubrimiento.
+Rota los conjuntos con cada publicacion y haz una revision completa mensual. Usar hashtags identicos en posts consecutivos puede activar la deteccion de spam. Tener 5-8 conjuntos preparados que vas rotando resuelve este problema.
 
-### ¿Cómo sé si un hashtag está prohibido en Instagram?
+## Fuentes
 
-Busca el hashtag directamente en Instagram. Si no aparecen resultados, o si ves un mensaje diciendo que el contenido ha sido ocultado, el tag está restringido. También puedes usar una herramienta de investigación de hashtags como el [Generador de Hashtags de IGStoryPeek](https://www.igstorypeek.com/instagram/hashtags-generator), que filtra automáticamente los tags prohibidos y restringidos.
-
-### ¿Usar demasiados hashtags puede perjudicar mi alcance?
-
-Usar el máximo de 30 hashtags no perjudica automáticamente el alcance, pero aumenta el riesgo de incluir tags irrelevantes o sobreutilizados que diluyen la señal de tu contenido. Los estudios de 2026 muestran que 5-15 hashtags bien investigados superan consistentemente a 30 elegidos apresuradamente. Concéntrate en la relevancia y el dimensionamiento adecuado en lugar de alcanzar el máximo.
-
-### ¿Con qué frecuencia debería cambiar mis hashtags?
-
-Rota tus conjuntos de hashtags con cada publicación y haz una revisión completa de tus conjuntos mensualmente. Usar hashtags idénticos en publicaciones consecutivas puede activar la detección de spam. Tener 5-8 conjuntos preparados que alternes resuelve este problema mientras mantiene manejable tu esfuerzo de investigación.
+- [Uso de hashtags para llegar a nuevas audiencias](https://creators.instagram.com/) — Instagram para creadores
+- [Como usar hashtags en Instagram](https://about.instagram.com/blog/announcements) — Blog oficial de Instagram
+- [Busqueda y Explorar en Instagram](https://help.instagram.com/) — Centro de ayuda de Instagram

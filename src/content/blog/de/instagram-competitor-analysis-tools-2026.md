@@ -1,137 +1,143 @@
 ---
-title: "Instagram Wettbewerbsanalyse — Wie Sie Konkurrenten recherchieren & benchmarken in 2026"
-description: "Meistern Sie die Instagram-Wettbewerbsanalyse 2026 mit IGStoryPeek. Erfahren Sie, welche Kennzahlen Sie vergleichen sollten, wie Sie Content-Strategien benchmarken und umsetzbare Einblicke gewinnen."
-pubDate: 2026-03-08
-updatedDate: 2026-03-08
+title: "Konkurrenzanalyse auf Instagram: Wettbewerber researchen und vergleichen (2026)"
+description: "So analysierst du Instagram-Wettbewerber richtig. Welche Metriken zaehlen, wie du Content-Strategien vergleichst und wie IGStoryPeek dir kostenlos dabei hilft."
+pubDate: 2026-03-09
+updatedDate: 2026-03-09
 author: "Alex Morgan"
 featured: false
 image: "/blog/hero-competitor-guide.svg"
 category: "Analytics"
 lang: "de"
-tags: ["instagram wettbewerbsanalyse", "instagram benchmarking", "konkurrenzrecherche", "instagram analytics", "social media strategie", "2026", "instagram tools", "content strategie", "engagement kennzahlen", "wettbewerbsintelligenz", "instagram einblicke"]
+tags: ["konkurrenzanalyse instagram", "wettbewerber vergleichen instagram", "instagram benchmarking", "instagram analyse 2026", "social media strategie", "instagram tools kostenlos", "engagement metriken", "wettbewerbsintelligenz", "instagram accounts vergleichen", "igstorypeek konkurrenz", "marktanalyse instagram"]
 ---
 
-# Instagram Wettbewerbsanalyse — Wie Sie Konkurrenten recherchieren & benchmarken in 2026
+# Konkurrenzanalyse auf Instagram: So erforschst du deine Wettbewerber systematisch
 
-> **Wichtigste Erkenntnisse:** Nutzen Sie [IGStoryPeeks Aktivitäts-Analyzer](https://www.igstorypeek.com/instagram/activity-analyzer), um Posting-Muster, Engagement-Trends und Content-Strategien von Wettbewerbern zu studieren. Keine Anmeldung erforderlich — geben Sie einen öffentlichen Nutzernamen ein und erhalten Sie in Sekunden umsetzbare Informationen.
+> **Kurz und knapp:** Mit dem [Aktivitaets-Analyzer von IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) kannst du Posting-Muster, Engagement-Trends und Content-Strategien jedes oeffentlichen Accounts untersuchen. Kein Login noetig — Nutzername eingeben und sofort verwertbare Erkenntnisse erhalten.
 
-Wenn Sie Ihre Wettbewerber auf Instagram nicht studieren, raten Sie. Und 2026 ist Raten teuer.
+Wer seine Konkurrenz auf Instagram nicht studiert, arbeitet mit Vermutungen. Und Vermutungen kosten 2026 mehr denn je — ob Zeit, Reichweite oder verpasste Chancen.
 
-Bei der Instagram-Wettbewerbsanalyse geht es nicht darum, andere zu kopieren. Es geht darum, die Landschaft zu verstehen, damit Sie Lücken finden, Trends früh erkennen und klügere Entscheidungen über Ihre eigenen Inhalte treffen können.
+Konkurrenzanalyse bedeutet nicht abkupfern. Es geht darum, den Markt zu verstehen: Luecken zu finden, Trends fruehzeitig zu erkennen und kluegere Entscheidungen fuer den eigenen Content zu treffen.
 
-## Warum Wettbewerbsanalyse auf Instagram 2026 wichtig ist
+## Warum Wettbewerbsanalyse auf Instagram so wichtig ist
 
-Instagrams Ökosystem ist deutlich gereift. Organische Reichweite ist schwerer zu erzielen, Werbekosten steigen weiter und Zielgruppen sind wählerischer, wem sie folgen. Die Accounts, die konsequent wachsen, sind diejenigen, die ihr Wettbewerbsumfeld verstehen.
+Instagrams Oekosystem ist erwachsen geworden. Organische Reichweite ist schwerer zu erzielen, Werbekosten steigen und Nutzer waehlen genauer aus, wem sie folgen. Die Accounts, die konstant wachsen, sind diejenigen, die ihre Wettbewerbsumgebung kennen.
 
-### Was Sie durch das Studium von Wettbewerbern gewinnen
+### Was dir die Analyse bringt
 
-Wettbewerbsanalyse liefert Ihnen drei Dinge, die kein kreatives Brainstorming ersetzen kann:
+Eine gruendliche Konkurrenzanalyse liefert vier Dinge, die kein kreatives Brainstorming ersetzen kann:
 
-- **Bewährte Content-Ideen** — sehen Sie, welche Formate und Themen bei Ihrer gemeinsamen Zielgruppe bereits funktionieren
-- **Posting-Zeitplan-Intelligenz** — erfahren Sie, wann Ihre Wettbewerber posten und wann deren Zielgruppe am aktivsten ist
-- **Engagement-Benchmarks** — verstehen Sie, ob Ihre Kennzahlen im Vergleich zu ähnlichen Accounts stark oder schwach sind
-- **Zielgruppen-Überschneidungs-Einblicke** — identifizieren Sie Follower, die mit Wettbewerbern interagieren, Sie aber noch nicht entdeckt haben
+- **Erprobte Content-Ideen** — du siehst, welche Formate und Themen bei eurer gemeinsamen Zielgruppe bereits funktionieren
+- **Posting-Zeitplan-Einblicke** — du erfaehrst, wann die Konkurrenz postet und wann deren Zielgruppe am aktivsten ist
+- **Engagement-Referenzwerte** — du verstehst, ob deine Kennzahlen im Vergleich zu aehnlichen Accounts stark oder schwach sind
+- **Potenzielle Zielgruppe** — du identifizierst Follower, die bei Wettbewerbern aktiv sind, dich aber noch nicht entdeckt haben
 
-### Der Fehler, den die meisten Marken machen
+### Der haeufigste Fehler
 
-Die meisten schauen sich die Follower-Zahl eines Wettbewerbers an, fühlen sich eingeschüchtert oder erleichtert und machen weiter. Das ist keine Analyse. Echte Wettbewerbsrecherche erfordert die Untersuchung von Verhaltensmustern über die Zeit, und die richtigen Tools machen dies praktisch statt mühsam.
+Die meisten schauen sich die Followerzahl eines Wettbewerbers an, fuehlen sich eingeschuechtert oder beruhigt und belassen es dabei. Das ist keine Analyse. Echte Recherche bedeutet, Verhaltensmuster ueber einen laengeren Zeitraum zu untersuchen — und die richtigen Tools machen das praktikabel statt muehsam.
 
-## Die 6 Kennzahlen, die wirklich zählen
+## Die 6 Metriken, die wirklich zaehlen
 
-Nicht jede Zahl auf einem Instagram-Profil ist es wert, verglichen zu werden. Konzentrieren Sie sich beim Benchmarking 2026 auf diese sechs Kennzahlen.
+Nicht jede Zahl auf einem Instagram-Profil verdient Aufmerksamkeit. Konzentriere dich auf diese sechs.
 
 ### 1. Engagement-Rate pro Beitrag
 
-Dies ist die wichtigste einzelne Kennzahl. Berechnen Sie sie als (Likes + Kommentare) geteilt durch Follower-Zahl, ausgedrückt als Prozentsatz. Ein Account mit 10.000 Followern und durchschnittlich 500 Likes pro Beitrag (5 % Engagement) übertrifft einen mit 100.000 Followern und 1.000 Likes (1 % Engagement).
+Die wichtigste Einzelmetrik. Berechne sie als (Likes + Kommentare) geteilt durch Followerzahl, ausgedrueckt in Prozent. Ein Account mit 10.000 Followern und durchschnittlich 500 Likes pro Post (5 %) schlaegt einen mit 100.000 Followern und 1.000 Likes (1 %).
 
-Nutzen Sie [IGStoryPeeks Follower-Analyzer](https://www.igstorypeek.com/instagram/follower-analyzer), um schnell einzuschätzen, ob die Zielgruppe eines Wettbewerbers echt engagiert oder künstlich aufgebläht ist.
+Mit dem [Aktivitaets-Analyzer von IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) pruefst du schnell, ob die Zielgruppe eines Wettbewerbers wirklich engagiert oder kuenstlich aufgeblasen ist.
 
-### 2. Content-Mix und Format-Verteilung
+### 2. Content-Mix und Formatverteilung
 
-Wie viel des Contents eines Wettbewerbers sind Reels vs. Karussells vs. Einzelbilder vs. Stories? 2026 dominieren Reels weiterhin bei der Reichweite, aber Karussells erzeugen oft höhere Speicherungen und Shares. Die Format-Verteilung eines Wettbewerbers zu verstehen enthüllt deren Strategie und wo sie die meiste Rendite sehen.
+Wie viel vom Content eines Wettbewerbers sind Reels, Karussells, Einzelbilder oder Stories? 2026 dominieren Reels weiterhin bei der Reichweite, aber Karussells erzeugen oft mehr Saves und Shares. Die Formatverteilung zu kennen, offenbart die Strategie dahinter.
 
-### 3. Posting-Frequenz und Konsistenz
+### 3. Posting-Frequenz und Konstanz
 
-Manche Accounts posten dreimal täglich, andere dreimal wöchentlich. Keiner der Ansätze ist grundsätzlich besser — wichtig ist Konsistenz und ob der Zeitplan mit den Aktivitätsfenstern der Zielgruppe übereinstimmt.
+Manche posten dreimal taeglich, andere dreimal woechentlich. Keine Variante ist per se besser — entscheidend ist die Regelmaessigkeit und ob der Zeitplan zu den Aktivitaetsfenstern der Zielgruppe passt.
 
-Der [Aktivitäts-Analyzer](https://www.igstorypeek.com/instagram/activity-analyzer) zeigt Posting-Muster über die Zeit und macht es einfach zu erkennen, wie oft Wettbewerber veröffentlichen und ob sie einen regelmäßigen Rhythmus einhalten.
+Der [Aktivitaets-Analyzer](https://www.igstorypeek.com/instagram/activity-analyzer) zeigt Posting-Muster im Zeitverlauf und macht es leicht zu erkennen, wie oft die Konkurrenz veroeffentlicht.
 
-### 4. Story-Aktivität und flüchtige Inhalte
+### 4. Story-Aktivitaet
 
-Stories bleiben einer der persönlichsten Berührungspunkte auf Instagram. Wettbewerber, die häufig Stories posten, bauen tendenziell stärkere Community-Verbindungen auf. Sie können Wettbewerber-Stories anonym mit dem [IGStoryPeek Stories-Viewer](https://www.igstorypeek.com/instagram/stories-viewer) ansehen, um deren Ansatz zu studieren, ohne sich zu verraten.
+Stories gehoeren zu den persoenlichsten Beruehrungspunkten auf Instagram. Wettbewerber, die regelmaessig Stories posten, bauen tendenziell staerkere Community-Bindungen auf. Mit dem [Stories-Viewer von IGStoryPeek](https://www.igstorypeek.com/instagram/stories-viewer) schaust du dir die Stories der Konkurrenz anonym an.
 
 ### 5. Hashtag-Strategie
 
-Welche Hashtags nutzen Ihre Wettbewerber, und wie mischen sie hochvolumige und Nischen-Tags? Ein Wettbewerber, der konsequent in Nischen-Hashtag-Feeds erscheint, hat wahrscheinlich sorgfältige Recherche betrieben. Nutzen Sie den [Hashtag-Generator](https://www.igstorypeek.com/instagram/hashtags-generator), um relevante Tags zu finden und mit den Wettbewerber-Wahlen zu vergleichen.
+Welche Hashtags nutzen deine Wettbewerber? Wie mischen sie Hochvolumen- und Nischen-Tags? Ein Account, der konstant in Nischen-Hashtag-Feeds auftaucht, hat vermutlich sorgfaeltig recherchiert. Mit den [Instagram-Tools](https://www.igstorypeek.com/instagram) findest du relevante Tags und vergleichst sie mit den Wettbewerber-Hashtags.
 
-### 6. Like-zu-Kommentar-Verhältnis
+### 6. Like-zu-Kommentar-Verhaeltnis
 
-Beiträge mit vielen Likes aber fast keinen Kommentaren können auf passives Scrollen statt echtem Interesse hindeuten. Ein gesundes Verhältnis deutet darauf hin, dass der Inhalt Gespräche auslöst. Prüfen Sie Wettbewerber-Like-Muster schnell mit [IGStoryPeeks See-Likes-Tool](https://www.igstorypeek.com/instagram/see-likes).
+Beitraege mit vielen Likes, aber kaum Kommentaren deuten auf passives Scrollen hin statt auf echtes Interesse. Ein gesundes Verhaeltnis spricht dafuer, dass der Content Gespraeche anregt. Pruefe die Like-Muster der Konkurrenz mit dem [Post-Viewer von IGStoryPeek](https://www.igstorypeek.com/instagram/post-viewer).
 
-## So führen Sie eine vollständige Wettbewerbsanalyse durch — Schritt für Schritt
+## Schritt-fuer-Schritt-Anleitung fuer eine vollstaendige Analyse
 
-Hier ist ein praktischer Workflow, den Sie in unter einer Stunde durchführen können.
+Ein praktischer Workflow, den du in weniger als einer Stunde durcharbeiten kannst.
 
-### Schritt 1: Identifizieren Sie Ihre Top-5-Wettbewerber
+### Schritt 1: Die wichtigsten 5 Wettbewerber identifizieren
 
-Beginnen Sie mit direkten Wettbewerbern (Unternehmen mit ähnlichen Produkten oder Dienstleistungen) und indirekten Wettbewerbern (Accounts, die dieselbe Zielgruppe mit anderen Angeboten ansprechen). Beschränken Sie sich nicht auf die offensichtlichen Namen — kleinere Accounts mit hohem Engagement offenbaren oft die nützlichsten Strategien.
+Beruecksichtige direkte Konkurrenten (Unternehmen mit aehnlichen Produkten) und indirekte (Accounts, die dieselbe Zielgruppe mit einem anderen Angebot ansprechen). Beschraenke dich nicht auf die offensichtlichen Namen — kleinere Accounts mit hohem Engagement liefern oft die nuetzlichsten Erkenntnisse.
 
-### Schritt 2: Basisdaten sammeln
+### Schritt 2: Basisdaten erfassen
 
-Erfassen Sie für jeden Wettbewerber die aktuelle Follower-Zahl, durchschnittliche Likes pro Beitrag, durchschnittliche Kommentare pro Beitrag, Posting-Frequenz und primäre Content-Formate. [IGStoryPeek](https://www.igstorypeek.com) ermöglicht es Ihnen, viele dieser Daten sofort abzurufen, ohne sich anmelden zu müssen.
+Notiere fuer jeden Wettbewerber: Followerzahl, durchschnittliche Likes pro Post, durchschnittliche Kommentare, Posting-Frequenz und bevorzugte Formate. [IGStoryPeek](https://www.igstorypeek.com) liefert einen Grossteil dieser Daten sofort, ohne Anmeldung.
 
 ### Schritt 3: Content-Themen analysieren
 
-Scrollen Sie durch die letzten 30 Beiträge jedes Wettbewerbers. Gruppieren Sie sie nach Thema oder Inhalt. Welche Themen erhalten das meiste Engagement? Welche fallen durch? Dies zeigt, was Ihre gemeinsame Zielgruppe interessiert.
+Gehe die letzten 30 Beitraege jedes Wettbewerbers durch. Gruppiere sie nach Thema. Welche Themen erzielen das hoechste Engagement? Welche verpuffen? Das verraet dir, was eure gemeinsame Zielgruppe interessiert.
 
 ### Schritt 4: Stories-Strategie studieren
 
-Nutzen Sie den [Stories-Viewer](https://www.igstorypeek.com/instagram/stories-viewer), um Wettbewerber-Stories zu schauen, ohne Spuren zu hinterlassen. Achten Sie darauf, wie sie Umfragen, Fragen, Links und Call-to-Action-Sticker einsetzen. Stories sind der Bereich, in dem Marken oft ihre authentischste Strategie zeigen.
+Nutze den [Stories-Viewer](https://www.igstorypeek.com/instagram/stories-viewer), um Wettbewerber-Stories zu sehen, ohne Spuren zu hinterlassen. Achte darauf, wie sie Umfragen, Fragen, Links und Call-to-Action-Sticker einsetzen. In den Stories zeigen Marken oft ihre authentischste Strategie.
 
-### Schritt 5: Vergleichs-Tabelle erstellen
+### Schritt 5: Vergleichs-Tabelle anlegen
 
-Erstellen Sie eine einfache Tabelle mit Wettbewerbern als Spalten und Kennzahlen als Zeilen. Aktualisieren Sie sie monatlich. Mit der Zeit werden Sie Trends erkennen, die Ihre Strategie zuverlässiger informieren als jede einzelne Momentaufnahme.
+Erstelle eine einfache Tabelle mit Wettbewerbern als Spalten und Metriken als Zeilen. Aktualisiere sie monatlich. Mit der Zeit werden Trends sichtbar, die deine Strategie wesentlich zuverlaessiger informieren als jede einzelne Momentaufnahme.
 
-## Benchmarking: Realistische Leistungsziele setzen
+## Benchmarking: Realistische Ziele setzen
 
-Benchmarking gegen Wettbewerber funktioniert nur, wenn Sie Accounts ähnlicher Größe und Reife vergleichen. Eine Marke mit 2.000 Followern sollte sich nicht an einer mit 2 Millionen messen — die Dynamiken sind völlig verschieden.
+Sich mit der Konkurrenz zu messen, funktioniert nur mit Accounts aehnlicher Groesse und Reife. Eine Marke mit 2.000 Followern sollte sich nicht mit einer vergleichen, die 2 Millionen hat — die Dynamiken sind voellig verschieden.
 
-### Branchendurchschnitte 2026
+### Branchendurchschnitte im DACH-Raum 2026
 
-Als grobe Orientierung für 2026 liegen die Engagement-Raten auf Instagram durchschnittlich bei 1,5-3 % für Accounts unter 50.000 Followern und fallen auf 0,5-1,5 % bei größeren Accounts. Wenn Ihre Wettbewerber diese Bereiche überschreiten, machen sie etwas richtig, das genauere Betrachtung verdient.
+Als grobe Orientierung: Engagement-Raten liegen fuer Accounts unter 50.000 Followern bei etwa 1,5-3 % und sinken fuer groessere auf 0,5-1,5 %. Accounts aus den Bereichen Mode und Food erzielen tendenziell hoehere Werte, B2B-Accounts liegen darunter.
 
-### Eigene Benchmarks setzen
+### Eigene Referenzwerte festlegen
 
-Sobald Sie drei Monate Wettbewerberdaten haben, berechnen Sie Durchschnitte für jede Kennzahl. Setzen Sie Ihre Ziele zunächst beim Median Ihrer Wettbewerbergruppe. Wenn Sie sich verbessern, streben Sie das obere Quartil an. Dieser Ansatz verankert Ihre Erwartungen in der Realität statt in Wunschdenken.
+Berechne nach drei Monaten Datensammlung die Durchschnittswerte je Metrik. Setze deine Anfangsziele auf den Median deiner Wettbewerber-Gruppe. Mit zunehmender Verbesserung peile das obere Viertel an. Dieser Ansatz haelt deine Erwartungen realistisch.
 
-## Häufige Fehler bei der Wettbewerbsanalyse
+## Typische Fehler bei der Konkurrenzanalyse
 
-**Fixierung auf Follower-Zahlen.** Follower können gekauft werden. Engagement lässt sich nicht so leicht fälschen.
+**Fixierung auf die Followerzahl.** Follower lassen sich kaufen. Echtes Engagement ist weit schwerer zu faelschen.
 
-**Nur einmal analysieren.** Wettbewerbslandschaften ändern sich ständig. Monatliche Überprüfungen sind das Minimum.
+**Nur einmal analysieren.** Die Wettbewerbslandschaft verschiebt sich staendig. Monatliche Updates sind das Minimum.
 
-**Kopieren statt lernen.** Das Ziel ist zu verstehen, was funktioniert und warum, und dann diese Prinzipien auf Ihre eigene Markenstimme und Zielgruppe anzupassen.
+**Kopieren statt lernen.** Ziel ist es zu verstehen, was funktioniert und warum — und diese Erkenntnisse fuer die eigene Marke zu adaptieren.
 
-**Kleinere Wettbewerber ignorieren.** Schnell wachsende kleine Accounts signalisieren oft aufkommende Trends, bevor größere Accounts aufholen.
+**Kleine Wettbewerber ignorieren.** Schnell wachsende kleine Accounts signalisieren oft aufkommende Trends, bevor groessere Accounts aufspringen.
 
-## Häufig gestellte Fragen
+## Haeufig gestellte Fragen
 
 ### Wie oft sollte ich meine Instagram-Wettbewerber analysieren?
 
-Eine gründliche monatliche Analyse funktioniert für die meisten Marken gut. Allerdings sollten Sie wöchentliche Kurz-Checks zu Posting-Frequenz und herausragendem Content machen. Nutzen Sie Tools wie [IGStoryPeek](https://www.igstorypeek.com), um diese Checks schnell und effizient zu gestalten.
+Eine gruendliche monatliche Analyse ist fuer die meisten Marken ausreichend. Ergaenze sie durch kurze woechentliche Checks der Posting-Frequenz und herausragender Inhalte. [IGStoryPeek](https://www.igstorypeek.com) macht diese Schnellchecks einfach und effizient.
 
-### Kann ich die Instagram-Aktivität eines Wettbewerbers analysieren, ohne dass er es bemerkt?
+### Merkt die Konkurrenz, dass ich ihren Account analysiere?
 
-Ja. Wenn Sie [IGStoryPeeks Stories-Viewer](https://www.igstorypeek.com/instagram/stories-viewer) oder andere Analyse-Tools nutzen, hat der Wettbewerber-Account keine Möglichkeit zu wissen, dass Sie seine Inhalte angesehen haben. Sie können frei recherchieren, ohne in deren Zuschauerlisten aufzutauchen.
+Nein. Wenn du den [Stories-Viewer von IGStoryPeek](https://www.igstorypeek.com/instagram/stories-viewer) oder andere Analyse-Tools nutzt, hat der Wettbewerber-Account keine Moeglichkeit zu erfahren, dass du seinen Content angesehen hast.
 
 ### Was ist eine gute Engagement-Rate auf Instagram 2026?
 
-Für Accounts unter 50.000 Followern gelten 2-4 % als gesund. Für Accounts zwischen 50.000 und 500.000 sollten Sie 1-2,5 % anstreben. Größere Accounts sehen typischerweise 0,5-1,5 %. Diese Bereiche variieren nach Branche — Mode und Food tendieren höher, während B2B-Accounts niedriger liegen.
+Fuer Accounts unter 50.000 Followern gelten 2-4 % als gesund. Zwischen 50.000 und 500.000 solltest du 1-2,5 % anpeilen. Groessere Accounts liegen typischerweise bei 0,5-1,5 %. Die Werte variieren je nach Branche.
 
 ### Wie viele Wettbewerber sollte ich beobachten?
 
-Beginnen Sie mit 3-5 direkten Wettbewerbern und 2-3 indirekten Wettbewerbern. Zu viele zu verfolgen verwässert Ihren Fokus. Wenn Ihre Branche eine Nische ist, können selbst 3-4 Wettbewerber insgesamt ausreichen, um aussagekräftige Benchmarks aufzubauen.
+Beginne mit 3-5 direkten und 2-3 indirekten Wettbewerbern. Zu viele zu tracken verwassert den Fokus. In Nischenbranchen koennen auch 3-4 insgesamt genuegen, um aussagekraeftige Benchmarks zu bilden.
 
-### Lohnt es sich, für Wettbewerbsanalyse-Tools zu bezahlen?
+### Lohnt sich der Kauf von Analyse-Tools?
 
-Für die meisten kleinen und mittleren Unternehmen liefern kostenlose Tools mehr als genug Daten. [IGStoryPeek](https://www.igstorypeek.com) bietet umfassende Wettbewerbsrecherche-Funktionen kostenlos. Kostenpflichtige Tools werden erst dann überlegenswert, wenn Sie automatisierte Berichte über Dutzende von Wettbewerbern oder tiefe historische Daten über Jahre hinweg benötigen.
+Fuer die meisten kleinen und mittleren Unternehmen liefern die kostenlosen Tools mehr als genug Daten. [IGStoryPeek](https://www.igstorypeek.com) bietet umfassende Wettbewerbsrecherche zum Nulltarif. Bezahlte Tools werden erst interessant, wenn du automatisierte Berichte fuer Dutzende von Wettbewerbern oder jahrelange historische Daten brauchst.
+
+## Quellen
+
+- [Instagram fuer Unternehmen — Wettbewerbseinblicke](https://business.instagram.com/) — Instagram Business Tools
+- [Best Practices fuer Creator](https://creators.instagram.com/) — Instagram fuer Creator
+- [Ueber Instagram](https://about.meta.com/technologies/instagram/) — Meta Technologies

@@ -21,9 +21,9 @@
   },
   "hero": {
     "title": "Votre outil",
-    "titleHighlight": "d'analyse des réseaux sociaux",
+    "titleHighlight": "d'analyse Instagram",
     "titleEnd": "tout-en-un",
-    "subtitle": "Analysez les profils publics, suivez les tendances d'engagement et explorez le contenu — sur toutes les plateformes, sans compte.",
+    "subtitle": "Analysez les profils publics, suivez les tendances d'engagement et explorez le contenu sur Instagram — sans compte.",
     "placeholder": "Saisir un nom d'utilisateur Instagram...",
     "button": "Rechercher",
     "viewSample": "Voir un rapport exemple",
@@ -84,8 +84,8 @@
       "description": "Des algorithmes avancés analysent les schémas d'engagement et fournissent des informations exploitables."
     },
     "multiPlatform": {
-      "title": "Support multiplateforme",
-      "description": "Analysez des profils sur Instagram, TikTok, Facebook et Snapchat depuis un seul endroit."
+      "title": "Couverture Instagram complète",
+      "description": "Analysez des profils, stories, reels et highlights sur Instagram depuis un seul endroit."
     },
     "easyToUse": {
       "title": "Facile à utiliser",
@@ -169,7 +169,7 @@
     "acceptAll": "Tout accepter"
   },
   "footer": {
-    "brandDescription": "Outils d'analyse et de contenu pour les réseaux sociaux. Analysez les profils publics, suivez l'engagement et générez des informations.",
+    "brandDescription": "Outils d'analyse et de contenu pour Instagram. Analysez les profils publics, suivez l'engagement et générez des informations.",
     "product": "Produit",
     "features": "Fonctionnalités",
     "pricing": "Tarifs",
@@ -234,7 +234,7 @@
       "feature2": "Tableau de bord analytique complet",
       "feature3": "Surveillance continue & alertes",
       "feature4": "Analyses propulsées par l'IA",
-      "feature5": "Détection multiplateforme",
+      "feature5": "Couverture Instagram complète",
       "feature6": "Support prioritaire",
       "cta": "Passer à Pro"
     },
@@ -253,7 +253,7 @@
       },
       {
         "question": "Combien coûtent généralement les outils d'analyse Instagram ?",
-        "answer": "La plupart vont de gratuit à $30/mois. IGStoryPeek offre un forfait gratuit avec 2 recherches toutes les 8 heures et un plan Pro à $29/mois pour un accès illimité sur Instagram, TikTok, Facebook et Snapchat."
+        "answer": "La plupart vont de gratuit à $30/mois. IGStoryPeek offre un forfait gratuit avec 2 recherches toutes les 8 heures et un plan Pro à $29/mois pour un accès illimité sur Instagram."
       },
       {
         "question": "Quelles fonctionnalités les outils payants offrent-ils que les gratuits n'ont pas ?",
@@ -272,9 +272,9 @@
   "about": {
     "title": "À propos d'",
     "titleHighlight": "IGStoryPeek",
-    "mission": "Notre mission est de rendre l'analyse des réseaux sociaux accessible, transparente et respectueuse de la vie privée pour tous.",
+    "mission": "Notre mission est de rendre l'analyse Instagram accessible, transparente et respectueuse de la vie privée pour tous.",
     "whatWeDoTitle": "Ce que nous faisons",
-    "whatWeDoDesc": "IGStoryPeek est une plateforme d'analyse des réseaux sociaux qui aide les marketeurs, chercheurs et particuliers à analyser les données de profils publiquement disponibles sur Instagram, TikTok, Facebook et Snapchat.",
+    "whatWeDoDesc": "IGStoryPeek est une plateforme d'analyse Instagram qui aide les marketeurs, chercheurs et particuliers à analyser les données de profils publiquement disponibles sur Instagram.",
     "valuesTitle": "Nos valeurs",
     "transparency": {
       "title": "Transparence",
@@ -314,7 +314,7 @@
       },
       {
         "question": "Quelles plateformes IGStoryPeek prend-il en charge ?",
-        "answer": "Actuellement, IGStoryPeek prend en charge l'analyse d'Instagram, TikTok, Facebook et Snapchat."
+        "answer": "Actuellement, IGStoryPeek prend en charge l'analyse d'Instagram."
       }
     ]
   },
@@ -451,15 +451,15 @@
     },
     {
       "question": "Qu'est-ce qu'un outil d'analyse des réseaux sociaux et comment fonctionne-t-il ?",
-      "answer": "Un outil d'analyse des réseaux sociaux collecte et analyse les données publiquement disponibles de plateformes comme Instagram, TikTok, Facebook et Snapchat. Il présente des métriques telles que les taux d'engagement, la croissance des abonnés et la performance du contenu dans des rapports faciles à lire."
+      "answer": "Un outil d'analyse Instagram collecte et analyse les données publiquement disponibles d'Instagram. Il présente des métriques telles que les taux d'engagement, la croissance des abonnés et la performance du contenu dans des rapports faciles à lire."
     },
     {
       "question": "Est-il sûr d'utiliser des visualiseurs de stories Instagram tiers ?",
       "answer": "Les outils réputés comme IGStoryPeek sont sûrs car ils n'accèdent qu'aux données publiquement disponibles et ne demandent jamais vos identifiants Instagram. Évitez toujours les services qui demandent votre mot de passe ou vous obligent à vous connecter avec votre compte de réseau social."
     },
     {
-      "question": "Quelles plateformes de réseaux sociaux peut-on parcourir sans créer de compte ?",
-      "answer": "Avec IGStoryPeek, vous pouvez parcourir le contenu public d'Instagram, TikTok, Facebook et Snapchat — le tout sans créer de compte sur aucune de ces plateformes."
+      "question": "Peut-on parcourir Instagram sans créer de compte ?",
+      "answer": "Oui. Avec IGStoryPeek, vous pouvez parcourir le contenu public d'Instagram — stories, publications, highlights et reels — le tout sans créer de compte ni vous connecter."
     },
     {
       "question": "Les outils de visualisation de stories fonctionnent-ils avec les comptes Instagram privés ?",

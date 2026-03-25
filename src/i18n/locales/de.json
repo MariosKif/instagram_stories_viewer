@@ -21,9 +21,9 @@
   },
   "hero": {
     "title": "Ihr All-in-One",
-    "titleHighlight": "Social-Media-Analyse",
+    "titleHighlight": "Instagram-Analyse",
     "titleEnd": "Tool",
-    "subtitle": "Analysieren Sie öffentliche Profile, verfolgen Sie Engagement-Trends und erkunden Sie Inhalte – plattformübergreifend, ohne Konto.",
+    "subtitle": "Analysieren Sie öffentliche Profile, verfolgen Sie Engagement-Trends und erkunden Sie Inhalte auf Instagram – ohne Konto.",
     "placeholder": "Instagram-Benutzernamen eingeben...",
     "button": "Suchen",
     "viewSample": "Beispielbericht ansehen",
@@ -84,8 +84,8 @@
       "description": "Fortschrittliche Algorithmen analysieren Engagement-Muster und liefern umsetzbare Erkenntnisse."
     },
     "multiPlatform": {
-      "title": "Multiplattform-Unterstützung",
-      "description": "Analysieren Sie Profile auf Instagram, TikTok, Facebook und Snapchat von einem Ort aus."
+      "title": "Volle Instagram-Abdeckung",
+      "description": "Analysieren Sie Profile, Stories, Reels und Highlights auf Instagram von einem Ort aus."
     },
     "easyToUse": {
       "title": "Einfach zu bedienen",
@@ -169,7 +169,7 @@
     "acceptAll": "Alle akzeptieren"
   },
   "footer": {
-    "brandDescription": "Social-Media-Analyse- und Content-Tools. Analysieren Sie öffentliche Profile, verfolgen Sie Engagement und generieren Sie Einblicke.",
+    "brandDescription": "Instagram-Analyse- und Content-Tools. Analysieren Sie öffentliche Profile, verfolgen Sie Engagement und generieren Sie Einblicke.",
     "product": "Produkt",
     "features": "Funktionen",
     "pricing": "Preise",
@@ -234,7 +234,7 @@
       "feature2": "Vollständiges Analyse-Dashboard",
       "feature3": "Fortlaufende Überwachung & Benachrichtigungen",
       "feature4": "KI-gestützte Einblicke",
-      "feature5": "Plattformübergreifende Erkennung",
+      "feature5": "Volle Instagram-Abdeckung",
       "feature6": "Prioritäts-Support",
       "cta": "Auf Pro upgraden"
     },
@@ -253,7 +253,7 @@
       },
       {
         "question": "Wie viel kosten Instagram-Analyse-Tools normalerweise?",
-        "answer": "Die meisten kosten zwischen kostenlos und $30/Monat. IGStoryPeek bietet ein kostenloses Paket mit 2 Suchen alle 8 Stunden und einen Pro-Plan für $29/Monat mit unbegrenztem Zugriff auf Instagram, TikTok, Facebook und Snapchat."
+        "answer": "Die meisten kosten zwischen kostenlos und $30/Monat. IGStoryPeek bietet ein kostenloses Paket mit 2 Suchen alle 8 Stunden und einen Pro-Plan für $29/Monat mit unbegrenztem Zugriff auf Instagram."
       },
       {
         "question": "Welche Funktionen bieten kostenpflichtige Social-Media-Tools, die kostenlose nicht haben?",
@@ -272,9 +272,9 @@
   "about": {
     "title": "Über",
     "titleHighlight": "IGStoryPeek",
-    "mission": "Unsere Mission ist es, Social-Media-Analyse für jeden zugänglich, transparent und datenschutzfreundlich zu gestalten.",
+    "mission": "Unsere Mission ist es, Instagram-Analyse für jeden zugänglich, transparent und datenschutzfreundlich zu gestalten.",
     "whatWeDoTitle": "Was wir tun",
-    "whatWeDoDesc": "IGStoryPeek ist eine Social-Media-Analyseplattform, die Marketern, Forschern und Privatpersonen hilft, öffentlich verfügbare Profildaten auf Instagram, TikTok, Facebook und Snapchat zu analysieren.",
+    "whatWeDoDesc": "IGStoryPeek ist eine Instagram-Analyseplattform, die Marketern, Forschern und Privatpersonen hilft, öffentlich verfügbare Profildaten auf Instagram zu analysieren.",
     "valuesTitle": "Unsere Werte",
     "transparency": {
       "title": "Transparenz",
@@ -314,7 +314,7 @@
       },
       {
         "question": "Welche Plattformen unterstützt IGStoryPeek?",
-        "answer": "Derzeit unterstützt IGStoryPeek die Analyse von Instagram, TikTok, Facebook und Snapchat."
+        "answer": "Derzeit unterstützt IGStoryPeek die Analyse von Instagram."
       }
     ]
   },
@@ -451,15 +451,15 @@
     },
     {
       "question": "Was ist ein Social-Media-Analyse-Tool und wie funktioniert es?",
-      "answer": "Ein Social-Media-Analyse-Tool sammelt und analysiert öffentlich verfügbare Daten von Plattformen wie Instagram, TikTok, Facebook und Snapchat. Es stellt Kennzahlen wie Engagement-Raten, Follower-Wachstum und Inhaltsleistung in leicht lesbaren Berichten dar."
+      "answer": "Ein Instagram-Analyse-Tool sammelt und analysiert öffentlich verfügbare Daten von Instagram. Es stellt Kennzahlen wie Engagement-Raten, Follower-Wachstum und Inhaltsleistung in leicht lesbaren Berichten dar."
     },
     {
       "question": "Ist es sicher, Instagram-Story-Viewer von Drittanbietern zu nutzen?",
       "answer": "Seriöse Tools wie IGStoryPeek sind sicher, da sie nur auf öffentlich verfügbare Daten zugreifen und niemals nach Ihren Instagram-Anmeldedaten fragen. Vermeiden Sie stets Dienste, die Ihr Passwort verlangen oder eine Anmeldung mit Ihrem Social-Media-Konto erfordern."
     },
     {
-      "question": "Welche Social-Media-Plattformen kann man ohne Konto durchsuchen?",
-      "answer": "Mit IGStoryPeek können Sie öffentliche Inhalte von Instagram, TikTok, Facebook und Snapchat durchsuchen – ganz ohne ein Konto auf einer dieser Plattformen zu erstellen."
+      "question": "Kann man Instagram ohne Konto durchsuchen?",
+      "answer": "Ja. Mit IGStoryPeek können Sie öffentliche Instagram-Inhalte durchsuchen – Stories, Beiträge, Highlights und Reels – ganz ohne ein Konto zu erstellen oder sich anzumelden."
     },
     {
       "question": "Funktionieren Story-Viewer-Tools bei privaten Instagram-Konten?",

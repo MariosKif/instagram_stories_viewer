@@ -1,8 +1,8 @@
 ---
 title: "How to Browse Instagram Stories Without an Account in 2026"
 description: "Learn how to browse Instagram stories without logging in or creating an account. Discover the easiest methods to view Instagram stories for free in 2026 using IGStoryPeek. No login required."
-pubDate: 2025-01-15
-updatedDate: 2025-01-15
+pubDate: 2025-11-12
+updatedDate: 2025-11-12
 author: "Alex Morgan"
 featured: true
 image: "/blog/hero-stories-anon-guide.svg"
@@ -138,3 +138,9 @@ Unverified websites may contain malware, phishing attempts, or hidden trackers. 
 ### How long do Instagram stories last before they disappear?
 
 Instagram stories are visible for 24 hours after they are posted. After that, they are automatically removed from the poster's profile unless they choose to save them as Highlights.
+
+## Sources
+
+- [How Instagram Stories Work](https://help.instagram.com/) — Instagram Help Center
+- [Instagram Privacy and Safety Features](https://about.instagram.com/blog/announcements) — Instagram Official Blog
+- [About Instagram](https://about.meta.com/technologies/instagram/) — Meta Technologies

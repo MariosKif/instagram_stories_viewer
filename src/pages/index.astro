@@ -12,6 +12,7 @@ import BenefitsGrid from '../components/BenefitsGrid.astro';
 import FeaturesSuite from '../components/FeaturesSuite.astro';
 import ArticlesSection from '../components/ArticlesSection.astro';
 import Testimonials from '../components/Testimonials.astro';
+import SampleReport from '../components/SampleReport.astro';
 import FAQSection from '../components/FAQSection.astro';
 import CTASection from '../components/CTASection.astro';
 
@@ -23,7 +24,7 @@ const homeFaqs = t.homeFaqs || [
   },
   {
     question: 'What is a social media analytics tool and how does it work?',
-    answer: 'A social media analytics tool collects and analyzes publicly available data from platforms like Instagram, TikTok, Facebook, and Snapchat. It presents metrics such as engagement rates, follower growth, and content performance in easy-to-read reports.',
+    answer: 'A social media analytics tool collects and analyzes publicly available data from Instagram. It presents metrics such as engagement rates, follower growth, and content performance in easy-to-read reports.',
   },
   {
     question: 'Is it safe to use third-party Instagram story viewers?',
@@ -31,7 +32,7 @@ const homeFaqs = t.homeFaqs || [
   },
   {
     question: 'What social media platforms can you browse without creating an account?',
-    answer: 'With IGStoryPeek you can browse public content from Instagram, TikTok, Facebook, and Snapchat — all without creating an account on any of those platforms.',
+    answer: 'With IGStoryPeek you can browse public Instagram content — stories, posts, reels, and highlights — all without creating an account.',
   },
   {
     question: 'Do story viewer tools work on private Instagram accounts?',
@@ -45,8 +46,8 @@ const homeFaqs = t.homeFaqs || [
 ---
 
 <MainLayout
-  title={t.meta?.title || "IGStoryPeek — Social Media Analytics & Content Tools"}
-  description={t.meta?.description || "Analyze public Instagram profiles, track engagement trends, and explore content across platforms. AI-powered insights for marketers and researchers."}
+  title={t.meta?.title || "IGStoryPeek — Free Instagram Analytics & Story Viewer"}
+  description={t.meta?.description || "Analyze public Instagram profiles, track engagement trends, and explore stories, posts, and reels. Free insights for marketers and researchers — no login required."}
 >
   <Hero />
 
@@ -54,7 +55,7 @@ const homeFaqs = t.homeFaqs || [
   <section class="py-8 lg:py-12">
     <div class="section-container max-w-4xl">
       <p class="text-base text-dark-300 leading-relaxed text-center">
-        <strong class="text-white">IGStoryPeek</strong> is a free web-based social media analytics platform that enables users to view and analyze public profiles across Instagram, TikTok, Facebook, and Snapchat without creating an account. Used by thousands of users across 6 languages, it provides engagement analytics, content browsing, and AI-powered insights for marketers, researchers, and everyday users — with no login required on any platform.
+        <strong class="text-white">IGStoryPeek</strong> is a free web-based Instagram analytics platform that enables users to view and analyze public Instagram profiles without creating an account. It provides engagement analytics, story and content browsing, downloading tools, and activity insights for marketers, researchers, and everyday users — with no login required.
       </p>
     </div>
   </section>
@@ -64,6 +65,7 @@ const homeFaqs = t.homeFaqs || [
   <BenefitsGrid />
   <UseCases />
   <FeaturesSuite />
+  <SampleReport />
   <ArticlesSection />
   <Testimonials />
   <FAQSection faqs={homeFaqs} heading={t.faq?.title} />

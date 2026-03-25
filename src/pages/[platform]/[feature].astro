@@ -13,6 +13,12 @@ const lang = (Astro.locals as any).lang as Language || 'en';
 const t = (Astro.locals as any).t || {};
 
 const { platform: platformId, feature: featureSlug } = Astro.params;
+
+// Only Instagram has a real backend — 404 everything else
+if (platformId !== 'instagram') {
+  return Astro.redirect('/404');
+}
+
 const result = getFeatureBySlug(platformId!, featureSlug!);
 
 if (!result) {
@@ -28,6 +34,13 @@ const related = getRelatedFeatures(platform.id, feature.slug, 4);
   description={feature.metaDescription}
 >
   <FeatureHero platform={platform} category={category} feature={feature} />
+  {feature.longDescription && (
+    <section class="py-16 lg:py-20">
+      <div class="section-container max-w-3xl">
+        <div class="prose prose-invert prose-sm sm:prose-base max-w-none text-dark-300 [&_h2]:text-white [&_h2]:font-heading [&_h2]:text-xl [&_h2]:mb-3 [&_h2]:mt-8 [&_p]:leading-relaxed [&_ul]:space-y-2 [&_li]:text-dark-300" set:html={feature.longDescription} />
+      </div>
+    </section>
+  )}
   <FeatureHowItWorks
     steps={feature.howItWorks}
     platformColor={platform.color}

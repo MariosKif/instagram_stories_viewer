@@ -1,8 +1,8 @@
 ---
 title: "Browse Instagram Stories Without Logging In | IGStoryPeek"
 description: "Discover how to browse Instagram Stories without an account in 2026 using IGStoryPeek for free — no login required, no app needed."
-pubDate: 2025-11-08
-updatedDate: 2025-11-08
+pubDate: 2025-11-28
+updatedDate: 2025-11-28
 author: "Alex Morgan"
 featured: false
 image: "/blog/hero-stories-browse.svg"
@@ -138,3 +138,9 @@ You can view public profiles, stories, highlights, reels, and posts. Any content
 ### Are there browser extensions for viewing Instagram stories?
 
 Some browser extensions claim to offer story viewing, but many are unreliable, outdated, or pose security risks. A web-based tool like IGStoryPeek is safer and more convenient since it requires no installation and works across all browsers.
+
+## Sources
+
+- [Instagram Stories Overview](https://help.instagram.com/) — Instagram Help Center
+- [About Instagram](https://about.meta.com/technologies/instagram/) — Meta Technologies
+- [Instagram for Creators](https://creators.instagram.com/) — Instagram Creators Portal

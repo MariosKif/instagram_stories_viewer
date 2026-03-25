@@ -14,6 +14,7 @@ export interface Feature {
   metaDescription: string;
   badge?: string;
   badges: string[];
+  longDescription?: string;
   benefits: Benefit[];
   benefitsHeading: string;
   benefitsSubheading: string;

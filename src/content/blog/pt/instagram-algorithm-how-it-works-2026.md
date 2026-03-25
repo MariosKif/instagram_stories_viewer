@@ -1,146 +1,153 @@
 ---
-title: "Como Funciona o Algoritmo do Instagram em 2026 — Feed, Reels, Stories e Explorar Explicados"
-description: "Compreenda como o algoritmo do Instagram classifica conteúdo em 2026. O IGStoryPeek explica os fatores de classificação para Feed, Reels, Stories e Explorar para que possa crescer."
-pubDate: 2026-03-09
-updatedDate: 2026-03-09
+title: "Algoritmo do Instagram em 2026: Como Funciona no Feed, Reels, Stories e Explorar"
+description: "Entenda de verdade como o algoritmo do Instagram classifica conteúdo em 2026. Guia completo sobre Feed, Reels, Stories e Explorar com dicas práticas para crescer."
+pubDate: 2026-01-18
+updatedDate: 2026-01-18
 author: "Alex Morgan"
 featured: false
 image: "/blog/hero-algorithm-guide.svg"
 category: "Guides"
 lang: "pt"
-tags: ["algoritmo instagram", "algoritmo instagram 2026", "feed instagram", "instagram reels", "instagram stories", "página explorar", "classificação instagram", "estratégia conteúdo", "alcance instagram", "crescimento instagram", "algoritmo redes sociais"]
+tags: ["algoritmo instagram 2026", "como funciona instagram", "feed instagram", "reels algoritmo", "stories instagram", "página explorar", "crescimento instagram", "estratégia conteúdo", "alcance orgânico", "ranking instagram", "dicas instagram"]
 ---
 
-# Como Funciona o Algoritmo do Instagram em 2026 — Feed, Reels, Stories e Explorar Explicados
+# Algoritmo do Instagram em 2026: Como Funciona no Feed, Reels, Stories e Explorar
 
-> **Pontos-Chave:** Não existe um único algoritmo do Instagram — cada superfície (Feed, Reels, Stories, Explorar) usa o seu próprio sistema de classificação. Compreender estes sistemas ajuda-o a criar conteúdo que alcança mais pessoas. Use o [Analisador de Atividade do IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) para estudar como as melhores contas otimizam para cada sistema de classificação.
+> **Resumo rápido:** O Instagram não usa um único algoritmo. Cada área do app — Feed, Reels, Stories e Explorar — funciona com seu próprio sistema de classificação. Entender isso muda completamente sua forma de criar conteúdo. Use o [Analisador de Atividade do IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) para estudar como os perfis de maior sucesso se adaptam a cada sistema.
 
-A expressão "o algoritmo do Instagram" é usada constantemente, mas é enganosa. O Instagram não usa um algoritmo. Usa múltiplos sistemas de classificação, cada um adaptado a uma parte específica da aplicação. Em 2026, estes sistemas tornaram-se mais sofisticados, mas os princípios fundamentais permanecem surpreendentemente transparentes.
+Quando alguém fala "o algoritmo do Instagram", geralmente está simplificando demais a situação. Na prática, o Instagram trabalha com múltiplos sistemas de classificação, cada um ajustado para uma parte específica do aplicativo. Em 2026, esses sistemas ficaram ainda mais sofisticados — mas os princípios por trás deles continuam relativamente transparentes.
 
-Este guia explica como cada sistema de classificação funciona, que sinais importam mais e o que pode realmente fazer a respeito.
+Para quem cria conteúdo no Brasil — um dos mercados mais ativos da plataforma no mundo — entender essa mecânica é fundamental para alcançar mais pessoas sem depender de investimento em anúncios.
 
-## O Princípio Fundamental por Trás de Toda a Classificação no Instagram
+## O princípio que rege todas as classificações
 
-Cada sistema de classificação no Instagram tenta responder à mesma pergunta: **que conteúdo este utilizador específico achará mais valioso neste momento?**
+Todo sistema de ranking do Instagram tenta responder a uma pergunta central: **qual conteúdo este usuário específico vai considerar mais relevante neste momento?**
 
-O Instagram mede o "valor" através de sinais comportamentais — o que as pessoas tocam, veem, guardam, partilham, comentam e sobre o que se demoram. A plataforma tem sido clara em dizer que não suprime conteúdo por razões comerciais ou para forçar gastos em publicidade. Os declínios de alcance quase sempre se devem a conteúdo que não corresponde às expectativas do público.
+O Instagram mede "relevância" por meio de sinais comportamentais — o que as pessoas curtem, assistem, salvam, compartilham, comentam e onde demoram mais o olhar. A plataforma já deixou claro que não suprime conteúdo por razões comerciais nem para forçar investimento em anúncios. Quedas no alcance quase sempre se explicam por conteúdo que não corresponde às expectativas da audiência.
 
-Em 2026, o Instagram duplicou a personalização. Dois utilizadores que seguem contas idênticas verão feeds completamente diferentes com base nos seus padrões comportamentais individuais.
+Em 2026, a personalização atingiu um novo patamar. Dois usuários que seguem exatamente os mesmos perfis verão feeds completamente distintos, moldados pelos comportamentos individuais de cada um.
 
-## Como Funciona o Algoritmo do Feed em 2026
+## Como funciona o algoritmo do Feed
 
-O Feed é onde vê publicações das contas que segue, mais uma pequena percentagem de conteúdo sugerido de contas que não segue.
+O Feed mostra publicações dos perfis que você segue, além de uma parcela menor de conteúdos sugeridos de perfis que você não segue.
 
-### Sinais de Classificação Primários para o Feed
+### Fatores de classificação no Feed
 
-A classificação do Feed do Instagram pesa estes fatores aproximadamente nesta ordem de importância:
+O ranking do Feed leva em conta estes fatores, aproximadamente nesta ordem de importância:
 
-1. **Força da relação** — com que frequência interage com a conta que publica. Gostos, comentários, DMs, visitas ao perfil e visualizações de Stories contribuem todos. Se interage regularmente com uma conta, as suas publicações aparecem mais acima no seu Feed.
+1. **Proximidade do relacionamento** — quanto mais você interage com um perfil (curtidas, comentários, DMs, visitas ao perfil, visualizações de Stories), mais alto o conteúdo dele aparece no seu Feed.
 
-2. **Previsão de interesse** — o Instagram prevê a probabilidade de interagir com uma publicação específica com base no seu comportamento passado com conteúdo semelhante. Se gosta sempre de fotografia de comida, novas publicações de comida classificam-se mais alto para si.
+2. **Previsão de interesse** — o Instagram estima a probabilidade de você interagir com determinado post baseado no que você costuma consumir. Se você sempre curte fotos de culinária, novas publicações sobre comida ganham prioridade.
 
-3. **Atualidade** — publicações mais recentes classificam-se acima das mais antigas, embora o Instagram já não use ordem estritamente cronológica. Publicações das últimas horas recebem um impulso significativo.
+3. **Recência** — posts mais novos aparecem acima dos mais antigos. O Instagram abandonou a ordem cronológica pura, mas publicações das últimas horas recebem um impulso significativo.
 
-4. **Preferência de tipo de conteúdo** — se tende a interagir mais com carrosséis do que com imagens únicas, verá mais carrosséis. Este sinal tornou-se mais forte em 2026.
+4. **Preferência de formato** — se você costuma interagir mais com carrosséis do que com fotos únicas, verá mais carrosséis. Esse sinal ganhou peso adicional em 2026.
 
-### Como Trabalhar com o Algoritmo do Feed
+### Na prática
 
-Publique consistentemente para que o algoritmo tenha conteúdo fresco para classificar. Use formatos que o seu público prefere — verifique os seus Insights para ver que tipos de formato geram mais engagement. E foque-se fortemente na construção de relações genuínas com os seus seguidores através de respostas, DMs e interações nas Stories.
+Publique com consistência para que o algoritmo sempre tenha conteúdo fresco para classificar. Aposte nos formatos que seu público prefere — consulte seus Insights para ver o que gera mais engajamento. E invista tempo construindo relacionamentos genuínos com seguidores por meio de respostas, DMs e interações nos Stories.
 
-Pode estudar como contas de sucesso no seu nicho estruturam o seu conteúdo no Feed usando o [Visualizador de Publicações do IGStoryPeek](https://www.igstorypeek.com/instagram/post-viewer). Analisar o que funciona para outros dá-lhe um ponto de partida concreto.
+Analise como perfis de sucesso no seu nicho estruturam o conteúdo do Feed usando o [Visualizador de Publicações do IGStoryPeek](https://www.igstorypeek.com/instagram/post-viewer). Ver o que funciona para os outros oferece um ponto de partida concreto.
 
-## Como Funciona o Algoritmo dos Reels em 2026
+## Como funciona o algoritmo dos Reels
 
-Os Reels operam num sistema de classificação fundamentalmente diferente do Feed. Os Reels são concebidos para a descoberta, o que significa que a maioria dos espectadores de Reels são pessoas que não seguem o criador.
+Os Reels operam numa lógica totalmente diferente do Feed. Foram desenhados para descoberta — a maior parte das visualizações de um Reel vem de pessoas que não seguem o criador.
 
-### Sinais de Classificação Primários para os Reels
+### Fatores de classificação nos Reels
 
-1. **Tempo de visualização e taxa de conclusão** — este é o sinal dominante. Um Reel que as pessoas veem até ao fim (ou reveem) supera amplamente um que é saltado após dois segundos. Em 2026, o Instagram pesa a percentagem média de visualização ainda mais fortemente do que o total de visualizações.
+1. **Tempo de visualização e taxa de conclusão** — esse é o sinal mais poderoso. Um Reel de 15 segundos assistido até o final supera com folga um de 90 segundos que a maioria das pessoas abandona nos primeiros segundos. Em 2026, a porcentagem média de visualização tem ainda mais peso do que o total de visualizações.
 
-2. **Velocidade de engagement** — quão rapidamente um Reel acumula gostos, comentários, partilhas e guardados após a publicação. Engagement inicial rápido sinaliza ao Instagram que o conteúdo merece ser distribuído mais amplamente.
+2. **Velocidade de engajamento** — a rapidez com que um Reel acumula curtidas, comentários, compartilhamentos e salvamentos logo após a publicação. Engajamento inicial acelerado sinaliza ao Instagram que o conteúdo merece distribuição ampla.
 
-3. **Popularidade do áudio e efeitos** — Reels que usam áudio ou efeitos em tendência recebem um impulso temporário de distribuição. Este tem sido um padrão consistente desde o lançamento dos Reels e continua verdadeiro em 2026.
+3. **Popularidade do áudio e efeitos** — Reels que usam áudio ou efeitos em alta recebem um impulso temporário na distribuição. Esse padrão existe desde o lançamento dos Reels e continua valendo em 2026.
 
-4. **Histórico do criador** — contas que produzem consistentemente Reels com alto engagement ganham uma "pontuação de qualidade" que dá ao seu novo conteúdo um ligeiro impulso inicial na distribuição.
+4. **Histórico do criador** — perfis que produzem Reels consistentes com bom engajamento constroem uma "pontuação de qualidade" que favorece a distribuição inicial de novos conteúdos.
 
-### Como Trabalhar com o Algoritmo dos Reels
+### Na prática
 
-Prenda os espectadores no primeiro segundo. Literalmente — o frame de abertura e o primeiro segundo determinam se alguém assiste ou passa à frente. Mantenha os Reels concisos; um Reel de 15 segundos com 90% de taxa de conclusão superará um Reel de 90 segundos com 20% de taxa de conclusão.
+Prenda a atenção do espectador no primeiro segundo — literalmente. O frame de abertura determina se alguém assiste ou passa adiante. Mantenha os Reels concisos: um vídeo curto com 90% de taxa de conclusão terá muito mais alcance que um longo com 20%.
 
-Use o [Gerador de Hashtags](https://www.igstorypeek.com/instagram/hashtags-generator) para encontrar tags relevantes que ajudem o Instagram a categorizar os seus Reels para o público certo. A categorização correta importa mais para os Reels do que para qualquer outro tipo de conteúdo porque o universo de distribuição é tão grande.
+Use o [Gerador de Hashtags](https://www.igstorypeek.com/instagram) para encontrar tags relevantes que ajudem o Instagram a direcionar seus Reels ao público certo. No caso dos Reels, categorização precisa importa mais do que em qualquer outro formato, já que o universo de distribuição é gigantesco.
 
-## Como Funciona o Algoritmo das Stories em 2026
+## Como funciona o algoritmo dos Stories
 
-As Stories aparecem na barra no topo da aplicação, e a ordem é inteiramente personalizada com base na relação do espectador com cada conta.
+Os Stories aparecem na barra horizontal no topo do app. A ordem é inteiramente personalizada, baseada na relação do espectador com cada perfil.
 
-### Sinais de Classificação Primários para as Stories
+### Fatores de classificação nos Stories
 
-1. **Histórico de visualização** — contas cujas Stories vê consistentemente aparecem primeiro. Se assiste sempre às Stories de um amigo, ficam na frente da sua barra.
+1. **Histórico de visualização** — perfis cujos Stories você assiste com frequência aparecem primeiro. Se você sempre acompanha os Stories de um amigo, ele se mantém na frente.
 
-2. **Frequência de interação** — respostas, votos em sondagens, respostas a quizzes e reações com emoji sinalizam todos forte interesse. Elementos interativos das Stories aumentam diretamente a classificação.
+2. **Frequência de interação** — respostas, votos em enquetes, participação em quizzes e reações com emoji sinalizam interesse forte. Elementos interativos nos Stories influenciam diretamente o ranking.
 
-3. **Sinais de proximidade** — o Instagram usa o mesmo grafo de relações que alimenta a classificação do Feed. Contas com que troca mensagens, que marca e com que interage em múltiplas superfícies classificam-se mais alto.
+3. **Sinais de proximidade** — o Instagram utiliza o mesmo mapa de relacionamentos do Feed. Perfis com os quais você troca mensagens, marca e interage em diferentes áreas do app recebem prioridade.
 
-4. **Recência** — Stories mais recentes têm prioridade, mas a força da relação pode sobrepor-se. A Story de 12 horas de um amigo próximo pode ainda classificar-se acima da Story de 1 hora de um conhecido.
+4. **Recência** — Stories mais recentes têm prioridade, mas a força do relacionamento pode sobrepor-se. O Story de 12 horas de um amigo próximo pode aparecer antes do Story de 1 hora de um conhecido.
 
-### Como Trabalhar com o Algoritmo das Stories
+### Na prática
 
-Publique Stories regularmente — mesmo 2-3 por dia — para manter a sua posição na barra dos seguidores. Use autocolantes interativos (sondagens, perguntas, barras deslizantes) porque geram os sinais de engagement que impulsionam a classificação. Responda a cada resposta de Story que recebe, fortalecendo o sinal de relação em ambas as direções.
+Publique Stories regularmente — de preferência 2 a 3 por dia — para manter presença na barra dos seguidores. Use stickers interativos (enquetes, caixas de perguntas, barras deslizantes) porque geram os sinais de engajamento que impulsionam o ranking. Responda a cada mensagem que receber nos Stories, fortalecendo o sinal de relacionamento nos dois sentidos.
 
-Para ver como concorrentes e criadores de topo estruturam as suas Stories, use o [Visualizador de Stories do IGStoryPeek](https://www.igstorypeek.com/instagram/stories-viewer). Pode assistir às suas Stories anonimamente e estudar cadência, tipos de conteúdo e elementos interativos sem afetar a sua própria atividade no Instagram.
+Para ver como concorrentes e criadores de referência estruturam seus Stories, use o [Visualizador de Stories do IGStoryPeek](https://www.igstorypeek.com/instagram/stories-viewer). Você pode assistir aos Stories de forma anônima e estudar a cadência, os formatos e os elementos interativos sem interferir na sua própria atividade no Instagram.
 
-## Como Funciona o Algoritmo da Página Explorar em 2026
+## Como funciona o algoritmo da página Explorar
 
-O Explorar é o motor de descoberta do Instagram. Cada peça de conteúdo na página Explorar vem de contas que não segue, selecionadas com base nos seus interesses demonstrados.
+O Explorar é o motor de descoberta do Instagram. Todo conteúdo que aparece ali vem de perfis que você não segue, selecionados com base nos seus interesses demonstrados.
 
-### Sinais de Classificação Primários para o Explorar
+### Fatores de classificação no Explorar
 
-1. **Os seus clusters de interesse** — o Instagram agrupa conteúdo em clusters temáticos. Com base no seu histórico de engagement, identifica quais clusters lhe interessam e serve conteúdo dessas áreas.
+1. **Seus agrupamentos de interesse** — o Instagram organiza conteúdo em clusters temáticos. Com base no seu histórico de interações, identifica quais áreas interessam a você e prioriza conteúdo dessas categorias.
 
-2. **Desempenho da publicação entre públicos semelhantes** — se uma publicação tem bom desempenho entre utilizadores que partilham o seu perfil de interesses, é mais provável que apareça na sua página Explorar.
+2. **Desempenho entre públicos semelhantes** — se um post performa bem entre usuários com perfil de interesses parecido com o seu, a chance de aparecer no seu Explorar aumenta.
 
-3. **Frescura do conteúdo** — o Explorar favorece conteúdo recente, embora publicações mais antigas com bom desempenho ainda possam surgir.
+3. **Frescor do conteúdo** — o Explorar dá preferência a publicações recentes, embora posts mais antigos com alto desempenho ainda possam aparecer.
 
-4. **Credibilidade do criador** — contas com histórico de conformidade com políticas e engagement consistente obtêm melhor posicionamento no Explorar. Contas com violações recentes das diretrizes veem distribuição reduzida no Explorar.
+4. **Credibilidade do criador** — perfis com histórico de conformidade com as políticas e engajamento consistente obtêm melhor posicionamento. Perfis com violações recentes sofrem redução na distribuição via Explorar.
 
-### Como Trabalhar com o Algoritmo do Explorar
+### Na prática
 
-Crie conteúdo altamente focado que se enquadre claramente num cluster temático. Publicações vagas e sem foco têm dificuldade no Explorar porque o Instagram não consegue categorizá-las com confiança. Use hashtags relevantes e legendas descritivas para ajudar o sistema a compreender sobre o que é o seu conteúdo.
+Crie conteúdo altamente focado que se encaixe claramente em um cluster temático. Posts vagos e genéricos têm dificuldade no Explorar porque o Instagram não consegue categorizá-los com segurança. Use hashtags relevantes e legendas descritivas para ajudar o sistema a entender sobre o que é o seu conteúdo.
 
-## Sinais que Prejudicam o Seu Alcance em 2026
+## O que prejudica seu alcance em 2026
 
-Compreender o que baixa a sua classificação é tão importante como saber o que a aumenta.
+Saber o que reduz sua classificação é tão importante quanto entender o que a impulsiona.
 
-- **Engagement bait** — "Gosta se concordas" ou "Comenta SIM para uma surpresa" desencadeia supressão em 2026. A deteção do Instagram tornou-se muito precisa.
-- **Conteúdo reciclado** — republicar o mesmo conteúdo (especialmente Reels) com modificações mínimas é sinalizado e desprioritizado.
-- **Marcas de água de outras plataformas** — Reels com marcas de água visíveis do TikTok ainda recebem distribuição reduzida.
-- **Violações das diretrizes** — mesmo conteúdo borderline pode desencadear redução de alcance "sombra" sem aviso formal.
-- **Engagement inautêntico** — gostos comprados, comentários de pods de engagement e táticas de follow/unfollow podem todos levar a alcance reduzido. Use o [Analisador de Seguidores do IGStoryPeek](https://www.igstorypeek.com/instagram/follower-analyzer) para verificar se contas com que interage fortemente mostram sinais de inautenticidade.
+- **Engagement bait** — frases como "Curte se concorda" ou "Comenta SIM para receber" acionam supressão de alcance. A detecção do Instagram ficou bastante precisa em 2026.
+- **Conteúdo reciclado** — repostar o mesmo material (especialmente Reels) com alterações mínimas é sinalizado e desprioritizado.
+- **Marca d'água de outras plataformas** — Reels com logo do TikTok ainda recebem distribuição reduzida.
+- **Violações de diretrizes** — mesmo conteúdo que está "no limite" pode gerar redução silenciosa de alcance.
+- **Engajamento artificial** — curtidas compradas, comentários de pods e táticas de follow/unfollow podem levar a reduções de alcance. Use o [Analisador de Seguidores do IGStoryPeek](https://www.igstorypeek.com/instagram/activity-analyzer) para verificar se perfis com os quais você interage apresentam sinais de artificialidade.
 
-## O Papel da IA no Algoritmo do Instagram em 2026
+## O papel da IA no algoritmo de 2026
 
-O Instagram usa agora grandes modelos de linguagem e IA multimodal para compreender conteúdo a um nível mais profundo do que nunca. A plataforma pode analisar o tema real de imagens e vídeos, ler texto em gráficos e compreender o contexto de palavras faladas nos Reels.
+O Instagram agora utiliza modelos de linguagem e IA multimodal para compreender conteúdo em um nível muito mais profundo. A plataforma consegue analisar o assunto de imagens e vídeos, ler textos em artes gráficas e entender o contexto de palavras faladas nos Reels.
 
-Isto significa que truques de otimização superficial importam menos. O que importa mais é se o seu conteúdo genuinamente entrega valor às pessoas que o veem. O algoritmo é cada vez mais capaz de distinguir entre conteúdo que parece envolvente e conteúdo que realmente o é.
+Na prática, isso significa que truques superficiais de otimização importam cada vez menos. O que realmente conta é se o seu conteúdo entrega valor genuíno para quem o vê. O algoritmo está cada vez mais capaz de distinguir conteúdo que parece atraente daquele que realmente é.
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
-### O algoritmo do Instagram penaliza contas empresariais em 2026?
+### O algoritmo penaliza contas comerciais em 2026?
 
-Não. O Instagram declarou repetidamente — e estudos independentes confirmam — que contas empresariais e de criadores recebem o mesmo tratamento algorítmico que contas pessoais. Se a sua conta empresarial vê menos alcance, é um problema de conteúdo ou público, não um problema de tipo de conta.
+Não. O Instagram já declarou diversas vezes — e estudos independentes confirmam — que contas comerciais e de criadores recebem o mesmo tratamento algorítmico que contas pessoais. Se sua conta de negócio está com alcance baixo, o problema está no conteúdo ou na audiência, não no tipo de conta.
 
-### Quanto tempo demora o algoritmo a classificar uma nova publicação?
+### Quanto tempo o algoritmo leva para classificar um novo post?
 
-O Instagram tipicamente avalia uma publicação nos primeiros 30-60 minutos mostrando-a a um pequeno segmento do seu público. Se o engagement inicial é forte, a distribuição expande-se. A maioria das publicações atinge a sua distribuição máxima dentro de 24-48 horas para conteúdo do Feed e até 7-14 dias para Reels.
+O Instagram costuma avaliar uma publicação nos primeiros 30 a 60 minutos, mostrando-a para uma parcela do seu público. Se o engajamento inicial é forte, a distribuição se expande. A maioria dos posts atinge seu pico de distribuição em 24 a 48 horas para conteúdo do Feed e até 7 a 14 dias para Reels.
 
-### Posso resetar o algoritmo do Instagram para a minha conta?
+### Tem como "resetar" o algoritmo da minha conta?
 
-Não existe um botão de reset, mas pode mudar o comportamento do algoritmo publicando consistentemente conteúdo diferente durante 4-6 semanas. O Instagram recalibra as suas previsões com base no comportamento recente do público. Estude o que fazem as contas de sucesso usando ferramentas como o [IGStoryPeek](https://www.igstorypeek.com) e adapte a sua abordagem em conformidade.
+Não existe botão de reset, mas você pode redirecionar o comportamento do algoritmo publicando conteúdo diferente de forma consistente por 4 a 6 semanas. O Instagram recalibra suas previsões com base no comportamento recente do público. Estude o que perfis bem-sucedidos fazem usando ferramentas como o [IGStoryPeek](https://www.igstorypeek.com) e adapte sua abordagem.
 
-### Os hashtags ainda importam para o algoritmo do Instagram em 2026?
+### Hashtags ainda importam para o algoritmo em 2026?
 
-Os hashtags servem principalmente como sinal de categorização em 2026. Ajudam o Instagram a compreender sobre o que é o seu conteúdo e quem pode querer vê-lo. Já não funcionam como canal de descoberta como nos anos anteriores, mas usar hashtags relevantes e específicos ainda contribui para a classificação correta do conteúdo.
+As hashtags funcionam principalmente como sinal de categorização em 2026. Ajudam o Instagram a entender sobre o que é o conteúdo e quem pode se interessar por ele. Já não funcionam como canal de descoberta da forma como funcionavam anos atrás, mas usar hashtags relevantes e específicas ainda contribui para a classificação correta do conteúdo.
 
-### O horário de publicação ainda é importante para o algoritmo?
+### O horário de publicação ainda é importante?
 
-Sim, mas menos do que costumava ser. Publicar quando o seu público está ativo dá-lhe maior hipótese de forte engagement inicial, o que influencia distribuição mais ampla. No entanto, um excelente conteúdo publicado num horário subótimo ainda superará conteúdo medíocre publicado no momento perfeito. Foque-se primeiro na qualidade, depois no timing.
+Sim, porém menos do que antes. Publicar quando seu público está ativo aumenta as chances de engajamento inicial forte, o que influencia a distribuição mais ampla. No entanto, um conteúdo excelente postado em horário ruim ainda vai superar um conteúdo medíocre postado no horário perfeito. Foque primeiro na qualidade, depois no timing.
+
+## Fontes
+
+- [How Instagram's Algorithm Works](https://about.instagram.com/blog/announcements) — Blog Oficial do Instagram
+- [Instagram Ranking and Recommendations](https://creators.instagram.com/) — Instagram para Criadores
+- [Understanding Instagram's Recommendation Guidelines](https://transparency.meta.com/) — Centro de Transparência da Meta
+- [Instagram Help Center — How Feed Works](https://help.instagram.com/) — Central de Ajuda do Instagram

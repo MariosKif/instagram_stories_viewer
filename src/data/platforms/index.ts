@@ -5,17 +5,11 @@ export type { FAQ, Step, Benefit, Feature, Category, Platform } from './types';
 export { icons, brandIcons } from './types';
 
 export { instagram } from './instagram';
-export { tiktok } from './tiktok';
-export { facebook } from './facebook';
-export { snapchat } from './snapchat';
 
 import { instagram } from './instagram';
-import { tiktok } from './tiktok';
-import { facebook } from './facebook';
-import { snapchat } from './snapchat';
 import type { Platform, Category, Feature } from './types';
 
-export const platforms: Platform[] = [instagram, tiktok, facebook, snapchat];
+export const platforms: Platform[] = [instagram];
 
 // ─── Helpers ─────────────────────────────────────────────
 

@@ -6,8 +6,8 @@ const siteBase = 'https://www.igstorypeek.com';
 export const GET: APIRoute = async () => {
   let output = `# IGStoryPeek — Complete Feature Reference
 
-> Social media analytics and content tools for Instagram, TikTok, Facebook, and Snapchat.
-> Analyze public profiles, track engagement trends, and discover insights — all without logging in.
+> Instagram analytics and content tools.
+> Analyze public Instagram profiles, track engagement trends, and discover insights — all without logging in.
 
 Website: ${siteBase}
 

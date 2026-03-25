@@ -12,7 +12,8 @@ const mm = t.megaMenu || {};
 const { platform: platformId } = Astro.params;
 const platform = getPlatform(platformId!);
 
-if (!platform) {
+// Only Instagram has a real backend — 404 everything else
+if (!platform || platform.id !== 'instagram') {
   return Astro.redirect('/404');
 }
 
@@ -26,33 +27,6 @@ const hubContent: Record<string, { heroTitle: string; seoTitle: string; sectionH
     ctaHeading: 'Get Started With Instagram Analytics',
     ctaSub: 'Search any public Instagram handle and receive detailed analytics, content access, and activity reports instantly.',
     cardCta: 'Try this tool',
-  },
-  tiktok: {
-    seoTitle: 'TikTok Tools — Creator Analytics, Video Downloader & Content Browser',
-    heroTitle: 'TikTok Creator Analytics Platform',
-    sectionHeading: 'Explore Every TikTok Tool',
-    sectionSub: 'purpose-built tools for TikTok creator analytics, original-quality downloads, content browsing, and engagement tracking.',
-    ctaHeading: 'Unlock TikTok Insights Now',
-    ctaSub: 'Enter any public TikTok creator handle to access analytics, downloads, and tracking features.',
-    cardCta: 'Open tool',
-  },
-  facebook: {
-    seoTitle: 'Facebook Tools — Page Analyzer, Content Downloader & Content Browser',
-    heroTitle: 'Facebook Insights & Analytics Hub',
-    sectionHeading: 'Discover All Facebook Tools',
-    sectionSub: 'dedicated tools for Facebook page and group analysis, content saving, content browsing, and activity tracking.',
-    ctaHeading: 'Start Analyzing Facebook Accounts',
-    ctaSub: 'Provide any public Facebook profile or page name to generate comprehensive analytics and insights.',
-    cardCta: 'Launch tool',
-  },
-  snapchat: {
-    seoTitle: 'Snapchat Tools — Score Tracker, Story Downloader & Activity Tracker',
-    heroTitle: 'Snapchat Analytics & Content Toolkit',
-    sectionHeading: 'View All Snapchat Features',
-    sectionSub: 'focused tools for Snapchat score tracking, streak analysis, story downloading, and activity tracking.',
-    ctaHeading: 'Begin Tracking Snapchat Activity',
-    ctaSub: 'Enter any public Snapchat username to access score tracking, content downloads, and activity tracking.',
-    cardCta: 'Use this feature',
   },
 };
 
@@ -84,30 +58,6 @@ const hubFaqs: Record<string, { question: string; answer: string }[]> = {
     { question: 'What is a good engagement rate on Instagram?', answer: 'The average engagement rate on Instagram is between 1% and 3%. Rates above 3% are considered strong, and rates above 6% are excellent. Engagement varies by niche, audience size, and content type.' },
     { question: 'Do Instagram analytics tools require you to log in with your account?', answer: 'Not all of them. IGStoryPeek does not require any login or Instagram credentials. It analyzes publicly available data directly, keeping your personal account completely separate.' },
     { question: 'How can you see who unfollowed you on Instagram?', answer: 'Instagram does not notify you when someone unfollows. Third-party tracking tools can monitor your public follower list over time and alert you to changes, including unfollows.' },
-  ],
-  tiktok: [
-    { question: 'How does TikTok analytics work?', answer: 'TikTok analytics tracks video performance metrics like views, likes, comments, shares, and audience demographics. IGStoryPeek lets you view public TikTok creator analytics without needing a TikTok account.' },
-    { question: 'Can you download TikTok videos in original quality?', answer: 'Yes. IGStoryPeek offers a TikTok video downloader that saves videos in their original quality without watermarks, making it easy to reference content offline.' },
-    { question: "Is it legal to download someone else's TikTok video?", answer: 'Downloading public TikTok videos for personal reference or research is generally permitted. However, redistributing or monetizing someone else\'s content without permission may violate copyright law.' },
-    { question: 'Do you need a Pro Account to see TikTok analytics?', answer: "TikTok's built-in analytics require a Pro (Business or Creator) account. However, tools like IGStoryPeek can show public performance data for any creator without requiring any TikTok account." },
-    { question: 'What metrics does TikTok analytics track?', answer: 'TikTok analytics tracks video views, profile views, follower count, likes, comments, shares, average watch time, and audience demographics including location and gender.' },
-    { question: 'Can you view TikTok profiles without an account?', answer: 'Yes. Public TikTok profiles can be browsed without creating an account. IGStoryPeek lets you search any public TikTok username and view their content and analytics instantly.' },
-  ],
-  facebook: [
-    { question: 'Can someone see if you view their Facebook profile?', answer: 'No. Facebook does not notify users when someone views their profile. Any app or service claiming otherwise is not legitimate.' },
-    { question: 'Does Facebook still have its own analytics tool?', answer: 'Facebook retired its standalone Analytics tool in 2021. Page insights are now available through Meta Business Suite. Third-party tools like IGStoryPeek provide additional analytics for public pages.' },
-    { question: 'How do you view a public Facebook page without logging in?', answer: 'Many public Facebook pages are accessible without an account. IGStoryPeek allows you to search and analyze public Facebook pages and profiles without logging in to Facebook.' },
-    { question: 'What happened to Facebook Analytics after it was retired?', answer: 'Facebook Analytics was retired on June 30, 2021. Its features were absorbed into Meta Business Suite and Ads Manager. Third-party tools now fill the gap for external page analysis.' },
-    { question: "Can you track competitors' Facebook pages with analytics tools?", answer: "Yes. Tools like IGStoryPeek let you monitor public Facebook pages, track engagement metrics, and compare performance — all without needing access to the page's own insights." },
-    { question: 'What metrics should you track on a Facebook business page?', answer: 'Important Facebook page metrics include page likes, post reach, engagement rate, click-through rate, video views, and follower growth. Tracking these helps measure content effectiveness.' },
-  ],
-  snapchat: [
-    { question: 'What is a Snapchat score and how is it calculated?', answer: 'Your Snapchat score is a number that reflects your overall activity on the platform. It increases based on the number of Snaps you send and receive, Stories you post, and other engagement factors.' },
-    { question: 'How do you increase your Snapchat score?', answer: 'Send and open Snaps frequently, post Stories, maintain Snap Streaks, and add new friends. Group Snaps and video Snaps may also contribute more points than text-only Snaps.' },
-    { question: 'Can you see who viewed your Snapchat story after 24 hours?', answer: 'No. Once a Snapchat Story expires after 24 hours, the viewer list is no longer accessible through the app. Third-party tracking tools can help you monitor views before they expire.' },
-    { question: 'Who has access to Snapchat Insights?', answer: 'Snapchat Insights is available to public profiles and creators with a certain follower threshold. For everyone else, third-party analytics tools like IGStoryPeek offer score tracking and activity monitoring.' },
-    { question: 'What does the Snapchat score multiplier do for Snapchat+ subscribers?', answer: 'Snapchat+ subscribers can see a score multiplier that shows how quickly their score is growing. It does not change how points are earned — it simply displays the rate of increase.' },
-    { question: 'How often does Snapchat update your score?', answer: 'Snapchat scores update in near real-time, though there can sometimes be a short delay. Your score reflects cumulative activity since you created your account.' },
   ],
 };
 

@@ -1,8 +1,6 @@
 ---
 /**
- * Sticky navigation with full-width mega dropdown.
- * All 4 platforms shown side-by-side as columns — no scroll required.
- * Each column lists 5 feature categories with their links.
+ * Sticky navigation with mega dropdown for Instagram features.
  * Data sourced from shared features.ts — single source of truth.
  */
 import { platforms } from '../data/features';
@@ -79,10 +77,10 @@ const navPlatforms = platforms.map(p => ({
   <div id="mega-menu" class="hidden lg:block absolute top-full inset-x-0 opacity-0 invisible translate-y-1 transition-all duration-200 ease-out">
     <div class="bg-dark-900/[0.97] backdrop-blur-2xl border-t border-b border-white/5 shadow-2xl shadow-black/50">
       <div class="max-w-[1360px] mx-auto px-6 py-6">
-        <!-- 4 platform columns side-by-side -->
-        <div class="grid grid-cols-4 gap-0">
+        <!-- Platform columns -->
+        <div class="grid grid-cols-1 max-w-md mx-auto gap-0">
           {navPlatforms.map((p, pIdx) => (
-            <div class={`${pIdx > 0 ? 'border-l border-white/5 pl-6' : ''} ${pIdx < 3 ? 'pr-6' : ''}`}>
+            <div>
               {/* Platform header */}
               <a href={getLocalizedPath(`/${p.id}`, lang)} class="flex items-center gap-2 mb-4 pb-2.5 border-b group" style={`border-color: ${p.color}30`}>
                 <svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor" style={`color: ${p.color}`}>

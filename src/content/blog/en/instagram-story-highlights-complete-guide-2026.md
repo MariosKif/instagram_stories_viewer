@@ -1,8 +1,8 @@
 ---
 title: "Instagram Story Highlights — The Complete Guide to Creating & Viewing in 2026"
 description: "Everything about Instagram Story Highlights in 2026. Learn how to create, organize, and design Highlights. Use IGStoryPeek to view anyone's Highlights easily."
-pubDate: 2026-03-10
-updatedDate: 2026-03-10
+pubDate: 2026-02-22
+updatedDate: 2026-02-22
 author: "Alex Morgan"
 featured: false
 image: "/blog/hero-highlights-guide.svg"
@@ -13,7 +13,7 @@ tags: ["instagram highlights", "story highlights", "instagram stories", "highlig
 
 # Instagram Story Highlights — The Complete Guide to Creating & Viewing in 2026
 
-> **Key Takeaways:** Instagram Story Highlights let you save your best Stories permanently on your profile. Use [IGStoryPeek's Highlights Downloader](https://www.igstorypeek.com/instagram/highlights-downloader) to view and download anyone's public Highlights without logging in.
+> **Key Takeaways:** Instagram Story Highlights let you save your best Stories permanently on your profile. Use [IGStoryPeek's Highlights Viewer](https://www.igstorypeek.com/instagram/highlights-viewer) to view anyone's public Highlights without logging in.
 
 Stories disappear after 24 hours. Highlights don't. That's what makes them one of the most underused features on Instagram in 2026.
 
@@ -131,7 +131,7 @@ Every high-performing Story deserves a second life in a Highlight. Check your St
 
 ### Analyzing Competitor Highlights
 
-Studying how competitors organize their Highlights reveals their messaging priorities and customer communication strategy. Use [IGStoryPeek's Highlights Downloader](https://www.igstorypeek.com/instagram/highlights-downloader) to save and review competitor Highlights at your own pace. You can also use the [Stories Viewer](https://www.igstorypeek.com/instagram/stories-viewer) to watch their current Stories and predict what they'll add to Highlights next.
+Studying how competitors organize their Highlights reveals their messaging priorities and customer communication strategy. Use [IGStoryPeek's Highlights Viewer](https://www.igstorypeek.com/instagram/highlights-viewer) to browse and review competitor Highlights at your own pace. You can also use the [Stories Viewer](https://www.igstorypeek.com/instagram/stories-viewer) to watch their current Stories and predict what they'll add to Highlights next.
 
 ## How to View and Download Anyone's Highlights
 
@@ -155,7 +155,7 @@ No Instagram login is required, and the account owner won't know you viewed thei
 - **Archiving** — preserve important content from accounts you follow
 - **Content curation** — collect user-generated content featuring your brand (always ask permission before reposting)
 
-The [Relationship Insights tool](https://www.igstorypeek.com/instagram/relationship-insights) can also help you understand the connections between accounts, which adds context when researching how different brands in your industry approach their Highlight strategies.
+The [Activity Analyzer](https://www.igstorypeek.com/instagram/activity-analyzer) can also help you understand the connections between accounts, which adds context when researching how different brands in your industry approach their Highlight strategies.
 
 ## Highlights Maintenance — Keeping Them Fresh
 
@@ -193,4 +193,10 @@ There is no strict limit published by Instagram, but Highlights with more than 1
 
 ### Can I download someone else's Instagram Highlights?
 
-Yes. You can use [IGStoryPeek's Highlights Downloader](https://www.igstorypeek.com/instagram/highlights-downloader) to save Highlights from any public Instagram account. Simply enter the username, browse available Highlights, and download the ones you need. No login or app installation required.
+Yes. You can use [IGStoryPeek's Highlights Viewer](https://www.igstorypeek.com/instagram/highlights-viewer) to view Highlights from any public Instagram account. Simply enter the username and browse available Highlights. No login or app installation required.
+
+## Sources
+
+- [How to Use Instagram Story Highlights](https://help.instagram.com/) — Instagram Help Center
+- [Instagram for Business — Profile Optimization](https://business.instagram.com/) — Instagram Business Tools
+- [Creator Tips for Instagram Stories](https://creators.instagram.com/) — Instagram for Creators
