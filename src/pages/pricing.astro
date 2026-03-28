@@ -1,6 +1,6 @@
 ---
 /**
- * Pricing page — Free vs Pro plans.
+ * Pricing page — Free, Single Report, Weekly & Monthly plans.
  * Stripe-ready structure with checkout placeholders.
  */
 import MainLayout from '../layouts/MainLayout.astro';
@@ -11,10 +11,12 @@ const lang = (Astro.locals as any).lang as Language || 'en';
 const t = (Astro.locals as any).t || {};
 const pT = t.pricing || {};
 const freeT = pT.free || {};
-const proT = pT.pro || {};
+const reportT = pT.report || {};
+const weeklyT = pT.weekly || {};
+const monthlyT = pT.monthly || {};
 
 const pricingFaqs = pT.faqs || [
-  { question: 'Can I cancel anytime?', answer: 'Yes! You can cancel your Pro subscription at any time.' },
+  { question: 'Can I cancel anytime?', answer: 'Yes! You can cancel your subscription at any time.' },
 ];
 
 const siteUrl = 'https://www.igstorypeek.com';
@@ -32,21 +34,41 @@ const softwareAppSchema = JSON.stringify({
       '@type': 'Offer',
       name: freeT.name || 'Free',
       price: '0',
-      priceCurrency: 'USD',
-      description: freeT.description || 'For casual users and quick lookups.',
+      priceCurrency: 'EUR',
+      description: freeT.description || 'Browse with ads. 2 profile views included.',
     },
     {
       '@type': 'Offer',
-      name: proT.name || 'Pro',
-      price: '29',
-      priceCurrency: 'USD',
+      name: reportT.name || 'Full Report',
+      price: '1.25',
+      priceCurrency: 'EUR',
+      description: reportT.description || 'One-time full profile report. Ad-free.',
+    },
+    {
+      '@type': 'Offer',
+      name: weeklyT.name || 'Weekly',
+      price: '5.99',
+      priceCurrency: 'EUR',
       priceSpecification: {
         '@type': 'UnitPriceSpecification',
-        price: '29',
-        priceCurrency: 'USD',
+        price: '5.99',
+        priceCurrency: 'EUR',
+        billingDuration: 'P1W',
+      },
+      description: weeklyT.description || 'Unlimited access for 7 days.',
+    },
+    {
+      '@type': 'Offer',
+      name: monthlyT.name || 'Monthly',
+      price: '19.99',
+      priceCurrency: 'EUR',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: '19.99',
+        priceCurrency: 'EUR',
         billingDuration: 'P1M',
       },
-      description: proT.description || 'For power users and professionals.',
+      description: monthlyT.description || 'Full unlimited access. Best value.',
     },
   ],
 });
@@ -54,7 +76,7 @@ const softwareAppSchema = JSON.stringify({
 
 <MainLayout
   title={`${pT.title || 'Simple, Transparent'} ${pT.titleHighlight || 'Pricing'}`}
-  description="Choose the right plan for your social media analytics needs. Start free or unlock unlimited access with Pro."
+  description="Choose the right plan for your Instagram analytics needs. Start free with ads or unlock full access with our affordable plans."
 >
   <section class="pt-28 pb-20 lg:pt-36 lg:pb-28">
     <div class="section-container">
@@ -64,93 +86,157 @@ const softwareAppSchema = JSON.stringify({
           {pT.title || 'Simple, Transparent'} <span class="gradient-text">{pT.titleHighlight || 'Pricing'}</span>
         </h1>
         <p class="text-dark-400 text-lg max-w-xl mx-auto">
-          {pT.subtitle || 'Start for free. Upgrade when you need more power.'}
+          {pT.subtitle || 'Start free with ads or choose a plan that fits your needs.'}
         </p>
       </div>
 
       <!-- Cards -->
-      <div class="grid md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 max-w-6xl mx-auto">
+
         <!-- Free plan -->
-        <div class="glass p-5 sm:p-6 lg:p-8 flex flex-col">
-          <div class="mb-6">
+        <div class="glass p-5 sm:p-6 flex flex-col">
+          <div class="mb-5">
             <h3 class="text-lg font-semibold text-white mb-1">{freeT.name || 'Free'}</h3>
-            <p class="text-dark-400 text-sm">{freeT.description || 'For casual users and quick lookups.'}</p>
+            <p class="text-dark-400 text-sm">{freeT.description || 'Browse with ads. 2 profile views included.'}</p>
           </div>
-          <div class="mb-8">
-            <span class="text-4xl font-heading font-bold text-white">{freeT.price || '$0'}</span>
-            <span class="text-dark-500 text-sm ml-1">{freeT.period || '/ month'}</span>
+          <div class="mb-6">
+            <span class="text-4xl font-heading font-bold text-white">{freeT.price || '€0'}</span>
           </div>
           <ul class="space-y-3 mb-8 flex-1">
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {freeT.feature1 || '2 searches every 8 hours'}
+              {freeT.feature1 || '2 profile views'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {freeT.feature2 || 'Basic engagement report'}
+              {freeT.feature2 || 'Basic profile overview'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {freeT.feature3 || 'Profile overview'}
+              {freeT.feature3 || 'Ad-supported experience'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-500">
               <svg class="w-5 h-5 text-dark-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
-              {freeT.excluded1 || 'No continuous monitoring'}
+              {freeT.excluded1 || 'No full reports'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-500">
               <svg class="w-5 h-5 text-dark-600 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
-              {freeT.excluded2 || 'No AI insights'}
+              {freeT.excluded2 || 'No ad-free browsing'}
             </li>
           </ul>
           <a href={getLocalizedPath('/register', lang)} class="btn-secondary text-center">{freeT.cta || 'Get Started Free'}</a>
         </div>
 
-        <!-- Pro plan -->
-        <div class="glass p-5 sm:p-6 lg:p-8 flex flex-col border-primary/30 relative overflow-hidden">
-          <div class="absolute top-4 right-4">
-            <span class="badge text-xs">{proT.badge || 'Most Popular'}</span>
+        <!-- Single Report -->
+        <div class="glass p-5 sm:p-6 flex flex-col">
+          <div class="mb-5">
+            <h3 class="text-lg font-semibold text-white mb-1">{reportT.name || 'Full Report'}</h3>
+            <p class="text-dark-400 text-sm">{reportT.description || 'One-time full profile report. Ad-free.'}</p>
           </div>
-
           <div class="mb-6">
-            <h3 class="text-lg font-semibold text-white mb-1">{proT.name || 'Pro'}</h3>
-            <p class="text-dark-400 text-sm">{proT.description || 'For power users and professionals.'}</p>
-          </div>
-          <div class="mb-8">
-            <span class="text-4xl font-heading font-bold text-white">{proT.price || '$29'}</span>
-            <span class="text-dark-500 text-sm ml-1">{proT.period || '/ month'}</span>
+            <span class="text-4xl font-heading font-bold text-white">{reportT.price || '€1.25'}</span>
+            <span class="text-dark-500 text-sm ml-1">{reportT.period || '/ report'}</span>
           </div>
           <ul class="space-y-3 mb-8 flex-1">
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {proT.feature1 || 'Unlimited searches'}
+              {reportT.feature1 || 'Full profile report'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {proT.feature2 || 'Full analytics dashboard'}
+              {reportT.feature2 || 'Ad-free experience'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {proT.feature3 || 'Continuous monitoring & alerts'}
+              {reportT.feature3 || 'Detailed analytics & insights'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {proT.feature4 || 'AI-powered insights'}
-            </li>
-            <li class="flex items-start gap-2.5 text-sm text-dark-300">
-              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {proT.feature5 || 'Cross-platform detection'}
-            </li>
-            <li class="flex items-start gap-2.5 text-sm text-dark-300">
-              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {proT.feature6 || 'Priority support'}
+              {reportT.feature4 || 'One-time payment, no subscription'}
             </li>
           </ul>
-          <button id="pro-checkout-btn" class="btn-primary text-center w-full">
-            {proT.cta || 'Upgrade to Pro'}
+          <button data-plan="report" class="checkout-btn btn-secondary text-center w-full">
+            {reportT.cta || 'Get Full Report'}
           </button>
         </div>
-      </div>
 
+        <!-- Weekly plan -->
+        <div class="glass p-5 sm:p-6 flex flex-col border-primary/30 relative overflow-hidden">
+          <div class="absolute top-4 right-4">
+            <span class="badge text-xs">{weeklyT.badge || 'Popular'}</span>
+          </div>
+          <div class="mb-5">
+            <h3 class="text-lg font-semibold text-white mb-1">{weeklyT.name || 'Weekly'}</h3>
+            <p class="text-dark-400 text-sm">{weeklyT.description || 'Unlimited access for 7 days.'}</p>
+          </div>
+          <div class="mb-6">
+            <span class="text-4xl font-heading font-bold text-white">{weeklyT.price || '€5.99'}</span>
+            <span class="text-dark-500 text-sm ml-1">{weeklyT.period || '/ week'}</span>
+          </div>
+          <ul class="space-y-3 mb-8 flex-1">
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {weeklyT.feature1 || 'Unlimited profile views'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {weeklyT.feature2 || 'Full reports for every profile'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {weeklyT.feature3 || 'Ad-free experience'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {weeklyT.feature4 || 'Cancel anytime'}
+            </li>
+          </ul>
+          <button data-plan="weekly" class="checkout-btn btn-primary text-center w-full">
+            {weeklyT.cta || 'Start Weekly Plan'}
+          </button>
+        </div>
+
+        <!-- Monthly plan -->
+        <div class="glass p-5 sm:p-6 flex flex-col relative overflow-hidden">
+          <div class="absolute top-4 right-4">
+            <span class="bg-green-500/20 text-green-400 text-xs font-medium px-2.5 py-0.5 rounded-full">{monthlyT.badge || 'Best Value'}</span>
+          </div>
+          <div class="mb-5">
+            <h3 class="text-lg font-semibold text-white mb-1">{monthlyT.name || 'Monthly'}</h3>
+            <p class="text-dark-400 text-sm">{monthlyT.description || 'Full unlimited access. Best value.'}</p>
+          </div>
+          <div class="mb-6">
+            <span class="text-4xl font-heading font-bold text-white">{monthlyT.price || '€19.99'}</span>
+            <span class="text-dark-500 text-sm ml-1">{monthlyT.period || '/ month'}</span>
+          </div>
+          <ul class="space-y-3 mb-8 flex-1">
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {monthlyT.feature1 || 'Unlimited profile views'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {monthlyT.feature2 || 'Full reports for every profile'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {monthlyT.feature3 || 'Ad-free experience'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {monthlyT.feature4 || 'Priority support'}
+            </li>
+            <li class="flex items-start gap-2.5 text-sm text-dark-300">
+              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+              {monthlyT.feature5 || 'Save 23% vs weekly plan'}
+            </li>
+          </ul>
+          <button data-plan="monthly" class="checkout-btn btn-primary text-center w-full">
+            {monthlyT.cta || 'Start Monthly Plan'}
+          </button>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -159,14 +245,17 @@ const softwareAppSchema = JSON.stringify({
   <script type="application/ld+json" set:html={softwareAppSchema} />
 
   <script>
-    document.getElementById('pro-checkout-btn')?.addEventListener('click', () => {
-      const uid = localStorage.getItem('igsp_uid');
-      if (!uid) {
-        localStorage.setItem('igsp_pending_checkout', 'pro');
-        window.location.href = '/login';
-        return;
-      }
-      alert('Stripe checkout integration coming soon! This will redirect to a secure payment page.');
+    document.querySelectorAll('.checkout-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const plan = (btn as HTMLElement).dataset.plan;
+        const uid = localStorage.getItem('igsp_uid');
+        if (!uid) {
+          localStorage.setItem('igsp_pending_checkout', plan || 'weekly');
+          window.location.href = '/login';
+          return;
+        }
+        alert('Stripe checkout integration coming soon! This will redirect to a secure payment page.');
+      });
     });
   </script>
 </MainLayout>

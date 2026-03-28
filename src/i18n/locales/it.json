@@ -211,37 +211,58 @@
   "pricing": {
     "title": "Prezzi semplici e",
     "titleHighlight": "trasparenti",
-    "subtitle": "Inizia gratis. Passa alla versione superiore quando hai bisogno di più potenza.",
+    "subtitle": "Inizia gratis con pubblicità o scegli un piano adatto a te.",
     "free": {
       "name": "Gratuito",
-      "description": "Per utenti occasionali e ricerche rapide.",
-      "price": "$0",
-      "period": "/ mese",
-      "feature1": "2 ricerche ogni 8 ore",
-      "feature2": "Report di coinvolgimento base",
-      "feature3": "Panoramica del profilo",
-      "excluded1": "Nessun monitoraggio continuo",
-      "excluded2": "Nessuna analisi IA",
+      "description": "Naviga con pubblicità. 2 visualizzazioni profilo incluse.",
+      "price": "€0",
+      "feature1": "2 visualizzazioni profilo",
+      "feature2": "Panoramica base del profilo",
+      "feature3": "Esperienza con pubblicità",
+      "excluded1": "Nessun report completo",
+      "excluded2": "Nessuna navigazione senza pubblicità",
       "cta": "Inizia gratis"
     },
-    "pro": {
-      "name": "Pro",
-      "badge": "Più popolare",
-      "description": "Per utenti avanzati e professionisti.",
-      "price": "$29",
+    "report": {
+      "name": "Report completo",
+      "description": "Report completo una tantum per profilo. Senza pubblicità.",
+      "price": "€1,25",
+      "period": "/ report",
+      "feature1": "Report completo del profilo",
+      "feature2": "Esperienza senza pubblicità",
+      "feature3": "Analisi e insights dettagliati",
+      "feature4": "Pagamento unico, nessun abbonamento",
+      "cta": "Ottieni il report"
+    },
+    "weekly": {
+      "name": "Settimanale",
+      "badge": "Popolare",
+      "description": "Accesso illimitato per 7 giorni.",
+      "price": "€5,99",
+      "period": "/ settimana",
+      "feature1": "Visualizzazioni profilo illimitate",
+      "feature2": "Report completi per ogni profilo",
+      "feature3": "Esperienza senza pubblicità",
+      "feature4": "Annulla in qualsiasi momento",
+      "cta": "Inizia piano settimanale"
+    },
+    "monthly": {
+      "name": "Mensile",
+      "badge": "Miglior valore",
+      "description": "Accesso illimitato completo. Miglior prezzo.",
+      "price": "€19,99",
       "period": "/ mese",
-      "feature1": "Ricerche illimitate",
-      "feature2": "Dashboard analitica completa",
-      "feature3": "Monitoraggio continuo e avvisi",
-      "feature4": "Analisi alimentate dall'IA",
-      "feature5": "Copertura Instagram completa",
-      "feature6": "Supporto prioritario",
-      "cta": "Passa a Pro"
+      "feature1": "Visualizzazioni profilo illimitate",
+      "feature2": "Report completi per ogni profilo",
+      "feature3": "Esperienza senza pubblicità",
+      "feature4": "Supporto prioritario",
+      "feature5": "Risparmia il 23% rispetto al piano settimanale",
+      "cta": "Inizia piano mensile"
     },
     "faqs": [
       {
         "question": "Posso annullare in qualsiasi momento?",
-        "answer": "Sì! Puoi annullare il tuo abbonamento Pro in qualsiasi momento. Manterrai l'accesso fino alla fine del periodo di fatturazione."
+        "answer": "Sì! Puoi annullare il tuo abbonamento settimanale o mensile in qualsiasi momento. Manterrai l'accesso fino alla fine del periodo di fatturazione."
       },
       {
         "question": "Quali metodi di pagamento accettate?",
@@ -252,20 +273,20 @@
         "answer": "Assolutamente. Tutte le connessioni sono crittografate con SSL. Non memorizziamo mai le password di Instagram e processiamo solo dati pubblicamente disponibili."
       },
       {
-        "question": "Quanto costano normalmente gli strumenti di analisi Instagram?",
-        "answer": "La maggior parte va da gratuito a $30/mese. IGStoryPeek offre un piano gratuito con 2 ricerche ogni 8 ore e un piano Pro a $29/mese per accesso illimitato su Instagram."
+        "question": "Cos'è il report completo?",
+        "answer": "Il report completo è un acquisto una tantum a €1,25 che ti fornisce un report analitico completo e senza pubblicità per un singolo profilo Instagram, incluse metriche di engagement dettagliate e insights."
       },
       {
-        "question": "Quali funzionalità offrono gli strumenti a pagamento che quelli gratuiti non hanno?",
-        "answer": "I piani Pro includono tipicamente ricerche illimitate, avvisi di tracciamento continuo, analisi alimentate dall'IA, filtri avanzati ed esportazioni CSV — funzionalità che vanno oltre le offerte gratuite."
+        "question": "Qual è la differenza tra il piano settimanale e mensile?",
+        "answer": "Entrambi i piani offrono visualizzazioni profilo illimitate, report completi ed esperienza senza pubblicità. Il piano mensile ti fa risparmiare il 23% rispetto al pagamento settimanale e include il supporto prioritario."
       },
       {
-        "question": "Gli strumenti di analisi dei social media offrono prove gratuite?",
-        "answer": "Il piano gratuito di IGStoryPeek è permanentemente gratuito con 2 ricerche ogni 8 ore. Puoi passare a Pro in qualsiasi momento e annullare quando vuoi — nessun periodo di prova necessario."
+        "question": "Come funziona il piano gratuito?",
+        "answer": "Il piano gratuito ti permette di visualizzare fino a 2 profili con pubblicità. Non serve un account per iniziare. Se hai bisogno di più visualizzazioni o di un'esperienza senza pubblicità, puoi passare a qualsiasi piano a pagamento."
       },
       {
-        "question": "Vale la pena pagare per l'analisi di Instagram quando esistono strumenti gratuiti?",
-        "answer": "Gli strumenti gratuiti sono ottimi per un uso occasionale. Se hai bisogno di ricerche illimitate, avvisi automatici o report professionali, un piano a pagamento offre molto più valore e fa risparmiare tempo."
+        "question": "Vale la pena pagare quando esistono strumenti gratuiti?",
+        "answer": "Il piano gratuito è perfetto per consultazioni rapide. Se hai bisogno di visualizzazioni illimitate, report completi o un'esperienza senza pubblicità, i nostri piani a pagamento partono da soli €1,25 per report."
       }
     ]
   },

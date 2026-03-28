@@ -211,37 +211,58 @@
   "pricing": {
     "title": "Precios simples y",
     "titleHighlight": "transparentes",
-    "subtitle": "Empieza gratis. Mejora tu plan cuando necesites más potencia.",
+    "subtitle": "Empieza gratis con anuncios o elige el plan que mejor se adapte.",
     "free": {
       "name": "Gratis",
-      "description": "Para usuarios ocasionales y búsquedas rápidas.",
-      "price": "$0",
-      "period": "/ mes",
-      "feature1": "2 búsquedas cada 8 horas",
-      "feature2": "Informe básico de interacción",
-      "feature3": "Vista general del perfil",
-      "excluded1": "Sin monitorización continua",
-      "excluded2": "Sin análisis con IA",
+      "description": "Navega con anuncios. 2 vistas de perfil incluidas.",
+      "price": "€0",
+      "feature1": "2 vistas de perfil",
+      "feature2": "Vista general básica del perfil",
+      "feature3": "Experiencia con anuncios",
+      "excluded1": "Sin informes completos",
+      "excluded2": "Sin navegación sin anuncios",
       "cta": "Empezar gratis"
     },
-    "pro": {
-      "name": "Pro",
-      "badge": "Más popular",
-      "description": "Para usuarios avanzados y profesionales.",
-      "price": "$29",
+    "report": {
+      "name": "Informe completo",
+      "description": "Informe completo único por perfil. Sin anuncios.",
+      "price": "€1,25",
+      "period": "/ informe",
+      "feature1": "Informe completo del perfil",
+      "feature2": "Experiencia sin anuncios",
+      "feature3": "Análisis e insights detallados",
+      "feature4": "Pago único, sin suscripción",
+      "cta": "Obtener informe"
+    },
+    "weekly": {
+      "name": "Semanal",
+      "badge": "Popular",
+      "description": "Acceso ilimitado durante 7 días.",
+      "price": "€5,99",
+      "period": "/ semana",
+      "feature1": "Vistas de perfil ilimitadas",
+      "feature2": "Informes completos para cada perfil",
+      "feature3": "Experiencia sin anuncios",
+      "feature4": "Cancela en cualquier momento",
+      "cta": "Iniciar plan semanal"
+    },
+    "monthly": {
+      "name": "Mensual",
+      "badge": "Mejor valor",
+      "description": "Acceso ilimitado completo. Mejor precio.",
+      "price": "€19,99",
       "period": "/ mes",
-      "feature1": "Búsquedas ilimitadas",
-      "feature2": "Panel de análisis completo",
-      "feature3": "Monitorización continua y alertas",
-      "feature4": "Análisis impulsados por IA",
-      "feature5": "Cobertura completa de Instagram",
-      "feature6": "Soporte prioritario",
-      "cta": "Mejorar a Pro"
+      "feature1": "Vistas de perfil ilimitadas",
+      "feature2": "Informes completos para cada perfil",
+      "feature3": "Experiencia sin anuncios",
+      "feature4": "Soporte prioritario",
+      "feature5": "Ahorra 23 % vs plan semanal",
+      "cta": "Iniciar plan mensual"
     },
     "faqs": [
       {
         "question": "¿Puedo cancelar en cualquier momento?",
-        "answer": "¡Sí! Puedes cancelar tu suscripción Pro en cualquier momento. Mantendrás el acceso hasta el final de tu período de facturación."
+        "answer": "¡Sí! Puedes cancelar tu suscripción semanal o mensual en cualquier momento. Mantendrás el acceso hasta el final de tu período de facturación."
       },
       {
         "question": "¿Qué métodos de pago aceptan?",
@@ -252,20 +273,20 @@
         "answer": "Absolutamente. Todas las conexiones están cifradas con SSL. Nunca almacenamos contraseñas de Instagram y solo procesamos datos públicamente disponibles."
       },
       {
-        "question": "¿Cuánto cuestan normalmente las herramientas de análisis de Instagram?",
-        "answer": "La mayoría van desde gratis hasta $30/mes. IGStoryPeek ofrece un plan gratuito con 2 búsquedas cada 8 horas y un plan Pro a $29/mes para acceso ilimitado en Instagram."
+        "question": "¿Qué es el informe completo?",
+        "answer": "El informe completo es una compra única por €1,25 que te da un informe analítico completo y sin anuncios para un solo perfil de Instagram, incluyendo métricas de engagement detalladas e insights."
       },
       {
-        "question": "¿Qué funciones ofrecen las herramientas de pago que las gratuitas no tienen?",
-        "answer": "Los planes Pro típicamente incluyen búsquedas ilimitadas, alertas de seguimiento continuo, análisis impulsados por IA, filtrado avanzado y exportaciones CSV — funciones que van más allá de las ofertas gratuitas."
+        "question": "¿Cuál es la diferencia entre el plan semanal y mensual?",
+        "answer": "Ambos planes ofrecen vistas de perfil ilimitadas, informes completos y una experiencia sin anuncios. El plan mensual te ahorra un 23 % en comparación con el pago semanal e incluye soporte prioritario."
       },
       {
-        "question": "¿Las herramientas de análisis de redes sociales ofrecen pruebas gratuitas?",
-        "answer": "El plan gratuito de IGStoryPeek es permanentemente gratuito con 2 búsquedas cada 8 horas. Puedes mejorar a Pro en cualquier momento y cancelar cuando quieras — sin período de prueba necesario."
+        "question": "¿Cómo funciona el plan gratuito?",
+        "answer": "El plan gratuito te permite ver hasta 2 perfiles con anuncios. No necesitas cuenta para empezar. Si necesitas más vistas o una experiencia sin anuncios, puedes mejorar a cualquier plan de pago."
       },
       {
-        "question": "¿Vale la pena pagar por análisis de Instagram cuando existen herramientas gratuitas?",
-        "answer": "Las herramientas gratuitas son ideales para uso ocasional. Si necesitas búsquedas ilimitadas, alertas automatizadas o informes profesionales, un plan de pago ofrece mucho más valor y ahorra tiempo."
+        "question": "¿Vale la pena pagar cuando existen herramientas gratuitas?",
+        "answer": "El plan gratuito es ideal para consultas rápidas. Si necesitas vistas ilimitadas, informes completos o una experiencia sin anuncios, nuestros planes de pago empiezan desde solo €1,25 por informe."
       }
     ]
   },

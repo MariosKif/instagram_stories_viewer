@@ -5,13 +5,64 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const { url, locals } = context;
   const pathname = url.pathname;
 
+  // Skip API routes
+  if (pathname.startsWith('/api/') || pathname.startsWith('/_')) {
+    (locals as any).lang = defaultLang;
+    (locals as any).t = await getTranslation(defaultLang);
+    return next();
+  }
+
+  // Redirect /blog/{lang}/slug → /{lang}/blog/slug (fix old indexed URLs)
+  if (pathname.startsWith('/blog/')) {
+    const blogSegments = pathname.split('/').filter(Boolean);
+    // blogSegments: ['blog', possibleLang, ...slugParts]
+    if (blogSegments.length >= 3) {
+      const possibleLang = blogSegments[1] as Language;
+      if (allLanguages.includes(possibleLang)) {
+        const slugParts = blogSegments.slice(2).join('/');
+        const correctPath = possibleLang === defaultLang
+          ? `/blog/${slugParts}`
+          : `/${possibleLang}/blog/${slugParts}`;
+        return new Response(null, {
+          status: 301,
+          headers: { Location: correctPath },
+        });
+      }
+    }
+  }
+
+  // --- Detect language prefix FIRST ---
+  const segments = pathname.split('/').filter(Boolean);
+  const firstSegment = segments[0] as Language;
+
+  let lang: Language = defaultLang;
+  let cleanPath = pathname; // path without language prefix
+  let langPrefix = '';      // e.g. '/es' or '' for default
+
+  if (firstSegment && allLanguages.includes(firstSegment)) {
+    if (firstSegment === defaultLang) {
+      // Redirect /en/* to /* to avoid duplicate content
+      const canonicalPath = '/' + segments.slice(1).join('/') || '/';
+      return new Response(null, {
+        status: 301,
+        headers: { Location: canonicalPath },
+      });
+    }
+    lang = firstSegment;
+    langPrefix = `/${lang}`;
+    cleanPath = '/' + segments.slice(1).join('/');
+    if (cleanPath === '/') cleanPath = '/';
+  }
+
+  // --- Now check removed content against the CLEAN (language-stripped) path ---
+
   // 301 redirect removed platforms to homepage
   const removedPlatforms = ['/tiktok', '/facebook', '/snapchat'];
   for (const rp of removedPlatforms) {
-    if (pathname === rp || pathname.startsWith(rp + '/')) {
+    if (cleanPath === rp || cleanPath.startsWith(rp + '/')) {
       return new Response(null, {
         status: 301,
-        headers: { Location: '/' },
+        headers: { Location: langPrefix + '/' },
       });
     }
   }
@@ -23,10 +74,10 @@ export const onRequest = defineMiddleware(async (context, next) => {
     'comment-viewer', 'likes-viewer', 'relationship-insights', 'recent-mutuals',
   ];
   for (const rf of removedFeatures) {
-    if (pathname === `/instagram/${rf}` || pathname.endsWith(`/instagram/${rf}`)) {
+    if (cleanPath === `/instagram/${rf}`) {
       return new Response(null, {
         status: 301,
-        headers: { Location: '/instagram' },
+        headers: { Location: langPrefix + '/instagram' },
       });
     }
   }
@@ -55,70 +106,20 @@ export const onRequest = defineMiddleware(async (context, next) => {
     'tiktok-follower-growth-strategies-2026', 'tiktok-stories-everything-you-need-to-know-2026',
     'tiktok-trending-sounds-how-to-find-use-2026', 'tiktok-video-downloader-best-free-methods-2026',
   ];
-  const blogSlugMatch = pathname.match(/\/blog\/([^/]+)$/);
+  const blogSlugMatch = cleanPath.match(/\/blog\/([^/]+)$/);
   if (blogSlugMatch && removedBlogSlugs.includes(blogSlugMatch[1])) {
     return new Response(null, {
       status: 301,
-      headers: { Location: '/blog' },
+      headers: { Location: langPrefix + '/blog' },
     });
   }
 
-  // Skip API routes
-  if (pathname.startsWith('/api/') || pathname.startsWith('/_')) {
-    (locals as any).lang = defaultLang;
-    (locals as any).t = await getTranslation(defaultLang);
-    return next();
-  }
-
-  // Redirect /blog/{lang}/slug → /{lang}/blog/slug (fix old indexed URLs)
-  if (pathname.startsWith('/blog/')) {
-    const blogSegments = pathname.split('/').filter(Boolean);
-    // blogSegments: ['blog', possibleLang, ...slugParts]
-    if (blogSegments.length >= 3) {
-      const possibleLang = blogSegments[1] as Language;
-      if (allLanguages.includes(possibleLang)) {
-        const slugParts = blogSegments.slice(2).join('/');
-        const correctPath = possibleLang === defaultLang
-          ? `/blog/${slugParts}`
-          : `/${possibleLang}/blog/${slugParts}`;
-        return new Response(null, {
-          status: 301,
-          headers: { Location: correctPath },
-        });
-      }
-    }
-  }
-
-  // Check if the first segment is a language code
-  const segments = pathname.split('/').filter(Boolean);
-  const firstSegment = segments[0] as Language;
-
-  let lang: Language = defaultLang;
-  let rewritePath = pathname;
-
-  if (firstSegment && allLanguages.includes(firstSegment)) {
-    if (firstSegment === defaultLang) {
-      // Redirect /en/* to /* to avoid duplicate content
-      const canonicalPath = '/' + segments.slice(1).join('/') || '/';
-      return new Response(null, {
-        status: 301,
-        headers: { Location: canonicalPath },
-      });
-    }
-    lang = firstSegment;
-    // Strip the language prefix for routing
-    rewritePath = '/' + segments.slice(1).join('/');
-    if (rewritePath === '/') rewritePath = '/';
-  }
-
-  // Load translations
+  // --- Load translations and route ---
   const t = await getTranslation(lang);
-
-  // Set locals
   (locals as any).lang = lang;
   (locals as any).t = t;
 
-  // Get response
+  const rewritePath = lang !== defaultLang ? cleanPath : pathname;
   const response = lang !== defaultLang ? await next(rewritePath) : await next();
 
   // Add Cache-Control for static (non-dynamic) routes

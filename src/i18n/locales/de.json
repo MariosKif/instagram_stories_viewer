@@ -211,37 +211,58 @@
   "pricing": {
     "title": "Einfache, transparente",
     "titleHighlight": "Preise",
-    "subtitle": "Starten Sie kostenlos. Upgraden Sie, wenn Sie mehr Leistung brauchen.",
+    "subtitle": "Starten Sie kostenlos mit Werbung oder wählen Sie einen Plan.",
     "free": {
       "name": "Kostenlos",
-      "description": "Für Gelegenheitsnutzer und schnelle Abfragen.",
-      "price": "$0",
-      "period": "/ Monat",
-      "feature1": "2 Suchen alle 8 Stunden",
-      "feature2": "Basis-Engagement-Bericht",
-      "feature3": "Profilübersicht",
-      "excluded1": "Keine fortlaufende Überwachung",
-      "excluded2": "Keine KI-Einblicke",
+      "description": "Mit Werbung browsen. 2 Profilansichten inklusive.",
+      "price": "€0",
+      "feature1": "2 Profilansichten",
+      "feature2": "Basis-Profilübersicht",
+      "feature3": "Werbefinanziertes Erlebnis",
+      "excluded1": "Keine vollständigen Berichte",
+      "excluded2": "Keine werbefreie Nutzung",
       "cta": "Kostenlos starten"
     },
-    "pro": {
-      "name": "Pro",
-      "badge": "Am beliebtesten",
-      "description": "Für Power-User und Profis.",
-      "price": "$29",
+    "report": {
+      "name": "Vollständiger Bericht",
+      "description": "Einmaliger vollständiger Profilbericht. Werbefrei.",
+      "price": "€1,25",
+      "period": "/ Bericht",
+      "feature1": "Vollständiger Profilbericht",
+      "feature2": "Werbefreies Erlebnis",
+      "feature3": "Detaillierte Analysen & Einblicke",
+      "feature4": "Einmalzahlung, kein Abo",
+      "cta": "Bericht erhalten"
+    },
+    "weekly": {
+      "name": "Wöchentlich",
+      "badge": "Beliebt",
+      "description": "Unbegrenzter Zugang für 7 Tage.",
+      "price": "€5,99",
+      "period": "/ Woche",
+      "feature1": "Unbegrenzte Profilansichten",
+      "feature2": "Vollständige Berichte für jedes Profil",
+      "feature3": "Werbefreies Erlebnis",
+      "feature4": "Jederzeit kündbar",
+      "cta": "Wochenplan starten"
+    },
+    "monthly": {
+      "name": "Monatlich",
+      "badge": "Bestes Angebot",
+      "description": "Voller unbegrenzter Zugang. Bester Wert.",
+      "price": "€19,99",
       "period": "/ Monat",
-      "feature1": "Unbegrenzte Suchen",
-      "feature2": "Vollständiges Analyse-Dashboard",
-      "feature3": "Fortlaufende Überwachung & Benachrichtigungen",
-      "feature4": "KI-gestützte Einblicke",
-      "feature5": "Volle Instagram-Abdeckung",
-      "feature6": "Prioritäts-Support",
-      "cta": "Auf Pro upgraden"
+      "feature1": "Unbegrenzte Profilansichten",
+      "feature2": "Vollständige Berichte für jedes Profil",
+      "feature3": "Werbefreies Erlebnis",
+      "feature4": "Prioritäts-Support",
+      "feature5": "23 % sparen im Vergleich zum Wochenplan",
+      "cta": "Monatsplan starten"
     },
     "faqs": [
       {
         "question": "Kann ich jederzeit kündigen?",
-        "answer": "Ja! Sie können Ihr Pro-Abonnement jederzeit kündigen. Sie behalten den Zugang bis zum Ende Ihres Abrechnungszeitraums."
+        "answer": "Ja! Sie können Ihr Wochen- oder Monatsabonnement jederzeit kündigen. Sie behalten den Zugang bis zum Ende Ihres Abrechnungszeitraums."
       },
       {
         "question": "Welche Zahlungsmethoden akzeptieren Sie?",
@@ -252,20 +273,20 @@
         "answer": "Absolut. Alle Verbindungen sind mit SSL verschlüsselt. Wir speichern niemals Instagram-Passwörter und verarbeiten nur öffentlich verfügbare Daten."
       },
       {
-        "question": "Wie viel kosten Instagram-Analyse-Tools normalerweise?",
-        "answer": "Die meisten kosten zwischen kostenlos und $30/Monat. IGStoryPeek bietet ein kostenloses Paket mit 2 Suchen alle 8 Stunden und einen Pro-Plan für $29/Monat mit unbegrenztem Zugriff auf Instagram."
+        "question": "Was ist der vollständige Bericht?",
+        "answer": "Der vollständige Bericht ist ein einmaliger Kauf für €1,25, der Ihnen einen kompletten, werbefreien Analysebericht für ein einzelnes Instagram-Profil liefert, einschließlich detaillierter Engagement-Metriken und Einblicke."
       },
       {
-        "question": "Welche Funktionen bieten kostenpflichtige Social-Media-Tools, die kostenlose nicht haben?",
-        "answer": "Pro-Pläne umfassen typischerweise unbegrenzte Suchen, kontinuierliche Tracking-Benachrichtigungen, KI-gestützte Einblicke, erweiterte Filterung und CSV-Exporte – Funktionen, die über kostenlose Angebote hinausgehen."
+        "question": "Was ist der Unterschied zwischen dem Wochen- und dem Monatsplan?",
+        "answer": "Beide Pläne bieten unbegrenzte Profilansichten, vollständige Berichte und ein werbefreies Erlebnis. Der Monatsplan spart Ihnen 23 % im Vergleich zur wöchentlichen Zahlung und beinhaltet Prioritäts-Support."
       },
       {
-        "question": "Bieten Social-Media-Analyse-Tools kostenlose Testphasen an?",
-        "answer": "Der kostenlose Plan von IGStoryPeek ist dauerhaft kostenlos mit 2 Suchen alle 8 Stunden. Sie können jederzeit auf Pro upgraden und jederzeit kündigen – keine Testphase nötig."
+        "question": "Wie funktioniert der kostenlose Plan?",
+        "answer": "Der kostenlose Plan ermöglicht es Ihnen, bis zu 2 Profile mit Werbung anzuzeigen. Kein Konto nötig, um zu starten. Wenn Sie mehr Ansichten oder ein werbefreies Erlebnis möchten, können Sie auf jeden kostenpflichtigen Plan upgraden."
       },
       {
-        "question": "Lohnt sich ein kostenpflichtiges Instagram-Analyse-Tool, wenn es kostenlose gibt?",
-        "answer": "Kostenlose Tools sind ideal für gelegentliche Nutzung. Wenn Sie unbegrenzte Suchen, automatische Benachrichtigungen oder professionelle Berichte benötigen, bietet ein kostenpflichtiger Plan deutlich mehr Wert und spart Zeit."
+        "question": "Lohnt sich ein kostenpflichtiger Plan, wenn es kostenlose Tools gibt?",
+        "answer": "Der kostenlose Plan ist ideal für schnelle Abfragen. Wenn Sie unbegrenzte Ansichten, vollständige Profilberichte oder ein werbefreies Erlebnis benötigen, beginnen unsere kostenpflichtigen Pläne bei nur €1,25 pro Bericht."
       }
     ]
   },

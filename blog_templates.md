@@ -42,7 +42,7 @@ Blog posts can cover the following social media platforms:
 
 - **Directory:** `src/content/blog/{lang}/` where `{lang}` is the 2-letter language code
 - **Filename:** Use lowercase, hyphen-separated slugs containing the focus keyword. Max 70 characters. Example: `how-to-view-instagram-stories-anonymously-in-2025.md`
-- **Supported languages:** en, de, fr, es, it, nl, pt, pl, ro, cs, bg, hr, da, et, fi, el, hu, ga, lv, lt, mt, sk, sl, sv, ja, ko, zh, ru, tr, ar
+- **Supported languages:** en, de, fr, es, it, pt
 - **Every post must exist in English first** (`src/content/blog/en/`), then be translated to all other languages
 - **Same filename** is used across all language directories
 - **Focus keyword must appear in the URL/slug**
@@ -362,5 +362,5 @@ When translating a post to other languages:
 - [ ] Hero SVG image exists in `public/blog/`
 - [ ] `category` is one of the allowed values
 - [ ] English version created first in `src/content/blog/en/`
-- [ ] Translated to all 30 supported languages
+- [ ] Translated to all 6 supported languages
 - [ ] `npm run build` passes without errors

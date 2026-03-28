@@ -211,37 +211,58 @@
   "pricing": {
     "title": "Tarification simple et",
     "titleHighlight": "transparente",
-    "subtitle": "Commencez gratuitement. Passez à la version supérieure quand vous avez besoin de plus de puissance.",
+    "subtitle": "Commencez gratuitement avec publicités ou choisissez un forfait.",
     "free": {
       "name": "Gratuit",
-      "description": "Pour les utilisateurs occasionnels et les recherches rapides.",
-      "price": "$0",
-      "period": "/ mois",
-      "feature1": "2 recherches toutes les 8 heures",
-      "feature2": "Rapport d'engagement basique",
-      "feature3": "Aperçu du profil",
-      "excluded1": "Pas de surveillance continue",
-      "excluded2": "Pas d'analyses IA",
+      "description": "Naviguez avec publicités. 2 vues de profil incluses.",
+      "price": "€0",
+      "feature1": "2 vues de profil",
+      "feature2": "Aperçu basique du profil",
+      "feature3": "Expérience avec publicités",
+      "excluded1": "Pas de rapports complets",
+      "excluded2": "Pas de navigation sans pub",
       "cta": "Commencer gratuitement"
     },
-    "pro": {
-      "name": "Pro",
-      "badge": "Le plus populaire",
-      "description": "Pour les utilisateurs avancés et les professionnels.",
-      "price": "$29",
+    "report": {
+      "name": "Rapport complet",
+      "description": "Rapport complet unique par profil. Sans pub.",
+      "price": "€1,25",
+      "period": "/ rapport",
+      "feature1": "Rapport complet du profil",
+      "feature2": "Expérience sans publicité",
+      "feature3": "Analyses et insights détaillés",
+      "feature4": "Paiement unique, sans abonnement",
+      "cta": "Obtenir le rapport"
+    },
+    "weekly": {
+      "name": "Hebdomadaire",
+      "badge": "Populaire",
+      "description": "Accès illimité pendant 7 jours.",
+      "price": "€5,99",
+      "period": "/ semaine",
+      "feature1": "Vues de profil illimitées",
+      "feature2": "Rapports complets pour chaque profil",
+      "feature3": "Expérience sans publicité",
+      "feature4": "Annulation à tout moment",
+      "cta": "Démarrer le plan hebdo"
+    },
+    "monthly": {
+      "name": "Mensuel",
+      "badge": "Meilleur rapport qualité-prix",
+      "description": "Accès illimité complet. Meilleure valeur.",
+      "price": "€19,99",
       "period": "/ mois",
-      "feature1": "Recherches illimitées",
-      "feature2": "Tableau de bord analytique complet",
-      "feature3": "Surveillance continue & alertes",
-      "feature4": "Analyses propulsées par l'IA",
-      "feature5": "Couverture Instagram complète",
-      "feature6": "Support prioritaire",
-      "cta": "Passer à Pro"
+      "feature1": "Vues de profil illimitées",
+      "feature2": "Rapports complets pour chaque profil",
+      "feature3": "Expérience sans publicité",
+      "feature4": "Support prioritaire",
+      "feature5": "Économisez 23 % vs plan hebdomadaire",
+      "cta": "Démarrer le plan mensuel"
     },
     "faqs": [
       {
         "question": "Puis-je annuler à tout moment ?",
-        "answer": "Oui ! Vous pouvez annuler votre abonnement Pro à tout moment. Vous conserverez l'accès jusqu'à la fin de votre période de facturation."
+        "answer": "Oui ! Vous pouvez annuler votre abonnement hebdomadaire ou mensuel à tout moment. Vous conserverez l'accès jusqu'à la fin de votre période de facturation."
       },
       {
         "question": "Quels modes de paiement acceptez-vous ?",
@@ -252,20 +273,20 @@
         "answer": "Absolument. Toutes les connexions sont chiffrées avec SSL. Nous ne stockons jamais les mots de passe Instagram et ne traitons que les données publiquement disponibles."
       },
       {
-        "question": "Combien coûtent généralement les outils d'analyse Instagram ?",
-        "answer": "La plupart vont de gratuit à $30/mois. IGStoryPeek offre un forfait gratuit avec 2 recherches toutes les 8 heures et un plan Pro à $29/mois pour un accès illimité sur Instagram."
+        "question": "Qu'est-ce que le rapport complet ?",
+        "answer": "Le rapport complet est un achat unique à €1,25 qui vous donne un rapport analytique complet et sans publicité pour un seul profil Instagram, incluant des métriques d'engagement détaillées et des insights."
       },
       {
-        "question": "Quelles fonctionnalités les outils payants offrent-ils que les gratuits n'ont pas ?",
-        "answer": "Les plans Pro incluent généralement des recherches illimitées, des alertes de suivi continu, des analyses propulsées par l'IA, un filtrage avancé et des exports CSV — des fonctionnalités qui vont au-delà des offres gratuites."
+        "question": "Quelle est la différence entre le plan hebdomadaire et mensuel ?",
+        "answer": "Les deux plans offrent des vues de profil illimitées, des rapports complets et une expérience sans publicité. Le plan mensuel vous fait économiser 23 % par rapport au paiement hebdomadaire et inclut le support prioritaire."
       },
       {
-        "question": "Les outils d'analyse des réseaux sociaux offrent-ils des essais gratuits ?",
-        "answer": "Le plan gratuit d'IGStoryPeek est définitivement gratuit avec 2 recherches toutes les 8 heures. Vous pouvez passer à Pro à tout moment et annuler quand vous voulez — aucune période d'essai nécessaire."
+        "question": "Comment fonctionne le plan gratuit ?",
+        "answer": "Le plan gratuit vous permet de voir jusqu'à 2 profils avec publicités. Aucun compte nécessaire pour commencer. Si vous avez besoin de plus de vues ou d'une expérience sans pub, vous pouvez passer à n'importe quel plan payant."
       },
       {
-        "question": "Vaut-il la peine de payer pour des analyses Instagram quand des outils gratuits existent ?",
-        "answer": "Les outils gratuits sont parfaits pour un usage occasionnel. Si vous avez besoin de recherches illimitées, d'alertes automatisées ou de rapports professionnels, un plan payant offre beaucoup plus de valeur et fait gagner du temps."
+        "question": "Vaut-il la peine de payer quand des outils gratuits existent ?",
+        "answer": "Le plan gratuit est parfait pour les consultations rapides. Si vous avez besoin de vues illimitées, de rapports complets ou d'une expérience sans pub, nos plans payants commencent à seulement €1,25 par rapport."
       }
     ]
   },
