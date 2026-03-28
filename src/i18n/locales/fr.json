@@ -225,13 +225,12 @@
     },
     "report": {
       "name": "Rapport complet",
-      "description": "Rapport complet unique par profil. Sans pub.",
+      "description": "Rapport complet unique par profil.",
       "price": "€1,25",
       "period": "/ rapport",
       "feature1": "Rapport complet du profil",
-      "feature2": "Expérience sans publicité",
-      "feature3": "Analyses et insights détaillés",
-      "feature4": "Paiement unique, sans abonnement",
+      "feature2": "Analyses et insights détaillés",
+      "feature3": "Paiement unique, sans abonnement",
       "cta": "Obtenir le rapport"
     },
     "weekly": {

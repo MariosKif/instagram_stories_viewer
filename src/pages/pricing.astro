@@ -42,7 +42,7 @@ const softwareAppSchema = JSON.stringify({
       name: reportT.name || 'Full Report',
       price: '1.25',
       priceCurrency: 'EUR',
-      description: reportT.description || 'One-time full profile report. Ad-free.',
+      description: reportT.description || 'One-time full profile report.',
     },
     {
       '@type': 'Offer',
@@ -131,7 +131,7 @@ const softwareAppSchema = JSON.stringify({
         <div class="glass p-5 sm:p-6 flex flex-col">
           <div class="mb-5">
             <h3 class="text-lg font-semibold text-white mb-1">{reportT.name || 'Full Report'}</h3>
-            <p class="text-dark-400 text-sm">{reportT.description || 'One-time full profile report. Ad-free.'}</p>
+            <p class="text-dark-400 text-sm">{reportT.description || 'One-time full profile report.'}</p>
           </div>
           <div class="mb-6">
             <span class="text-4xl font-heading font-bold text-white">{reportT.price || '€1.25'}</span>
@@ -144,15 +144,11 @@ const softwareAppSchema = JSON.stringify({
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {reportT.feature2 || 'Ad-free experience'}
+              {reportT.feature2 || 'Detailed analytics & insights'}
             </li>
             <li class="flex items-start gap-2.5 text-sm text-dark-300">
               <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {reportT.feature3 || 'Detailed analytics & insights'}
-            </li>
-            <li class="flex items-start gap-2.5 text-sm text-dark-300">
-              <svg class="w-5 h-5 text-primary shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
-              {reportT.feature4 || 'One-time payment, no subscription'}
+              {reportT.feature3 || 'One-time payment, no subscription'}
             </li>
           </ul>
           <button data-plan="report" class="checkout-btn btn-secondary text-center w-full">

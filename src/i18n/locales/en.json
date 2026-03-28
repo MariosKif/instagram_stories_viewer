@@ -225,13 +225,12 @@
     },
     "report": {
       "name": "Full Report",
-      "description": "One-time full profile report. Ad-free.",
+      "description": "One-time full profile report.",
       "price": "€1.25",
       "period": "/ report",
       "feature1": "Full profile report",
-      "feature2": "Ad-free experience",
-      "feature3": "Detailed analytics & insights",
-      "feature4": "One-time payment, no subscription",
+      "feature2": "Detailed analytics & insights",
+      "feature3": "One-time payment, no subscription",
       "cta": "Get Full Report"
     },
     "weekly": {

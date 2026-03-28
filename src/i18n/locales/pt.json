@@ -225,13 +225,12 @@
     },
     "report": {
       "name": "Relatório completo",
-      "description": "Relatório completo único por perfil. Sem anúncios.",
+      "description": "Relatório completo único por perfil.",
       "price": "€1,25",
       "period": "/ relatório",
       "feature1": "Relatório completo do perfil",
-      "feature2": "Experiência sem anúncios",
-      "feature3": "Análises e insights detalhados",
-      "feature4": "Pagamento único, sem assinatura",
+      "feature2": "Análises e insights detalhados",
+      "feature3": "Pagamento único, sem assinatura",
       "cta": "Obter relatório"
     },
     "weekly": {

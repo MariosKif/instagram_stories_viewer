@@ -225,13 +225,12 @@
     },
     "report": {
       "name": "Vollständiger Bericht",
-      "description": "Einmaliger vollständiger Profilbericht. Werbefrei.",
+      "description": "Einmaliger vollständiger Profilbericht.",
       "price": "€1,25",
       "period": "/ Bericht",
       "feature1": "Vollständiger Profilbericht",
-      "feature2": "Werbefreies Erlebnis",
-      "feature3": "Detaillierte Analysen & Einblicke",
-      "feature4": "Einmalzahlung, kein Abo",
+      "feature2": "Detaillierte Analysen & Einblicke",
+      "feature3": "Einmalzahlung, kein Abo",
       "cta": "Bericht erhalten"
     },
     "weekly": {
