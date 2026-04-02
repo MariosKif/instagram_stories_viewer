@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="25%" cy="35%" r="40%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="78%" cy="60%" r="35%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#orb1)"/>
+  <rect width="1200" height="630" fill="url(#orb2)"/>
+  <!-- Shield icon -->
+  <path d="M600 140 L660 170 L660 250 C660 310 600 350 600 350 C600 350 540 310 540 250 L540 170 Z" fill="none" stroke="#0ea5e9" stroke-width="2.5" opacity="0.5"/>
+  <path d="M580 240 L595 255 L625 220" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <!-- Rule lines / document -->
+  <rect x="420" y="380" width="360" height="180" rx="12" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.35"/>
+  <!-- Rule list items -->
+  <circle cx="450" cy="410" r="4" fill="#0ea5e9" opacity="0.4"/>
+  <rect x="465" y="407" width="180" height="6" rx="3" fill="#0ea5e9" opacity="0.25"/>
+  <circle cx="450" cy="435" r="4" fill="#0ea5e9" opacity="0.35"/>
+  <rect x="465" y="432" width="200" height="6" rx="3" fill="#0ea5e9" opacity="0.2"/>
+  <circle cx="450" cy="460" r="4" fill="#0ea5e9" opacity="0.3"/>
+  <rect x="465" y="457" width="160" height="6" rx="3" fill="#0ea5e9" opacity="0.18"/>
+  <circle cx="450" cy="485" r="4" fill="#0ea5e9" opacity="0.25"/>
+  <rect x="465" y="482" width="220" height="6" rx="3" fill="#0ea5e9" opacity="0.15"/>
+  <circle cx="450" cy="510" r="4" fill="#0ea5e9" opacity="0.22"/>
+  <rect x="465" y="507" width="170" height="6" rx="3" fill="#0ea5e9" opacity="0.13"/>
+  <!-- Warning triangle left -->
+  <path d="M250 300 L270 265 L290 300 Z" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3"/>
+  <line x1="270" y1="278" x2="270" y2="290" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="270" cy="295" r="1.5" fill="#0ea5e9" opacity="0.3"/>
+  <!-- Ban circle right -->
+  <circle cx="930" cy="280" r="25" fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3"/>
+  <line x1="912" y1="298" x2="948" y2="262" stroke="#0ea5e9" stroke-width="1.5" opacity="0.3"/>
+  <!-- Sparkle decorations -->
+  <path d="M320 180 L323 190 L333 193 L323 196 L320 206 L317 196 L307 193 L317 190 Z" fill="#0ea5e9" opacity="0.3"/>
+  <path d="M870 400 L872 406 L878 408 L872 410 L870 416 L868 410 L862 408 L868 406 Z" fill="#0ea5e9" opacity="0.25"/>
+  <path d="M200 450 L202 456 L208 458 L202 460 L200 466 L198 460 L192 458 L198 456 Z" fill="#8b5cf6" opacity="0.2"/>
+  <!-- Decorative dots -->
+  <circle cx="160" cy="200" r="3" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="1040" cy="480" r="3" fill="#0ea5e9" opacity="0.3"/>
+  <circle cx="180" cy="520" r="2" fill="#8b5cf6" opacity="0.2"/>
+  <circle cx="1010" cy="160" r="2" fill="#8b5cf6" opacity="0.2"/>
+</svg>
